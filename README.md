@@ -230,9 +230,18 @@ Light Skills 不是让 AI 闷头从头跑到尾，而是把科研拆成可审计
 - GitHub：[@Light0305](https://github.com/Light0305)
 - 欢迎 issue / PR / 使用反馈。
 
-| 微信收款码 | 微信公众号 |
-|:-:|:-:|
-| <img src="assets/wechat-donation.jpg" alt="微信收款码" width="220"> | <img src="assets/wechat-official-account.jpg" alt="微信公众号二维码" width="220"> |
+<table align="center">
+  <tr>
+    <th align="center">微信赞赏</th>
+    <th align="center">微信交流</th>
+    <th align="center">微信公众号</th>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="assets/wechat-donation.jpg" alt="微信赞赏码" width="200"></td>
+    <td align="center" width="33%"><img src="assets/wechat-contact.png" alt="作者个人微信二维码" width="200"></td>
+    <td align="center" width="33%"><img src="assets/wechat-official-account.jpg" alt="微信公众号二维码" width="200"></td>
+  </tr>
+</table>
 
 ## 许可证
 

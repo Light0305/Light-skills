@@ -225,9 +225,18 @@ The gallery below is generated with Python and R.
 - GitHub: [@Light0305](https://github.com/Light0305)
 - Issues, PRs, and usage feedback are welcome.
 
-| WeChat donation | WeChat official account |
-|:-:|:-:|
-| <img src="assets/wechat-donation.jpg" alt="WeChat donation QR code" width="220"> | <img src="assets/wechat-official-account.jpg" alt="WeChat official account QR code" width="220"> |
+<table align="center">
+  <tr>
+    <th align="center">Support the author</th>
+    <th align="center">Chat on WeChat</th>
+    <th align="center">Official account</th>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="assets/wechat-donation.jpg" alt="WeChat donation QR code" width="200"></td>
+    <td align="center" width="33%"><img src="assets/wechat-contact.png" alt="Author's personal WeChat contact QR code" width="200"></td>
+    <td align="center" width="33%"><img src="assets/wechat-official-account.jpg" alt="WeChat official account QR code" width="200"></td>
+  </tr>
+</table>
 
 ## License
 

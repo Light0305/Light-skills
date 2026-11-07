@@ -1,0 +1,22 @@
+{
+  "layout_version": "1.0",
+  "kinds": {
+    "workflow": {"area": "Workflow", "prefix": "WF", "fixed": true, "label": "项目工作流", "owner": "light-leader", "native_overview": true},
+    "memory": {"area": "Memory", "prefix": "MEMORY", "fixed": true, "label": "项目记忆", "owner": "light-memory", "native_overview": true},
+    "literature": {"area": "Literature", "prefix": "LIT", "fixed": true, "label": "文献库", "owner": "literature-search"},
+    "search": {"area": "Literature", "subdir": "Searches", "prefix": "SEARCH", "label": "文献检索", "owner": "literature-search"},
+    "idea": {"area": "Idea", "prefix": "IDEA", "label": "选题与想法", "owner": "light-idea"},
+    "design": {"area": "Design", "prefix": "PROT", "versioned": true, "label": "研究设计", "owner": "light-design"},
+    "experiment": {"area": "Experiment", "prefix": "EXP", "label": "实验批次", "owner": "light-experiment"},
+    "analysis": {"area": "Analysis", "prefix": "AN", "label": "结果分析", "owner": "light-anaysis"},
+    "figure-methods": {"area": "Figure", "subdir": "Methods", "prefix": "FIG", "label": "方法示意图", "owner": "light-diagram"},
+    "figure-mechanisms": {"area": "Figure", "subdir": "Mechanisms", "prefix": "FIG", "label": "机制示意图", "owner": "light-diagram"},
+    "figure-data": {"area": "Figure", "subdir": "Data", "prefix": "FIG", "label": "数据图表", "owner": "light-chart"},
+    "write": {"area": "Write", "prefix": "PAPER", "label": "论文写作", "owner": "light-write"},
+    "review": {"area": "Review", "prefix": "REV", "label": "审查与复核", "owner": "light-review"},
+    "journal": {"area": "Journal", "prefix": "JRN", "label": "选刊与投稿定位", "owner": "light-journal-select"},
+    "patent": {"area": "Patent", "prefix": "PAT", "label": "专利案件", "owner": "light-patent"},
+    "copyright": {"area": "SoftwareCopyright", "prefix": "SWC", "label": "软件著作权材料", "owner": "light-software-copyright"},
+    "acquisition": {"area": "Acquisition", "prefix": "ACQ", "label": "外部数据采集", "owner": "light-crawl"}
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "suite": "light-patent",
+    "total": 38,
+    "skipped": 0,
+    "exit_code": 0,
+    "seconds": 3.62
+  },
+  {
+    "suite": "light-software-copyright",
+    "total": 40,
+    "skipped": 1,
+    "exit_code": 0,
+    "seconds": 48.94
+  },
+  {
+    "suite": "light-review",
+    "total": 54,
+    "skipped": 0,
+    "exit_code": 0,
+    "seconds": 7.05
+  },
+  {
+    "suite": "light-write",
+    "total": 42,
+    "skipped": 0,
+    "exit_code": 0,
+    "seconds": 2.95
+  },
+  {
+    "suite": "light-leader",
+    "total": 43,
+    "skipped": 0,
+    "exit_code": 0,
+    "seconds": 14.69
+  }
+]

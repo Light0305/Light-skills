@@ -1,0 +1,12 @@
+% light-write generic single-column layout; not an official journal template.
+% Build with scripts/latex_project.py after copying the common scaffold.
+\documentclass[11pt,a4paper]{article}
+\input{language}
+\usepackage{lightwrite}
+\input{metadata}
+
+\begin{document}
+\LWMakeTitle
+\input{sections/body}
+\printbibliography[title={\LWReferencesName}]
+\end{document}

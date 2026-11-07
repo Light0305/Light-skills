@@ -1,0 +1,20 @@
+{
+  "profile": "three-documents",
+  "version": "1.0",
+  "basis": "Layout measurements and representative Word-rendered pages from the three user-supplied references, inspected 2026-11-07. Contains no reference software facts, code or screenshots.",
+  "page_mm": [210, 297],
+  "document_margins_mm": [25, 25, 25, 25],
+  "code_margins_mm": [20, 20, 20, 20],
+  "header_footer_mm": 12.7,
+  "body": {"font": "宋体", "size_pt": 12, "line_spacing": 1.5, "first_line_pt": 24},
+  "headings": {"font": "黑体", "sizes_pt": [15, 13, 13], "color": "2E7D32", "before_pt": 10, "after_pt": 6},
+  "function_title_pt": 22,
+  "manual_cover_pt": [26, 20, 22],
+  "caption": {"font": "宋体", "size_pt": 10.5, "bold": true, "before_pt": 4, "after_pt": 10},
+  "code": {"latin_font": "Consolas", "east_asia_font": "宋体", "size_pt": 8, "minimum_pt": 7, "line_pt": 12},
+  "deviations": [
+    "Use native heading, list and PAGE structures instead of the references' manually styled labels and typed lists.",
+    "Code follows the verified continuous deposit map, without an added cover or filename rows counted as program lines.",
+    "No sample owner, completion date, software name, functionality, screenshot, code or performance claim is reused."
+  ]
+}

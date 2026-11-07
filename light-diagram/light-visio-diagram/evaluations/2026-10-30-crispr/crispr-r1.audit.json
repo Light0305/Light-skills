@@ -1,0 +1,350 @@
+{
+  "visio_version": "16.0",
+  "scene_sha256": "2b2881075eb94525067b2aaae960e99fce44ee2f60367c99dd0e73d458e4ab1b",
+  "font": "Times New Roman",
+  "pages": [
+    {
+      "name": "01 CRISPR native replica",
+      "shape_count": 136,
+      "expected_shape_count": 136,
+      "shape_count_matches": true,
+      "edge_count": 7,
+      "text_failures": [],
+      "glue_failures": [],
+      "edges": [
+        {
+          "id": "dual_rna_assembly",
+          "shape_id": 130,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dual_card",
+          "target": "cas9",
+          "one_d": true
+        },
+        {
+          "id": "chimeric_rna_assembly",
+          "shape_id": 131,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "chimeric_card",
+          "target": "cas9",
+          "one_d": true
+        },
+        {
+          "id": "label_complementary",
+          "shape_id": 132,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "complementary_label",
+          "target": "complementary_anchor",
+          "one_d": true
+        },
+        {
+          "id": "label_noncomplementary",
+          "shape_id": 133,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "noncomplementary_label",
+          "target": "noncomplementary_anchor",
+          "one_d": true
+        },
+        {
+          "id": "hnh_to_cut",
+          "shape_id": 134,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "hnh_label",
+          "target": "hnh_cut",
+          "one_d": true
+        },
+        {
+          "id": "ruvc_to_cut",
+          "shape_id": 135,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "ruvc_label",
+          "target": "ruvc_cut",
+          "one_d": true
+        },
+        {
+          "id": "double_strand_cleavage",
+          "shape_id": 136,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "cleavage_source",
+          "target": "cleavage_target",
+          "one_d": true
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 130,
+          "from_cell": "BeginX",
+          "to_id": 2,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 130,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 131,
+          "from_cell": "BeginX",
+          "to_id": 3,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 131,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 132,
+          "from_cell": "BeginX",
+          "to_id": 13,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 132,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 133,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 133,
+          "from_cell": "EndX",
+          "to_id": 17,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 134,
+          "from_cell": "BeginX",
+          "to_id": 11,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 134,
+          "from_cell": "EndX",
+          "to_id": 18,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 135,
+          "from_cell": "BeginX",
+          "to_id": 12,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 135,
+          "from_cell": "EndX",
+          "to_id": 19,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 136,
+          "from_cell": "BeginX",
+          "to_id": 20,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 136,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    }
+  ],
+  "reopened_pages": [
+    {
+      "name": "01 CRISPR native replica",
+      "shape_count": 136,
+      "expected_shape_count": 136,
+      "shape_count_matches": true,
+      "edge_count": 7,
+      "text_failures": [],
+      "glue_failures": [],
+      "edges": [
+        {
+          "id": "dual_rna_assembly",
+          "shape_id": 130,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dual_card",
+          "target": "cas9",
+          "one_d": true
+        },
+        {
+          "id": "chimeric_rna_assembly",
+          "shape_id": 131,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "chimeric_card",
+          "target": "cas9",
+          "one_d": true
+        },
+        {
+          "id": "label_complementary",
+          "shape_id": 132,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "complementary_label",
+          "target": "complementary_anchor",
+          "one_d": true
+        },
+        {
+          "id": "label_noncomplementary",
+          "shape_id": 133,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "noncomplementary_label",
+          "target": "noncomplementary_anchor",
+          "one_d": true
+        },
+        {
+          "id": "hnh_to_cut",
+          "shape_id": 134,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "hnh_label",
+          "target": "hnh_cut",
+          "one_d": true
+        },
+        {
+          "id": "ruvc_to_cut",
+          "shape_id": 135,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "ruvc_label",
+          "target": "ruvc_cut",
+          "one_d": true
+        },
+        {
+          "id": "double_strand_cleavage",
+          "shape_id": 136,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "cleavage_source",
+          "target": "cleavage_target",
+          "one_d": true
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 130,
+          "from_cell": "BeginX",
+          "to_id": 2,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 130,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 131,
+          "from_cell": "BeginX",
+          "to_id": 3,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 131,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 132,
+          "from_cell": "BeginX",
+          "to_id": 13,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 132,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 133,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 133,
+          "from_cell": "EndX",
+          "to_id": 17,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 134,
+          "from_cell": "BeginX",
+          "to_id": 11,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 134,
+          "from_cell": "EndX",
+          "to_id": 18,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 135,
+          "from_cell": "BeginX",
+          "to_id": 12,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 135,
+          "from_cell": "EndX",
+          "to_id": 19,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 136,
+          "from_cell": "BeginX",
+          "to_id": 20,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 136,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    }
+  ],
+  "movement_probes": [
+    {
+      "node": "dual_card",
+      "tested_endpoints": 1,
+      "failures": [],
+      "restored": true,
+      "passed": true
+    }
+  ],
+  "package": {
+    "media_entries": [],
+    "pages": [
+      {
+        "file": "visio/pages/page1.xml",
+        "shape_count": 136,
+        "text_count": 9,
+        "connect_count": 14
+      }
+    ]
+  },
+  "passed": true
+}

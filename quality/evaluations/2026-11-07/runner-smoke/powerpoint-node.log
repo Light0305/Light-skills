@@ -1,0 +1,30 @@
+✔ valid scene (1.2677ms)
+✔ root array (0.21ms)
+✔ missing bbox (0.1497ms)
+✔ empty path (0.1366ms)
+✔ short polygon (0.2328ms)
+✔ boolean canvas (0.1083ms)
+✔ infinite canvas (0.1019ms)
+✔ bad scale metadata (0.0735ms)
+✔ boolean point (0.1343ms)
+✔ missing endpoint (0.2219ms)
+✔ unknown curve (0.2003ms)
+✔ bad font size (0.1028ms)
+✔ bad color (0.1102ms)
+✔ gradient without base (0.781ms)
+✔ invalid text range (0.1367ms)
+✔ duplicate id (0.1252ms)
+✔ reserved helper name (0.0656ms)
+✔ bad draw order (0.1286ms)
+✔ historical scene 2026-10-30-crispr-live (2.6217ms)
+✔ historical scene 2026-10-30-lis-complex (14.0802ms)
+✔ historical scene 2026-10-30-monoformer (8.9097ms)
+✔ validate-only does not load missing authoring module (54.9491ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 155.0745

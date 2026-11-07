@@ -1,0 +1,4 @@
+interface:
+  display_name: "light-illustrator-diagram"
+  short_description: "将科研机制、方法和流程参考图重建为可编辑 Illustrator 矢量图并实测导出效果"
+  default_prompt: "使用 $light-illustrator-diagram，在可见 Illustrator 中将参考科研图重建为可编辑矢量图，检查科学关系、文字和实际导出效果。"

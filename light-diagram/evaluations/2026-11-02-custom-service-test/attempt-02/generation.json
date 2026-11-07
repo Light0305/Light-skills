@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "generated",
+  "provider": "custom",
+  "api_style": "openai_images",
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://sub.zzshu.cc/v1/images/generations",
+  "calls_this_run": 1,
+  "published_prompt": {
+    "path": "D:\\Light-Science\\light-diagram\\evaluations\\2026-11-02-custom-service-test\\prompt-v1.txt",
+    "sha256": "5695e686107b2fea901cf98d9c8931a087517a9800a58d56920e1811e7ef5224"
+  },
+  "executed_prompt": {
+    "path": "D:\\Light-Science\\light-diagram\\evaluations\\2026-11-02-custom-service-test\\attempt-02\\prompt-executed.txt",
+    "sha256": "5695e686107b2fea901cf98d9c8931a087517a9800a58d56920e1811e7ef5224"
+  },
+  "request_sha256": "a1dfd2606b35ef56f5c198f5c1347b3bf3d5fb71269d720b771975ac940c6544",
+  "images": [
+    {
+      "path": "D:\\Light-Science\\light-diagram\\evaluations\\2026-11-02-custom-service-test\\attempt-02\\image-01.png",
+      "sha256": "6cd61b89fbc26569294940a607d517c5dc437b7f091236ccdd6c4cc18b28c1b2"
+    }
+  ],
+  "review_status": "not_run"
+}

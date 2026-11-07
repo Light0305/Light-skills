@@ -1,0 +1,366 @@
+{
+  "entries": [
+    {
+      "id": "workflow-complete-task",
+      "kind": "workflow",
+      "title": "四套来源交叉使用：数据到稿件图",
+      "tags": [
+        "workflow",
+        "selection",
+        "design",
+        "implementation",
+        "review",
+        "export",
+        "流程",
+        "选图",
+        "设计",
+        "实现",
+        "审图",
+        "导出"
+      ],
+      "backend": "any",
+      "path": "references/workflow.md",
+      "status": "integrated_task_workflow",
+      "notes": "按输入和任务阶段使用全部来源的适用方法，不限制每套只贡献一项功能。"
+    },
+    {
+      "id": "workflow-survival-risk",
+      "kind": "workflow",
+      "title": "原生 R 生存曲线、删失、阶梯区间与风险表",
+      "tags": [
+        "survival",
+        "clinical",
+        "Kaplan-Meier",
+        "risk",
+        "生存",
+        "风险表"
+      ],
+      "backend": "r",
+      "path": "references/domain-workflows.md",
+      "status": "see_availability_in_notes",
+      "notes": "runnable helper: scripts/domain_plots.R; input one subject per row"
+    },
+    {
+      "id": "workflow-annotated-matrix",
+      "kind": "workflow",
+      "title": "ComplexHeatmap / grid 注释聚类热图",
+      "tags": [
+        "heatmap",
+        "matrix",
+        "omics",
+        "annotation",
+        "cluster",
+        "热图",
+        "组学",
+        "聚类"
+      ],
+      "backend": "r",
+      "path": "references/domain-workflows.md",
+      "status": "see_availability_in_notes",
+      "notes": "runnable helper: scripts/domain_plots.R; exact sample-ID matching, explicit limits"
+    },
+    {
+      "id": "workflow-table",
+      "kind": "workflow",
+      "title": "原生 LaTeX 科研表格、分组表头与并列最优",
+      "tags": [
+        "table",
+        "spanner",
+        "precision",
+        "missing",
+        "tie",
+        "表格",
+        "最优",
+        "latex",
+        "tex",
+        "booktabs"
+      ],
+      "backend": "python",
+      "path": "references/tables.md",
+      "status": "see_availability_in_notes",
+      "notes": "scripts/table_tools.py::to_latex(); native .tex + CSV by default, raw/display separate; no default table image"
+    },
+    {
+      "id": "workflow-field",
+      "kind": "workflow",
+      "title": "真实坐标二维场与三维曲面",
+      "tags": [
+        "surface",
+        "field",
+        "manifold",
+        "3d",
+        "三维",
+        "曲面",
+        "网格"
+      ],
+      "backend": "python",
+      "path": "references/fields-and-3d.md",
+      "status": "see_availability_in_notes",
+      "notes": "runnable helper: scripts/field_tools.py; no fitting, clipping or imputation"
+    },
+    {
+      "id": "workflow-evidence",
+      "kind": "workflow",
+      "title": "组合图与混合模态的证据架构",
+      "tags": [
+        "multi-panel",
+        "image",
+        "plate",
+        "mixed",
+        "modality",
+        "figure",
+        "多面板",
+        "图像",
+        "证据"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+      "status": "see_availability_in_notes",
+      "notes": "Full source guidance; only include modalities justified by provided evidence"
+    },
+    {
+      "id": "workflow-r-domains",
+      "kind": "workflow",
+      "title": "原生 R 的临床、组学、环状与树形图",
+      "tags": [
+        "clinical",
+        "survival",
+        "circlize",
+        "ComplexHeatmap",
+        "ggtree",
+        "生存",
+        "环状",
+        "树"
+      ],
+      "backend": "r",
+      "path": "references/library/nature/references/r-workflow.md",
+      "status": "see_availability_in_notes",
+      "notes": "Full workflow guidance and code scaffolds; domain dependencies checked per task"
+    },
+    {
+      "id": "workflow-image-plate",
+      "kind": "workflow",
+      "title": "定标图像板与配套定量",
+      "tags": [
+        "image",
+        "plate",
+        "microscopy",
+        "imaging",
+        "scale",
+        "calibration",
+        "显微",
+        "图像",
+        "比例尺"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/common-patterns.md",
+      "status": "see_availability_in_notes",
+      "notes": "实际图像板章节与 gallery；实现见 research_panels.image_panel，标定与原始像素必须提供。"
+    },
+    {
+      "id": "workflow-density-marginals",
+      "kind": "workflow",
+      "title": "联合密度与边缘分布",
+      "tags": [
+        "density",
+        "marginal",
+        "scatter",
+        "hexbin",
+        "分布",
+        "密度",
+        "散点"
+      ],
+      "backend": "python",
+      "path": "references/library/scipilot/references/plot_recipes.md",
+      "status": "see_availability_in_notes",
+      "notes": "Source recipes; no automatic regression or statistical claims"
+    },
+    {
+      "id": "workflow-legend",
+      "kind": "workflow",
+      "title": "逐面板图注与统计定义",
+      "tags": [
+        "legend",
+        "caption",
+        "n",
+        "uncertainty",
+        "source",
+        "data",
+        "图注",
+        "统计"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/figure-legend-conventions.md",
+      "status": "see_availability_in_notes",
+      "notes": "Full legend guidance; never invent n, error definitions or tests"
+    },
+    {
+      "id": "workflow-source-preflight",
+      "kind": "workflow",
+      "title": "绘图前源码检查与依赖范围",
+      "tags": [
+        "preflight",
+        "source",
+        "static",
+        "code",
+        "源码",
+        "检查"
+      ],
+      "backend": "any",
+      "path": "scripts/preflight.py",
+      "status": "see_availability_in_notes",
+      "notes": "Runnable CLI with --support and requested formats; static clues, not rendered proof"
+    },
+    {
+      "id": "owned-01-paired",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "01-paired",
+      "path": "assets/examples/visual-review/01-paired.md",
+      "preview": "assets/examples/visual-review/01-paired.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-02-trajectory-band",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "02-trajectory-band",
+      "path": "assets/examples/visual-review/02-trajectory-band.md",
+      "preview": "assets/examples/visual-review/02-trajectory-band.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-03-centered-matrix",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "03-centered-matrix",
+      "path": "assets/examples/visual-review/03-centered-matrix.md",
+      "preview": "assets/examples/visual-review/03-centered-matrix.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-04-joint-distribution",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "04-joint-distribution",
+      "path": "assets/examples/visual-review/04-joint-distribution.md",
+      "preview": "assets/examples/visual-review/04-joint-distribution.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-05-damped-surface",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "05-damped-surface",
+      "path": "assets/examples/visual-review/05-damped-surface.md",
+      "preview": "assets/examples/visual-review/05-damped-surface.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-06-surface-and-contours",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "06-surface-and-contours",
+      "path": "assets/examples/visual-review/06-surface-and-contours.md",
+      "preview": "assets/examples/visual-review/06-surface-and-contours.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-07-masked-surface",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "07-masked-surface",
+      "path": "assets/examples/visual-review/07-masked-surface.md",
+      "preview": "assets/examples/visual-review/07-masked-surface.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-08-separated-objects",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "08-separated-objects",
+      "path": "assets/examples/visual-review/08-separated-objects.md",
+      "preview": "assets/examples/visual-review/08-separated-objects.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-09-trajectory-and-projection",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "09-trajectory-and-projection",
+      "path": "assets/examples/visual-review/09-trajectory-and-projection.md",
+      "preview": "assets/examples/visual-review/09-trajectory-and-projection.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    },
+    {
+      "id": "owned-10-layered-curves",
+      "kind": "reference",
+      "backend": "python",
+      "status": "synthetic_example",
+      "title": "10-layered-curves",
+      "path": "assets/examples/visual-review/10-layered-curves.md",
+      "preview": "assets/examples/visual-review/10-layered-curves.png",
+      "tags": [
+        "synthetic",
+        "layout",
+        "审图示例"
+      ],
+      "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+    }
+  ],
+  "version": "0.11.0"
+}

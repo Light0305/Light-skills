@@ -1,0 +1,138 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{lightwrite}[2026/11/07 Generic manuscript layouts]
+
+% Typography. The bundled workflow uses XeLaTeX; English also supports pdfLaTeX.
+\RequirePackage{iftex}
+\ifPDFTeX
+  \ifLWChinese
+    \PackageError{lightwrite}{Chinese text requires XeLaTeX or LuaLaTeX}
+      {Choose xelatex or lualatex when building a Chinese manuscript.}
+  \fi
+  \RequirePackage[T1]{fontenc}
+  \RequirePackage[utf8]{inputenc}
+  \RequirePackage{newtxtext}
+  \RequirePackage{newtxmath}
+  \RequirePackage[scaled=0.92]{helvet}
+\else
+  \RequirePackage{fontspec}
+  \setmainfont{TeX Gyre Termes}
+  \setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
+  \setmonofont{Latin Modern Mono}[Scale=MatchLowercase]
+  \RequirePackage{unicode-math}
+  \setmathfont{texgyretermes-math.otf}
+  \ifLWChinese
+    \RequirePackage[UTF8,scheme=plain,fontset=fandol]{ctex}
+  \fi
+\fi
+\RequirePackage{microtype}
+\frenchspacing
+
+% A compact two-column paper or a roomier single-column manuscript.
+\RequirePackage[a4paper,top=24mm,bottom=24mm,headheight=14pt,
+  headsep=7mm,footskip=11mm]{geometry}
+\if@twocolumn
+  \geometry{left=20mm,right=20mm,columnsep=6mm}
+  \linespread{1.04}
+\else
+  \geometry{left=25mm,right=25mm}
+  \linespread{1.10}
+\fi
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt plus 1pt}
+\setlength{\emergencystretch}{1em}
+\raggedbottom
+
+\RequirePackage{graphicx}
+\RequirePackage{booktabs}
+\RequirePackage{tabularx}
+\RequirePackage{array}
+\RequirePackage{xcolor}
+\RequirePackage[font=small,labelfont=bf,labelsep=period,
+  justification=justified,singlelinecheck=false,skip=5pt]{caption}
+\RequirePackage{enumitem}
+\setlist{nosep,leftmargin=1.5em,topsep=4pt}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{12pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\dblfloatpagefraction}{0.8}
+
+\RequirePackage{titlesec}
+\titleformat{\section}{\large\sffamily\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\sffamily\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{11pt plus 3pt minus 2pt}{5pt plus 1pt}
+\titlespacing*{\subsection}{0pt}{8pt plus 2pt minus 1pt}{3pt plus 1pt}
+
+\definecolor{LWLink}{HTML}{225577}
+\definecolor{LWMuted}{HTML}{555555}
+\definecolor{LWRule}{HTML}{AAAAAA}
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\sffamily\LWRunningTitle}
+\fancyfoot[C]{\footnotesize\sffamily\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\fancypagestyle{lwfirst}{
+  \fancyhf{}
+  \fancyfoot[C]{\footnotesize\sffamily\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% No bibliography entries are fabricated by the template.
+\RequirePackage[backend=biber,style=numeric-comp,sorting=none,
+  giveninits=true,maxbibnames=6,doi=true,url=true,isbn=false]{biblatex}
+\addbibresource{references.bib}
+\renewcommand*{\bibfont}{\small}
+\setlength{\bibitemsep}{3pt}
+\RequirePackage{xurl}
+\RequirePackage[colorlinks=true,linkcolor=LWLink,citecolor=LWLink,
+  urlcolor=LWLink,pdfencoding=auto]{hyperref}
+\urlstyle{same}
+
+\ifLWChinese
+  \newcommand{\LWAbstractName}{摘要}
+  \newcommand{\LWKeywordsName}{关键词}
+  \newcommand{\LWReferencesName}{参考文献}
+  \renewcommand{\figurename}{图}
+  \renewcommand{\tablename}{表}
+\else
+  \newcommand{\LWAbstractName}{Abstract}
+  \newcommand{\LWKeywordsName}{Keywords}
+  \newcommand{\LWReferencesName}{References}
+\fi
+
+\newcommand{\LWTitleBlock}{%
+  \thispagestyle{lwfirst}%
+  {\noindent\small\sffamily\color{LWMuted}\LWArticleType\par}%
+  \vspace{5pt}%
+  {\noindent\LARGE\sffamily\bfseries\raggedright\LWTitle\par}%
+  \vspace{10pt}%
+  {\noindent\normalsize\sffamily\raggedright\LWAuthors\par}%
+  \vspace{4pt}%
+  {\noindent\small\raggedright\LWAffiliations\par}%
+  \ifx\LWAuthorNotes\@empty\else
+    \vspace{3pt}{\noindent\small\raggedright\LWAuthorNotes\par}%
+  \fi
+  \vspace{9pt}%
+  {\color{LWRule}\hrule height 0.4pt}%
+  \vspace{7pt}%
+  {\small\noindent\textbf{\LWAbstractName.}\enspace
+    \input{sections/abstract}\par}%
+  \vspace{5pt}%
+  {\small\noindent\textbf{\LWKeywordsName:}\enspace\LWKeywords\par}%
+  \vspace{7pt}%
+  {\color{LWRule}\hrule height 0.4pt}%
+  \vspace{12pt}%
+}
+
+\newcommand{\LWMakeTitle}{%
+  \hypersetup{pdftitle={\LWTitle},pdfauthor={\LWAuthors}}%
+  \if@twocolumn
+    \twocolumn[\begin{@twocolumnfalse}\LWTitleBlock\end{@twocolumnfalse}]%
+  \else
+    \suppressfloats[t]% A later table must not float above the manuscript title.
+    \LWTitleBlock
+  \fi
+}

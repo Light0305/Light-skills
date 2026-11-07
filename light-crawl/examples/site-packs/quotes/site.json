@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "version": 1,
+  "last_verified_at": "2026-10-25T07:20:00Z",
+  "domain": "quotes.toscrape.com",
+  "source_case": "quotes-capture",
+  "lane": "L0_STATIC",
+  "delivery": "single",
+  "created_at": "2026-10-25T07:03:16Z",
+  "entrypoints": {
+    "spider": "spider/",
+    "repro": "repro/",
+    "fixtures": "fixtures/"
+  },
+  "capture": {
+    "url": "https://quotes.toscrape.com/",
+    "status": 200,
+    "bytes": 11013,
+    "engine": "scrapling-stealth",
+    "fixture": "fixtures/response.html"
+  },
+  "policy": {
+    "robots_txt_obey": true,
+    "store_credentials": false,
+    "redact_fixtures": true
+  },
+  "run": {
+    "command": "python templates/spider/generic_spider.py --config examples/site-packs/quotes/spider/site.json --out runs/quotes.jsonl --max-pages 1",
+    "expected_items": 10
+  },
+  "migration": {
+    "from": 1,
+    "to": 2,
+    "at": "2026-10-25T07:28:40Z"
+  }
+}

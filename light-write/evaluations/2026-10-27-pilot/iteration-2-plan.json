@@ -1,0 +1,17 @@
+{
+  "registered_at": "2026-10-27T00:23:28.605952+00:00",
+  "reason": "Retest-1 model reviews consistently preferred original engineering outputs and original humanities Introduction; retain and address regressions.",
+  "targets": [
+    "engineering-draft",
+    "engineering-polish",
+    "humanities-draft"
+  ],
+  "controls": [
+    "clinical-draft",
+    "clinical-polish",
+    "computing-draft",
+    "math-polish"
+  ],
+  "comparison": "after versus after2, two fresh blinded model-assisted reviews; no additional tuning cycle in this pilot",
+  "claim": "development regression evidence only, no held-out improvement claim"
+}

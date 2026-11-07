@@ -1,0 +1,623 @@
+{
+  "registered_at": "2026-10-27T00:14:55.994381+00:00",
+  "design": "fixed-context development pilot; manually routed supplied guidance; no automatic skill-discovery test",
+  "arms": [
+    "light-write",
+    "upstream"
+  ],
+  "cases": 14,
+  "repetitions": 1,
+  "cli": "codex-cli 0.164.0",
+  "model_requested": "CLI default with --ignore-user-config",
+  "model_effective": null,
+  "settings": {
+    "effort": "medium",
+    "sandbox": "read-only",
+    "ephemeral": true,
+    "ignore_user_config": true
+  },
+  "system_instructions": "Host-provided CLI instructions not fully exposed; shared across arms. Fresh process per case/arm.",
+  "tool_policy": "Prompt forbids tool calls; retain events and flag any observed use; no external source verification.",
+  "review": "Two fresh model-assisted blinded reviews per pair, batches of seven; same CLI defaults. No human domain reviewers.",
+  "thresholds": {
+    "serious_errors_target": 0,
+    "scores": "0-4 per dimension; no universal aggregate ranking",
+    "hard_constraints": "required language, paragraph/sentence count, word range where stated; recorded separately"
+  },
+  "limitations": [
+    "Synthetic development cases, one repetition, same underlying provider/model family for writing and review",
+    "Model identity and full inherited system context not observable; do not claim exact model reproduction",
+    "Snapshots identify installed local upstream files, not a verified upstream Git commit",
+    "No paid API setup; consumes existing Codex access",
+    "Any tuned cases become regression cases, not held-out improvement evidence"
+  ],
+  "common_prompt": "Complete the manuscript task using only the supplied research material.\nFollow the attached writing guidance, subject to the explicit manuscript request.\nAll guidance files needed for this fixed-context test are attached; do not open files,\ninvoke skills, use tools, browse, run commands, delegate, or edit any files.\nDo not discuss this test or emit routing announcements. Return only the deliverable\nand any short, materially necessary author note permitted by the request.\n",
+  "snapshots": {
+    "light-before": {
+      "id": "cc851f72a5b1c3ea877ed2a5ce1c99f45e70170883709b57ab9919fc2fd9995b",
+      "files": [
+        {
+          "path": "snapshots/light-before/SKILL.md",
+          "sha256": "f011096dd6bdc81199c461da1f58b44459a89fb4e43a749d765c7e7d5974f248"
+        },
+        {
+          "path": "snapshots/light-before/modules/catalog.json",
+          "sha256": "11786e0895568ab97723975ebc5dc3c0984f2d8eecc61631fd6ef165e4922165"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/clinical-health.md",
+          "sha256": "d0be3630fedfab36f10900b61f63254c790c474a3b9fd770f02beaeefb61aa8b"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/computing.md",
+          "sha256": "7c97e039f7481e7a681c819b100c42aa75e56e2b3736264550b154ce6480b54d"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/humanities.md",
+          "sha256": "6f80ab888897dac3141d8b421a5257242d5d6c770c903051b29e15d2d8e5b9d5"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/life-sciences.md",
+          "sha256": "33eb6920a5af0a19656de91641e3912be7f46ff897b989d110fab02d14b5153b"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/mathematics-theory.md",
+          "sha256": "3b252927fc55174b1a371d32df13952c715b411ea368fedc3ef6c435d4c8038d"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/physical-sciences-engineering.md",
+          "sha256": "6cadf0861a50a6995eef1d1054d5ac6fc423cb713431f62636ff85620a3e0f1f"
+        },
+        {
+          "path": "snapshots/light-before/modules/fields/social-behavioral.md",
+          "sha256": "9bbda49be1d10de56388c95264655d6058e9499e3818a7d9d31ffa23c152b90f"
+        },
+        {
+          "path": "snapshots/light-before/references/article-types.md",
+          "sha256": "2849723092c0d541ada6023b5583d8ec2ba6540fbea2367aa9f4f815abc59cb8"
+        },
+        {
+          "path": "snapshots/light-before/references/consistency-check.md",
+          "sha256": "962287c600070e9d9ac53d5994e03df946d4b3c6529e7294fa9efa03b1c071d2"
+        },
+        {
+          "path": "snapshots/light-before/references/drafting.md",
+          "sha256": "4af06c17b06181d3260629523a082b161cd71b0164f5c2997ef4d7cd3c4e503d"
+        },
+        {
+          "path": "snapshots/light-before/references/examples.md",
+          "sha256": "a11bf8ee798b13ee765c1111204b79b0b8ba0fe1d02d2df0311069ea14fc44e0"
+        },
+        {
+          "path": "snapshots/light-before/references/integrity-and-evidence.md",
+          "sha256": "2ee6f7f0bf6ad17b5c59d6aa225b6e20d945f25f95e76f934a739bad24cfb09f"
+        },
+        {
+          "path": "snapshots/light-before/references/journal-adaptation.md",
+          "sha256": "fd02b0b3bd5bd078b0f68603d9263f23efdf76b320f3d5e8272bb6cd6f927155"
+        },
+        {
+          "path": "snapshots/light-before/references/module-routing.md",
+          "sha256": "5a00c8eadf6ca0eaedf688c6e43b70a0dec9be9defd3c247e181ad4e1e10972f"
+        },
+        {
+          "path": "snapshots/light-before/references/polishing.md",
+          "sha256": "439f6c969ac9058e9570d6003787e997e14423cac72c76b3cd996405c03d2976"
+        },
+        {
+          "path": "snapshots/light-before/references/results-allocation.md",
+          "sha256": "8c960595d3d781a1e6c0b675ec94b7930b633f43b780845c76619bdbf069bfbc"
+        },
+        {
+          "path": "snapshots/light-before/references/sections.md",
+          "sha256": "1301985d2b1981d439cd1b4fcc8abc3be1c09b611f47727a7b98d938871e417e"
+        },
+        {
+          "path": "snapshots/light-before/references/working-ledgers.md",
+          "sha256": "9af45dc280b4c66ce348ee1c5bc58ba317dc765057703358add23834c1c690a1"
+        }
+      ]
+    },
+    "upstream": {
+      "id": "765e94acae56138b1ac634e1df3f379495a7c39e2a683cf82f720af31b37b58a",
+      "files": [
+        {
+          "path": "snapshots/upstream/nature-polishing/README.md",
+          "sha256": "0e3069ce6693d5324470f7d198561196a4af9014192ffa559dcadc236a8fe903"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/README_EN.md",
+          "sha256": "8a6f8d07417b31a0efd5b0b7bd17be9bcb70f1c9f0e3da32664511f7d6db4ee6"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/SKILL.md",
+          "sha256": "c8ff9503a8d3e1457a8ac23f1d18baefc94ee05a70c4677f046cc33be9c62110"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/agents/openai.yaml",
+          "sha256": "5cbdbff93809f5cf0487fdde2f0ff5a037afd300847a802f4f622f3586af18d3"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/manifest.yaml",
+          "sha256": "df56341a95695c3720399496328106b21e42f1eb579f71f583472d32e191f57c"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/latex-layout.md",
+          "sha256": "9cdb4a2f69e1314a5a401bd1e90d880287940211a48b07e4eb0c62c3c9dd28a9"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/nat-comms-2025-diction.md",
+          "sha256": "eda03a75aa51e735d0343346543f6043544bc626c8520ce137783b4c81625598"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/phrasebank-playbook.md",
+          "sha256": "759e97c35051bc754f50a763c9cc8004b2fad8af72d8cf71970842ef5eea4ab7"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/published-article-patterns.md",
+          "sha256": "61aed79c2180e688079b175e81c751149f0dac6d3876300776ed2e6eb15e02c8"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/section-moves.md",
+          "sha256": "462b51c5ade4b64044c426db68b5b38e9367d311f7dc499d2736ef55901ae162"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/style-guardrails.md",
+          "sha256": "f909c7adfc46b96c1b8a80fb8da86bee5786d2eda13062ba4dc3dbeb38bbc509"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/references/writing-strategy.md",
+          "sha256": "61aed23835260560e43e54438c9cd2d4dd3dd69921d9ad2bada0494b4777d10d"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/core/failure-modes.md",
+          "sha256": "d7e8906fa67dc63bccb7585f207b5bf6978a4684ecc0bc8b2a45309830bbb414"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/core/output-format.md",
+          "sha256": "23b067fe52a9b3a5c5323a920df8ae2a234cd26d799116107ed3af2a5e043576"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/core/stance.md",
+          "sha256": "5aaa30bec7c2582e6267be107b9aa4d8085257e963a79fedeb951bc1ce19a66b"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/journal/generic.md",
+          "sha256": "0d680fd62604db88d97099b3772956abd2a1c3640ee4055afe436c78dbd360a5"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/journal/nat-comms.md",
+          "sha256": "39cfe7f278b14e1b0c27506c73fb269d3dc994176f7abfeabe48ddd88bd95f7d"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/journal/nat-mach-intell.md",
+          "sha256": "e66bbdf9ca61a74cbd28a412f8678f0e688646f2134d36a74f4f6b7daf170883"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/journal/nature.md",
+          "sha256": "f7961aeaff118a518806e839470e78dc378defc180278a870f3b5cea95908b21"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/language/en.md",
+          "sha256": "296620f652317599c1bd66e572993087f7abad57b6e8133904f994462db128e4"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/language/zh-to-en.md",
+          "sha256": "ec618943ea631e168cc5d2dd7d9ddb98cb75347c524122ceddf2ff0b36cf35f1"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/paper_type/algorithmic.md",
+          "sha256": "fa915d8eb8e1e84ee991d5cedc8027978eb5e4a8246f9e8649e2267016f1ea35"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/paper_type/hypothesis.md",
+          "sha256": "2927fdefd79958ac8280a0a1d870d066136bfdfe277372f2389928c3ba8f332c"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/paper_type/methods.md",
+          "sha256": "3b00b801a733694772c78db1f8d2df19f12ab49b7cd395183d1b1075a0a4ea2e"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/paper_type/research.md",
+          "sha256": "e0738b1fd90e3bdc91caee732fc4c61ec97fed1eedd70723504e63cda0a40d6f"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/paper_type/review.md",
+          "sha256": "639c478596ba59434f94a7436021ae0ef208c4118a491be1a7779960f984acc6"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/abstract.md",
+          "sha256": "2cc338819da779895ea5ea38815683682bb981736b16b77c08e52d4c45752504"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/conclusion.md",
+          "sha256": "d8676e4871b7b58fd8f72ffec22bc83a7fce7df0220b86e41a38a2989d68da34"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/discussion.md",
+          "sha256": "9c536591a6f4b8cc2cff07f5297498cc307f5f049fd2d6a27a4b477bcc3a3d9b"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/intro.md",
+          "sha256": "6e09524cb4e1d7ec6659fc78ecf0e15b4117435d4b4239194f532e0a916307cb"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/methods.md",
+          "sha256": "5bc11e0a67f855ef26fc53d7857f380f1592723ad0e2fa5b565bf5b6072dbca3"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/results.md",
+          "sha256": "3ddb6b36f22935f0afae2d45b754328c3117d5cd6a1805d595b93c35c101c3b0"
+        },
+        {
+          "path": "snapshots/upstream/nature-polishing/static/fragments/section/title.md",
+          "sha256": "699e514c4e88ce05d7577d358b76d31dfe337a25e2a8169e99d778c7e7636911"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/README.md",
+          "sha256": "2e42d487b9aa4985933dfb230ac57c88e8dfeba97644bb30d2c222de9a65e61e"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/README_EN.md",
+          "sha256": "1d2fd257264aa512f52dfc131d9adfd67c7dcf2b6f1e3c059c693360b027b245"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/SKILL.md",
+          "sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/agents/openai.yaml",
+          "sha256": "4bbf2e58b350269cf231f73ca12af1d097b9d64637023b037e238083151fbd67"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/consistency-sweep.md",
+          "sha256": "42b4f5337af441709951ecd9e60c7adc644b0a02a349fc41f64247d669adfe82"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/discussion-argument-language.md",
+          "sha256": "a3b0ddcadc47efc029e923ae8133ba0bd99e6a6eb27fdbc791d0e1096d98c169"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/ethics.md",
+          "sha256": "065db5761d72c295eb1ed5c231deb0b0bcbb0f1065d530f994c044398bd75056"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/main-text-discipline.md",
+          "sha256": "d43190c4d617096c1088bb5452cec5b0ae13f5d4947c2b21c28315181f051b8e"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/nature-abstract.md",
+          "sha256": "92c0f1e78df5a9b4dc7ad276ed625e371d211124a47a9eed0a4de82c9c1526cb"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/nature-introduction.md",
+          "sha256": "813fb8acb9b5c76e9c8f1d8c1616fefa82a1ec949d4aba98935b0485fb4cd4f7"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/nature-results-discussion.md",
+          "sha256": "16f1ce1ed6d2aad7853eabf304cdbd661530931747bce4cf3f10b3dfb655adc1"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/paper-type-taxonomy.md",
+          "sha256": "84878907fd0416f628c8e3969e583569b9930f0129e6553167112435d93a3ad1"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/reader-workflow.md",
+          "sha256": "acf54e59da3cd29d9179748895c7b5ed0da2d948704e97bee83771698ecbe10d"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/research-compliance.md",
+          "sha256": "0ac172d2af0c2089acd7280712a89b23a5f232d4e436e9ae78dd501ff30cd855"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/core/terminology-ledger.md",
+          "sha256": "c8ff387fc55439dbec9835d624fb1c1e544cca06ae8d007f8e4f726f68080784"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/journal-formats/nat-comms.md",
+          "sha256": "5a9eef685502e35d2289478d0b3815d5dbfbb6b2ed7d758accedfc7fd930e975"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/journal-formats/nature-machine-intelligence.md",
+          "sha256": "d62a418fbd67841e745f553b98a267b5a01c9445457a07a0121095ce76fad0af"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/journal-formats/nature.md",
+          "sha256": "2c4d007f69b64a2e083f9511748c3726b349a4dce4bfccbdac3bf97d1c1afc10"
+        },
+        {
+          "path": "snapshots/upstream/nature-shared/manifest.yaml",
+          "sha256": "f45acd0684bba87b9ea1ece65752c4e26c2c4ce168d9611b7d616e595f1c34b8"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/README.md",
+          "sha256": "8e2b300189ba2fb33e849ac2c9299a903ffb4da3b2629e55736904925671e813"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/README_EN.md",
+          "sha256": "f491a275177ef2560c1a17b24085d568ec05cecb9766824e3f4c5813a96ad44d"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/SKILL.md",
+          "sha256": "cd9a7094963017e462f226b43c9677a9ffc600a62968cadb1f4cd277e6313c30"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/agents/openai.yaml",
+          "sha256": "35275439e4108cea510a750d1368b017fe1b3e88cc8f341475f1478e3090f79c"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/manifest.yaml",
+          "sha256": "91004af376547a51b033e7e7aeab9fd81eb1fa727995afb9e8823a844e32925a"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/abstract.md",
+          "sha256": "b639c44ada14a644a2823f16c9e7efa513525f8c9666357e8ccb33a136c7ed1e"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/article-architecture.md",
+          "sha256": "fc57ff3e8152ddd1d4eb72eb1f062c4a048a13cedac135b21ea32baee0c34ba9"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/chinese-author-workflow.md",
+          "sha256": "42fc1cb975d94d1ecdb8901fb6f6e727ca321379b0faa3745d4814c0b1268bf1"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/conclusion.md",
+          "sha256": "64de66f24ceb42ff5cefb4498a8bd16f595661bbaa604d9cde6e743b39dab9c6"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/abstract-examples.md",
+          "sha256": "8228ce8ec4a35b8339bcb439c4292bb2d678e5be17af2ef1d7631d03ebf40010"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/abstract/template-a.md",
+          "sha256": "c4cec6346be6d76350bfacea36c1abad5bce669e810f7facc2c884b664a8d83e"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/abstract/template-b.md",
+          "sha256": "dc41e8d5206fca72dd41b2cd188ec447b7735b54c164b6da1785bd88c2e0b78d"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/abstract/template-c.md",
+          "sha256": "4f6269a1b1ad47055eb4287cdd0410ea1d1d1198dbf02d74671f50d3fa0d1447"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/index.md",
+          "sha256": "8652823627fd0f56a5e2be3eff192dcc5925f482380d7b45321cd9cfc6ba4b03"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction-examples.md",
+          "sha256": "0fb5b62e4353f71e586f8873881d2a60a86ad756e02bd0e7ef626dcafa0e5d71"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/novel-task-challenge-decomposition.md",
+          "sha256": "5613ddd24911efde77aaf35a7ff883a9ef886b99b9863782aeec426282cd286c"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/pipeline-not-recommended-abstract-only.md",
+          "sha256": "33ab449b0eadc7cc968c0ff4cddcc4538811d2abc2a0497ebca15c629da80cd2"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/pipeline-version-1-one-contribution-multi-advantages.md",
+          "sha256": "a39b95c76a19f7fd214048dd2e8861d825495662b9144529326abc4ab94c7f23"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/pipeline-version-2-two-contributions.md",
+          "sha256": "fc6d13cfdd6e69b9bf7238e86f400e7d120d35c053718a56ae9faf442f0e86f1"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/pipeline-version-3-new-module-on-existing-pipeline.md",
+          "sha256": "71fe9465e12602517ca47a693572bd7db0c08b7cd046ae1c55ec88ba679e1d49"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/pipeline-version-4-observation-driven.md",
+          "sha256": "f5e59e8c578cd3996870c3863ac1f2ce503fe74ec76c909a66a9cb9100020e70"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/technical-challenge-version-1-existing-task.md",
+          "sha256": "470195180f159d7f240409c0685a927fea21c82ed7d7c766a03b76ed3765e276"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/technical-challenge-version-2-existing-task-insight-backed-by-traditional.md",
+          "sha256": "b90e9edf376f9dc2cac1fcbe9174b8878a090763dac08302a301c8b743301b1f"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/technical-challenge-version-3-novel-task.md",
+          "sha256": "3b3b58cc0cffe2e1ae1e192b2344223924f9dfb880eeae3c955e09cd923269ef"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/version-1-task-then-application.md",
+          "sha256": "d9296f2f23e8589e068a06fd063d2b9291b30b630ffeac19f0cf0290fde52284"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/version-2-application-first.md",
+          "sha256": "3f57603bd5fd56bc185a3d78f12edc43bd202e2593b01d1bda943f3745af7ea5"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/version-3-general-to-specific-setting.md",
+          "sha256": "0afbf79dd9c47e65ec0d9debf08c701838b5398327a0864b8f8a0421ea786a2a"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/introduction/version-4-open-with-challenge.md",
+          "sha256": "974379058c3d5448bbb95ad989b68564ede2dc7e262f4b9bb82820058ad098b1"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method-examples.md",
+          "sha256": "8a8499c32096fbdf9baac6d00d71df750fba2909d29a0bc37e559ebd02d10210"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/example-of-the-three-elements.md",
+          "sha256": "a08a1201e6b4a9629262e16827b8d95e62eeee97f6117a1d97659a37200a4dea"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/method-writing-common-issues-note.md",
+          "sha256": "265ca143a785401c29d754d022e761aca41cce7f17db316a3a12cf2e35b5bfa9"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/module-design-instant-ngp.md",
+          "sha256": "a7c72221545e83d05b3becc4209b9fec71188a9a758434aa1ae3c4bc673e1dad"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/module-motivation-patterns.md",
+          "sha256": "0d1476b9e31662ecd135eec0ec70bc959f91235622e874e2a1e12a5234d195ce"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/module-triad-neural-body.md",
+          "sha256": "eabc41af8b001bcab30bc8373bb44b798ab0a21d32045d01d6b672d49c1ed76f"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/neural-body-annotated-figure-text.md",
+          "sha256": "f671d284186011497291fcec22dadd1dabe835f60fb97dc607cfa0246d08b6be"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/overview-template.md",
+          "sha256": "3328ea5b1100e8068bfd94455486a5934d55a888bf0095df727eef9ec7eadf93"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/pre-writing-questions.md",
+          "sha256": "b6466d5d6fbe8785a45a0b67134c9c08a0d8b3e14f2e17db2f2fe3a2053b3c69"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/examples/method/section-skeleton.md",
+          "sha256": "e437a48be1e608bed3200844e1033b8b9da900aa1e4512dccb80f778e6fe0590"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/experiments.md",
+          "sha256": "ba4f469b4e65f5ee042d0d5891ff5182512fde60b66f014a7b035993ae1d4548"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/introduction.md",
+          "sha256": "761213024d82264d1aec986066993492e6bdde95e84ef1e414b7afb341465353"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/method.md",
+          "sha256": "d67bcb9a8a3702897ac39ff3ad19042019f4da73f98717034b42f7247c53b35d"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/nat-comms-2025-corpus.md",
+          "sha256": "220398897991a1bbbfbda7c0a39390afdfac3706324e3c5b7c2c2a93f9195161"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/nature-summary-paragraph.md",
+          "sha256": "df3711242be9720e17c9a6631e10dd5aa4e5315626bacb4b95ed21de38c2da20"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/paper-review.md",
+          "sha256": "7a46e0805a7048e66f9f2f91cbc13134eff1864bf0152d699c987df078051f20"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/paragraph-flow.md",
+          "sha256": "7fe339e94763c97902d846fffb1116c64e140d3a3d6949fa65c88b2eebf014ec"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/related-work.md",
+          "sha256": "2b37fce3ae4ea604492689215e835d45f85cc39ed74e6f6132b2723bbe506e0d"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/references/submission-package.md",
+          "sha256": "9a0e6195e368fb922a321403c399e0f581b64be11a3ce350538aabec248fb940"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/core/output-format.md",
+          "sha256": "46d34afa2eed2162051ac265eb14a7ce04de8aa022348cd7ad96045fafdc3b68"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/core/stance.md",
+          "sha256": "d3167ff9f1f61c1f39d3460b25571d3459721aed41776c9b30e5b02fc6acde30"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/core/workflow.md",
+          "sha256": "0e98f785f5dfd063399f8b4ead6389a522a12b70431c555fe1c1a570bd2c4d77"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/journal/generic.md",
+          "sha256": "a479f37851c3034e988eb293f17fd1e07f2650ed55600d9c6e046b9b0f6d39fe"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/journal/nat-comms.md",
+          "sha256": "9150210f9dd1521ac78a830be51cc4a6397a84888cf0d8237ca495fe0223cd27"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/journal/nat-mach-intell.md",
+          "sha256": "af514347009f38c61351ea37be275cd1087a22cf3698e7aa80f656957d2768f5"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/journal/nature-family.md",
+          "sha256": "1e124883a1d21552e005747283b2f4a16a6b2da6cc925b7eace6e4655320e10f"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/journal/nature.md",
+          "sha256": "4333c75dad3094bcd785060887986859152e53c1bed98d1b6d08e70ecf27de7f"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/language/en.md",
+          "sha256": "6de5e67bf7c90361237f998c10f98d6d2c61e9c067ce3c686cab6a3cdf919caf"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/language/zh-to-en.md",
+          "sha256": "a60506956df0a5b1e006fe17aec2bc843b1a0463662f5675cb9dc6db112a96c8"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/paper_type/algorithmic.md",
+          "sha256": "a6e548d38dfbb60bbc9beac713da4b51c625adcce55cdc688d4578a530b2c35b"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/paper_type/hypothesis.md",
+          "sha256": "c2ef6457304001a14fba41c615e62d47a852a9b0137ae13def6117669143da23"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/paper_type/methods.md",
+          "sha256": "eebf6bdd16e3114abf8b03b524af22c9183444d7e30e8c4ecc5fc37b32a636f0"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/paper_type/research.md",
+          "sha256": "29a20cfce7525107867faf5ff8b6215d4b86fc8587b1dc92993154c18b2f33e1"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/paper_type/review.md",
+          "sha256": "f26f847b44761faf44aee024bc05d079490ead7bd5ffa975b277add7795f2b21"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/abstract.md",
+          "sha256": "0f60dc39a2e0f9cccf043cef55ad9ce9d629f9397a8ffc58436dd0dd6dae8fc5"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/conclusion.md",
+          "sha256": "5287996cba0ef8f41a540abc4e50aae8e830a056a5de7188f6bc2b701ac78bd6"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/discussion.md",
+          "sha256": "345fe173d7f6138170d259028c5f015f9708ecfce45ced8645bf5d068bb00e22"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/experiments.md",
+          "sha256": "299182cbc369969f203237058bccf4abd439ca5459290fe075fe3a3be4ed1f5d"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/intro.md",
+          "sha256": "d8ca45bb0c12df3c4805460a9f1023b769ce05d99771a87652756229f4102450"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/method.md",
+          "sha256": "47bbc70c2f61df13a5402ad404df13670400d58979a5d24750f1c64ae4478c70"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/related-work.md",
+          "sha256": "96f42b73af918123173c30467698e78d42ed00dc043171265cdd2bc6e5fb3bd6"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/section/title.md",
+          "sha256": "667fafc45b0a38c439998d6d8ed18fb98ffea1b196fc9343bc3a4629fcdc110a"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/task/manuscript.md",
+          "sha256": "c798ea7e70241be9d00b62a762650b0984e3ea1abc228c5f469499551ae6bf94"
+        },
+        {
+          "path": "snapshots/upstream/nature-writing/static/fragments/task/submission-package.md",
+          "sha256": "69410d283d738e82a35f2d8da1bcfb48385e924b68c1deef84cb2a5be8dceb9d"
+        }
+      ]
+    }
+  }
+}

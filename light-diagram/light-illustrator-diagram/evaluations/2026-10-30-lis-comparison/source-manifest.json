@@ -1,0 +1,42 @@
+{
+  "task": "Illustrator same-reference comparison; no new generation in this case",
+  "source": "source.png",
+  "source_sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+  "new_image_generation_calls": 0,
+  "prior_images_used": true,
+  "reference_reused_from": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-lis-complex\\source.png",
+  "reference_original_generation": {
+    "tool": "built-in imagegen",
+    "calls": 1,
+    "prompt": "reference-prompt-v1.txt",
+    "prompt_sha256": "370e9eedfe07a540233684aab90db3236307c24020dc412039de3a34373fc71e",
+    "model_version": null,
+    "seed": null
+  },
+  "scientific_sources": [
+    {
+      "doi": "10.1039/D4TA03930K",
+      "scope": "Published primary-paper abstract: polysulfide retention, selective Li+ transport, electrocatalytic activity; full HTML returned HTTP 403."
+    },
+    {
+      "doi": "10.1038/s41467-024-52550-9",
+      "scope": "Primary-paper abstract/introduction supplied in search results: soluble polysulfides, solid sulfide conversion, catalysis; full HTML redirected to inaccessible identity endpoint."
+    }
+  ],
+  "evidence_boundary": "A conceptual synthesis of mechanisms, not a reproduction of a specific experimental material or quantitative result. Molecular beads, pores and surface morphologies are schematic.",
+  "reference_issues": [
+    "Footer sequential Shuttle -> Li loss -> Passivation implies an unsupported causal sequence.",
+    "Anode comparison callout appears to originate near separator instead of the visible Li anode."
+  ],
+  "native_scientific_corrections": [
+    "Use separate Shuttle -> Li loss and Shuttle -> Passivation branches.",
+    "Reroute anode callout from visible Li anode."
+  ],
+  "final_deliverable": {
+    "path": "output/lis-illustrator.ai",
+    "sha256": "ea52a548edb76adf655b688b7299567ff1dce9ee195769b44cbbb14416363aec",
+    "mode": "science-corrected",
+    "report": "REPORT.md",
+    "native_audit": "output/lis-illustrator.audit.json"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.1",
+  "title": "一种振动事件片段上传方法",
+  "kind": "application",
+  "format": "both",
+  "status": "供发明人及专利专业人员复核的撰写草稿",
+  "semantic_review": "not-certified-by-tool",
+  "visual_review": "not-performed",
+  "filing_status": "未进行电子提交或官方格式合规验证",
+  "source_case_sha256": "1a690f429262703feb473bfd19d6d4140f2e06fc8598ddc3429ee1fa9ac59b68",
+  "source_inputs": [
+    {
+      "id": "source:S001",
+      "path": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\inventor-note.txt",
+      "sha256": "cda2774a49874d81fef0867067addf29dfd15761d9051804e642910e44966102",
+      "bytes": 794
+    }
+  ],
+  "files": [
+    {
+      "path": "02_权利要求书.docx",
+      "sha256": "eb30acd36c58234fcfdcd02ba5ac454a9e87e74ec38d763063faf81fd732cdae"
+    },
+    {
+      "path": "02_权利要求书.md",
+      "sha256": "63d06a5817f84f47db506712049f2da4101f8c1446bc5560286edb2bce81f2e6"
+    },
+    {
+      "path": "03_说明书.docx",
+      "sha256": "44d8c14fd984fcc9eeced7db0c10850cd268e1d6b147498dfbf03f96041a29cb"
+    },
+    {
+      "path": "03_说明书.md",
+      "sha256": "b0782ec945f3de7e243e3ce2f4632887d61deeae544b33301afa4ae68ac20662"
+    },
+    {
+      "path": "04_说明书摘要.docx",
+      "sha256": "176edf2ad2cd4d077bb894c96db4915b4577c565e2cb859ab08ce481afc7ea02"
+    },
+    {
+      "path": "04_说明书摘要.md",
+      "sha256": "018dd356300d957cf045e03be1e7178bbabbcf630e307768bf6824d99ee180e3"
+    },
+    {
+      "path": "复核事项.json",
+      "sha256": "4b9c5cefcf823fc8c5c126c00a2fda7aa83fe4ee8e2fa01449ed07ebbbb9404c"
+    },
+    {
+      "path": "支持表.md",
+      "sha256": "b908e1314a6033174348652da75bd28c7e6833d35d1a33d3bd8803194a099728"
+    },
+    {
+      "path": "检查报告.json",
+      "sha256": "d88a0faffdb8507b4a3bd8396767f63613f11d577a8dff61decdfb04fdd8e419"
+    }
+  ]
+}

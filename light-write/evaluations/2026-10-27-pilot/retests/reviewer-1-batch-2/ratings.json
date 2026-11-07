@@ -1,0 +1,265 @@
+{
+  "reviews": [
+    {
+      "case_id": "engineering-polish",
+      "blind_id": "Q1100",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Preserves both conductivities, temperature and “three specimens per orientation.” Builds interpretation around directional transport, acknowledges missing uncertainty and rejects unsupported temperature extrapolation. The prospective comparison, “holding other material features constant,” directly targets alignment's unisolated contribution. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "engineering-polish",
+      "blind_id": "Q1101",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Retains every required quantity and specimen definition. “Anisotropic conductivity under the tested conditions” correctly interprets the contrast, while “cannot establish suitability” appropriately limits high-temperature claims. The alignment comparison remains explicitly prospective. Meets the word limit.",
+      "suggested_repair": "Optionally specify that other material features would be held constant in the proposed alignment comparison."
+    },
+    {
+      "case_id": "social-draft",
+      "blind_id": "Q1110",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 3,
+        "gap_handling": null
+      },
+      "rationale": "Preserves the purposive sample and institutional context without adding prevalence claims or quotations. “Some participants described both” grounds the interpretation that formal choice and informal constraint coexist within accounts. The argument is substantive, though “greater choice and constraints,” “having scheduling choices,” and the final sentence repeat closely related points. Meets the word limit.",
+      "suggested_repair": "Reduce repeated formulations of coexistence while retaining the distinction between formal options and their practical exercise."
+    },
+    {
+      "case_id": "social-draft",
+      "blind_id": "Q1111",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": null
+      },
+      "rationale": "Accurately retains the sample, context and within-account coexistence of themes. “Formal discretion and the perceived freedom to exercise it were distinct” develops a defensible analytic relationship without inventing motives or incidents. “In these accounts” appropriately bounds the concluding interpretation. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "social-polish",
+      "blind_id": "Q1120",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": null
+      },
+      "rationale": "Preserves all estimates, confidence intervals, sampling details, preregistration and cross-sectional design. Separates the exploratory subgroup finding from the main association and correctly explains that it “does not demonstrate” absence of an association. The missing interaction prevents an unsupported subgroup comparison. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "social-polish",
+      "blind_id": "Q1121",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": null
+      },
+      "rationale": "Accurately preserves all numerical and design information. “Smaller in magnitude but uncertain” is a valid description of the point estimate, followed by an explicit warning that the analyses “cannot establish whether the association differs.” Avoids causal inference, population representativeness and treating exploratory analysis as confirmatory. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "math-draft",
+      "blind_id": "Q1130",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "States the finite theorem with correct universal and existential quantifiers. The infinite counterexample motivates restricted extensions without ruling them out. “Under the additional compactness assumption D” preserves the conjecture's conditional scope, and “remains conjectural” clearly distinguishes it from the theorem. Meets the word limit.",
+      "suggested_repair": "Optionally identify K explicitly as an infinite class when introducing the conjecture."
+    },
+    {
+      "case_id": "math-draft",
+      "blind_id": "Q1131",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Precisely states fixed-point existence for every eligible finite set and map. “Condition C alone does not guarantee” existence on arbitrary infinite sets correctly explains the boundary. Explicitly identifies the “restricted infinite class K,” incorporates D and keeps the conjecture unproved. Its additional nonempty qualification is consistent with fixed-point existence. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "math-polish",
+      "blind_id": "Q1140",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Retains the epsilon-to-threshold-to-tail quantifier order and the fixed-theta restriction. Although the notation remains N(ε), “chosen for the fixed parameter” explicitly permits parameter dependence. Correctly withholds a rate, uniform convergence and a computable bound, while retaining the conjecture. Meets the word limit.",
+      "suggested_repair": "Optionally write N(ε,θ) to display the permitted parameter dependence directly."
+    },
+    {
+      "case_id": "math-polish",
+      "blind_id": "Q1141",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "“N(ε,θ)” makes parameter dependence explicit without changing the source quantifier order. Clearly separates proved pointwise convergence from the conjectured uniform rate and unsupported computable bound. Adds no assumptions or inappropriate empirical requirements. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "humanities-draft",
+      "blind_id": "Q1150",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Develops a source-linked argument from silent town to overlapping marketplace voices. “Speech may be present without counting” articulates selective recognition as an interpretation, without claiming authorial intent. Explicitly leaves changes in time or setting open and supplies a substantive payoff concerning narrative recognition. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "humanities-draft",
+      "blind_id": "Q1151",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Connects the two supplied scenes through the “distribution of narrative attention,” framing further interpretive questions without inventing textual details. Preserves the temporal or situational alternative. The final move to silence as “a category through which the narrator renders the town intelligible” provides argumentative force while remaining explicitly interpretive. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "humanities-polish",
+      "blind_id": "Q1160",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Preserves emptiness as paraphrase and develops the crowded-square contrast into an inquiry about narrative visibility. “May register” appropriately frames the interpretation; the paragraph distinguishes narrator perspective from author intention and preserves the time-of-day alternative. Removes the unsupported historical generalization and ends with a substantive interpretive question. Meets the word limit.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "humanities-polish",
+      "blind_id": "Q1161",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 3,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Accurately presents the scenes, keeps “selective recognition” provisional and explicitly separates narrator perspective from author intention. Preserves the unresolved time-of-day explanation and rejects era-wide generalization. The opening develops a useful argument about recognized presence, but the ending emphasizes “no basis for generalizing” rather than consolidating its interpretive payoff. Meets the word limit.",
+      "suggested_repair": "End by explaining what provisional selective recognition reveals about narrative presence, while retaining the open temporal alternative."
+    }
+  ],
+  "pairwise": [
+    {
+      "case_id": "engineering-polish",
+      "preferred": "Q1100",
+      "reason": "Both meet the requirements; Q1100 makes the proposed alignment test more focused by explicitly holding other material features constant."
+    },
+    {
+      "case_id": "social-draft",
+      "preferred": "Q1111",
+      "reason": "Both faithfully develop coexistence within accounts, but Q1111 articulates formal discretion versus perceived freedom with less repetition."
+    },
+    {
+      "case_id": "social-polish",
+      "preferred": "tie",
+      "reason": "Both preserve all numerical and design facts and correctly distinguish the exploratory subgroup estimate from evidence of subgroup differences."
+    },
+    {
+      "case_id": "math-draft",
+      "preferred": "Q1131",
+      "reason": "Both are precise and appropriately calibrated; Q1131 more explicitly identifies K as an infinite class and integrates the conjecture's conditions into its quantified statement."
+    },
+    {
+      "case_id": "math-polish",
+      "preferred": "Q1141",
+      "reason": "Both preserve the logical scope, but Q1141 displays parameter dependence directly in N(ε,θ), making the pointwise restriction easier to assess."
+    },
+    {
+      "case_id": "humanities-draft",
+      "preferred": "Q1151",
+      "reason": "Both preserve the alternative reading; Q1151 gives the stronger interpretive payoff by explaining how silence can organize narrative intelligibility despite the unresolved alternative."
+    },
+    {
+      "case_id": "humanities-polish",
+      "preferred": "Q1160",
+      "reason": "Both correct unsupported claims and retain the temporal alternative, but Q1160 concludes with the positive interpretive stakes rather than primarily an evidentiary disclaimer."
+    }
+  ]
+}

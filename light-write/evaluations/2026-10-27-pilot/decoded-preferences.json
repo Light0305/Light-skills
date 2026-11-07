@@ -1,0 +1,594 @@
+[
+  {
+    "case_id": "computing-draft",
+    "preferred": "Q1001",
+    "reason": "More tightly connects the motivating question to the trade-off and explains what the single-run limitation means.",
+    "selected": {
+      "phase": "before",
+      "arm": "upstream",
+      "case_id": "computing-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "computing-polish",
+    "preferred": "tie",
+    "reason": "Both preserve all conditions and calibrate attribution correctly; Q1011 adds useful arithmetic summaries, while Q1010 is equally complete and coherent.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "biology-draft",
+    "preferred": "Q1021",
+    "reason": "Marginally stronger discrimination between explanations: it specifies the implications of both persistence and convergence and avoids treating M's uncertain response as independence.",
+    "selected": {
+      "phase": "before",
+      "arm": "upstream",
+      "case_id": "biology-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "biology-polish",
+    "preferred": "tie",
+    "reason": "Both accurately repair replication and mechanism claims while preserving the result and providing the required note.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "clinical-draft",
+    "preferred": "Q1040",
+    "reason": "Both are short under the specified Han-character counting rule, but Q1040 more carefully frames unmeasured confounding as a possibility rather than an established uncontrolled feature.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "clinical-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "clinical-polish",
+    "preferred": "tie",
+    "reason": "Both meet the two-sentence requirement and precisely separate internal discrimination from clinical benefit and broader validation.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "engineering-draft",
+    "preferred": "Q1061",
+    "reason": "Both are accurate and bounded; Q1061 ends with a slightly stronger substantive contribution grounded in the resistance sensitivity.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "engineering-polish",
+    "preferred": "tie",
+    "reason": "Both preserve every required fact, correct the overclaims and offer a focused prospective alignment test. Q1100 specifies controls more explicitly; Q1101 is more concise.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "social-draft",
+    "preferred": "Q1110",
+    "reason": "Both interpret the tension faithfully, but Q1110 reads more naturally as Findings and avoids Q1111’s assignment-facing “author-supplied analysis.”",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "social-draft"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "social-polish",
+    "preferred": "tie",
+    "reason": "Both accurately preserve the estimates and inferential boundaries, distinguish exploratory subgroup analysis and reject unsupported subgroup differences.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "math-draft",
+    "preferred": "Q1131",
+    "reason": "Its conjecture explicitly quantifies over nonempty infinite members of K satisfying D, making the restricted extension clearer.",
+    "selected": {
+      "phase": "before",
+      "arm": "upstream",
+      "case_id": "math-draft"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "math-polish",
+    "preferred": "Q1141",
+    "reason": "Explicit parameter-dependent notation makes the distinction between pointwise convergence and a uniform threshold especially clear.",
+    "selected": {
+      "phase": "before",
+      "arm": "upstream",
+      "case_id": "math-polish"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "humanities-draft",
+    "preferred": "tie",
+    "reason": "Both develop a persuasive, scene-grounded interpretation while leaving the temporal or spatial alternative unresolved and avoiding authorial-intent claims.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "humanities-polish",
+    "preferred": "Q1161",
+    "reason": "The progression from the contrasting scenes to the limits of the narrator’s perspective gives the interpretation a slightly stronger payoff while preserving all qualifications.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "humanities-polish"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "computing-draft",
+    "preferred": "Q2001",
+    "reason": "Both are accurate and complete; Q2001 more clearly explains what one run leaves unresolved and integrates the trade-off into a cautiously framed contribution.",
+    "selected": {
+      "phase": "before",
+      "arm": "upstream",
+      "case_id": "computing-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "computing-polish",
+    "preferred": "tie",
+    "reason": "Both preserve every required measurement and condition, explain the latency trade-off, and appropriately limit attribution and mechanism claims.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "biology-draft",
+    "preferred": "Q2021",
+    "reason": "Both offer defensible synthesis and a discriminating proposal; Q2021 additionally integrates biological replication and the missing rescue in M without losing argumentative focus.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "biology-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "biology-polish",
+    "preferred": "Q2031",
+    "reason": "Both correctly repair replication and mechanism claims; Q2031 identifies drug T directly in the substantive result and states the nested-replication correction especially clearly.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "biology-polish"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "clinical-draft",
+    "preferred": "Q2040",
+    "reason": "Both are shorter than requested, but Q2040 more faithfully presents unmeasured confounding as a possibility instead of asserting that it was uncontrolled.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "clinical-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "clinical-polish",
+    "preferred": "tie",
+    "reason": "Both satisfy the two-sentence format, preserve all estimates and validation boundaries, and clearly separate predictive discrimination from demonstrated clinical benefit.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "engineering-draft",
+    "preferred": "Q2061",
+    "reason": "Both are faithful and bounded; Q2061 ends with a clearer engineering implication drawn from the resistance sensitivity and prototype comparison.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "engineering-polish",
+    "preferred": "Q2100",
+    "reason": "Both satisfy the task; Q2100 makes the focused follow-up more discriminating by explicitly holding other material features constant.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-polish"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "social-draft",
+    "preferred": "Q2111",
+    "reason": "Develops the relationship between available choices and informal constraints more directly, with less repetition and no drafting-oriented reference to the author-supplied analysis.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "social-draft"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "social-polish",
+    "preferred": "tie",
+    "reason": "Both preserve all numerical and design facts and correctly distinguish the main association, exploratory subgroup uncertainty and unestimated interaction.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "math-draft",
+    "preferred": "tie",
+    "reason": "Both state the theorem precisely, use the infinite counterexample constructively and keep the restricted K-and-D extension explicitly conjectural.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "math-polish",
+    "preferred": "Q2141",
+    "reason": "Both are correct, but Q2141 makes the permitted theta dependence visible in the threshold notation itself.",
+    "selected": {
+      "phase": "before",
+      "arm": "upstream",
+      "case_id": "math-polish"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "humanities-draft",
+    "preferred": "Q2151",
+    "reason": "Offers a slightly stronger conceptual payoff through narrative attention and silence as a category, while preserving the alternative explanation.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "humanities-draft"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "humanities-polish",
+    "preferred": "tie",
+    "reason": "Both provide a substantive selective-recognition argument, preserve the temporal counter-reading and correct unsupported authorial and historical claims.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "reviews"
+  },
+  {
+    "case_id": "computing-draft",
+    "preferred": "Q1001",
+    "reason": "Its explicit trade-off question gives the Introduction stronger argumentative direction, and its closing limitation is more tightly connected to the contribution.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "computing-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "computing-polish",
+    "preferred": "tie",
+    "reason": "Both preserve every measurement and condition, explain the latency trade-off, and correctly limit attribution and mechanistic interpretation; wording differences are minor.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "biology-draft",
+    "preferred": "Q1021",
+    "reason": "Both are scientifically well calibrated, but Q1021 more fully explains how contrasting outcomes of the proposed experiment would discriminate between explanations.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "biology-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "biology-polish",
+    "preferred": "tie",
+    "reason": "Both accurately correct biological replication, preserve the full reported result, and provide an appropriate separate explanatory note.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "clinical-draft",
+    "preferred": "Q1041",
+    "reason": "It meets the Chinese-character requirement and adds a useful tentative explanation of the sensitivity-analysis change without asserting its cause.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "clinical-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "clinical-polish",
+    "preferred": "tie",
+    "reason": "Both satisfy the exact sentence structure, preserve all supplied facts, and distinguish internal discrimination from clinical benefit using specific validation gaps.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "engineering-draft",
+    "preferred": "Q1061",
+    "reason": "Both are faithful and bounded, but Q1061 delivers the model-to-device argument more economically and avoids repeating the unresolved comparative-performance limitation.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-draft"
+    },
+    "reviewer": "reviewer-1-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "engineering-polish",
+    "preferred": "Q1100",
+    "reason": "Both meet the requirements; Q1100 makes the proposed alignment test more focused by explicitly holding other material features constant.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-polish"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "social-draft",
+    "preferred": "Q1111",
+    "reason": "Both faithfully develop coexistence within accounts, but Q1111 articulates formal discretion versus perceived freedom with less repetition.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "social-draft"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "social-polish",
+    "preferred": "tie",
+    "reason": "Both preserve all numerical and design facts and correctly distinguish the exploratory subgroup estimate from evidence of subgroup differences.",
+    "selected": "tie",
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "math-draft",
+    "preferred": "Q1131",
+    "reason": "Both are precise and appropriately calibrated; Q1131 more explicitly identifies K as an infinite class and integrates the conjecture's conditions into its quantified statement.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "math-draft"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "math-polish",
+    "preferred": "Q1141",
+    "reason": "Both preserve the logical scope, but Q1141 displays parameter dependence directly in N(ε,θ), making the pointwise restriction easier to assess.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "math-polish"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "humanities-draft",
+    "preferred": "Q1151",
+    "reason": "Both preserve the alternative reading; Q1151 gives the stronger interpretive payoff by explaining how silence can organize narrative intelligibility despite the unresolved alternative.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "humanities-draft"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "humanities-polish",
+    "preferred": "Q1160",
+    "reason": "Both correct unsupported claims and retain the temporal alternative, but Q1160 concludes with the positive interpretive stakes rather than primarily an evidentiary disclaimer.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "humanities-polish"
+    },
+    "reviewer": "reviewer-1-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "computing-draft",
+    "preferred": "Q2001",
+    "reason": "Frames the technical trade-off more directly and ends with a focused contribution and reproducibility boundary; Q2000 finishes with a broader limitation inventory.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "computing-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "computing-polish",
+    "preferred": "tie",
+    "reason": "Both preserve every required measurement and condition, integrate the accuracy–latency trade-off, and correctly limit attribution and mechanism claims.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "biology-draft",
+    "preferred": "tie",
+    "reason": "Both provide strong functional synthesis and a discriminating prospective experiment. Q2021 explicitly identifies missing rescue data in M; Q2020 more fully explains the alternative experimental outcomes.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "biology-polish",
+    "preferred": "tie",
+    "reason": "Both accurately correct biological replication, retain the estimate and uncertainty, remove unsupported mechanism and generalization, and supply the requested note.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "clinical-draft",
+    "preferred": "Q2041",
+    "reason": "Meets the Chinese-character requirement and develops a tentative explanation of the sensitivity result while explicitly withholding causal attribution.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "clinical-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "clinical-polish",
+    "preferred": "tie",
+    "reason": "Both satisfy the exact sentence format, preserve all required facts, and clearly distinguish internal discrimination from clinical benefit and implementation readiness.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "engineering-draft",
+    "preferred": "Q2061",
+    "reason": "Delivers the same accurate model-to-prototype reasoning with less repetition and a clearer bounded contribution.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-draft"
+    },
+    "reviewer": "reviewer-2-batch-1",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "engineering-polish",
+    "preferred": "Q2100",
+    "reason": "Both satisfy the requirements; Q2100 makes the proposed alignment comparison more focused by explicitly holding other material features constant.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "engineering-polish"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "social-draft",
+    "preferred": "Q2110",
+    "reason": "Both are faithful and interpretively sound, but Q2110 develops the distinction between formal discretion and perceived freedom with less repetition.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "social-draft"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "social-polish",
+    "preferred": "tie",
+    "reason": "Both preserve all numerical and design facts and correctly separate the main association from exploratory subgroup inference.",
+    "selected": "tie",
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "math-draft",
+    "preferred": "Q2130",
+    "reason": "Both are mathematically sound; Q2130 integrates the boundary and conjecture into a more natural paper introduction without source-facing phrasing.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "math-draft"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "math-polish",
+    "preferred": "Q2141",
+    "reason": "Both preserve the correct logical scope, but Q2141 makes permitted parameter dependence immediately visible in N(ε,θ).",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "math-polish"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "humanities-draft",
+    "preferred": "Q2151",
+    "reason": "Both support a defensible reading and preserve the alternative; Q2151 more sharply develops the payoff of silence as a narrative category.",
+    "selected": {
+      "phase": "before",
+      "arm": "light-write",
+      "case_id": "humanities-draft"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  },
+  {
+    "case_id": "humanities-polish",
+    "preferred": "Q2160",
+    "reason": "Both are accurate and appropriately tentative, but Q2160 concludes with the interpretive inquiry rather than a disclaimer about other novels.",
+    "selected": {
+      "phase": "after",
+      "arm": "light-write",
+      "case_id": "humanities-polish"
+    },
+    "reviewer": "reviewer-2-batch-2",
+    "comparison": "retests"
+  }
+]

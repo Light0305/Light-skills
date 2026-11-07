@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "check": "public_home",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "server": "cloudflare",
+      "html_title": "吱吱鼠AI - AI API Gateway"
+    },
+    {
+      "check": "models",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "server": "cloudflare",
+      "model_count": 3,
+      "configured_model_listed": true
+    }
+  ],
+  "generation_calls_in_this_diagnosis": 0
+}

@@ -1,0 +1,3 @@
+At 24 h, marker Z in cell line C was 1.6-fold that in vehicle-treated cultures (95% confidence interval, 1.1–2.2). This culture-level estimate was based on three separate cultures, each measured in two assay wells. The six assay-well readings were nested within cultures, giving three biological replicates with two technical replicates each. These results support a treatment-associated increase in marker Z in cell line C. No direct binding experiment was performed, so the results do not establish direct binding of drug T to regulator Q or generalisability across cell types.
+
+Note: Biological replication was corrected to n = 3; unsupported claims of direct binding and effects in every cell type were removed.

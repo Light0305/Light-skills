@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Review · 投稿前内部评审"
+  short_description: "审查完成稿的证据、方法、图表与投稿准备，并追踪问题修复和复核关闭"
+  default_prompt: "使用 $light-review 对完成稿、最终图表与补充材料做投稿前内部评审，列出有证据、可定位、可关闭的问题，并分别判断科学与投稿材料就绪状态。"

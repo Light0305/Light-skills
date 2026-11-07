@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 9.03 Build 0)  -->
+<svg version="1.1" id="Main" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 150" enable-background="new 0 0 300 150" xml:space="preserve">
+<font horiz-adv-x="2048">
+<!-- Arial is a trademark of The Monotype Corporation. -->
+<!-- Copyright: Copyright 2026 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="ArialMT" units-per-em="2048" underline-position="-217" underline-thickness="150"/>
+<missing-glyph horiz-adv-x="1536" d="M256,0l0,1280l1024,0l0,-1280M288,32l960,0l0,1216l-960,0z"/>
+<glyph unicode="A" horiz-adv-x="1366" d="M-3,0l563,1466l209,0l600,-1466l-221,0l-171,444l-613,0l-161,-444M420,602l497,0l-153,406C717,1131 683,1233 660,1312C641,1218 615,1125 581,1032z"/>
+<glyph unicode="B" horiz-adv-x="1366" d="M150,0l0,1466l550,0C812,1466 902,1451 970,1422C1037,1392 1090,1346 1129,1285C1167,1223 1186,1158 1186,1091C1186,1028 1169,969 1135,914C1101,859 1050,814 981,780C1070,754 1138,710 1186,647C1233,584 1257,510 1257,425C1257,356 1243,293 1214,234C1185,175 1149,129 1106,97C1063,65 1010,41 946,25C881,8 802,0 709,0M344,850l317,0C747,850 809,856 846,867C895,882 933,906 958,940C983,974 995,1017 995,1068C995,1117 983,1160 960,1197C937,1234 903,1259 860,1273C817,1286 742,1293 637,1293l-293,0M344,173l365,0C772,173 816,175 841,180C886,188 923,201 953,220C983,239 1008,266 1027,302C1046,337 1056,378 1056,425C1056,480 1042,527 1014,568C986,608 947,636 898,653C848,669 776,677 683,677l-339,0z"/>
+</font>
+
+	<g id="LD_x5F_GROUP_x5F_group">
+	<g id="LD_x5F_A_x5F__x5F_with_x5F_text">
+		
+			<rect id="LD_x5F_A" x="15" y="45" fill="#E0EFFD" stroke="#27303B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="75" height="37.5"/>
+		
+			<text id="LD_x5F_A_x5F__x5F_text" transform="matrix(1 0 0 1 47.9976 68.582)" fill="#142530" font-family="'ArialMT'" font-size="13.5px">A</text>
+	</g>
+	<g id="LD_x5F_B_x5F__x5F_with_x5F_text">
+		
+			<ellipse id="LD_x5F_B" fill="#E0EFFD" stroke="#27303B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="247.5" cy="63.75" rx="37.5" ry="18.75"/>
+		
+			<text id="LD_x5F_B_x5F__x5F_text" transform="matrix(1 0 0 1 242.8625 68.582)" fill="#142530" font-family="'ArialMT'" font-size="13.5px">B</text>
+	</g>
+	<g id="LD_x5F_edge">
+		
+			<line id="LD_x5F_edge_x5F__x5F_path" fill="none" stroke="#27303B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="90" y1="63.75" x2="210" y2="63.75"/>
+		<polygon id="LD_x5F_edge_x5F__x5F_arrow" fill="#27303B" points="210,63.75 203.25,66.99 203.25,60.51 		"/>
+	</g>
+</g>
+</svg>

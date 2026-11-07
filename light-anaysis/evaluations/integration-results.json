@@ -1,0 +1,29 @@
+{
+  "synthetic_validation": true,
+  "upstream_runs": 2,
+  "native_upstream_integrity_before_deliberate_mutation": true,
+  "design_validation": "passed",
+  "design_id": "D01",
+  "design_version": 3,
+  "selection": {
+    "idea_id": "I01",
+    "idea_version": 2
+  },
+  "independent_problems": 1,
+  "solutions": 6,
+  "computed_orders": {
+    "euler": [
+      1.0153656417866397,
+      1.0075973087455237
+    ],
+    "rk4": [
+      4.030082802947158,
+      4.015039812839075
+    ]
+  },
+  "analysis_verified": true,
+  "handoff_route": "stop",
+  "upstream_preserved": true,
+  "raw_drift_rejected": true,
+  "boundary": "Synthetic known-answer integration only; no domain research or independent model behavior evaluation"
+}

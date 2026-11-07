@@ -1,0 +1,45 @@
+test_allowlist_is_bound_to_exact_location_and_reason (test_pipeline.CaseTest.test_allowlist_is_bound_to_exact_location_and_reason) ... ok
+test_changed_file_invalidates_snapshot (test_pipeline.CaseTest.test_changed_file_invalidates_snapshot) ... ok
+test_empty_project_is_not_success (test_pipeline.CaseTest.test_empty_project_is_not_success) ... ok
+test_init_preserves_existing_facts (test_pipeline.CaseTest.test_init_preserves_existing_facts) ... ok
+test_missing_decision_blocks_incomplete_scope (test_pipeline.CaseTest.test_missing_decision_blocks_incomplete_scope) ... ok
+test_new_file_invalidates_snapshot (test_pipeline.CaseTest.test_new_file_invalidates_snapshot) ... ok
+test_notebook_code_cells_only (test_pipeline.CaseTest.test_notebook_code_cells_only) ... ok
+test_output_directory_inside_project_is_excluded (test_pipeline.CaseTest.test_output_directory_inside_project_is_excluded) ... ok
+test_page_boundaries_and_no_duplicate_source (test_pipeline.CaseTest.test_page_boundaries_and_no_duplicate_source) ... ok
+test_path_escape_is_rejected (test_pipeline.CaseTest.test_path_escape_is_rejected) ... ok
+test_secrets_fail_without_export_or_value_in_report (test_pipeline.CaseTest.test_secrets_fail_without_export_or_value_in_report) ... ok
+test_source_page_tampering_is_detected (test_pipeline.CaseTest.test_source_page_tampering_is_detected) ... ok
+test_symlink_to_outside_is_not_followed (test_pipeline.CaseTest.test_symlink_to_outside_is_not_followed) ... skipped 'Symlink creation unavailable in this Windows environment'
+test_unknown_source_and_chinese_encoding_are_not_lost (test_pipeline.CaseTest.test_unknown_source_and_chinese_encoding_are_not_lost) ... ok
+test_whitespace_comments_and_original_lines_are_preserved (test_pipeline.CaseTest.test_whitespace_comments_and_original_lines_are_preserved) ... ok
+test_fact_change_invalidates_existing_outputs (test_pipeline.RenderTest.test_fact_change_invalidates_existing_outputs) ... ok
+test_front_and_back_render_has_exact_60_pdf_pages (test_pipeline.RenderTest.test_front_and_back_render_has_exact_60_pdf_pages) ... ok
+test_image_input_hash_and_real_file_are_checked (test_pipeline.RenderTest.test_image_input_hash_and_real_file_are_checked) ... ok
+test_long_lines_fail_instead_of_truncating (test_pipeline.RenderTest.test_long_lines_fail_instead_of_truncating) ... ok
+test_manual_only_request_does_not_require_full_registration (test_pipeline.RenderTest.test_manual_only_request_does_not_require_full_registration) ... ok
+test_new_version_can_release_while_old_release_is_archived (test_pipeline.RenderTest.test_new_version_can_release_while_old_release_is_archived) ... ok
+test_placeholder_blocks_release_but_not_drafts (test_pipeline.RenderTest.test_placeholder_blocks_release_but_not_drafts) ... ok
+test_real_docx_pdf_and_worksheet_end_to_end (test_pipeline.RenderTest.test_real_docx_pdf_and_worksheet_end_to_end) ... ok
+test_unsupported_glyph_is_reported_instead_of_replaced (test_pipeline.RenderTest.test_unsupported_glyph_is_reported_instead_of_replaced) ... ok
+test_user_edit_is_preserved_before_regeneration (test_pipeline.RenderTest.test_user_edit_is_preserved_before_regeneration) ... ok
+test_bad_last_document_does_not_publish_half_bundle (test_three_documents.ThreeDocumentTest.test_bad_last_document_does_not_publish_half_bundle) ... ok
+test_bundle_release_has_only_three_docx_and_does_not_overwrite (test_three_documents.ThreeDocumentTest.test_bundle_release_has_only_three_docx_and_does_not_overwrite) ... ok
+test_default_cli_creates_exactly_three_distinct_docx (test_three_documents.ThreeDocumentTest.test_default_cli_creates_exactly_three_distinct_docx) ... ok
+test_docx_short_code_works_without_optional_pdf_library (test_three_documents.ThreeDocumentTest.test_docx_short_code_works_without_optional_pdf_library) ... ok
+test_each_document_needs_its_own_feature_anchor (test_three_documents.ThreeDocumentTest.test_each_document_needs_its_own_feature_anchor) ... ok
+test_existing_draft_user_edits_are_preserved (test_three_documents.ThreeDocumentTest.test_existing_draft_user_edits_are_preserved) ... ok
+test_functions_change_leaves_code_and_manual_current (test_three_documents.ThreeDocumentTest.test_functions_change_leaves_code_and_manual_current) ... ok
+test_invalid_steps_are_not_silently_rendered_as_character_list (test_three_documents.ThreeDocumentTest.test_invalid_steps_are_not_silently_rendered_as_character_list) ... ok
+test_layout_changes_need_explicit_review (test_three_documents.ThreeDocumentTest.test_layout_changes_need_explicit_review) ... ok
+test_native_styles_list_cover_and_page_field (test_three_documents.ThreeDocumentTest.test_native_styles_list_cover_and_page_field) ... ok
+test_new_case_defaults_to_three_documents_without_private_facts (test_three_documents.ThreeDocumentTest.test_new_case_defaults_to_three_documents_without_private_facts) ... ok
+test_reference_docx_long_line_is_not_silently_clipped (test_three_documents.ThreeDocumentTest.test_reference_docx_long_line_is_not_silently_clipped) ... ok
+test_single_release_keeps_source_binding (test_three_documents.ThreeDocumentTest.test_single_release_keeps_source_binding) ... ok
+test_source_changes_invalidate_document_evidence_without_optional_hash (test_three_documents.ThreeDocumentTest.test_source_changes_invalidate_document_evidence_without_optional_hash) ... ok
+test_unmeasured_wide_cjk_line_is_rejected (test_three_documents.ThreeDocumentTest.test_unmeasured_wide_cjk_line_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 15.128s
+
+OK (skipped=1)

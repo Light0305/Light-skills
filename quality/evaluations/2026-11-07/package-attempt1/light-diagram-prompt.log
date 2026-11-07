@@ -1,0 +1,50 @@
+test_complete_examples_have_no_placeholders (test_documents.DocumentTests.test_complete_examples_have_no_placeholders) ... ok
+test_core_has_no_machine_specific_dependency (test_documents.DocumentTests.test_core_has_no_machine_specific_dependency) ... ok
+test_markdown_fences_are_balanced (test_documents.DocumentTests.test_markdown_fences_are_balanced) ... ok
+test_referenced_bundled_files_exist (test_documents.DocumentTests.test_referenced_bundled_files_exist) ... ok
+test_skill_frontmatter (test_documents.DocumentTests.test_skill_frontmatter) ... ok
+test_actual_base64_http_and_exact_prompt (test_image_service.ClientTests.test_actual_base64_http_and_exact_prompt) ... ok
+test_broken_custom_config_does_not_block_available_host (test_image_service.ClientTests.test_broken_custom_config_does_not_block_available_host) ... ok
+test_changed_prompt_requires_republication (test_image_service.ClientTests.test_changed_prompt_requires_republication) ... ok
+test_cli_custom_generates_and_keeps_prompt_link (test_image_service.ClientTests.test_cli_custom_generates_and_keeps_prompt_link) ... ok
+test_cli_refuses_call_without_prompt_publication (test_image_service.ClientTests.test_cli_refuses_call_without_prompt_publication) ... ok
+test_existing_output_is_preserved (test_image_service.ClientTests.test_existing_output_is_preserved) ... ok
+test_failure_is_recorded_without_retry_or_key_echo (test_image_service.ClientTests.test_failure_is_recorded_without_retry_or_key_echo) ... ok
+test_nonimage_bytes_are_not_success (test_image_service.ClientTests.test_nonimage_bytes_are_not_success) ... ok
+test_plan_has_zero_http_calls (test_image_service.ClientTests.test_plan_has_zero_http_calls) ... ok
+test_prompt_only_ignores_unreadable_config (test_image_service.ClientTests.test_prompt_only_ignores_unreadable_config) ... ok
+test_queued_job_is_not_success (test_image_service.ClientTests.test_queued_job_is_not_success) ... ok
+test_redirect_does_not_resend_auth_or_post (test_image_service.ClientTests.test_redirect_does_not_resend_auth_or_post) ... ok
+test_url_download_has_no_api_auth (test_image_service.ClientTests.test_url_download_has_no_api_auth) ... ok
+test_available_host_precedes_custom (test_image_service.RoutingTests.test_available_host_precedes_custom) ... ok
+test_base_url_construction (test_image_service.RoutingTests.test_base_url_construction) ... ok
+test_base_url_origin_uses_v1 (test_image_service.RoutingTests.test_base_url_origin_uses_v1) ... ok
+test_custom_when_host_absent (test_image_service.RoutingTests.test_custom_when_host_absent) ... ok
+test_env_key_precedes_literal (test_image_service.RoutingTests.test_env_key_precedes_literal) ... ok
+test_explicit_custom_endpoint_path_is_preserved (test_image_service.RoutingTests.test_explicit_custom_endpoint_path_is_preserved) ... ok
+test_explicit_custom_overrides_host (test_image_service.RoutingTests.test_explicit_custom_overrides_host) ... ok
+test_explicit_prompt_only_overrides_both (test_image_service.RoutingTests.test_explicit_prompt_only_overrides_both) ... ok
+test_incomplete_config_delivers_prompt (test_image_service.RoutingTests.test_incomplete_config_delivers_prompt) ... ok
+test_params_cannot_replace_published_prompt (test_image_service.RoutingTests.test_params_cannot_replace_published_prompt) ... ok
+test_prompt_only_without_capabilities (test_image_service.RoutingTests.test_prompt_only_without_capabilities) ... ok
+test_remote_insecure_url_rejected (test_image_service.RoutingTests.test_remote_insecure_url_rejected) ... ok
+test_service_origin_is_completed_to_image_endpoint (test_image_service.RoutingTests.test_service_origin_is_completed_to_image_endpoint) ... ok
+test_unknown_host_requires_discovery (test_image_service.RoutingTests.test_unknown_host_requires_discovery) ... ok
+test_unsupported_protocol_does_not_claim_compatibility (test_image_service.RoutingTests.test_unsupported_protocol_does_not_claim_compatibility) ... ok
+test_v1_url_prefix_is_completed_to_image_endpoint (test_image_service.RoutingTests.test_v1_url_prefix_is_completed_to_image_endpoint) ... ok
+test_absent_metadata_and_no_matching_keywords (test_search_reference_figures.ReferenceSearchTests.test_absent_metadata_and_no_matching_keywords) ... ok
+test_bad_metadata_and_bad_limit_fail_cleanly (test_search_reference_figures.ReferenceSearchTests.test_bad_metadata_and_bad_limit_fail_cleanly) ... ok
+test_contact_sheet_created_and_existing_file_is_not_overwritten (test_search_reference_figures.ReferenceSearchTests.test_contact_sheet_created_and_existing_file_is_not_overwritten) ... ok
+test_duplicate_basenames_use_full_metadata_paths (test_search_reference_figures.ReferenceSearchTests.test_duplicate_basenames_use_full_metadata_paths) ... ok
+test_empty_corpus_returns_empty_results (test_search_reference_figures.ReferenceSearchTests.test_empty_corpus_returns_empty_results) ... ok
+test_missing_input_and_help (test_search_reference_figures.ReferenceSearchTests.test_missing_input_and_help) ... ok
+test_missing_pillow_still_returns_text_candidates (test_search_reference_figures.ReferenceSearchTests.test_missing_pillow_still_returns_text_candidates) ... ok
+test_pattern_filters_unmatched_records (test_search_reference_figures.ReferenceSearchTests.test_pattern_filters_unmatched_records) ... ok
+test_single_image_root_keeps_metadata_lookup (test_search_reference_figures.ReferenceSearchTests.test_single_image_root_keeps_metadata_lookup) ... ok
+test_text_search_maps_metadata_across_images_prefix (test_search_reference_figures.ReferenceSearchTests.test_text_search_maps_metadata_across_images_prefix) ... ok
+test_utf8_path_prints_without_console_encoding_error (test_search_reference_figures.ReferenceSearchTests.test_utf8_path_prints_without_console_encoding_error) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 7.163s
+
+OK

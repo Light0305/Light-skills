@@ -1,0 +1,566 @@
+{
+  "as_of": "2026-11-02",
+  "purpose": "Targeted design research; not a systematic review or a performance ranking",
+  "repository_retrieval": "GitHub repository metadata, recursive tree and commits endpoints; selected pinned raw files read locally",
+  "repositories": [
+    {
+      "repository": "zero565656/journal-recommender",
+      "url": "https://github.com/zero565656/journal-recommender",
+      "commit_sha": "407aff106677aac090bf2d177155db15e3593126",
+      "commit_date": "2026-05-27T12:21:50Z",
+      "license_spdx_from_github": null,
+      "reviewed_files": [
+        {
+          "path": "SKILL.md",
+          "url": "https://github.com/zero565656/journal-recommender/blob/407aff106677aac090bf2d177155db15e3593126/SKILL.md"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "huangwb8/ChineseResearchLaTeX",
+      "url": "https://github.com/huangwb8/ChineseResearchLaTeX",
+      "commit_sha": "3022b19f3bcc6b085e1cd636c81aa2f59a6f70e1",
+      "commit_date": "2026-11-01T05:22:19Z",
+      "license_spdx_from_github": "MIT",
+      "reviewed_files": [
+        {
+          "path": "skills/paper-select-journal/SKILL.md",
+          "url": "https://github.com/huangwb8/ChineseResearchLaTeX/blob/3022b19f3bcc6b085e1cd636c81aa2f59a6f70e1/skills/paper-select-journal/SKILL.md"
+        },
+        {
+          "path": "skills/paper-select-journal/references/journal-quality-checklist.md",
+          "url": "https://github.com/huangwb8/ChineseResearchLaTeX/blob/3022b19f3bcc6b085e1cd636c81aa2f59a6f70e1/skills/paper-select-journal/references/journal-quality-checklist.md"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "cLin-c/paper-skill",
+      "url": "https://github.com/cLin-c/paper-skill",
+      "commit_sha": "366b1da524de3a980e69deb49dd4a28547c6caac",
+      "commit_date": "2026-10-27T07:13:37Z",
+      "license_spdx_from_github": "MIT",
+      "reviewed_files": [
+        {
+          "path": "journal-strategy.md",
+          "url": "https://github.com/cLin-c/paper-skill/blob/366b1da524de3a980e69deb49dd4a28547c6caac/journal-strategy.md"
+        },
+        {
+          "path": "references/verification-policy.md",
+          "url": "https://github.com/cLin-c/paper-skill/blob/366b1da524de3a980e69deb49dd4a28547c6caac/references/verification-policy.md"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "brycewang-stanford/Awesome-Journal-Skills",
+      "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills",
+      "commit_sha": "932eb23331721b16e967c59f093781be1928b498",
+      "commit_date": "2026-09-27T08:08:26Z",
+      "license_spdx_from_github": "MIT",
+      "reviewed_files": [
+        {
+          "path": "shared-resources/journal-selection/journal-match.md",
+          "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/932eb23331721b16e967c59f093781be1928b498/shared-resources/journal-selection/journal-match.md"
+        },
+        {
+          "path": "shared-resources/journal-selection/eval/RESULTS.md",
+          "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/932eb23331721b16e967c59f093781be1928b498/shared-resources/journal-selection/eval/RESULTS.md"
+        },
+        {
+          "path": "tools/match_venues.py",
+          "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/932eb23331721b16e967c59f093781be1928b498/tools/match_venues.py"
+        },
+        {
+          "path": "tools/match_lib.py",
+          "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/932eb23331721b16e967c59f093781be1928b498/tools/match_lib.py"
+        },
+        {
+          "path": "tools/eval_journal_match.py",
+          "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/932eb23331721b16e967c59f093781be1928b498/tools/eval_journal_match.py"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "yujie-jason-zhang/horizon-academic-writing",
+      "url": "https://github.com/yujie-jason-zhang/horizon-academic-writing",
+      "commit_sha": "c8d8b38b29a17348d106af408ff8bad99e480a05",
+      "commit_date": "2026-09-18T01:47:01Z",
+      "license_spdx_from_github": "MIT",
+      "reviewed_files": [
+        {
+          "path": "skills/horizon-journal-recommender/SKILL.md",
+          "url": "https://github.com/yujie-jason-zhang/horizon-academic-writing/blob/c8d8b38b29a17348d106af408ff8bad99e480a05/skills/horizon-journal-recommender/SKILL.md"
+        },
+        {
+          "path": "skills/horizon-journal-recommender/references/journal_recommendation_guide.md",
+          "url": "https://github.com/yujie-jason-zhang/horizon-academic-writing/blob/c8d8b38b29a17348d106af408ff8bad99e480a05/skills/horizon-journal-recommender/references/journal_recommendation_guide.md"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "hztopcu/journal-fit-finder",
+      "url": "https://github.com/hztopcu/journal-fit-finder",
+      "commit_sha": "2624d0b40a444951157c626c01bda73c65c60b23",
+      "commit_date": "2026-07-09T16:24:38Z",
+      "license_spdx_from_github": "MIT",
+      "reviewed_files": [
+        {
+          "path": "journal-fit-finder/SKILL.md",
+          "url": "https://github.com/hztopcu/journal-fit-finder/blob/2624d0b40a444951157c626c01bda73c65c60b23/journal-fit-finder/SKILL.md"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "LLM-Journal-Rec/journal-recommendation-agent",
+      "url": "https://github.com/LLM-Journal-Rec/journal-recommendation-agent",
+      "commit_sha": "dca2d8a54c0a03e63bb8e037052b97bab962020f",
+      "commit_date": "2026-04-23T13:08:53Z",
+      "license_spdx_from_github": "MIT",
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/LLM-Journal-Rec/journal-recommendation-agent/blob/dca2d8a54c0a03e63bb8e037052b97bab962020f/README.md"
+        },
+        {
+          "path": "prompt.py",
+          "url": "https://github.com/LLM-Journal-Rec/journal-recommendation-agent/blob/dca2d8a54c0a03e63bb8e037052b97bab962020f/prompt.py"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "lucanard/journal-recommender",
+      "url": "https://github.com/lucanard/journal-recommender",
+      "commit_sha": "3f8a57f9cff86c761eab48546cf61c5a9430882a",
+      "commit_date": "2026-10-21T10:25:50Z",
+      "license_spdx_from_github": null,
+      "reviewed_files": [
+        {
+          "path": "recommender.py",
+          "url": "https://github.com/lucanard/journal-recommender/blob/3f8a57f9cff86c761eab48546cf61c5a9430882a/recommender.py"
+        }
+      ],
+      "review_scope": "targeted source review; not executed or benchmarked"
+    },
+    {
+      "repository": "Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "commit_sha": "69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7",
+      "commit_date": "2026-11-02T03:21:16Z",
+      "license_spdx_from_github": "Apache-2.0",
+      "reviewed_files": [],
+      "review_scope": "repository tree inspection only; adjacent workflow reference"
+    }
+  ],
+  "scholarly_references": [
+    {
+      "doi": "10.1002/leap.1521",
+      "url": "https://doi.org/10.1002/leap.1521",
+      "title": "Factors affecting authors' manuscript submission behaviour: A systematic review",
+      "authors": [
+        "Xiaoting Xu",
+        "Juan Xie",
+        "Jianjun Sun",
+        "Ying Cheng"
+      ],
+      "type": "journal-article",
+      "container_titles": [
+        "Learned Publishing"
+      ],
+      "volume": "36",
+      "issue": "2",
+      "pages_or_article": "285-298",
+      "published_date_parts": [
+        [
+          2023,
+          2,
+          14
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2023,
+          2,
+          14
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2023,
+          4
+        ]
+      ],
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1007/978-3-031-43849-3_20",
+      "url": "https://doi.org/10.1007/978-3-031-43849-3_20",
+      "title": "A Comparison of Automated Journal Recommender Systems",
+      "authors": [
+        "Elias Entrup",
+        "Ralph Ewerth",
+        "Anett Hoppe"
+      ],
+      "type": "book-chapter",
+      "container_titles": [
+        "Lecture Notes in Computer Science",
+        "Linking Theory and Practice of Digital Libraries"
+      ],
+      "volume": null,
+      "issue": null,
+      "pages_or_article": "230-238",
+      "published_date_parts": [
+        [
+          2023
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2023,
+          9,
+          22
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2023
+        ]
+      ],
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1007/s00799-023-00372-3",
+      "url": "https://doi.org/10.1007/s00799-023-00372-3",
+      "title": "Comparing different search methods for the open access journal recommendation tool B!SON",
+      "authors": [
+        "Elias Entrup",
+        "Anita Eppelin",
+        "Ralph Ewerth",
+        "Josephine Hartwig",
+        "Marco Tullney",
+        "Michael Wohlgemuth",
+        "Anett Hoppe"
+      ],
+      "type": "journal-article",
+      "container_titles": [
+        "International Journal on Digital Libraries"
+      ],
+      "volume": "25",
+      "issue": "3",
+      "pages_or_article": "505-516",
+      "published_date_parts": [
+        [
+          2023,
+          7,
+          20
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2023,
+          7,
+          20
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2024,
+          9
+        ]
+      ],
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1007/s11257-024-09400-6",
+      "url": "https://doi.org/10.1007/s11257-024-09400-6",
+      "title": "An explainable content-based approach for recommender systems: a case study in journal recommendation for paper submission",
+      "authors": [
+        "Luis M. de Campos",
+        "Juan M. Fernández-Luna",
+        "Juan F. Huete"
+      ],
+      "type": "journal-article",
+      "container_titles": [
+        "User Modeling and User-Adapted Interaction"
+      ],
+      "volume": "34",
+      "issue": "4",
+      "pages_or_article": "1431-1465",
+      "published_date_parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2024,
+          6,
+          6
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2024,
+          9
+        ]
+      ],
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1145/3640457.3688194",
+      "url": "https://doi.org/10.1145/3640457.3688194",
+      "title": "Can Editorial Decisions Impair Journal Recommendations? Analysing the Impact of Journal Characteristics on Recommendation Systems",
+      "authors": [
+        "Elias Entrup",
+        "Ralph Ewerth",
+        "Anett Hoppe"
+      ],
+      "type": "proceedings-article",
+      "container_titles": [
+        "18th ACM Conference on Recommender Systems"
+      ],
+      "volume": null,
+      "issue": null,
+      "pages_or_article": "1062-1066",
+      "published_date_parts": [
+        [
+          2024,
+          10,
+          8
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2024,
+          10,
+          8
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2024,
+          10,
+          8
+        ]
+      ],
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1038/s41598-024-77790-z",
+      "url": "https://doi.org/10.1038/s41598-024-77790-z",
+      "title": "A mixed-methods survey and focus group study to understand researcher and clinician preferences for a Journal Transparency Tool",
+      "authors": [
+        "Jeremy Y. Ng",
+        "Henry Liu",
+        "Mehvish Masood",
+        "Jassimar Kochhar",
+        "David Moher",
+        "Alan Ehrlich",
+        "Alfonso Iorio",
+        "Kelly D. Cobey"
+      ],
+      "type": "journal-article",
+      "container_titles": [
+        "Scientific Reports"
+      ],
+      "volume": "14",
+      "issue": "1",
+      "pages_or_article": "26626",
+      "published_date_parts": [
+        [
+          2024,
+          11,
+          4
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2024,
+          11,
+          4
+        ]
+      ],
+      "print_date_parts": null,
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1371/journal.pmed.1004542",
+      "url": "https://doi.org/10.1371/journal.pmed.1004542",
+      "title": "Predatory journals: What can we do to protect their prey?",
+      "authors": [
+        "Christine Laine",
+        "Dianne Babski",
+        "Vivienne C. Bachelet",
+        "Till W. Bärnighausen",
+        "Christopher Baethge",
+        "Kirsten Bibbins-Domingo",
+        "Frank Frizelle",
+        "Laragh Gollogly",
+        "Sabine Kleinert",
+        "Elizabeth Loder",
+        "João Monteiro",
+        "Eric J. Rubin",
+        "Peush Sahni",
+        "Christina C. Wee",
+        "Jin-Hong Yoo",
+        "Lilia Zakhama"
+      ],
+      "type": "journal-article",
+      "container_titles": [
+        "PLOS Medicine"
+      ],
+      "volume": "22",
+      "issue": "4",
+      "pages_or_article": "e1004542",
+      "published_date_parts": [
+        [
+          2025,
+          4,
+          2
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2025,
+          4,
+          2
+        ]
+      ],
+      "print_date_parts": null,
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "doi": "10.1093/med/9780197783030.003.0003",
+      "url": "https://doi.org/10.1093/med/9780197783030.003.0003",
+      "title": "Selecting a Journal",
+      "authors": [
+        "Jody W. Zylke"
+      ],
+      "type": "book-chapter",
+      "container_titles": [
+        "Principles of Scientific Writing and Biomedical Publication"
+      ],
+      "volume": null,
+      "issue": null,
+      "pages_or_article": "21-24",
+      "published_date_parts": [
+        [
+          2024,
+          11
+        ]
+      ],
+      "online_date_parts": null,
+      "print_date_parts": [
+        [
+          2024,
+          11
+        ]
+      ],
+      "metadata_verified_via": "Crossref REST /works/<DOI>, compared with publisher or author-institution record; see research-basis.md for reading depth"
+    },
+    {
+      "title": "An LLM-Powered Semantic Alignment Framework for Journal Recommendation",
+      "authors": [
+        "Yanglin Yan",
+        "Zicheng Xie",
+        "Tianchen Gao",
+        "Rui Pan",
+        "Hansheng Wang"
+      ],
+      "type": "preprint",
+      "arxiv_id": "2606.27930v1",
+      "url": "https://arxiv.org/abs/2606.27930v1",
+      "submitted_on": "2026-06-26",
+      "metadata_verified_via": "arXiv abstract and HTML v1; not treated as peer-reviewed"
+    },
+    {
+      "title": "When and Where To Submit A Paper",
+      "authors": [
+        "Daniel Luo"
+      ],
+      "type": "preprint",
+      "arxiv_id": "2402.01745v1",
+      "doi": "10.48550/arXiv.2402.01745",
+      "url": "https://arxiv.org/abs/2402.01745v1",
+      "submitted_on": "2024-01-29",
+      "metadata_verified_via": "arXiv abstract/version record; not treated as peer-reviewed"
+    }
+  ],
+  "guides_and_blogs": [
+    {
+      "title": "Choosing a journal for your research",
+      "organization": "EIFL",
+      "author": "Milica Ševkušić",
+      "url": "https://www.eifl.net/system/files/resources/202409/choosing-a-journal.pdf",
+      "published": "2024-08",
+      "access_scope": "extractable PDF text; author spelling follows the PDF in research-basis.md"
+    },
+    {
+      "title": "Testing Publisher AI Tools for Journal Selection: A Guide for Researchers",
+      "author": "Rebeka Kiss",
+      "url": "https://promptrevolution.poltextlab.com/testing-publisher-ai-tools-for-journal-selection-a-guide-for-researchers/",
+      "published": "2025-06-11",
+      "access_scope": "indexed page snapshot only; live fetch failed with 502 / SSL EOF"
+    },
+    {
+      "title": "New publication",
+      "organization": "TIB B!SON",
+      "url": "https://projects.tib.eu/bison/en/news/detail/neue-publikation/",
+      "published": "2024-10-24",
+      "access_scope": "indexed page snapshot; live page returned no readable text"
+    },
+    {
+      "title": "How to choose a journal",
+      "organization": "BMJ Author Hub",
+      "url": "https://authors.bmj.com/before-you-submit/how-to-choose-a-journal/",
+      "published": null,
+      "access_scope": "readable page text"
+    },
+    {
+      "title": "Choosing a journal",
+      "organization": "Taylor & Francis Author Services",
+      "url": "https://authorservices.taylorandfrancis.com/publishing-your-research/choosing-a-journal/",
+      "published": null,
+      "access_scope": "indexed readable page text"
+    },
+    {
+      "title": "Understanding journal metrics",
+      "organization": "Taylor & Francis Author Services",
+      "url": "https://authorservices.taylorandfrancis.com/publishing-your-research/choosing-a-journal/journal-metrics/",
+      "published": null,
+      "access_scope": "indexed readable page text"
+    },
+    {
+      "title": "Journals checklist",
+      "organization": "Think. Check. Submit.",
+      "url": "https://thinkchecksubmit.org/journals/",
+      "published": null,
+      "revision_note": "Page states March 2023 update and June 2023 amendments",
+      "access_scope": "readable current page text"
+    }
+  ],
+  "time_sensitive_authority": [
+    {
+      "title": "Statement on discontinuing the journal partition table",
+      "organization": "National Science Library, Chinese Academy of Sciences",
+      "published": "2026-03-27",
+      "url": "https://las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "access_scope": "official statement opened and read"
+    }
+  ],
+  "upgrade_checks": [
+    {
+      "checked_on": "2026-11-06",
+      "record": "../evaluations/2026-11-06-public-facts.json",
+      "scope": "PLOS费用/援助、JCR发布与重载版本等官方公开页面小样；原CAS声明本轮刷新失败，不覆盖旧阅读日期。不是完整选刊或真实研究效用评测。"
+    }
+  ],
+  "reuse": "No upstream source code or journal databases bundled; research-basis.md records independent summaries and design choices"
+}

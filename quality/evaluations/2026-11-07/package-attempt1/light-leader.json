@@ -1,0 +1,25 @@
+{
+  "run": 50,
+  "passed": 50,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 7.547,
+  "ok": true,
+  "name": "light-leader",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-leader\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-leader.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-leader"
+}

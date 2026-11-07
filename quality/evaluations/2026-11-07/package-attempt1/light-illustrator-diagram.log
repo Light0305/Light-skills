@@ -1,0 +1,25 @@
+test_bad_anchor (test_scenes.SceneTests.test_bad_anchor) ... ok
+test_bad_color (test_scenes.SceneTests.test_bad_color) ... ok
+test_boolean_canvas (test_scenes.SceneTests.test_boolean_canvas) ... ok
+test_boolean_point (test_scenes.SceneTests.test_boolean_point) ... ok
+test_boolean_scale (test_scenes.SceneTests.test_boolean_scale) ... ok
+test_bridge_failure_keeps_diagnostic_not_audit (test_scenes.SceneTests.test_bridge_failure_keeps_diagnostic_not_audit) ... ok
+test_duplicate_id (test_scenes.SceneTests.test_duplicate_id) ... ok
+test_empty_path (test_scenes.SceneTests.test_empty_path) ... ok
+test_historical_scenes (test_scenes.SceneTests.test_historical_scenes) ... ok
+test_infinite_scale (test_scenes.SceneTests.test_infinite_scale) ... ok
+test_invalid_gradient (test_scenes.SceneTests.test_invalid_gradient) ... ok
+test_invalid_under_optimized_python (test_scenes.SceneTests.test_invalid_under_optimized_python) ... ok
+test_missing_bbox (test_scenes.SceneTests.test_missing_bbox) ... ok
+test_missing_endpoint (test_scenes.SceneTests.test_missing_endpoint) ... ok
+test_negative_font (test_scenes.SceneTests.test_negative_font) ... ok
+test_root_array (test_scenes.SceneTests.test_root_array) ... ok
+test_short_polygon (test_scenes.SceneTests.test_short_polygon) ... ok
+test_text_run_outside_native_text (test_scenes.SceneTests.test_text_run_outside_native_text) ... ok
+test_unknown_curve (test_scenes.SceneTests.test_unknown_curve) ... ok
+test_valid (test_scenes.SceneTests.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.800s
+
+OK

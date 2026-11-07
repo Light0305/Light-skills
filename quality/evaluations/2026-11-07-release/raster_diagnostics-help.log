@@ -1,0 +1,16 @@
+usage: raster_diagnostics.py [-h] [--reference REFERENCE]
+                             [--white-tolerance WHITE_TOLERANCE] [--out OUT]
+                             images [images ...]
+
+Descriptive raster diagnostics, never a scientific or perceptual quality
+score.
+
+positional arguments:
+  images
+
+options:
+  -h, --help            show this help message and exit
+  --reference REFERENCE
+  --white-tolerance WHITE_TOLERANCE
+  --out OUT
+

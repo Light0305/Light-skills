@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "light-write completed generation and review record",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "run_id", "case_id", "case_sha256", "arm", "repetition", "started_at", "status", "model", "configuration", "skill_snapshot", "loaded_files", "input", "output", "stop_reason", "tool_evidence", "blind_id", "reviews"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": "string", "minLength": 1},
+    "case_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "arm": {"enum": ["baseline", "light-write", "upstream"]},
+    "repetition": {"type": "integer", "minimum": 1},
+    "started_at": {"type": "string", "minLength": 1},
+    "status": {"enum": ["completed", "truncated", "refused", "error"]},
+    "model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provider", "requested", "effective"],
+      "properties": {"provider": {"type": "string", "minLength": 1}, "requested": {"type": "string", "minLength": 1}, "effective": {"type": ["string", "null"], "minLength": 1}}
+    },
+    "configuration": {
+      "type": "object", "additionalProperties": false,
+      "required": ["harness", "settings", "system_instructions", "tool_policy"],
+      "properties": {"harness": {"type": "string", "minLength": 1}, "settings": {"type": "object"}, "system_instructions": {"type": "string"}, "tool_policy": {"type": "string", "minLength": 1}}
+    },
+    "skill_snapshot": {"type": ["string", "null"], "minLength": 1},
+    "loaded_files": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+        "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+      }
+    },
+    "input": {"type": "string", "minLength": 1},
+    "output": {"type": "string"},
+    "stop_reason": {"type": ["string", "null"]},
+    "tool_evidence": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "blind_id": {"type": "string", "minLength": 1},
+    "reviews": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["reviewer_id", "expertise", "blinded", "conflicts", "serious_failures", "scores", "rationale", "revision_minutes"],
+        "properties": {
+          "reviewer_id": {"type": "string", "minLength": 1},
+          "expertise": {"type": "string", "minLength": 1},
+          "blinded": {"type": "boolean"},
+          "conflicts": {"type": "string"},
+          "serious_failures": {
+            "type": "array", "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["category", "location", "reason"],
+              "properties": {"category": {"enum": ["fabrication", "fact_drift", "overclaim", "hidden_counterevidence", "scope_violation"]}, "location": {"type": "string", "minLength": 1}, "reason": {"type": "string", "minLength": 1}}
+            }
+          },
+          "scores": {
+            "type": "object", "additionalProperties": false,
+            "required": ["factual_fidelity", "evidence_calibration", "task_completion", "argument_quality", "domain_appropriateness", "language_quality", "gap_handling"],
+            "properties": {
+              "factual_fidelity": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+              "evidence_calibration": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+              "task_completion": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+              "argument_quality": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+              "domain_appropriateness": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+              "language_quality": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+              "gap_handling": {"type": ["integer", "null"], "minimum": 0, "maximum": 4}
+            }
+          },
+          "rationale": {"type": "string", "minLength": 1},
+          "revision_minutes": {"type": ["number", "null"], "minimum": 0}
+        }
+      }
+    }
+  }
+}

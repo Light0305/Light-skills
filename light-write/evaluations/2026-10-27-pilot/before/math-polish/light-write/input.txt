@@ -1,0 +1,497 @@
+Complete the manuscript task using only the supplied research material.
+Follow the attached writing guidance, subject to the explicit manuscript request.
+All guidance files needed for this fixed-context test are attached; do not open files,
+invoke skills, use tools, browse, run commands, delegate, or edit any files.
+Do not discuss this test or emit routing announcements. Return only the deliverable
+and any short, materially necessary author note permitted by the request.
+
+<guidance path="SKILL.md">
+---
+name: light-write
+description: Draft, restructure, polish, translate, shorten, or consistency-check scientific manuscripts from author-provided evidence. Use for academic writing, paper drafts, manuscript editing, 中英文论文写作、论文润色、学术翻译、论文结构修改、全文一致性检查. Does not create or edit figures.
+---
+
+# light-write
+
+Write or revise scientific manuscripts so that each claim is clear, useful, and supported by the material available. Treat the author's scientific meaning and evidence boundaries as invariants. Select only the workflow needed for the request.
+
+## Route the request
+
+First select the requested task and scale. Resolve every package path relative to the directory containing this `SKILL.md`, including paths mentioned inside reference or module files.
+
+| Request | Load |
+|---|---|
+| Draft or substantially restructure a section | `references/drafting.md` and the relevant section(s) of `references/sections.md` |
+| Polish, translate, or shorten existing text | `references/polishing.md`; add the relevant section guide only for structural edits |
+| Check internal consistency without rewriting | `references/consistency-check.md` |
+| Organize/compress empirical findings or relocate content | `references/results-allocation.md` and `references/sections.md#results-or-findings` |
+| Whole paper or multi-section translation | `references/working-ledgers.md` and `references/consistency-check.md` |
+| Recurring technical terms within a section | Relevant terminology entries in `references/working-ledgers.md`; check the supplied passage, not an unavailable whole paper |
+| Select structure for a genre or hybrid paper | `references/article-types.md` |
+| Route domain, genre, and exact venue guidance | `references/module-routing.md` plus relevant entries in `modules/catalog.json` |
+| Named journal/conference and verified requirements | `references/journal-adaptation.md`; load an exact venue module only if one exists and is applicable |
+| Worked synthetic illustration requested or useful for explaining approach | `references/examples.md` |
+| Any task that handles research claims, data, methods, or citations | `references/integrity-and-evidence.md` |
+
+A local sentence or paragraph normally needs only its task guide and the relevant integrity checks. Do not load every reference by default. For substantial work, use article-type routing before selecting section patterns; empirical Results allocation rules do not automatically apply to theory or review papers.
+
+## Choose the task
+
+- **Draft** — create text from research notes, results, an outline, or an existing draft; or restructure an argument when requested.
+- **Polish** — revise existing prose for language, translation, concision, or explicitly requested structural improvement.
+- **Check** — audit supplied text for internal consistency without rewriting it.
+
+Choose from the actual user request. If the user asks only for an edit, do not draft unrelated sections. Preserve the requested output language and format. Chinese input does not by itself mean the user wants English output; translate only when asked or clearly required by the deliverable.
+
+## Domain, genre, and venue
+
+For substantial work, read `references/module-routing.md` and select applicable field guidance from `modules/catalog.json`. Compose task → evidence form/domain → article type → section → exact venue, rather than imposing a publisher's prose style on every field. Local edits need field modules only when domain meaning or inference is at stake.
+
+All bundled field modules are draft starting guides, not expert-reviewed or performance-validated modules. No exact venue profiles are currently bundled. For an unrepresented field, fall back to the general core and use author-supplied conventions; do not invent a module or claim specialist authority. For interdisciplinary work, combine only the relevant rules from matching modules. A ranking category or publisher family is not a venue style.
+
+## Article type and scale
+
+Use the author's stated article type. If unclear, infer provisionally only when the materials make it safe; ask only if the type changes the structure materially. Read `references/article-types.md` for empirical research, methods/technical work, reviews/syntheses, theory/hypothesis papers, and protocols. Hybrids may combine approaches.
+
+Scale the workflow:
+
+- **Local edit:** preserve nearby context and verify only meaning-bearing details affected by the edit.
+- **Full section:** identify paragraph jobs, build a compact claim–evidence plan, draft/edit, and check section-specific obligations.
+- **Whole paper or major restructure:** use compact source, terminology, numerical-fact, and claim ledgers; check cross-section alignment and audit substantial content moves.
+
+Ledgers need not be shown as large tables unless useful or requested. Do not write research facts to project files without user permission.
+
+## Default workflow
+
+1. Identify deliverable, audience, article type, section, language, length, journal (if any), and output format. Infer routine details when safe; ask only when a material ambiguity would change the argument or make the deliverable unusable.
+2. Inventory the supplied evidence and constraints. Distinguish author-provided information from externally verified information, inference, and missing support.
+3. Load the minimum relevant workflow references using the table above.
+4. For substantial work, define the central argument and major claim–evidence links before prose. Track recurring terminology and values where the task warrants it.
+5. Draft or edit with claims close to their evidence. Preserve technical meaning, citations, numbers, uncertainty, and limitations.
+6. Run a proportional check: verify the edited passage locally; for multi-section work, check terminology, numbers, definitions, abstract/body alignment, methods/results alignment, and claim strength.
+7. Deliver the requested text first. Add only useful notes: material assumptions, evidence gaps, claim-boundary risks, or a concise summary of substantive changes. Respect rewrite-only requests while flagging unresolved factual conflicts that could mislead.
+
+## Non-negotiable boundaries
+
+- Never invent data, sample sizes, statistical results, methods, mechanisms, citations, quotations, study outcomes, search procedures, author decisions, or submission files.
+- Do not upgrade correlation to causation, prediction to mechanism, simulation to real-world deployment, association to proof, or a limited result to a universal claim.
+- Preserve direction, units, symbols, denominators, comparisons, confidence intervals, p values, sample definitions, negation, and uncertainty. If the source conflicts with itself, flag the conflict rather than choosing a value.
+- Keep relevant limitations and contrary evidence visible. Do not move evidence out of the main narrative if doing so would change interpretation.
+- Use a specific placeholder such as `[Evidence needed: provide the independent validation cohort and primary metric]` for essential missing information. List material placeholders; never silently fill them.
+- Treat a user's citations as supplied material, not verified sources. Preserve citation keys and intended associations; do not claim verification or fabricate bibliographic details.
+- Separate hard journal requirements from editorial conventions and corpus-based advice. Verify current official requirements before asserting a limit or mandatory policy.
+- This skill handles manuscript text only. It may draft text referring to user-provided figures or prepare figure captions from supplied data, but it does not create, edit, render, or evaluate figures.
+
+## Proportional output
+
+For a full section draft, include a concise outline and a claim–evidence map for major claims when useful. For local edits, provide the revised passage and only material notes. For a consistency audit, report issue, location, why it matters, and a concrete suggested fix; do not rewrite the whole paper unless requested. For substantial Results restructuring, provide a compact allocation/change audit when useful. Follow the user's requested format over these defaults.
+
+## Workflow references
+
+- `references/integrity-and-evidence.md` — source fidelity, claims, citations, numerical integrity, missing inputs, and compression safeguards.
+- `references/drafting.md` — evidence-led drafting and argument reconstruction.
+- `references/polishing.md` — editing, translation, tightening, and revision reporting.
+- `references/sections.md` — operational prompts for common manuscript sections.
+- `references/article-types.md` — genre-specific argument loads and structure cautions.
+- `references/working-ledgers.md` — source, claim, terminology, and numerical-fact ledgers.
+- `references/results-allocation.md` — finding classification, placement, and compression audits.
+- `references/consistency-check.md` — cross-section terminology, numbers, claims, and references.
+- `references/journal-adaptation.md` — optional target-journal adaptation and official-requirement checks.
+- `references/examples.md` — synthetic examples for ledger-to-prose and evidence allocation.
+
+</guidance>
+<guidance path="references/integrity-and-evidence.md">
+# Integrity and evidence
+
+Use this reference whenever a manuscript task handles scientific claims, results, methods, citations, or author-supplied research material.
+
+## Evidence ledger
+
+Before substantial drafting or restructuring, make a compact internal ledger with:
+
+| Item | Record |
+|---|---|
+| Claim | The exact scientific proposition the manuscript needs to make |
+| Support | Author-provided result, method, source, or other evidence supporting it |
+| Status | Supplied by author, independently verified, inference, or evidence needed |
+| Boundary | Population, conditions, comparison, uncertainty, and limitations |
+| Location | Intended section, paragraph, table, figure, or supplement, if specified |
+
+Keep major claims close to their support. Use strong language only when the supplied evidence supports it. Mark assumptions and unresolved evidence; do not disguise an inference as a direct observation.
+
+## Protect scientific meaning
+
+During drafting and editing, preserve all meaning-bearing details, including:
+
+- quantities, units, signs, ranges, confidence or credible intervals, p values, denominators, sample sizes, time points, and group labels;
+- comparison direction, baseline, endpoint, inclusion criteria, exclusions, and analysis population;
+- negation, conditionality, uncertainty, and the distinction between primary and exploratory analyses;
+- method names, technical terms, abbreviations, organism or population names, gene/protein symbols, and citation associations;
+- limitations and competing interpretations that materially affect the conclusion.
+
+For recurring terms, use the canonical form recorded in `references/working-ledgers.md`. Define abbreviations at first use according to the target journal or discipline. Preserve official names and notation, and ask the author to resolve a naming collision only when it could conflate distinct scientific concepts.
+
+For whole-manuscript or recurring-value work, record authoritative source and location in `references/working-ledgers.md`. Internal consistency does not verify the underlying data. Do not normalize, convert, or reconcile conflicting values without explicit source authority. If two supplied passages disagree, quote or identify the conflicting locations and request the authoritative value only if needed to finish that part.
+
+## Calibrate claims
+
+Choose verbs and scope to match the evidence. For example, an observed association may be described as associated with or linked to an outcome; it must not become caused or drove without suitable evidence. A predictive result does not by itself establish mechanism. An in-vitro, simulated, or benchmark result does not by itself demonstrate clinical, field, or deployment effectiveness. Avoid unsupported claims of novelty, superiority, generality, safety, or completeness.
+
+Do not assume a study design, statistical test, threshold, causal identification strategy, or validation protocol from field conventions. Use only what the author supplied or what was actually verified.
+
+## Citations and source use
+
+- Never invent a paper, author, year, title, DOI, quotation, or citation key.
+- Preserve user-provided citation keys and their intended claims unless the user requests a citation audit or the supplied context clearly shows a mismatch. Flag suspected mismatch rather than silently moving or deleting a citation.
+- A citation supplied by the author is not evidence that the assistant has checked the source. State verification status accurately.
+- When a claim needs support, use a precise placeholder such as `[Citation needed: source for the stated validation criterion]` or record the gap in notes.
+- Do not reproduce source text as original prose. Use brief quotations only when requested and clearly attributed; otherwise paraphrase while preserving meaning and citation intent.
+
+## Missing information
+
+Proceed with all independent work possible. Use specific, searchable placeholders for consequential missing material, for example:
+
+- `[Evidence needed: report the prespecified primary endpoint and its value]`
+- `[Author input needed: confirm whether this analysis was exploratory]`
+- `[Citation needed: source supporting the stated threshold]`
+
+List only material gaps that affect claims, interpretation, reproducibility, or the requested deliverable. Ask a focused question only when an unresolved choice would change the argument or prevent useful completion. Do not block unrelated sections while one passage awaits information.
+
+## Compression and allocation
+
+When shortening a manuscript, remove repetition before removing evidence or qualifications. Do not move a result, caveat, or contrary finding out of the main narrative if that would change the reader's interpretation. Keep a short change record for substantial restructuring: what was compressed, removed, replaced, or relocated, and whether word-count targets remain unmet. Do not claim a word limit is satisfied without counting the relevant text.
+
+</guidance>
+<guidance path="references/module-routing.md">
+# Module routing and precedence
+
+`light-write` separates reusable writing operations from context-specific guidance. Route only as far as the task needs; modules are additive lenses, not independent authorities.
+
+## Routing sequence
+
+1. **Task and scale:** choose draft, polish, or check; local passage, section, or whole manuscript.
+2. **Domain and evidence form:** identify the intellectual domain and what counts as evidence in the supplied work. Use one or more field modules only when they materially improve the task.
+3. **Article type:** select empirical, methods/technical, review/synthesis, theory/hypothesis, protocol, or a justified hybrid using `references/article-types.md`.
+4. **Section:** load only the relevant section guide. For substantial empirical Results organization, load `references/results-allocation.md`.
+5. **Venue:** resolve an exact journal/conference and article type before applying a venue module. Read official requirements only when the task involves compliance or exact limits.
+6. **Integrity:** preserve the source, evidence boundary, and author decisions regardless of module.
+
+The static module index is `modules/catalog.json`. Paths in it are relative to the skill root. Catalog entries describe available guidance and maturity; they are not a script or automatic classifier.
+
+## Applicability and ambiguity
+
+- Prefer the author's description over an inferred discipline label. Fields overlap: a clinical machine-learning study may need both clinical-health and computing guidance.
+- Combine modules only when each addresses a real part of the paper. Do not concatenate complete checklists mechanically or let one module overwrite the other.
+- A discipline name does not determine a study design, acceptable evidence, or causal interpretation. Use the actual methods and supplied reporting standard.
+- If the exact venue is unknown, use general writing guidance. A publisher family, ranking category, or venue list is not a single style profile: for example, CCF rank is metadata, and IEEE covers many venues.
+- If a user names an ambiguous acronym, ask what they mean before routing to a venue profile. Do not silently reinterpret names such as “AIII”.
+- When no relevant domain module exists, say so only when it affects the requested judgment, then use the general core and ask for domain conventions or an expert source as appropriate. Do not pretend to have venue-specific expertise.
+
+## Precedence and conflicts
+
+1. Preserve scientific facts, evidence boundaries, ethics, and the author's explicit scope.
+2. Respect applicable reporting standards and author-confirmed study decisions.
+3. Apply verified, current official venue requirements to format and submission constraints.
+4. Use reviewed domain/genre guidance for disciplinary argument and evidence conventions.
+5. Use venue editorial patterns and general writing advice as optional style guidance.
+
+These layers do not always conflict cleanly. Official format rules cannot justify changing a result or omitting a material limitation; domain conventions cannot override an explicitly documented method; general advice cannot be represented as official policy. If two requirements genuinely conflict, identify the conflict and request author direction or point to the venue's official clarification. Do not resolve the conflict by hiding evidence.
+
+## Maturity and provenance
+
+Before relying on a module's authority, check its `maturity` and `provenance` in the catalog and module file. A `draft` module is a starting hypothesis, not expert-validated guidance. Do not call an `evaluated` module validated unless its evaluation record identifies cases, configuration, reviewers, and limitations. Follow `standards/modules.md` for maturity definitions.
+
+</guidance>
+<guidance path="references/article-types.md">
+# Article-type routing
+
+Choose structure from the work's purpose and evidence, not from a default empirical-paper template. Use the user's stated article type when available. If it is unclear and the distinction affects the outline, ask a focused question; otherwise use a provisional type and state it briefly for substantial drafts.
+
+## Empirical research
+
+**Argument load:** A defined question, design, observations, analysis, and evidence-bounded interpretation.
+
+- Align the research question, prespecified or primary outcomes when supplied, methods, results, and conclusions.
+- Organize Results around the evidence chain needed to answer the question, not around chronology alone or a list of every analysis.
+- Separate planned from exploratory analyses and distinguish observations from interpretation.
+- Do not infer a design, comparator, causal claim, or statistical procedure from the field.
+
+## Methods, technical, or algorithmic contribution
+
+**Argument load:** A task or need, a specific technical limitation, design rationale, implementation, and evidence that the method performs the claimed function.
+
+- Explain the task and evaluation setting before claiming improvements.
+- Connect each design choice to the limitation or requirement it addresses.
+- Distinguish conceptual novelty, implementation contribution, benchmark performance, and demonstrated use.
+- Report comparison conditions and evaluation limits as provided; do not imply general superiority from a narrow benchmark.
+
+## Review or evidence synthesis
+
+**Argument load:** A scoped question, transparent selection/synthesis method when applicable, organized evidence, and a synthesis that reflects uncertainty and disagreement.
+
+- Establish scope, inclusion logic, time range, and synthesis method only from author-supplied or verified information.
+- Organize by themes, mechanisms, methods, populations, or points of disagreement rather than one paragraph per source by default.
+- Distinguish source findings from the manuscript authors' synthesis and identify gaps without claiming absence of evidence unless the search supports that claim.
+- Do not invent search strategies, screening counts, quality assessments, or consensus.
+
+## Theory, hypothesis, or perspective
+
+**Argument load:** A clearly scoped proposition, assumptions, reasoning chain, relation to existing evidence, and implications that follow conditionally from the argument.
+
+- State definitions and assumptions before relying on them.
+- Keep logical consequence separate from empirical confirmation.
+- Surface plausible alternatives or boundary conditions that materially affect the argument.
+- Do not present predictions as observations or a proposed framework as validated unless evidence is supplied.
+
+## Registered reports, protocols, and other designs
+
+Follow the design's own reporting conventions and submission stage. Keep planned hypotheses, methods, and analyses distinct from observed results. A protocol does not contain outcome claims unless the user supplies results from an appropriate completed study. Flag any missing design-specific requirements rather than substituting a generic research article structure.
+
+## Cross-type rule
+
+These categories guide organization; they do not impose journal rules. Hybrid papers may combine argument loads. Use only the applicable parts of `references/sections.md` and `references/results-allocation.md`; do not force sections that do not serve the manuscript's purpose.
+
+</guidance>
+<guidance path="references/sections.md">
+# Section-level writing playbook
+
+These are operational prompts, not mandatory templates or journal rules. Select the parts appropriate to the article type in `references/article-types.md`, the actual evidence, and the user's requested deliverable. Do not force every manuscript into an empirical article structure.
+
+## Title
+
+1. Identify the paper's actual subject, population/system, method, or principal finding, depending on what the author wants to foreground.
+2. Choose a scope that is specific enough to inform readers but no broader than the evidence.
+3. Check that causal, priority, universal, or superiority language is supported; avoid adding it for impact.
+4. Apply target-journal format only after checking current official guidance when the task requires exact compliance.
+
+## Abstract
+
+1. Identify article type, required format (structured or unstructured), word limit and target audience. Verify hard constraints if current compliance is requested.
+2. Build an information chain appropriate to the paper: a problem/question; approach or evidence base; principal result or synthesis; and bounded interpretation/implication. A protocol or theory paper may require a different chain and must not imply completed empirical findings.
+3. Select only evidence needed to represent the paper. Do not introduce a result, numerical value, method, limitation, or conclusion absent from the body or supplied source.
+4. Draft for clarity and compression; do not use a fixed sentence formula as a substitute for reasoning.
+5. Compare each abstract claim and number against the corresponding body passage. Flag any mismatch; do not choose which value is correct.
+
+## Introduction
+
+First identify the manuscript's entry pattern. These are useful options, not a ranking:
+
+- **Established task:** introduce the task and importance, then explain why existing approaches or knowledge leave a specific unresolved need.
+- **New task or construct:** define what is new, who or what it concerns, and why existing framing does not already cover it.
+- **New context for an established task:** start with the known task, establish why the new setting changes the challenge, then identify the contextual gap.
+- **Important observed failure:** open with the failure only when the supplied evidence makes it concrete and it efficiently motivates the question.
+
+Then build a narrowing chain:
+
+1. **Context and significance:** provide only background needed to understand the question; distinguish established knowledge from the paper's motivation.
+2. **Known evidence:** summarize relevant sources by idea or limitation, not as a list of papers. Use citations supplied by the author or verified through an authorized research workflow.
+3. **Unresolved question:** specify what remains unknown, disputed, untested, or technically difficult. A gap is not established merely because the manuscript did not mention prior work.
+4. **Why the gap persists:** connect the limitation of current understanding or methods to the actual design or argument of this paper. Avoid criticizing a deliberately weak baseline if the study does not address that weakness.
+5. **Study response and contribution:** state the question, approach, and expected contribution without reporting an unsupported outcome or promising more than the paper can show.
+
+Before finalizing, check that the introduction's promises map to supplied methods and results, that “first” and “no prior work” claims have verified support, and that each paragraph advances the narrowing chain. The entry pattern should depend on the paper; do not retrofit a technical-methods introduction onto a qualitative or theoretical work.
+
+## Related work or evidence background
+
+1. Pick organizing axes that help answer the paper's question: concepts, methods, populations, findings, disputes, or limitations.
+2. For each body of work, state the relevant contribution and its relation to the manuscript's problem; do not write one isolated summary per source without synthesis.
+3. Preserve disagreements and uncertainty. Do not imply consensus from a few examples.
+4. Tie the final unresolved issue to the current study only when the supplied or verified literature supports that link. If the literature is incomplete, mark the review as provisional rather than claiming an exhaustive gap.
+
+## Methods
+
+1. Organize around what a reader needs to understand or reproduce the work, following relevant field reporting standards where known and supplied.
+2. Preserve the actual design, materials/data, participants or units, setting, procedures, exclusions, preprocessing, measures, comparisons, analysis, software, ethics, and deviations only to the extent supplied.
+3. Keep planned, primary, secondary, and exploratory decisions distinct when the source documents them.
+4. Mark missing reproducibility-critical details. Do not fill them with common practice or infer that a step was performed because it is usual in the field.
+5. Align methods labels and definitions with the Results; refer unresolved inconsistencies to `references/consistency-check.md`.
+
+## Results or findings
+
+For empirical results or result-heavy technical papers, read `references/results-allocation.md` before substantial organization or compression.
+
+1. Inventory supplied findings and classify their role (primary, necessary support, qualification/contrary, robustness, exploratory, heterogeneity, provenance, or edge case). Do not assign a status not supported by the source.
+2. Order the main narrative as the shortest adequate chain that answers the question. Each paragraph should have one finding or inference job, with comparison, population, and qualification clear.
+3. Apply the interpretation-change test before moving a finding out of the main narrative. Keep evidence visible when it changes direction, magnitude, uncertainty, generality, alternatives, or conclusion.
+4. Put procedural detail in Methods, interpretive labels in prose/captions as appropriate, underlying values in an available source-data location, and non-central detail in a supplement only when it exists and is allowed. Use exact pointers supplied by the author; do not invent figure numbers or files.
+5. Report statistics according to the actual design, field standard, target journal, and supplied information. Do not omit a necessary denominator, uncertainty, null result, or analysis status to improve the story.
+6. Audit repetition: each appearance of a result must provide a distinct role such as setup, evidence, qualification, or synthesis. Remove only repetitions that add nothing.
+
+A figure can organize evidence, but this skill neither makes nor judges the visual. Use user-supplied figure descriptions and leave visual design to the separate skill.
+
+## Discussion
+
+Build the Discussion around one central finding, answer, or contribution. Select the opening anchor that matches the paper: the problem resolved, a method that changes what can be inferred, or the principal finding. Do not replay the entire Introduction or Results.
+
+A useful progression, adapted to the paper, is:
+
+1. **Answer and scope:** state what the evidence establishes in the studied conditions and what it does not establish.
+2. **Synthesis:** connect findings across analyses to explain the main contribution; include a brief result recap only when it enables interpretation.
+3. **Positioning:** compare with relevant prior work—confirms, extends, qualifies, conflicts with, or connects—using sources supplied or verified. Explain the relationship, not just the citation list.
+4. **Interpretation:** separate direct evidence from the explanation it favors. For non-unique mechanisms or rival explanations, acknowledge alternatives and calibrate language.
+5. **Implications:** explain what follows for theory, method, practice, or future use without exceeding population, design, or validation boundaries.
+6. **Limitations:** name each material limitation, the claim it constrains, why it matters, and what remains supported. Avoid generic limitation lists that do not change interpretation.
+7. **Next test or conclusion:** identify a consequential unresolved uncertainty and, where useful, a discriminating next test; close with a bounded takeaway, not a new result.
+
+Calibrate verbs as a decision, not a stylistic flourish: use “establishes” only when design and evidence directly support the claim and material alternatives are addressed; use “supports” for evidence that is informative but not decisive; use “is consistent with” when the finding fits one interpretation among plausible alternatives; use “may/could” for a plausible but untested implication. Do not use hedging to obscure clear evidence or strong verbs to conceal uncertainty.
+
+## Conclusion
+
+1. Answer the paper's question at the level supported by evidence.
+2. Name the key boundary if omitting it would invite overgeneralization.
+3. Add no new result, source claim, mechanism, or promise.
+4. Keep it distinct from a second abstract or a repeated Results list.
+
+## Captions and other text
+
+Write or edit captions only from supplied display content, labels, and analysis details. Keep the text sufficient to interpret the display and consistent with the body; do not invent panels, values, sample counts, or significance annotations. Figure generation is outside scope. For submission letters or response-to-reviewer prose, help with wording only when explicitly requested; do not claim to validate or submit the package.
+
+</guidance>
+<guidance path="references/polishing.md">
+# Polishing, translation, and revision
+
+Use this workflow when the user provides existing prose and requests language editing, academic translation, tightening, or a defined degree of structural improvement.
+
+## 1. Establish the edit level
+
+Classify the request as one of:
+
+- **Copyedit:** grammar, spelling, punctuation, and clear awkward phrasing; preserve sentence structure where possible.
+- **Language polish:** improve idiomatic academic expression, clarity, concision, and transitions while preserving organization and meaning.
+- **Structural edit:** reorganize sentences or paragraphs to improve logic, emphasis, or section fit, within the user's requested scope.
+- **Compression:** reduce length to a target while preserving necessary evidence, qualifications, and meaning.
+- **Translation:** render the supplied meaning in the requested language; do not equate translation with permission to rewrite the scientific argument.
+
+If the requested scope is clear, do not ask the user to choose a label. If a request for “polishing” would otherwise require substantial argument reconstruction, make only local improvements and briefly flag the structural issue, unless the user has authorized deeper revision.
+
+For a whole-paper revision, translation, or text with recurring technical vocabulary, use `references/working-ledgers.md` to record canonical terms and any protected values or citation associations. For domain-sensitive terminology or claim strength, route the relevant module through `references/module-routing.md` and check its maturity; a draft module is a provisional lens, not authority. Keep the record proportional; a local edit should not trigger a visible table. After an approved term change, check all relevant occurrences in the supplied manuscript.
+
+## 2. Preserve the source
+
+Read `references/integrity-and-evidence.md`. Before editing, identify protected facts, numbers, terms, abbreviations, citation keys, negation, uncertainty, limitations, and requested phrases. Keep the same claim scope and evidence strength. Do not add results, mechanisms, interpretations, references, or novelty language just to make prose sound stronger.
+
+For translation, translate the intended scientific meaning rather than word order. Preserve technical terminology consistently. Where a source phrase has multiple scientifically plausible readings, retain a cautious translation and flag the ambiguity rather than selecting a meaning without evidence.
+
+## 3. Edit and verify
+
+Make the smallest set of changes that achieves the requested level. Improve precision and readability without removing important caveats. For substantial empirical Results restructuring or compression, read `references/results-allocation.md` and the Results guidance in `references/sections.md`. For compression, remove redundancy first; identify any requested word limit that cannot be met without losing material information.
+
+Compare the revision against the source for:
+
+- numbers, units, signs, ranges, p values, sample sizes, groups, and comparison direction;
+- causal and mechanistic strength, generality, certainty, and novelty;
+- limitations, negation, qualifiers, methods, terminology, and citation associations;
+- meaning added, dropped, or shifted during translation or restructuring.
+
+If inconsistencies exist in the source, do not resolve them by editorial guess. Preserve the passage where possible and call out the conflict.
+
+## 4. Output
+
+Default to the polished text first. Add a concise note only for material changes, ambiguous source meaning, unresolved conflicts, or evidence risks. If requested, provide a bilingual version, tracked-style change summary, or side-by-side source and revision. Do not provide a generic explanation of every grammar correction unless asked.
+
+When the user asks for only the edited passage, provide only that passage unless an unresolved factual conflict would make it misleading; in that case add the shortest necessary warning.
+
+</guidance>
+<guidance path="modules/catalog.json">
+{
+  "schema_version": "1.0",
+  "modules": [
+    {
+      "id": "computing", "kind": "field", "path": "modules/fields/computing.md",
+      "scope": "Algorithms, ML, computer vision, software and systems; formal and empirical claims remain distinct.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "life-sciences", "kind": "field", "path": "modules/fields/life-sciences.md",
+      "scope": "Biological experimental and observational writing; system-specific inference and replication.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "clinical-health", "kind": "field", "path": "modules/fields/clinical-health.md",
+      "scope": "Patient and population outcomes, clinical prediction and health research; design-specific inference.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "physical-sciences-engineering", "kind": "field", "path": "modules/fields/physical-sciences-engineering.md",
+      "scope": "Physical models, measurements, materials, simulations, devices and engineered systems.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "social-behavioral", "kind": "field", "path": "modules/fields/social-behavioral.md",
+      "scope": "Quantitative, qualitative and mixed-methods inquiry; preserve methodological approach.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "mathematics-theory", "kind": "field", "path": "modules/fields/mathematics-theory.md",
+      "scope": "Formal definitions, assumptions, propositions, proofs and conjectures; no proof certification.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "humanities", "kind": "field", "path": "modules/fields/humanities.md",
+      "scope": "Interpretive, textual, historical and conceptual scholarship with source-based argument.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    }
+  ]
+}
+
+</guidance>
+<guidance path="modules/fields/mathematics-theory.md">
+# Mathematics and formal theory
+
+- **ID:** mathematics-theory
+- **Maturity:** draft
+- **Scope:** Expository revision of definitions, assumptions, propositions, proofs, counterexamples, and conditional theoretical arguments.
+- **Out of scope:** Certifying proof correctness, supplying missing proofs as established facts, or imposing one discipline's notation/style.
+- **Provenance:** Editorial starting guide; no mathematical-expert review or output evaluation.
+- **Last reviewed:** Not reviewed
+
+## Argument and evidence load
+
+Separate definitions, assumptions, conjectures, lemmas, proved results, examples, and empirical observations. Preserve logical scope: a result under explicit conditions cannot become unconditional, and numerical evidence does not establish a theorem.
+
+## Writing decisions
+
+- **Motivation:** Explain the mathematical question, object, or difficulty before claiming generality. Preserve what existing results actually establish; do not invent a priority gap or missing literature.
+- **Definitions:** Introduce symbols before use and keep domains, quantifiers, dependence, and notation consistent. Apparent synonyms may denote distinct mathematical objects; do not normalize them without checking definitions.
+- **Statements:** Preserve necessary/sufficient distinctions, existence/uniqueness, bounds, equality cases, limiting regimes, and assumptions. A smoother sentence must not change “there exists” to “for all”, local to global, or almost surely to surely.
+- **Proof exposition:** Improve signposting and explain the role of a step when supported by the source. If a transition lacks justification, mark a proof gap rather than insert a plausible argument as if verified. Editing is not independent formal verification.
+- **Examples/counterexamples:** Keep their logical function clear. One example illustrates; a valid counterexample refutes a universal statement; finite simulations do not prove a universal theorem.
+- **Conclusion:** State consequences only within established assumptions. Describe unproved extensions as conjectures or open questions when the author intends them.
+
+## Common failure modes
+
+| Failure | Corrective check |
+|---|---|
+| A hypothesis or conjecture becomes a theorem | What proof is supplied and what status does the author assign? |
+| Quantifiers or domain restrictions disappear | Does the revised statement have the same logical scope? |
+| A proof gap is filled with unverified reasoning | Is the justification explicit or still missing? |
+| Notation changes merge distinct objects | Are definitions and dependencies preserved? |
+
+## Interactions
+
+Combine with computing for algorithmic theory or physical-sciences-engineering for physical derivations. Theory in humanities/social sciences may use a different form of argument; do not force formal mathematics on interpretive theory.
+
+## Sources and verification
+
+No external disciplinary sources or venue rules have been verified for this draft.
+
+- **Expert review record:** None
+- **Evaluation record:** None
+- **Known gaps:** Proof validity and subfield notation need specialist review; prose improvement does not certify mathematics.
+
+</guidance>
+<manuscript_task>
+{
+  "source_facts": [
+    "Source: For each epsilon > 0 there exists an integer N(epsilon) such that for all n ≥ N(epsilon), |a_n − L| < epsilon. The proof does not give a rate or an N independent of epsilon. We conjecture a uniform rate over parameter theta, but prove convergence only for each fixed theta. Therefore we have uniform convergence with a computable convergence bound."
+  ],
+  "request": "Rewrite as a clear 80–115-word mathematical conclusion, preserving the quantifier order and differentiating the proved pointwise result from the unproved uniform-rate conjecture. Correct the final assertion; do not introduce assumptions. Return only the paragraph."
+}
+</manuscript_task>

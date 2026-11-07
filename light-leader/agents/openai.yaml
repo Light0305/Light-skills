@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Leader"
+  short_description: "Coordinate research, revisions, evidence, and project continuity"
+  default_prompt: "使用 $light-leader 恢复这个科研项目，核实当前证据和未完成工作，在已有授权内完成最有价值的下一步，并保存交接状态与重要记忆。"

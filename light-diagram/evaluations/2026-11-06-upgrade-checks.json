@@ -1,0 +1,59 @@
+{
+  "diagram": {
+    "returncode": 0,
+    "tests": 30,
+    "elapsed_s": 0.48,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 30 tests in 0.329s\n\nOK\n",
+    "prior_failure_note": "Overstrict source_scope type rejected existing structured provenance; corrected to support text and structured scope lists, leaving historical files unchanged."
+  },
+  "prompt": {
+    "returncode": 0,
+    "tests": 45,
+    "elapsed_s": 7.25,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 45 tests in 6.943s\n\nOK\n"
+  },
+  "illustrator": {
+    "returncode": 0,
+    "tests": 20,
+    "elapsed_s": 0.55,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 20 tests in 0.376s\n\nOK\n"
+  },
+  "powerpoint_node": {
+    "returncode": 0,
+    "tests": 22,
+    "elapsed_s": 0.24,
+    "stdout": "✔ valid scene (1.5313ms)\n✔ root array (0.2955ms)\n✔ missing bbox (0.1772ms)\n✔ empty path (0.1592ms)\n✔ short polygon (0.2266ms)\n✔ boolean canvas (0.1057ms)\n✔ infinite canvas (0.0939ms)\n✔ bad scale metadata (0.0758ms)\n✔ boolean point (0.1618ms)\n✔ missing endpoint (0.2313ms)\n✔ unknown curve (0.1466ms)\n✔ bad font size (0.0926ms)\n✔ bad color (0.109ms)\n✔ gradient without base (0.2225ms)\n✔ invalid text range (0.1333ms)\n✔ duplicate id (0.1003ms)\n✔ reserved helper name (0.0649ms)\n✔ bad draw order (0.1206ms)\n✔ historical scene 2026-10-30-crispr-live (2.1256ms)\n✔ historical scene 2026-10-30-lis-complex (8.71ms)\n✔ historical scene 2026-10-30-monoformer (6.3533ms)\n✔ validate-only does not load missing authoring module (60.9889ms)\nℹ tests 22\nℹ suites 0\nℹ pass 22\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 163.7376\n",
+    "stderr": ""
+  },
+  "powerpoint_python": {
+    "returncode": 0,
+    "tests": 3,
+    "elapsed_s": 0.19,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 3 tests in 0.005s\n\nOK\n"
+  },
+  "visio": {
+    "returncode": 0,
+    "tests": 18,
+    "elapsed_s": 0.17,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 18 tests in 0.020s\n\nOK\n"
+  },
+  "write_compat": {
+    "returncode": 0,
+    "tests": 42,
+    "elapsed_s": 1.33,
+    "stdout": "OK after2/case-0/light-write 0s\nSKIP existing attempt after2/case-0/light-write\nOK after2/case-0/light-write 0s\nERROR after2/case-1/light-write 0s\nNOT ATTEMPTED after usage-limit response: after2/case-0/light-write\nNOT ATTEMPTED after usage-limit response: after2/case-2/light-write\nPASS: 7 modules, 11 cases, 120 document paths/anchors, 3 JSON contracts, 0 supplied run records\nStructural subset checks only: no model execution, expert review, or quality score.\n",
+    "stderr": "----------------------------------------------------------------------\nRan 42 tests in 1.076s\n\nOK\n"
+  },
+  "leader_compat": {
+    "returncode": 0,
+    "tests": 43,
+    "elapsed_s": 4.7,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 43 tests in 4.472s\n\nOK\n"
+  }
+}

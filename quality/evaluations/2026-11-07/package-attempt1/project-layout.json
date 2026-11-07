@@ -1,0 +1,30 @@
+{
+  "run": 15,
+  "passed": 14,
+  "failures": [],
+  "errors": [],
+  "skipped": [
+    {
+      "test": "test_project.ProjectTests.test_linked_navigation_is_rejected",
+      "reason": "Symlink creation unavailable"
+    }
+  ],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 1.672,
+  "ok": true,
+  "name": "project-layout",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\project-layout\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\project-layout.json"
+  ],
+  "cwd": "D:\\Light-Skills\\project-layout"
+}

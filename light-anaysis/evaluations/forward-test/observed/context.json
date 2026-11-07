@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-11-02T03:37:46.335645+00:00",
+  "executions": [],
+  "inputs": [
+    {
+      "input_id": "S0001",
+      "path": "D:\\Light-Science\\light-anaysis\\evaluations\\fixtures\\task-seed-comparison\\protocol.md",
+      "role": "analysis_input",
+      "bytes": 1593,
+      "sha256": "e47cdd0614956fec79c7d44ded3f0a8d0d53af1d181a0f953c0dc34454944a12",
+      "snapshot": null
+    },
+    {
+      "input_id": "S0002",
+      "path": "D:\\Light-Science\\light-anaysis\\evaluations\\fixtures\\task-seed-comparison\\scores.csv",
+      "role": "analysis_input",
+      "bytes": 359,
+      "sha256": "f8c8219a532c9b96c37a90dad0c2642aa14e0c63201cb3cc1726ce4d92d41be1",
+      "snapshot": null
+    }
+  ],
+  "warnings": [
+    "Only listed files fingerprinted. Raw run outputs/logs require explicit --input; run manifests are not revalidated by intake."
+  ],
+  "parent": null
+}

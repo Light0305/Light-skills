@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "modules": [
+    {
+      "id": "computing", "kind": "field", "path": "modules/fields/computing.md",
+      "scope": "Algorithms, ML, computer vision, software and systems; formal and empirical claims remain distinct.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "life-sciences", "kind": "field", "path": "modules/fields/life-sciences.md",
+      "scope": "Biological experimental and observational writing; system-specific inference and replication.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "clinical-health", "kind": "field", "path": "modules/fields/clinical-health.md",
+      "scope": "Patient and population outcomes, clinical prediction and health research; design-specific inference.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "physical-sciences-engineering", "kind": "field", "path": "modules/fields/physical-sciences-engineering.md",
+      "scope": "Physical models, measurements, materials, simulations, devices and engineered systems.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "social-behavioral", "kind": "field", "path": "modules/fields/social-behavioral.md",
+      "scope": "Quantitative, qualitative and mixed-methods inquiry; preserve methodological approach.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "mathematics-theory", "kind": "field", "path": "modules/fields/mathematics-theory.md",
+      "scope": "Formal definitions, assumptions, propositions, proofs and conjectures; no proof certification.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    },
+    {
+      "id": "humanities", "kind": "field", "path": "modules/fields/humanities.md",
+      "scope": "Interpretive, textual, historical and conceptual scholarship with source-based argument.",
+      "maturity": "draft", "provenance": ["Editorial starting guide; not expert-reviewed or evaluated."],
+      "review_refs": [], "evaluation_refs": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "run": 35,
+  "passed": 35,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 2.719,
+  "ok": true,
+  "name": "light-memory",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-memory\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\final-changed-suites\\light-memory.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-memory"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-07",
+  "reviewer": "execution agent",
+  "scope": "All 3 synthetic Word pages viewed; not expert or official filing review",
+  "documents": [
+    {
+      "path": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01\\02_权利要求书.docx",
+      "sha256": "eb30acd36c58234fcfdcd02ba5ac454a9e87e74ec38d763063faf81fd732cdae",
+      "pages_viewed": [
+        1
+      ],
+      "pdf": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\qa\\1\\word.pdf",
+      "pdf_sha256": "d5bbb3fc6b1f73d54f352dd065c5f0937ce0ad4e4758f92d59179f70d6cd7323"
+    },
+    {
+      "path": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01\\03_说明书.docx",
+      "sha256": "44d8c14fd984fcc9eeced7db0c10850cd268e1d6b147498dfbf03f96041a29cb",
+      "pages_viewed": [
+        1
+      ],
+      "pdf": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\qa\\2\\word.pdf",
+      "pdf_sha256": "ee74575cbb55ab8b1f9447cccfb114d4ec3c8426ce1ae35776ade0a1e6950fb2"
+    },
+    {
+      "path": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01\\04_说明书摘要.docx",
+      "sha256": "176edf2ad2cd4d077bb894c96db4915b4577c565e2cb859ab08ce481afc7ea02",
+      "pages_viewed": [
+        1
+      ],
+      "pdf": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\qa\\3\\word.pdf",
+      "pdf_sha256": "3b284368794a460176f7c7bd6707cb2fd11a46bc981497e789ba616e0c488775"
+    }
+  ],
+  "checks": [
+    "all text readable",
+    "no clipped lines",
+    "no unexpected blank pages",
+    "formal documents separated from evidence logs"
+  ],
+  "limitations": [
+    "Known synthetic drafting fixture; no patentability assessment",
+    "No native equation or complex figure in this exercise; existing automated export tests cover their structures"
+  ]
+}

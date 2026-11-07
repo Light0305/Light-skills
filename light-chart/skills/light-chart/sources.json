@@ -1,0 +1,3548 @@
+{
+  "version": "0.8.0",
+  "source_snapshot": "2026-10-25",
+  "records": [
+    {
+      "module": "entry",
+      "source": "scipilot",
+      "relative_path": "SKILL.md",
+      "sha256": "79e7438109306d40638728ba8adaadf7312d486215189b320e157ab2e382adcc",
+      "target": "SKILL.md",
+      "mode": "merge"
+    },
+    {
+      "module": "entry",
+      "source": "nature",
+      "relative_path": "SKILL.md",
+      "sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4",
+      "target": "SKILL.md",
+      "mode": "merge"
+    },
+    {
+      "module": "entry",
+      "source": "figmirror",
+      "relative_path": "SKILL.md",
+      "sha256": "444c3472ddb7a4a931c7373bb6968c1708de8de26420fa9689a5ee4aa5e3006e",
+      "target": "SKILL.md",
+      "mode": "merge"
+    },
+    {
+      "module": "data-profile",
+      "source": "scipilot",
+      "relative_path": "scripts/profile_data.py",
+      "sha256": "d8a2a72c2607c390f2d3ed1508209d515ad4fbf833fa1602ab9da519b3596ec4",
+      "target": "scripts/profile_data.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "style",
+      "source": "scipilot",
+      "relative_path": "scripts/setup_style.py",
+      "sha256": "d58ef81684577bb605a92733dd2ca48ade03b4f819b3d255fd62f319be7fea82",
+      "target": "scripts/setup_style.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "export",
+      "source": "scipilot",
+      "relative_path": "scripts/export_figure.py",
+      "sha256": "40ce3bcd31dfc4b33e38a1cb180c75dc730ee6fa046f04934c79f285c6f890c1",
+      "target": "scripts/export_figure.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "file-check",
+      "source": "scipilot",
+      "relative_path": "scripts/check_figure.py",
+      "sha256": "861191858ff47c5af5247f08d0759b14956a2a7e7d8eafcc6b414d37b9d70f06",
+      "target": "scripts/check_figure.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "layout",
+      "source": "scipilot",
+      "relative_path": "scripts/layout_tools.py",
+      "sha256": "68e1d25774148fe78f5d87035d651f5e3707382502505cb11f62f9ec7ae88e49",
+      "target": "scripts/layout_tools.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "preview",
+      "source": "scipilot",
+      "relative_path": "scripts/visual_qa.py",
+      "sha256": "67675709e523c76e2748d50749de7bc6332f07df865379b26d024321fb40120f",
+      "target": "scripts/visual_qa.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "numerical-safety",
+      "source": "nature",
+      "relative_path": "scripts/figure_safety.py",
+      "sha256": "0e3e9601aacdafca32ef5fbf1967bdeec0abbf7f564edfd711875432bd47c212",
+      "target": "scripts/figure_safety.py",
+      "mode": "copy_then_verify"
+    },
+    {
+      "module": "panel-alignment",
+      "source": "nature",
+      "relative_path": "scripts/audit_panel_alignment.py",
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "target": "scripts/audit_panel_alignment.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "panel-alignment-r",
+      "source": "nature",
+      "relative_path": "scripts/panel_alignment.R",
+      "sha256": "aeb2db8355e2026e2f2640d25bf18edfa57fb0165ec2c7811f97bb75ba53d26b",
+      "target": "scripts/panel_alignment.R",
+      "mode": "adapt"
+    },
+    {
+      "module": "pdf-text",
+      "source": "nature",
+      "relative_path": "scripts/audit_pdf_text.py",
+      "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "target": "scripts/audit_pdf_text.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "pdf-collisions",
+      "source": "nature",
+      "relative_path": "scripts/audit_figure_collisions.py",
+      "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "target": "scripts/audit_figure_collisions.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "data-templates",
+      "source": "nature",
+      "relative_path": "scripts/plot_templates.py",
+      "sha256": "c5c042bc09464d58cc0363bc8542db946acb4c7efb53360a70386e1a6704691a",
+      "target": "scripts/plot_templates.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "selection-guide",
+      "source": "scipilot",
+      "relative_path": "references/chart_selection.md",
+      "sha256": "71fe5970b4a9aee66d6c02d1e0696b367f7dafd9c7e17502ee66c56f36870852",
+      "target": "references/chart-selection.md",
+      "mode": "merge"
+    },
+    {
+      "module": "selection-guide",
+      "source": "scipilot",
+      "relative_path": "references/viz_pitfalls.md",
+      "sha256": "f103ae47611c6c7429629cb3161c5cdc8a0c9fba7f14d9f83159c96f848a9818",
+      "target": "references/chart-selection.md",
+      "mode": "merge"
+    },
+    {
+      "module": "selection-guide",
+      "source": "nature",
+      "relative_path": "references/asset-adaptation.md",
+      "sha256": "64c4f788962d73beba1bbd919255dffe620de3090579e7ec811e88e557ac4c3d",
+      "target": "references/chart-selection.md",
+      "mode": "merge"
+    },
+    {
+      "module": "design-guide",
+      "source": "nature",
+      "relative_path": "references/design-theory.md",
+      "sha256": "e8b31da9dec01f552acca6aeffbd06c8dbf53e737d7138075d1f97619c43a47e",
+      "target": "references/design.md",
+      "mode": "merge"
+    },
+    {
+      "module": "design-guide",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/design-theory.md",
+      "sha256": "d34fa995a481588a33aab301591a9a2ae54dae8df34c74e0a13311582ef48d99",
+      "target": "references/design.md",
+      "mode": "merge"
+    },
+    {
+      "module": "python-guide",
+      "source": "nature",
+      "relative_path": "static/fragments/backend/python.md",
+      "sha256": "1d4809e4ec4ed2d40995d74828732012a6a72c941dfec341745a3118e9312865",
+      "target": "references/python.md",
+      "mode": "merge"
+    },
+    {
+      "module": "python-guide",
+      "source": "scipilot",
+      "relative_path": "references/plot_recipes.md",
+      "sha256": "3d4f47a6e320d1c0635ee2fc329484952d4e528b1fe9b552e79828b88336c002",
+      "target": "references/python.md",
+      "mode": "merge"
+    },
+    {
+      "module": "python-guide",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/api.md",
+      "sha256": "12892f4940c153c8b2e75abe8eed8f96476989b0a75d65f0dc3d08118bf58269",
+      "target": "references/python.md",
+      "mode": "merge"
+    },
+    {
+      "module": "r-guide",
+      "source": "nature",
+      "relative_path": "static/fragments/backend/r.md",
+      "sha256": "4839a77846f0f71a7a44f077ee8fc665460033e7006cb18a884562712d667e2d",
+      "target": "references/r.md",
+      "mode": "merge"
+    },
+    {
+      "module": "r-guide",
+      "source": "nature",
+      "relative_path": "references/r-workflow.md",
+      "sha256": "ad5403b890801d8e350976d65462babcab2dc1f525351d20bc6136b92900d9d6",
+      "target": "references/r.md",
+      "mode": "merge"
+    },
+    {
+      "module": "multipanel-guide",
+      "source": "nature",
+      "relative_path": "references/multipanel-evidence-architecture.md",
+      "sha256": "79ca617cc05088d6fcfb065140d0ee036eb849738bb79306964eb9aa3a4ed274",
+      "target": "references/multipanel.md",
+      "mode": "extract"
+    },
+    {
+      "module": "multipanel-guide",
+      "source": "shared",
+      "relative_path": "core/nature-results-discussion.md",
+      "sha256": "16f1ce1ed6d2aad7853eabf304cdbd661530931747bce4cf3f10b3dfb655adc1",
+      "target": "references/multipanel.md",
+      "mode": "extract"
+    },
+    {
+      "module": "qa-guide",
+      "source": "scipilot",
+      "relative_path": "references/visual_review.md",
+      "sha256": "c4ca4a28a315e7de46f67b5972b3765b979f01fe30616c0681dd2595bed554a1",
+      "target": "references/quality-checks.md",
+      "mode": "merge"
+    },
+    {
+      "module": "qa-guide",
+      "source": "nature",
+      "relative_path": "references/qa-contract.md",
+      "sha256": "ba97e18a44235bb00bb176a3ebe2774ba5bd779e65f9b89827b942b5cd97e5d7",
+      "target": "references/quality-checks.md",
+      "mode": "merge"
+    },
+    {
+      "module": "journal-guide",
+      "source": "scipilot",
+      "relative_path": "references/journal_specs.md",
+      "sha256": "a8e9654f55994d692d585e69fb3a68f5618ecf766d8ce0e95fdda6d12e786263",
+      "target": "references/journal-output.md",
+      "mode": "extract"
+    },
+    {
+      "module": "journal-guide",
+      "source": "nature",
+      "relative_path": "references/nature-article-requirements.md",
+      "sha256": "d59ebd80a99b2a91d9b0861529044f6242e1430b37fa4d7c73935a40a6a6be33",
+      "target": "references/journal-output.md",
+      "mode": "extract"
+    },
+    {
+      "module": "journal-guide",
+      "source": "shared",
+      "relative_path": "journal-formats/nature-machine-intelligence.md",
+      "sha256": "d62a418fbd67841e745f553b98a267b5a01c9445457a07a0121095ce76fad0af",
+      "target": "references/journal-output.md",
+      "mode": "extract"
+    },
+    {
+      "module": "paper-patterns",
+      "source": "figures4papers",
+      "relative_path": "figure_ImmunoStruct/plot_bars.py",
+      "sha256": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408",
+      "target": "references/paper-patterns.md",
+      "mode": "adapt_examples"
+    },
+    {
+      "module": "paper-patterns",
+      "source": "figures4papers",
+      "relative_path": "figure_VIGIL/plot_posttraining.py",
+      "sha256": "bb1371ace0f1742eb99019c87e18ecc44588ff063141fed5775429e0e373dc1c",
+      "target": "references/paper-patterns.md",
+      "mode": "adapt_examples"
+    },
+    {
+      "module": "paper-patterns",
+      "source": "figures4papers",
+      "relative_path": "figure_ophthal_review/plot_composition.py",
+      "sha256": "8fb5469cc22f13a68a71ab462abd876856b30c93d1f616fe1bd3569da5aee427",
+      "target": "references/paper-patterns.md",
+      "mode": "adapt_examples"
+    },
+    {
+      "module": "reference-style-guide",
+      "source": "figmirror",
+      "relative_path": "references/preprocessor.md",
+      "sha256": "d6ffb28ec80270531d37db2dda7bc82d81656cf0dbe296ae9847c07c82291cde",
+      "target": "references/reference-style.md",
+      "mode": "merge"
+    },
+    {
+      "module": "reference-style-guide",
+      "source": "figmirror",
+      "relative_path": "references/drawer.md",
+      "sha256": "e1c94a3f69c54333bd4deacd92ad2b50e0743b4f345b1e2bd069067aa6542c97",
+      "target": "references/reference-style.md",
+      "mode": "merge"
+    },
+    {
+      "module": "reference-style-guide",
+      "source": "figmirror",
+      "relative_path": "references/reviewer.md",
+      "sha256": "d85eb37dd3765ed8edd5c28e5a1694c75c3219b7de54b54615cef031220d81e9",
+      "target": "references/reference-style.md",
+      "mode": "merge"
+    },
+    {
+      "module": "reference-style-guide",
+      "source": "figmirror",
+      "relative_path": "references/aesthetic-library.md",
+      "sha256": "e464be689dad19e19a0b6eca58bfc5d1b30bdcb2eac380f6186c06b5192e2c0d",
+      "target": "references/reference-style.md",
+      "mode": "merge"
+    },
+    {
+      "module": "reference-annotation",
+      "source": "figmirror",
+      "relative_path": "scripts/figannot.py",
+      "sha256": "0016e2668d113975a02663f5606525575a67256bd82a2a4d0a0ff21577042175",
+      "target": "scripts/figannot.py",
+      "mode": "adapt"
+    },
+    {
+      "module": "visual-quality-revision",
+      "source": "nature",
+      "relative_path": "references/nature-2026-observations.md",
+      "sha256": "1af8250733da77f1d82cc370e2e8d61266352517b1d1ab82ed6c834de8c98272",
+      "target": "references/visual-library.md",
+      "mode": "critical_synthesis"
+    },
+    {
+      "module": "visual-quality-revision",
+      "source": "scipilot",
+      "relative_path": "references/visual_review.md",
+      "sha256": "c4ca4a28a315e7de46f67b5972b3765b979f01fe30616c0681dd2595bed554a1",
+      "target": "references/editorial-review.md",
+      "mode": "adapt"
+    },
+    {
+      "module": "visual-quality-revision",
+      "source": "figures4papers",
+      "relative_path": "figure_ImmunoStruct/raw_data.py",
+      "sha256": "837be4150b7419085caa84746734099ccc78e0f3fb4242e91b81ce1bde6009ca",
+      "target": "assets/examples/immunostruct.json",
+      "mode": "reported_data_snapshot"
+    },
+    {
+      "module": "visual-quality-revision",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/plot_comparison.py",
+      "sha256": "b2b30a212d084ae5ba7b82aa1fd830cbfea82a4eef507edfa1757b1734b250e3",
+      "target": "assets/examples/rnagenscape.json",
+      "mode": "literal_array_snapshot"
+    },
+    {
+      "module": "visual-quality-revision",
+      "source": "figures4papers",
+      "relative_path": "assets/ImmunoStruct_results_CEDAR.png",
+      "sha256": "f1f564e0c7221f24f4bffe14cce5b5df6786c75f7dfcf1b6d2be7566820050ec",
+      "target": "assets/visual-library/source_immunostruct.png",
+      "mode": "visual_reference_copy"
+    },
+    {
+      "module": "visual-quality-revision",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/figures/results_comparison_optimization.png",
+      "sha256": "4cf8539d0521b7268f0227b56cecddf2f70c1bb4bbcf9b5e3be886e95a54927a",
+      "target": "assets/visual-library/source_rnagenscape.png",
+      "mode": "visual_reference_copy"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-01-bar-charts.png",
+      "sha256": "4a0e3040bbdbfe5ec48b66515f719f83ad7304fadb2e56432cd3e8f7ccbabd65",
+      "target": "references/library/nature/assets/chart-atlas/atlas-01-bar-charts.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-02-line-trends.png",
+      "sha256": "9a8189149180a68679738bc4be152ee40b17d71261d71b3759d315a7169da0d9",
+      "target": "references/library/nature/assets/chart-atlas/atlas-02-line-trends.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-03-heatmaps.png",
+      "sha256": "40dd7c7c14c45b45cc22ee23e19f2dc1901f38b26a1fb4b0f26a30dbd10c0423",
+      "target": "references/library/nature/assets/chart-atlas/atlas-03-heatmaps.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-04-scatter-bubble.png",
+      "sha256": "1bbfbc38a3f246e4fd7c59b9ed1003ddbc7280ee160b7c38abf8d410b27fe6f8",
+      "target": "references/library/nature/assets/chart-atlas/atlas-04-scatter-bubble.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-05-radar-polar.png",
+      "sha256": "e7fa7d98cd4f5263f5550d7ac8824e60071c20b2927aef52ac6d18d62fd29ffa",
+      "target": "references/library/nature/assets/chart-atlas/atlas-05-radar-polar.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-06-distributions.png",
+      "sha256": "a1fe533d07dae36d11c997577ded61adb16bf5d4dd5c0dee2ff92ae570f0f01e",
+      "target": "references/library/nature/assets/chart-atlas/atlas-06-distributions.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-07-forest-interval.png",
+      "sha256": "dc61a5257eae4748348c72c51f2e70e59979c6892f52dadf7bb4ba6f8b98b00b",
+      "target": "references/library/nature/assets/chart-atlas/atlas-07-forest-interval.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-08-area-stacked.png",
+      "sha256": "350c25e427d945dee5fd98316eb6ebe307304b9d187d954a88c05852d664a60b",
+      "target": "references/library/nature/assets/chart-atlas/atlas-08-area-stacked.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-09-image-plates.png",
+      "sha256": "bbc8c0b8708d42465e57cb7c56b4d2ecfbaa63340a5a6dfefbcb51189cd1a995",
+      "target": "references/library/nature/assets/chart-atlas/atlas-09-image-plates.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/chart-atlas/atlas-10-network-matrix.png",
+      "sha256": "cd384abe10aa86bd310c1288a42f33735cb555c267bddae1ecd262905a7a1de5",
+      "target": "references/library/nature/assets/chart-atlas/atlas-10-network-matrix.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/THIRD_PARTY_NOTICES.md",
+      "sha256": "b0ef9d2fe959468fce4f45472b12ff4d4fc9450201caa42d394823cd4a5e20d5",
+      "target": "references/library/nature/assets/figures4papers/THIRD_PARTY_NOTICES.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/Dispersion_motivation.png",
+      "sha256": "04c2f6ab2bedf8e6a19449f0260ef36f8ab736a93dccf19458cdc80d4b593547",
+      "target": "references/library/nature/assets/figures4papers/assets/Dispersion_motivation.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/Dispersion_observation.png",
+      "sha256": "59846b700abcf89c2779abce27b5d667637f6429cf4a52ca1892c687359f2aa7",
+      "target": "references/library/nature/assets/figures4papers/assets/Dispersion_observation.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/Dispersion_observation_distillation.png",
+      "sha256": "134b0fcb07dbab1baa769854100fc9791b846f6f6c50591485564fc8492b6660",
+      "target": "references/library/nature/assets/figures4papers/assets/Dispersion_observation_distillation.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/ImmunoStruct_contrastive.png",
+      "sha256": "c2590ba1ecac5e1d0976df3be6e9fa4056dcdd78670201c6db461e3e4f18b0d0",
+      "target": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_contrastive.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/ImmunoStruct_results_CEDAR.png",
+      "sha256": "f1f564e0c7221f24f4bffe14cce5b5df6786c75f7dfcf1b6d2be7566820050ec",
+      "target": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_results_CEDAR.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/ImmunoStruct_results_IEDB.png",
+      "sha256": "2768b1a5ef0c501dc03c53c594a28e028df2cd57b51c4fd80c9a57906f6195c5",
+      "target": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_results_IEDB.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/ImmunoStruct_schematic.png",
+      "sha256": "2d3ddf56ae63b34ead168cb95b484881f934e61204a8740c67d6dc1678bbaf7d",
+      "target": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_schematic.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/assets/RNAGenScape_schematic.png",
+      "sha256": "ef85b974a990b74c230dc1a80d3bb357f4f8a430d13c12c6120927c9fb797287",
+      "target": "references/library/nature/assets/figures4papers/assets/RNAGenScape_schematic.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/plot_brute_force.py",
+      "sha256": "46906a9de2e8a069a2d3022a78087b2933e2cd898a38800242d005ceec40057f",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_brute_force.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/plot_correctness_by_category.py",
+      "sha256": "e84d87bf9cf8b7d8a184f558c02de91874215754075526aaa54586e68d931c1a",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_category.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+      "sha256": "fc9c20eaf00c7106b4752ad9638a6593c639721a12bfd42a748a6d439366d4af",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/plot_rewriting.py",
+      "sha256": "01939d1cc3807852ac4751ec143d5472193f1511381eae03bf0c01b33a367501",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_rewriting.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/plot_selfcorrection_math.py",
+      "sha256": "7656335018d67ecaaae362e63669f22c709e51644681dc801f298356fb7fef7c",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_selfcorrection_math.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+      "sha256": "abb63055b0d49edbe9002e820294a622db1429d31b1d2446340036cf1db92607",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+      "sha256": "bc2cc547f15430bc9af2ebdfba0b8cf1c73702e8fbea35d8b2953cc960da117b",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+      "sha256": "b6639239da2fa9f2bec3eb096ec0db3942965ed38e57446de4b8a240a77c02c6",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+      "sha256": "0460f09210bc23c272602ecb8b3fcf3984f42fc055df3b0e4982eab50303607f",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png",
+      "sha256": "71133ed59cc16f8c36a4e8b2325575d185f36a8534c29579d2eff177544e9e53",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "sha256": "0d0959102afe26249199a60fb67d5c8bd282a6fdb9c7e024c51a9c42a6a58c7f",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/plot_comparison.py",
+      "sha256": "4e888489587ca7d345893715cc8f34a9b92cc347ffe5b20291093df1c2f23bd6",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/plot_comparison_cross_species.py",
+      "sha256": "9061cd3476a2923e557e34585803da8e0df31a01f7cb5dd0f468b83458eeae33",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison_cross_species.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/figures/ablation.png",
+      "sha256": "3373085ababf07481a352fe542fd79a58701e0e052c5593ca56984008ddad027",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/ablation.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/figures/comparison.png",
+      "sha256": "49d4ebc7d1867918b9d0167d8e821d8ce7845459a9da55a6fefcef87eeb7024d",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png",
+      "sha256": "131654637e894c12f441ad4a9cf5533999939971e3f051f81e46ba802f75d854",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png",
+      "sha256": "137841e62d5eaa48998a97246849b8ede08d2d165c8bb4ad3fd6a18d6b6c65e2",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/diffusion_swiss_roll.py",
+      "sha256": "2ecd52231b6f095d8471b94bcae58d6c844f14cc8494c6c1636887711cabe592",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/diffusion_swiss_roll.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/plot_comparison_Ablation.py",
+      "sha256": "d5ab173adbf5be9486e8325f9904123fe7430c0c937e1eebd88dee38049cd787",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Ablation.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/plot_comparison_GeneRegulatory.py",
+      "sha256": "8659356aa5b92a7969dd8e46144c4c68fe97850cb58c2da6a5b011b7daf88129",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_GeneRegulatory.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/plot_comparison_Trajectory.py",
+      "sha256": "bc154c3e99fd4895ceefefeef81298055a8cd42e5795547e1fe1632edabe5b69",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Trajectory.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+      "sha256": "9f02fa4603dae748e3745b95b0ed252f2ba386da6101dc1be6c4a2a886c78eb0",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.pdf",
+      "sha256": "30b1efaf3293a240c6646f076a14f702bb3556fd10a1fb791c23deb90d3ff40e",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+      "sha256": "96075eb70285f4f72869b99398c9a923336fbc3a5188883d9e8415e1cc027a46",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.pdf",
+      "sha256": "465050a8f8c8be85eb3e8d17c16eaef3df50acc41b2bd212d2b6176d97efc78c",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+      "sha256": "91b214f745a99f1f2b472ddae7661dfa2d9241791768767180219315b89047ec",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.pdf",
+      "sha256": "d4c7b8013a24aa830a0f83b8cf5ffd917a932458e6a265f4b5f29e9a4389960a",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png",
+      "sha256": "4f7b7b4b01a1b498540850ddabc217fd964eb37142e99a6ee6b5c26cf12aba7f",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Dispersion/plot_idea.py",
+      "sha256": "c540a368c5a60b90fec950da8c5085d2ebfa47c367e3270fa3fb38176cf8134e",
+      "target": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_idea.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Dispersion/plot_illustration.py",
+      "sha256": "7f9c451d336f718a2c4287130a45ec4597b9fad43746de314a018655c639ec98",
+      "target": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_illustration.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Dispersion/figures/idea.png",
+      "sha256": "e805fb0f7ccdf8aa3ae764e8156cf6b61b6d56ef7dded0fc7556566e316649a3",
+      "target": "references/library/nature/assets/figures4papers/figure_Dispersion/figures/idea.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_Dispersion/figures/illustration.png",
+      "sha256": "2528309a41ba6edab9c377a2304c144813c0e99565239a849c427ab00a14643b",
+      "target": "references/library/nature/assets/figures4papers/figure_Dispersion/figures/illustration.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_FPGM/plot_freq_prior.py",
+      "sha256": "d9c5a53ff6c76e9545ea0d65292841765e849d1076afc6a92f2127041740d8bf",
+      "target": "references/library/nature/assets/figures4papers/figure_FPGM/plot_freq_prior.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_FPGM/figures/freq_prior.png",
+      "sha256": "0f8f77c4de67324cf7ddd7ee370a8ef39f10417b241142b9bacbc830677ff0fe",
+      "target": "references/library/nature/assets/figures4papers/figure_FPGM/figures/freq_prior.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+      "sha256": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ImmunoStruct/raw_data.py",
+      "sha256": "837be4150b7419085caa84746734099ccc78e0f3fb4242e91b81ce1bde6009ca",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/raw_data.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_Cancer.png",
+      "sha256": "46c9e05df9d7c941628791ac447c5d84a29d942896ce3a13d00432e9f5c720ef",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_Cancer.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_IEDB.png",
+      "sha256": "854fe931bde6ca6c50eda6b147907f00d8f10d74c3b40bad1714b903bf945f00",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_IEDB.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_Cancer.png",
+      "sha256": "0c35bb8a1fb21d5e30e16be152fc92959af580d9e24f04ccc61444adba8c7aa2",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_Cancer.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_IEDB.png",
+      "sha256": "18a52f7a910fe9c9ff06015f5a1e63527458a86c847f573eb96ba254d4645ac1",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_IEDB.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ophthal_review/plot_composition.py",
+      "sha256": "8fb5469cc22f13a68a71ab462abd876856b30c93d1f616fe1bd3569da5aee427",
+      "target": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ophthal_review/plot_trend.py",
+      "sha256": "0a66624628f6e1da4f2da697e86ac79d46576d4bd552f5d585b2ceff05204811",
+      "target": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_trend.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ophthal_review/figures/composition_heatmap.png",
+      "sha256": "38a9c4e8fd691cbd7dcb4f5b5abb69398b4974d32cad19a4a33819db1cb34f3a",
+      "target": "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/composition_heatmap.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_ophthal_review/figures/trend_by_month.png",
+      "sha256": "66fe0f27f44697547b6cb219ff90696f54a6fef48984c9578ace258e0ebce4d4",
+      "target": "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/trend_by_month.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/plot_comparison.py",
+      "sha256": "b2b30a212d084ae5ba7b82aa1fd830cbfea82a4eef507edfa1757b1734b250e3",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_comparison.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/plot_hole_manifold.py",
+      "sha256": "cc31a470f0364c19f094c1ef32ada4909fb53dab638f56a552fe55d44942ded1",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_hole_manifold.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+      "sha256": "aa6461c85b1d03b30f7e12824821c1149f1a4beb56394a20304126a592cf8021",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/plot_sweep.py",
+      "sha256": "123a14749450ef5895161b6823e7b8d217dbee181f39da954f5a8b2439be2961",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_sweep.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+      "sha256": "83e55ca23d8aa2fa591a46d3fe4f9d6ac11e17cbc9657e2615d883ea6deb937c",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+      "sha256": "2ad2be6fa9c9165e800dba4d997850c9a426cbe9b441c78b76518335bcc3f948",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+      "sha256": "4cf8539d0521b7268f0227b56cecddf2f70c1bb4bbcf9b5e3be886e95a54927a",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+      "sha256": "cd1fec84f615a43dbe91cc94bfbb94fe07e086fdd5d8191fbff2ec990e38d4f5",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png",
+      "sha256": "4db30b32b65e6b7160ebe025993c2ffdaf6e240d836c253419e91649d3da8deb",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/plot_ablation.py",
+      "sha256": "b3c28343cfbb2f16e3e9c60735269d68098bcc7d16d5402f362354466fa272d7",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_ablation.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/plot_comparison_radar.py",
+      "sha256": "d30da4f6a14b33eb7e3350f6f9623caf58d178c099f961270a6e1c17aaaabbee",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_comparison_radar.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/plot_concept.py",
+      "sha256": "b494343947cb33dd076924522a1a0ed910ded2f72b311525890f0e9e6f4a6030",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_concept.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/plot_posttraining.py",
+      "sha256": "bb1371ace0f1742eb99019c87e18ecc44588ff063141fed5775429e0e373dc1c",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_posttraining.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+      "sha256": "302b8f53795653bf7ebe74ca508319c073325bdda1f106ca9eb3cd7c690da7c7",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+      "sha256": "a6f2e75e7d8361754445d86ce04386b5764a46bf2cbc94e8df0c75ecf1bab142",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+      "sha256": "d6613715d9d4564fb0c7354430b227d43c9df04032e32b346601971381e5ba2d",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/figures4papers/figure_VIGIL/figures/concept.png",
+      "sha256": "3554b9af671886dfbbe985016440c5ba1633b4e8b08d50539d992982c5cc2bf5",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/concept.png",
+      "mode": "downsampled_inspection_preview"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/gallery/fig1-material-mechanism-rich.png",
+      "sha256": "2e0706fae3256e1de2388f8605f35b9b6ac23cfc397161a952f34cc5fa2f2192",
+      "target": "references/library/nature/assets/gallery/fig1-material-mechanism-rich.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/gallery/fig2-spatial-imaging-rich.png",
+      "sha256": "90081b3f778b9ede2dba41c60b6abf0c28a239060c69428344539529cd7f3257",
+      "target": "references/library/nature/assets/gallery/fig2-spatial-imaging-rich.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/gallery/fig3-in-vivo-efficacy-rich.png",
+      "sha256": "25d6fc50f5808104a7cb19f4795cea4229fbc6159fa7509f716a94f7c160a033",
+      "target": "references/library/nature/assets/gallery/fig3-in-vivo-efficacy-rich.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/gallery/fig4-single-cell-systems-rich.png",
+      "sha256": "999edb06b942f988a51b11f947845e42e4c346b2f9e5d5a6425def9e43bb69d1",
+      "target": "references/library/nature/assets/gallery/fig4-single-cell-systems-rich.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "assets/gallery/fig5-validation-perturbation-rich.png",
+      "sha256": "245ad31f97b2054628987444e44d6a007f352f65ae6254189f5ed8ba9b0301c6",
+      "target": "references/library/nature/assets/gallery/fig5-validation-perturbation-rich.png",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/api.md",
+      "sha256": "1ec51840fdc45017735511b1275cada5e09f5d3e7dc44f35b2d8ba052809a4bc",
+      "target": "references/library/nature/references/api.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/asset-adaptation.md",
+      "sha256": "64c4f788962d73beba1bbd919255dffe620de3090579e7ec811e88e557ac4c3d",
+      "target": "references/library/nature/references/asset-adaptation.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/backend-selection.md",
+      "sha256": "9ff023b8103da861f2c6e4b8b244a0003120d180ab4fb004c346af5a12343dca",
+      "target": "references/library/nature/references/backend-selection.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/chart-types.md",
+      "sha256": "68008a60e0285e840a34973db5f945e88051280ac4dcad8a7eb97882c5384dfa",
+      "target": "references/library/nature/references/chart-types.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/common-patterns.md",
+      "sha256": "5f176c70bb846744374a27a342d03761ff9c0a0c7844f87867add3a66c448581",
+      "target": "references/library/nature/references/common-patterns.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/demos.md",
+      "sha256": "dc34ab2d1600265f7e03af51afa0d4bda7b235f4cf3d2f73ac791dca8c605cec",
+      "target": "references/library/nature/references/demos.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/design-theory.md",
+      "sha256": "e8b31da9dec01f552acca6aeffbd06c8dbf53e737d7138075d1f97619c43a47e",
+      "target": "references/library/nature/references/design-theory.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/figure-contract.md",
+      "sha256": "db08b51fb080c5fe37f61140a1b7fd31247f90810f3a80cdcf58429a699879df",
+      "target": "references/library/nature/references/figure-contract.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/figure-legend-conventions.md",
+      "sha256": "7d00fc1839d5b152b289c8d892e723549be06c38ea75761763108a5ac34303fd",
+      "target": "references/library/nature/references/figure-legend-conventions.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/multipanel-evidence-architecture.md",
+      "sha256": "79ca617cc05088d6fcfb065140d0ee036eb849738bb79306964eb9aa3a4ed274",
+      "target": "references/library/nature/references/multipanel-evidence-architecture.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/nature-2026-observations.md",
+      "sha256": "1af8250733da77f1d82cc370e2e8d61266352517b1d1ab82ed6c834de8c98272",
+      "target": "references/library/nature/references/nature-2026-observations.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/nature-article-requirements.md",
+      "sha256": "d59ebd80a99b2a91d9b0861529044f6242e1430b37fa4d7c73935a40a6a6be33",
+      "target": "references/library/nature/references/nature-article-requirements.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/qa-contract.md",
+      "sha256": "ba97e18a44235bb00bb176a3ebe2774ba5bd779e65f9b89827b942b5cd97e5d7",
+      "target": "references/library/nature/references/qa-contract.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/r-template-index.md",
+      "sha256": "0ebbbd4171896b61639d7969a010401d0aa257bafb99783026a1ba32c91ce19e",
+      "target": "references/library/nature/references/r-template-index.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/r-workflow.md",
+      "sha256": "ad5403b890801d8e350976d65462babcab2dc1f525351d20bc6136b92900d9d6",
+      "target": "references/library/nature/references/r-workflow.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/template-catalog.md",
+      "sha256": "f3dfe03d7ad6d004d17cb1f576e39020f55d1aa6d26f115a3be9ce6279e7d244",
+      "target": "references/library/nature/references/template-catalog.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "references/tutorials.md",
+      "sha256": "0fbd92cedc8da312ec4b8655127d61ce2ba68f218b70a346d6716977ab4861d6",
+      "target": "references/library/nature/references/tutorials.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "static/core/contract.md",
+      "sha256": "a2b6523a48192cf1dff0d194264c5662c832f4d1da6e9e4763ccd98cc0664d4c",
+      "target": "references/library/nature/static/core/contract.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "static/core/stance.md",
+      "sha256": "8db765b1123d48d6655b612b14620b111e7e584ece1130750b17f237b68391b3",
+      "target": "references/library/nature/static/core/stance.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "static/fragments/backend/python.md",
+      "sha256": "1d4809e4ec4ed2d40995d74828732012a6a72c941dfec341745a3118e9312865",
+      "target": "references/library/nature/static/fragments/backend/python.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "static/fragments/backend/r.md",
+      "sha256": "4839a77846f0f71a7a44f077ee8fc665460033e7006cb18a884562712d667e2d",
+      "target": "references/library/nature/static/fragments/backend/r.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "nature",
+      "relative_path": "scripts/validate_figure.py",
+      "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+      "target": "scripts/validate_figure.py",
+      "mode": "copy_then_adapt"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/chart_selection.md",
+      "sha256": "71fe5970b4a9aee66d6c02d1e0696b367f7dafd9c7e17502ee66c56f36870852",
+      "target": "references/library/scipilot/references/chart_selection.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/data_profiling.md",
+      "sha256": "ec2f87a5a09db0db00198b6b462b374c2640a57dfc41e2e884928c15145e27be",
+      "target": "references/library/scipilot/references/data_profiling.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/journal_specs.md",
+      "sha256": "a8e9654f55994d692d585e69fb3a68f5618ecf766d8ce0e95fdda6d12e786263",
+      "target": "references/library/scipilot/references/journal_specs.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/plot_recipes.md",
+      "sha256": "3d4f47a6e320d1c0635ee2fc329484952d4e528b1fe9b552e79828b88336c002",
+      "target": "references/library/scipilot/references/plot_recipes.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/publication_checklist.md",
+      "sha256": "9e2c5f0725c57e71eee0ff66ebac61d2d89c8cec4bd9c958db0184eea4c8abf6",
+      "target": "references/library/scipilot/references/publication_checklist.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/visual_review.md",
+      "sha256": "c4ca4a28a315e7de46f67b5972b3765b979f01fe30616c0681dd2595bed554a1",
+      "target": "references/library/scipilot/references/visual_review.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "scipilot",
+      "relative_path": "references/viz_pitfalls.md",
+      "sha256": "f103ae47611c6c7429629cb3161c5cdc8a0c9fba7f14d9f83159c96f848a9818",
+      "target": "references/library/scipilot/references/viz_pitfalls.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/aesthetic-library.md",
+      "sha256": "e464be689dad19e19a0b6eca58bfc5d1b30bdcb2eac380f6186c06b5192e2c0d",
+      "target": "references/library/figmirror/references/aesthetic-library.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/drawer.md",
+      "sha256": "e1c94a3f69c54333bd4deacd92ad2b50e0743b4f345b1e2bd069067aa6542c97",
+      "target": "references/library/figmirror/references/drawer.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/preprocessor.md",
+      "sha256": "d6ffb28ec80270531d37db2dda7bc82d81656cf0dbe296ae9847c07c82291cde",
+      "target": "references/library/figmirror/references/preprocessor.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/reviewer.md",
+      "sha256": "d85eb37dd3765ed8edd5c28e5a1694c75c3219b7de54b54615cef031220d81e9",
+      "target": "references/library/figmirror/references/reviewer.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d-prompting.md",
+      "sha256": "2f402f63996f3eb4f477c308185bf16fa43323b424d60eb84f6783dea2c36239",
+      "target": "references/library/figmirror/references/three-d-prompting.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/candidate-selection.md",
+      "sha256": "3e25ed3fbf490d389b62b22b8ef2a3ddce2adaf78ac56aa9f6e350788bddcd4c",
+      "target": "references/library/figmirror/references/three-d/candidate-selection.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/core.md",
+      "sha256": "8ce47378537fcade3148456e7c131ca655ab20a058811e78d178cf08b7440923",
+      "target": "references/library/figmirror/references/three-d/core.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/extrema-fold-network.md",
+      "sha256": "7d30e282607643dca9801e44cfed4c3e20bf0ffdb67427a80d2c2d8d2a1e428d",
+      "target": "references/library/figmirror/references/three-d/extrema-fold-network.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/fractured-surfaces.md",
+      "sha256": "9ee241c5d6ce01db2fdefb5219229e18dd6110c72cc53a77aaec3b2bb4b01ba6",
+      "target": "references/library/figmirror/references/three-d/fractured-surfaces.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/marks-and-panels.md",
+      "sha256": "55d64622feb65d5d2c887e5ae49714570c886d518c0a3c17a1dd6e02ddaa0e72",
+      "target": "references/library/figmirror/references/three-d/marks-and-panels.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/material-lighting.md",
+      "sha256": "83812855c73dedba30982605d6df45639321fa7354bc7f67e81572a95f0b028f",
+      "target": "references/library/figmirror/references/three-d/material-lighting.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/patch-composition.md",
+      "sha256": "8c7a902b7e0a26c6d1474ab802407068dee3c01f7e8af0c3a07e1119dcfd764a",
+      "target": "references/library/figmirror/references/three-d/patch-composition.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/repair-feedback.md",
+      "sha256": "3d26bd3440cabc8d19befb19af6fa9d540b2ca065f430f73a2747ecf083fb84e",
+      "target": "references/library/figmirror/references/three-d/repair-feedback.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/reviewer-scorecard.md",
+      "sha256": "468783716331d6d60e7c5eabce921a8b5f164a20987c8735bdd33362c3c24406",
+      "target": "references/library/figmirror/references/three-d/reviewer-scorecard.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/scale-occupancy.md",
+      "sha256": "2a9ac9b5f6c15e4ddabe193e74198098966043a7fb17b9f1531d887cc29be91d",
+      "target": "references/library/figmirror/references/three-d/scale-occupancy.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/strict-reproduction.md",
+      "sha256": "ee124c42df7bac2fecdb87ea064df71e1fede1e0d6f9d81d89ad9708995daaec",
+      "target": "references/library/figmirror/references/three-d/strict-reproduction.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/style-transfer.md",
+      "sha256": "96f2e3d3cba7a3bd12df8009788dbcdbed6d4c04852fa21818074b1e4c6e4858",
+      "target": "references/library/figmirror/references/three-d/style-transfer.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/surfaces.md",
+      "sha256": "863faeaabacb531b6758ac5e2ccd3e3534fc72c20da56e8d9c0af17f610f0da5",
+      "target": "references/library/figmirror/references/three-d/surfaces.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "references/three-d/volumetric-surfaces.md",
+      "sha256": "8058c83f8e6453e39ed0e08c62f45288eb1b9d8c57733e2676d53e45f162fd21",
+      "target": "references/library/figmirror/references/three-d/volumetric-surfaces.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "core/nature-results-discussion.md",
+      "sha256": "16f1ce1ed6d2aad7853eabf304cdbd661530931747bce4cf3f10b3dfb655adc1",
+      "target": "references/library/shared/core/nature-results-discussion.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "core/terminology-ledger.md",
+      "sha256": "c8ff387fc55439dbec9835d624fb1c1e544cca06ae8d007f8e4f726f68080784",
+      "target": "references/library/shared/core/terminology-ledger.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "core/consistency-sweep.md",
+      "sha256": "35a540c10a2c14415b7181588f612e16943cbc4e49f1428010d67c480051f0f9",
+      "target": "references/library/shared/core/consistency-sweep.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "core/research-compliance.md",
+      "sha256": "0ac172d2af0c2089acd7280712a89b23a5f232d4e436e9ae78dd501ff30cd855",
+      "target": "references/library/shared/core/research-compliance.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "core/ethics.md",
+      "sha256": "065db5761d72c295eb1ed5c231deb0b0bcbb0f1065d530f994c044398bd75056",
+      "target": "references/library/shared/core/ethics.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "journal-formats/nature.md",
+      "sha256": "2c4d007f69b64a2e083f9511748c3726b349a4dce4bfccbdac3bf97d1c1afc10",
+      "target": "references/library/shared/journal-formats/nature.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "journal-formats/nat-comms.md",
+      "sha256": "5a9eef685502e35d2289478d0b3815d5dbfbb6b2ed7d758accedfc7fd930e975",
+      "target": "references/library/shared/journal-formats/nat-comms.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "shared",
+      "relative_path": "journal-formats/nature-machine-intelligence.md",
+      "sha256": "d62a418fbd67841e745f553b98a267b5a01c9445457a07a0121095ce76fad0af",
+      "target": "references/library/shared/journal-formats/nature-machine-intelligence.md",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Brainteaser/plot_brute_force.py",
+      "sha256": "46906a9de2e8a069a2d3022a78087b2933e2cd898a38800242d005ceec40057f",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_brute_force.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Brainteaser/plot_correctness_by_category.py",
+      "sha256": "e84d87bf9cf8b7d8a184f558c02de91874215754075526aaa54586e68d931c1a",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_category.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Brainteaser/plot_correctness_by_subcategory.py",
+      "sha256": "fc9c20eaf00c7106b4752ad9638a6593c639721a12bfd42a748a6d439366d4af",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Brainteaser/plot_rewriting.py",
+      "sha256": "01939d1cc3807852ac4751ec143d5472193f1511381eae03bf0c01b33a367501",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_rewriting.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Brainteaser/plot_selfcorrection_math.py",
+      "sha256": "7656335018d67ecaaae362e63669f22c709e51644681dc801f298356fb7fef7c",
+      "target": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_selfcorrection_math.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_CellSpliceNet/plot_ablation.py",
+      "sha256": "e5ac79f9afb3667e20f016a4b7dd2bec46d9c2ace8359d3f43fe09206528615d",
+      "target": "references/library/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_CellSpliceNet/plot_comparison.py",
+      "sha256": "9061cd3476a2923e557e34585803da8e0df31a01f7cb5dd0f468b83458eeae33",
+      "target": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison_cross_species.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Cflows/diffusion_swiss_roll.py",
+      "sha256": "2ecd52231b6f095d8471b94bcae58d6c844f14cc8494c6c1636887711cabe592",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/diffusion_swiss_roll.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Cflows/plot_comparison_Ablation.py",
+      "sha256": "d5ab173adbf5be9486e8325f9904123fe7430c0c937e1eebd88dee38049cd787",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Ablation.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Cflows/plot_comparison_GeneRegulatory.py",
+      "sha256": "8659356aa5b92a7969dd8e46144c4c68fe97850cb58c2da6a5b011b7daf88129",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_GeneRegulatory.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Cflows/plot_comparison_Trajectory.py",
+      "sha256": "bc154c3e99fd4895ceefefeef81298055a8cd42e5795547e1fe1632edabe5b69",
+      "target": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Trajectory.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Dispersion/plot_idea.py",
+      "sha256": "c540a368c5a60b90fec950da8c5085d2ebfa47c367e3270fa3fb38176cf8134e",
+      "target": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_idea.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_Dispersion/plot_illustration.py",
+      "sha256": "7f9c451d336f718a2c4287130a45ec4597b9fad43746de314a018655c639ec98",
+      "target": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_illustration.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_ImmunoStruct/plot_bars.py",
+      "sha256": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_ImmunoStruct/raw_data.py",
+      "sha256": "837be4150b7419085caa84746734099ccc78e0f3fb4242e91b81ce1bde6009ca",
+      "target": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/raw_data.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_ophthal_review/plot_composition.py",
+      "sha256": "8fb5469cc22f13a68a71ab462abd876856b30c93d1f616fe1bd3569da5aee427",
+      "target": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_ophthal_review/plot_trend.py",
+      "sha256": "0a66624628f6e1da4f2da697e86ac79d46576d4bd552f5d585b2ceff05204811",
+      "target": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_trend.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/plot_comparison.py",
+      "sha256": "b2b30a212d084ae5ba7b82aa1fd830cbfea82a4eef507edfa1757b1734b250e3",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_comparison.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/plot_comparison_speed.py",
+      "sha256": "81508186c522c31c78fd185f284277f15506f4abbc75fe1c70cafc127184cd72",
+      "target": "references/library/figures4papers/figure_RNAGenScape/plot_comparison_speed.py",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/plot_hole_manifold.py",
+      "sha256": "cc31a470f0364c19f094c1ef32ada4909fb53dab638f56a552fe55d44942ded1",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_hole_manifold.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/plot_manifold.py",
+      "sha256": "aa6461c85b1d03b30f7e12824821c1149f1a4beb56394a20304126a592cf8021",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_RNAGenScape/plot_sweep.py",
+      "sha256": "123a14749450ef5895161b6823e7b8d217dbee181f39da954f5a8b2439be2961",
+      "target": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_sweep.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_VIGIL/plot_ablation.py",
+      "sha256": "b3c28343cfbb2f16e3e9c60735269d68098bcc7d16d5402f362354466fa272d7",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_ablation.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_VIGIL/plot_comparison_radar.py",
+      "sha256": "d30da4f6a14b33eb7e3350f6f9623caf58d178c099f961270a6e1c17aaaabbee",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_comparison_radar.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_VIGIL/plot_concept.py",
+      "sha256": "b494343947cb33dd076924522a1a0ed910ded2f72b311525890f0e9e6f4a6030",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_concept.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "figures4papers",
+      "relative_path": "figure_VIGIL/plot_posttraining.py",
+      "sha256": "bb1371ace0f1742eb99019c87e18ecc44588ff063141fed5775429e0e373dc1c",
+      "target": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_posttraining.py",
+      "mode": "deduplicated_identical_source"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "043分块热图+注释/codes.R",
+      "sha256": "cb125bb1c667ad5b6cbbbb64ab3d856282edb46a8de9015989a34a9922bc3fae",
+      "target": "references/library/ordinary/043分块热图+注释/codes.R",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "043分块热图+注释/plot1.pdf",
+      "sha256": "557b78f2b81f27787ade737457f056aa9855ab61c057af96059135f6a91fea64",
+      "target": "references/library/ordinary/043分块热图+注释/plot1.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "043分块热图+注释/plot2.pdf",
+      "sha256": "3d3a1074a6c56f7615e3a41e814f5d76ea542d4a6f63f8e239b43a6cba7c9f0d",
+      "target": "references/library/ordinary/043分块热图+注释/plot2.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "038聚类热图+注释/codes.R",
+      "sha256": "cc6f9cd17cffe42f5c3e242356c3ebef1c4c2ac8a0fa93e2869d4674827d5a47",
+      "target": "references/library/ordinary/038聚类热图+注释/codes.R",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "038聚类热图+注释/plots.pdf",
+      "sha256": "bf6db0b73ea0d46a2ed2e52b7edf5aa16dd6667ab9e33a7490c51dd7813261e0",
+      "target": "references/library/ordinary/038聚类热图+注释/plots.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "033个性化森林图/codes.R",
+      "sha256": "834a3a626c0c98d6a88c073b967878f83ebff0dc371c68194960d1336d733127",
+      "target": "references/library/ordinary/033个性化森林图/codes.R",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "033个性化森林图/plots.pdf",
+      "sha256": "98a114775d19d743c3d58e26be0258fe9e92bccbe60c94394e30ad371d5b5cc8",
+      "target": "references/library/ordinary/033个性化森林图/plots.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "033个性化森林图/rownames.csv",
+      "sha256": "aeb0233f82c6fa3949bfa1189e39c5a0c3e9a3b45d096c14f0e1d10faaec241d",
+      "target": "references/library/ordinary/033个性化森林图/rownames.csv",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "058分面折线图+置信区间+误差棒/codes.R",
+      "sha256": "989935a67f66d9d8c1ea3601c3b7654ebd993b501ea65e9ddbed3d55ccb8d1ad",
+      "target": "references/library/ordinary/058分面折线图+置信区间+误差棒/codes.R",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "058分面折线图+置信区间+误差棒/plot.pdf",
+      "sha256": "2f69fa78ff0272f9d389df4cd6082b6c91ec524d02c9daf49b2db7c0dde3861c",
+      "target": "references/library/ordinary/058分面折线图+置信区间+误差棒/plot.pdf",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "ordinary",
+      "relative_path": "058分面折线图+置信区间+误差棒/TableS3.csv",
+      "sha256": "226ed37a43fad4dfe649f94ed5e921e62123c7a52d21738630315cedc9e37fb1",
+      "target": "references/library/ordinary/058分面折线图+置信区间+误差棒/TableS3.csv",
+      "mode": "preserve_reference"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/complex-3d-generated.png",
+      "sha256": "2194c45b8fffaab040b97f492eba30d9005ad92742c29f3d682171e994517e55",
+      "target": "assets/visual-library/figmirror/complex-3d-generated.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/coreset-bars-generated.png",
+      "sha256": "2a38d7aeb5282e9dd9edf40dcd683f130a1963b7ea686f34c287b8a4166822aa",
+      "target": "assets/visual-library/figmirror/coreset-bars-generated.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/hexbin-joint-generated.png",
+      "sha256": "a834eed84d4cefaeca14fd236e9e9a89ea60c8fe310b789150d8b366b02cd979",
+      "target": "assets/visual-library/figmirror/hexbin-joint-generated.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/hexbin-joint-reference.png",
+      "sha256": "3835309ca637959f9f3747a3a176fc92ba3d572f094b2b8f3c0ac7b86d1e72f0",
+      "target": "assets/visual-library/figmirror/hexbin-joint-reference.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/julia-baby-m-generated.png",
+      "sha256": "b2cd00f752912108a4913b3a3663c825771ffeebca508dc0e8165c44c97ce6d2",
+      "target": "assets/visual-library/figmirror/julia-baby-m-generated.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/poly-roots-ring-generated.png",
+      "sha256": "a612aeca307b50ac3a012606602c24a173be3203d52ff895dfb39b4bc62a8a0d",
+      "target": "assets/visual-library/figmirror/poly-roots-ring-generated.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/primary-generated.jpg",
+      "sha256": "86c6daaf34629fc3c37c4f1ef901d97e477e4378a01896500670b28617f430fa",
+      "target": "assets/visual-library/figmirror/primary-generated.jpg",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/primary-reference.jpg",
+      "sha256": "3202b0c77e3e8f2ca8d16c7df6caf8b9c270947f9b5461cb75ac4951ae51d5f1",
+      "target": "assets/visual-library/figmirror/primary-reference.jpg",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/waterfall-3d-generated.png",
+      "sha256": "d4b42eabaa9c43b78abcd5b4311842fa2795e26cd8260318d222da83e7925a6b",
+      "target": "assets/visual-library/figmirror/waterfall-3d-generated.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "deep-library",
+      "source": "figmirror",
+      "relative_path": "docs/assets/showcase/waterfall-3d-reference.png",
+      "sha256": "e621461a04a79caf54a754e71accaa3af7127a7b39c7e96d69ce9fae0e4335de",
+      "target": "assets/visual-library/figmirror/waterfall-3d-reference.png",
+      "mode": "inspection_preview_from_repository_root"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Data charts/Heatmap/2507.04147__p9__fig10_s1.webp",
+      "sha256": "6d75a0d7bc55630d8af39bda7bfd61d64860b5f295f5992508c15856aec33213",
+      "target": "assets/visual-library/curated/2507.04147__p9__fig10_s1.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Data charts/Heatmap/2501.08292__p6__fig2.webp",
+      "sha256": "b211974b2a3f48fad3a18e8d0670061ace8953292ce7338f88df981c75c24e96",
+      "target": "assets/visual-library/curated/2501.08292__p6__fig2.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Data charts/Heatmap/2407.16377__p8__fig6.webp",
+      "sha256": "24347d98e8a919931cba47b8acfb7ecf100730f36772e765b847aa3e90f3963a",
+      "target": "assets/visual-library/curated/2407.16377__p8__fig6.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Data charts/Contour & surface/2505.24832__p7__fig7.webp",
+      "sha256": "ae03d699196eb3dac15676326ea967a5222ce2969f20f4fb346e9ae83e6250a6",
+      "target": "assets/visual-library/curated/2505.24832__p7__fig7.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Data charts/Histogram/2503.00151__p21__figD.1.webp",
+      "sha256": "1f956a0ad477daf22c66fde682d74c161bad4aca0913c84bcf304b76e2e63d27",
+      "target": "assets/visual-library/curated/2503.00151__p21__figD.1.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Data charts/Box & violin/2201.05574__p9__fig6.webp",
+      "sha256": "5721615fa69262b338b6288df8f2ea2e420e36afd73fbb29da4e4d68dd7bb365",
+      "target": "assets/visual-library/curated/2201.05574__p9__fig6.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Tables/014_2207.11919__p6__tabI.webp",
+      "sha256": "95c5c8fdcaac5a6165c3a923ab3fcb3aedc98530522014c14f21556f4970edf3",
+      "target": "assets/visual-library/curated/014_2207.11919__p6__tabI.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Tables/015_2211.03089__p4__tab2.webp",
+      "sha256": "6c8e361feb990ba8a5406cd52a8fdc81474a410a6a608cb37e25c54e7bbdb6d1",
+      "target": "assets/visual-library/curated/015_2211.03089__p4__tab2.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Tables/018_2302.04675__p9__tabV.webp",
+      "sha256": "5b91ee834f0ab1e0147f4ad4eaee7e00fdf1e37413e31528b0707035d5d18a92",
+      "target": "assets/visual-library/curated/018_2302.04675__p9__tabV.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Tables/032_2301.10545__p9__tab8.webp",
+      "sha256": "38b3307b0ee179189e0af1d42690bdf5aeed29bb528d544e2169a10021af77cf",
+      "target": "assets/visual-library/curated/032_2301.10545__p9__tab8.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Tables/089_2411.11745__p4__tabII.webp",
+      "sha256": "9fcf449c914f75f252ac20a4500bc1a3debaa1d59f6b28dcb09f94df6d6c756f",
+      "target": "assets/visual-library/curated/089_2411.11745__p4__tabII.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "curated-reference",
+      "source": "user-paper-corpus",
+      "relative_path": "Tables/093_2510.14557__p10__tab4.webp",
+      "sha256": "e9942ebcdf8703131c0059eefecd4fdc0fa2a234e90fa6f7795116e8a5ca7b39",
+      "target": "assets/visual-library/curated/093_2510.14557__p10__tab4.webp",
+      "mode": "local_inspection_reference"
+    },
+    {
+      "module": "optional-3d-diagnostic",
+      "source": "figmirror",
+      "relative_path": "scripts/score_3d_candidates.py",
+      "sha256": "2c96431c71edbc458107f9fcdb2b848d25dc58334512dfb214abd9a2ce77c31d",
+      "target": "scripts/score_3d_candidates.py",
+      "mode": "copy_diagnostic_only"
+    },
+    {
+      "module": "complete-figures4papers-guidance",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/api.md",
+      "sha256": "12892f4940c153c8b2e75abe8eed8f96476989b0a75d65f0dc3d08118bf58269",
+      "target": "references/library/figures4papers/references/api.md",
+      "mode": "full_document_with_scope_notice_and_local_link_adaptation"
+    },
+    {
+      "module": "complete-figures4papers-guidance",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/common-patterns.md",
+      "sha256": "1456736819f17c5a8bef0daaa58107355dd3212e1594afae5fb49279af2d6d67",
+      "target": "references/library/figures4papers/references/common-patterns.md",
+      "mode": "full_document_with_scope_notice_and_local_link_adaptation"
+    },
+    {
+      "module": "complete-figures4papers-guidance",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/design-theory.md",
+      "sha256": "d34fa995a481588a33aab301591a9a2ae54dae8df34c74e0a13311582ef48d99",
+      "target": "references/library/figures4papers/references/design-theory.md",
+      "mode": "full_document_with_scope_notice_and_local_link_adaptation"
+    },
+    {
+      "module": "complete-figures4papers-guidance",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/tutorials.md",
+      "sha256": "e5a9b9fa78a73a981f046aa29728dd844268282109159fd934f9c9716b3592c1",
+      "target": "references/library/figures4papers/references/tutorials.md",
+      "mode": "full_document_with_scope_notice_and_local_link_adaptation"
+    },
+    {
+      "module": "complete-figures4papers-guidance",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/references/demos.md",
+      "sha256": "23ce4b9f626af9ace648b047cbc3100ebc511b83127b8cebe793cab3a2f93fa3",
+      "target": "references/library/figures4papers/references/demos.md",
+      "mode": "full_document_with_scope_notice_and_local_link_adaptation"
+    },
+    {
+      "module": "entry",
+      "source": "figures4papers",
+      "relative_path": "scientific-figure-making/SKILL.md",
+      "sha256": "952300b4d0bd8fbd0c55aaa732a47a0abb8e9707bc80965c8e70221ef13f0292",
+      "target": "SKILL.md",
+      "mode": "integrated_scope_and_cross_stage_guidance"
+    }
+  ],
+  "integration_files": [
+    "SKILL.md",
+    "THIRD_PARTY_NOTICES.md",
+    "agents/openai.yaml",
+    "assets/examples/benchmark.py",
+    "assets/examples/domains.R",
+    "assets/examples/experimental.py",
+    "assets/examples/fields_and_tables.py",
+    "assets/examples/gallery.R",
+    "assets/examples/gallery.py",
+    "assets/examples/immunostruct.json",
+    "assets/examples/multicentre.py",
+    "assets/examples/rnagenscape.json",
+    "assets/library/capabilities.json",
+    "assets/library/catalog.json",
+    "assets/library/curated.json",
+    "assets/library/implementations.json",
+    "assets/palette-families.json",
+    "assets/paper_patterns.py",
+    "assets/project-style.json",
+    "licenses/figures4papers-CC-BY-NC-4.0.txt",
+    "licenses/nature-skills-Apache-2.0.txt",
+    "licenses/scipilot-MIT.txt",
+    "references/chart-selection.md",
+    "references/curated-lessons.md",
+    "references/design.md",
+    "references/domain-workflows.md",
+    "references/editorial-review.md",
+    "references/fields-and-3d.md",
+    "references/journal-output.md",
+    "references/library-guide.md",
+    "references/multipanel.md",
+    "references/paper-patterns.md",
+    "references/python.md",
+    "references/quality-checks.md",
+    "references/r.md",
+    "references/reference-style.md",
+    "references/source-adaptation.md",
+    "references/tables.md",
+    "references/visual-library.md",
+    "references/workflow.md",
+    "requirements.txt",
+    "scripts/audit_figure_collisions.py",
+    "scripts/audit_panel_alignment.py",
+    "scripts/audit_pdf_text.py",
+    "scripts/chart_plan.py",
+    "scripts/check_figure.py",
+    "scripts/color_tools.py",
+    "scripts/composition.py",
+    "scripts/domain_plots.R",
+    "scripts/editorial.py",
+    "scripts/evidence_tools.py",
+    "scripts/export_figure.py",
+    "scripts/field_tools.py",
+    "scripts/figannot.py",
+    "scripts/figure_safety.py",
+    "scripts/image_layout.py",
+    "scripts/layout_tools.py",
+    "scripts/library.py",
+    "scripts/panel_alignment.R",
+    "scripts/plot_templates.py",
+    "scripts/preflight.py",
+    "scripts/profile_data.py",
+    "scripts/project_style.R",
+    "scripts/project_style.py",
+    "scripts/publication.R",
+    "scripts/publication.py",
+    "scripts/r_runtime.py",
+    "scripts/research_panels.py",
+    "scripts/review_tools.R",
+    "scripts/review_tools.py",
+    "scripts/score_3d_candidates.py",
+    "scripts/setup_style.py",
+    "scripts/study_data.py",
+    "scripts/table_tools.py",
+    "scripts/validate_figure.py",
+    "scripts/visual_qa.py"
+  ],
+  "package_files": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "375b89a01c225d84b54948f75b0b3c3f7238c94ea9c3a6045f924b3f0eec552f"
+    },
+    {
+      "path": "assets/examples/advanced_tasks.py",
+      "sha256": "4929bc63a71a3d6185a3d51f41f91d1925c605ea38ce4718d94d7525422c3baa"
+    },
+    {
+      "path": "assets/examples/advanced_tasks.R",
+      "sha256": "2f9d4870a1e911de474bad5b906935818f39726a8bb63dbd48782509c3bd72f5"
+    },
+    {
+      "path": "assets/examples/benchmark.py",
+      "sha256": "135bfeadcae6aa04c6a522ebe1283bd5bb5383fd0ce003af1e07f980dea0da2f"
+    },
+    {
+      "path": "assets/examples/domains.R",
+      "sha256": "a66e302fa577bbe6d67f54cf93a9bbd2b7be5cb868beda349ef888c4751148b8"
+    },
+    {
+      "path": "assets/examples/experimental.py",
+      "sha256": "2bd958f7b59da20d2a6a9ccdbbad7ba25dffa441884537b4752db3e79cbda2cf"
+    },
+    {
+      "path": "assets/examples/fields_and_tables.py",
+      "sha256": "f826950a1c086493b82d03afa2ccb8fdf784337258d313bd18e3ec79edb4a6d4"
+    },
+    {
+      "path": "assets/examples/gallery.py",
+      "sha256": "6c70aca479e25cb713008c07b7bf7eb2a67a5339e2f230c460774308d12ae601"
+    },
+    {
+      "path": "assets/examples/gallery.R",
+      "sha256": "fb4f772305c9faf7e3e45b95a5f784a2268db5431f1e92f82185f6126ed56cea"
+    },
+    {
+      "path": "assets/examples/holdout.R",
+      "sha256": "326d58057f74e539bb6f1fdd82b36c9e47285c9053e9986ae8efa21d4de8f8b7"
+    },
+    {
+      "path": "assets/examples/immunostruct.json",
+      "sha256": "c7d392ad6b572b3117ffa6ca3f2016d73ce6340f0d76a09cb34745450acc2eab"
+    },
+    {
+      "path": "assets/examples/multicentre.py",
+      "sha256": "0f57852d54f728f44b40a4833f8e1f9b99829c3d418cc3034784b54a69905482"
+    },
+    {
+      "path": "assets/examples/rnagenscape.json",
+      "sha256": "ca8da33f487875f0cc2ed1dc2cf8a2bff0ab396d571ce8cc815d2123900d2820"
+    },
+    {
+      "path": "assets/library/capabilities.json",
+      "sha256": "08b77bcee5143aae7b12ef5b16c021f1d9d013affe787f56040dead7063ecba8"
+    },
+    {
+      "path": "assets/library/catalog.json",
+      "sha256": "4ae1a81f8d657777c0d43ce6660525f7cbf3c80b26046b7cea9c0723e6848194"
+    },
+    {
+      "path": "assets/library/curated.json",
+      "sha256": "bdc582d27bef1a1e3a2744b5370a854d7ab197864c679a85193dae60308b8870"
+    },
+    {
+      "path": "assets/library/implementations.json",
+      "sha256": "88510d5e850b59a510652b9324c8f2dd574c2c164ef291fa24923d16f5dc720d"
+    },
+    {
+      "path": "assets/palette-families.json",
+      "sha256": "bb4c961f4070932652bfab38f8db4f0b013469cf30163eec6223192a40a332c4"
+    },
+    {
+      "path": "assets/paper_patterns.py",
+      "sha256": "fa9ff6089314018368f57924afcd139a7d3421623e86365adcf0f59baaaec70d"
+    },
+    {
+      "path": "assets/project-style.json",
+      "sha256": "0401eab598cbdda82e2fbf8c24f2acb5e9a7dfe6a6fa7700f7aa47ed0d8e2fce"
+    },
+    {
+      "path": "assets/visual-library/01_method_comparison.png",
+      "sha256": "1477251225e9b5e3e7d80839b5994ba447a3b4fe5e1478a31ff9ecf506f1191d"
+    },
+    {
+      "path": "assets/visual-library/02_component_ablation.png",
+      "sha256": "44fbf3505b0a7b0382afd76a8d1c7229d928170f328787416a5ac9d691451656"
+    },
+    {
+      "path": "assets/visual-library/03_structured_heatmap.png",
+      "sha256": "b5b9dd0b2c27f65ec26728599ab402bf36af23d836fdf9ea30b3c469b775d84e"
+    },
+    {
+      "path": "assets/visual-library/04_experimental_evidence.png",
+      "sha256": "cf6b5785de849d138f376111864b234a4ca25aca312afabc5ab0f0c25b9597b4"
+    },
+    {
+      "path": "assets/visual-library/05_native_R_annotated_heatmap.png",
+      "sha256": "0a29798d9b7847085dff714759f4e1076d835e3ad13d76a272c5b1fdafa303e8"
+    },
+    {
+      "path": "assets/visual-library/06_native_R_survival_risk.png",
+      "sha256": "1b6e033b9de3ee547513daa341bc7c25dcda42ecfc58456be866d90c5b99f75d"
+    },
+    {
+      "path": "assets/visual-library/08_quantitative_field.png",
+      "sha256": "bee58e17ea9c9e6fe819ab30fa812d4225ee85c9aa67a9ed79c19519bd2cd085"
+    },
+    {
+      "path": "assets/visual-library/curated/014_2207.11919__p6__tabI.webp",
+      "sha256": "95c5c8fdcaac5a6165c3a923ab3fcb3aedc98530522014c14f21556f4970edf3"
+    },
+    {
+      "path": "assets/visual-library/curated/015_2211.03089__p4__tab2.webp",
+      "sha256": "6c8e361feb990ba8a5406cd52a8fdc81474a410a6a608cb37e25c54e7bbdb6d1"
+    },
+    {
+      "path": "assets/visual-library/curated/018_2302.04675__p9__tabV.webp",
+      "sha256": "5b91ee834f0ab1e0147f4ad4eaee7e00fdf1e37413e31528b0707035d5d18a92"
+    },
+    {
+      "path": "assets/visual-library/curated/032_2301.10545__p9__tab8.webp",
+      "sha256": "38b3307b0ee179189e0af1d42690bdf5aeed29bb528d544e2169a10021af77cf"
+    },
+    {
+      "path": "assets/visual-library/curated/089_2411.11745__p4__tabII.webp",
+      "sha256": "9fcf449c914f75f252ac20a4500bc1a3debaa1d59f6b28dcb09f94df6d6c756f"
+    },
+    {
+      "path": "assets/visual-library/curated/093_2510.14557__p10__tab4.webp",
+      "sha256": "e9942ebcdf8703131c0059eefecd4fdc0fa2a234e90fa6f7795116e8a5ca7b39"
+    },
+    {
+      "path": "assets/visual-library/curated/2201.05574__p9__fig6.webp",
+      "sha256": "5721615fa69262b338b6288df8f2ea2e420e36afd73fbb29da4e4d68dd7bb365"
+    },
+    {
+      "path": "assets/visual-library/curated/2407.16377__p8__fig6.webp",
+      "sha256": "24347d98e8a919931cba47b8acfb7ecf100730f36772e765b847aa3e90f3963a"
+    },
+    {
+      "path": "assets/visual-library/curated/2501.08292__p6__fig2.webp",
+      "sha256": "b211974b2a3f48fad3a18e8d0670061ace8953292ce7338f88df981c75c24e96"
+    },
+    {
+      "path": "assets/visual-library/curated/2503.00151__p21__figD.1.webp",
+      "sha256": "1f956a0ad477daf22c66fde682d74c161bad4aca0913c84bcf304b76e2e63d27"
+    },
+    {
+      "path": "assets/visual-library/curated/2505.24832__p7__fig7.webp",
+      "sha256": "ae03d699196eb3dac15676326ea967a5222ce2969f20f4fb346e9ae83e6250a6"
+    },
+    {
+      "path": "assets/visual-library/curated/2507.04147__p9__fig10_s1.webp",
+      "sha256": "6d75a0d7bc55630d8af39bda7bfd61d64860b5f295f5992508c15856aec33213"
+    },
+    {
+      "path": "assets/visual-library/figmirror/complex-3d-generated.png",
+      "sha256": "33262fb7a401d353d716670d8b2cf436b2732fa237a1e5d396059889acbf56ab"
+    },
+    {
+      "path": "assets/visual-library/figmirror/coreset-bars-generated.png",
+      "sha256": "78ac511f3cfcd3dbb28baeafcde97ef6d849c766fb3634612b32bee6174ce154"
+    },
+    {
+      "path": "assets/visual-library/figmirror/hexbin-joint-generated.png",
+      "sha256": "fd3b09d82a9bae3c64a825bff1de03d22ecf4f7296d59bda3b2d11a7803f962e"
+    },
+    {
+      "path": "assets/visual-library/figmirror/hexbin-joint-reference.png",
+      "sha256": "b1a7e66f26b87f940623edebba3c95dc1475c037fc6585198381639452406f79"
+    },
+    {
+      "path": "assets/visual-library/figmirror/julia-baby-m-generated.png",
+      "sha256": "210e55ab3694a521e10c7d5c32ec2984952698c63266afb1eeeb21388e262a21"
+    },
+    {
+      "path": "assets/visual-library/figmirror/poly-roots-ring-generated.png",
+      "sha256": "f42bb895ca5e7ce127369aad6bdbe4cb3633d13427191b32c42b99617d874f96"
+    },
+    {
+      "path": "assets/visual-library/figmirror/primary-generated.jpg",
+      "sha256": "8a13bb3888068544ebd8ac5f65c1d97871cdb5738d01dd06bb138dc64bd87493"
+    },
+    {
+      "path": "assets/visual-library/figmirror/primary-reference.jpg",
+      "sha256": "7074adf718cb8d8efb36bd5230ff4ccecc71a9050259e9b51cd8cf130e4ee9fe"
+    },
+    {
+      "path": "assets/visual-library/figmirror/waterfall-3d-generated.png",
+      "sha256": "f1a24d05f0a2dd4843dde4d230fed544c8f386e69e68ae7f9d380ec2738fae69"
+    },
+    {
+      "path": "assets/visual-library/figmirror/waterfall-3d-reference.png",
+      "sha256": "b68251ee770dc87b0fe1122e934361799e2ec35115a258f80d589557a25c2e26"
+    },
+    {
+      "path": "assets/visual-library/source_immunostruct.png",
+      "sha256": "f1f564e0c7221f24f4bffe14cce5b5df6786c75f7dfcf1b6d2be7566820050ec"
+    },
+    {
+      "path": "assets/visual-library/source_rnagenscape.png",
+      "sha256": "4cf8539d0521b7268f0227b56cecddf2f70c1bb4bbcf9b5e3be886e95a54927a"
+    },
+    {
+      "path": "licenses/figures4papers-CC-BY-NC-4.0.txt",
+      "sha256": "0afca3145596cd005f6f6ed977313ea31928094fc5b4aaabc21bb765ea369d09"
+    },
+    {
+      "path": "licenses/nature-skills-Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "licenses/scipilot-MIT.txt",
+      "sha256": "9138113e804093683aea49033b274c7ab35babce90c3acb86eae115d44585671"
+    },
+    {
+      "path": "references/chart-selection.md",
+      "sha256": "ef98b6b65b3b08e584d6cb8e8b5f748260783eaeeacbe3d5c5d128e452b933e6"
+    },
+    {
+      "path": "references/curated-lessons.md",
+      "sha256": "1a4770c84b3d8fe3691cfe916ead44d377e7138fc4c568f2e23651f6c04b2151"
+    },
+    {
+      "path": "references/design.md",
+      "sha256": "fb05beeb0f08a3255fbd1d3e5b1df36f576de2df5e7f94736583a360f44d98f3"
+    },
+    {
+      "path": "references/domain-workflows.md",
+      "sha256": "33e449f197a975cd4fd90ea1d9854a7ec36d7d6a2b57287aa65043bd61a840c5"
+    },
+    {
+      "path": "references/editorial-review.md",
+      "sha256": "d1719ad933a0ea43159b4bd0b9b671cf32fb9b115340a08554332599bce4271c"
+    },
+    {
+      "path": "references/fields-and-3d.md",
+      "sha256": "87d9d3120fd4bc6528ad3011549a28f947283178fd3cd50dcfca18d5eb4d9002"
+    },
+    {
+      "path": "references/journal-output.md",
+      "sha256": "2db828bad58950c21ef3716ee76122977e41c77ef2db4f56601b0ad1df9de50b"
+    },
+    {
+      "path": "references/library/figmirror/references/aesthetic-library.md",
+      "sha256": "bb1c76211b1b9c4cf7b9f8303fb1fff6645688280c6fbdbdd246164cc61993e2"
+    },
+    {
+      "path": "references/library/figmirror/references/drawer.md",
+      "sha256": "5a6633f2b3d0c4ab367b7879262cc1d281ce32303b1987947ee8e2ad3b5e3c77"
+    },
+    {
+      "path": "references/library/figmirror/references/preprocessor.md",
+      "sha256": "8e03952cf8345b878c256810a5099e8afbd4e56da46556886d0fb44d0867da65"
+    },
+    {
+      "path": "references/library/figmirror/references/reviewer.md",
+      "sha256": "281b9af971f0cf700acee58ba6beeaa7c523feafec35147d7ffe80402c156ff1"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/candidate-selection.md",
+      "sha256": "d8357d589251013e32ae3a4a56ed42795dbf78804505b7868b862c9855123e2c"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/core.md",
+      "sha256": "7ca36c78ae86460b763636e5861052081edb73e63a012445e93e9c6ab71ec073"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/extrema-fold-network.md",
+      "sha256": "322376279c7204b1bf7278154bd5184741bd19fb6f29f278231fc8d5df9e93cf"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/fractured-surfaces.md",
+      "sha256": "25ff6061fefbf2354facc5823a254ed4dc4a1d843f1a72ee8edaf5fad22d04cd"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/marks-and-panels.md",
+      "sha256": "8faae1475d3300f06a7c0283562ea8756c5e99bb518800fa9db0e546ffddd88b"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/material-lighting.md",
+      "sha256": "a2772eaa6ec09addf39b8af370453bad27acbe304f6165085a16df64ce1fc52c"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/patch-composition.md",
+      "sha256": "e209ab8d4a3176d984f1e24048e7187fe626398e10c1fcdd60f1b4d6afafeb2c"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/repair-feedback.md",
+      "sha256": "bd0e057a7b0f2ef580caf646fdc74a84cf77a352f583cda31781b4e2ead7a951"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/reviewer-scorecard.md",
+      "sha256": "465db357a24a596a2d9fdd71ff894cc8414ef9074e31be37c5c5cb9813988f79"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/scale-occupancy.md",
+      "sha256": "e264058d4b9a91afc697e58ab1f16700b3e4ea294aa41cadd12a6d401e451e74"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/strict-reproduction.md",
+      "sha256": "64a050f4a0e6c4896ac749a0b58c0c02b13941572c49075fe217a587a3982be0"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/style-transfer.md",
+      "sha256": "fa8a1ff6be00484ea31ea143f427e2051767eeafecfcc22f3b32cf8c16180aaf"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/surfaces.md",
+      "sha256": "45850ac471123d845bfff51393d83b94d040b81de7f618b4709fa21f7587bec9"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d/volumetric-surfaces.md",
+      "sha256": "a1c995790e17163b6e44147ff1da0beebac616fcf290aeda1d7cd22e35e47a12"
+    },
+    {
+      "path": "references/library/figmirror/references/three-d-prompting.md",
+      "sha256": "7a709ab39fc7cf5d331319b0a699437488ae513f3f3dc4ace938b64feac5a0f0"
+    },
+    {
+      "path": "references/library/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "sha256": "e5ac79f9afb3667e20f016a4b7dd2bec46d9c2ace8359d3f43fe09206528615d"
+    },
+    {
+      "path": "references/library/figures4papers/figure_RNAGenScape/plot_comparison_speed.py",
+      "sha256": "81508186c522c31c78fd185f284277f15506f4abbc75fe1c70cafc127184cd72"
+    },
+    {
+      "path": "references/library/figures4papers/references/api.md",
+      "sha256": "4340ba74a2be934990aa57e02b810f5e2faaaa25bd7475feb3732e7cc14f1910"
+    },
+    {
+      "path": "references/library/figures4papers/references/common-patterns.md",
+      "sha256": "45d3382eb13c73db7a0660345079354953b35fc4c946debf2b7f49ca00873e22"
+    },
+    {
+      "path": "references/library/figures4papers/references/demos.md",
+      "sha256": "e32169901186e306964424164496d30138dfc3d1fc3c2e923aff21215e310289"
+    },
+    {
+      "path": "references/library/figures4papers/references/design-theory.md",
+      "sha256": "2afe0d39a176cc9c21a8d1b6d9efeda7d5e0edfb1048b0865a68009c01323409"
+    },
+    {
+      "path": "references/library/figures4papers/references/tutorials.md",
+      "sha256": "4b173559b85b28d8863aa0b3c7ecba9bc8f3fb5e6d5b486796ad791013440e49"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-01-bar-charts.png",
+      "sha256": "4a0e3040bbdbfe5ec48b66515f719f83ad7304fadb2e56432cd3e8f7ccbabd65"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-02-line-trends.png",
+      "sha256": "9a8189149180a68679738bc4be152ee40b17d71261d71b3759d315a7169da0d9"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-03-heatmaps.png",
+      "sha256": "40dd7c7c14c45b45cc22ee23e19f2dc1901f38b26a1fb4b0f26a30dbd10c0423"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-04-scatter-bubble.png",
+      "sha256": "1bbfbc38a3f246e4fd7c59b9ed1003ddbc7280ee160b7c38abf8d410b27fe6f8"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-05-radar-polar.png",
+      "sha256": "e7fa7d98cd4f5263f5550d7ac8824e60071c20b2927aef52ac6d18d62fd29ffa"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-06-distributions.png",
+      "sha256": "a1fe533d07dae36d11c997577ded61adb16bf5d4dd5c0dee2ff92ae570f0f01e"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-07-forest-interval.png",
+      "sha256": "dc61a5257eae4748348c72c51f2e70e59979c6892f52dadf7bb4ba6f8b98b00b"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-08-area-stacked.png",
+      "sha256": "350c25e427d945dee5fd98316eb6ebe307304b9d187d954a88c05852d664a60b"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-09-image-plates.png",
+      "sha256": "bbc8c0b8708d42465e57cb7c56b4d2ecfbaa63340a5a6dfefbcb51189cd1a995"
+    },
+    {
+      "path": "references/library/nature/assets/chart-atlas/atlas-10-network-matrix.png",
+      "sha256": "cd384abe10aa86bd310c1288a42f33735cb555c267bddae1ecd262905a7a1de5"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/Dispersion_motivation.png",
+      "sha256": "c99aaf92cd3be959de55e0f63af57c52a27857643ccf237e36ccafeba8904fdb"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/Dispersion_observation.png",
+      "sha256": "a0ef2ffaf4f2784e30dd21defe49390c12d123cbe656835ab37ba876f4bcd439"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/Dispersion_observation_distillation.png",
+      "sha256": "ad5e579b03d0d4b5e775b1a0825183e2dc4f0569f1cbcdad541f07a9154f5c80"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_contrastive.png",
+      "sha256": "c2590ba1ecac5e1d0976df3be6e9fa4056dcdd78670201c6db461e3e4f18b0d0"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_results_CEDAR.png",
+      "sha256": "f1f564e0c7221f24f4bffe14cce5b5df6786c75f7dfcf1b6d2be7566820050ec"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_results_IEDB.png",
+      "sha256": "2768b1a5ef0c501dc03c53c594a28e028df2cd57b51c4fd80c9a57906f6195c5"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/ImmunoStruct_schematic.png",
+      "sha256": "2d3ddf56ae63b34ead168cb95b484881f934e61204a8740c67d6dc1678bbaf7d"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/assets/RNAGenScape_schematic.png",
+      "sha256": "bcdb7cc5257a9d121102e0222f78dc63e3663d195b1d84ff28fa29b03ef3d6f8"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+      "sha256": "c3062aace120018f182f1c59614ba463ef288e2abcf7ab01092ef5d43422f192"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+      "sha256": "132579842fa4d3dd56d25e5c7f0b1cadb82fd0c391a07412bac31ced289150e8"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+      "sha256": "dbc72e0cc5dfe0d363bb4a33038e0f49a0adde3fa1f02503192781b51e0eb9f1"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+      "sha256": "8db6b708eabe23217427c990b91c855702c10769a77ae88cddd7b6a50e096019"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png",
+      "sha256": "699c27cc4544cdbb9aae376be8e2fa5bb4a6044030579693aa50c0d60ecb396a"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_brute_force.py",
+      "sha256": "46906a9de2e8a069a2d3022a78087b2933e2cd898a38800242d005ceec40057f"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_category.py",
+      "sha256": "e84d87bf9cf8b7d8a184f558c02de91874215754075526aaa54586e68d931c1a"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+      "sha256": "fc9c20eaf00c7106b4752ad9638a6593c639721a12bfd42a748a6d439366d4af"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_rewriting.py",
+      "sha256": "01939d1cc3807852ac4751ec143d5472193f1511381eae03bf0c01b33a367501"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_selfcorrection_math.py",
+      "sha256": "7656335018d67ecaaae362e63669f22c709e51644681dc801f298356fb7fef7c"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/ablation.png",
+      "sha256": "834526c86450931edb29574998234a894afc186a90e04be79e3cb4e4a6a27854"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison.png",
+      "sha256": "2825f9998c6e81554d667fb845854ee5d554c9a28f5076e7c8ffa04165599449"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png",
+      "sha256": "bd2df56cab549902251ef3ef3417d3f2eff271c5c7ed599753ec079b05ed070a"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png",
+      "sha256": "f2a4ffe28ca661d8bd5037c3f80693a87ba674addba1a6131e6537425f3320c8"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "sha256": "0d0959102afe26249199a60fb67d5c8bd282a6fdb9c7e024c51a9c42a6a58c7f"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison.py",
+      "sha256": "4e888489587ca7d345893715cc8f34a9b92cc347ffe5b20291093df1c2f23bd6"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison_cross_species.py",
+      "sha256": "9061cd3476a2923e557e34585803da8e0df31a01f7cb5dd0f468b83458eeae33"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/diffusion_swiss_roll.py",
+      "sha256": "2ecd52231b6f095d8471b94bcae58d6c844f14cc8494c6c1636887711cabe592"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+      "sha256": "05d8499d7967c518f7b83024834e4a6a31c27eb76034ac7acd7b98e137c721f7"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.pdf",
+      "sha256": "30b1efaf3293a240c6646f076a14f702bb3556fd10a1fb791c23deb90d3ff40e"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+      "sha256": "eb4f2887eab4eba5e2ed15c4d8868a7efe7586338fe8b41907302b26fc3c6990"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.pdf",
+      "sha256": "465050a8f8c8be85eb3e8d17c16eaef3df50acc41b2bd212d2b6176d97efc78c"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+      "sha256": "3550cc4483c59b607805fb6203544250f4f41601e0864f4377178e9cc03d63e6"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.pdf",
+      "sha256": "d4c7b8013a24aa830a0f83b8cf5ffd917a932458e6a265f4b5f29e9a4389960a"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png",
+      "sha256": "fc30bc614c4c2099592ceabee0b9d3d6a25dc0dffd066db2ba61e3764160a098"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Ablation.py",
+      "sha256": "d5ab173adbf5be9486e8325f9904123fe7430c0c937e1eebd88dee38049cd787"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_GeneRegulatory.py",
+      "sha256": "8659356aa5b92a7969dd8e46144c4c68fe97850cb58c2da6a5b011b7daf88129"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Trajectory.py",
+      "sha256": "bc154c3e99fd4895ceefefeef81298055a8cd42e5795547e1fe1632edabe5b69"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Dispersion/figures/idea.png",
+      "sha256": "a74848168ce05a5162d8c4bea0ff8144628895620f0b255b2582f43b0566239c"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Dispersion/figures/illustration.png",
+      "sha256": "18e3fee87c2cbcaf2174d407f0b02b0f57a26eb789274c6649ce9ca0c5f89f61"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_idea.py",
+      "sha256": "c540a368c5a60b90fec950da8c5085d2ebfa47c367e3270fa3fb38176cf8134e"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_illustration.py",
+      "sha256": "7f9c451d336f718a2c4287130a45ec4597b9fad43746de314a018655c639ec98"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_FPGM/figures/freq_prior.png",
+      "sha256": "acac0a46a1bd6a51e1e7eb42aaaf33a77bdb916f392147b2aa34c379af324738"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_FPGM/plot_freq_prior.py",
+      "sha256": "d9c5a53ff6c76e9545ea0d65292841765e849d1076afc6a92f2127041740d8bf"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_Cancer.png",
+      "sha256": "fc3a4818ed0c86fb35dbcf00b516f807d73a5162217a4829b2c6e30187fe125d"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_IEDB.png",
+      "sha256": "db88909394fa5b25746e0727e189c25f7e4ac4955b2019d3cdaef1a36bcb8f64"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_Cancer.png",
+      "sha256": "8f5bd39cd56be6ccedfc86db6a810cddefd8966de1cb94d77d60a9efa0d7123a"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_IEDB.png",
+      "sha256": "a7cbbea2124b3b3d4706d1fb07e53356784a42d8d493cd8245c7d96187fda1d6"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+      "sha256": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/raw_data.py",
+      "sha256": "837be4150b7419085caa84746734099ccc78e0f3fb4242e91b81ce1bde6009ca"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/composition_heatmap.png",
+      "sha256": "41f00d4a12cd5a335f05c39eb9a35ecd027abb595555d372f995e2f557928f89"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/trend_by_month.png",
+      "sha256": "77739599e62bfed3e9aa295cf4babee9df2353d486d9b0e9cc32deea011c5602"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+      "sha256": "8fb5469cc22f13a68a71ab462abd876856b30c93d1f616fe1bd3569da5aee427"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_trend.py",
+      "sha256": "0a66624628f6e1da4f2da697e86ac79d46576d4bd552f5d585b2ceff05204811"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+      "sha256": "83e55ca23d8aa2fa591a46d3fe4f9d6ac11e17cbc9657e2615d883ea6deb937c"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+      "sha256": "a16a5113d2a9296761daea26ed729ee98831c9b8b33ac8a35729acec4827df10"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+      "sha256": "4fc666d848dbeae9e6530f3003d75e639e56d1795bef6fe420e7590d0dd43994"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+      "sha256": "cd1fec84f615a43dbe91cc94bfbb94fe07e086fdd5d8191fbff2ec990e38d4f5"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png",
+      "sha256": "4db30b32b65e6b7160ebe025993c2ffdaf6e240d836c253419e91649d3da8deb"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_comparison.py",
+      "sha256": "b2b30a212d084ae5ba7b82aa1fd830cbfea82a4eef507edfa1757b1734b250e3"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_hole_manifold.py",
+      "sha256": "cc31a470f0364c19f094c1ef32ada4909fb53dab638f56a552fe55d44942ded1"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+      "sha256": "aa6461c85b1d03b30f7e12824821c1149f1a4beb56394a20304126a592cf8021"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_sweep.py",
+      "sha256": "123a14749450ef5895161b6823e7b8d217dbee181f39da954f5a8b2439be2961"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+      "sha256": "21514a96d54b421084eedff19b10f6244bc237d72d34086dcae43f695d73d20e"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+      "sha256": "a6f2e75e7d8361754445d86ce04386b5764a46bf2cbc94e8df0c75ecf1bab142"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+      "sha256": "22c6c8aeac87cee2940af070bc4e4eff774c162cd49fc9d5ed02cfd22d09747d"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/figures/concept.png",
+      "sha256": "a8cad35d9659f0c4bc5f0cab72110fbd66b21aff5755aa7433d54793d840d5f9"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_ablation.py",
+      "sha256": "b3c28343cfbb2f16e3e9c60735269d68098bcc7d16d5402f362354466fa272d7"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_comparison_radar.py",
+      "sha256": "d30da4f6a14b33eb7e3350f6f9623caf58d178c099f961270a6e1c17aaaabbee"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_concept.py",
+      "sha256": "b494343947cb33dd076924522a1a0ed910ded2f72b311525890f0e9e6f4a6030"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_posttraining.py",
+      "sha256": "bb1371ace0f1742eb99019c87e18ecc44588ff063141fed5775429e0e373dc1c"
+    },
+    {
+      "path": "references/library/nature/assets/figures4papers/THIRD_PARTY_NOTICES.md",
+      "sha256": "29c2e6f66c26b2f2b0daf8eca653111a77b9728d65ebec8ef0b342bff2aeaed3"
+    },
+    {
+      "path": "references/library/nature/assets/gallery/fig1-material-mechanism-rich.png",
+      "sha256": "2e0706fae3256e1de2388f8605f35b9b6ac23cfc397161a952f34cc5fa2f2192"
+    },
+    {
+      "path": "references/library/nature/assets/gallery/fig2-spatial-imaging-rich.png",
+      "sha256": "90081b3f778b9ede2dba41c60b6abf0c28a239060c69428344539529cd7f3257"
+    },
+    {
+      "path": "references/library/nature/assets/gallery/fig3-in-vivo-efficacy-rich.png",
+      "sha256": "25d6fc50f5808104a7cb19f4795cea4229fbc6159fa7509f716a94f7c160a033"
+    },
+    {
+      "path": "references/library/nature/assets/gallery/fig4-single-cell-systems-rich.png",
+      "sha256": "999edb06b942f988a51b11f947845e42e4c346b2f9e5d5a6425def9e43bb69d1"
+    },
+    {
+      "path": "references/library/nature/assets/gallery/fig5-validation-perturbation-rich.png",
+      "sha256": "245ad31f97b2054628987444e44d6a007f352f65ae6254189f5ed8ba9b0301c6"
+    },
+    {
+      "path": "references/library/nature/references/api.md",
+      "sha256": "78951b39d07038c96809bdda61732a53e55d1a74843095da777b152da71a8c7c"
+    },
+    {
+      "path": "references/library/nature/references/asset-adaptation.md",
+      "sha256": "c6d7e628b2d92424b81e9a24f58b731be301fd9c22e01444c137a9aafda3c473"
+    },
+    {
+      "path": "references/library/nature/references/backend-selection.md",
+      "sha256": "017348def0e645550b101d7e9584a4f81c6fe3c1c0dcd875746935465485cfe3"
+    },
+    {
+      "path": "references/library/nature/references/chart-types.md",
+      "sha256": "fa0d63f21b4151358053a7e15a1b0f328a4a5a4600da3a3c69d7898559614cf2"
+    },
+    {
+      "path": "references/library/nature/references/common-patterns.md",
+      "sha256": "49e12d7864d818bcb3137f054ab8df087c500f6ddd08b73c15e00897767361ba"
+    },
+    {
+      "path": "references/library/nature/references/demos.md",
+      "sha256": "065cd96e7f4612b1b5c924bc0065e146dff45babf97122d08c73a9ff2a0c48a5"
+    },
+    {
+      "path": "references/library/nature/references/design-theory.md",
+      "sha256": "ece6954281b096c8b7a977f9a73b64d6249bd1942a22e2f0ad0e787caf2c327a"
+    },
+    {
+      "path": "references/library/nature/references/figure-contract.md",
+      "sha256": "a3e1a4d65705d57544a29f64912b425465bba44c5aa47d9e074403a344626c35"
+    },
+    {
+      "path": "references/library/nature/references/figure-legend-conventions.md",
+      "sha256": "c6425c190009cb9d38ee4b31dc9d4d2595af297cfbf87dd84b21d7bb6f097a93"
+    },
+    {
+      "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+      "sha256": "bb735945f39b1cef850bec76bfa65f26e0a2b0d9561df25720ae39fcaf6017ff"
+    },
+    {
+      "path": "references/library/nature/references/nature-2026-observations.md",
+      "sha256": "6636385feafc666ddbfb6037cb8686952d67fdbe26aaa2d9adb3dc0683c2cce7"
+    },
+    {
+      "path": "references/library/nature/references/nature-article-requirements.md",
+      "sha256": "6daac8d796055e403719cfe5a5a7cb5ad37aa8b712db1f8084baa1ac1df1c8a8"
+    },
+    {
+      "path": "references/library/nature/references/qa-contract.md",
+      "sha256": "fb92e659f2d8492aa04e942985787505bbbfeb0d8a5b6e7955e731cf8d9c970e"
+    },
+    {
+      "path": "references/library/nature/references/r-template-index.md",
+      "sha256": "489cda261ac28855447d5504a31b02e9f98a0bff1b1702f6d3109184cfdd5480"
+    },
+    {
+      "path": "references/library/nature/references/r-workflow.md",
+      "sha256": "5064d02b40f247169f3e2324bf46751a97af43816f83a4c42ebaddd2dcf61a70"
+    },
+    {
+      "path": "references/library/nature/references/template-catalog.md",
+      "sha256": "e91ab5c56af4fa1b71b085eeba96ff80421c4e6bd861a94739b283c595ad45e6"
+    },
+    {
+      "path": "references/library/nature/references/tutorials.md",
+      "sha256": "692a9ef4c2dd51d418642f8e0f36e7f05e234d730d49084cbb1e2065faebb55c"
+    },
+    {
+      "path": "references/library/nature/static/core/contract.md",
+      "sha256": "b860586832016f3501b7762987d8970cce7b88893491c074f0e15a7ede884ebb"
+    },
+    {
+      "path": "references/library/nature/static/core/stance.md",
+      "sha256": "022f6a5f604742cc54b542d94cbd0617556970d39346081396133d02525a2ec6"
+    },
+    {
+      "path": "references/library/nature/static/fragments/backend/python.md",
+      "sha256": "8de16d83f964943e3d3d1eedcd35a71420313934f877a726727f70cba428b093"
+    },
+    {
+      "path": "references/library/nature/static/fragments/backend/r.md",
+      "sha256": "5da47d4344557cb8c25a5a373abcec5cbf4e9bfd84fdaac9f62626d320040401"
+    },
+    {
+      "path": "references/library/ordinary/033个性化森林图/codes.R",
+      "sha256": "834a3a626c0c98d6a88c073b967878f83ebff0dc371c68194960d1336d733127"
+    },
+    {
+      "path": "references/library/ordinary/033个性化森林图/plots.pdf",
+      "sha256": "98a114775d19d743c3d58e26be0258fe9e92bccbe60c94394e30ad371d5b5cc8"
+    },
+    {
+      "path": "references/library/ordinary/033个性化森林图/rownames.csv",
+      "sha256": "aeb0233f82c6fa3949bfa1189e39c5a0c3e9a3b45d096c14f0e1d10faaec241d"
+    },
+    {
+      "path": "references/library/ordinary/038聚类热图+注释/codes.R",
+      "sha256": "cc6f9cd17cffe42f5c3e242356c3ebef1c4c2ac8a0fa93e2869d4674827d5a47"
+    },
+    {
+      "path": "references/library/ordinary/038聚类热图+注释/plots.pdf",
+      "sha256": "bf6db0b73ea0d46a2ed2e52b7edf5aa16dd6667ab9e33a7490c51dd7813261e0"
+    },
+    {
+      "path": "references/library/ordinary/043分块热图+注释/codes.R",
+      "sha256": "cb125bb1c667ad5b6cbbbb64ab3d856282edb46a8de9015989a34a9922bc3fae"
+    },
+    {
+      "path": "references/library/ordinary/043分块热图+注释/plot1.pdf",
+      "sha256": "557b78f2b81f27787ade737457f056aa9855ab61c057af96059135f6a91fea64"
+    },
+    {
+      "path": "references/library/ordinary/043分块热图+注释/plot2.pdf",
+      "sha256": "3d3a1074a6c56f7615e3a41e814f5d76ea542d4a6f63f8e239b43a6cba7c9f0d"
+    },
+    {
+      "path": "references/library/ordinary/058分面折线图+置信区间+误差棒/codes.R",
+      "sha256": "989935a67f66d9d8c1ea3601c3b7654ebd993b501ea65e9ddbed3d55ccb8d1ad"
+    },
+    {
+      "path": "references/library/ordinary/058分面折线图+置信区间+误差棒/plot.pdf",
+      "sha256": "2f69fa78ff0272f9d389df4cd6082b6c91ec524d02c9daf49b2db7c0dde3861c"
+    },
+    {
+      "path": "references/library/ordinary/058分面折线图+置信区间+误差棒/TableS3.csv",
+      "sha256": "226ed37a43fad4dfe649f94ed5e921e62123c7a52d21738630315cedc9e37fb1"
+    },
+    {
+      "path": "references/library/scipilot/references/chart_selection.md",
+      "sha256": "77761efb41d3712b5f9dbe01f27f007e318a2fc583b960761f7f177063c7d468"
+    },
+    {
+      "path": "references/library/scipilot/references/data_profiling.md",
+      "sha256": "6db320285bedc6ffdf802fe10fb9a12767f5cb85c515f2286e099e92b9c3980e"
+    },
+    {
+      "path": "references/library/scipilot/references/journal_specs.md",
+      "sha256": "8630caceaa6f790a253daeb6515ae38cffd4cf933ded0803756c31fb82d02153"
+    },
+    {
+      "path": "references/library/scipilot/references/plot_recipes.md",
+      "sha256": "8066f3dccf330f390bb9897458d50920047169863eccfe437a853a85c050f246"
+    },
+    {
+      "path": "references/library/scipilot/references/publication_checklist.md",
+      "sha256": "56fb7e25708caca3008b7813253a08ae01108f270e0ed5d62a31851acdb36a8b"
+    },
+    {
+      "path": "references/library/scipilot/references/visual_review.md",
+      "sha256": "7fc99d806507be09ec6d254a5e0e07682ddf14e08923cc2a1d45557ba69ccf49"
+    },
+    {
+      "path": "references/library/scipilot/references/viz_pitfalls.md",
+      "sha256": "e8cd5684475d1cc8ff48925ab27494e41e974c278a866e00e19709573dc57d7b"
+    },
+    {
+      "path": "references/library/shared/core/consistency-sweep.md",
+      "sha256": "14c8922b7f03c3f56bfe30cbe42202fc061ad0c1fe7f16b48096463dbf68ab58"
+    },
+    {
+      "path": "references/library/shared/core/ethics.md",
+      "sha256": "35a789e7aa7deb6fd53b406b236caeb7ec4b1155465cf108db775be1f1b750ee"
+    },
+    {
+      "path": "references/library/shared/core/nature-results-discussion.md",
+      "sha256": "e90b3f1237a9fc3920fb1350bfed6691a65eb86a3f47b3eabff58cd43542411a"
+    },
+    {
+      "path": "references/library/shared/core/research-compliance.md",
+      "sha256": "4a31ac1b6e0334a969ef66a1987e584fc6102a7e2716e57e9b4bcbe3f8cedf10"
+    },
+    {
+      "path": "references/library/shared/core/terminology-ledger.md",
+      "sha256": "9be5db93351d518ec8902c3acbda2975437cb466a669d901db54f8b609ff2a8e"
+    },
+    {
+      "path": "references/library/shared/journal-formats/nat-comms.md",
+      "sha256": "214e7bcbae7b35bed80811e10604232bcc726490438c96c41dcb26a2a364a9c2"
+    },
+    {
+      "path": "references/library/shared/journal-formats/nature-machine-intelligence.md",
+      "sha256": "b6204c624614cd6f2d7515ece7c471ab8d86e68bed51e3c60e7e7e3cfc3f12e4"
+    },
+    {
+      "path": "references/library/shared/journal-formats/nature.md",
+      "sha256": "49342725187bdea65e3b341401a56046e6e9ea6cb695fa53d5b0a4e7106d866e"
+    },
+    {
+      "path": "references/library-guide.md",
+      "sha256": "fa2dc46905f96591629483f84d1488f1d7ea1120d96694cde55a503f887127b5"
+    },
+    {
+      "path": "references/multipanel.md",
+      "sha256": "ae698e77f4405169fbcee0863951300f9a2d7c67cc2ca2cc01c65f4a6adecd8f"
+    },
+    {
+      "path": "references/paper-patterns.md",
+      "sha256": "9f498bb4326a3c1591e23c0b17ec3541f1abb7a1257e62c8773eaeece4ff5947"
+    },
+    {
+      "path": "references/python.md",
+      "sha256": "072257cb4beadb1843061cae3efbf38a9751d58f59927850e62cdd69a00dfa93"
+    },
+    {
+      "path": "references/quality-checks.md",
+      "sha256": "4b1c2fded662340e7d10539d2e3418222599711cc0d48e1274e115d1a9aba3a1"
+    },
+    {
+      "path": "references/r.md",
+      "sha256": "e5765467bd79195f87de4d7d9c8d711245e718c0cd6c9067e45c1dbf812020e7"
+    },
+    {
+      "path": "references/reference-style.md",
+      "sha256": "7f73ca48489fc86ea9831483c0dba30fe792fcdf95a8fce34cf084f8b1e01c8e"
+    },
+    {
+      "path": "references/source-adaptation.md",
+      "sha256": "5e50134a902b1c7e9719499dd57dd9ded7e75ba6b0d0b54dc8c11ae4902a3c49"
+    },
+    {
+      "path": "references/tables.md",
+      "sha256": "937e1975a2bd326c57d9ae06bffc3bed54bce79e9ef5e6cb828e12f3c61800d0"
+    },
+    {
+      "path": "references/visual-library.md",
+      "sha256": "6be3c98f158d335df5666b2def868e4af995493db20ef069afee6326c3c84659"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "c6c6538623e25a2d7fd90d1c0a98662585d6aa8d08eccd962ad7476bd01d48bb"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "730b2a6ab9452460639966b7408e421097df59c4624c45733a6a670474aa0ec0"
+    },
+    {
+      "path": "scripts/audit_figure_collisions.py",
+      "sha256": "2ee006e437986c75e01530bb209a6797c5bd390231f5de747fa31f2ce7fcaea3"
+    },
+    {
+      "path": "scripts/audit_panel_alignment.py",
+      "sha256": "3fd6426506e7a72326899b90cdce0fb4e3b80ba51b75d61a7fe25266578eed13"
+    },
+    {
+      "path": "scripts/audit_pdf_text.py",
+      "sha256": "290d8da67ad8711adc230bcf0c26ac9d6309eca06bb5a5b605dbbf5652675e45"
+    },
+    {
+      "path": "scripts/chart_plan.py",
+      "sha256": "be409e76ee264dda463cbe2d4f0043997bae0643965e1e6151c087a9b80f48d8"
+    },
+    {
+      "path": "scripts/check_figure.py",
+      "sha256": "820739710fe320a1281ea59fdfa455ff765e1f75ea843ca8f029a17184f6287e"
+    },
+    {
+      "path": "scripts/color_tools.py",
+      "sha256": "36e3f3f5f1f56ac016d24045c1454875902d90755c48e73125ba86ca4c032a8b"
+    },
+    {
+      "path": "scripts/composition.py",
+      "sha256": "7c9e6917903ec6491e79a97c5adc0d02dc5c82a96ad01671d2e661a9ef9ff902"
+    },
+    {
+      "path": "scripts/domain_plots.R",
+      "sha256": "5f3e7b477db4a8c46b30ebe9b8de41122a74224089a550fa5c68683bb64fca31"
+    },
+    {
+      "path": "scripts/editorial.py",
+      "sha256": "f0f760fba05021bc7b295ca9d81420d6d494ae900a771c54af724bb62317afab"
+    },
+    {
+      "path": "scripts/evidence_tools.py",
+      "sha256": "e0c225b3f78704b8661e2af1519f2dfad60b30d9f8e033433ef53de3affb9f30"
+    },
+    {
+      "path": "scripts/export_figure.py",
+      "sha256": "7eae3ddeaefa41ec5647462b57d11c8d9c55b86309d4cdf7cb7950fef6741257"
+    },
+    {
+      "path": "scripts/field_tools.py",
+      "sha256": "929e91935bdb6afbb5fc9dfa9c3589698334a25cddeb5e23f114b091bb999af0"
+    },
+    {
+      "path": "scripts/figannot.py",
+      "sha256": "8f6f5e00d0cd742d29b080825eafce0fd3dd8e6174596877b279feb75532566b"
+    },
+    {
+      "path": "scripts/figure_safety.py",
+      "sha256": "0df60e99db6c561d3f4d87d7728479e78601c253fd551a5bbac9846dfbe85686"
+    },
+    {
+      "path": "scripts/image_layout.py",
+      "sha256": "afe525dbfbab3cf82f6beb264a97bf0f89ae499de620b3104574c5bd80a9bbe7"
+    },
+    {
+      "path": "scripts/layout_tools.py",
+      "sha256": "11132c83569c155e77d64076901d4643f4699ad789a1adfcef653976a0b78397"
+    },
+    {
+      "path": "scripts/library.py",
+      "sha256": "38634707fd1be345f738cb93470652a4315c3063578905c4e2ec3ec8afee5b5c"
+    },
+    {
+      "path": "scripts/panel_alignment.R",
+      "sha256": "239606139e8fd8e3d4525fe32a8dae8edf364018e3e9be50bef11fef02d51730"
+    },
+    {
+      "path": "scripts/plot_templates.py",
+      "sha256": "2f666e67a0b396a6df5510d7093f477f6a5ff768ca03c20b17089451afda28d4"
+    },
+    {
+      "path": "scripts/preflight.py",
+      "sha256": "457a73107a6a3b48bc1e943cdc1f88b2df343d9c21eecab386f807920ae457d6"
+    },
+    {
+      "path": "scripts/profile_data.py",
+      "sha256": "88449cc58e763e9b00bf2ee2e7d0a150db1bc3fc2ebd9c925e72913ddc9d36b6"
+    },
+    {
+      "path": "scripts/project_style.py",
+      "sha256": "9b561a4fc316de4f54792b09f104db4188feffa19da3d7ae00bbf4ac990d029d"
+    },
+    {
+      "path": "scripts/project_style.R",
+      "sha256": "1432947bef64ff8b773e565ab96781f76b84f44e250b51c461b0c3dae11d1967"
+    },
+    {
+      "path": "scripts/publication.py",
+      "sha256": "be7365700eeff291a830e7fbe45f8500b87e857ba878cd4081b051bf8f1f3476"
+    },
+    {
+      "path": "scripts/publication.R",
+      "sha256": "d36ad201c662ac9298bf2e9c1e7aefe80063c29e9cabf41b9c203e1f3750fa6c"
+    },
+    {
+      "path": "scripts/r_runtime.py",
+      "sha256": "09ea1531f556cb5e5163afd3331adfb5acc9eec7386e357895c18e695fabefcf"
+    },
+    {
+      "path": "scripts/research_panels.py",
+      "sha256": "03c7d5b131478da45e4f04ae8742b2d170c8bf9fbc574f1a65bac478fa793d1c"
+    },
+    {
+      "path": "scripts/review_tools.py",
+      "sha256": "b8e9136d57e3fb0939135a1b477fc9b1f9cff22ed1d687f53836f664ef5a18d0"
+    },
+    {
+      "path": "scripts/review_tools.R",
+      "sha256": "93a8fb510da53d6d09aed2a603cb22e5b8e91f262904a79662a540a770b98bb3"
+    },
+    {
+      "path": "scripts/score_3d_candidates.py",
+      "sha256": "2c96431c71edbc458107f9fcdb2b848d25dc58334512dfb214abd9a2ce77c31d"
+    },
+    {
+      "path": "scripts/setup_style.py",
+      "sha256": "c9cccf2b30a04d18ed775c67c950e4c562eb385d919d7a056fc25017dcf0c991"
+    },
+    {
+      "path": "scripts/study_data.py",
+      "sha256": "8645fe41efca9519d8b207477641fe7f3d31d3b3a95b2df55061460061f1923d"
+    },
+    {
+      "path": "scripts/table_tools.py",
+      "sha256": "c9ca80dc77b2599e717c2e4a27cfaad6395f3bb6d3a7b86741264852d38f57ed"
+    },
+    {
+      "path": "scripts/validate_figure.py",
+      "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76"
+    },
+    {
+      "path": "scripts/visual_qa.py",
+      "sha256": "a61773332ff0d96243b43b7d734c89dae1f34b6544253a1692e2c13cd31ccf50"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "f4d9cb6327ffe1038edc57d374298db1ea6b762a13d7684dbce989a81629c038"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "2c585923471de3a16d0d8aab3b82ff0f2321eddc518e48518d0fd508dbb9a922"
+    }
+  ],
+  "v0.5_integration": {
+    "function_level_entries": 23,
+    "retrieval_concepts": 32,
+    "shared_style": "assets/project-style.json",
+    "R_launch_repair": "real native child architecture; truthful exit codes",
+    "mixed_text": "Latin/scientific symbol/CJK fallback; explicit native R mixed text",
+    "quality_status": "Scripted acceptance and executor visual review; blind/user acceptance not claimed."
+  },
+  "v0.6_integration": {
+    "data_aware_selection": "library.py plan; explicit intent and roles",
+    "measured_layout": "composition.py; fixed page, measured text, data widths and direct labels",
+    "review": "file-bound final raster checks, 2D mark diagnostics, non-regression comparison",
+    "function_entries": 27,
+    "concepts": 35,
+    "boundary": "Executor review only; no automatic scientific/aesthetic guarantee or R artist comparison."
+  },
+  "v0.7_integration": {
+    "evidence": "Data-bound role/dependency/coverage planning",
+    "R": "Native ggplot/facet layer snapshots, clipping, actual color mapping and glyph fallback",
+    "layout": "Mixed 2D/3D, source images/ROIs, physical scale groups and true voxel mesh",
+    "color": "Used-palette diagnostics and rendered identity checks; approximate CVD",
+    "boundary": "Scientific contracts are declared; no independent review, universal aesthetic score or custom-grid snapshot guarantee"
+  },
+  "v0.8_integration": {
+    "study_data": "Explicit denominator/missingness and original-record lineage, persisted and byte-bound",
+    "selection": "Actual crossed binary strata; interval versus matrix and main versus Extended Data compared",
+    "validation": "Real four-file multicentre task, negative independence probe and regression checks; executor review only"
+  },
+  "public_distribution": {
+    "version": "0.11.0",
+    "date": "2026-11-07",
+    "historical_records_are_not_shipped_inventory": true,
+    "excluded": [
+      "FigMirror original scripts, original guides and original images",
+      "local ordinary R teaching templates",
+      "local curated paper screenshots",
+      "unlicensed source-only figure previews",
+      "development repositories, credentials and caches"
+    ],
+    "inspiration": {
+      "FigMirror": "https://github.com/VILA-Lab/FigMirror"
+    },
+    "owned_replacements": [
+      {
+        "path": "assets/examples/visual-review/01-paired.md",
+        "license": "MIT",
+        "sha256": "eb2f299084d485dbc7f80608f4e6d675343d828358e9e6cdfc0846265f6ad696"
+      },
+      {
+        "path": "assets/examples/visual-review/01-paired.npz",
+        "license": "MIT",
+        "sha256": "221653bb811024fefdc0bfd4b32a2cfa5a1ff1eeb05a424d093d4024a878b77d"
+      },
+      {
+        "path": "assets/examples/visual-review/01-paired.pdf",
+        "license": "MIT",
+        "sha256": "09db6869dee3eec3b01d448e259683659365718306b347de4393c2db0cb5be79"
+      },
+      {
+        "path": "assets/examples/visual-review/01-paired.png",
+        "license": "MIT",
+        "sha256": "a4de75287e1841c523fceb96c45b040b32ac1f9cc65da99bed1a74bb05a0d9b7"
+      },
+      {
+        "path": "assets/examples/visual-review/02-trajectory-band.md",
+        "license": "MIT",
+        "sha256": "04d039c6eb71fda22146461cc0d775cce531ffc7eacdb240276bf8edd1ef0752"
+      },
+      {
+        "path": "assets/examples/visual-review/02-trajectory-band.npz",
+        "license": "MIT",
+        "sha256": "c3e57d48703d68155c2f252e0d31a68b68ee8c1820c0d86de23cf574a4cc5f23"
+      },
+      {
+        "path": "assets/examples/visual-review/02-trajectory-band.pdf",
+        "license": "MIT",
+        "sha256": "d62a18eeeb56786c06d85b0ec5d1da321608b0656326e584951023957f98e7c9"
+      },
+      {
+        "path": "assets/examples/visual-review/02-trajectory-band.png",
+        "license": "MIT",
+        "sha256": "32217a7ed6778070337d0c1b70ead270fa08831ca13072c7267b1b71cb21faa2"
+      },
+      {
+        "path": "assets/examples/visual-review/03-centered-matrix.md",
+        "license": "MIT",
+        "sha256": "3941a2778ec6c07eb4710e843b77cbf65ee0e5b8d6e64d803d20b2b1251f900e"
+      },
+      {
+        "path": "assets/examples/visual-review/03-centered-matrix.npz",
+        "license": "MIT",
+        "sha256": "9dc563b19ea607f81ec2b83855ccd38f5b5764893cf61e5fed43a2625a07383d"
+      },
+      {
+        "path": "assets/examples/visual-review/03-centered-matrix.pdf",
+        "license": "MIT",
+        "sha256": "ca95e05d0dc9af400803fbcdee24003caadbfb123199049890258f45e7d28ff3"
+      },
+      {
+        "path": "assets/examples/visual-review/03-centered-matrix.png",
+        "license": "MIT",
+        "sha256": "70f79a315dfce1d0bfd3aa55eebc2d2d5684709347b177b2e9bd82588e3b1510"
+      },
+      {
+        "path": "assets/examples/visual-review/04-joint-distribution.md",
+        "license": "MIT",
+        "sha256": "d50b39f12c9616ec3c40819e3bf6c3031b32742ff341ffad7b21d4c83344e513"
+      },
+      {
+        "path": "assets/examples/visual-review/04-joint-distribution.npz",
+        "license": "MIT",
+        "sha256": "12d869bb6108e6ae1f7f5be253c7e85eac390a7ed7f1d2244c1bf5052e1e3fa7"
+      },
+      {
+        "path": "assets/examples/visual-review/04-joint-distribution.pdf",
+        "license": "MIT",
+        "sha256": "c0777404b80b3b827315f7a80f46472e09ed1fe28448f2985c70c3ad7a5167c6"
+      },
+      {
+        "path": "assets/examples/visual-review/04-joint-distribution.png",
+        "license": "MIT",
+        "sha256": "f3d3b8102c593b9e050cbbf4082df63a67adaa7278e5eefb99fa5645e1c41df6"
+      },
+      {
+        "path": "assets/examples/visual-review/05-damped-surface.md",
+        "license": "MIT",
+        "sha256": "ffbf487909df195d50038cc7294f083e3e5124bef31039340b0af8b0fc475136"
+      },
+      {
+        "path": "assets/examples/visual-review/05-damped-surface.npz",
+        "license": "MIT",
+        "sha256": "43a056b9223425c691956b38755c8ce67b066eb310ba6b1ecf48cad212a9e54b"
+      },
+      {
+        "path": "assets/examples/visual-review/05-damped-surface.pdf",
+        "license": "MIT",
+        "sha256": "3c167562c6b9d00c87dcea2388b8015b32e822b78984041400b77e532b8b1748"
+      },
+      {
+        "path": "assets/examples/visual-review/05-damped-surface.png",
+        "license": "MIT",
+        "sha256": "45736f0626841f145082bb614d8c71a09f720ff6abe0593eaa8d70c8c2442ad5"
+      },
+      {
+        "path": "assets/examples/visual-review/06-surface-and-contours.md",
+        "license": "MIT",
+        "sha256": "47e3ea343aa2e2d346ad66493dbcab86613fa45faab7d5e8142ce48fb2a957bb"
+      },
+      {
+        "path": "assets/examples/visual-review/06-surface-and-contours.npz",
+        "license": "MIT",
+        "sha256": "a5c91639c0f9c20da25501edc58349a3358e3816d3f291888fc3aea1889db671"
+      },
+      {
+        "path": "assets/examples/visual-review/06-surface-and-contours.pdf",
+        "license": "MIT",
+        "sha256": "04df6e079a61d829b02437bf72f9ae753fa169d91a338256485eacf6c01784bb"
+      },
+      {
+        "path": "assets/examples/visual-review/06-surface-and-contours.png",
+        "license": "MIT",
+        "sha256": "b7266280c31923781c94416d51f683e8e2708577179d845c8eda1724dfa62898"
+      },
+      {
+        "path": "assets/examples/visual-review/07-masked-surface.md",
+        "license": "MIT",
+        "sha256": "cea55f00d4baa93b3ae267be7df8ff1ac87cd2555ed3e366d450cead037b7a47"
+      },
+      {
+        "path": "assets/examples/visual-review/07-masked-surface.npz",
+        "license": "MIT",
+        "sha256": "9ad9f3139e5e93a4c808b5148fdd30ad3b02830d7478040a5a893e76cd1a4d9c"
+      },
+      {
+        "path": "assets/examples/visual-review/07-masked-surface.pdf",
+        "license": "MIT",
+        "sha256": "bf853e3f3e1ce5234453b80f1240fed023bcfcf27fba2443b6fbc5a813e8e243"
+      },
+      {
+        "path": "assets/examples/visual-review/07-masked-surface.png",
+        "license": "MIT",
+        "sha256": "d38dac2616e2d64bd748ef78e57b28522a9e9efe1e1dfb29f50caa7edc7e1f02"
+      },
+      {
+        "path": "assets/examples/visual-review/08-separated-objects.md",
+        "license": "MIT",
+        "sha256": "115072a2789b9e8769b9c0eafa118d0fde9c3bd8b47c704e951e1bc620dff145"
+      },
+      {
+        "path": "assets/examples/visual-review/08-separated-objects.npz",
+        "license": "MIT",
+        "sha256": "12c2ac145cfe5c2d4933c81ac2feecb44c7100dd982701bdab3b29010fd20ccc"
+      },
+      {
+        "path": "assets/examples/visual-review/08-separated-objects.pdf",
+        "license": "MIT",
+        "sha256": "a28f778cb5e3ab5246c101b18e151c55ca9bf9011943b8abdee243d4a4d8cb2c"
+      },
+      {
+        "path": "assets/examples/visual-review/08-separated-objects.png",
+        "license": "MIT",
+        "sha256": "daac380c1c6dcd31c1e88e50823e6cfd0d34fafc317358ff7abf665e8e308d17"
+      },
+      {
+        "path": "assets/examples/visual-review/09-trajectory-and-projection.md",
+        "license": "MIT",
+        "sha256": "4c01b13c87c42a2ce8f7ad26beb141d7332a3b5a936f9feab1ced43df2992c9d"
+      },
+      {
+        "path": "assets/examples/visual-review/09-trajectory-and-projection.npz",
+        "license": "MIT",
+        "sha256": "75487631c8deb632787b94b4a0eb33500789c33ab29a7eff3d630c1ee79dd4ff"
+      },
+      {
+        "path": "assets/examples/visual-review/09-trajectory-and-projection.pdf",
+        "license": "MIT",
+        "sha256": "ea56180aa4c0d94d108f9afd15b40dfa4ced9263a52e69ee0ad139aa2b583bcd"
+      },
+      {
+        "path": "assets/examples/visual-review/09-trajectory-and-projection.png",
+        "license": "MIT",
+        "sha256": "2eba7153f08832a87a2a5861532840d4b98e6d694750ee63599544164e809b13"
+      },
+      {
+        "path": "assets/examples/visual-review/10-layered-curves.md",
+        "license": "MIT",
+        "sha256": "f067683d274649f46b16b4e45331612ab9e7c7e9a933ba43a9bbb88a2d4eb633"
+      },
+      {
+        "path": "assets/examples/visual-review/10-layered-curves.npz",
+        "license": "MIT",
+        "sha256": "492dccd1f951906ce9e01a6af62a61ddc941be5ba28463780ff7f6c2db8ab94f"
+      },
+      {
+        "path": "assets/examples/visual-review/10-layered-curves.pdf",
+        "license": "MIT",
+        "sha256": "de8ba181153b39a73b881210507cf9494d4d25012a680217ccb91f2c463bffc2"
+      },
+      {
+        "path": "assets/examples/visual-review/10-layered-curves.png",
+        "license": "MIT",
+        "sha256": "46973a3c1189e7c5959f816361b0a34e142cd17c6533eb066efe3662b4e8db6d"
+      },
+      {
+        "path": "assets/examples/visual-review/manifest.json",
+        "license": "MIT",
+        "sha256": "62a1c50d2280eb8f33be9ef2013049f8cbda899529364c7d626806ca54b10e8c"
+      },
+      {
+        "path": "assets/examples/visual-review/README.md",
+        "license": "MIT",
+        "sha256": "6916162f671254a9fddf576451fe3a78f3afd4fcd06b9318bb39941c1db45ec3"
+      },
+      {
+        "path": "references/visual-review/comparison.md",
+        "license": "MIT",
+        "sha256": "7718dd8ef872c86690eefb42110cf2115596761567635928e9755dc6fd8193b0"
+      },
+      {
+        "path": "references/visual-review/layout-and-type.md",
+        "license": "MIT",
+        "sha256": "884d3e3b905ad3b46ad39decb060d652405f12cab3a2c4eeb3b115b57de94317"
+      },
+      {
+        "path": "references/visual-review/overview.md",
+        "license": "MIT",
+        "sha256": "4d0f9ea904f9d9d8a67c0f7dd1dd1a3d695baf39aa4ebcfcb8640bedb90219ee"
+      },
+      {
+        "path": "references/visual-review/raster-diagnostics.md",
+        "license": "MIT",
+        "sha256": "df2756878a3899993226db094546fb2c4c9c2a548eae90cc8ebd24fd6ebc1fac"
+      },
+      {
+        "path": "references/visual-review/repair-and-preservation.md",
+        "license": "MIT",
+        "sha256": "67719fbc4956da7fb118a696c0fb5fa3f0919ed75b145a65d9c69569481ba5d1"
+      },
+      {
+        "path": "references/visual-review/reviewer-contract.md",
+        "license": "MIT",
+        "sha256": "c2964abd5dcc5519c26b8851450cefeec5cb17da161896f26adbbaa28c2f89b3"
+      },
+      {
+        "path": "references/visual-review/three-d/assessment.md",
+        "license": "MIT",
+        "sha256": "66667c722dda57d96eb4e2f687c95b197028c88c378463e9d571938dd8595477"
+      },
+      {
+        "path": "references/visual-review/three-d/camera.md",
+        "license": "MIT",
+        "sha256": "464234267b546185ce63c495c4d9bede78c5f4ca34c41be84dc650851de441df"
+      },
+      {
+        "path": "references/visual-review/three-d/discontinuities.md",
+        "license": "MIT",
+        "sha256": "332d1fe4c747c2d94c216b1fb03df862ee0f04cfacafe871aa7010f9962a6f3b"
+      },
+      {
+        "path": "references/visual-review/three-d/evidence.md",
+        "license": "MIT",
+        "sha256": "74934f731ed5c44adb0b16593e4923fda2a3e836b9a1145d0e3425507e35e41b"
+      },
+      {
+        "path": "references/visual-review/three-d/extrema-and-connections.md",
+        "license": "MIT",
+        "sha256": "d3ea1f200b14e28c71adb1da9dd0fea36fa2a6de2f6b8263ce340d19d1056617"
+      },
+      {
+        "path": "references/visual-review/three-d/iteration.md",
+        "license": "MIT",
+        "sha256": "6d076b1df7f18f1be4231bfcccfe4ade407e4372496e7183ac0580ad38d3bafe"
+      },
+      {
+        "path": "references/visual-review/three-d/layered-geometry.md",
+        "license": "MIT",
+        "sha256": "9a51b15fb3a9c6a79692e942b4df85639d8c164ffe1e965bb00ef46eb323e294"
+      },
+      {
+        "path": "references/visual-review/three-d/light-and-material.md",
+        "license": "MIT",
+        "sha256": "da6e401934e6077159f60183985399704241c91038fcac22c52a0df9b52a8fd1"
+      },
+      {
+        "path": "references/visual-review/three-d/marks-and-panels.md",
+        "license": "MIT",
+        "sha256": "685ee39e8fc70a3a896ea89f8b334516e465036efbe67fe203071e3cb790d209"
+      },
+      {
+        "path": "references/visual-review/three-d/route.md",
+        "license": "MIT",
+        "sha256": "31c98bbb76df1ad2262d2d74a8fa03741d85ed3584e214c70b7dac4c6f728552"
+      },
+      {
+        "path": "references/visual-review/three-d/selection.md",
+        "license": "MIT",
+        "sha256": "86ec41fca395dcb525d6786a9890e1bde0edbb52aeb98469d7bc7f5efa9039b0"
+      },
+      {
+        "path": "references/visual-review/three-d/surfaces.md",
+        "license": "MIT",
+        "sha256": "22fe69a810248b357f48054c021d02daf744d8e1793a6e7942cf4a21c10285a1"
+      },
+      {
+        "path": "references/visual-review/three-d/volumes.md",
+        "license": "MIT",
+        "sha256": "0bf16335f674e51726d637651f4c4107aa0f0aeb32f35a937b67978c50555117"
+      },
+      {
+        "path": "scripts/generate_review_examples.py",
+        "license": "MIT",
+        "sha256": "1d8bc6f79f007a12e2b826e3ab49b5065107b00135ec0ba02ddd74391035a168"
+      },
+      {
+        "path": "scripts/raster_diagnostics.py",
+        "license": "MIT",
+        "sha256": "400b8fc2c49e4a23dfaa4fe51764faf7af45c4d43c18dfa2536dd5a7ffbdf72e"
+      },
+      {
+        "path": "scripts/review_engine.py",
+        "license": "MIT",
+        "sha256": "1f1b7791e7060c53af6768c1afb872ef7c633f0daedcf8d830b8f8f6593e1e4a"
+      }
+    ],
+    "review_scope": "Deterministic recording of actual supplied observations, not authenticated independent review or scientific verification."
+  }
+}

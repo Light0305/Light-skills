@@ -1,4 +1,0 @@
-interface:
-  display_name: "Light Review & Rebuttal"
-  short_description: "Trace reviews, revisions, evidence, and author responses"
-  default_prompt: "Use $light-review-rebuttal to build an evidence-bound response package from these reviewer comments."

@@ -1,0 +1,29 @@
+{
+  "schema_version": 2,
+  "version": 1,
+  "last_verified_at": "2026-10-25T07:20:00Z",
+  "domain": "127.0.0.1",
+  "lane": "L2_SIGNED",
+  "delivery": "single",
+  "created_at": "2026-10-25T07:12:00Z",
+  "entrypoints": {
+    "repro": "repro/",
+    "fixtures": "fixtures/"
+  },
+  "capture": {
+    "url": "http://127.0.0.1:8765/api/orders",
+    "status": 200,
+    "fixture": "fixtures/response.json"
+  },
+  "policy": {
+    "robots_txt_obey": true,
+    "store_credentials": false,
+    "redact_fixtures": true
+  },
+  "notes": "Reference pack for the L2 reproduction shape. The target is a local fixture, not a production site.",
+  "migration": {
+    "from": 1,
+    "to": 2,
+    "at": "2026-10-25T07:28:40Z"
+  }
+}

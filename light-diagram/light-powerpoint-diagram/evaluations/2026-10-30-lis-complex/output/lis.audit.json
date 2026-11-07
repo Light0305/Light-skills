@@ -1,0 +1,344 @@
+{
+  "passed": true,
+  "scope": "Native desktop PowerPoint roundtrip, text, shapes, arrows, endpoints and movement; visual/scientific review is separate.",
+  "powerpoint_version": "16.0",
+  "visible": true,
+  "file": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-lis-complex\\output\\lis-final-r2.pptx",
+  "sha256": "64908037ae5ca694712b8d2d369d980b3c7d1d45d83cdc6f5d0cb01ceb87a15e",
+  "native_text_refinements": [],
+  "media_entries": [],
+  "pages": [
+    {
+      "slide": 1,
+      "slug": "corrected",
+      "shapes": 1092,
+      "logical_edges": 23,
+      "native_connector_segments": 29,
+      "connected_segment_endpoints": 58,
+      "text_shapes": 40,
+      "arrowheads": 22,
+      "movement": [
+        {
+          "node": "li_route_a_0_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_0_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_1_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_1_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_2_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_2_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_3_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_3_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_4_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_4_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_5_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "li_route_a_5_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_0_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_0_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_1_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_1_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 1.7e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_2_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_2_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 1.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_3_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_3_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_4_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ps_route_a_4_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "wire_anode_terminal",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "wire_cathode_terminal",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "electron_arrow_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "electron_arrow_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "reaction_0_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "reaction_0_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "reaction_1_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "reaction_1_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "reaction_2_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "reaction_2_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "charge_route_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "charge_route_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_0_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_0_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 4e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_1_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 8e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_1_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_2_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_2_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 4e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_3_s",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "zoom_li_3_t",
+          "tested_endpoints": 1,
+          "max_error_pt": 4e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "failure_0",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "failure_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "failure_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "exports": [
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-lis-complex\\output\\lis-corrected.png",
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-lis-complex\\output\\lis.pdf"
+  ],
+  "errors": []
+}

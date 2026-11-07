@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "TASKS",
+  "path": "derived/task-summary.csv",
+  "bytes": 595,
+  "sha256": "792869b0389165546b64c6122b1a8edf2a23855afbdbae814a262984e9e158a3",
+  "input_ids": [
+    "S0001",
+    "S0002"
+  ],
+  "code": [
+    {
+      "path": "code/analyze.py",
+      "bytes": 10291,
+      "sha256": "9a4bb038080c196f5d6df68091f4c58de9f5da27b75ab6f15d271a8fa822585b"
+    }
+  ],
+  "command": "python -X utf8 code/analyze.py",
+  "environment": "D:/Anaconda/python.exe; Python 3.11.13; SciPy 1.11.4; Windows; deterministic; details in derived/results.json execution",
+  "recorded_at": "2026-11-02T03:45:41.089330+00:00",
+  "boundary": "Records supplied execution provenance; does not execute or attest the command."
+}

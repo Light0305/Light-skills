@@ -1,0 +1,23 @@
+{
+  "history_files_checked": 8,
+  "history_errors": [],
+  "local_links_checked": 61,
+  "link_errors": [],
+  "json_files_checked": 38,
+  "json_errors": [],
+  "python_files_checked": 3,
+  "syntax_errors": [],
+  "commands": {
+    "skill_format": {
+      "exit": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    "layout_sync": {
+      "exit": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"changed\": []\n}\n",
+      "stderr": ""
+    }
+  },
+  "ok": true
+}

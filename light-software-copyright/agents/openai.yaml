@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light · 软著材料"
+  short_description: "基于真实软件交付功能说明、软件代码和软件说明书三份Word，核对实现与来源"
+  default_prompt: "请使用 $light-software-copyright，阅读当前真实软件，按参考版式整理功能说明、软件代码、软件说明书三份DOCX，核对版本、实现与排版，只询问仍缺少的事实。"

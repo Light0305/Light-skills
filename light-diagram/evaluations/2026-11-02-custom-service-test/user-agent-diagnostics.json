@@ -1,0 +1,6 @@
+{
+  "check": "models_with_default_python_user_agent",
+  "generation_calls_in_this_diagnosis": 0,
+  "http_status": 403,
+  "message": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\""
+}

@@ -1,0 +1,45 @@
+{
+  "engine": "Microsoft Word COM",
+  "read_only": true,
+  "documents": [
+    {
+      "docx": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_功能说明.docx",
+      "sha256": "7e147b9ec9f670ba7627fa2e8afe10842ed5d86efc1988dd4d4bb41958e2eb82",
+      "pdf": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\1\\word.pdf",
+      "pdf_sha256": "fb95eeb9b94aa7eb4c3743478d4c41a346b09db6994063848f057e79e6586112",
+      "pages": 1,
+      "images": [
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\1\\page-1.png"
+      ],
+      "contact_sheet": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\1\\all-pages.png",
+      "input_unchanged": true
+    },
+    {
+      "docx": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_软件代码.docx",
+      "sha256": "c322f401fcb560801c3e1b28d9553145076eda3af49c0cb93b5ae2ae2ed594fa",
+      "pdf": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\2\\word.pdf",
+      "pdf_sha256": "e534f19f18a3e0c6d1d6a2401c929e6e69ca3e468d848a3ae65a2e43ec7ef5bd",
+      "pages": 2,
+      "images": [
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\2\\page-1.png",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\2\\page-2.png"
+      ],
+      "contact_sheet": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\2\\all-pages.png",
+      "input_unchanged": true
+    },
+    {
+      "docx": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_软件说明书.docx",
+      "sha256": "9af421fc88e0be3ac2453c1459d9e4a4709d4cd7f5fe2e2a6aa48411cf9e0fec",
+      "pdf": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\3\\word.pdf",
+      "pdf_sha256": "77de116730330a4d0cb1a43df058883271c651ec389f6792212d2297b3315af1",
+      "pages": 3,
+      "images": [
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\3\\page-1.png",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\3\\page-2.png",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\3\\page-3.png"
+      ],
+      "contact_sheet": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\qa\\3\\all-pages.png",
+      "input_unchanged": true
+    }
+  ]
+}

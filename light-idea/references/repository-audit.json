@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-11-02",
+  "timezone": "Asia/Tokyo",
+  "method": "Public GitHub repositories and commits API; selected primary documentation inspected. No external project installed, executed, or benchmarked.",
+  "repositories": [
+    {"source_id":"R01","repository":"K-Dense-AI/scientific-agent-skills","url":"https://github.com/K-Dense-AI/scientific-agent-skills","default_branch":"main","commit":"5f2bc0341354fd5590aef76a533ada1e1e5b4e62","commit_date":"2026-10-26T09:36:14Z","license":"MIT","archived":false,"inspected_paths":["skills/scientific-brainstorming/SKILL.md","skills/hypothesis-generation/SKILL.md"]},
+    {"source_id":"R02","repository":"Orchestra-Research/AI-Research-SKILLs","url":"https://github.com/Orchestra-Research/AI-Research-SKILLs","default_branch":"main","commit":"773a52944ba4747a18bd4ae9ade53fff041adcbc","commit_date":"2026-06-16T01:36:40Z","license":"MIT","archived":false,"inspected_paths":["21-research-ideation/brainstorming-research-ideas/SKILL.md","21-research-ideation/creative-thinking-for-research/SKILL.md"]},
+    {"source_id":"R03","repository":"NoviScl/AI-Researcher","url":"https://github.com/NoviScl/AI-Researcher","default_branch":"main","commit":"e5dd05a90bcadb436c07283c2f429367c6e525d3","commit_date":"2025-08-07T16:45:23Z","license":"MIT","archived":false,"inspected_paths":["README.md"]},
+    {"source_id":"R04","repository":"JinheonBaek/ResearchAgent","url":"https://github.com/JinheonBaek/ResearchAgent","default_branch":"main","commit":"babb49b51ebfcebedc39ccde12c9785be7bef46c","commit_date":"2025-08-24T11:34:55Z","license":null,"archived":false,"inspected_paths":["README.md"]},
+    {"source_id":"R05","repository":"EagleW/Scientific-Inspiration-Machines-Optimized-for-Novelty","url":"https://github.com/EagleW/Scientific-Inspiration-Machines-Optimized-for-Novelty","default_branch":"main","commit":"2dc17a1e2e22c22a6b595c212d3bbeca2b0dd89e","commit_date":"2024-04-13T22:19:08Z","license":"Apache-2.0","archived":false,"inspected_paths":["README.md"],"previous_url":"https://github.com/eaglew/clbd"},
+    {"source_id":"R06","repository":"DAMO-NLP-SG/CoI-Agent","url":"https://github.com/DAMO-NLP-SG/CoI-Agent","default_branch":"main","commit":"ac94317ff2d1997f362747edc2c9e5f0fdc9c450","commit_date":"2025-01-15T06:31:22Z","license":"Apache-2.0","archived":false,"inspected_paths":["README.md"]},
+    {"source_id":"R07","repository":"cheerss/SciPIP","url":"https://github.com/cheerss/SciPIP","default_branch":"main","commit":"a0a927a7fa830b4fcf9cb33905feecc005d3b631","commit_date":"2025-02-27T13:16:03Z","license":"MIT","archived":false,"inspected_paths":["README.md"]},
+    {"source_id":"R08","repository":"SakanaAI/AI-Scientist-v2","url":"https://github.com/SakanaAI/AI-Scientist-v2","default_branch":"main","commit":"96bd51617cfdbb494a9fc283af00fe090edfae48","commit_date":"2025-12-19T07:46:31Z","license":"NOASSERTION","archived":false,"inspected_paths":["README.md"]},
+    {"source_id":"R09","repository":"Research-Equality/RE-idea-generation","url":"https://github.com/Research-Equality/RE-idea-generation","default_branch":"main","commit":"f0fb69c6d0afe44ad10ab829096ab24a7ff30824","commit_date":"2026-03-31T08:43:50Z","license":"MIT","archived":false,"inspected_paths":["README.md"],"role":"discovery_and_routing; not independent scientific validation"}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source": "source.png",
+  "source_sha256": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+  "source_origin": "light-visio-diagram/evaluations/2026-10-30-monoformer/image-v2-edit.png",
+  "prior_prompt_skill": "light-diagram-prompt",
+  "new_imagegen_calls": 0,
+  "source_generation_science_passed": false,
+  "scientific_source": "https://arxiv.org/html/2205.11083v3",
+  "method": "Manual measured scene reused for controlled cross-tool comparison; native Artifact Tool authoring, explicit connection ports, visible native PowerPoint refinement and verification.",
+  "artifacts": {
+    "scene.json": "9325615e1344eab692bd53a37ab744f05912b72ca3a5cffe0a26b02cc0ec1416",
+    "source.png": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+    "output\\monoformer-final.pptx": "e73fe23e2e0d09a036ad1ab8212f8c8167ee8bae238badbf6dd65b287e84a3f0"
+  }
+}

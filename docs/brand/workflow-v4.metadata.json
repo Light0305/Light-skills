@@ -1,0 +1,12 @@
+{
+  "asset": "docs/assets/workflow-v4.png",
+  "tool": "image_gen",
+  "route": "built_in",
+  "generated_on": "2026-11-07",
+  "prompt": "docs/brand/workflow-v4-prompt.txt",
+  "sha256": "07714bf15cf73ec2dfabac6aebdb52652c0eb9d76bec487df0d9b332f3cd6c89",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "original_bytes_preserved": true
+}

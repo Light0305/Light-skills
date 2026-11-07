@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "scope": "Isolated public payload; no installed/private FigMirror, no skill installation, no new native-desktop validation.",
+  "checks": [
+    {
+      "name": "test_review_cycle-all",
+      "exit_code": 0,
+      "seconds": 6.0,
+      "log": "test_review_cycle-all.log",
+      "tests": 29
+    },
+    {
+      "name": "test_owned_review",
+      "exit_code": 0,
+      "seconds": 1.8,
+      "log": "test_owned_review.log",
+      "tests": 11
+    },
+    {
+      "name": "test_layout_reference_retrieval",
+      "exit_code": 0,
+      "seconds": 4.06,
+      "log": "test_layout_reference_retrieval.log",
+      "tests": 7
+    },
+    {
+      "name": "test_v05",
+      "exit_code": 0,
+      "seconds": 3.45,
+      "log": "test_v05.log",
+      "tests": 10
+    },
+    {
+      "name": "test_backbone",
+      "exit_code": 0,
+      "seconds": 2.27,
+      "log": "test_backbone.log",
+      "tests": 11
+    },
+    {
+      "name": "review_engine-help",
+      "exit_code": 0,
+      "seconds": 0.14,
+      "log": "review_engine-help.log"
+    },
+    {
+      "name": "raster_diagnostics-help",
+      "exit_code": 0,
+      "seconds": 0.27,
+      "log": "raster_diagnostics-help.log"
+    },
+    {
+      "name": "review_cycle-help",
+      "exit_code": 0,
+      "seconds": 0.17,
+      "log": "review_cycle-help.log"
+    },
+    {
+      "name": "root-discovery",
+      "exit_code": 0,
+      "seconds": 17.78,
+      "log": "root-discovery.log",
+      "discovered": 14,
+      "expected": 14
+    },
+    {
+      "name": "chart-discovery",
+      "exit_code": 0,
+      "seconds": 2.33,
+      "log": "chart-discovery.log",
+      "discovered": 1,
+      "expected": 1
+    }
+  ],
+  "tests": 68,
+  "ok": true
+}

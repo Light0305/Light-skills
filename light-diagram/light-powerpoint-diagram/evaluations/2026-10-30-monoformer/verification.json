@@ -1,0 +1,45 @@
+{
+  "file_checks_passed": true,
+  "desktop_powerpoint_roundtrip_verified": true,
+  "native_movement_verified": true,
+  "corrected_critical_graph_passed": true,
+  "scope": "Declared conceptual relationships only, not implementation equivalence, cross-platform compatibility, or model accuracy.",
+  "new_image_generation_calls": 0,
+  "generation_source": "Reused the actual light-diagram-prompt MonoFormer image-v2-edit from the preceding Visio evaluation.",
+  "source_generation_science_passed": false,
+  "native_only": true,
+  "source_sha256": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+  "scene_sha256": "9325615e1344eab692bd53a37ab744f05912b72ca3a5cffe0a26b02cc0ec1416",
+  "final_sha256": "e73fe23e2e0d09a036ad1ab8212f8c8167ee8bae238badbf6dd65b287e84a3f0",
+  "shapes": [
+    465,
+    471
+  ],
+  "logical_edges": [
+    81,
+    80
+  ],
+  "native_connector_segments": [
+    105,
+    110
+  ],
+  "connected_segment_endpoints": [
+    210,
+    220
+  ],
+  "moved_scene_nodes": [
+    76,
+    72
+  ],
+  "moved_scene_endpoints": [
+    162,
+    160
+  ],
+  "pdf_text_lines": [
+    67,
+    67
+  ],
+  "visual_review": "Same assistant inspected both full-size native exports. No independent blind review.",
+  "layout_warning_count": 8,
+  "layout_warning_review": "Eight bounding-box overlap diagnostics: residual initialization route below X4 glyphs and right residual route within wide Greek-label boxes. Full-size native renders show no line crossing the visible glyphs."
+}

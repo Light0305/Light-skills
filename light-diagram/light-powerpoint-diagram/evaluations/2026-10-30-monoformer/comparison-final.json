@@ -1,0 +1,20 @@
+{
+  "canvas_px": [
+    1774,
+    887
+  ],
+  "whole_canvas_rgb_mae_0_255": 15.552079665907868,
+  "foreground_union_rgb_mae_0_255": 32.58596484182262,
+  "foreground_union_fraction": 0.443072871452739,
+  "dark_pixel_recall_with_3px_square_tolerance": 0.9524397721516737,
+  "dark_pixel_precision_with_3px_square_tolerance": 0.968321575935046,
+  "definitions": {
+    "foreground": "Union of pixels >25 grayscale levels away from white in either image.",
+    "dark": "Grayscale <140; tolerant match uses a 7x7 square dilation (3 px each direction).",
+    "limitations": "Position-sensitive diagnostics, not perceptual similarity or a 1:1 percentage. Text, fill texture and antialiasing affect results. Scientific topology requires separate review."
+  },
+  "source": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-monoformer\\source.png",
+  "rendered": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-monoformer\\output\\monoformer-replica.png",
+  "source_sha256": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+  "rendered_sha256": "19bec7032276044470e0fb77f6e565c4656a3f6e60fd155db3a72481bf3c717d"
+}

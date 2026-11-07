@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 crispr-final-replica.svg 01 CRISPR native replica -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="15.36in" height="10.24in"
+		viewBox="0 0 1105.92 737.28" xml:space="preserve" color-interpolation-filters="sRGB" class="st46">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st2 {fill:none;stroke:#bec0c1;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.6}
+		.st3 {fill:url(#grad0-10);stroke:#bda16d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.44}
+		.st4 {fill:url(#grad0-14);stroke:#dda28b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.44}
+		.st5 {fill:url(#grad0-18);stroke:#8ea3b2;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.44}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st7 {fill:#070e26;font-family:Times New Roman;font-size:2.04em;font-weight:bold}
+		.st8 {fill:#070e26;font-family:Times New Roman;font-size:1.98001em;font-weight:bold}
+		.st9 {fill:#070e26;font-family:Times New Roman;font-size:2.7em;font-weight:bold}
+		.st10 {fill:#070e26;font-family:Times New Roman;font-size:1.92em}
+		.st11 {fill:#070e26;font-family:Times New Roman;font-size:1.86001em}
+		.st12 {fill:#070e26;font-family:Times New Roman;font-size:1.8em}
+		.st13 {fill:#070e26;font-family:Times New Roman;font-size:1.67999em}
+		.st14 {fill:#070e26;font-family:Times New Roman;font-size:1.74001em}
+		.st15 {stroke:#9fa89b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.88}
+		.st16 {stroke:#8ba681;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.88}
+		.st17 {stroke:#8eab81;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.88}
+		.st18 {stroke:#773b9e;stroke-linecap:round;stroke-linejoin:round;stroke-width:7.92}
+		.st19 {stroke:#b57bd1;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.356}
+		.st20 {stroke:#2f8539;stroke-linecap:round;stroke-linejoin:round;stroke-width:7.92}
+		.st21 {stroke:#63b856;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.356}
+		.st22 {stroke:#2f8539;stroke-linecap:round;stroke-linejoin:round;stroke-width:8.64}
+		.st23 {stroke:#68bb5a;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.752}
+		.st24 {stroke:#a6abb0;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.6}
+		.st25 {stroke:#b0b0a6;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.6}
+		.st26 {stroke:#bdac7c;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.6}
+		.st27 {stroke:#773b9e;stroke-linecap:round;stroke-linejoin:round;stroke-width:9.36}
+		.st28 {stroke:#aa70c8;stroke-linecap:round;stroke-linejoin:round;stroke-width:5.148}
+		.st29 {stroke:#164f83;stroke-linecap:round;stroke-linejoin:round;stroke-width:12.96}
+		.st30 {stroke:#337ab4;stroke-linecap:round;stroke-linejoin:round;stroke-width:7.128}
+		.st31 {stroke:#268fc4;stroke-linecap:round;stroke-linejoin:round;stroke-width:12.96}
+		.st32 {stroke:#63c2ed;stroke-linecap:round;stroke-linejoin:round;stroke-width:7.128}
+		.st33 {stroke:#268fc4;stroke-linecap:round;stroke-linejoin:round;stroke-width:12.24}
+		.st34 {stroke:#63c2ed;stroke-linecap:round;stroke-linejoin:round;stroke-width:6.732}
+		.st35 {stroke:#164f83;stroke-linecap:round;stroke-linejoin:round;stroke-width:12.24}
+		.st36 {stroke:#337ab4;stroke-linecap:round;stroke-linejoin:round;stroke-width:6.732}
+		.st37 {stroke:#ec4c2c;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
+		.st38 {fill:#15191e;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.44}
+		.st39 {marker-end:url(#mrkr13-387);stroke:#717171;stroke-linecap:round;stroke-linejoin:round;stroke-width:5.04}
+		.st40 {fill:#717171;fill-opacity:1;stroke:#717171;stroke-opacity:1;stroke-width:0.66666666666667}
+		.st41 {stroke:#161616;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
+		.st42 {marker-end:url(#mrkr13-404);stroke:#161616;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.16}
+		.st43 {fill:#161616;fill-opacity:1;stroke:#161616;stroke-opacity:1;stroke-width:0.46153846153846}
+		.st44 {marker-end:url(#mrkr13-415);stroke:#717171;stroke-linecap:round;stroke-linejoin:round;stroke-width:7.2}
+		.st45 {fill:#717171;fill-opacity:1;stroke:#717171;stroke-opacity:1;stroke-width:0.74074074074074}
+		.st46 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-10" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#e7cf9e" stop-opacity="1"/>
+			<stop offset="1" stop-color="#fff1d2" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-14" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#eca68f" stop-opacity="1"/>
+			<stop offset="1" stop-color="#f8d0bd" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-18" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#8faec9" stop-opacity="1"/>
+			<stop offset="1" stop-color="#d1e1ed" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-387" class="st40" v:arrowType="13" v:arrowSize="2" v:setback="4.42857" refX="-4.4285714285714"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-1.5,-1.5) "/>
+		</marker>
+		<marker id="mrkr13-404" class="st43" v:arrowType="13" v:arrowSize="2" v:setback="6.5" refX="-6.5" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.1666666666667,-2.1666666666667) "/>
+		</marker>
+		<marker id="mrkr13-415" class="st45" v:arrowType="13" v:arrowSize="2" v:setback="4.05" refX="-4.05" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-1.35,-1.35) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>01 CRISPR native replica</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape">
+			<title>Light_background</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(background)"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="1105.92" height="737.28" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(18,-480.96)">
+			<title>Light_dual_card</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_card)"/>
+			</v:userDefs>
+			<rect x="0" y="538.56" width="339.84" height="198.72" rx="10.8" ry="10.8" class="st2"/>
+		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(18,-88.56)">
+			<title>Light_chimeric_card</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimeric_card)"/>
+			</v:userDefs>
+			<rect x="0" y="590.4" width="339.84" height="146.88" rx="10.8" ry="10.8" class="st2"/>
+		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(413.28,-181.44)">
+			<title>Light_cas9</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cas9)"/>
+			</v:userDefs>
+			<path d="M146.55 410.49 C171.11 378.04 212.28 348.48 255.62 348.48 C296.07 344.87 312.69 361.46 329.3 376.6 C344.47 389.58
+						 356.75 378.76 382.03 401.12 C407.31 422.75 423.93 478.27 389.98 515.76 C408.04 536.67 418.87 565.51 404.43
+						 597.24 C389.98 615.27 379.87 630.41 390.7 644.83 C420.32 689.53 375.53 720.54 336.52 732.07 C288.85 745.05
+						 247.68 732.07 214.45 714.77 C186.28 698.19 177.61 704.68 157.38 704.68 C120.54 706.12 92.37 687.37 87.32
+						 659.97 C82.26 637.62 76.48 628.24 49.03 621.03 C21.58 613.82 -4.42 594.36 0.63 568.4 C4.25 536.67 33.86
+						 517.93 60.59 500.62 C40.36 468.89 60.59 439.33 89.48 423.47 C109.71 412.65 131.38 407.61 146.55 410.49 Z"
+					class="st3"/>
+		</g>
+		<g id="shape5-11" v:mID="5" v:groupContext="shape" transform="translate(594,-387.36)">
+			<title>Light_hnh</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh)"/>
+			</v:userDefs>
+			<path d="M4 656.82 C20.65 635.21 54.68 638.94 74.96 647.13 C93.78 655.33 95.23 675.44 111.16 685.87 C128.54 699.28 128.54
+						 720.89 118.4 737.28 C94.51 732.06 93.78 711.95 70.61 708.97 C40.93 711.2 12.69 701.52 4.72 685.13 C-1.07
+						 675.44 -1.79 665.01 4 656.82 Z" class="st4"/>
+		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(581.04,-221.76)">
+			<title>Light_ruvc</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc)"/>
+			</v:userDefs>
+			<path d="M2.88 650.93 C11.57 630.54 36.17 626.9 55.71 639.28 C70.18 647.29 71.63 668.4 91.17 671.31 C113.61 673.5 144
+						 684.42 144 704.8 C150.51 729.56 111.43 741.21 83.21 736.11 C54.99 737.57 23.87 723.73 12.29 709.17 C-1.46
+						 690.97 -2.18 669.13 2.88 650.93 Z" class="st5"/>
+		</g>
+		<g id="shape7-19" v:mID="7" v:groupContext="shape" transform="translate(58.32,-614.88)">
+			<title>Light_crrna_label</title>
+			<desc>crRNA</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(crrna_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.12" cy="720" width="102.24" height="34.56"/>
+			<rect x="0" y="702.72" width="102.24" height="34.56" class="st6"/>
+			<text x="13.74" y="727.34" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>crRNA</text>		</g>
+		<g id="shape8-22" v:mID="8" v:groupContext="shape" transform="translate(74.16,-504)">
+			<title>Light_tracrrna_label</title>
+			<desc>tracrRNA</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tracrrna_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.08" cy="721.44" width="110.16" height="31.68"/>
+			<rect x="0" y="705.6" width="110.16" height="31.68" class="st6"/>
+			<text x="3.63" y="728.57" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>tracrRNA</text>		</g>
+		<g id="shape9-25" v:mID="9" v:groupContext="shape" transform="translate(54,-177.12)">
+			<title>Light_chimera_label</title>
+			<desc>Chimeric RNA</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="80.64" cy="720" width="161.29" height="34.56"/>
+			<rect x="0" y="702.72" width="161.28" height="34.56" class="st6"/>
+			<text x="4.43" y="727.13" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Chimeric RNA</text>		</g>
+		<g id="shape10-28" v:mID="10" v:groupContext="shape" transform="translate(628.56,-494.64)">
+			<title>Light_cas9_label</title>
+			<desc>Cas9</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cas9_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.08" cy="717.12" width="92.16" height="40.32"/>
+			<rect x="0" y="696.96" width="92.16" height="40.32" class="st6"/>
+			<text x="11.88" y="726.84" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Cas9</text>		</g>
+		<g id="shape11-31" v:mID="11" v:groupContext="shape" transform="translate(609.12,-439.2)">
+			<title>Light_hnh_label</title>
+			<desc>HNH</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="30.24" cy="721.44" width="60.48" height="31.68"/>
+			<rect x="0" y="705.6" width="60.48" height="31.68" class="st6"/>
+			<text x="5.28" y="728.35" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HNH</text>		</g>
+		<g id="shape12-34" v:mID="12" v:groupContext="shape" transform="translate(608.4,-238.32)">
+			<title>Light_ruvc_label</title>
+			<desc>RuvC-like</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.2" cy="721.44" width="104.4" height="31.68"/>
+			<rect x="0" y="705.6" width="104.4" height="31.68" class="st6"/>
+			<text x="5.7" y="728.14" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RuvC-like</text>		</g>
+		<g id="shape13-37" v:mID="13" v:groupContext="shape" transform="translate(236.16,-401.76)">
+			<title>Light_complementary_label</title>
+			<desc>Complementary strand</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complementary_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="101.52" cy="721.8" width="203.04" height="30.96"/>
+			<rect x="0" y="706.32" width="203.04" height="30.96" class="st6"/>
+			<text x="2.84" y="728.28" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Complementary strand</text>		</g>
+		<g id="shape14-40" v:mID="14" v:groupContext="shape" transform="translate(230.4,-273.6)">
+			<title>Light_noncomplementary_label</title>
+			<desc>Noncomplementary strand</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(noncomplementary_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="118.8" cy="721.8" width="237.6" height="30.96"/>
+			<rect x="0" y="706.32" width="237.6" height="30.96" class="st6"/>
+			<text x="11.59" y="727.85" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Noncomplementary strand</text>		</g>
+		<g id="shape15-43" v:mID="15" v:groupContext="shape" transform="translate(913.68,-396)">
+			<title>Light_product_label</title>
+			<desc>Double-strand break</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="721.44" width="185.04" height="31.68"/>
+			<rect x="0" y="705.6" width="185.04" height="31.68" class="st6"/>
+			<text x="7" y="727.7" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Double-strand break</text>		</g>
+		<g id="shape16-46" v:mID="16" v:groupContext="shape" transform="translate(664.488,-403.848)">
+			<title>Light_hnh_cut</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_cut)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st6"/>
+		</g>
+		<g id="shape17-48" v:mID="17" v:groupContext="shape" transform="translate(665.928,-306.648)">
+			<title>Light_ruvc_cut</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_cut)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st6"/>
+		</g>
+		<g id="shape18-50" v:mID="18" v:groupContext="shape" transform="translate(868.968,-337.608)">
+			<title>Light_cleavage_source</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cleavage_source)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st6"/>
+		</g>
+		<g id="shape19-52" v:mID="19" v:groupContext="shape" transform="translate(919.368,-337.608)">
+			<title>Light_cleavage_target</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cleavage_target)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st6"/>
+		</g>
+		<g id="shape20-54" v:mID="20" v:groupContext="shape" transform="translate(145.44,-565.2)">
+			<title>Light_dual_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape21-57" v:mID="21" v:groupContext="shape" transform="translate(156.24,-565.2)">
+			<title>Light_dual_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape22-60" v:mID="22" v:groupContext="shape" transform="translate(167.04,-565.2)">
+			<title>Light_dual_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape23-63" v:mID="23" v:groupContext="shape" transform="translate(177.84,-565.2)">
+			<title>Light_dual_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape24-66" v:mID="24" v:groupContext="shape" transform="translate(188.64,-565.2)">
+			<title>Light_dual_pair_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_4)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape25-69" v:mID="25" v:groupContext="shape" transform="translate(199.44,-565.2)">
+			<title>Light_dual_pair_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_5)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape26-72" v:mID="26" v:groupContext="shape" transform="translate(210.24,-565.2)">
+			<title>Light_dual_pair_6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_6)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape27-75" v:mID="27" v:groupContext="shape" transform="translate(221.04,-565.2)">
+			<title>Light_dual_pair_7</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_pair_7)"/>
+			</v:userDefs>
+			<path d="M0 712.08 L0 737.28" class="st15"/>
+		</g>
+		<g id="shape28-78" v:mID="28" v:groupContext="shape" transform="translate(300.24,-570.96)">
+			<title>Light_dual_hairpin_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_hairpin_pair_0)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L19.44 737.28" class="st16"/>
+		</g>
+		<g id="shape29-81" v:mID="29" v:groupContext="shape" transform="translate(300.24,-559.44)">
+			<title>Light_dual_hairpin_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_hairpin_pair_1)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L19.44 737.28" class="st16"/>
+		</g>
+		<g id="shape30-84" v:mID="30" v:groupContext="shape" transform="translate(300.24,-547.92)">
+			<title>Light_dual_hairpin_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_hairpin_pair_2)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L19.44 737.28" class="st16"/>
+		</g>
+		<g id="shape31-87" v:mID="31" v:groupContext="shape" transform="translate(300.24,-536.4)">
+			<title>Light_dual_hairpin_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_hairpin_pair_3)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L19.44 737.28" class="st16"/>
+		</g>
+		<g id="shape32-90" v:mID="32" v:groupContext="shape" transform="translate(292.32,-164.16)">
+			<title>Light_chimera_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L20.16 737.28" class="st16"/>
+		</g>
+		<g id="shape33-93" v:mID="33" v:groupContext="shape" transform="translate(292.32,-152.64)">
+			<title>Light_chimera_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L20.16 737.28" class="st16"/>
+		</g>
+		<g id="shape34-96" v:mID="34" v:groupContext="shape" transform="translate(292.32,-141.12)">
+			<title>Light_chimera_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L20.16 737.28" class="st16"/>
+		</g>
+		<g id="shape35-99" v:mID="35" v:groupContext="shape" transform="translate(292.32,-129.6)">
+			<title>Light_chimera_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L20.16 737.28" class="st16"/>
+		</g>
+		<g id="shape36-102" v:mID="36" v:groupContext="shape" transform="translate(752.4,-449.28)">
+			<title>Light_complex_hairpin_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_hairpin_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.6 736.56" class="st17"/>
+		</g>
+		<g id="shape37-105" v:mID="37" v:groupContext="shape" transform="translate(752.4,-434.88)">
+			<title>Light_complex_hairpin_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_hairpin_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.6 736.56" class="st17"/>
+		</g>
+		<g id="shape38-108" v:mID="38" v:groupContext="shape" transform="translate(752.4,-420.48)">
+			<title>Light_complex_hairpin_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_hairpin_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.6 736.56" class="st17"/>
+		</g>
+		<g id="shape39-111" v:mID="39" v:groupContext="shape" transform="translate(752.4,-406.08)">
+			<title>Light_complex_hairpin_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_hairpin_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.6 736.56" class="st17"/>
+		</g>
+		<g id="shape40-114" v:mID="40" v:groupContext="shape" transform="translate(752.4,-391.68)">
+			<title>Light_complex_hairpin_pair_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_hairpin_pair_4)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.6 736.56" class="st17"/>
+		</g>
+		<g id="shape41-117" v:mID="41" v:groupContext="shape" transform="translate(36,-588.24)">
+			<title>Light_dual_crrna_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_crrna_outline)"/>
+			</v:userDefs>
+			<path d="M0 725.76 C34.56 692.64 41.76 735.12 74.16 737.28 C90.72 738 94.32 733.68 110.16 733.68 C130.32 733.68 159.12
+						 734.4 180.72 732.96 C218.88 735.12 208.08 684.72 238.32 678.24" class="st18"/>
+		</g>
+		<g id="shape42-120" v:mID="42" v:groupContext="shape" transform="translate(36,-588.24)">
+			<title>Light_dual_crrna_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_crrna_core)"/>
+			</v:userDefs>
+			<path d="M0 725.76 C34.56 692.64 41.76 735.12 74.16 737.28 C90.72 738 94.32 733.68 110.16 733.68 C130.32 733.68 159.12
+						 734.4 180.72 732.96 C218.88 735.12 208.08 684.72 238.32 678.24" class="st19"/>
+		</g>
+		<g id="shape43-123" v:mID="43" v:groupContext="shape" transform="translate(43.2,-504)">
+			<title>Light_dual_tracrrna_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_tracrrna_outline)"/>
+			</v:userDefs>
+			<path d="M0 701.28 C12.24 698.4 12.24 685.44 29.52 694.8 C60.48 712.08 66.24 677.52 100.08 678.24 C126.72 678.24 149.04
+						 677.52 169.2 678.96 C200.16 677.52 200.88 716.4 231.84 724.32 C248.4 728.64 258.48 721.44 257.76 707.76
+						 C257.04 694.8 257.04 680.4 257.04 669.6 C258.48 661.68 241.2 660.96 244.8 640.08 C250.56 612 289.44 617.76
+						 290.88 641.52 C294.48 658.08 276.48 660.96 276.48 669.6 C276.48 682.56 275.76 700.56 276.48 714.24 C276.48
+						 725.04 288.72 728.64 298.08 737.28" class="st20"/>
+		</g>
+		<g id="shape44-126" v:mID="44" v:groupContext="shape" transform="translate(43.2,-504)">
+			<title>Light_dual_tracrrna_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_tracrrna_core)"/>
+			</v:userDefs>
+			<path d="M0 701.28 C12.24 698.4 12.24 685.44 29.52 694.8 C60.48 712.08 66.24 677.52 100.08 678.24 C126.72 678.24 149.04
+						 677.52 169.2 678.96 C200.16 677.52 200.88 716.4 231.84 724.32 C248.4 728.64 258.48 721.44 257.76 707.76
+						 C257.04 694.8 257.04 680.4 257.04 669.6 C258.48 661.68 241.2 660.96 244.8 640.08 C250.56 612 289.44 617.76
+						 290.88 641.52 C294.48 658.08 276.48 660.96 276.48 669.6 C276.48 682.56 275.76 700.56 276.48 714.24 C276.48
+						 725.04 288.72 728.64 298.08 737.28" class="st21"/>
+		</g>
+		<g id="shape45-129" v:mID="45" v:groupContext="shape" transform="translate(38.16,-145.44)">
+			<title>Light_chimera_targeting_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_targeting_outline)"/>
+			</v:userDefs>
+			<path d="M0 725.04 C30.24 694.8 37.44 737.28 72 737.28 C87.12 737.28 88.56 732.24 108 732.96 C126 732.96 147.6 732.96
+						 163.44 732.96" class="st18"/>
+		</g>
+		<g id="shape46-132" v:mID="46" v:groupContext="shape" transform="translate(38.16,-145.44)">
+			<title>Light_chimera_targeting_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_targeting_core)"/>
+			</v:userDefs>
+			<path d="M0 725.04 C30.24 694.8 37.44 737.28 72 737.28 C87.12 737.28 88.56 732.24 108 732.96 C126 732.96 147.6 732.96
+						 163.44 732.96" class="st19"/>
+		</g>
+		<g id="shape47-135" v:mID="47" v:groupContext="shape" transform="translate(201.6,-107.28)">
+			<title>Light_chimera_scaffold_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_scaffold_outline)"/>
+			</v:userDefs>
+			<path d="M0 694.8 C48.96 691.92 43.92 730.8 74.16 731.52 C92.88 732.96 92.16 721.44 92.16 707.76 C92.16 694.08 92.88
+						 686.88 92.16 679.68 C89.28 672.48 75.6 669.6 81.36 650.88 C90.72 623.52 127.44 633.6 126 653.04 C126.72
+						 668.16 110.88 673.2 110.88 680.4 C111.6 692.64 110.88 711.36 111.6 724.32 C111.6 735.12 121.68 737.28 134.64
+						 737.28" class="st20"/>
+		</g>
+		<g id="shape48-138" v:mID="48" v:groupContext="shape" transform="translate(201.6,-107.28)">
+			<title>Light_chimera_scaffold_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimera_scaffold_core)"/>
+			</v:userDefs>
+			<path d="M0 694.8 C48.96 691.92 43.92 730.8 74.16 731.52 C92.88 732.96 92.16 721.44 92.16 707.76 C92.16 694.08 92.88
+						 686.88 92.16 679.68 C89.28 672.48 75.6 669.6 81.36 650.88 C90.72 623.52 127.44 633.6 126 653.04 C126.72
+						 668.16 110.88 673.2 110.88 680.4 C111.6 692.64 110.88 711.36 111.6 724.32 C111.6 735.12 121.68 737.28 134.64
+						 737.28" class="st21"/>
+		</g>
+		<g id="shape49-141" v:mID="49" v:groupContext="shape" transform="translate(737.257,-354.96)">
+			<title>Light_complex_scaffold_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_scaffold_outline)"/>
+			</v:userDefs>
+			<path d="M12.98 720.72 C18.74 714.24 18.02 703.44 16.58 691.2 C16.58 676.08 15.86 655.92 15.14 640.08 C15.86 633.6 -0.7
+						 630.72 0.02 612 C-1.42 581.76 43.94 581.76 49.7 606.24 C55.46 626.4 36.02 630 36.74 640.08 C37.46 657.36
+						 36.74 679.68 37.46 698.4 C37.46 725.04 46.82 731.52 63.38 737.28" class="st22"/>
+		</g>
+		<g id="shape50-144" v:mID="50" v:groupContext="shape" transform="translate(737.257,-354.96)">
+			<title>Light_complex_scaffold_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_scaffold_core)"/>
+			</v:userDefs>
+			<path d="M12.98 720.72 C18.74 714.24 18.02 703.44 16.58 691.2 C16.58 676.08 15.86 655.92 15.14 640.08 C15.86 633.6 -0.7
+						 630.72 0.02 612 C-1.42 581.76 43.94 581.76 49.7 606.24 C55.46 626.4 36.02 630 36.74 640.08 C37.46 657.36
+						 36.74 679.68 37.46 698.4 C37.46 725.04 46.82 731.52 63.38 737.28" class="st23"/>
+		</g>
+		<g id="shape51-147" v:mID="51" v:groupContext="shape" transform="translate(306.72,-334.08)">
+			<title>Light_left_dna_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(left_dna_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 706.32 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape52-150" v:mID="52" v:groupContext="shape" transform="translate(319.68,-334.08)">
+			<title>Light_left_dna_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(left_dna_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 706.32 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape53-153" v:mID="53" v:groupContext="shape" transform="translate(332.64,-334.08)">
+			<title>Light_left_dna_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(left_dna_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 706.32 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape54-156" v:mID="54" v:groupContext="shape" transform="translate(345.6,-334.08)">
+			<title>Light_left_dna_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(left_dna_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 706.32 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape55-159" v:mID="55" v:groupContext="shape" transform="translate(358.56,-334.08)">
+			<title>Light_left_dna_pair_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(left_dna_pair_4)"/>
+			</v:userDefs>
+			<path d="M0 706.32 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape56-162" v:mID="56" v:groupContext="shape" transform="translate(421.2,-332.64)">
+			<title>Light_entry_dna_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(entry_dna_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 704.88 L0 737.28" class="st25"/>
+		</g>
+		<g id="shape57-165" v:mID="57" v:groupContext="shape" transform="translate(434.16,-332.64)">
+			<title>Light_entry_dna_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(entry_dna_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 704.88 L0 737.28" class="st25"/>
+		</g>
+		<g id="shape58-168" v:mID="58" v:groupContext="shape" transform="translate(447.12,-332.64)">
+			<title>Light_entry_dna_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(entry_dna_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 704.88 L0 737.28" class="st25"/>
+		</g>
+		<g id="shape59-171" v:mID="59" v:groupContext="shape" transform="translate(460.08,-332.64)">
+			<title>Light_entry_dna_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(entry_dna_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 704.88 L0 737.28" class="st25"/>
+		</g>
+		<g id="shape60-174" v:mID="60" v:groupContext="shape" transform="translate(783.36,-323.28)">
+			<title>Light_right_dna_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(right_dna_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 705.6 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape61-177" v:mID="61" v:groupContext="shape" transform="translate(797.04,-323.28)">
+			<title>Light_right_dna_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(right_dna_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 705.6 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape62-180" v:mID="62" v:groupContext="shape" transform="translate(810.72,-323.28)">
+			<title>Light_right_dna_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(right_dna_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 705.6 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape63-183" v:mID="63" v:groupContext="shape" transform="translate(824.4,-323.28)">
+			<title>Light_right_dna_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(right_dna_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 705.6 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape64-186" v:mID="64" v:groupContext="shape" transform="translate(838.08,-323.28)">
+			<title>Light_right_dna_pair_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(right_dna_pair_4)"/>
+			</v:userDefs>
+			<path d="M0 705.6 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape65-189" v:mID="65" v:groupContext="shape" transform="translate(851.76,-323.28)">
+			<title>Light_right_dna_pair_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(right_dna_pair_5)"/>
+			</v:userDefs>
+			<path d="M0 705.6 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape66-192" v:mID="66" v:groupContext="shape" transform="translate(934.56,-335.52)">
+			<title>Light_product_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape67-195" v:mID="67" v:groupContext="shape" transform="translate(947.52,-335.52)">
+			<title>Light_product_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape68-198" v:mID="68" v:groupContext="shape" transform="translate(960.48,-335.52)">
+			<title>Light_product_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape69-201" v:mID="69" v:groupContext="shape" transform="translate(973.44,-335.52)">
+			<title>Light_product_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape70-204" v:mID="70" v:groupContext="shape" transform="translate(986.4,-335.52)">
+			<title>Light_product_pair_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_4)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape71-207" v:mID="71" v:groupContext="shape" transform="translate(1025.28,-335.52)">
+			<title>Light_product_pair_7</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_7)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape72-210" v:mID="72" v:groupContext="shape" transform="translate(1038.24,-335.52)">
+			<title>Light_product_pair_8</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_8)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape73-213" v:mID="73" v:groupContext="shape" transform="translate(1051.2,-335.52)">
+			<title>Light_product_pair_9</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_9)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape74-216" v:mID="74" v:groupContext="shape" transform="translate(1064.16,-335.52)">
+			<title>Light_product_pair_10</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_10)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape75-219" v:mID="75" v:groupContext="shape" transform="translate(1077.12,-335.52)">
+			<title>Light_product_pair_11</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_11)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape76-222" v:mID="76" v:groupContext="shape" transform="translate(1090.08,-335.52)">
+			<title>Light_product_pair_12</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_pair_12)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st24"/>
+		</g>
+		<g id="shape77-225" v:mID="77" v:groupContext="shape" transform="translate(524.16,-364.32)">
+			<title>Light_rna_dna_pair_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_0)"/>
+			</v:userDefs>
+			<path d="M0 708.48 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape78-228" v:mID="78" v:groupContext="shape" transform="translate(537.12,-371.52)">
+			<title>Light_rna_dna_pair_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_1)"/>
+			</v:userDefs>
+			<path d="M0 709.2 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape79-231" v:mID="79" v:groupContext="shape" transform="translate(550.08,-375.84)">
+			<title>Light_rna_dna_pair_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_2)"/>
+			</v:userDefs>
+			<path d="M0 709.2 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape80-234" v:mID="80" v:groupContext="shape" transform="translate(563.76,-377.28)">
+			<title>Light_rna_dna_pair_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_3)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape81-237" v:mID="81" v:groupContext="shape" transform="translate(577.44,-378)">
+			<title>Light_rna_dna_pair_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_4)"/>
+			</v:userDefs>
+			<path d="M0 707.04 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape82-240" v:mID="82" v:groupContext="shape" transform="translate(591.12,-378)">
+			<title>Light_rna_dna_pair_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_5)"/>
+			</v:userDefs>
+			<path d="M0 707.04 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape83-243" v:mID="83" v:groupContext="shape" transform="translate(604.8,-378)">
+			<title>Light_rna_dna_pair_6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_6)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape84-246" v:mID="84" v:groupContext="shape" transform="translate(618.48,-377.28)">
+			<title>Light_rna_dna_pair_7</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_7)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape85-249" v:mID="85" v:groupContext="shape" transform="translate(632.16,-376.56)">
+			<title>Light_rna_dna_pair_8</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_8)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape86-252" v:mID="86" v:groupContext="shape" transform="translate(645.12,-375.84)">
+			<title>Light_rna_dna_pair_9</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_9)"/>
+			</v:userDefs>
+			<path d="M0 708.48 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape87-255" v:mID="87" v:groupContext="shape" transform="translate(679.68,-375.84)">
+			<title>Light_rna_dna_pair_10</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_10)"/>
+			</v:userDefs>
+			<path d="M0 714.24 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape88-258" v:mID="88" v:groupContext="shape" transform="translate(692.64,-374.4)">
+			<title>Light_rna_dna_pair_11</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_11)"/>
+			</v:userDefs>
+			<path d="M0 717.12 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape89-261" v:mID="89" v:groupContext="shape" transform="translate(706.32,-370.8)">
+			<title>Light_rna_dna_pair_12</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(rna_dna_pair_12)"/>
+			</v:userDefs>
+			<path d="M0 720 L0 737.28" class="st26"/>
+		</g>
+		<g id="shape90-264" v:mID="90" v:groupContext="shape" transform="translate(470.88,-356.884)">
+			<title>Light_complex_guide_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_guide_outline)"/>
+			</v:userDefs>
+			<path d="M0 726.96 C25.92 734.16 36 744.24 56.16 730.56 C82.8 711.12 113.04 716.16 141.12 716.16 C169.92 717.6 196.56
+						 716.16 220.32 719.04 C245.52 721.2 251.28 736.32 279.36 722.64" class="st27"/>
+		</g>
+		<g id="shape91-267" v:mID="91" v:groupContext="shape" transform="translate(470.88,-356.884)">
+			<title>Light_complex_guide_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complex_guide_core)"/>
+			</v:userDefs>
+			<path d="M0 726.96 C25.92 734.16 36 744.24 56.16 730.56 C82.8 711.12 113.04 716.16 141.12 716.16 C169.92 717.6 196.56
+						 716.16 220.32 719.04 C245.52 721.2 251.28 736.32 279.36 722.64" class="st28"/>
+		</g>
+		<g id="shape92-270" v:mID="92" v:groupContext="shape" transform="translate(301.68,-290.497)">
+			<title>Light_dna_lower_before_cut_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_lower_before_cut_outline)"/>
+			</v:userDefs>
+			<path d="M0 695.86 C18 695.86 38.16 695.86 49.68 695.14 C75.6 692.98 85.68 669.94 105.12 664.18 C83.52 674.26 100.08
+						 697.3 130.32 697.3 C150.48 697.3 167.04 695.14 185.04 703.78 C213.84 718.9 223.92 733.3 261.36 736.18 C298.8
+						 740.5 322.56 732.58 353.52 722.5" class="st29"/>
+		</g>
+		<g id="shape93-273" v:mID="93" v:groupContext="shape" transform="translate(301.68,-290.497)">
+			<title>Light_dna_lower_before_cut_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_lower_before_cut_core)"/>
+			</v:userDefs>
+			<path d="M0 695.86 C18 695.86 38.16 695.86 49.68 695.14 C75.6 692.98 85.68 669.94 105.12 664.18 C83.52 674.26 100.08
+						 697.3 130.32 697.3 C150.48 697.3 167.04 695.14 185.04 703.78 C213.84 718.9 223.92 733.3 261.36 736.18 C298.8
+						 740.5 322.56 732.58 353.52 722.5" class="st30"/>
+		</g>
+		<g id="shape94-276" v:mID="94" v:groupContext="shape" transform="translate(676.08,-306.304)">
+			<title>Light_dna_lower_after_cut_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_lower_after_cut_outline)"/>
+			</v:userDefs>
+			<path d="M0 736.86 C29.52 738.3 48.24 736.86 68.4 724.62 C103.68 700.86 118.8 716.7 146.88 722.46 C161.28 723.9 170.64
+						 723.18 180.72 723.9" class="st29"/>
+		</g>
+		<g id="shape95-279" v:mID="95" v:groupContext="shape" transform="translate(676.08,-306.304)">
+			<title>Light_dna_lower_after_cut_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_lower_after_cut_core)"/>
+			</v:userDefs>
+			<path d="M0 736.86 C29.52 738.3 48.24 736.86 68.4 724.62 C103.68 700.86 118.8 716.7 146.88 722.46 C161.28 723.9 170.64
+						 723.18 180.72 723.9" class="st30"/>
+		</g>
+		<g id="shape96-282" v:mID="96" v:groupContext="shape" transform="translate(301.68,-336.96)">
+			<title>Light_dna_upper_before_cut_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_upper_before_cut_outline)"/>
+			</v:userDefs>
+			<path d="M0 707.76 C20.88 707.76 37.44 705.6 48.24 707.04 C71.28 706.32 81.36 729.36 105.84 737.28 C90.72 727.92 97.92
+						 709.92 116.64 707.04 C141.12 706.32 157.68 708.48 172.8 704.16 C200.16 696.96 214.56 676.8 241.92 669.6
+						 C278.64 658.8 316.8 663.84 352.8 671.04" class="st31"/>
+		</g>
+		<g id="shape97-285" v:mID="97" v:groupContext="shape" transform="translate(301.68,-336.96)">
+			<title>Light_dna_upper_before_cut_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_upper_before_cut_core)"/>
+			</v:userDefs>
+			<path d="M0 707.76 C20.88 707.76 37.44 705.6 48.24 707.04 C71.28 706.32 81.36 729.36 105.84 737.28 C90.72 727.92 97.92
+						 709.92 116.64 707.04 C141.12 706.32 157.68 708.48 172.8 704.16 C200.16 696.96 214.56 676.8 241.92 669.6
+						 C278.64 658.8 316.8 663.84 352.8 671.04" class="st32"/>
+		</g>
+		<g id="shape98-288" v:mID="98" v:groupContext="shape" transform="translate(675.36,-353.532)">
+			<title>Light_dna_upper_after_cut_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_upper_after_cut_outline)"/>
+			</v:userDefs>
+			<path d="M0 690.49 C41.76 694.09 58.32 713.53 80.64 725.77 C110.16 743.05 131.76 735.85 181.44 735.85" class="st31"/>
+		</g>
+		<g id="shape99-291" v:mID="99" v:groupContext="shape" transform="translate(675.36,-353.532)">
+			<title>Light_dna_upper_after_cut_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dna_upper_after_cut_core)"/>
+			</v:userDefs>
+			<path d="M0 690.49 C41.76 694.09 58.32 713.53 80.64 725.77 C110.16 743.05 131.76 735.85 181.44 735.85" class="st32"/>
+		</g>
+		<g id="shape100-294" v:mID="100" v:groupContext="shape" transform="translate(928.08,-367.2)">
+			<title>Light_product_upper_left_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_upper_left_outline)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C23.76 737.28 47.52 737.28 71.28 737.28" class="st33"/>
+		</g>
+		<g id="shape101-297" v:mID="101" v:groupContext="shape" transform="translate(928.08,-367.2)">
+			<title>Light_product_upper_left_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_upper_left_core)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C23.76 737.28 47.52 737.28 71.28 737.28" class="st34"/>
+		</g>
+		<g id="shape102-300" v:mID="102" v:groupContext="shape" transform="translate(928.08,-333.36)">
+			<title>Light_product_lower_left_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_lower_left_outline)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C23.76 737.28 47.52 737.28 71.28 737.28" class="st35"/>
+		</g>
+		<g id="shape103-303" v:mID="103" v:groupContext="shape" transform="translate(928.08,-333.36)">
+			<title>Light_product_lower_left_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_lower_left_core)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C23.76 737.28 47.52 737.28 71.28 737.28" class="st36"/>
+		</g>
+		<g id="shape104-306" v:mID="104" v:groupContext="shape" transform="translate(1017.36,-367.2)">
+			<title>Light_product_upper_right_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_upper_right_outline)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C24.48 737.28 48.96 737.28 73.44 737.28" class="st33"/>
+		</g>
+		<g id="shape105-309" v:mID="105" v:groupContext="shape" transform="translate(1017.36,-367.2)">
+			<title>Light_product_upper_right_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_upper_right_core)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C24.48 737.28 48.96 737.28 73.44 737.28" class="st34"/>
+		</g>
+		<g id="shape106-312" v:mID="106" v:groupContext="shape" transform="translate(1017.36,-333.36)">
+			<title>Light_product_lower_right_outline</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_lower_right_outline)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C24.48 737.28 48.96 737.28 73.44 737.28" class="st35"/>
+		</g>
+		<g id="shape107-315" v:mID="107" v:groupContext="shape" transform="translate(1017.36,-333.36)">
+			<title>Light_product_lower_right_core</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_lower_right_core)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C24.48 737.28 48.96 737.28 73.44 737.28" class="st36"/>
+		</g>
+		<g id="shape108-318" v:mID="108" v:groupContext="shape" transform="translate(649.284,-405.436)">
+			<title>Light_hnh_cut_ray_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_cut_ray_0)"/>
+			</v:userDefs>
+			<path d="M7.65 737.28 L-0 735.23" class="st37"/>
+		</g>
+		<g id="shape109-321" v:mID="109" v:groupContext="shape" transform="translate(654.635,-409.819)">
+			<title>Light_hnh_cut_ray_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_cut_ray_1)"/>
+			</v:userDefs>
+			<path d="M5.09 737.28 L-0 731.21" class="st37"/>
+		</g>
+		<g id="shape110-324" v:mID="110" v:groupContext="shape" transform="translate(664.702,-411.835)">
+			<title>Light_hnh_cut_ray_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_cut_ray_2)"/>
+			</v:userDefs>
+			<path d="M0.28 737.28 L0 729.36" class="st37"/>
+		</g>
+		<g id="shape111-327" v:mID="111" v:groupContext="shape" transform="translate(670.599,-410.008)">
+			<title>Light_hnh_cut_ray_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_cut_ray_3)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L4.88 731.04" class="st37"/>
+		</g>
+		<g id="shape112-330" v:mID="112" v:groupContext="shape" transform="translate(673.836,-404.402)">
+			<title>Light_hnh_cut_ray_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_cut_ray_4)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L7.84 736.18" class="st37"/>
+		</g>
+		<g id="shape113-333" v:mID="113" v:groupContext="shape" transform="translate(650.004,-309.676)">
+			<title>Light_ruvc_cut_ray_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_cut_ray_0)"/>
+			</v:userDefs>
+			<path d="M7.65 737.28 L0 735.23" class="st37"/>
+		</g>
+		<g id="shape114-336" v:mID="114" v:groupContext="shape" transform="translate(655.355,-314.059)">
+			<title>Light_ruvc_cut_ray_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_cut_ray_1)"/>
+			</v:userDefs>
+			<path d="M5.09 737.28 L0 731.21" class="st37"/>
+		</g>
+		<g id="shape115-339" v:mID="115" v:groupContext="shape" transform="translate(665.422,-316.075)">
+			<title>Light_ruvc_cut_ray_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_cut_ray_2)"/>
+			</v:userDefs>
+			<path d="M0.28 737.28 L0 729.36" class="st37"/>
+		</g>
+		<g id="shape116-342" v:mID="116" v:groupContext="shape" transform="translate(671.319,-314.248)">
+			<title>Light_ruvc_cut_ray_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_cut_ray_3)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L4.88 731.04" class="st37"/>
+		</g>
+		<g id="shape117-345" v:mID="117" v:groupContext="shape" transform="translate(674.556,-308.642)">
+			<title>Light_ruvc_cut_ray_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_cut_ray_4)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L7.84 736.18" class="st37"/>
+		</g>
+		<g id="shape118-348" v:mID="118" v:groupContext="shape" transform="translate(992.724,-371.596)">
+			<title>Light_product_top_cut_ray_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_top_cut_ray_0)"/>
+			</v:userDefs>
+			<path d="M7.65 737.28 L0 735.23" class="st37"/>
+		</g>
+		<g id="shape119-351" v:mID="119" v:groupContext="shape" transform="translate(998.075,-375.979)">
+			<title>Light_product_top_cut_ray_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_top_cut_ray_1)"/>
+			</v:userDefs>
+			<path d="M5.09 737.28 L0 731.21" class="st37"/>
+		</g>
+		<g id="shape120-354" v:mID="120" v:groupContext="shape" transform="translate(1008.14,-377.995)">
+			<title>Light_product_top_cut_ray_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_top_cut_ray_2)"/>
+			</v:userDefs>
+			<path d="M0.28 737.28 L-0 729.36" class="st37"/>
+		</g>
+		<g id="shape121-357" v:mID="121" v:groupContext="shape" transform="translate(1014.04,-376.168)">
+			<title>Light_product_top_cut_ray_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_top_cut_ray_3)"/>
+			</v:userDefs>
+			<path d="M-0 737.28 L4.88 731.04" class="st37"/>
+		</g>
+		<g id="shape122-360" v:mID="122" v:groupContext="shape" transform="translate(1017.28,-370.562)">
+			<title>Light_product_top_cut_ray_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_top_cut_ray_4)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L7.84 736.18" class="st37"/>
+		</g>
+		<g id="shape123-363" v:mID="123" v:groupContext="shape" transform="translate(992.724,-327.634)">
+			<title>Light_product_bottom_cut_ray_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_bottom_cut_ray_0)"/>
+			</v:userDefs>
+			<path d="M7.65 735.23 L0 737.28" class="st37"/>
+		</g>
+		<g id="shape124-366" v:mID="124" v:groupContext="shape" transform="translate(998.075,-319.234)">
+			<title>Light_product_bottom_cut_ray_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_bottom_cut_ray_1)"/>
+			</v:userDefs>
+			<path d="M5.09 731.21 L0 737.28" class="st37"/>
+		</g>
+		<g id="shape125-369" v:mID="125" v:groupContext="shape" transform="translate(1008.14,-315.37)">
+			<title>Light_product_bottom_cut_ray_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_bottom_cut_ray_2)"/>
+			</v:userDefs>
+			<path d="M0.28 729.36 L-0 737.28" class="st37"/>
+		</g>
+		<g id="shape126-372" v:mID="126" v:groupContext="shape" transform="translate(1014.04,-318.871)">
+			<title>Light_product_bottom_cut_ray_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_bottom_cut_ray_3)"/>
+			</v:userDefs>
+			<path d="M-0 731.04 L4.88 737.28" class="st37"/>
+		</g>
+		<g id="shape127-375" v:mID="127" v:groupContext="shape" transform="translate(1017.28,-329.615)">
+			<title>Light_product_bottom_cut_ray_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(product_bottom_cut_ray_4)"/>
+			</v:userDefs>
+			<path d="M0 736.18 L7.84 737.28" class="st37"/>
+		</g>
+		<g id="shape128-378" v:mID="128" v:groupContext="shape" transform="translate(413.28,-362.88)">
+			<title>Light_complementary_anchor</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(complementary_anchor)"/>
+			</v:userDefs>
+			<ellipse cx="5.04" cy="732.24" rx="5.04" ry="5.04" class="st38"/>
+		</g>
+		<g id="shape129-380" v:mID="129" v:groupContext="shape" transform="translate(426.96,-323.28)">
+			<title>Light_noncomplementary_anchor</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(noncomplementary_anchor)"/>
+			</v:userDefs>
+			<ellipse cx="5.04" cy="732.24" rx="5.04" ry="5.04" class="st38"/>
+		</g>
+		<g id="shape130-382" v:mID="130" v:groupContext="shape" transform="translate(854.136,-412.747) rotate(42.3102)">
+			<title>Light_dual_rna_assembly</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dual_rna_assembly)"/>
+			</v:userDefs>
+			<path d="M0 737.28 C39.72 704.51 84.21 710.26 130.99 728.47 L131.32 728.61" class="st39"/>
+		</g>
+		<g id="shape131-388" v:mID="131" v:groupContext="shape" transform="translate(-145.361,71.304) rotate(-44.6304)">
+			<title>Light_chimeric_rna_assembly</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(chimeric_rna_assembly)"/>
+			</v:userDefs>
+			<path d="M0 716.27 C41.14 746.38 90.8 740.27 136.64 724.36 L136.98 724.23" class="st39"/>
+		</g>
+		<g id="shape132-393" v:mID="132" v:groupContext="shape" transform="translate(1035.54,-35.8055) rotate(59.7587)">
+			<title>Light_label_complementary</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(label_complementary)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L39.17 737.28" class="st41"/>
+		</g>
+		<g id="shape133-396" v:mID="133" v:groupContext="shape" transform="translate(-15.1249,-178.807) rotate(-33.9591)">
+			<title>Light_label_noncomplementary</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(label_noncomplementary)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L42.53 737.28" class="st41"/>
+		</g>
+		<g id="shape134-399" v:mID="134" v:groupContext="shape" transform="translate(1380.47,153.487) rotate(78.6901)">
+			<title>Light_hnh_to_cut</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(hnh_to_cut)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.94 737.28" class="st42"/>
+		</g>
+		<g id="shape135-405" v:mID="135" v:groupContext="shape" transform="translate(-63.9006,319.964) rotate(-78.4742)">
+			<title>Light_ruvc_to_cut</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ruvc_to_cut)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L23.44 737.28" class="st42"/>
+		</g>
+		<g id="shape136-410" v:mID="136" v:groupContext="shape" transform="translate(869.04,-337.68)">
+			<title>Light_double_strand_cleavage</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(double_strand_cleavage)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.24 737.28" class="st44"/>
+		</g>
+	</g>
+</svg>

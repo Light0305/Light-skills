@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "task_id": "historical-illustrator-integration",
+  "record_context": "Retrospective indexing of a previously completed case. No image generation or native drawing repeated on 2026-10-31.",
+  "input_kind": "existing_image",
+  "output_mode": "editable",
+  "stage": "delivered",
+  "brief": {
+    "domain": "Materials electrochemistry",
+    "visual_claim": "Coupled cell transport, sulfur conversion, separator mechanism and anode interface.",
+    "evidence_boundary": "A conceptual synthesis of mechanisms, not a reproduction of a specific experimental material or quantitative result. Molecular beads, pores and surface morphologies are schematic.",
+    "source_scope": [
+      {
+        "doi": "10.1039/D4TA03930K",
+        "scope": "Published primary-paper abstract: polysulfide retention, selective Li+ transport, electrocatalytic activity; full HTML returned HTTP 403."
+      },
+      {
+        "doi": "10.1038/s41467-024-52550-9",
+        "scope": "Primary-paper abstract/introduction supplied in search results: soluble polysulfides, solid sulfide conversion, catalysis; full HTML redirected to inaccessible identity endpoint."
+      }
+    ]
+  },
+  "artifacts": {
+    "reference": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/source.png",
+      "sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088"
+    },
+    "prompt": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/reference-prompt-v1.txt",
+      "sha256": "370e9eedfe07a540233684aab90db3236307c24020dc412039de3a34373fc71e"
+    },
+    "scene": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/scene.json",
+      "sha256": "69067c987526a3b7c2caf9c29eb2951d287a263f32cfa82c4e0c5c6e0d0a9a0e"
+    },
+    "relation_spec": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/scene.json",
+      "sha256": "69067c987526a3b7c2caf9c29eb2951d287a263f32cfa82c4e0c5c6e0d0a9a0e"
+    },
+    "source_record": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/source-manifest.json",
+      "sha256": "94821d13609c672eb449c5ae1a21d68fef7448240cee96eb94712d750df95e20"
+    },
+    "report": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/REPORT.md",
+      "sha256": "12f725de0168154b4234eb322852b40194976f751e7459e4fc988e634cb251e5"
+    },
+    "native_audit": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/output/lis-illustrator.audit.json",
+      "sha256": "4d437557bfd5e083032fd013ef60ef5355b4edaaeefe45a6c3383d84dfcf2370"
+    },
+    "verification": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/verification.json",
+      "sha256": "286f263d89c1fc8311d5bc76879dd14fd387ce4600cc9611cd4cd6b9f0cf628a"
+    },
+    "final_native": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/output/lis-illustrator.ai",
+      "sha256": "ea52a548edb76adf655b688b7299567ff1dce9ee195769b44cbbb14416363aec"
+    },
+    "preview": {
+      "path": "../../light-illustrator-diagram/evaluations/2026-10-30-lis-comparison/output/lis-illustrator.png",
+      "sha256": "0d770bc3f69637e89b7b8fcc750cc660e0dc1a41772ca451c3653cc05a440312"
+    }
+  },
+  "generation": {
+    "status": "reused",
+    "calls_this_run": 0,
+    "executed_prompt": null,
+    "lineage": "Actual prior executed prompt and source generation are recorded in source_record; no new generation in this integration."
+  },
+  "reference_review": {
+    "status": "issues_recorded",
+    "issues": [
+      "Footer sequential Shuttle -> Li loss -> Passivation implies an unsupported causal sequence.",
+      "Anode comparison callout appears to originate near separator instead of the visible Li anode."
+    ]
+  },
+  "reconstruction": {
+    "mode": "science_corrected",
+    "corrections": [
+      "Use separate Shuttle -> Li loss and Shuttle -> Passivation branches.",
+      "Reroute anode callout from visible Li anode."
+    ],
+    "scope": "Entire native file is the corrected conceptual figure."
+  },
+  "routing": {
+    "requested_tool": "illustrator",
+    "selected_tool": "illustrator",
+    "reason": "Historical tool-specific test: Fine vector editing, real compound openings, gradients, layers and panel grouping.",
+    "visible_process": true
+  },
+  "checks": {
+    "file": {
+      "status": "passed",
+      "scope": "Previously executed file/native verification; current integration rechecks file identity only.",
+      "evidence": [
+        "verification",
+        "native_audit"
+      ]
+    },
+    "native": {
+      "status": "passed",
+      "scope": "Prior real desktop save/reopen, native objects and movement within the stated backend report limits; not rerun today.",
+      "evidence": [
+        "native_audit",
+        "verification"
+      ]
+    },
+    "visual": {
+      "status": "passed",
+      "scope": "Prior actual application export was inspected; geometric textures and particle placements remain approximations, not 1:1 fidelity.",
+      "evidence": [
+        "report",
+        "preview"
+      ]
+    },
+    "science": {
+      "status": "passed",
+      "scope": "Prior same-assistant conceptual relationship review and explicit corrections, not independent peer review. ",
+      "evidence": [
+        "report",
+        "verification",
+        "relation_spec"
+      ]
+    }
+  }
+}

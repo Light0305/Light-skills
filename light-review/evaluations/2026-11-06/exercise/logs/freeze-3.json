@@ -1,0 +1,7 @@
+{
+  "name": "freeze-3",
+  "exit": 0,
+  "expected": 0,
+  "stdout": "{\"ok\": true, \"packet_id\": \"sha256:f748b9109fc7f10089838926672312b12fec18a6c5c6339719a7c0aa1c1028e5\", \"materials\": 4, \"meaning\": \"Version/record consistency only; scientific judgments and claimed checks are not verified.\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,35 @@
+test_boolean_call_count (test_handoff.HandoffTests.test_boolean_call_count) ... ok
+test_boolean_revision (test_handoff.HandoffTests.test_boolean_revision) ... ok
+test_bound_scientific_subject (test_handoff.HandoffTests.test_bound_scientific_subject) ... ok
+test_changed_file_with_refreshed_artifact_invalidates_check (test_handoff.HandoffTests.test_changed_file_with_refreshed_artifact_invalidates_check) ... ok
+test_check_is_read_only (test_handoff.HandoffTests.test_check_is_read_only) ... ok
+test_cli_error_is_json (test_handoff.HandoffTests.test_cli_error_is_json) ... ok
+test_delivered_prompt (test_handoff.HandoffTests.test_delivered_prompt) ... ok
+test_duplicate_json (test_handoff.HandoffTests.test_duplicate_json) ... ok
+test_fallback_cannot_claim_requested_output (test_handoff.HandoffTests.test_fallback_cannot_claim_requested_output) ... ok
+test_generated_reference_is_not_its_own_science (test_handoff.HandoffTests.test_generated_reference_is_not_its_own_science) ... ok
+test_legacy_illustrator (test_handoff.HandoffTests.test_legacy_illustrator) ... ok
+test_legacy_parent_need_not_be_rewritten (test_handoff.HandoffTests.test_legacy_parent_need_not_be_rewritten) ... ok
+test_legacy_powerpoint (test_handoff.HandoffTests.test_legacy_powerpoint) ... ok
+test_legacy_visio (test_handoff.HandoffTests.test_legacy_visio) ... ok
+test_missing_artifact (test_handoff.HandoffTests.test_missing_artifact) ... ok
+test_missing_scientific_subject (test_handoff.HandoffTests.test_missing_scientific_subject) ... ok
+test_missing_subject (test_handoff.HandoffTests.test_missing_subject) ... ok
+test_nan_json (test_handoff.HandoffTests.test_nan_json) ... ok
+test_native_audit_requires_scene_binding (test_handoff.HandoffTests.test_native_audit_requires_scene_binding) ... ok
+test_nested_array (test_handoff.HandoffTests.test_nested_array) ... ok
+test_numeric_file_reference (test_handoff.HandoffTests.test_numeric_file_reference) ... ok
+test_numeric_overflow_json (test_handoff.HandoffTests.test_numeric_overflow_json) ... ok
+test_parent_hash_and_identity (test_handoff.HandoffTests.test_parent_hash_and_identity) ... ok
+test_parent_task_mismatch (test_handoff.HandoffTests.test_parent_task_mismatch) ... ok
+test_planned (test_handoff.HandoffTests.test_planned) ... ok
+test_root_array (test_handoff.HandoffTests.test_root_array) ... ok
+test_unhashable_status (test_handoff.HandoffTests.test_unhashable_status) ... ok
+test_v11_native_declarations_bind_final_and_scene (test_handoff.HandoffTests.test_v11_native_declarations_bind_final_and_scene) ... ok
+test_current_figure_adoption_is_read_only (test_write_adoption.WriteAdoptionTests.test_current_figure_adoption_is_read_only) ... ok
+test_figure_revision_invalidates_adoption_without_rewriting_old_draft (test_write_adoption.WriteAdoptionTests.test_figure_revision_invalidates_adoption_without_rewriting_old_draft) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.587s
+
+OK

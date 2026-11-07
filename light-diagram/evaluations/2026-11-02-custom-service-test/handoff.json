@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "task_id": "2026-11-02-user-custom-service-test",
+  "input_kind": "concept",
+  "output_mode": "image",
+  "stage": "delivered",
+  "brief": {
+    "visual_claim": "Two independent encoder branches merge once into Fusion, then Output.",
+    "evidence_boundary": "Hypothetical six-module API connectivity test; no actual paper or experiment.",
+    "source_scope": "User request to test a configured image service and the published test prompt."
+  },
+  "artifacts": {
+    "prompt": {
+      "path": "prompt-v1.txt",
+      "sha256": "5695e686107b2fea901cf98d9c8931a087517a9800a58d56920e1811e7ef5224"
+    },
+    "reference": {
+      "path": "attempt-02/image-01.png",
+      "sha256": "6cd61b89fbc26569294940a607d517c5dc437b7f091236ccdd6c4cc18b28c1b2"
+    },
+    "attempt_01": {
+      "path": "attempt-01/generation.json",
+      "sha256": "75c0ed1806f19d1c3f1d100e2efece3e7d426cfb1a02a2917068a0dce342adec"
+    },
+    "attempt_02": {
+      "path": "attempt-02/generation.json",
+      "sha256": "3ffb85ed27400e701650175db44d07c8c5bbbcf00a69d93661e62e0c4e5c3bb1"
+    },
+    "report": {
+      "path": "REPORT.md",
+      "sha256": "12558b92cf3062897f89efca9688f6e0ab13629a5f361d4529a7d20ad6bd35d4"
+    },
+    "review": {
+      "path": "review.json",
+      "sha256": "8fe0724af0a83d07d4cb9493f9de3ab0a3a3b796ffaadc29cef5496606c3b292"
+    },
+    "connection_diagnostics": {
+      "path": "connection-diagnostics.json",
+      "sha256": "b4c0e96ce4e0c94d9f2269be2c13ed8c99f01da764de4f18788a0ca0bc59f781"
+    },
+    "user_agent_diagnostics": {
+      "path": "user-agent-diagnostics.json",
+      "sha256": "015cacc78a72bc2f9b7575b28b778b8e37794ed52529bb99d43fe92954e84dfb"
+    }
+  },
+  "generation": {
+    "status": "generated",
+    "calls_this_run": 2,
+    "executed_prompt": "prompt",
+    "selection": "custom",
+    "attempt_records": [
+      "attempt_01",
+      "attempt_02"
+    ],
+    "configured_model": "gpt-image-2.5-sunburst",
+    "upstream_model_verified": false
+  },
+  "prompt_delivery": {
+    "artifact": "prompt",
+    "channel": "file_link",
+    "before_call": true
+  },
+  "reference_review": {
+    "status": "passed",
+    "issues": []
+  },
+  "reconstruction": {
+    "mode": "faithful",
+    "corrections": []
+  },
+  "routing": {
+    "requested_tool": null,
+    "selected_tool": null,
+    "reason": "Custom image-service test only; no editable output requested.",
+    "visible_process": false
+  },
+  "checks": {
+    "file": {
+      "status": "passed",
+      "scope": "Returned PNG decodes; hash matches actual image response record.",
+      "evidence": [
+        "reference",
+        "attempt_02"
+      ]
+    },
+    "native": {
+      "status": "not_applicable",
+      "scope": "Image-only request; no editable reconstruction.",
+      "evidence": []
+    },
+    "visual": {
+      "status": "passed",
+      "scope": "Assistant inspected returned image; all six labels and five arrows observed.",
+      "evidence": [
+        "reference",
+        "review",
+        "report"
+      ]
+    },
+    "science": {
+      "status": "passed",
+      "scope": "Matches hypothetical two-branch brief only, not scientific validity of a real method or expert peer review.",
+      "evidence": [
+        "prompt",
+        "review",
+        "report"
+      ]
+    }
+  }
+}

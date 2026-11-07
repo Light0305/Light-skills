@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "delivery_profile": "three-documents",
+  "project_root": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\project",
+  "jurisdiction": "CN",
+  "software_name": "合成测量汇总工具",
+  "abbreviation": null,
+  "version": "V0.1",
+  "owners": [],
+  "owner_type": null,
+  "development_mode": null,
+  "rights_acquisition": null,
+  "rights_scope": null,
+  "completed_on": null,
+  "publication_status": null,
+  "first_published_on": null,
+  "first_published_place": null,
+  "environments": {
+    "development_hardware": null,
+    "development_os": null,
+    "development_tools": null,
+    "runtime_hardware": null,
+    "runtime_os": null,
+    "runtime_support": null
+  },
+  "languages": [
+    "Python"
+  ],
+  "purpose": "对合成测量记录做校验和描述性分组汇总。",
+  "industry": null,
+  "main_functions": null,
+  "technical_features": null,
+  "features": [
+    {
+      "id": "F1",
+      "name": "数据读入与校验",
+      "status": "implemented",
+      "function_heading": "数据读入与校验",
+      "manual_heading": "输入数据校验",
+      "evidence": [
+        {
+          "path": "measure.py",
+          "lines": [
+            9,
+            30
+          ],
+          "sha256": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "name": "分组汇总",
+      "status": "implemented",
+      "function_heading": "分组汇总",
+      "manual_heading": "汇总与导出",
+      "evidence": [
+        {
+          "path": "measure.py",
+          "lines": [
+            31,
+            48
+          ],
+          "sha256": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "name": "结果导出",
+      "status": "implemented",
+      "function_heading": "结果导出",
+      "manual_heading": "汇总与导出",
+      "evidence": [
+        {
+          "path": "measure.py",
+          "lines": [
+            49,
+            68
+          ],
+          "sha256": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+        }
+      ]
+    }
+  ],
+  "reviews": {
+    "facts_confirmed": false,
+    "confirmation_basis": null,
+    "rights_basis": null,
+    "third_party_review": "合成程序仅用Python标准库，无外部实现复制。",
+    "source_ending_review": "已读完整文件，末尾为main入口。",
+    "visual_review": null
+  },
+  "rules": {
+    "checked_on": null,
+    "official_form_verified": false,
+    "sources": [],
+    "notes": []
+  }
+}

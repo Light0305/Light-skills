@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1",
+  "packet_id": "sha256:f748b9109fc7f10089838926672312b12fec18a6c5c6339719a7c0aa1c1028e5",
+  "previous_review": null,
+  "review_status": "draft",
+  "scope": "full",
+  "assessment_complete": false,
+  "summary": "尚未开展评审；此文件仅为记录起点。",
+  "strengths": [],
+  "limitations": [
+    "尚未读取论文或开展科学检查。"
+  ],
+  "coverage": [
+    {
+      "material_id": "M001",
+      "status": "not_read",
+      "notes": "尚未读取；冻结仅记录版本。"
+    },
+    {
+      "material_id": "M002",
+      "status": "not_read",
+      "notes": "尚未读取；冻结仅记录版本。"
+    },
+    {
+      "material_id": "M003",
+      "status": "not_read",
+      "notes": "尚未读取；冻结仅记录版本。"
+    },
+    {
+      "material_id": "M004",
+      "status": "not_read",
+      "notes": "尚未读取；冻结仅记录版本。"
+    }
+  ],
+  "checks": [
+    {
+      "check": "claims",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "methods",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "statistics",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "figures",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "numerical",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "literature",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "reproducibility",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "ethics",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    },
+    {
+      "check": "venue",
+      "status": "not_assessable",
+      "notes": "尚未检查",
+      "evidence": []
+    }
+  ],
+  "claims": [],
+  "issues": [],
+  "sources": [],
+  "readiness": {
+    "scientific": "not_assessable",
+    "submission": "not_assessable",
+    "rationale": "尚未评审，不作就绪判断。"
+  }
+}

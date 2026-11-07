@@ -1,0 +1,45 @@
+{
+  "engine": "Microsoft Word COM",
+  "read_only": true,
+  "documents": [
+    {
+      "docx": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_功能说明.docx",
+      "sha256": "268f3b2d10ee7ce360d12cd92703229c1647ee96ae539808060d87e9f629ae34",
+      "pdf": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\1\\word.pdf",
+      "pdf_sha256": "5658019605068113685033166554fca083ea29a665b845d4355c934898acadac",
+      "pages": 1,
+      "images": [
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\1\\page-1.png"
+      ],
+      "contact_sheet": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\1\\all-pages.png",
+      "input_unchanged": true
+    },
+    {
+      "docx": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_软件代码.docx",
+      "sha256": "26a1cd44eedb71334aaccf75919a0469155f09f71c6cbc2c379e60c807aac360",
+      "pdf": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\2\\word.pdf",
+      "pdf_sha256": "533f33752fbc93e45155f0e25e120799198eddbdc321b1206f36543751473664",
+      "pages": 2,
+      "images": [
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\2\\page-1.png",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\2\\page-2.png"
+      ],
+      "contact_sheet": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\2\\all-pages.png",
+      "input_unchanged": true
+    },
+    {
+      "docx": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_软件说明书.docx",
+      "sha256": "87bdb8905fd8a13f3ed579afe5366f665ad37dfb0c2da0b9d6055d392f53928d",
+      "pdf": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\3\\word.pdf",
+      "pdf_sha256": "2da1b6cc24bfd7f923d3b95e228a848300e71ee9b27c9126136f9462ce6489b3",
+      "pages": 3,
+      "images": [
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\3\\page-1.png",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\3\\page-2.png",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\3\\page-3.png"
+      ],
+      "contact_sheet": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\qa\\3\\all-pages.png",
+      "input_unchanged": true
+    }
+  ]
+}

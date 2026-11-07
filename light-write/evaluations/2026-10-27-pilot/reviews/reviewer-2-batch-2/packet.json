@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": "engineering-polish",
+    "source_facts": [
+      "Source Discussion: Our material conducted 210 W m−1 K−1 at 295 K parallel to the alignment axis and 24 W m−1 K−1 perpendicular to it. Those values came from three specimens per orientation. It is isotropically conductive and suitable for every high-temperature application. Measurements were only at 295 K, and uncertainty intervals were not reported. The aligned structure is a plausible explanation, but no experiment isolated its effect."
+    ],
+    "request": "Rewrite one 85–120-word Discussion paragraph. Build the interpretation around directional transport, correct the overclaims, retain every quantity and specimen definition, and identify one focused follow-up as a proposal. Avoid adding a new mechanism or measurements.",
+    "rubric": [
+      "Preserve 210/24 W m−1 K−1,295 K,three specimens per orientation.",
+      "Directional results refute isotropic wording; tested temperature limits high-temperature claims.",
+      "Proposal should target untested alignment mechanism or temperature boundary and stay visibly prospective."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2100",
+        "text": "The thermal conductivities of 210 W m−1 K−1 parallel to the alignment axis and 24 W m−1 K−1 perpendicular to it at 295 K indicate directional transport rather than isotropic conduction. These values were obtained from three specimens per orientation, but uncertainty intervals were not reported, limiting assessment of their precision. The aligned structure is a plausible explanation for the directional contrast, although no experiment isolated its effect. Because measurements were restricted to 295 K, suitability for high-temperature applications remains unestablished. A focused follow-up would compare specimens with different degrees of alignment at 295 K, holding other material features constant, to test the contribution of alignment to directional transport."
+      },
+      {
+        "blind_id": "Q2101",
+        "text": "At 295 K, thermal conductivity was 210 W m−1 K−1 parallel to the alignment axis and 24 W m−1 K−1 perpendicular to it. These measurements, obtained from three specimens per orientation, indicate directional rather than isotropic transport. The aligned structure offers a plausible explanation, although its contribution was not isolated experimentally. Uncertainty intervals were not reported, limiting assessment of the precision of these conductivity estimates. Measurements were confined to 295 K, leaving suitability for high-temperature applications untested. A focused follow-up could compare specimens with controlled differences in alignment at 295 K to test whether alignment contributes to directional transport."
+      }
+    ]
+  },
+  {
+    "case_id": "social-draft",
+    "source_facts": [
+      "Synthetic qualitative study: 18 purposively sampled nurses from two wards at one hospital were interviewed about a new shift-allocation policy.",
+      "Author-supplied analysis identifies a theme of greater scheduling autonomy; a counter-theme is that informal pressure to cover shifts limits that autonomy. Some participants described both in the same account.",
+      "No verbatim excerpts, prevalence counts, demographic breakdown or saturation assessment are supplied. The requested output is an analytic findings paragraph, not an assessment of the whole population."
+    ],
+    "request": "Draft a 110–150-word qualitative Findings paragraph that develops the tension between formal autonomy and informal obligation. Use only the supplied analysis; do not add quotations, frequency claims, saturation or p values. Return only the paragraph.",
+    "rubric": [
+      "Build an interpretive relationship between themes without inventing actor motives or observed incidents.",
+      "Preserve purposive sample and context; avoid claiming most nurses or general policy impact.",
+      "No filler about missing p values or demand to run an experiment."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2110",
+        "text": "Accounts of the new shift-allocation policy revealed a tension between greater scheduling autonomy and informal obligations to cover shifts. In interviews with 18 purposively sampled nurses from two wards at one hospital, the author-supplied analysis identified greater autonomy as a theme, alongside a counter-theme of informal pressure that limited this autonomy. These themes were not mutually exclusive: some participants described both within the same account. Their coexistence suggests that perceived gains in choice could remain constrained by expectations to provide cover. Formal autonomy therefore did not necessarily translate into an equivalent sense of freedom when making scheduling decisions. The analytic distinction was between the autonomy associated with the policy and the informal obligations described alongside it, showing how increased choice and pressure to cover shifts could coexist in nurses’ experiences."
+      },
+      {
+        "blind_id": "Q2111",
+        "text": "The analysis of interviews with 18 purposively sampled nurses from two wards at one hospital identified scheduling autonomy as qualified by informal obligation. Accounts of the new shift-allocation policy described greater autonomy over scheduling alongside pressure to cover shifts. These themes were not simply opposing evaluations offered in separate accounts: some participants described both, indicating that greater choice and constraints on exercising it could coexist. Formal autonomy therefore did not necessarily mean freedom from informal expectations. The tension concerned the relationship between having scheduling choices and feeling obliged to cover shifts, rather than a straightforward distinction between autonomy and its absence. Within these accounts, the policy’s significance lay in this coexistence: greater scheduling autonomy remained subject to informal pressure that limited its exercise."
+      }
+    ]
+  },
+  {
+    "case_id": "social-polish",
+    "source_facts": [
+      "Source paragraph: In our preregistered survey of 312 self-selected respondents recruited online, perceived job insecurity was associated with lower trust (standardized beta = −0.18, 95% CI −0.30 to −0.06). The study was cross-sectional. These data prove insecurity reduces trust for all workers. The exploratory subgroup estimate for temporary workers was beta = −0.05, 95% CI −0.24 to 0.14, so temporary workers are immune. We did not estimate a subgroup interaction."
+    ],
+    "request": "Polish into one 105–145-word Discussion paragraph that distinguishes the main association from the exploratory subgroup analysis. Preserve all estimates, sampling and design, avoid causal inference, and make clear what cannot be inferred about subgroup differences. Return only the paragraph.",
+    "rubric": [
+      "Keep main and subgroup betas and CIs with correct labels.",
+      "No causal or population-representative claim; no absence-of-effect or difference-between-significance fallacy.",
+      "Preregistration does not turn exploratory analysis into confirmatory evidence."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2120",
+        "text": "In this preregistered, cross-sectional survey of 312 self-selected respondents recruited online, perceived job insecurity was associated with lower trust (standardized beta = −0.18, 95% CI −0.30 to −0.06). This association does not establish causation or the direction of the relationship, and self-selected online recruitment limits generalisation to all workers. The exploratory estimate for temporary workers was beta = −0.05 (95% CI −0.24 to 0.14). Its confidence interval includes zero and both negative and positive associations, leaving the subgroup association uncertain rather than establishing immunity. Because no subgroup interaction was estimated, these analyses do not establish whether the association differs between temporary workers and other respondents. The main association therefore warrants interpretation separately from the exploratory subgroup estimate, which cannot support a claim of differential susceptibility."
+      },
+      {
+        "blind_id": "Q2121",
+        "text": "In our preregistered, cross-sectional survey of 312 self-selected respondents recruited online, perceived job insecurity was associated with lower trust (standardized beta = −0.18, 95% CI −0.30 to −0.06). This association does not establish that insecurity reduces trust, and the sampling approach limits generalization to all workers. The exploratory estimate for temporary workers was beta = −0.05 (95% CI −0.24 to 0.14), with uncertainty encompassing both negative and positive associations. This subgroup result does not demonstrate that temporary workers are unaffected by perceived job insecurity. Because no subgroup interaction was estimated, the analyses do not establish whether the association differs between temporary workers and other workers. The main association and exploratory subgroup estimate should therefore be interpreted within their respective inferential limits."
+      }
+    ]
+  },
+  {
+    "case_id": "math-draft",
+    "source_facts": [
+      "Synthetic mathematical paper. Provided theorem: for every finite nonempty set A and every function f:A→A satisfying condition C, there exists a fixed point. The proof relies on finiteness and condition C.",
+      "A supplied counterexample shows the statement can fail for infinite A even when C holds. For a restricted infinite class K with an additional compactness assumption D, the authors conjecture the existence result but provide no proof.",
+      "No prior literature or algorithmic complexity result is supplied."
+    ],
+    "request": "Draft a 120–160-word final Introduction paragraph for a mathematical paper. State the theorem scope and the conceptual role of its boundary, then frame the restricted conjecture. Use quantifiers precisely; do not invent a proof, novelty claim or empirical validation requirement. Return only the paragraph.",
+    "rubric": [
+      "Every finite nonempty A and every C-satisfying f admits a fixed point, not every map in general or every point fixed.",
+      "Infinite counterexample remains distinct from restricted K+D conjecture.",
+      "Persuasive mathematical framing without implying the conjecture follows from the finite theorem."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2130",
+        "text": "We prove that, for every finite nonempty set \\(A\\) and every function \\(f:A\\to A\\) satisfying condition \\(C\\), there exists an element \\(a\\in A\\) such that \\(f(a)=a\\). The proof relies on both finiteness and condition \\(C\\). A supplied counterexample shows that the corresponding assertion for all infinite sets is false, even when \\(C\\) holds. This boundary limits the theorem’s scope and identifies the question for an extension: under what additional assumptions can fixed-point existence be recovered for infinite sets? It does not rule out existence results within restricted infinite classes. We therefore conjecture that, for every nonempty infinite set \\(A\\) in the class \\(K\\) satisfying the additional compactness assumption \\(D\\), every function \\(f:A\\to A\\) satisfying \\(C\\) has a fixed point. This restricted assertion remains unproved."
+      },
+      {
+        "blind_id": "Q2131",
+        "text": "We prove that for every finite nonempty set \\(A\\) and every function \\(f:A\\to A\\) satisfying condition \\(C\\), there exists \\(a\\in A\\) such that \\(f(a)=a\\). The proof relies on both finiteness and condition \\(C\\). A supplied counterexample shows that the corresponding assertion for arbitrary infinite sets can fail even when \\(C\\) holds. This boundary limits the theorem’s scope and motivates asking which additional assumptions might support an infinite-set extension. It does not rule out existence results for more restricted infinite classes. We therefore formulate a conjecture for the restricted class \\(K\\): for every \\(A\\in K\\) and every function \\(f:A\\to A\\) satisfying \\(C\\), a fixed point exists under the additional compactness assumption \\(D\\). This proposed extension remains conjectural; no proof is supplied."
+      }
+    ]
+  },
+  {
+    "case_id": "math-polish",
+    "source_facts": [
+      "Source: For each epsilon > 0 there exists an integer N(epsilon) such that for all n ≥ N(epsilon), |a_n − L| < epsilon. The proof does not give a rate or an N independent of epsilon. We conjecture a uniform rate over parameter theta, but prove convergence only for each fixed theta. Therefore we have uniform convergence with a computable convergence bound."
+    ],
+    "request": "Rewrite as a clear 80–115-word mathematical conclusion, preserving the quantifier order and differentiating the proved pointwise result from the unproved uniform-rate conjecture. Correct the final assertion; do not introduce assumptions. Return only the paragraph.",
+    "rubric": [
+      "Retain epsilon→N(epsilon)→all n≥N and fixed-theta restriction.",
+      "No computable bound, theta-independent threshold, or established uniform convergence.",
+      "Do not treat absent empirical experiments as a flaw."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2140",
+        "text": "The proved result is pointwise convergence in θ: for each fixed θ and every ε > 0, there exists an integer N(ε) such that, for all n ≥ N(ε), |a_n − L| < ε. Here N(ε) is chosen for the fixed parameter and is not asserted to work uniformly over θ. The proof supplies neither a convergence rate nor an N independent of ε. A uniform rate over θ remains conjectural. Thus, the conclusion establishes convergence for each fixed θ, but does not establish uniform convergence or a computable convergence bound."
+      },
+      {
+        "blind_id": "Q2141",
+        "text": "For each fixed parameter \\(\\theta\\), the proof establishes convergence: for every \\(\\varepsilon>0\\), there exists an integer \\(N(\\varepsilon,\\theta)\\) such that \\(|a_n(\\theta)-L(\\theta)|<\\varepsilon\\) for all \\(n\\geq N(\\varepsilon,\\theta)\\). The threshold may depend on both \\(\\varepsilon\\) and \\(\\theta\\), and the proof provides no convergence rate. We conjecture that a uniform rate holds over \\(\\theta\\), but this remains unproved. In particular, the argument does not establish a threshold independent of \\(\\theta\\) or a computable convergence bound. The established conclusion is therefore pointwise convergence for each fixed \\(\\theta\\); neither uniform convergence nor a uniform convergence rate has been demonstrated."
+      }
+    ]
+  },
+  {
+    "case_id": "humanities-draft",
+    "source_facts": [
+      "Synthetic literary material described by the scholar: the narrator describes town T as silent; later, a marketplace scene includes multiple overlapping voices. Exact wording, editions and page locators are not supplied.",
+      "The scholar proposes reading this tension as selective narration: the narrator's apparent silence may mark whose speech is recognized rather than an absence of speech.",
+      "An alternative reading treats the scenes as changes in time or setting; the supplied summary does not settle this. No author correspondence or evidence of authorial intent is supplied."
+    ],
+    "request": "Draft a 120–160-word introductory argument paragraph for a literary-studies article. Develop the proposed reading through the two supplied scenes, acknowledge the meaningful alternative, and state the interpretive payoff. Avoid invented quotations, authorial intent or historical context. Return only the paragraph.",
+    "rubric": [
+      "Build source-linked reasoning, not just cautious restatement.",
+      "Separate narrator's selection, scholar's reading and unknown author intent.",
+      "Alternative must remain open rather than be declared refuted; no forced Methods/Results."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2150",
+        "text": "The tension between the narrator’s description of town T as silent and the later marketplace scene of overlapping voices invites a reading of silence as an effect of selective narration. Read together, the scenes raise a question about whose speech the narrator recognizes: the presence of voices need not ensure that they count within the narrator’s account of the town. On this reading, the marketplace complicates the earlier description by making audible speech that the designation of silence may exclude. A change in time or setting offers a meaningful alternative explanation, however, and the available account does not establish that the scenes describe comparable conditions. Selective narration therefore remains an interpretive possibility rather than a settled explanation. Its payoff is to shift attention from whether the town contains speech to how narration grants or withholds recognition of that speech."
+      },
+      {
+        "blind_id": "Q2151",
+        "text": "The tension between the narrator’s description of town T as silent and the later marketplace scene’s overlapping voices invites a reading of silence as a feature of selective narration. If speech becomes audible in the marketplace, the earlier silence may concern whose speech the narrator recognizes rather than whether anyone speaks. Read together, the scenes raise a question about the distribution of narrative attention: what kinds of utterance register as voices, and what kinds remain outside the account? A meaningful alternative is that the contrast reflects a change in time or setting, with each scene describing different circumstances. The available summary does not settle that possibility. Yet the proposed reading makes the contrast productive without requiring a definitive resolution: it shifts attention from silence as a condition of the town to silence as a category through which the narrator renders the town intelligible."
+      }
+    ]
+  },
+  {
+    "case_id": "humanities-polish",
+    "source_facts": [
+      "Source paragraph: The narrator calls the village empty in the opening episode (a paraphrase, not a supplied quotation). Later the account describes a crowded square. We suggest that empty may register the narrator's selective recognition of inhabitants. This proves the author intended to erase the villagers and shows that every novel of the era followed the same ideology. Another reading attributes the contrast to different times of day; the excerpts do not resolve that possibility. No archival source or publication date is supplied."
+    ],
+    "request": "Polish the argument into 100–140 English words. Strengthen its interpretive progression while preserving the open alternative and the distinction between narrator and author. Do not invent quotations, dates, citations or historical generalizations; return only the paragraph.",
+    "rubric": [
+      "Present emptiness as paraphrase, not a newly invented direct quotation.",
+      "An argued tentative interpretation is allowed; author intention and era-wide assertion are unsupported.",
+      "Retain time-of-day counter-reading and deliver a substantive payoff."
+    ],
+    "variants": [
+      {
+        "blind_id": "Q2160",
+        "text": "The opening description of the village as empty sits uneasily beside the later account of a crowded square. This contrast invites a reading in which emptiness registers the narrator’s selective recognition of inhabitants rather than their physical absence. On this reading, the discrepancy draws attention to whose presence the narrator acknowledges and whose presence remains unrecognised. It does not, however, establish that the author intended to erase the villagers or justify generalisations about other novels of the era. A temporal explanation remains possible, since the episodes may depict different times of day. Because the supplied excerpts do not distinguish between these explanations, selective recognition remains a plausible interpretation rather than a demonstrated intention."
+      },
+      {
+        "blind_id": "Q2161",
+        "text": "The contrast between the narrator’s initial description of the village as empty and the later account of a crowded square raises a question about what the narrator recognizes as presence. Read together, these episodes suggest that the initial description may register a selective recognition of inhabitants rather than their physical absence. On this reading, the discrepancy draws attention to the limits of the narrator’s perspective; it does not establish the author’s intention to erase the villagers. A temporal explanation remains equally unresolved: the episodes may depict different times of day. Because the supplied excerpts do not distinguish between these possibilities, selective recognition remains a provisional interpretation, offering no basis for generalizing about the ideology of other novels of the era."
+      }
+    ]
+  }
+]

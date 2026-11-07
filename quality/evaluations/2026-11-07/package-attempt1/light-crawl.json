@@ -1,0 +1,25 @@
+{
+  "run": 119,
+  "passed": 119,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 22.328,
+  "ok": true,
+  "name": "light-crawl",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Light-Skills\\light-crawl\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-crawl\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-crawl.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-crawl"
+}

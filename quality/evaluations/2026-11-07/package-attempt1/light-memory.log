@@ -1,0 +1,40 @@
+test_batch_validation_is_atomic (test_memory.MemoryTests.test_batch_validation_is_atomic) ... ok
+test_budget_never_returns_partial_memory (test_memory.MemoryTests.test_budget_never_returns_partial_memory) ... ok
+test_capture_keeps_ids_source_fingerprints_and_scope (test_memory.MemoryTests.test_capture_keeps_ids_source_fingerprints_and_scope) ... ok
+test_changed_resolution_evidence_is_reported_without_reopening (test_memory.MemoryTests.test_changed_resolution_evidence_is_reported_without_reopening) ... ok
+test_chinese_recall_and_unmatched_query (test_memory.MemoryTests.test_chinese_recall_and_unmatched_query) ... ok
+test_cli_commit_survives_projection_failure_and_retry (test_memory.MemoryTests.test_cli_commit_survives_projection_failure_and_retry) ... ok
+test_cli_read_commands_do_not_write_project (test_memory.MemoryTests.test_cli_read_commands_do_not_write_project) ... ok
+test_conflict_is_explicitly_resolved_by_replacement (test_memory.MemoryTests.test_conflict_is_explicitly_resolved_by_replacement) ... ok
+test_conflicting_same_scope_is_not_silently_resolved (test_memory.MemoryTests.test_conflicting_same_scope_is_not_silently_resolved) ... ok
+test_different_scopes_preserve_legitimate_differences (test_memory.MemoryTests.test_different_scopes_preserve_legitimate_differences) ... ok
+test_directory_manager_leaves_native_memory_overview_owned_by_memory (test_memory.MemoryTests.test_directory_manager_leaves_native_memory_overview_owned_by_memory) ... ok
+test_dry_capture_never_writes_event_or_views (test_memory.MemoryTests.test_dry_capture_never_writes_event_or_views) ... ok
+test_history_tampering_and_missing_event_stop_new_capture (test_memory.MemoryTests.test_history_tampering_and_missing_event_stop_new_capture) ... ok
+test_initialization_starts_empty_and_never_overwrites (test_memory.MemoryTests.test_initialization_starts_empty_and_never_overwrites) ... ok
+test_invalid_cross_scope_and_self_dependency_are_refused (test_memory.MemoryTests.test_invalid_cross_scope_and_self_dependency_are_refused) ... ok
+test_locked_writer_never_removes_other_lock (test_memory.MemoryTests.test_locked_writer_never_removes_other_lock) ... ok
+test_memory_id_is_a_searchable_identity (test_memory.MemoryTests.test_memory_id_is_a_searchable_identity) ... ok
+test_missing_source_is_not_a_current_fact (test_memory.MemoryTests.test_missing_source_is_not_a_current_fact) ... ok
+test_native_design_analysis_review_outputs_remain_authoritative (test_memory.MemoryTests.test_native_design_analysis_review_outputs_remain_authoritative) ... ok
+test_project_binding_rejects_wrong_registry (test_memory.MemoryTests.test_project_binding_rejects_wrong_registry) ... ok
+test_projection_is_rebuildable_and_unmanaged_notes_survive (test_memory.MemoryTests.test_projection_is_rebuildable_and_unmanaged_notes_survive) ... ok
+test_query_explains_unmatched_conflicting_dependency (test_memory.MemoryTests.test_query_explains_unmatched_conflicting_dependency) ... ok
+test_query_locates_replacement_without_silently_rebinding (test_memory.MemoryTests.test_query_locates_replacement_without_silently_rebinding) ... ok
+test_question_resolution_needs_evidence_and_preserves_old_text (test_memory.MemoryTests.test_question_resolution_needs_evidence_and_preserves_old_text) ... ok
+test_recorded_time_reconstruction_is_not_overwritten_by_later_decision (test_memory.MemoryTests.test_recorded_time_reconstruction_is_not_overwritten_by_later_decision) ... ok
+test_relative_sources_work_after_project_copy (test_memory.MemoryTests.test_relative_sources_work_after_project_copy) ... ok
+test_retraction_is_not_scientific_confirmation (test_memory.MemoryTests.test_retraction_is_not_scientific_confirmation) ... ok
+test_same_capture_is_idempotent_even_if_source_later_changes (test_memory.MemoryTests.test_same_capture_is_idempotent_even_if_source_later_changes) ... ok
+test_source_drift_propagates_to_dependent_decision (test_memory.MemoryTests.test_source_drift_propagates_to_dependent_decision) ... ok
+test_standalone_skill_copy_has_no_sibling_or_research_dependency (test_memory.MemoryTests.test_standalone_skill_copy_has_no_sibling_or_research_dependency) ... ok
+test_strict_json_and_cross_project_isolation (test_memory.MemoryTests.test_strict_json_and_cross_project_isolation) ... ok
+test_supersession_retains_history_and_invalidates_downstream (test_memory.MemoryTests.test_supersession_retains_history_and_invalidates_downstream) ... ok
+test_time_sensitive_web_policy_requires_review_after_expiry (test_memory.MemoryTests.test_time_sensitive_web_policy_requires_review_after_expiry) ... ok
+test_unmanaged_existing_view_is_not_overwritten (test_memory.MemoryTests.test_unmanaged_existing_view_is_not_overwritten) ... ok
+test_unsafe_sources_self_citation_and_wrong_excerpt_are_refused (test_memory.MemoryTests.test_unsafe_sources_self_citation_and_wrong_excerpt_are_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 3.296s
+
+OK

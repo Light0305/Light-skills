@@ -1,0 +1,9 @@
+{
+  "provider": "auto",
+  "api_style": "openai_images",
+  "url": "https://your-image-service.example/v1/images/generations",
+  "api_key_env": "LIGHT_DIAGRAM_IMAGE_API_KEY",
+  "model": "YOUR_IMAGE_MODEL",
+  "timeout_seconds": 180,
+  "params": {}
+}

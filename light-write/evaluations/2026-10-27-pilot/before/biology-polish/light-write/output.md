@@ -1,0 +1,3 @@
+At 24 h, marker Z in cell line C was 1.6-fold that in the vehicle control (culture-level estimate; 95% CI, 1.1–2.2). The experiment used three separate cultures (biological n = 3), with two assay wells per culture. The six well readings were nested within cultures and therefore did not represent six independent biological experiments. These findings support an increase in marker Z following drug T treatment under the tested conditions. Direct binding to regulator Q was not tested, and the results do not establish an effect in other cell types.
+
+Note: Corrected biological replication to three cultures and removed unsupported claims of direct binding and effects in every cell type.

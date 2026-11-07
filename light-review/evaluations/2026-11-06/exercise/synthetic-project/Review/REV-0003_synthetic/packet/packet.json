@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "sha256:f748b9109fc7f10089838926672312b12fec18a6c5c6339719a7c0aa1c1028e5",
+  "created_at": "2026-11-06T14:58:49.860656+00:00",
+  "materials": [
+    {
+      "id": "M001",
+      "role": "manuscript",
+      "path": "materials/M001-manuscript.md",
+      "source": "D:\\Light-Skills\\light-review\\evaluations\\2026-11-06\\exercise\\synthetic-project\\Write\\Paper-01_synthetic\\drafts\\v03\\manuscript.md",
+      "sha256": "37be95df8fb5399ae8d4a4c591a2089541fe9c69281199b6c7f40ebd03137fac",
+      "bytes": 390
+    },
+    {
+      "id": "M002",
+      "role": "data",
+      "path": "materials/M002-sites.csv",
+      "source": "D:\\Light-Skills\\light-review\\evaluations\\2026-11-06\\exercise\\synthetic-project\\Experiment\\Data\\sites.csv",
+      "sha256": "1db73265f5956f3697af26b7fd5f229a2a8ed552ac1b84859a831bca48d59893",
+      "bytes": 45
+    },
+    {
+      "id": "M003",
+      "role": "context",
+      "path": "materials/M003-results.json",
+      "source": "D:\\Light-Skills\\light-review\\evaluations\\2026-11-06\\exercise\\synthetic-project\\Analysis\\AN-0001_descriptive\\results.json",
+      "sha256": "d17cb05f3f4dbd490c305ee568d0e07d7eed0f8cb383bc4ec7fb808d83e255cc",
+      "bytes": 159
+    },
+    {
+      "id": "M004",
+      "role": "code",
+      "path": "materials/M004-calculate.py",
+      "source": "D:\\Light-Skills\\light-review\\evaluations\\2026-11-06\\exercise\\synthetic-project\\Analysis\\AN-0001_descriptive\\calculate.py",
+      "sha256": "955264583b035670e34e9b98237e767ffab1d8a1e1f8c4739ce27e8ac73baf0d",
+      "bytes": 401
+    }
+  ]
+}

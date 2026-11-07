@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "name": "light-chart-manuscript",
+  "fonts": {
+    "latin": "Arial",
+    "cjk": "SimSun",
+    "serif": false
+  },
+  "typography": {
+    "base_pt": 7.5,
+    "minimum_pt": 6.5,
+    "heading_pt": 8.5
+  },
+  "roles": {
+    "ink": "#252B32",
+    "muted": "#66717D",
+    "baseline": "#8B99A6",
+    "primary": "#3E6FB0",
+    "secondary": "#298B7C",
+    "accent": "#CF7445",
+    "pale": "#EDF5F2",
+    "missing": "#D9DEE3",
+    "down": "#4676AD",
+    "up": "#C56D56"
+  },
+  "palettes": {
+    "categorical": [
+      "#3E6FB0",
+      "#CF7445",
+      "#298B7C",
+      "#986A9E",
+      "#B68A3E",
+      "#596C82"
+    ],
+    "sequential": [
+      "#F3F8F7",
+      "#C0DDD5",
+      "#2B776D"
+    ],
+    "diverging": [
+      "#4676AD",
+      "#FAF8F3",
+      "#C56D56"
+    ]
+  },
+  "groups": {},
+  "metrics": {}
+}

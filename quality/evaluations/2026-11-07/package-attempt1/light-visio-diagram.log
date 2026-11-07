@@ -1,0 +1,23 @@
+test_bad_anchor (test_scenes.SceneTests.test_bad_anchor) ... ok
+test_bad_color (test_scenes.SceneTests.test_bad_color) ... ok
+test_boolean_canvas (test_scenes.SceneTests.test_boolean_canvas) ... ok
+test_boolean_point (test_scenes.SceneTests.test_boolean_point) ... ok
+test_boolean_scale (test_scenes.SceneTests.test_boolean_scale) ... ok
+test_duplicate_id (test_scenes.SceneTests.test_duplicate_id) ... ok
+test_empty_path (test_scenes.SceneTests.test_empty_path) ... ok
+test_historical_scenes (test_scenes.SceneTests.test_historical_scenes) ... ok
+test_infinite_scale (test_scenes.SceneTests.test_infinite_scale) ... ok
+test_missing_bbox (test_scenes.SceneTests.test_missing_bbox) ... ok
+test_missing_endpoint (test_scenes.SceneTests.test_missing_endpoint) ... ok
+test_negative_font (test_scenes.SceneTests.test_negative_font) ... ok
+test_path_only_empty (test_scenes.SceneTests.test_path_only_empty) ... ok
+test_root_array (test_scenes.SceneTests.test_root_array) ... ok
+test_short_polygon (test_scenes.SceneTests.test_short_polygon) ... ok
+test_unknown_curve (test_scenes.SceneTests.test_unknown_curve) ... ok
+test_valid (test_scenes.SceneTests.test_valid) ... ok
+test_wrong_text_type (test_scenes.SceneTests.test_wrong_text_type) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.036s
+
+OK

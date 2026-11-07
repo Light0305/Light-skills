@@ -1,39 +1,15 @@
-# Light-Skills 代理协作说明
+# Light-Science 协作约定
 
-本仓库是公开科研全流程技能包，面向 Claude Code / Codex / OpenCode。请把 `skills/` 视为唯一 canonical 技能源；不要把维护者私人记忆、对话史、邮箱、未公开研究、db01-db09、MCP 配置或本地知识库内容写进仓库。
+本仓库是公开科研技能包。v2 的技能源码位于根目录的 `light-*`：Chart 的正式入口是 `light-chart/skills/light-chart/`，Diagram 总入口包含四个子技能；`project-layout/` 提供项目目录约定。技能表以 README 为准。
 
-## 客户端发现路径
+- 保留用户对 README、技能和研究材料的修改；先读取有关文件再编辑。
+- 不提交密钥、Cookie、本机配置、私人记忆、未公开研究、完整论文库、依赖环境与缓存。
+- 原创部分采用根目录 MIT；第三方文件按各自许可证和来源说明处理。未确认再分发许可的资料不进入公开发行包。
+- Chart 的公开审图工具、指南与合成示例由本项目自行实现；不捆绑缺少再分发许可的 FigMirror 源文件、原始指南和示例图片，保留概念来源说明。
+- 研究项目与技能源码分开；项目中的 Memory 保存有来源的上下文，专业原件保存事实，Leader 按实际问题协调。
+- 科研数据图必须来自真实数据或明确声明的合成示例；生图用于品牌插画、方法示意和视觉参考，不能冒充观测证据。
+- Python 命令使用 UTF-8。执行与变更相关的检查，明确区分文件检查、真实桌面行为、视觉审阅和科学论证。
+- 提交只署作者本人，提交标题和正文使用中文，不添加 Co-Authored-By。
+- 用户明确要求后才推送、发布或对外提交；不强推或覆盖未核对的远端修改。
 
-三类客户端默认发现路径不同。项目级使用前先运行：
-
-```powershell
-$env:PYTHONUTF8="1"
-python scripts\bootstrap_agent_skills.py --mode auto --force
-```
-
-该脚本把 `skills/` 安全映射到：
-
-- `.agents/skills`：Codex / OpenCode open-standard 项目技能路径。
-- `.claude/skills`：Claude Code 项目技能路径，也可被 OpenCode 读取。
-- `.opencode/skills`：OpenCode 原生项目技能路径。
-
-Windows 不能创建目录 symlink 时，脚本会回退为 copy，并写入 `.light_generated_link` 标记；修改 canonical `skills/` 后需重新运行 `--force` 刷新生成副本。脚本不会覆盖没有 Light 生成标记的用户目录。
-
-## 开发纪律
-
-- commit 只署作者本人；标题和正文写中文；不要添加 Co-Authored-By。
-- 不要 push，除非用户明确要求。
-- Python 命令前设置 `PYTHONUTF8=1`；临时产物放 `.upgrade/_e2e`。
-- 用户面向脚本必须亲手跑 `--selftest` 到 exit 0，不能相信“已完成”报告。
-- 动态事实、论文、DOI、star、链接、能力声明查不到就写 `unknown/待核查`。
-- 论文数据图必须程序化生成；禁止 AI 生图冒充数据图。
-- R/ggplot2 是增强路径，不是静默前提：缺 R 或缺包时，先给用户“继续 matplotlib 诚实降级 / 安装或配置 R / 提供 Rscript 路径”的选择；非交互自动流程默认降级并标 `degraded=True`，不得擅自安装。
-
-## 快速自测
-
-```powershell
-$env:PYTHONUTF8="1"
-python scripts\bootstrap_agent_skills.py --selftest
-python scripts\bootstrap_agent_skills.py --check-only
-python skills\light-figure\scripts\r_ggplot.py --selftest
-```
+完整源码安装需要保留各技能的脚本、模板、资料和许可证。v1 的 `skills/` 布局属于旧版本；不要让旧安装脚本覆盖 v2。

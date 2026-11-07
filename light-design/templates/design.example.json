@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "design_id": "D01",
+  "version": 1,
+  "selection": {"idea_id": "I01", "idea_version": 1},
+  "status": "draft",
+  "objective": "",
+  "constraints": {},
+  "claims": [],
+  "sources": [],
+  "evidence": [],
+  "resources": [],
+  "gates": [],
+  "experiments": [],
+  "tasks": [],
+  "execution_scope": [],
+  "budget": {"summary": "", "basis": "", "limit": ""},
+  "review": {"strongest_objection": "", "response": "", "residual_risk": ""},
+  "history": []
+}

@@ -1,0 +1,109 @@
+{
+  "skills": [
+    {
+      "skill": "light-anaysis",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-crawl",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-design",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-diagram",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-experiment",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-idea",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-journal-select",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-leader",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-literature",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-memory",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-patent",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-review",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-software-copyright",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-write",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-chart",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-diagram-prompt",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-illustrator-diagram",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-powerpoint-diagram",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "light-visio-diagram",
+      "exit_code": 0,
+      "output": "Skill is valid!"
+    }
+  ],
+  "syntax_errors": [],
+  "broken_entry_links": [],
+  "json_errors": [],
+  "layout_sync": {
+    "exit_code": 0,
+    "output": "{\n  \"ok\": true,\n  \"changed\": []\n}"
+  },
+  "python_files": 235,
+  "skill_count": 19,
+  "ok": true
+}

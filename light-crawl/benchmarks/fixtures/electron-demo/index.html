@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Electron demo</title>
+  </head>
+  <body>
+    <main>
+      <h1>Orders</h1>
+      <ul id="orders"></ul>
+    </main>
+    <script>
+      window.demoApi.loadOrders().then((orders) => {
+        document.querySelector("#orders").textContent = JSON.stringify(orders);
+      });
+    </script>
+  </body>
+</html>

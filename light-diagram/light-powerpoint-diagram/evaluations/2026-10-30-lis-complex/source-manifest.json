@@ -1,0 +1,61 @@
+{
+  "task": "New complex reference generation and visible PowerPoint reconstruction",
+  "prompt_skill": "light-diagram-prompt",
+  "image_generation_tool": "built-in imagegen",
+  "new_image_generation_calls": 1,
+  "imagegen_model_version": null,
+  "seed": null,
+  "source": "source.png",
+  "source_sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+  "prompt": "prompt-v1.txt",
+  "prompt_sha256": "370e9eedfe07a540233684aab90db3236307c24020dc412039de3a34373fc71e",
+  "original_generation_path": "C:/Users/Light/.codex/generated_images/01a17ab0-c532-71b1-96b2-f010a9311c9e/exec-a79c4d67-7dc4-4a5d-91c2-dc5f372d9046.png",
+  "prior_images_used": false,
+  "scientific_sources": [
+    {
+      "doi": "10.1039/D4TA03930K",
+      "scope": "Published primary-paper abstract: polysulfide retention, selective Li+ transport, electrocatalytic activity; full HTML returned HTTP 403."
+    },
+    {
+      "doi": "10.1038/s41467-024-52550-9",
+      "scope": "Primary-paper abstract/introduction supplied in search results: soluble polysulfides, solid sulfide conversion, catalysis; full HTML redirected to inaccessible identity endpoint."
+    }
+  ],
+  "evidence_boundary": "A conceptual synthesis of mechanisms, not a reproduction of a specific experimental material or quantitative result. Molecular beads, pores and surface morphologies are schematic.",
+  "generated_image_review": {
+    "method": "Same-assistant visual inspection of actual imagegen result",
+    "checked": [
+      "Four regions and cell layer order",
+      "Discharge external electrons left Li anode to right cathode",
+      "Internal Li+ transport left to right",
+      "Unwanted polysulfide arrows right to left",
+      "Sulfur reduction sequence and upward Charge route",
+      "Overall S8 + 16Li = 8Li2S stoichiometry"
+    ],
+    "limitations": [
+      "Not exhaustive chemistry peer review",
+      "No atomic geometry, particle counts, scale, performance or precise pore-size claims",
+      "The controlled-interface inset is a qualitative design comparison"
+    ],
+    "scientific_review_passed": false,
+    "issues": [
+      "Footer sequential Shuttle -> Li loss -> Passivation implies an unsupported causal sequence.",
+      "Anode comparison callout appears to originate near separator instead of the visible Li anode."
+    ]
+  },
+  "native_scientific_corrections": [
+    "Use separate Shuttle -> Li loss and Shuttle -> Passivation branches.",
+    "Reroute anode callout from visible Li anode."
+  ],
+  "revised_prompt": {
+    "path": "prompt-v2-revised-NOT-EXECUTED.txt",
+    "executed": false
+  },
+  "final_deliverable": {
+    "path": "output/lis-final-r2.pptx",
+    "sha256": "64908037ae5ca694712b8d2d369d980b3c7d1d45d83cdc6f5d0cb01ceb87a15e",
+    "mode": "science-corrected",
+    "report": "REPORT.md",
+    "native_audit": "output/lis.audit.json"
+  }
+}

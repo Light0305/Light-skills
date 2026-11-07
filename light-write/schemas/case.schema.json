@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "light-write module-specific evaluation case (JSONL row)",
+  "type": "object", "additionalProperties": false,
+  "required": ["id", "split", "synthetic", "rights", "domain", "article_type", "task", "language", "source_facts", "request", "must_preserve", "must_not", "expected_modules", "scoring_notes"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "split": {"enum": ["development", "validation", "test"]},
+    "synthetic": {"type": "boolean"},
+    "rights": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "minLength": 1},
+    "article_type": {"type": "string", "minLength": 1},
+    "task": {"enum": ["draft", "polish", "check"]},
+    "language": {"type": "string", "minLength": 1},
+    "source_facts": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "request": {"type": "string", "minLength": 1},
+    "must_preserve": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "must_not": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "expected_modules": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "scoring_notes": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  }
+}

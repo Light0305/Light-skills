@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "as_of": "2026-11-06",
+  "errors": [],
+  "audit_level": "bound_1.1",
+  "input_integrity": "matched",
+  "warnings": [],
+  "handoff": {
+    "status": "proposed",
+    "target_id": "J1",
+    "basis": "Model proposal only.",
+    "target_authorized": false,
+    "evidence_ready": true
+  },
+  "candidates": [
+    {
+      "id": "J1",
+      "eligibility": "eligible",
+      "recommendation_ready": true,
+      "failed_hard_constraints": [],
+      "unknown_hard_constraints": [],
+      "missing_for_recommendation": [],
+      "uses_precedent_exception": false
+    }
+  ],
+  "limitations": "Checks declared structure/applicability and only listed local file hashes. Does not verify facts, URLs, actual source provenance, unlisted dependencies, scientific similarity, decision authority, or ranking."
+}

@@ -1,0 +1,91 @@
+{
+  "recorded_at": "2026-11-07T00:21:12.725815+00:00",
+  "source_package": "D:\\Light-Skills",
+  "ok": true,
+  "run": 102,
+  "passed": 101,
+  "skipped": 1,
+  "suites": [
+    {
+      "run": 52,
+      "passed": 52,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "expected_failures": [],
+      "unexpected_successes": [],
+      "seconds": 7.281,
+      "ok": true,
+      "name": "light-leader",
+      "exit_code": 0,
+      "argv": [
+        "D:\\Anaconda\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\Light-Skills\\quality\\run_suite.py",
+        "--start",
+        "D:\\Light-Skills\\light-leader\\tests",
+        "--result",
+        "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\final-changed-suites\\light-leader.json"
+      ],
+      "cwd": "D:\\Light-Skills\\light-leader"
+    },
+    {
+      "run": 35,
+      "passed": 35,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "expected_failures": [],
+      "unexpected_successes": [],
+      "seconds": 2.719,
+      "ok": true,
+      "name": "light-memory",
+      "exit_code": 0,
+      "argv": [
+        "D:\\Anaconda\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\Light-Skills\\quality\\run_suite.py",
+        "--start",
+        "D:\\Light-Skills\\light-memory\\tests",
+        "--result",
+        "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\final-changed-suites\\light-memory.json"
+      ],
+      "cwd": "D:\\Light-Skills\\light-memory"
+    },
+    {
+      "run": 15,
+      "passed": 14,
+      "failures": [],
+      "errors": [],
+      "skipped": [
+        {
+          "test": "test_project.ProjectTests.test_linked_navigation_is_rejected",
+          "reason": "Symlink creation unavailable"
+        }
+      ],
+      "expected_failures": [],
+      "unexpected_successes": [],
+      "seconds": 1.797,
+      "ok": true,
+      "name": "project-layout",
+      "exit_code": 0,
+      "argv": [
+        "D:\\Anaconda\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\Light-Skills\\quality\\run_suite.py",
+        "--start",
+        "D:\\Light-Skills\\project-layout\\tests",
+        "--result",
+        "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\final-changed-suites\\project-layout.json"
+      ],
+      "cwd": "D:\\Light-Skills\\project-layout"
+    }
+  ],
+  "boundary": "Actual deterministic source-package tests, including synthetic local execution. Not independent model or real-project scientific validation."
+}

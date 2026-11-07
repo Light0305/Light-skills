@@ -1,0 +1,12 @@
+% light-write generic double-column layout; not an official journal template.
+% Build with scripts/latex_project.py after copying the common scaffold.
+\documentclass[10pt,a4paper,twocolumn]{article}
+\input{language}
+\usepackage{lightwrite}
+\input{metadata}
+
+\begin{document}
+\LWMakeTitle
+\input{sections/body}
+\printbibliography[title={\LWReferencesName}]
+\end{document}

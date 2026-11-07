@@ -1,0 +1,11 @@
+# Copy to litsearch.toml and edit. Environment variables override this file.
+[litsearch]
+# Optional; a project contact is used by default.
+mailto = ""
+# ncbi_api_key = ""
+# openalex_api_key = ""
+# s2_api_key = ""
+# unpaywall_email = ""
+cache_dir = ".cache/litsearch"
+timeout = 30
+allow_keyless_optional = false

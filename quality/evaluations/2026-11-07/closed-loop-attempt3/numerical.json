@@ -1,0 +1,89 @@
+{
+  "synthetic": true,
+  "execution_directory": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\research\\execution",
+  "upstream_validation": {
+    "status": "passed",
+    "validator": "D:\\Light-Skills\\light-design\\scripts\\design_bridge.py",
+    "result": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "Standalone brief: no light-idea verification is implied"
+      ],
+      "counts": {
+        "claims": 1,
+        "sources": 0,
+        "evidence": 0,
+        "resources": 1,
+        "gates": 1,
+        "experiments": 1,
+        "tasks": 1
+      }
+    }
+  },
+  "problem": "dy/dt=-y, y(0)=1; exact y(1)=exp(-1)",
+  "steps": [
+    20,
+    40,
+    80
+  ],
+  "errors": {
+    "euler": [
+      0.009393518762900122,
+      0.004647001283561714,
+      0.0023112971243251512
+    ],
+    "rk4": [
+      1.9976097331841913e-08,
+      1.2227420187471694e-09,
+      7.562883652667551e-11
+    ]
+  },
+  "orders": {
+    "euler": [
+      1.0153656417866397,
+      1.0075973087455237
+    ],
+    "rk4": [
+      4.030082802947158,
+      4.015039812839075
+    ]
+  },
+  "raw_sha256": [
+    "b5b2c6da28a2c628a922113957b39794566db60a0a25afb26d24c9f29ed7f6d8",
+    "b5b2c6da28a2c628a922113957b39794566db60a0a25afb26d24c9f29ed7f6d8"
+  ],
+  "reexecutions_byte_identical": true,
+  "runs": [
+    {
+      "run_id": "R001",
+      "process_status": "succeeded",
+      "returncode": 0,
+      "wall_seconds": 0.061999999976251274,
+      "artifacts_ok": true
+    },
+    {
+      "run_id": "R002",
+      "process_status": "succeeded",
+      "returncode": 0,
+      "wall_seconds": 0.062000000034458935,
+      "artifacts_ok": true
+    }
+  ],
+  "integrity": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "counts": {
+      "prepared": 2,
+      "attempted": 2,
+      "assessed": 2
+    },
+    "budget": {
+      "attempts": 2,
+      "wall_seconds": 0.12400000001071021,
+      "unresolved": []
+    },
+    "boundary": "Integrity/relationships only; warnings and successful exit are not scientific acceptance"
+  }
+}

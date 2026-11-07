@@ -1,0 +1,12 @@
+[
+  {
+    "file": "retests/reviewer-2-batch-1/ratings.json",
+    "blind_id": "Q2011",
+    "operation": "normalize misspelled domain_approprpriateness key; numerical value unchanged; raw ratings retained"
+  },
+  {
+    "file": "retests/reviewer-2-batch-2/ratings.json",
+    "blind_id": "Q2111",
+    "operation": "normalize misspelled domain_approprpriateness key; numerical value unchanged; raw ratings retained"
+  }
+]

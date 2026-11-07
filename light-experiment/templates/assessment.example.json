@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "run_id": "R001",
+  "assessor": "填写实际评估者",
+  "qc_status": "pending",
+  "qc_basis": "填写单位/数量、数值有效性、实现与质量阈值的检查依据",
+  "outcome": "not_evaluated",
+  "claim_ids": [],
+  "metrics": [],
+  "deviations": [],
+  "limitations": [],
+  "next_action": "填写继续、修复、修订或停止及依据"
+}

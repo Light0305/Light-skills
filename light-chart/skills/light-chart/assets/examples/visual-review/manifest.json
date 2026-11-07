@@ -1,0 +1,108 @@
+{
+  "origin": "Independently authored Light-Science synthetic examples",
+  "seed": 207,
+  "license": "MIT",
+  "scientific_evidence": false,
+  "examples": [
+    {
+      "id": "01-paired",
+      "preview": "01-paired.png",
+      "vector": "01-paired.pdf",
+      "data": "01-paired.npz",
+      "caption": "01-paired.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "a4de75287e1841c523fceb96c45b040b32ac1f9cc65da99bed1a74bb05a0d9b7"
+    },
+    {
+      "id": "02-trajectory-band",
+      "preview": "02-trajectory-band.png",
+      "vector": "02-trajectory-band.pdf",
+      "data": "02-trajectory-band.npz",
+      "caption": "02-trajectory-band.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "32217a7ed6778070337d0c1b70ead270fa08831ca13072c7267b1b71cb21faa2"
+    },
+    {
+      "id": "03-centered-matrix",
+      "preview": "03-centered-matrix.png",
+      "vector": "03-centered-matrix.pdf",
+      "data": "03-centered-matrix.npz",
+      "caption": "03-centered-matrix.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "70f79a315dfce1d0bfd3aa55eebc2d2d5684709347b177b2e9bd82588e3b1510"
+    },
+    {
+      "id": "04-joint-distribution",
+      "preview": "04-joint-distribution.png",
+      "vector": "04-joint-distribution.pdf",
+      "data": "04-joint-distribution.npz",
+      "caption": "04-joint-distribution.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "f3d3b8102c593b9e050cbbf4082df63a67adaa7278e5eefb99fa5645e1c41df6"
+    },
+    {
+      "id": "05-damped-surface",
+      "preview": "05-damped-surface.png",
+      "vector": "05-damped-surface.pdf",
+      "data": "05-damped-surface.npz",
+      "caption": "05-damped-surface.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "45736f0626841f145082bb614d8c71a09f720ff6abe0593eaa8d70c8c2442ad5"
+    },
+    {
+      "id": "06-surface-and-contours",
+      "preview": "06-surface-and-contours.png",
+      "vector": "06-surface-and-contours.pdf",
+      "data": "06-surface-and-contours.npz",
+      "caption": "06-surface-and-contours.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "b7266280c31923781c94416d51f683e8e2708577179d845c8eda1724dfa62898"
+    },
+    {
+      "id": "07-masked-surface",
+      "preview": "07-masked-surface.png",
+      "vector": "07-masked-surface.pdf",
+      "data": "07-masked-surface.npz",
+      "caption": "07-masked-surface.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "d38dac2616e2d64bd748ef78e57b28522a9e9efe1e1dfb29f50caa7edc7e1f02"
+    },
+    {
+      "id": "08-separated-objects",
+      "preview": "08-separated-objects.png",
+      "vector": "08-separated-objects.pdf",
+      "data": "08-separated-objects.npz",
+      "caption": "08-separated-objects.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "daac380c1c6dcd31c1e88e50823e6cfd0d34fafc317358ff7abf665e8e308d17"
+    },
+    {
+      "id": "09-trajectory-and-projection",
+      "preview": "09-trajectory-and-projection.png",
+      "vector": "09-trajectory-and-projection.pdf",
+      "data": "09-trajectory-and-projection.npz",
+      "caption": "09-trajectory-and-projection.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "2eba7153f08832a87a2a5861532840d4b98e6d694750ee63599544164e809b13"
+    },
+    {
+      "id": "10-layered-curves",
+      "preview": "10-layered-curves.png",
+      "vector": "10-layered-curves.pdf",
+      "data": "10-layered-curves.npz",
+      "caption": "10-layered-curves.md",
+      "data_origin": "synthetic",
+      "license": "MIT",
+      "sha256": "46973a3c1189e7c5959f816361b0a34e142cd17c6533eb066efe3662b4e8db6d"
+    }
+  ]
+}

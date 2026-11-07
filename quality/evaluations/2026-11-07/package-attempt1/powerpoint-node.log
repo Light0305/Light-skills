@@ -1,0 +1,142 @@
+TAP version 13
+# Subtest: valid scene
+ok 1 - valid scene
+  ---
+  duration_ms: 1.2499
+  type: 'test'
+  ...
+# Subtest: root array
+ok 2 - root array
+  ---
+  duration_ms: 0.2046
+  type: 'test'
+  ...
+# Subtest: missing bbox
+ok 3 - missing bbox
+  ---
+  duration_ms: 0.1403
+  type: 'test'
+  ...
+# Subtest: empty path
+ok 4 - empty path
+  ---
+  duration_ms: 0.1487
+  type: 'test'
+  ...
+# Subtest: short polygon
+ok 5 - short polygon
+  ---
+  duration_ms: 0.2196
+  type: 'test'
+  ...
+# Subtest: boolean canvas
+ok 6 - boolean canvas
+  ---
+  duration_ms: 0.1067
+  type: 'test'
+  ...
+# Subtest: infinite canvas
+ok 7 - infinite canvas
+  ---
+  duration_ms: 0.0928
+  type: 'test'
+  ...
+# Subtest: bad scale metadata
+ok 8 - bad scale metadata
+  ---
+  duration_ms: 0.0698
+  type: 'test'
+  ...
+# Subtest: boolean point
+ok 9 - boolean point
+  ---
+  duration_ms: 0.1325
+  type: 'test'
+  ...
+# Subtest: missing endpoint
+ok 10 - missing endpoint
+  ---
+  duration_ms: 0.2127
+  type: 'test'
+  ...
+# Subtest: unknown curve
+ok 11 - unknown curve
+  ---
+  duration_ms: 0.1457
+  type: 'test'
+  ...
+# Subtest: bad font size
+ok 12 - bad font size
+  ---
+  duration_ms: 0.0851
+  type: 'test'
+  ...
+# Subtest: bad color
+ok 13 - bad color
+  ---
+  duration_ms: 0.1088
+  type: 'test'
+  ...
+# Subtest: gradient without base
+ok 14 - gradient without base
+  ---
+  duration_ms: 0.7299
+  type: 'test'
+  ...
+# Subtest: invalid text range
+ok 15 - invalid text range
+  ---
+  duration_ms: 0.145
+  type: 'test'
+  ...
+# Subtest: duplicate id
+ok 16 - duplicate id
+  ---
+  duration_ms: 0.1739
+  type: 'test'
+  ...
+# Subtest: reserved helper name
+ok 17 - reserved helper name
+  ---
+  duration_ms: 0.1427
+  type: 'test'
+  ...
+# Subtest: bad draw order
+ok 18 - bad draw order
+  ---
+  duration_ms: 0.1743
+  type: 'test'
+  ...
+# Subtest: historical scene 2026-10-30-crispr-live
+ok 19 - historical scene 2026-10-30-crispr-live
+  ---
+  duration_ms: 1.3027
+  type: 'test'
+  ...
+# Subtest: historical scene 2026-10-30-lis-complex
+ok 20 - historical scene 2026-10-30-lis-complex
+  ---
+  duration_ms: 6.6902
+  type: 'test'
+  ...
+# Subtest: historical scene 2026-10-30-monoformer
+ok 21 - historical scene 2026-10-30-monoformer
+  ---
+  duration_ms: 5.0023
+  type: 'test'
+  ...
+# Subtest: validate-only does not load missing authoring module
+ok 22 - validate-only does not load missing authoring module
+  ---
+  duration_ms: 54.8777
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 143.4478

@@ -1,0 +1,72 @@
+{
+  "Q2000": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "computing-draft"
+  },
+  "Q2001": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "computing-draft"
+  },
+  "Q2010": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "computing-polish"
+  },
+  "Q2011": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "computing-polish"
+  },
+  "Q2020": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "biology-draft"
+  },
+  "Q2021": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "biology-draft"
+  },
+  "Q2030": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "biology-polish"
+  },
+  "Q2031": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "biology-polish"
+  },
+  "Q2040": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "clinical-draft"
+  },
+  "Q2041": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "clinical-draft"
+  },
+  "Q2050": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "clinical-polish"
+  },
+  "Q2051": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "clinical-polish"
+  },
+  "Q2060": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "engineering-draft"
+  },
+  "Q2061": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "engineering-draft"
+  }
+}

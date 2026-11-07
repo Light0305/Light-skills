@@ -1,0 +1,20 @@
+{
+  "ocean": {
+    "label": "海蓝 / 陶橙 / 青绿 / 莓紫",
+    "categorical": ["#3E6FB0", "#CF7445", "#298B7C", "#986A9E", "#B68A3E", "#596C82"],
+    "sequential": ["#F3F8F7", "#C0DDD5", "#2B776D"],
+    "diverging": ["#4676AD", "#FAF8F3", "#C56D56"]
+  },
+  "mineral": {
+    "label": "钴蓝 / 铜棕 / 鼠尾草 / 玫瑰",
+    "categorical": ["#4C70B0", "#B87942", "#5E8D75", "#B26472", "#8773A2", "#4B8996"],
+    "sequential": ["#F4F7FB", "#C1D4E8", "#37628E"],
+    "diverging": ["#4C70B0", "#FCF9F2", "#B87942"]
+  },
+  "orchid": {
+    "label": "鸢紫 / 珊瑚 / 湖绿 / 琥珀",
+    "categorical": ["#6B67A9", "#CC746B", "#438E89", "#AF823B", "#447CA5", "#A86785"],
+    "sequential": ["#F7F5FA", "#D2C8E2", "#716199"],
+    "diverging": ["#6B67A9", "#FCF8F2", "#CC746B"]
+  }
+}

@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+Pillow>=10.0
+PyMuPDF>=1.24,<2
+pypdf>=4.0
+
+# Optional: openpyxl for XLSX input; SciencePlots for an explicitly requested style.
+# R route: ggplot2, patchwork, jsonlite, svglite, ragg, systemfonts.
+# Domain R route, when selected: ComplexHeatmap, circlize, survival.
+# Optional source-pattern dependencies (inspect catalog/imports before adapting): scipy, python-dateutil.

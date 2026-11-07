@@ -1,0 +1,43 @@
+test_figures_are_copied_and_embedded_in_separate_sheets (test_tools.ExportChecks.test_figures_are_copied_and_embedded_in_separate_sheets) ... ok
+test_initialization_never_overwrites_material (test_tools.ExportChecks.test_initialization_never_overwrites_material) ... ok
+test_latex_only_is_not_silently_delivered_as_editable_word_math (test_tools.ExportChecks.test_latex_only_is_not_silently_delivered_as_editable_word_math) ... ok
+test_markdown_package_has_separate_clean_files_and_support (test_tools.ExportChecks.test_markdown_package_has_separate_clean_files_and_support) ... ok
+test_output_directory_is_not_replaced (test_tools.ExportChecks.test_output_directory_is_not_replaced) ... ok
+test_unsupported_claim_prevents_creating_package (test_tools.ExportChecks.test_unsupported_claim_prevents_creating_package) ... ok
+test_word_has_native_math_and_no_support_ids_in_formal_body (test_tools.ExportChecks.test_word_has_native_math_and_no_support_ids_in_formal_body) ... ok
+test_claim_and_spec_placeholder_blocked_but_disclosure_can_be_incomplete (test_tools.SupportChecks.test_claim_and_spec_placeholder_blocked_but_disclosure_can_be_incomplete) ... ok
+test_cli_exit_status_has_distinct_input_and_structural_errors (test_tools.SupportChecks.test_cli_exit_status_has_distinct_input_and_structural_errors) ... ok
+test_dependency_graph_no_forward_reference (test_tools.SupportChecks.test_dependency_graph_no_forward_reference) ... ok
+test_empty_documents_and_bad_shape_return_findings (test_tools.SupportChecks.test_empty_documents_and_bad_shape_return_findings) ... ok
+test_entailed_requires_necessity_rationale (test_tools.SupportChecks.test_entailed_requires_necessity_rationale) ... ok
+test_explicit_open_blocker_stops_formal_export (test_tools.SupportChecks.test_explicit_open_blocker_stops_formal_export) ... ok
+test_filed_case_rejects_new_material_as_original_basis (test_tools.SupportChecks.test_filed_case_rejects_new_material_as_original_basis) ... ok
+test_heading_is_not_substantive_specification_support (test_tools.SupportChecks.test_heading_is_not_substantive_specification_support) ... ok
+test_malformed_json_field_types_are_reported_without_crashing (test_tools.SupportChecks.test_malformed_json_field_types_are_reported_without_crashing) ... ok
+test_missing_drawing_and_bad_abstract_selection (test_tools.SupportChecks.test_missing_drawing_and_bad_abstract_selection) ... ok
+test_missing_source_and_empty_locator_are_blocked (test_tools.SupportChecks.test_missing_source_and_empty_locator_are_blocked) ... ok
+test_multiple_dependency_and_single_dependency_distinction (test_tools.SupportChecks.test_multiple_dependency_and_single_dependency_distinction) ... ok
+test_omml_validation_rejects_non_math_and_entity_declarations (test_tools.SupportChecks.test_omml_validation_rejects_non_math_and_entity_declarations) ... ok
+test_source_fingerprint_mismatch_requires_review (test_tools.SupportChecks.test_source_fingerprint_mismatch_requires_review) ... ok
+test_supported_fixture_and_honest_search_warning (test_tools.SupportChecks.test_supported_fixture_and_honest_search_warning) ... ok
+test_unread_material_cannot_support_claim (test_tools.SupportChecks.test_unread_material_cannot_support_claim) ... ok
+test_unsupported_dependent_limitation_is_blocked (test_tools.SupportChecks.test_unsupported_dependent_limitation_is_blocked) ... ok
+test_utility_model_rejects_method_and_missing_drawings (test_tools.SupportChecks.test_utility_model_rejects_method_and_missing_drawings) ... ok
+test_case_change_is_detected (test_traceability.DeliveryFreshnessTest.test_case_change_is_detected) ... ok
+test_current_delivery_is_verified_without_certifying_visual_review (test_traceability.DeliveryFreshnessTest.test_current_delivery_is_verified_without_certifying_visual_review) ... ok
+test_figure_source_and_export_are_bound (test_traceability.DeliveryFreshnessTest.test_figure_source_and_export_are_bound) ... ok
+test_legacy_manifest_scope_is_explicit (test_traceability.DeliveryFreshnessTest.test_legacy_manifest_scope_is_explicit) ... ok
+test_missing_source_is_structured_mismatch (test_traceability.DeliveryFreshnessTest.test_missing_source_is_structured_mismatch) ... ok
+test_output_change_is_detected (test_traceability.DeliveryFreshnessTest.test_output_change_is_detected) ... ok
+test_source_change_is_detected_even_without_case_declared_hash (test_traceability.DeliveryFreshnessTest.test_source_change_is_detected_even_without_case_declared_hash) ... ok
+test_unsafe_manifest_paths_are_rejected (test_traceability.DeliveryFreshnessTest.test_unsafe_manifest_paths_are_rejected) ... ok
+test_verify_cli_returns_mismatch_status (test_traceability.DeliveryFreshnessTest.test_verify_cli_returns_mismatch_status) ... ok
+test_background_sources_cannot_support_formal_claims (test_traceability.SourceRoleTest.test_background_sources_cannot_support_formal_claims) ... ok
+test_filed_support_uses_actual_original_document_part (test_traceability.SourceRoleTest.test_filed_support_uses_actual_original_document_part) ... ok
+test_invalid_role_and_hash_have_findings_without_crashing (test_traceability.SourceRoleTest.test_invalid_role_and_hash_have_findings_without_crashing) ... ok
+test_legacy_original_part_is_unresolved_warning (test_traceability.SourceRoleTest.test_legacy_original_part_is_unresolved_warning) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 1.653s
+
+OK

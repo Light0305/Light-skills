@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litsearch"
+version = "0.12.0"
+description = "Bilingual, reproducible literature discovery from a research direction"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "light-literature" }]
+dependencies = ["requests>=2.31", "pypdfium2>=4.30", "Pillow>=10"]
+
+[project.scripts]
+litsearch = "litsearch.cli:main"
+
+[project.optional-dependencies]
+pdf = ["PyMuPDF>=1.24"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+litsearch = ["py.typed"]

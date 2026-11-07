@@ -1,0 +1,350 @@
+{
+  "checked_on": "2026-11-02",
+  "method": "GitHub REST repository and commit metadata; source files pinned to resolved commit. Counts are a snapshot, not a quality ranking. No repository code executed.",
+  "repositories": [
+    {
+      "requested_repository": "K-Dense-AI/scientific-agent-skills",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/README.md",
+          "sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
+          "bytes": 84156,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/exploratory-data-analysis/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/exploratory-data-analysis/SKILL.md",
+          "sha256": "955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484",
+          "bytes": 14722,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/scientific-critical-thinking/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/scientific-critical-thinking/SKILL.md",
+          "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+          "bytes": 13146,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/statistical-analysis/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/statistical-analysis/SKILL.md",
+          "sha256": "e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997",
+          "bytes": 23585,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "default_branch": "main",
+      "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "commit_date": "2026-10-26T09:36:14Z",
+      "archived": false,
+      "license": "MIT",
+      "stars_at_check": 55689,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "Vepricov/claude-brainlab",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/Vepricov/claude-brainlab/blob/985dbcbbd66ce1f7c229a9cf6764d4358f9d7afe/README.md",
+          "sha256": "737fc6eefa49303762e42abd18f26414958e50358478c7e2a5a5770a5ceab7ad",
+          "bytes": 31071,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/results-analysis/SKILL.md",
+          "url": "https://github.com/Vepricov/claude-brainlab/blob/985dbcbbd66ce1f7c229a9cf6764d4358f9d7afe/skills/results-analysis/SKILL.md",
+          "sha256": "3936c9d06ad9c797dbe745a7c5848b6e2f28b48cc0a379b7d192a0fb03baeabf",
+          "bytes": 6826,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/results-report/SKILL.md",
+          "url": "https://github.com/Vepricov/claude-brainlab/blob/985dbcbbd66ce1f7c229a9cf6764d4358f9d7afe/skills/results-report/SKILL.md",
+          "sha256": "083e844b5f2525c75fecf74dbe527edb4789efc3b35a6b50f7bac35857aeba5a",
+          "bytes": 5484,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "Vepricov/claude-brainlab",
+      "url": "https://github.com/Vepricov/claude-brainlab",
+      "default_branch": "main",
+      "commit": "985dbcbbd66ce1f7c229a9cf6764d4358f9d7afe",
+      "commit_date": "2026-10-30T13:16:44Z",
+      "archived": false,
+      "license": "MIT",
+      "stars_at_check": 35,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "ai4s-research/ai4s-skills",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/ai4s-research/ai4s-skills/blob/744ab2049a7b52ae726c43313468fd518b330980/README.md",
+          "sha256": "23fe9dbed4feedb6a58cbdf33d9ff5046eb6d1b9ce704c38ed651ca23087654a",
+          "bytes": 9625,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/experiment-suite/SKILL.md",
+          "url": "https://github.com/ai4s-research/ai4s-skills/blob/744ab2049a7b52ae726c43313468fd518b330980/skills/experiment-suite/SKILL.md",
+          "sha256": "02d7eedeb9d354631a9e4125016f482ad7a3b6c5ea048798545a9a7068781135",
+          "bytes": 10231,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "ai4s-research/ai4s-skills",
+      "url": "https://github.com/ai4s-research/ai4s-skills",
+      "default_branch": "main",
+      "commit": "744ab2049a7b52ae726c43313468fd518b330980",
+      "commit_date": "2026-07-27T03:30:47Z",
+      "archived": false,
+      "license": "MIT",
+      "stars_at_check": 262,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "google-research/rliable",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/google-research/rliable/blob/3ccd9f4dea577a04d3d2b557f259aac08badbd81/README.md",
+          "sha256": "c4d474f8a018c6faf8ab5d365bad135258a2af851e2a5672e07999438fcc6237",
+          "bytes": 8815,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "google-research/rliable",
+      "url": "https://github.com/google-research/rliable",
+      "default_branch": "master",
+      "commit": "3ccd9f4dea577a04d3d2b557f259aac08badbd81",
+      "commit_date": "2024-08-12T20:48:27Z",
+      "archived": true,
+      "license": "Apache-2.0",
+      "stars_at_check": 878,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "benchopt/benchopt",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "error": "HTTP Error 404: Not Found",
+          "access_level": "failed"
+        },
+        {
+          "path": "README.rst",
+          "url": "https://github.com/benchopt/benchopt/blob/a0cf9803044482e63ae80ae46889b506e991fb4e/README.rst",
+          "sha256": "f539eda7a18ccdc08673ecfdbe8fd9f1c4ebad07b090be0c1e829f649f751e7f",
+          "bytes": 12655,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "benchopt/benchopt",
+      "url": "https://github.com/benchopt/benchopt",
+      "default_branch": "main",
+      "commit": "a0cf9803044482e63ae80ae46889b506e991fb4e",
+      "commit_date": "2026-10-30T18:32:51Z",
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "stars_at_check": 330,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "arviz-devs/arviz",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/arviz-devs/arviz/blob/8594fc879f920dce1a4d92e0241cf936f0ce65a9/README.md",
+          "sha256": "a4252a9f12e27129b4216712650cc13651492532afdc8f43197e153bdd1228fd",
+          "bytes": 5418,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "arviz-devs/arviz",
+      "url": "https://github.com/arviz-devs/arviz",
+      "default_branch": "main",
+      "commit": "8594fc879f920dce1a4d92e0241cf936f0ce65a9",
+      "commit_date": "2026-10-22T07:19:36Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "stars_at_check": 1862,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "ACCLAB/DABEST-python",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/ACCLAB/DABEST-python/blob/ec6172724e0397bf0546863c76949d40da9c5457/README.md",
+          "sha256": "e5f7a1a4942078653876ba378bd5e9ba001cce38f90b44415621d780c0d3b719",
+          "bytes": 8430,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "ACCLAB/DABEST-python",
+      "url": "https://github.com/ACCLAB/DABEST-python",
+      "default_branch": "master",
+      "commit": "ec6172724e0397bf0546863c76949d40da9c5457",
+      "commit_date": "2026-08-05T16:56:36Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "stars_at_check": 413,
+      "license_verification": {
+        "path": "LICENSE",
+        "url": "https://github.com/ACCLAB/DABEST-python/blob/ec6172724e0397bf0546863c76949d40da9c5457/LICENSE",
+        "api_spdx_id": "Apache-2.0",
+        "note": "README badge and API license differ; inspect source license before reuse. No upstream code copied into this skill."
+      },
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "easystats/performance",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/easystats/performance/blob/3684a8409558ea543099098100669a224042aae3/README.md",
+          "sha256": "9c50aaae1f7f9b6437623f52a16b61caa274189f84172dc1e07fabd04e31f040",
+          "bytes": 17771,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "easystats/performance",
+      "url": "https://github.com/easystats/performance",
+      "default_branch": "main",
+      "commit": "3684a8409558ea543099098100669a224042aae3",
+      "commit_date": "2026-10-30T09:52:05Z",
+      "archived": false,
+      "license": "GPL-3.0",
+      "stars_at_check": 1162,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "statsmodels/statsmodels",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/statsmodels/statsmodels/blob/4ec0b7a144ca9db58480824ea9ecd2035ec235de/README.md",
+          "sha256": "d430fa04083d240c9f0e75aa90bc73c13cb1a874f4c7b4ce29bddbb6366c4a42",
+          "bytes": 5994,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "statsmodels/statsmodels",
+      "url": "https://github.com/statsmodels/statsmodels",
+      "default_branch": "main",
+      "commit": "4ec0b7a144ca9db58480824ea9ecd2035ec235de",
+      "commit_date": "2026-11-01T12:23:52Z",
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "stars_at_check": 11733,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "mlr-org/mlr3inferr",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/mlr-org/mlr3inferr/blob/f8401a9aeffed601db6618ce0d6a2a513a87ef29/README.md",
+          "sha256": "24284df84baca697baf38c8646666a5a70e73e402d079a11ef8ef3d7d6fc6b5c",
+          "bytes": 5810,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "mlr-org/mlr3inferr",
+      "url": "https://github.com/mlr-org/mlr3inferr",
+      "default_branch": "main",
+      "commit": "f8401a9aeffed601db6618ce0d6a2a513a87ef29",
+      "commit_date": "2026-08-21T11:23:36Z",
+      "archived": false,
+      "license": "LGPL-3.0",
+      "stars_at_check": 6,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "UvA-MAD/multiverse",
+      "checked_on": "2026-11-02",
+      "files": [],
+      "error": "HTTP Error 404: Not Found",
+      "status": "excluded_invalid_lookup"
+    },
+    {
+      "requested_repository": "pymc-labs/python-analytics-skills",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/pymc-labs/python-analytics-skills/blob/68cbe666f361016f585985884502640baf04d875/README.md",
+          "sha256": "06846d3cad78808f6476234ac1bad70536579dbab95c9f6c8ee264920efab16d",
+          "bytes": 7078,
+          "access_level": "source_file"
+        },
+        {
+          "path": "skills/pymc-modeling/SKILL.md",
+          "url": "https://github.com/pymc-labs/python-analytics-skills/blob/68cbe666f361016f585985884502640baf04d875/skills/pymc-modeling/SKILL.md",
+          "sha256": "62712e256f99a19db42bd594d09581205316365fbc3d15d9295342a04f00a6b8",
+          "bytes": 7267,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "pymc-labs/pymc-modeling",
+      "url": "https://github.com/pymc-labs/pymc-modeling",
+      "default_branch": "main",
+      "commit": "68cbe666f361016f585985884502640baf04d875",
+      "commit_date": "2026-10-04T22:07:36Z",
+      "archived": false,
+      "license": "MIT",
+      "stars_at_check": 93,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    },
+    {
+      "requested_repository": "MUCollective/multiverse",
+      "checked_on": "2026-11-02",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/MUCollective/multiverse/blob/6d5f022552973008f456fb7113cac05d37565906/README.md",
+          "sha256": "c5185d205747c15ae1b4ab4d799e7f7d1a407c743d54a4187b102d46419eeafb",
+          "bytes": 37214,
+          "access_level": "source_file"
+        }
+      ],
+      "repository": "MUCollective/multiverse",
+      "url": "https://github.com/MUCollective/multiverse",
+      "default_branch": "master",
+      "commit": "6d5f022552973008f456fb7113cac05d37565906",
+      "commit_date": "2026-09-11T19:37:59Z",
+      "archived": false,
+      "license": "GPL-3.0",
+      "stars_at_check": 67,
+      "adoption": "Selective methodological reference; not a runtime dependency or wholesale instruction import",
+      "status": "selected"
+    }
+  ],
+  "source_reading_scope": "Selected SKILL.md files and relevant README sections were inspected; repository source code and scientific correctness were not independently validated. No repository commands were executed."
+}

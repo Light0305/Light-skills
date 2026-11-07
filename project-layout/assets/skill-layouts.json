@@ -1,0 +1,160 @@
+[
+  {
+    "skill": "light-literature",
+    "kinds": [
+      "literature",
+      "search"
+    ],
+    "workspace": "Literature/；每轮检索放 Literature/Searches/SEARCH-0001_检索主题/",
+    "detail": "文章子目录沿用 article_folder_name、meta.json、paper.pdf、paper.md、paper.zh.md、note.md、source_map.json、images/pages 等实际格式。检索 run 的 papers.jsonl、screening、query_plan、synthesis、日志与 exports 保持整包。literature add/build 的 --out 指向项目 Literature，而 --run 指向对应检索目录。manifest.json.entries 索引整个库，selected_paper_ids 与准备计数描述本批；命令返回 entries 仍为本批。PDF 内容指纹保护旧版阅读；literature verify --out 只读核对索引、来源字节与文件存在，不认证阅读或科学结论。补检索新开 SEARCH 轮次；引用已经存在的文章，不为了目录规范重下载或改名。总览不能覆盖文献工具维护的 README.md/manifest.json。"
+  },
+  {
+    "skill": "light-idea",
+    "kinds": [
+      "idea"
+    ],
+    "workspace": "Idea/IDEA-0001_选题主题/",
+    "detail": "这是一轮选题的工作区，可以含多个科学候选；不是一候选一套重复的 context/evidence。原生 context.json、reading_queue.md、evidence.jsonl、external_papers.jsonl、novelty_log.jsonl、ideas.json、decision.md、cards/<idea_id>.md 保持原样。优先从本项目 Literature 及相关 Searches 轮次导入。查重同时绑定科学 version 和 idea_fingerprints，本地推荐证据绑定 source_sha256；刷新索引前的 context 保存在 context-history，不能据重新导入消除旧证据失效。分析反馈先核对有效性，再保留旧候选和来源，记录实质修订与重启条件；需要独立新一轮时新建 IDEA 并引用触发分析。"
+  },
+  {
+    "skill": "light-design",
+    "kinds": [
+      "design"
+    ],
+    "workspace": "Design/PROT-0001_方案短名/v01/",
+    "detail": "原生 context.json / design.json / plan.md / protocols 保持原样；从实际 Idea 工作区选择 idea_id/version，核对所选证据绑定的直接来源和已声明 PDF 身份。本轮本地 sources.path/sha256 支持来源变动检查，就绪范围所用的 checked 证据需有对应来源；未来待补材料不自动阻断当前 pilot。实质修订在同一归档 PROT 下新建 v02，宿主同时维护真实 design_id/version/history；目录版本不会自动更新专业字段。analysis 的 handoff 是修订 brief，不是 design_bridge.py 已支持的输入 JSON；读原设计与反馈后实际修订，不悄改冻结版本。执行批次仍由 Experiment 原生 init 冻结实际交接文件，不另造不兼容的冻结格式。"
+  },
+  {
+    "skill": "light-experiment",
+    "kinds": [
+      "experiment"
+    ],
+    "workspace": "Experiment/EXP-0001_执行批次/",
+    "detail": "一个工作区绑定一版设计、一次 campaign 和明确预算；保留 campaign.json、upstream.json、inputs/design、events、execution-report.md、runs/<run_id>。原生 runs 小写且留在批次内，不能搬到项目顶层 Exploratory/Confirmatory；按 spec.kind 与设计标识执行类型。重试用新 run_id/parent_run_id，换设计新批次。started.dependencies 保留采用的前置评估/结果指纹；更正追加 assessment 并复核直接/间接依赖，运行缺失不能恢复预算。共享代码/环境/数据可放 Experiment/Code、Environment、Data 或既有仓库/外部存储，用版本和清单引用。交给分析前核查执行完整性，所需原始文件显式传入；恢复与回传 Memory/Workflow 时核对三层状态，不从归档 complete 推定科学成功。"
+  },
+  {
+    "skill": "light-anaysis",
+    "kinds": [
+      "analysis"
+    ],
+    "workspace": "Analysis/AN-0001_分析问题/",
+    "detail": "从实际 Experiment/EXP 工作区和冻结设计接入，也允许外部已有数据。保留 context.json、receipt.json、inputs、analysis-plan.json、plan-lock.json、analysis.json、analysis-report.md、code、derived、figures 及实际需要的 handoff.json。原生接入按所列文件复核封存/QC 与原始证据关联，不冒称全运行验收。输入、分析规格或实质结论更正时新建 AN，保留 parent_analysis_id、旧报告/导出和受影响图稿清单；新交接绑定计划、报告及派生登记版本。分析按原因返回 idea/design/experiment，证据足够时通常交给选刊定位、写作或绘图；实质交接由宿主将已核对增量记入 Memory 并更新有关 Workflow，不由目录管理自动触发。light-anaysis 为既有安装名，保持历史拼写。"
+  },
+  {
+    "skill": "light-journal-select",
+    "kinds": [
+      "journal"
+    ],
+    "workspace": "Journal/JRN-0001_选刊轮次/",
+    "detail": "保留 selection-report.md、light-write-brief.md 和按需使用的 selection-packet.json、实际来源/日期。先恢复有关 Memory/Workflow，再读实际研究/分析/稿件；原生 Analysis handoff 先按其 verify 核对并保留警告。1.1证据包明确期刊、文章类型、出版路线、投稿阶段与来源适用声明，绑定实际采用文件的哈希；旧1.0兼容但不自动认证。目标的作者决定权限与证据就绪分别记录。新轮次引用前轮及触发更正，不覆盖旧建议；brief引用实际分析/图/文献和稿件版本，列受影响写作要求及待核项。贡献、证据或约束变化可返回研究/重新选刊，实质增量由宿主交回Memory及有关Workflow，不从目录complete推断可投稿。"
+  },
+  {
+    "skill": "light-write",
+    "kinds": [
+      "write"
+    ],
+    "workspace": "Write/PAPER-0001_工作标题/",
+    "detail": "该工作区对应本项目的一篇核心论文，草稿、转投和返修仍归同一篇。按需使用 outline.md、claim-evidence.md、terminology.md、sections、drafts/v01、build、supplementary、submissions、rebuttal，不强制全建。先从有关 Memory/Workflow 恢复，再读实际来源；Analysis 按原生 verify 核对并保留警告，Journal 接实际 light-write-brief.md，区分目标决定与证据就绪。可在保存的稿件版本旁使用可选 manuscript-packet.json，绑定实际稿件、分析/输入、选刊与图稿的文件指纹、主要主张锚点；scripts/audit_manuscript.py 只读核对声明项，不能认证语义、科学有效性或投稿就绪。来源变动先重读并追查受影响主张，再留存新版，不只刷新哈希。Figure 源数据图和原生图源留在 Figure，引用采用版本；仅按需复制提交副本并注明来源。与绘图/评审往返时记录受审版本、问题与修复位置、待复核项，保留旧稿，实质增量交回 Memory 及有关 Workflow。"
+  },
+  {
+    "skill": "light-review",
+    "kinds": [
+      "review"
+    ],
+    "workspace": "Review/REV-0001_稿件版本与轮次/",
+    "detail": "保留 review.md、按需 review.json、packet/packet.json 和 packet/materials。新稿复核使用新轮次；可选记录1.1绑定直接前轮packet与报告哈希，保留全部LR issue ID、改判理由和本轮verified/dismissed关闭依据，旧1.0仍可读取但未绑定的复核不证明连续性。问题按根因交给Write、Chart、Diagram、Analysis、Design/Experiment或Journal；修复留在相应工作区，不在Review内复制研究成果。持续项目从Memory恢复上下文并回读真实稿图/科学原件；版本/记录一致性不能代替真实阅读、审图、科学判断或全文就绪，实际增量接回Memory与已有Workflow。"
+  },
+  {
+    "skill": "light-chart/skills/light-chart",
+    "kinds": [
+      "figure-data"
+    ],
+    "workspace": "Figure/Data/FIG-0001_数据图短名/",
+    "detail": "FIG 在 Methods/Mechanisms/Data 间共用项目内序号。保留所选路线的实际任务 spec、输入映射、代码、helper、图注、导出与核查记录；已有 output、drafts、exports、qa 等结构无需重排。原始观测/权威分析结果留原处，绘图工作区保存可定位的输入引用或必要小副本及来源；不能用展示舍入覆盖原值。图的主源只在这里，Write/Review 引用确定版本，修改保留旧图及数据映射。 持续项目先读有关 Memory，再回分析原件及采用 FIG/稿件版本核对。新 QA 可绑定实际输入与全部导出；采用前只读复核已记录文件，旧无来源记录不补造核验。更正保留前版，图注/评审与记忆接回具体版本。"
+  },
+  {
+    "skill": "light-diagram",
+    "kinds": [
+      "figure-methods",
+      "figure-mechanisms"
+    ],
+    "workspace": "Figure/Methods/FIG-0001_方法短名/ 或 Figure/Mechanisms/FIG-0001_机制短名/",
+    "detail": "按主要科学用途选一处，FIG 在三类图中共用序号。保留共同 handoff.json 及所选后端的实际文件结构；可按需分 reference、native、output、qa，不能为整齐移动已有场景依赖。仅 prompt 或仅生图任务不创建后端文件。用户参考/实际生成候选、执行提示词、关系修正和核查证据随任务保留；写作/评审引用版本后返回这里修图，不覆盖唯一旧参考或声称科学图是实验事实。 持续项目先读有关 Memory，再核对原始科学来源和采用的稿图版本；新跨阶段 handoff 用 1.1，将实际检查绑定受检文件与场景，科学修订交回 Write/Review，并保留有来源的记忆增量。"
+  },
+  {
+    "skill": "light-diagram/light-diagram-prompt",
+    "kinds": [
+      "figure-methods",
+      "figure-mechanisms"
+    ],
+    "workspace": "沿用总入口的 Figure/Methods/FIG-.../ 或 Figure/Mechanisms/FIG-.../",
+    "detail": "直接调用时按图意选一个 FIG 工作区；总入口调用时复用同一图目录，不给 prompt 另建一张图或另一套项目。只在需要落盘时保存 brief、完整提示词、实际生成候选和来源/核查记录；prompt-only 不制造 handoff、原生文件或完成图片状态。每次调用实际生图前仍按本 skill 要求先向用户交付提示词或文件链接。 结合当前研究与稿件主张记录科学原件及阅读范围；遵守宿主已有授权的生图 fallback，保留实际失败链，不重复配置密钥或用生成图自证科学。采用版本与未决问题交回稿件及 Memory。"
+  },
+  {
+    "skill": "light-diagram/light-illustrator-diagram",
+    "kinds": [
+      "figure-methods",
+      "figure-mechanisms"
+    ],
+    "workspace": "复用该图的 Figure/Methods/FIG-.../ 或 Figure/Mechanisms/FIG-.../",
+    "detail": "复用共同 handoff 和参考，不给后端额外分配 FIG。AI 场景、原生 .ai、应用核查、导出和截图沿用后端契约；可在任务内部组织 native/output/qa，但不移动已引用的依赖。直接调用也遵守同样图任务粒度。修订保存不同版本，Write/Review 引用选定导出与图源。 读取有关 Memory 后回科学原件核对；新审计同时绑定场景与最终 AI，临时 PDF 使用独立字节副本，桥接失败保留诊断，修图后同步采用版本与图注。"
+  },
+  {
+    "skill": "light-diagram/light-powerpoint-diagram",
+    "kinds": [
+      "figure-methods",
+      "figure-mechanisms"
+    ],
+    "workspace": "复用该图的 Figure/Methods/FIG-.../ 或 Figure/Mechanisms/FIG-.../",
+    "detail": "复用共同 handoff 和参考，不给后端额外分配 FIG。保留后端 scene/source、.build、output、PPTX、预览和真实检查证据的原有相对关系；最终文件按现有约定进 output，不强制改 exports。直接调用也遵守同样图任务粒度。修订保留不同版本，并将核查绑定当前文件。 读取有关 Memory 后回科学原件核对；可先离线 validate-only，新审计绑定场景及最终 PPTX，保护同名未保存修改，修图后同步稿件/评审采用版本与图注。"
+  },
+  {
+    "skill": "light-diagram/light-visio-diagram",
+    "kinds": [
+      "figure-methods",
+      "figure-mechanisms"
+    ],
+    "workspace": "复用该图的 Figure/Methods/FIG-.../ 或 Figure/Mechanisms/FIG-.../",
+    "detail": "复用共同 handoff 和参考，不给后端额外分配 FIG。保留 scene、VSDX、预览、节点/连接检查和来源关系，使用真实应用输出；不为统一内部子目录破坏 scene 中素材路径。直接调用也遵守同样图任务粒度。新版本不覆盖旧交付，回写共同交接的当前文件与检查证据。 读取有关 Memory 后回科学原件核对；新审计同时绑定场景与最终 VSDX，明确代表节点移动的实测范围，修图后同步稿件/评审采用版本与图注。"
+  },
+  {
+    "skill": "light-patent",
+    "kinds": [
+      "patent"
+    ],
+    "workspace": "Patent/PAT-0001_技术方案/",
+    "detail": "仅按用户需求/项目情况建立；不是论文写完的自动步骤。保留原生 case.json、work、drafts、figures 和独立交付目录。先从有关 Memory/Workflow 恢复，再回论文、代码、实验或原申请文件核对实际版本；technical、context、prior-art 与 original-application 的角色不可混用。已申请修改定位原说明书/权要/附图；后续证据不自动补成原始披露。export --verify 只读检查已记录 case、显式本地来源/图源及交付字节，不认证法律、语义或版式；变更先重读再出新目录。一个案件一个 PAT；同源软件和论文共享真实来源/公开时间线，实质修订反馈 Memory/有关 Workflow。init_case 需要新或空目录，不提前放公共 README。"
+  },
+  {
+    "skill": "light-software-copyright",
+    "kinds": [
+      "copyright"
+    ],
+    "workspace": "SoftwareCopyright/SWC-0001_软件版本/",
+    "detail": "可独立或作为核心论文的同源产物，仅在实际要求时建立。--project 指真实软件源码根，--case 指本 SWC 材料工作区；不把研究输出、数据、依赖或其他案件当自有程序。保留 case/inventory/selection/source-pages、functions.json、manual.json、screenshots、layout-profile.json、草稿、deliverables 与 audit。新 case 默认三份 DOCX：功能说明、软件代码、软件说明书；--release 的版本子目录仅含三份，填报底稿/事实及核验记录留内部，不能等同全部法定申请文件。旧无 profile 的单项材料原地兼容。先从 Memory 恢复后回实际源码/截图核对；功能说明/说明书绑定所用项目文件，源行保持真实连续映射。换登记版本或同版本新修订保留原材料与公开时间线，实际增量反馈 Memory/已有 Workflow。已有 软件著作权申请资料 原地续作。"
+  },
+  {
+    "skill": "light-crawl",
+    "kinds": [
+      "acquisition"
+    ],
+    "workspace": "Acquisition/ACQ-0001_采集目标/",
+    "detail": "按研究、分析或文献任务的实际需求使用，不是固定流程门槛。在归档 ACQ 工作区下用原生 new-case case --case-root \"<ACQ工作区>\" 建立 case/，其 slug 会规范化为小写，故不直接用中文归档名当原生 slug。保留 case/ 内 scope.md、target.json、case.json、probe/route、evidence.jsonl、artifacts、har、fixtures、repro、spider、reports 和采集输出。将实际 case/ 路径传给 probe/route 等命令。原始数据按版本、范围、字段、采集条件和失败/缺失记录交给 Design/Experiment/Analysis；已有 cases 路径原地兼容。 capture 原件留在 fixtures/captures/CAP-*/，顶层 fixtures 是兼容工作副本；探测与路由修订保留带哈希的历史观察。按需保存 reports/checks 下的实际验证记录和 dataset-v01.json 等数据交接，保留旧版本；截断/错误响应仅作诊断，不把采集标签或验证通过当研究验收。实际需要时将 manifest 与选定原始/派生数据、代码逐个交给 Analysis 原生 --input，并反馈 Memory/Workflow 的真实增量与受影响版本。"
+  },
+  {
+    "skill": "light-memory",
+    "kinds": [
+      "memory"
+    ],
+    "workspace": "Memory/",
+      "detail": "保留 memory.json、events 下不可变捕获历史、原生 00-Memory总览.md/current.md 和按需 notes。项目目录工具只登记固定入口，不覆盖原生总览。MEM 是记忆条目身份，MEMORY 归档项不是研究或执行 ID。恢复时核对当前来源、冲突、依赖及替代入口；关闭/撤回依据变动保留历史状态并提示复核。写入有边界的增量，原始证据留专业阶段；Leader 通过实际 context/show/timeline 或只读 resume 读取，不由记忆自动运行研究。"
+  },
+  {
+    "skill": "light-leader",
+    "kinds": [
+      "workflow"
+    ],
+    "workspace": "Workflow/",
+      "detail": "只在真实多步协调需要时建立 workflow.json 与可重建的 00-Workflow总览.md，目录工具不覆盖原生总览。WF 归档项仅登记入口，与 workflow_id、T 任务、OBJ 目标及专业科学身份分别维护。跨阶段实际产物仍归各技能，Memory 保存有来源的理由与教训；这里保存当前交付目标、依赖、尝试、验收依据与恢复入口。resume 按实际安装的 Memory 读取器联合恢复；未知执行先核对 native run/job，不能靠换目标或替换任务掩盖。不以台账完成代替科学就绪，也不自动运行任务。"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "description": "A small, local Electron fixture used by the L4 benchmark case."
+}

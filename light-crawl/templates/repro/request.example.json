@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "https://example.com/api/items",
+  "headers": {
+    "accept": "application/json"
+  },
+  "params": {
+    "page": "1"
+  },
+  "json": null,
+  "data": null,
+  "cookies": {}
+}

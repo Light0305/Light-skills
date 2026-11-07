@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "task_id": "historical-visio-integration",
+  "record_context": "Retrospective indexing of a previously completed case. No image generation or native drawing repeated on 2026-10-31.",
+  "input_kind": "existing_image",
+  "output_mode": "editable",
+  "stage": "delivered",
+  "brief": {
+    "domain": "Computer vision / depth estimation",
+    "visual_claim": "Multilevel Transformer encoding, attention connection and feature-fusion depth decoding.",
+    "evidence_boundary": "Conceptual forward graph; no model performance, empirical data or full implementation equivalence claimed.",
+    "source_scope": "Sections 3.1–3.3 and Figure 1."
+  },
+  "artifacts": {
+    "reference": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/source.png",
+      "sha256": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2"
+    },
+    "prompt": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/prompt-v2-edit.txt",
+      "sha256": "66e397e91bfc74738b17862a7ba5a535868d2f2456febc2ef070336473e2c8bb"
+    },
+    "scene": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/scene.json",
+      "sha256": "1342227cd361c697b8b6c3f57a294b1bd330eb3b0822a4f7ee15f1ca0a1e3d2e"
+    },
+    "relation_spec": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/scene.json",
+      "sha256": "1342227cd361c697b8b6c3f57a294b1bd330eb3b0822a4f7ee15f1ca0a1e3d2e"
+    },
+    "source_record": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/source-manifest.json",
+      "sha256": "b696ae9720514156ae44912f57b13f372a65eb0b3fc53d446ce214058c69ef00"
+    },
+    "report": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/REPORT.md",
+      "sha256": "4371f840036248548a63c6f05bfffbd8d7208c589e04495480d4c677998a5494"
+    },
+    "native_audit": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/monoformer-final.audit.json",
+      "sha256": "cc90be0a7f3fb0640e9509bbcbe6ba2b5213fdc7569ddced593819170e99b0dc"
+    },
+    "verification": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/verification.json",
+      "sha256": "a560f12bc5e2d0d8e3ca2bad67d18b80f35d1cc776eec0efd8be15309cd99bd1"
+    },
+    "final_native": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/monoformer-final.vsdx",
+      "sha256": "f354647556e2cf7b3eebd3adcf82ae070c036d6589b2577bd4758efa26f54f27"
+    },
+    "preview": {
+      "path": "../../light-visio-diagram/evaluations/2026-10-30-monoformer/monoformer-final-corrected.png",
+      "sha256": "b37a04768655287ddeb48469a30992c2ca322863f3809801e73b283c88eb872c"
+    }
+  },
+  "generation": {
+    "status": "reused",
+    "calls_this_run": 0,
+    "executed_prompt": null,
+    "lineage": "Actual prior executed prompt and source generation are recorded in source_record; no new generation in this integration."
+  },
+  "reference_review": {
+    "status": "issues_recorded",
+    "issues": [
+      "Source generation retained extra bypasses, reversed source arrowheads and ambiguous/dangling skip routes; see the prior REPORT and corrected scene page."
+    ]
+  },
+  "reconstruction": {
+    "mode": "science_corrected",
+    "corrections": [
+      "Remove extra ff_wrong_raw_bypass from pre-Conv attention to final sum.",
+      "Remove backward begin arrowheads on tr_residual2 and ff_u_residual.",
+      "Reconnect four floating ACM lower output arrows to the matching second attention tiles.",
+      "Remove ambiguous common vertical bus while retaining separate per-row ACM routes."
+    ],
+    "scope": "Page 2 corrected; page 1 deliberately retains source errors and is not claimed scientifically correct."
+  },
+  "routing": {
+    "requested_tool": "visio",
+    "selected_tool": "visio",
+    "reason": "Historical tool-specific test: Dense architecture with node glue and native movement checks in VSDX.",
+    "visible_process": true
+  },
+  "checks": {
+    "file": {
+      "status": "passed",
+      "scope": "Previously executed file/native verification; current integration rechecks file identity only.",
+      "evidence": [
+        "verification",
+        "native_audit"
+      ]
+    },
+    "native": {
+      "status": "passed",
+      "scope": "Prior real desktop save/reopen, native objects and movement within the stated backend report limits; not rerun today.",
+      "evidence": [
+        "native_audit",
+        "verification"
+      ],
+      "binding_record": "verification"
+    },
+    "visual": {
+      "status": "passed",
+      "scope": "Prior actual application export was inspected; geometric textures and particle placements remain approximations, not 1:1 fidelity.",
+      "evidence": [
+        "report",
+        "preview"
+      ]
+    },
+    "science": {
+      "status": "passed",
+      "scope": "Prior same-assistant conceptual relationship review and explicit corrections, not independent peer review. Only corrected page 2; source-replica page 1 retains labelled errors.",
+      "evidence": [
+        "report",
+        "verification",
+        "relation_spec"
+      ]
+    }
+  }
+}

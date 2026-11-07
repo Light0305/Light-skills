@@ -1,0 +1,3253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 monoformer-final-replica.svg 01 Generated reference replica -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="17.74in" height="8.87in"
+		viewBox="0 0 1277.28 638.64" xml:space="preserve" color-interpolation-filters="sRGB" class="st59">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st2 {fill:#e7e8ea;stroke:#66717d;stroke-dasharray:5.04,3.6;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st3 {fill:#e0effd;stroke:#66717d;stroke-dasharray:5.04,3.6;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st4 {fill:#e0e3e7;stroke:#66717d;stroke-dasharray:5.04,3.6;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st6 {fill:#090d13;font-family:Arial;font-size:1.5em;font-weight:bold}
+		.st7 {fill:#f5f7fb;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.864}
+		.st8 {fill:#eef5fb;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st9 {fill:#9baac0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st10 {fill:#74808f;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st11 {fill:#8293a5;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st12 {fill:#090d13;font-family:Arial;font-size:1.2em;font-weight:bold}
+		.st13 {fill:url(#grad0-66);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st14 {fill:#090d13;font-family:Arial;font-size:1.25999em;font-weight:bold}
+		.st15 {fill:#7896b1;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st16 {fill:#7392ad;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st17 {fill:url(#grad0-77);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.864}
+		.st18 {fill:url(#grad0-84);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st19 {fill:#090d13;font-family:Arial;font-size:1.13999em;font-weight:bold}
+		.st20 {font-size:1em}
+		.st21 {fill:url(#grad0-90);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st22 {fill:url(#grad0-105);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st23 {fill:url(#grad0-114);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.864}
+		.st24 {fill:url(#grad0-125);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st25 {fill:url(#grad0-274);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st26 {fill:url(#grad0-295);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.864}
+		.st27 {fill:#7453ac;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st28 {fill:#8b59aa;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st29 {fill:#a25ea7;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st30 {fill:#b964a5;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st31 {fill:#ca6f9b;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st32 {fill:#d57f88;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st33 {fill:#e08e75;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st34 {fill:#eb9e62;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st35 {fill:#f2ac56;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st36 {fill:#f3b850;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st37 {fill:#f4c54b;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st38 {fill:#f5d145;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st39 {fill:#090d13;font-family:Arial;font-size:1.32001em;font-weight:bold}
+		.st40 {fill:url(#grad0-329);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st41 {fill:#dcecf9;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st42 {fill:#090d13;font-family:Arial;font-size:1.62em;font-weight:bold}
+		.st43 {fill:#dcebf7;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st44 {fill:#090d13;font-family:Arial;font-size:1.08em;font-weight:bold}
+		.st45 {fill:url(#grad0-396);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st46 {fill:#edf6fc;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st47 {fill:#090d13;font-family:Arial;font-size:1.55999em;font-weight:bold}
+		.st48 {stroke:#8293a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st49 {stroke:#263340;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.576}
+		.st50 {stroke:#101010;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.44}
+		.st51 {stroke:#425269;stroke-dasharray:6.552,4.68;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.936}
+		.st52 {marker-end:url(#mrkr13-973);stroke:#101010;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.512}
+		.st53 {fill:#101010;fill-opacity:1;stroke:#101010;stroke-opacity:1;stroke-width:0.45652173913043}
+		.st54 {stroke:#101010;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.512}
+		.st55 {stroke:#101010;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.008}
+		.st56 {marker-end:url(#mrkr13-1008);stroke:#101010;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.512}
+		.st57 {marker-end:url(#mrkr13-1008);marker-start:url(#mrkr13-1217);stroke:#101010;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.512}
+		.st58 {fill:#101010;fill-opacity:1;stroke:#101010;stroke-opacity:1;stroke-width:0.375}
+		.st59 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-66" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d5d6dd" stop-opacity="1"/>
+			<stop offset="1" stop-color="#eeeeef" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-77" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#94bce4" stop-opacity="1"/>
+			<stop offset="1" stop-color="#b6d9f6" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-84" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d7d8df" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e5e5e8" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-90" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#c8dceb" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e2ebf3" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-105" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#c9e5f4" stop-opacity="1"/>
+			<stop offset="1" stop-color="#dceef7" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-114" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#9eddff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c5efff" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-125" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d3d3df" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e4e3e9" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-274" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d7d7e1" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e7e6ec" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-295" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#b198df" stop-opacity="1"/>
+			<stop offset="1" stop-color="#b198df" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-329" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d5e8f8" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e9f3fc" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-396" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d8e9f8" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e9f3fb" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-973" class="st53" v:arrowType="13" v:arrowSize="1" v:setback="6.57143" refX="-6.5714285714286"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.1904761904762,-2.1904761904762) "/>
+		</marker>
+		<marker id="mrkr13-1008" class="st53" v:arrowType="13" v:arrowSize="1" v:setback="6.33333" refX="-6.3333333333333"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.1904761904762,-2.1904761904762) "/>
+		</marker>
+		<marker id="mrkr13-1217" class="st58" v:arrowType="13" v:arrowSize="2" v:setback="7.7619" refX="7.7619047619048"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(2.6666666666667) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>01 Generated reference replica</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape">
+			<title>Light_background</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(background)"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="1277.28" height="638.64" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(11.52,-59.76)">
+			<title>Light_transformer_panel</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_panel)"/>
+			</v:userDefs>
+			<rect x="0" y="236.88" width="217.44" height="401.76" rx="15.84" ry="15.84" class="st2"/>
+		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(513.36,-487.44)">
+			<title>Light_acm_panel</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_panel)"/>
+			</v:userDefs>
+			<rect x="0" y="496.08" width="308.16" height="142.56" rx="15.84" ry="15.84" class="st3"/>
+		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(1027.44,-19.44)">
+			<title>Light_ffd_panel</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_panel)"/>
+			</v:userDefs>
+			<rect x="0" y="39.6" width="240.48" height="599.04" rx="15.84" ry="15.84" class="st4"/>
+		</g>
+		<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(20.88,-429.84)">
+			<title>Light_title_transformer</title>
+			<desc>Transformer block</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(title_transformer)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="99" cy="624.96" width="198" height="27.36"/>
+			<rect x="0" y="611.28" width="198" height="27.36" class="st5"/>
+			<text x="19.98" y="630.36" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Transformer block</text>		</g>
+		<g id="shape6-12" v:mID="6" v:groupContext="shape" transform="translate(524.16,-603.36)">
+			<title>Light_title_acm</title>
+			<desc>Attention Connection Module</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(title_acm)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="143.28" cy="625.68" width="286.56" height="25.92"/>
+			<rect x="0" y="612.72" width="286.56" height="25.92" class="st5"/>
+			<text x="17.8" y="631.08" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Attention Connection Module</text>		</g>
+		<g id="shape7-15" v:mID="7" v:groupContext="shape" transform="translate(1036.8,-586.8)">
+			<title>Light_title_ffd</title>
+			<desc>Feature Fusion Decoder</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(title_ffd)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="111.24" cy="624.96" width="222.48" height="27.36"/>
+			<rect x="0" y="611.28" width="222.48" height="27.36" class="st5"/>
+			<text x="8.22" y="630.36" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Feature Fusion Decoder</text>		</g>
+		<g id="shape8-18" v:mID="8" v:groupContext="shape" transform="translate(27.36,-511.92)">
+			<title>Light_image_frame</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(image_frame)"/>
+			</v:userDefs>
+			<rect x="0" y="562.32" width="147.6" height="76.32" class="st7"/>
+		</g>
+		<g id="shape9-20" v:mID="9" v:groupContext="shape" transform="translate(30.96,-514.8)">
+			<title>Light_image_sky</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(image_sky)"/>
+			</v:userDefs>
+			<rect x="0" y="568.08" width="140.4" height="70.56" class="st8"/>
+		</g>
+		<g id="shape10-22" v:mID="10" v:groupContext="shape" transform="translate(32.4,-542.16)">
+			<title>Light_building_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_0)"/>
+			</v:userDefs>
+			<rect x="0" y="603.36" width="14.4" height="35.28" class="st9"/>
+		</g>
+		<g id="shape11-24" v:mID="11" v:groupContext="shape" transform="translate(46.8,-540.72)">
+			<title>Light_building_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_1)"/>
+			</v:userDefs>
+			<rect x="0" y="606.96" width="7.2" height="31.68" class="st9"/>
+		</g>
+		<g id="shape12-26" v:mID="12" v:groupContext="shape" transform="translate(60.48,-541.44)">
+			<title>Light_building_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_2)"/>
+			</v:userDefs>
+			<rect x="0" y="614.88" width="8.64" height="23.76" class="st9"/>
+		</g>
+		<g id="shape13-28" v:mID="13" v:groupContext="shape" transform="translate(70.56,-537.84)">
+			<title>Light_building_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_3)"/>
+			</v:userDefs>
+			<rect x="0" y="620.64" width="5.76" height="18" class="st9"/>
+		</g>
+		<g id="shape14-30" v:mID="14" v:groupContext="shape" transform="translate(149.76,-540.72)">
+			<title>Light_building_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_4)"/>
+			</v:userDefs>
+			<rect x="0" y="601.92" width="20.16" height="36.72" class="st9"/>
+		</g>
+		<g id="shape15-32" v:mID="15" v:groupContext="shape" transform="translate(143.28,-537.12)">
+			<title>Light_building_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_5)"/>
+			</v:userDefs>
+			<rect x="0" y="607.68" width="9.36" height="30.96" class="st9"/>
+		</g>
+		<g id="shape16-34" v:mID="16" v:groupContext="shape" transform="translate(131.76,-534.96)">
+			<title>Light_building_6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_6)"/>
+			</v:userDefs>
+			<rect x="0" y="619.92" width="6.48" height="18.72" class="st9"/>
+		</g>
+		<g id="shape17-36" v:mID="17" v:groupContext="shape" transform="translate(123.12,-532.8)">
+			<title>Light_building_7</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(building_7)"/>
+			</v:userDefs>
+			<rect x="0" y="623.52" width="6.48" height="15.12" class="st9"/>
+		</g>
+		<g id="shape18-38" v:mID="18" v:groupContext="shape" transform="translate(41.04,-515.52)">
+			<title>Light_road</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(road)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L44.64 610.56 L76.32 610.56 L123.12 638.64 L0 638.64 Z" class="st10"/>
+		</g>
+		<g id="shape19-40" v:mID="19" v:groupContext="shape" transform="translate(99.36,-534.24)">
+			<title>Light_road_mark_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(road_mark_0)"/>
+			</v:userDefs>
+			<rect x="0" y="633.6" width="1.44" height="5.04" class="st1"/>
+		</g>
+		<g id="shape20-42" v:mID="20" v:groupContext="shape" transform="translate(98.64,-522.72)">
+			<title>Light_road_mark_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(road_mark_1)"/>
+			</v:userDefs>
+			<rect x="0" y="631.44" width="2.88" height="7.2" class="st1"/>
+		</g>
+		<g id="shape21-44" v:mID="21" v:groupContext="shape" transform="translate(97.92,-514.8)">
+			<title>Light_road_mark_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(road_mark_2)"/>
+			</v:userDefs>
+			<rect x="0" y="634.32" width="3.6" height="4.32" class="st1"/>
+		</g>
+		<g id="shape22-46" v:mID="22" v:groupContext="shape" transform="translate(31.68,-536.4)">
+			<title>Light_tree_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_0)"/>
+			</v:userDefs>
+			<ellipse cx="3.6" cy="635.04" rx="3.6" ry="3.6" class="st11"/>
+		</g>
+		<g id="shape23-48" v:mID="23" v:groupContext="shape" transform="translate(46.8,-540.72)">
+			<title>Light_tree_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_1)"/>
+			</v:userDefs>
+			<ellipse cx="5.76" cy="632.88" rx="5.76" ry="5.76" class="st11"/>
+		</g>
+		<g id="shape24-50" v:mID="24" v:groupContext="shape" transform="translate(61.2,-542.16)">
+			<title>Light_tree_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_2)"/>
+			</v:userDefs>
+			<ellipse cx="3.6" cy="635.04" rx="3.6" ry="3.6" class="st11"/>
+		</g>
+		<g id="shape25-52" v:mID="25" v:groupContext="shape" transform="translate(77.04,-544.32)">
+			<title>Light_tree_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_3)"/>
+			</v:userDefs>
+			<ellipse cx="2.16" cy="636.48" rx="2.16" ry="2.16" class="st11"/>
+		</g>
+		<g id="shape26-54" v:mID="26" v:groupContext="shape" transform="translate(117.36,-545.76)">
+			<title>Light_tree_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_4)"/>
+			</v:userDefs>
+			<ellipse cx="2.88" cy="635.76" rx="2.88" ry="2.88" class="st11"/>
+		</g>
+		<g id="shape27-56" v:mID="27" v:groupContext="shape" transform="translate(128.88,-540.72)">
+			<title>Light_tree_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_5)"/>
+			</v:userDefs>
+			<ellipse cx="3.6" cy="635.04" rx="3.6" ry="3.6" class="st11"/>
+		</g>
+		<g id="shape28-58" v:mID="28" v:groupContext="shape" transform="translate(143.28,-540.72)">
+			<title>Light_tree_6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_6)"/>
+			</v:userDefs>
+			<ellipse cx="5.76" cy="632.88" rx="5.76" ry="5.76" class="st11"/>
+		</g>
+		<g id="shape29-60" v:mID="29" v:groupContext="shape" transform="translate(65.52,-588.24)">
+			<title>Light_image_label</title>
+			<desc>Image I</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(image_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.64" cy="628.2" width="71.28" height="20.88"/>
+			<rect x="0" y="617.76" width="71.28" height="20.88" class="st5"/>
+			<text x="10.83" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Image I</text>		</g>
+		<g id="shape30-63" v:mID="30" v:groupContext="shape" transform="translate(200.88,-516.24)">
+			<title>Light_cnn</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cnn)"/>
+			</v:userDefs>
+			<path d="M0 570.96 L60.48 584.64 L60.48 624.96 L0 638.64 L0 570.96 Z" class="st13"/>
+		</g>
+		<g id="shape31-67" v:mID="31" v:groupContext="shape" transform="translate(206.64,-537.84)">
+			<title>Light_cnn_label</title>
+			<desc>CNN</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cnn_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.12" cy="626.04" width="48.24" height="25.2"/>
+			<rect x="0" y="613.44" width="48.24" height="25.2" class="st5"/>
+			<text x="7.74" y="630.58" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CNN</text>		</g>
+		<g id="shape32-70" v:mID="32" v:groupContext="shape" transform="translate(281.52,-532.08)">
+			<title>Light_patch_tokens_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_front)"/>
+			</v:userDefs>
+			<path d="M0 631.44 L62.64 631.44 L62.64 638.64 L0 638.64 L0 631.44 Z" class="st15"/>
+		</g>
+		<g id="shape33-72" v:mID="33" v:groupContext="shape" transform="translate(344.16,-532.08)">
+			<title>Light_patch_tokens_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_side)"/>
+			</v:userDefs>
+			<path d="M25.2 599.76 L0 631.44 L0 638.64 L25.2 606.96 L25.2 599.76 Z" class="st16"/>
+		</g>
+		<g id="shape34-74" v:mID="34" v:groupContext="shape" transform="translate(281.52,-539.28)">
+			<title>Light_patch_tokens</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens)"/>
+			</v:userDefs>
+			<path d="M30.24 606.96 L87.84 606.96 L62.64 638.64 L0 638.64 L30.24 606.96 Z" class="st17"/>
+		</g>
+		<g id="shape35-78" v:mID="35" v:groupContext="shape" transform="translate(284.4,-575.28)">
+			<title>Light_patch_label</title>
+			<desc>Patch tokens</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.96" cy="628.2" width="97.92" height="20.88"/>
+			<rect x="0" y="617.76" width="97.92" height="20.88" class="st5"/>
+			<text x="4.15" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Patch tokens</text>		</g>
+		<g id="shape36-81" v:mID="36" v:groupContext="shape" transform="translate(392.4,-527.76)">
+			<title>Light_projection</title>
+			<desc>Linear Projection</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(projection)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.2" cy="616.68" width="86.4" height="43.92"/>
+			<rect x="0" y="594.72" width="86.4" height="43.92" rx="4.32" ry="4.32" class="st18"/>
+			<text x="22.67" y="612.58" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Linear<v:newlineChar/><tspan
+						x="9.76" dy="1.2em" class="st20">Projection</tspan></text>		</g>
+		<g id="shape37-87" v:mID="37" v:groupContext="shape" transform="translate(357.84,-431.28)">
+			<title>Light_transformer_1</title>
+			<desc>Transformer 1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72" cy="618.84" width="144" height="39.6"/>
+			<rect x="0" y="599.04" width="144" height="39.6" rx="4.32" ry="4.32" class="st21"/>
+			<text x="23.58" y="623.16" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Transformer 1</text>		</g>
+		<g id="shape38-92" v:mID="38" v:groupContext="shape" transform="translate(373.68,-393.12)">
+			<title>Light_z_map_1_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_front)"/>
+			</v:userDefs>
+			<path d="M0 630 L72.72 632.88 L72.72 638.64 L0 635.76 L0 630 Z" class="st15"/>
+		</g>
+		<g id="shape39-94" v:mID="39" v:groupContext="shape" transform="translate(446.4,-393.12)">
+			<title>Light_z_map_1_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_side)"/>
+			</v:userDefs>
+			<path d="M18.72 607.68 L0 632.88 L0 638.64 L18.72 613.44 L18.72 607.68 Z" class="st16"/>
+		</g>
+		<g id="shape40-96" v:mID="40" v:groupContext="shape" transform="translate(373.68,-398.88)">
+			<title>Light_z_map_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1)"/>
+			</v:userDefs>
+			<path d="M19.44 609.84 L91.44 613.44 L72.72 638.64 L0 635.76 L19.44 609.84 Z" class="st17"/>
+		</g>
+		<g id="shape41-99" v:mID="41" v:groupContext="shape" transform="translate(469.44,-401.76)">
+			<title>Light_z_label_1</title>
+			<desc>Z1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_label_1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.96" cy="628.2" width="25.92" height="20.88"/>
+			<rect x="0" y="617.76" width="25.92" height="20.88" class="st5"/>
+			<text x="4.56" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z1</text>		</g>
+		<g id="shape42-102" v:mID="42" v:groupContext="shape" transform="translate(578.88,-416.16)">
+			<title>Light_acm_1</title>
+			<desc>ACM 1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.76" cy="621" width="119.52" height="35.28"/>
+			<rect x="0" y="603.36" width="119.52" height="35.28" rx="4.32" ry="4.32" class="st22"/>
+			<text x="37.36" y="625.32" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ACM 1</text>		</g>
+		<g id="shape43-107" v:mID="43" v:groupContext="shape" transform="translate(581.76,-380.16)">
+			<title>Light_att_1_1_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape44-109" v:mID="44" v:groupContext="shape" transform="translate(617.76,-380.16)">
+			<title>Light_att_1_1_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape45-111" v:mID="45" v:groupContext="shape" transform="translate(581.76,-385.92)">
+			<title>Light_att_1_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape46-115" v:mID="46" v:groupContext="shape" transform="translate(640.8,-380.16)">
+			<title>Light_att_1_2_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape47-117" v:mID="47" v:groupContext="shape" transform="translate(676.8,-380.16)">
+			<title>Light_att_1_2_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape48-119" v:mID="48" v:groupContext="shape" transform="translate(640.8,-385.92)">
+			<title>Light_att_1_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape49-122" v:mID="49" v:groupContext="shape" transform="translate(789.12,-413.28)">
+			<title>Light_ffd_1</title>
+			<desc>FFD 1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.84" cy="612.36" width="103.68" height="52.56"/>
+			<rect x="0" y="586.08" width="103.68" height="52.56" rx="4.32" ry="4.32" class="st24"/>
+			<text x="31.84" y="616.68" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FFD 1</text>		</g>
+		<g id="shape50-127" v:mID="50" v:groupContext="shape" transform="translate(907.92,-417.6)">
+			<title>Light_fused_1_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_front)"/>
+			</v:userDefs>
+			<path d="M0 627.12 L64.08 632.88 L64.08 638.64 L0 632.88 L0 627.12 Z" class="st15"/>
+		</g>
+		<g id="shape51-129" v:mID="51" v:groupContext="shape" transform="translate(972,-417.6)">
+			<title>Light_fused_1_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_side)"/>
+			</v:userDefs>
+			<path d="M20.88 596.16 L0 632.88 L0 638.64 L20.88 601.92 L20.88 596.16 Z" class="st16"/>
+		</g>
+		<g id="shape52-131" v:mID="52" v:groupContext="shape" transform="translate(907.92,-423.36)">
+			<title>Light_fused_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1)"/>
+			</v:userDefs>
+			<path d="M27.36 596.16 L84.96 601.92 L64.08 638.64 L0 632.88 L27.36 596.16 Z" class="st17"/>
+		</g>
+		<g id="shape53-134" v:mID="53" v:groupContext="shape" transform="translate(704.808,-418.248)">
+			<title>Light_floating_output_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(floating_output_1)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="638.568" rx="0.072" ry="0.072" class="st5"/>
+		</g>
+		<g id="shape54-136" v:mID="54" v:groupContext="shape" transform="translate(357.84,-324.72)">
+			<title>Light_transformer_2</title>
+			<desc>Transformer 2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72" cy="618.84" width="144" height="39.6"/>
+			<rect x="0" y="599.04" width="144" height="39.6" rx="4.32" ry="4.32" class="st21"/>
+			<text x="23.58" y="623.16" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Transformer 2</text>		</g>
+		<g id="shape55-140" v:mID="55" v:groupContext="shape" transform="translate(372.96,-287.28)">
+			<title>Light_z_map_2_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_front)"/>
+			</v:userDefs>
+			<path d="M0 630 L73.44 632.88 L73.44 638.64 L0 635.76 L0 630 Z" class="st15"/>
+		</g>
+		<g id="shape56-142" v:mID="56" v:groupContext="shape" transform="translate(446.4,-287.28)">
+			<title>Light_z_map_2_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_side)"/>
+			</v:userDefs>
+			<path d="M18.72 606.96 L0 632.88 L0 638.64 L18.72 612.72 L18.72 606.96 Z" class="st16"/>
+		</g>
+		<g id="shape57-144" v:mID="57" v:groupContext="shape" transform="translate(372.96,-293.04)">
+			<title>Light_z_map_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2)"/>
+			</v:userDefs>
+			<path d="M19.44 609.12 L92.16 612.72 L73.44 638.64 L0 635.76 L19.44 609.12 Z" class="st17"/>
+		</g>
+		<g id="shape58-147" v:mID="58" v:groupContext="shape" transform="translate(469.44,-296.64)">
+			<title>Light_z_label_2</title>
+			<desc>Z2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_label_2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.96" cy="628.2" width="25.92" height="20.88"/>
+			<rect x="0" y="617.76" width="25.92" height="20.88" class="st5"/>
+			<text x="4.56" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z2</text>		</g>
+		<g id="shape59-150" v:mID="59" v:groupContext="shape" transform="translate(578.88,-311.76)">
+			<title>Light_acm_2</title>
+			<desc>ACM 2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.76" cy="621" width="119.52" height="35.28"/>
+			<rect x="0" y="603.36" width="119.52" height="35.28" rx="4.32" ry="4.32" class="st22"/>
+			<text x="37.36" y="625.32" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ACM 2</text>		</g>
+		<g id="shape60-154" v:mID="60" v:groupContext="shape" transform="translate(581.76,-276.48)">
+			<title>Light_att_2_1_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape61-156" v:mID="61" v:groupContext="shape" transform="translate(617.76,-276.48)">
+			<title>Light_att_2_1_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape62-158" v:mID="62" v:groupContext="shape" transform="translate(581.76,-282.24)">
+			<title>Light_att_2_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape63-161" v:mID="63" v:groupContext="shape" transform="translate(640.8,-276.48)">
+			<title>Light_att_2_2_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape64-163" v:mID="64" v:groupContext="shape" transform="translate(676.8,-276.48)">
+			<title>Light_att_2_2_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape65-165" v:mID="65" v:groupContext="shape" transform="translate(640.8,-282.24)">
+			<title>Light_att_2_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape66-168" v:mID="66" v:groupContext="shape" transform="translate(789.12,-308.16)">
+			<title>Light_ffd_2</title>
+			<desc>FFD 2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.84" cy="612.36" width="103.68" height="52.56"/>
+			<rect x="0" y="586.08" width="103.68" height="52.56" rx="4.32" ry="4.32" class="st24"/>
+			<text x="31.84" y="616.68" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FFD 2</text>		</g>
+		<g id="shape67-172" v:mID="67" v:groupContext="shape" transform="translate(908.64,-308.88)">
+			<title>Light_fused_2_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_front)"/>
+			</v:userDefs>
+			<path d="M0 627.12 L66.96 632.88 L66.96 638.64 L0 632.88 L0 627.12 Z" class="st15"/>
+		</g>
+		<g id="shape68-174" v:mID="68" v:groupContext="shape" transform="translate(975.6,-308.88)">
+			<title>Light_fused_2_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_side)"/>
+			</v:userDefs>
+			<path d="M20.88 596.16 L0 632.88 L0 638.64 L20.88 601.92 L20.88 596.16 Z" class="st16"/>
+		</g>
+		<g id="shape69-176" v:mID="69" v:groupContext="shape" transform="translate(908.64,-314.64)">
+			<title>Light_fused_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2)"/>
+			</v:userDefs>
+			<path d="M25.92 596.16 L87.84 601.92 L66.96 638.64 L0 632.88 L25.92 596.16 Z" class="st17"/>
+		</g>
+		<g id="shape70-179" v:mID="70" v:groupContext="shape" transform="translate(704.808,-313.128)">
+			<title>Light_floating_output_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(floating_output_2)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="638.568" rx="0.072" ry="0.072" class="st5"/>
+		</g>
+		<g id="shape71-181" v:mID="71" v:groupContext="shape" transform="translate(357.84,-218.88)">
+			<title>Light_transformer_3</title>
+			<desc>Transformer 3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_3)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72" cy="618.84" width="144" height="39.6"/>
+			<rect x="0" y="599.04" width="144" height="39.6" rx="4.32" ry="4.32" class="st21"/>
+			<text x="23.58" y="623.16" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Transformer 3</text>		</g>
+		<g id="shape72-185" v:mID="72" v:groupContext="shape" transform="translate(372.24,-181.44)">
+			<title>Light_z_map_3_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_front)"/>
+			</v:userDefs>
+			<path d="M0 629.28 L74.88 632.88 L74.88 638.64 L0 635.04 L0 629.28 Z" class="st15"/>
+		</g>
+		<g id="shape73-187" v:mID="73" v:groupContext="shape" transform="translate(447.12,-181.44)">
+			<title>Light_z_map_3_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_side)"/>
+			</v:userDefs>
+			<path d="M19.44 606.24 L0 632.88 L0 638.64 L19.44 612 L19.44 606.24 Z" class="st16"/>
+		</g>
+		<g id="shape74-189" v:mID="74" v:groupContext="shape" transform="translate(372.24,-187.2)">
+			<title>Light_z_map_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3)"/>
+			</v:userDefs>
+			<path d="M19.44 608.4 L94.32 612 L74.88 638.64 L0 635.04 L19.44 608.4 Z" class="st17"/>
+		</g>
+		<g id="shape75-192" v:mID="75" v:groupContext="shape" transform="translate(469.44,-191.52)">
+			<title>Light_z_label_3</title>
+			<desc>Z3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_label_3)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.96" cy="628.2" width="25.92" height="20.88"/>
+			<rect x="0" y="617.76" width="25.92" height="20.88" class="st5"/>
+			<text x="4.56" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z3</text>		</g>
+		<g id="shape76-195" v:mID="76" v:groupContext="shape" transform="translate(578.88,-206.64)">
+			<title>Light_acm_3</title>
+			<desc>ACM 3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_3)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.76" cy="621" width="119.52" height="35.28"/>
+			<rect x="0" y="603.36" width="119.52" height="35.28" rx="4.32" ry="4.32" class="st22"/>
+			<text x="37.36" y="625.32" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ACM 3</text>		</g>
+		<g id="shape77-199" v:mID="77" v:groupContext="shape" transform="translate(581.76,-169.92)">
+			<title>Light_att_3_1_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape78-201" v:mID="78" v:groupContext="shape" transform="translate(617.76,-169.92)">
+			<title>Light_att_3_1_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape79-203" v:mID="79" v:groupContext="shape" transform="translate(581.76,-175.68)">
+			<title>Light_att_3_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape80-206" v:mID="80" v:groupContext="shape" transform="translate(640.8,-169.92)">
+			<title>Light_att_3_2_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape81-208" v:mID="81" v:groupContext="shape" transform="translate(676.8,-169.92)">
+			<title>Light_att_3_2_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape82-210" v:mID="82" v:groupContext="shape" transform="translate(640.8,-175.68)">
+			<title>Light_att_3_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape83-213" v:mID="83" v:groupContext="shape" transform="translate(789.12,-201.6)">
+			<title>Light_ffd_3</title>
+			<desc>FFD 3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_3)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.84" cy="612.36" width="103.68" height="52.56"/>
+			<rect x="0" y="586.08" width="103.68" height="52.56" rx="4.32" ry="4.32" class="st24"/>
+			<text x="31.84" y="616.68" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FFD 3</text>		</g>
+		<g id="shape84-217" v:mID="84" v:groupContext="shape" transform="translate(908.64,-202.32)">
+			<title>Light_fused_3_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_front)"/>
+			</v:userDefs>
+			<path d="M0 627.12 L69.84 632.88 L69.84 638.64 L0 632.88 L0 627.12 Z" class="st15"/>
+		</g>
+		<g id="shape85-219" v:mID="85" v:groupContext="shape" transform="translate(978.48,-202.32)">
+			<title>Light_fused_3_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_side)"/>
+			</v:userDefs>
+			<path d="M21.6 598.32 L0 632.88 L0 638.64 L21.6 604.08 L21.6 598.32 Z" class="st16"/>
+		</g>
+		<g id="shape86-221" v:mID="86" v:groupContext="shape" transform="translate(908.64,-208.08)">
+			<title>Light_fused_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3)"/>
+			</v:userDefs>
+			<path d="M26.64 595.44 L91.44 604.08 L69.84 638.64 L0 632.88 L26.64 595.44 Z" class="st17"/>
+		</g>
+		<g id="shape87-224" v:mID="87" v:groupContext="shape" transform="translate(704.808,-206.568)">
+			<title>Light_floating_output_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(floating_output_3)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="638.568" rx="0.072" ry="0.072" class="st5"/>
+		</g>
+		<g id="shape88-226" v:mID="88" v:groupContext="shape" transform="translate(357.84,-113.04)">
+			<title>Light_transformer_4</title>
+			<desc>Transformer 4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_4)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72" cy="618.84" width="144" height="39.6"/>
+			<rect x="0" y="599.04" width="144" height="39.6" rx="4.32" ry="4.32" class="st21"/>
+			<text x="23.58" y="623.16" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Transformer 4</text>		</g>
+		<g id="shape89-230" v:mID="89" v:groupContext="shape" transform="translate(370.08,-68.4)">
+			<title>Light_z_map_4_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_front)"/>
+			</v:userDefs>
+			<path d="M0 628.56 L77.04 632.88 L77.04 638.64 L0 634.32 L0 628.56 Z" class="st15"/>
+		</g>
+		<g id="shape90-232" v:mID="90" v:groupContext="shape" transform="translate(447.12,-68.4)">
+			<title>Light_z_map_4_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_side)"/>
+			</v:userDefs>
+			<path d="M21.6 601.2 L0 632.88 L0 638.64 L21.6 606.96 L21.6 601.2 Z" class="st16"/>
+		</g>
+		<g id="shape91-234" v:mID="91" v:groupContext="shape" transform="translate(370.08,-74.16)">
+			<title>Light_z_map_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4)"/>
+			</v:userDefs>
+			<path d="M20.88 603.36 L98.64 606.96 L77.04 638.64 L0 634.32 L20.88 603.36 Z" class="st17"/>
+		</g>
+		<g id="shape92-237" v:mID="92" v:groupContext="shape" transform="translate(469.44,-83.52)">
+			<title>Light_z_label_4</title>
+			<desc>Z4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_label_4)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="12.96" cy="628.2" width="25.92" height="20.88"/>
+			<rect x="0" y="617.76" width="25.92" height="20.88" class="st5"/>
+			<text x="4.56" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z4</text>		</g>
+		<g id="shape93-240" v:mID="93" v:groupContext="shape" transform="translate(578.88,-97.92)">
+			<title>Light_acm_4</title>
+			<desc>ACM 4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_4)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.76" cy="621" width="119.52" height="35.28"/>
+			<rect x="0" y="603.36" width="119.52" height="35.28" rx="4.32" ry="4.32" class="st22"/>
+			<text x="37.36" y="625.32" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ACM 4</text>		</g>
+		<g id="shape94-244" v:mID="94" v:groupContext="shape" transform="translate(581.76,-60.48)">
+			<title>Light_att_4_1_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape95-246" v:mID="95" v:groupContext="shape" transform="translate(617.76,-60.48)">
+			<title>Light_att_4_1_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape96-248" v:mID="96" v:groupContext="shape" transform="translate(581.76,-66.24)">
+			<title>Light_att_4_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape97-251" v:mID="97" v:groupContext="shape" transform="translate(640.8,-60.48)">
+			<title>Light_att_4_2_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_front)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L36 632.88 L36 638.64 L0 637.92 L0 632.16 Z" class="st15"/>
+		</g>
+		<g id="shape98-253" v:mID="98" v:groupContext="shape" transform="translate(676.8,-60.48)">
+			<title>Light_att_4_2_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_side)"/>
+			</v:userDefs>
+			<path d="M18 612 L0 632.88 L0 638.64 L18 617.76 L18 612 Z" class="st16"/>
+		</g>
+		<g id="shape99-255" v:mID="99" v:groupContext="shape" transform="translate(640.8,-66.24)">
+			<title>Light_att_4_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2)"/>
+			</v:userDefs>
+			<path d="M16.56 616.32 L54 617.76 L36 638.64 L0 637.92 L16.56 616.32 Z" class="st23"/>
+		</g>
+		<g id="shape100-258" v:mID="100" v:groupContext="shape" transform="translate(789.12,-93.6)">
+			<title>Light_ffd_4</title>
+			<desc>FFD 4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_4)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.84" cy="612.36" width="103.68" height="52.56"/>
+			<rect x="0" y="586.08" width="103.68" height="52.56" rx="4.32" ry="4.32" class="st24"/>
+			<text x="31.84" y="616.68" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FFD 4</text>		</g>
+		<g id="shape101-262" v:mID="101" v:groupContext="shape" transform="translate(909.36,-92.88)">
+			<title>Light_fused_4_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_front)"/>
+			</v:userDefs>
+			<path d="M0 625.68 L73.44 632.88 L73.44 638.64 L0 631.44 L0 625.68 Z" class="st15"/>
+		</g>
+		<g id="shape102-264" v:mID="102" v:groupContext="shape" transform="translate(982.8,-92.88)">
+			<title>Light_fused_4_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_side)"/>
+			</v:userDefs>
+			<path d="M21.6 597.6 L0 632.88 L0 638.64 L21.6 603.36 L21.6 597.6 Z" class="st16"/>
+		</g>
+		<g id="shape103-266" v:mID="103" v:groupContext="shape" transform="translate(909.36,-98.64)">
+			<title>Light_fused_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4)"/>
+			</v:userDefs>
+			<path d="M26.64 595.44 L95.04 603.36 L73.44 638.64 L0 631.44 L26.64 595.44 Z" class="st17"/>
+		</g>
+		<g id="shape104-269" v:mID="104" v:groupContext="shape" transform="translate(704.808,-98.568)">
+			<title>Light_floating_output_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(floating_output_4)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="638.568" rx="0.072" ry="0.072" class="st5"/>
+		</g>
+		<g id="shape105-271" v:mID="105" v:groupContext="shape" transform="translate(536.4,-18)">
+			<title>Light_residual_unit</title>
+			<desc>Residual Block Unit</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(residual_unit)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.44" cy="620.28" width="164.88" height="36.72"/>
+			<rect x="0" y="601.92" width="164.88" height="36.72" rx="4.32" ry="4.32" class="st25"/>
+			<text x="18.21" y="624.38" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Residual Block Unit</text>		</g>
+		<g id="shape106-276" v:mID="106" v:groupContext="shape" transform="translate(727.2,-34.56)">
+			<title>Light_state_x4</title>
+			<desc>X4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(state_x4)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18" cy="627.84" width="36" height="21.6"/>
+			<rect x="0" y="617.04" width="36" height="21.6" class="st5"/>
+			<text x="9.19" y="632.16" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X4</text>		</g>
+		<g id="shape107-279" v:mID="107" v:groupContext="shape" transform="translate(846,-159.84)">
+			<title>Light_state_x3</title>
+			<desc>X3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(state_x3)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.2" cy="628.2" width="32.4" height="20.88"/>
+			<rect x="0" y="617.76" width="32.4" height="20.88" class="st5"/>
+			<text x="7.39" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X3</text>		</g>
+		<g id="shape108-282" v:mID="108" v:groupContext="shape" transform="translate(846,-264.96)">
+			<title>Light_state_x2</title>
+			<desc>X2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(state_x2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.2" cy="628.2" width="32.4" height="20.88"/>
+			<rect x="0" y="617.76" width="32.4" height="20.88" class="st5"/>
+			<text x="7.39" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X2</text>		</g>
+		<g id="shape109-285" v:mID="109" v:groupContext="shape" transform="translate(846,-371.52)">
+			<title>Light_state_x1</title>
+			<desc>X1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(state_x1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.2" cy="628.2" width="32.4" height="20.88"/>
+			<rect x="0" y="617.76" width="32.4" height="20.88" class="st5"/>
+			<text x="7.39" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X1</text>		</g>
+		<g id="shape110-288" v:mID="110" v:groupContext="shape" transform="translate(840.96,-526.32)">
+			<title>Light_depth_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_front)"/>
+			</v:userDefs>
+			<path d="M0 630.72 L122.4 631.44 L122.4 638.64 L0 637.92 L0 630.72 Z" class="st15"/>
+		</g>
+		<g id="shape111-290" v:mID="111" v:groupContext="shape" transform="translate(963.36,-526.32)">
+			<title>Light_depth_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_side)"/>
+			</v:userDefs>
+			<path d="M25.2 583.92 L0 631.44 L0 638.64 L25.2 591.12 L25.2 583.92 Z" class="st16"/>
+		</g>
+		<g id="shape112-292" v:mID="112" v:groupContext="shape" transform="translate(840.96,-533.52)">
+			<title>Light_depth</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth)"/>
+			</v:userDefs>
+			<path d="M37.44 588.24 L147.6 591.12 L122.4 638.64 L0 637.92 L37.44 588.24 Z" class="st26"/>
+		</g>
+		<g id="shape113-296" v:mID="113" v:groupContext="shape" transform="translate(840.96,-534.18)">
+			<title>Light_depth_color_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_0)"/>
+			</v:userDefs>
+			<path d="M37.44 588.9 L46.62 589.14 L10.2 638.64 L0 638.58 L37.44 588.9 Z" class="st27"/>
+		</g>
+		<g id="shape114-298" v:mID="114" v:groupContext="shape" transform="translate(851.16,-534.12)">
+			<title>Light_depth_color_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_1)"/>
+			</v:userDefs>
+			<path d="M36.42 589.08 L45.6 589.32 L10.2 638.64 L0 638.58 L36.42 589.08 Z" class="st28"/>
+		</g>
+		<g id="shape115-300" v:mID="115" v:groupContext="shape" transform="translate(861.36,-534.06)">
+			<title>Light_depth_color_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_2)"/>
+			</v:userDefs>
+			<path d="M35.4 589.26 L44.58 589.5 L10.2 638.64 L0 638.58 L35.4 589.26 Z" class="st29"/>
+		</g>
+		<g id="shape116-302" v:mID="116" v:groupContext="shape" transform="translate(871.56,-534)">
+			<title>Light_depth_color_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_3)"/>
+			</v:userDefs>
+			<path d="M34.38 589.44 L43.56 589.68 L10.2 638.64 L0 638.58 L34.38 589.44 Z" class="st30"/>
+		</g>
+		<g id="shape117-304" v:mID="117" v:groupContext="shape" transform="translate(881.76,-533.94)">
+			<title>Light_depth_color_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_4)"/>
+			</v:userDefs>
+			<path d="M33.36 589.62 L42.54 589.86 L10.2 638.64 L0 638.58 L33.36 589.62 Z" class="st31"/>
+		</g>
+		<g id="shape118-306" v:mID="118" v:groupContext="shape" transform="translate(891.96,-533.88)">
+			<title>Light_depth_color_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_5)"/>
+			</v:userDefs>
+			<path d="M32.34 589.8 L41.52 590.04 L10.2 638.64 L0 638.58 L32.34 589.8 Z" class="st32"/>
+		</g>
+		<g id="shape119-308" v:mID="119" v:groupContext="shape" transform="translate(902.16,-533.82)">
+			<title>Light_depth_color_6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_6)"/>
+			</v:userDefs>
+			<path d="M31.32 589.98 L40.5 590.22 L10.2 638.64 L0 638.58 L31.32 589.98 Z" class="st33"/>
+		</g>
+		<g id="shape120-310" v:mID="120" v:groupContext="shape" transform="translate(912.36,-533.76)">
+			<title>Light_depth_color_7</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_7)"/>
+			</v:userDefs>
+			<path d="M30.3 590.16 L39.48 590.4 L10.2 638.64 L0 638.58 L30.3 590.16 Z" class="st34"/>
+		</g>
+		<g id="shape121-312" v:mID="121" v:groupContext="shape" transform="translate(922.56,-533.7)">
+			<title>Light_depth_color_8</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_8)"/>
+			</v:userDefs>
+			<path d="M29.28 590.34 L38.46 590.58 L10.2 638.64 L0 638.58 L29.28 590.34 Z" class="st35"/>
+		</g>
+		<g id="shape122-314" v:mID="122" v:groupContext="shape" transform="translate(932.76,-533.64)">
+			<title>Light_depth_color_9</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_9)"/>
+			</v:userDefs>
+			<path d="M28.26 590.52 L37.44 590.76 L10.2 638.64 L0 638.58 L28.26 590.52 Z" class="st36"/>
+		</g>
+		<g id="shape123-316" v:mID="123" v:groupContext="shape" transform="translate(942.96,-533.58)">
+			<title>Light_depth_color_10</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_10)"/>
+			</v:userDefs>
+			<path d="M27.24 590.7 L36.42 590.94 L10.2 638.64 L0 638.58 L27.24 590.7 Z" class="st37"/>
+		</g>
+		<g id="shape124-318" v:mID="124" v:groupContext="shape" transform="translate(953.16,-533.52)">
+			<title>Light_depth_color_11</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_color_11)"/>
+			</v:userDefs>
+			<path d="M26.22 590.88 L35.4 591.12 L10.2 638.64 L0 638.58 L26.22 590.88 Z" class="st38"/>
+		</g>
+		<g id="shape125-320" v:mID="125" v:groupContext="shape" transform="translate(876.96,-587.52)">
+			<title>Light_depth_label</title>
+			<desc>Depth D</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.68" cy="627.48" width="81.36" height="22.32"/>
+			<rect x="0" y="616.32" width="81.36" height="22.32" class="st5"/>
+			<text x="10.32" y="632.23" class="st39" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Depth D</text>		</g>
+		<g id="shape126-323" v:mID="126" v:groupContext="shape" transform="translate(883.44,-477.36)">
+			<title>Light_state_x0</title>
+			<desc>X0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(state_x0)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.2" cy="627.84" width="32.41" height="21.6"/>
+			<rect x="0" y="617.04" width="32.4" height="21.6" class="st5"/>
+			<text x="7.39" y="632.16" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X0</text>		</g>
+		<g id="shape127-326" v:mID="127" v:groupContext="shape" transform="translate(82.08,-70.56)">
+			<title>Light_tr_input</title>
+			<desc>Input</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_input)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.48" cy="624.24" width="84.96" height="28.8"/>
+			<rect x="0" y="609.84" width="84.96" height="28.8" rx="4.32" ry="4.32" class="st40"/>
+			<text x="24.89" y="628.56" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Input</text>		</g>
+		<g id="shape128-331" v:mID="128" v:groupContext="shape" transform="translate(82.08,-116.64)">
+			<title>Light_tr_norm1</title>
+			<desc>Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_norm1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.48" cy="624.24" width="84.96" height="28.8"/>
+			<rect x="0" y="609.84" width="84.96" height="28.8" rx="4.32" ry="4.32" class="st40"/>
+			<text x="23.68" y="628.56" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Norm</text>		</g>
+		<g id="shape129-335" v:mID="129" v:groupContext="shape" transform="translate(82.08,-163.44)">
+			<title>Light_tr_msa</title>
+			<desc>MSA</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_msa)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.48" cy="624.24" width="84.96" height="28.8"/>
+			<rect x="0" y="609.84" width="84.96" height="28.8" rx="4.32" ry="4.32" class="st40"/>
+			<text x="26.48" y="628.56" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MSA</text>		</g>
+		<g id="shape130-339" v:mID="130" v:groupContext="shape" transform="translate(82.08,-255.6)">
+			<title>Light_tr_norm2</title>
+			<desc>Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_norm2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.48" cy="624.6" width="84.96" height="28.08"/>
+			<rect x="0" y="610.56" width="84.96" height="28.08" rx="4.32" ry="4.32" class="st40"/>
+			<text x="23.68" y="628.92" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Norm</text>		</g>
+		<g id="shape131-343" v:mID="131" v:groupContext="shape" transform="translate(82.08,-303.84)">
+			<title>Light_tr_mlp</title>
+			<desc>MLP</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_mlp)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.48" cy="624.24" width="84.96" height="28.8"/>
+			<rect x="0" y="609.84" width="84.96" height="28.8" rx="4.32" ry="4.32" class="st40"/>
+			<text x="27.28" y="628.56" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MLP</text>		</g>
+		<g id="shape132-347" v:mID="132" v:groupContext="shape" transform="translate(82.08,-397.44)">
+			<title>Light_tr_output</title>
+			<desc>Output</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_output)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.48" cy="624.6" width="84.96" height="28.08"/>
+			<rect x="0" y="610.56" width="84.96" height="28.08" rx="4.32" ry="4.32" class="st40"/>
+			<text x="18.89" y="628.92" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Output</text>		</g>
+		<g id="shape133-351" v:mID="133" v:groupContext="shape" transform="translate(109.44,-208.8)">
+			<title>Light_tr_sum1</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_sum1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.12" cy="623.16" width="30.24" height="30.96"/>
+			<ellipse cx="15.12" cy="623.16" rx="15.12" ry="15.48" class="st41"/>
+			<text x="9.44" y="628.99" class="st42" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape134-354" v:mID="134" v:groupContext="shape" transform="translate(109.44,-348.48)">
+			<title>Light_tr_sum2</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_sum2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.12" cy="623.16" width="30.24" height="30.96"/>
+			<ellipse cx="15.12" cy="623.16" rx="15.12" ry="15.48" class="st41"/>
+			<text x="9.44" y="628.99" class="st42" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape135-357" v:mID="135" v:groupContext="shape" transform="translate(523.44,-537.12)">
+			<title>Light_acm_detail_z</title>
+			<desc>Z</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_detail_z)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.36" cy="628.2" width="18.73" height="20.88"/>
+			<rect x="0" y="617.76" width="18.72" height="20.88" class="st5"/>
+			<text x="4.96" y="632.52" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z</text>		</g>
+		<g id="shape136-360" v:mID="136" v:groupContext="shape" transform="translate(563.688,-547.488)">
+			<title>Light_acm_detail_fork</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_detail_fork)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="638.568" rx="0.072" ry="0.072" class="st5"/>
+		</g>
+		<g id="shape137-362" v:mID="137" v:groupContext="shape" transform="translate(586.8,-560.88)">
+			<title>Light_acm_detail_conv</title>
+			<desc>Conv</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_detail_conv)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.12" cy="623.52" width="48.24" height="30.24"/>
+			<rect x="0" y="608.4" width="48.24" height="30.24" rx="4.32" ry="4.32" class="st43"/>
+			<text x="7.02" y="627.62" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Conv</text>		</g>
+		<g id="shape138-365" v:mID="138" v:groupContext="shape" transform="translate(659.52,-558)">
+			<title>Light_acm_position</title>
+			<desc>Position Attention</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_position)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="32.04" cy="620.28" width="64.09" height="36.72"/>
+			<rect x="0" y="601.92" width="64.08" height="36.72" rx="4.32" ry="4.32" class="st43"/>
+			<text x="6.48" y="616.39" class="st44" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Position<v:newlineChar/><tspan
+						x="3.61" dy="1.2em" class="st20">Attention</tspan></text>		</g>
+		<g id="shape139-369" v:mID="139" v:groupContext="shape" transform="translate(648,-501.12)">
+			<title>Light_acm_channel</title>
+			<desc>Channel Attention</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_channel)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.08" cy="620.64" width="74.16" height="36"/>
+			<rect x="0" y="602.64" width="74.16" height="36" rx="4.32" ry="4.32" class="st43"/>
+			<text x="11.52" y="616.75" class="st44" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Channel<v:newlineChar/><tspan
+						x="8.65" dy="1.2em" class="st20">Attention</tspan></text>		</g>
+		<g id="shape140-373" v:mID="140" v:groupContext="shape" transform="translate(748.8,-560.88)">
+			<title>Light_detail_ap_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_front)"/>
+			</v:userDefs>
+			<path d="M0 632.88 L23.04 633.6 L23.04 638.64 L0 637.92 L0 632.88 Z" class="st15"/>
+		</g>
+		<g id="shape141-375" v:mID="141" v:groupContext="shape" transform="translate(771.84,-560.88)">
+			<title>Light_detail_ap_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_side)"/>
+			</v:userDefs>
+			<path d="M15.12 613.44 L0 633.6 L0 638.64 L15.12 618.48 L15.12 613.44 Z" class="st16"/>
+		</g>
+		<g id="shape142-377" v:mID="142" v:groupContext="shape" transform="translate(748.8,-565.92)">
+			<title>Light_detail_ap</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap)"/>
+			</v:userDefs>
+			<path d="M15.84 617.76 L38.16 618.48 L23.04 638.64 L0 637.92 L15.84 617.76 Z" class="st23"/>
+		</g>
+		<g id="shape143-380" v:mID="143" v:groupContext="shape" transform="translate(748.8,-502.56)">
+			<title>Light_detail_ac_front</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_front)"/>
+			</v:userDefs>
+			<path d="M0 632.88 L23.04 633.6 L23.04 638.64 L0 637.92 L0 632.88 Z" class="st15"/>
+		</g>
+		<g id="shape144-382" v:mID="144" v:groupContext="shape" transform="translate(771.84,-502.56)">
+			<title>Light_detail_ac_side</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_side)"/>
+			</v:userDefs>
+			<path d="M15.12 612.72 L0 633.6 L0 638.64 L15.12 617.76 L15.12 612.72 Z" class="st16"/>
+		</g>
+		<g id="shape145-384" v:mID="145" v:groupContext="shape" transform="translate(748.8,-507.6)">
+			<title>Light_detail_ac</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac)"/>
+			</v:userDefs>
+			<path d="M15.84 617.04 L38.16 617.76 L23.04 638.64 L0 637.92 L15.84 617.04 Z" class="st23"/>
+		</g>
+		<g id="shape146-387" v:mID="146" v:groupContext="shape" transform="translate(788.4,-565.2)">
+			<title>Light_detail_ap_label</title>
+			<desc>A_p</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.48" cy="628.56" width="30.97" height="20.16"/>
+			<rect x="0" y="618.48" width="30.96" height="20.16" class="st5"/>
+			<text x="2.56" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A_p</text>		</g>
+		<g id="shape147-390" v:mID="147" v:groupContext="shape" transform="translate(788.4,-506.16)">
+			<title>Light_detail_ac_label</title>
+			<desc>A_c</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.48" cy="628.56" width="30.97" height="20.16"/>
+			<rect x="0" y="618.48" width="30.96" height="20.16" class="st5"/>
+			<text x="2.93" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A_c</text>		</g>
+		<g id="shape148-393" v:mID="148" v:groupContext="shape" transform="translate(1121.04,-551.52)">
+			<title>Light_ff_output</title>
+			<desc>Output</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_output)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.72" cy="624.6" width="73.44" height="28.08"/>
+			<rect x="0" y="610.56" width="73.44" height="28.08" rx="4.32" ry="4.32" class="st45"/>
+			<text x="14.31" y="628.7" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Output</text>		</g>
+		<g id="shape149-398" v:mID="149" v:groupContext="shape" transform="translate(1111.68,-419.04)">
+			<title>Light_ff_tanh</title>
+			<desc>tanh</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_tanh)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.64" cy="624.6" width="89.28" height="28.08"/>
+			<rect x="0" y="610.56" width="89.28" height="28.08" rx="4.32" ry="4.32" class="st45"/>
+			<text x="30.2" y="628.7" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>tanh</text>		</g>
+		<g id="shape150-402" v:mID="150" v:groupContext="shape" transform="translate(1099.44,-294.48)">
+			<title>Light_ff_cn</title>
+			<desc>Channel Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_cn)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="57.24" cy="624.6" width="114.48" height="28.08"/>
+			<rect x="0" y="610.56" width="114.48" height="28.08" rx="4.32" ry="4.32" class="st45"/>
+			<text x="10.5" y="628.7" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Channel Norm</text>		</g>
+		<g id="shape151-406" v:mID="151" v:groupContext="shape" transform="translate(1104.48,-213.84)">
+			<title>Light_ff_l2</title>
+			<desc>L2-Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_l2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.48" cy="624.6" width="102.96" height="28.08"/>
+			<rect x="0" y="610.56" width="102.96" height="28.08" rx="4.32" ry="4.32" class="st45"/>
+			<text x="23.36" y="628.7" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L2-Norm</text>		</g>
+		<g id="shape152-410" v:mID="152" v:groupContext="shape" transform="translate(1122.48,-123.84)">
+			<title>Light_ff_conv</title>
+			<desc>Conv</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_conv)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.56" cy="625.32" width="69.13" height="26.64"/>
+			<rect x="0" y="612" width="69.12" height="26.64" rx="4.32" ry="4.32" class="st45"/>
+			<text x="17.46" y="629.42" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Conv</text>		</g>
+		<g id="shape153-414" v:mID="153" v:groupContext="shape" transform="translate(1093.68,-69.12)">
+			<title>Light_ff_reweight</title>
+			<desc>Attention Reweighting</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_reweight)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="63.72" cy="618.84" width="127.44" height="39.6"/>
+			<rect x="0" y="599.04" width="127.44" height="39.6" rx="4.32" ry="4.32" class="st45"/>
+			<text x="33.71" y="614.74" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Attention<v:newlineChar/><tspan
+						x="23.06" dy="1.2em" class="st20">Reweighting</tspan></text>		</g>
+		<g id="shape154-419" v:mID="154" v:groupContext="shape" transform="translate(1143.36,-504)">
+			<title>Light_ff_final</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_final)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="624.6" width="27.37" height="28.08"/>
+			<ellipse cx="13.68" cy="624.6" rx="13.68" ry="14.04" class="st46"/>
+			<text x="8.21" y="630.22" class="st47" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape155-422" v:mID="155" v:groupContext="shape" transform="translate(1143.36,-462.24)">
+			<title>Light_ff_product</title>
+			<desc>×</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_product)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="624.96" width="27.37" height="27.36"/>
+			<ellipse cx="13.68" cy="624.96" rx="13.68" ry="13.68" class="st46"/>
+			<text x="8.21" y="630.58" class="st47" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>×</text>		</g>
+		<g id="shape156-425" v:mID="156" v:groupContext="shape" transform="translate(1143.36,-374.4)">
+			<title>Light_ff_beta</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_beta)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="624.96" width="27.37" height="27.36"/>
+			<ellipse cx="13.68" cy="624.96" rx="13.68" ry="13.68" class="st46"/>
+			<text x="8.21" y="630.58" class="st47" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape157-428" v:mID="157" v:groupContext="shape" transform="translate(1143.36,-336.24)">
+			<title>Light_ff_gamma</title>
+			<desc>×</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_gamma)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="624.96" width="27.37" height="27.36"/>
+			<ellipse cx="13.68" cy="624.96" rx="13.68" ry="13.68" class="st46"/>
+			<text x="8.21" y="630.58" class="st47" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>×</text>		</g>
+		<g id="shape158-431" v:mID="158" v:groupContext="shape" transform="translate(1143.36,-254.88)">
+			<title>Light_ff_alpha</title>
+			<desc>×</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_alpha)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="624.96" width="27.37" height="27.36"/>
+			<ellipse cx="13.68" cy="624.96" rx="13.68" ry="13.68" class="st46"/>
+			<text x="8.21" y="630.58" class="st47" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>×</text>		</g>
+		<g id="shape159-434" v:mID="159" v:groupContext="shape" transform="translate(1143.36,-166.32)">
+			<title>Light_ff_u</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_u)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="624.96" width="27.37" height="27.36"/>
+			<ellipse cx="13.68" cy="624.96" rx="13.68" ry="13.68" class="st46"/>
+			<text x="8.21" y="630.58" class="st47" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape160-437" v:mID="160" v:groupContext="shape" transform="translate(1098.72,-25.2)">
+			<title>Light_ff_z</title>
+			<desc>Z</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_z)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="10.08" cy="628.56" width="20.16" height="20.16"/>
+			<rect x="0" y="618.48" width="20.16" height="20.16" class="st5"/>
+			<text x="5.9" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z</text>		</g>
+		<g id="shape161-440" v:mID="161" v:groupContext="shape" transform="translate(1138.32,-24.48)">
+			<title>Light_ff_ac</title>
+			<desc>A_c</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_ac)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="16.2" cy="627.84" width="32.41" height="21.6"/>
+			<rect x="0" y="617.04" width="32.4" height="21.6" class="st5"/>
+			<text x="3.65" y="631.94" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A_c</text>		</g>
+		<g id="shape162-443" v:mID="162" v:groupContext="shape" transform="translate(1193.76,-25.2)">
+			<title>Light_ff_ap</title>
+			<desc>A_p</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_ap)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="13.68" cy="628.56" width="27.37" height="20.16"/>
+			<rect x="0" y="618.48" width="27.36" height="20.16" class="st5"/>
+			<text x="0.76" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A_p</text>		</g>
+		<g id="shape163-446" v:mID="163" v:groupContext="shape" transform="translate(1054.08,-150.48)">
+			<title>Light_ff_x</title>
+			<desc>X</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_x)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="10.8" cy="627.84" width="21.6" height="21.6"/>
+			<rect x="0" y="617.04" width="21.6" height="21.6" class="st5"/>
+			<text x="6.24" y="631.94" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X</text>		</g>
+		<g id="shape164-449" v:mID="164" v:groupContext="shape" transform="translate(1196.64,-259.92)">
+			<title>Light_ff_scalar_alpha</title>
+			<desc>alpha</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_scalar_alpha)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.76" cy="628.56" width="47.52" height="20.16"/>
+			<rect x="0" y="618.48" width="47.52" height="20.16" class="st5"/>
+			<text x="5.9" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>alpha</text>		</g>
+		<g id="shape165-452" v:mID="165" v:groupContext="shape" transform="translate(1192.32,-341.28)">
+			<title>Light_ff_scalar_gamma</title>
+			<desc>gamma</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_scalar_gamma)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.64" cy="628.56" width="53.29" height="20.16"/>
+			<rect x="0" y="618.48" width="53.28" height="20.16" class="st5"/>
+			<text x="2.69" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>gamma</text>		</g>
+		<g id="shape166-455" v:mID="166" v:groupContext="shape" transform="translate(1200.24,-380.88)">
+			<title>Light_ff_scalar_beta</title>
+			<desc>beta</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_scalar_beta)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.16" cy="628.56" width="40.32" height="20.16"/>
+			<rect x="0" y="618.48" width="40.32" height="20.16" class="st5"/>
+			<text x="6.1" y="632.66" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>beta</text>		</g>
+		<g id="shape167-458" v:mID="167" v:groupContext="shape" transform="translate(35.28,-531.36)">
+			<title>Light_tree_trunk_0</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_0)"/>
+			</v:userDefs>
+			<path d="M0 630 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape168-461" v:mID="168" v:groupContext="shape" transform="translate(52.56,-535.68)">
+			<title>Light_tree_trunk_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_1)"/>
+			</v:userDefs>
+			<path d="M0 627.84 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape169-464" v:mID="169" v:groupContext="shape" transform="translate(64.8,-537.12)">
+			<title>Light_tree_trunk_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_2)"/>
+			</v:userDefs>
+			<path d="M0 630 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape170-467" v:mID="170" v:groupContext="shape" transform="translate(79.2,-539.28)">
+			<title>Light_tree_trunk_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_3)"/>
+			</v:userDefs>
+			<path d="M0 631.44 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape171-470" v:mID="171" v:groupContext="shape" transform="translate(120.24,-540.72)">
+			<title>Light_tree_trunk_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_4)"/>
+			</v:userDefs>
+			<path d="M0 630.72 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape172-473" v:mID="172" v:groupContext="shape" transform="translate(132.48,-535.68)">
+			<title>Light_tree_trunk_5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_5)"/>
+			</v:userDefs>
+			<path d="M0 630 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape173-476" v:mID="173" v:groupContext="shape" transform="translate(149.04,-535.68)">
+			<title>Light_tree_trunk_6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tree_trunk_6)"/>
+			</v:userDefs>
+			<path d="M0 627.84 L0 638.64" class="st48"/>
+		</g>
+		<g id="shape174-479" v:mID="174" v:groupContext="shape" transform="translate(291.96,-539.28)">
+			<title>Light_patch_tokens_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_c1)"/>
+			</v:userDefs>
+			<path d="M29.4 606.96 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape175-482" v:mID="175" v:groupContext="shape" transform="translate(302.4,-539.28)">
+			<title>Light_patch_tokens_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_c2)"/>
+			</v:userDefs>
+			<path d="M28.56 606.96 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape176-485" v:mID="176" v:groupContext="shape" transform="translate(312.84,-539.28)">
+			<title>Light_patch_tokens_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_c3)"/>
+			</v:userDefs>
+			<path d="M27.72 606.96 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape177-488" v:mID="177" v:groupContext="shape" transform="translate(323.28,-539.28)">
+			<title>Light_patch_tokens_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_c4)"/>
+			</v:userDefs>
+			<path d="M26.88 606.96 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape178-491" v:mID="178" v:groupContext="shape" transform="translate(333.72,-539.28)">
+			<title>Light_patch_tokens_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_c5)"/>
+			</v:userDefs>
+			<path d="M26.04 606.96 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape179-494" v:mID="179" v:groupContext="shape" transform="translate(305.712,-564.624)">
+			<title>Light_patch_tokens_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L58.61 638.64" class="st49"/>
+		</g>
+		<g id="shape180-497" v:mID="180" v:groupContext="shape" transform="translate(299.664,-558.288)">
+			<title>Light_patch_tokens_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 638.64 L59.62 638.64" class="st49"/>
+		</g>
+		<g id="shape181-500" v:mID="181" v:groupContext="shape" transform="translate(293.616,-551.952)">
+			<title>Light_patch_tokens_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 638.64 L60.62 638.64" class="st49"/>
+		</g>
+		<g id="shape182-503" v:mID="182" v:groupContext="shape" transform="translate(287.568,-545.616)">
+			<title>Light_patch_tokens_grid_r4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_tokens_grid_r4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L61.63 638.64" class="st49"/>
+		</g>
+		<g id="shape183-506" v:mID="183" v:groupContext="shape" transform="translate(385.8,-401.28)">
+			<title>Light_z_map_1_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_c1)"/>
+			</v:userDefs>
+			<path d="M19.32 612.84 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape184-509" v:mID="184" v:groupContext="shape" transform="translate(397.92,-400.8)">
+			<title>Light_z_map_1_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_c2)"/>
+			</v:userDefs>
+			<path d="M19.2 612.96 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape185-512" v:mID="185" v:groupContext="shape" transform="translate(410.04,-400.32)">
+			<title>Light_z_map_1_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_c3)"/>
+			</v:userDefs>
+			<path d="M19.08 613.08 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape186-515" v:mID="186" v:groupContext="shape" transform="translate(422.16,-399.84)">
+			<title>Light_z_map_1_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_c4)"/>
+			</v:userDefs>
+			<path d="M18.96 613.2 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape187-518" v:mID="187" v:groupContext="shape" transform="translate(434.28,-399.36)">
+			<title>Light_z_map_1_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_c5)"/>
+			</v:userDefs>
+			<path d="M18.84 613.32 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape188-521" v:mID="188" v:groupContext="shape" transform="translate(388.26,-417.78)">
+			<title>Light_z_map_1_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 635.22 L72.18 638.64" class="st49"/>
+		</g>
+		<g id="shape189-524" v:mID="189" v:groupContext="shape" transform="translate(383.4,-411.48)">
+			<title>Light_z_map_1_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 635.4 L72.36 638.64" class="st49"/>
+		</g>
+		<g id="shape190-527" v:mID="190" v:groupContext="shape" transform="translate(378.54,-405.18)">
+			<title>Light_z_map_1_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_1_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 635.58 L72.54 638.64" class="st49"/>
+		</g>
+		<g id="shape191-530" v:mID="191" v:groupContext="shape" transform="translate(588.96,-386.496)">
+			<title>Light_att_1_1_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape192-533" v:mID="192" v:groupContext="shape" transform="translate(596.16,-386.352)">
+			<title>Light_att_1_1_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape193-536" v:mID="193" v:groupContext="shape" transform="translate(603.36,-386.208)">
+			<title>Light_att_1_1_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape194-539" v:mID="194" v:groupContext="shape" transform="translate(610.56,-386.064)">
+			<title>Light_att_1_1_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape195-542" v:mID="195" v:groupContext="shape" transform="translate(594.18,-401.58)">
+			<title>Light_att_1_1_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape196-545" v:mID="196" v:groupContext="shape" transform="translate(590.04,-396.36)">
+			<title>Light_att_1_1_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape197-548" v:mID="197" v:groupContext="shape" transform="translate(585.9,-391.14)">
+			<title>Light_att_1_1_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_1_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape198-551" v:mID="198" v:groupContext="shape" transform="translate(648,-386.496)">
+			<title>Light_att_1_2_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape199-554" v:mID="199" v:groupContext="shape" transform="translate(655.2,-386.352)">
+			<title>Light_att_1_2_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape200-557" v:mID="200" v:groupContext="shape" transform="translate(662.4,-386.208)">
+			<title>Light_att_1_2_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape201-560" v:mID="201" v:groupContext="shape" transform="translate(669.6,-386.064)">
+			<title>Light_att_1_2_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape202-563" v:mID="202" v:groupContext="shape" transform="translate(653.22,-401.58)">
+			<title>Light_att_1_2_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape203-566" v:mID="203" v:groupContext="shape" transform="translate(649.08,-396.36)">
+			<title>Light_att_1_2_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape204-569" v:mID="204" v:groupContext="shape" transform="translate(644.94,-391.14)">
+			<title>Light_att_1_2_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_1_2_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape205-572" v:mID="205" v:groupContext="shape" transform="translate(918.6,-428.16)">
+			<title>Light_fused_1_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_c1)"/>
+			</v:userDefs>
+			<path d="M26.28 601.92 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape206-575" v:mID="206" v:groupContext="shape" transform="translate(929.28,-427.2)">
+			<title>Light_fused_1_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_c2)"/>
+			</v:userDefs>
+			<path d="M25.2 601.92 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape207-578" v:mID="207" v:groupContext="shape" transform="translate(939.96,-426.24)">
+			<title>Light_fused_1_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_c3)"/>
+			</v:userDefs>
+			<path d="M24.12 601.92 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape208-581" v:mID="208" v:groupContext="shape" transform="translate(950.64,-425.28)">
+			<title>Light_fused_1_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_c4)"/>
+			</v:userDefs>
+			<path d="M23.04 601.92 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape209-584" v:mID="209" v:groupContext="shape" transform="translate(961.32,-424.32)">
+			<title>Light_fused_1_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_c5)"/>
+			</v:userDefs>
+			<path d="M21.96 601.92 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape210-587" v:mID="210" v:groupContext="shape" transform="translate(928.44,-450.9)">
+			<title>Light_fused_1_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 632.88 L59.22 638.64" class="st49"/>
+		</g>
+		<g id="shape211-590" v:mID="211" v:groupContext="shape" transform="translate(921.6,-441.72)">
+			<title>Light_fused_1_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 632.88 L60.84 638.64" class="st49"/>
+		</g>
+		<g id="shape212-593" v:mID="212" v:groupContext="shape" transform="translate(914.76,-432.54)">
+			<title>Light_fused_1_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_1_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 632.88 L62.46 638.64" class="st49"/>
+		</g>
+		<g id="shape213-596" v:mID="213" v:groupContext="shape" transform="translate(385.2,-295.44)">
+			<title>Light_z_map_2_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_c1)"/>
+			</v:userDefs>
+			<path d="M19.32 612.12 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape214-599" v:mID="214" v:groupContext="shape" transform="translate(397.44,-294.96)">
+			<title>Light_z_map_2_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_c2)"/>
+			</v:userDefs>
+			<path d="M19.2 612.24 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape215-602" v:mID="215" v:groupContext="shape" transform="translate(409.68,-294.48)">
+			<title>Light_z_map_2_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_c3)"/>
+			</v:userDefs>
+			<path d="M19.08 612.36 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape216-605" v:mID="216" v:groupContext="shape" transform="translate(421.92,-294)">
+			<title>Light_z_map_2_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_c4)"/>
+			</v:userDefs>
+			<path d="M18.96 612.48 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape217-608" v:mID="217" v:groupContext="shape" transform="translate(434.16,-293.52)">
+			<title>Light_z_map_2_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_c5)"/>
+			</v:userDefs>
+			<path d="M18.84 612.6 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape218-611" v:mID="218" v:groupContext="shape" transform="translate(387.54,-312.48)">
+			<title>Light_z_map_2_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 635.22 L72.9 638.64" class="st49"/>
+		</g>
+		<g id="shape219-614" v:mID="219" v:groupContext="shape" transform="translate(382.68,-306)">
+			<title>Light_z_map_2_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 635.4 L73.08 638.64" class="st49"/>
+		</g>
+		<g id="shape220-617" v:mID="220" v:groupContext="shape" transform="translate(377.82,-299.52)">
+			<title>Light_z_map_2_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_2_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 635.58 L73.26 638.64" class="st49"/>
+		</g>
+		<g id="shape221-620" v:mID="221" v:groupContext="shape" transform="translate(588.96,-282.816)">
+			<title>Light_att_2_1_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape222-623" v:mID="222" v:groupContext="shape" transform="translate(596.16,-282.672)">
+			<title>Light_att_2_1_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape223-626" v:mID="223" v:groupContext="shape" transform="translate(603.36,-282.528)">
+			<title>Light_att_2_1_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape224-629" v:mID="224" v:groupContext="shape" transform="translate(610.56,-282.384)">
+			<title>Light_att_2_1_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape225-632" v:mID="225" v:groupContext="shape" transform="translate(594.18,-297.9)">
+			<title>Light_att_2_1_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape226-635" v:mID="226" v:groupContext="shape" transform="translate(590.04,-292.68)">
+			<title>Light_att_2_1_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape227-638" v:mID="227" v:groupContext="shape" transform="translate(585.9,-287.46)">
+			<title>Light_att_2_1_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_1_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape228-641" v:mID="228" v:groupContext="shape" transform="translate(648,-282.816)">
+			<title>Light_att_2_2_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape229-644" v:mID="229" v:groupContext="shape" transform="translate(655.2,-282.672)">
+			<title>Light_att_2_2_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape230-647" v:mID="230" v:groupContext="shape" transform="translate(662.4,-282.528)">
+			<title>Light_att_2_2_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape231-650" v:mID="231" v:groupContext="shape" transform="translate(669.6,-282.384)">
+			<title>Light_att_2_2_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape232-653" v:mID="232" v:groupContext="shape" transform="translate(653.22,-297.9)">
+			<title>Light_att_2_2_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape233-656" v:mID="233" v:groupContext="shape" transform="translate(649.08,-292.68)">
+			<title>Light_att_2_2_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape234-659" v:mID="234" v:groupContext="shape" transform="translate(644.94,-287.46)">
+			<title>Light_att_2_2_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_2_2_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape235-662" v:mID="235" v:groupContext="shape" transform="translate(919.8,-319.44)">
+			<title>Light_fused_2_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_c1)"/>
+			</v:userDefs>
+			<path d="M25.08 601.92 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape236-665" v:mID="236" v:groupContext="shape" transform="translate(930.96,-318.48)">
+			<title>Light_fused_2_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_c2)"/>
+			</v:userDefs>
+			<path d="M24.24 601.92 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape237-668" v:mID="237" v:groupContext="shape" transform="translate(942.12,-317.52)">
+			<title>Light_fused_2_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_c3)"/>
+			</v:userDefs>
+			<path d="M23.4 601.92 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape238-671" v:mID="238" v:groupContext="shape" transform="translate(953.28,-316.56)">
+			<title>Light_fused_2_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_c4)"/>
+			</v:userDefs>
+			<path d="M22.56 601.92 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape239-674" v:mID="239" v:groupContext="shape" transform="translate(964.44,-315.6)">
+			<title>Light_fused_2_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_c5)"/>
+			</v:userDefs>
+			<path d="M21.72 601.92 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape240-677" v:mID="240" v:groupContext="shape" transform="translate(928.08,-342.18)">
+			<title>Light_fused_2_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 632.88 L63.18 638.64" class="st49"/>
+		</g>
+		<g id="shape241-680" v:mID="241" v:groupContext="shape" transform="translate(921.6,-333)">
+			<title>Light_fused_2_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 632.88 L64.44 638.64" class="st49"/>
+		</g>
+		<g id="shape242-683" v:mID="242" v:groupContext="shape" transform="translate(915.12,-323.82)">
+			<title>Light_fused_2_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_2_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 632.88 L65.7 638.64" class="st49"/>
+		</g>
+		<g id="shape243-686" v:mID="243" v:groupContext="shape" transform="translate(384.72,-190.2)">
+			<title>Light_z_map_3_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_c1)"/>
+			</v:userDefs>
+			<path d="M19.44 612 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape244-689" v:mID="244" v:groupContext="shape" transform="translate(397.2,-189.6)">
+			<title>Light_z_map_3_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_c2)"/>
+			</v:userDefs>
+			<path d="M19.44 612 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape245-692" v:mID="245" v:groupContext="shape" transform="translate(409.68,-189)">
+			<title>Light_z_map_3_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_c3)"/>
+			</v:userDefs>
+			<path d="M19.44 612 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape246-695" v:mID="246" v:groupContext="shape" transform="translate(422.16,-188.4)">
+			<title>Light_z_map_3_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_c4)"/>
+			</v:userDefs>
+			<path d="M19.44 612 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape247-698" v:mID="247" v:groupContext="shape" transform="translate(434.64,-187.8)">
+			<title>Light_z_map_3_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_c5)"/>
+			</v:userDefs>
+			<path d="M19.44 612 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape248-701" v:mID="248" v:groupContext="shape" transform="translate(386.82,-207.18)">
+			<title>Light_z_map_3_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 635.04 L74.88 638.64" class="st49"/>
+		</g>
+		<g id="shape249-704" v:mID="249" v:groupContext="shape" transform="translate(381.96,-200.52)">
+			<title>Light_z_map_3_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 635.04 L74.88 638.64" class="st49"/>
+		</g>
+		<g id="shape250-707" v:mID="250" v:groupContext="shape" transform="translate(377.1,-193.86)">
+			<title>Light_z_map_3_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_3_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 635.04 L74.88 638.64" class="st49"/>
+		</g>
+		<g id="shape251-710" v:mID="251" v:groupContext="shape" transform="translate(588.96,-176.256)">
+			<title>Light_att_3_1_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape252-713" v:mID="252" v:groupContext="shape" transform="translate(596.16,-176.112)">
+			<title>Light_att_3_1_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape253-716" v:mID="253" v:groupContext="shape" transform="translate(603.36,-175.968)">
+			<title>Light_att_3_1_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape254-719" v:mID="254" v:groupContext="shape" transform="translate(610.56,-175.824)">
+			<title>Light_att_3_1_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape255-722" v:mID="255" v:groupContext="shape" transform="translate(594.18,-191.34)">
+			<title>Light_att_3_1_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape256-725" v:mID="256" v:groupContext="shape" transform="translate(590.04,-186.12)">
+			<title>Light_att_3_1_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape257-728" v:mID="257" v:groupContext="shape" transform="translate(585.9,-180.9)">
+			<title>Light_att_3_1_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_1_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape258-731" v:mID="258" v:groupContext="shape" transform="translate(648,-176.256)">
+			<title>Light_att_3_2_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape259-734" v:mID="259" v:groupContext="shape" transform="translate(655.2,-176.112)">
+			<title>Light_att_3_2_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape260-737" v:mID="260" v:groupContext="shape" transform="translate(662.4,-175.968)">
+			<title>Light_att_3_2_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape261-740" v:mID="261" v:groupContext="shape" transform="translate(669.6,-175.824)">
+			<title>Light_att_3_2_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape262-743" v:mID="262" v:groupContext="shape" transform="translate(653.22,-191.34)">
+			<title>Light_att_3_2_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape263-746" v:mID="263" v:groupContext="shape" transform="translate(649.08,-186.12)">
+			<title>Light_att_3_2_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape264-749" v:mID="264" v:groupContext="shape" transform="translate(644.94,-180.9)">
+			<title>Light_att_3_2_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_3_2_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape265-752" v:mID="265" v:groupContext="shape" transform="translate(920.28,-212.88)">
+			<title>Light_fused_3_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_c1)"/>
+			</v:userDefs>
+			<path d="M25.8 601.68 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape266-755" v:mID="266" v:groupContext="shape" transform="translate(931.92,-211.92)">
+			<title>Light_fused_3_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_c2)"/>
+			</v:userDefs>
+			<path d="M24.96 602.16 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape267-758" v:mID="267" v:groupContext="shape" transform="translate(943.56,-210.96)">
+			<title>Light_fused_3_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_c3)"/>
+			</v:userDefs>
+			<path d="M24.12 602.64 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape268-761" v:mID="268" v:groupContext="shape" transform="translate(955.2,-210)">
+			<title>Light_fused_3_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_c4)"/>
+			</v:userDefs>
+			<path d="M23.28 603.12 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape269-764" v:mID="269" v:groupContext="shape" transform="translate(966.84,-209.04)">
+			<title>Light_fused_3_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_c5)"/>
+			</v:userDefs>
+			<path d="M22.44 603.6 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape270-767" v:mID="270" v:groupContext="shape" transform="translate(928.62,-234)">
+			<title>Light_fused_3_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 630.72 L66.06 638.64" class="st49"/>
+		</g>
+		<g id="shape271-770" v:mID="271" v:groupContext="shape" transform="translate(921.96,-225.36)">
+			<title>Light_fused_3_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 631.44 L67.32 638.64" class="st49"/>
+		</g>
+		<g id="shape272-773" v:mID="272" v:groupContext="shape" transform="translate(915.3,-216.72)">
+			<title>Light_fused_3_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_3_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 632.16 L68.58 638.64" class="st49"/>
+		</g>
+		<g id="shape273-776" v:mID="273" v:groupContext="shape" transform="translate(382.92,-77.76)">
+			<title>Light_z_map_4_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_c1)"/>
+			</v:userDefs>
+			<path d="M21 607.56 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape274-779" v:mID="274" v:groupContext="shape" transform="translate(395.76,-77.04)">
+			<title>Light_z_map_4_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_c2)"/>
+			</v:userDefs>
+			<path d="M21.12 607.44 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape275-782" v:mID="275" v:groupContext="shape" transform="translate(408.6,-76.32)">
+			<title>Light_z_map_4_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_c3)"/>
+			</v:userDefs>
+			<path d="M21.24 607.32 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape276-785" v:mID="276" v:groupContext="shape" transform="translate(421.44,-75.6)">
+			<title>Light_z_map_4_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_c4)"/>
+			</v:userDefs>
+			<path d="M21.36 607.2 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape277-788" v:mID="277" v:groupContext="shape" transform="translate(434.28,-74.88)">
+			<title>Light_z_map_4_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_c5)"/>
+			</v:userDefs>
+			<path d="M21.48 607.08 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape278-791" v:mID="278" v:groupContext="shape" transform="translate(385.74,-97.92)">
+			<title>Light_z_map_4_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 634.86 L77.58 638.64" class="st49"/>
+		</g>
+		<g id="shape279-794" v:mID="279" v:groupContext="shape" transform="translate(380.52,-90)">
+			<title>Light_z_map_4_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 634.68 L77.4 638.64" class="st49"/>
+		</g>
+		<g id="shape280-797" v:mID="280" v:groupContext="shape" transform="translate(375.3,-82.08)">
+			<title>Light_z_map_4_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_map_4_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 634.5 L77.22 638.64" class="st49"/>
+		</g>
+		<g id="shape281-800" v:mID="281" v:groupContext="shape" transform="translate(588.96,-66.816)">
+			<title>Light_att_4_1_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape282-803" v:mID="282" v:groupContext="shape" transform="translate(596.16,-66.672)">
+			<title>Light_att_4_1_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape283-806" v:mID="283" v:groupContext="shape" transform="translate(603.36,-66.528)">
+			<title>Light_att_4_1_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape284-809" v:mID="284" v:groupContext="shape" transform="translate(610.56,-66.384)">
+			<title>Light_att_4_1_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape285-812" v:mID="285" v:groupContext="shape" transform="translate(594.18,-81.9)">
+			<title>Light_att_4_1_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape286-815" v:mID="286" v:groupContext="shape" transform="translate(590.04,-76.68)">
+			<title>Light_att_4_1_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape287-818" v:mID="287" v:groupContext="shape" transform="translate(585.9,-71.46)">
+			<title>Light_att_4_1_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_1_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape288-821" v:mID="288" v:groupContext="shape" transform="translate(648,-66.816)">
+			<title>Light_att_4_2_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_c1)"/>
+			</v:userDefs>
+			<path d="M16.85 617.18 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape289-824" v:mID="289" v:groupContext="shape" transform="translate(655.2,-66.672)">
+			<title>Light_att_4_2_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_c2)"/>
+			</v:userDefs>
+			<path d="M17.14 617.33 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape290-827" v:mID="290" v:groupContext="shape" transform="translate(662.4,-66.528)">
+			<title>Light_att_4_2_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_c3)"/>
+			</v:userDefs>
+			<path d="M17.42 617.47 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape291-830" v:mID="291" v:groupContext="shape" transform="translate(669.6,-66.384)">
+			<title>Light_att_4_2_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_c4)"/>
+			</v:userDefs>
+			<path d="M17.71 617.62 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape292-833" v:mID="292" v:groupContext="shape" transform="translate(653.22,-81.9)">
+			<title>Light_att_4_2_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 637.38 L37.08 638.64" class="st49"/>
+		</g>
+		<g id="shape293-836" v:mID="293" v:groupContext="shape" transform="translate(649.08,-76.68)">
+			<title>Light_att_4_2_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 637.56 L36.72 638.64" class="st49"/>
+		</g>
+		<g id="shape294-839" v:mID="294" v:groupContext="shape" transform="translate(644.94,-71.46)">
+			<title>Light_att_4_2_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(att_4_2_grid_r3)"/>
+			</v:userDefs>
+			<path d="M-0 637.74 L36.36 638.64" class="st49"/>
+		</g>
+		<g id="shape295-842" v:mID="295" v:groupContext="shape" transform="translate(921.6,-104.64)">
+			<title>Light_fused_4_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_c1)"/>
+			</v:userDefs>
+			<path d="M25.8 602.76 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape296-845" v:mID="296" v:groupContext="shape" transform="translate(933.84,-103.44)">
+			<title>Light_fused_4_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_c2)"/>
+			</v:userDefs>
+			<path d="M24.96 602.88 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape297-848" v:mID="297" v:groupContext="shape" transform="translate(946.08,-102.24)">
+			<title>Light_fused_4_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_c3)"/>
+			</v:userDefs>
+			<path d="M24.12 603 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape298-851" v:mID="298" v:groupContext="shape" transform="translate(958.32,-101.04)">
+			<title>Light_fused_4_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_c4)"/>
+			</v:userDefs>
+			<path d="M23.28 603.12 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape299-854" v:mID="299" v:groupContext="shape" transform="translate(970.56,-99.84)">
+			<title>Light_fused_4_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_c5)"/>
+			</v:userDefs>
+			<path d="M22.44 603.24 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape300-857" v:mID="300" v:groupContext="shape" transform="translate(929.34,-125.1)">
+			<title>Light_fused_4_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 630.9 L69.66 638.64" class="st49"/>
+		</g>
+		<g id="shape301-860" v:mID="301" v:groupContext="shape" transform="translate(922.68,-116.28)">
+			<title>Light_fused_4_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 631.08 L70.92 638.64" class="st49"/>
+		</g>
+		<g id="shape302-863" v:mID="302" v:groupContext="shape" transform="translate(916.02,-107.46)">
+			<title>Light_fused_4_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fused_4_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 631.26 L72.18 638.64" class="st49"/>
+		</g>
+		<g id="shape303-866" v:mID="303" v:groupContext="shape" transform="translate(851.16,-534.18)">
+			<title>Light_depth_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c1)"/>
+			</v:userDefs>
+			<path d="M36.42 589.14 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape304-869" v:mID="304" v:groupContext="shape" transform="translate(861.36,-534.12)">
+			<title>Light_depth_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c2)"/>
+			</v:userDefs>
+			<path d="M35.4 589.32 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape305-872" v:mID="305" v:groupContext="shape" transform="translate(871.56,-534.06)">
+			<title>Light_depth_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c3)"/>
+			</v:userDefs>
+			<path d="M34.38 589.5 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape306-875" v:mID="306" v:groupContext="shape" transform="translate(881.76,-534)">
+			<title>Light_depth_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c4)"/>
+			</v:userDefs>
+			<path d="M33.36 589.68 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape307-878" v:mID="307" v:groupContext="shape" transform="translate(891.96,-533.94)">
+			<title>Light_depth_grid_c5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c5)"/>
+			</v:userDefs>
+			<path d="M32.34 589.86 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape308-881" v:mID="308" v:groupContext="shape" transform="translate(902.16,-533.88)">
+			<title>Light_depth_grid_c6</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c6)"/>
+			</v:userDefs>
+			<path d="M31.32 590.04 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape309-884" v:mID="309" v:groupContext="shape" transform="translate(912.36,-533.82)">
+			<title>Light_depth_grid_c7</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c7)"/>
+			</v:userDefs>
+			<path d="M30.3 590.22 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape310-887" v:mID="310" v:groupContext="shape" transform="translate(922.56,-533.76)">
+			<title>Light_depth_grid_c8</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c8)"/>
+			</v:userDefs>
+			<path d="M29.28 590.4 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape311-890" v:mID="311" v:groupContext="shape" transform="translate(932.76,-533.7)">
+			<title>Light_depth_grid_c9</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c9)"/>
+			</v:userDefs>
+			<path d="M28.26 590.58 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape312-893" v:mID="312" v:groupContext="shape" transform="translate(942.96,-533.64)">
+			<title>Light_depth_grid_c10</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c10)"/>
+			</v:userDefs>
+			<path d="M27.24 590.76 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape313-896" v:mID="313" v:groupContext="shape" transform="translate(953.16,-533.58)">
+			<title>Light_depth_grid_c11</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_c11)"/>
+			</v:userDefs>
+			<path d="M26.22 590.94 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape314-899" v:mID="314" v:groupContext="shape" transform="translate(872.16,-573.12)">
+			<title>Light_depth_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_r1)"/>
+			</v:userDefs>
+			<path d="M-0 636.12 L112.2 638.64" class="st49"/>
+		</g>
+		<g id="shape315-902" v:mID="315" v:groupContext="shape" transform="translate(865.92,-565.2)">
+			<title>Light_depth_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_r2)"/>
+			</v:userDefs>
+			<path d="M0 636.48 L114.24 638.64" class="st49"/>
+		</g>
+		<g id="shape316-905" v:mID="316" v:groupContext="shape" transform="translate(859.68,-557.28)">
+			<title>Light_depth_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 636.84 L116.28 638.64" class="st49"/>
+		</g>
+		<g id="shape317-908" v:mID="317" v:groupContext="shape" transform="translate(853.44,-549.36)">
+			<title>Light_depth_grid_r4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_r4)"/>
+			</v:userDefs>
+			<path d="M-0 637.2 L118.32 638.64" class="st49"/>
+		</g>
+		<g id="shape318-911" v:mID="318" v:groupContext="shape" transform="translate(847.2,-541.44)">
+			<title>Light_depth_grid_r5</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(depth_grid_r5)"/>
+			</v:userDefs>
+			<path d="M0 637.56 L120.36 638.64" class="st49"/>
+		</g>
+		<g id="shape319-914" v:mID="319" v:groupContext="shape" transform="translate(524.16,-115.2)">
+			<title>Light_ambiguous_common_bus</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ambiguous_common_bus)"/>
+			</v:userDefs>
+			<path d="M0 293.76 L0 638.64" class="st50"/>
+		</g>
+		<g id="shape320-917" v:mID="320" v:groupContext="shape" transform="translate(228.96,-343.44)">
+			<title>Light_leader_transformer</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(leader_transformer)"/>
+			</v:userDefs>
+			<path d="M-0 630 L128.88 638.64" class="st51"/>
+		</g>
+		<g id="shape321-920" v:mID="321" v:groupContext="shape" transform="translate(695.52,-390.96)">
+			<title>Light_leader_acm</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(leader_acm)"/>
+			</v:userDefs>
+			<path d="M18 542.16 L18 638.64 L0 638.64" class="st51"/>
+		</g>
+		<g id="shape322-923" v:mID="322" v:groupContext="shape" transform="translate(982.08,-345.6)">
+			<title>Light_leader_ffd</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(leader_ffd)"/>
+			</v:userDefs>
+			<path d="M45.36 609.84 L-0 638.64" class="st51"/>
+		</g>
+		<g id="shape323-926" v:mID="323" v:groupContext="shape" transform="translate(753.408,-566.496)">
+			<title>Light_detail_ap_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_c1)"/>
+			</v:userDefs>
+			<path d="M15.7 618.48 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape324-929" v:mID="324" v:groupContext="shape" transform="translate(758.016,-566.352)">
+			<title>Light_detail_ap_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_c2)"/>
+			</v:userDefs>
+			<path d="M15.55 618.48 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape325-932" v:mID="325" v:groupContext="shape" transform="translate(762.624,-566.208)">
+			<title>Light_detail_ap_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_c3)"/>
+			</v:userDefs>
+			<path d="M15.41 618.48 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape326-935" v:mID="326" v:groupContext="shape" transform="translate(767.232,-566.064)">
+			<title>Light_detail_ap_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_c4)"/>
+			</v:userDefs>
+			<path d="M15.26 618.48 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape327-938" v:mID="327" v:groupContext="shape" transform="translate(760.68,-581.04)">
+			<title>Light_detail_ap_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 637.92 L22.5 638.64" class="st49"/>
+		</g>
+		<g id="shape328-941" v:mID="328" v:groupContext="shape" transform="translate(756.72,-576)">
+			<title>Light_detail_ap_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 637.92 L22.68 638.64" class="st49"/>
+		</g>
+		<g id="shape329-944" v:mID="329" v:groupContext="shape" transform="translate(752.76,-570.96)">
+			<title>Light_detail_ap_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ap_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 637.92 L22.86 638.64" class="st49"/>
+		</g>
+		<g id="shape330-947" v:mID="330" v:groupContext="shape" transform="translate(753.408,-508.176)">
+			<title>Light_detail_ac_grid_c1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_c1)"/>
+			</v:userDefs>
+			<path d="M15.7 617.76 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape331-950" v:mID="331" v:groupContext="shape" transform="translate(758.016,-508.032)">
+			<title>Light_detail_ac_grid_c2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_c2)"/>
+			</v:userDefs>
+			<path d="M15.55 617.76 L0 638.64" class="st49"/>
+		</g>
+		<g id="shape332-953" v:mID="332" v:groupContext="shape" transform="translate(762.624,-507.888)">
+			<title>Light_detail_ac_grid_c3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_c3)"/>
+			</v:userDefs>
+			<path d="M15.41 617.76 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape333-956" v:mID="333" v:groupContext="shape" transform="translate(767.232,-507.744)">
+			<title>Light_detail_ac_grid_c4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_c4)"/>
+			</v:userDefs>
+			<path d="M15.26 617.76 L-0 638.64" class="st49"/>
+		</g>
+		<g id="shape334-959" v:mID="334" v:groupContext="shape" transform="translate(760.68,-523.26)">
+			<title>Light_detail_ac_grid_r1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_r1)"/>
+			</v:userDefs>
+			<path d="M0 637.92 L22.5 638.64" class="st49"/>
+		</g>
+		<g id="shape335-962" v:mID="335" v:groupContext="shape" transform="translate(756.72,-518.04)">
+			<title>Light_detail_ac_grid_r2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_r2)"/>
+			</v:userDefs>
+			<path d="M-0 637.92 L22.68 638.64" class="st49"/>
+		</g>
+		<g id="shape336-965" v:mID="336" v:groupContext="shape" transform="translate(752.76,-512.82)">
+			<title>Light_detail_ac_grid_r3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_ac_grid_r3)"/>
+			</v:userDefs>
+			<path d="M0 637.92 L22.86 638.64" class="st49"/>
+		</g>
+		<g id="shape337-968" v:mID="337" v:groupContext="shape" transform="translate(174.96,-550.08)">
+			<title>Light_image_to_cnn</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(image_to_cnn)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L15.98 638.64" class="st52"/>
+		</g>
+		<g id="shape338-974" v:mID="338" v:groupContext="shape" transform="translate(261.36,-550.08)">
+			<title>Light_cnn_to_patch</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cnn_to_patch)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L20.53 638.64" class="st52"/>
+		</g>
+		<g id="shape339-979" v:mID="339" v:groupContext="shape" transform="translate(352.465,-549.72)">
+			<title>Light_patch_to_projection</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(patch_to_projection)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L30 638.64" class="st52"/>
+		</g>
+		<g id="shape340-984" v:mID="340" v:groupContext="shape" transform="translate(1065.6,207.36) rotate(90)">
+			<title>Light_transformer_to_z_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_to_z_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.29 638.64" class="st54"/>
+		</g>
+		<g id="shape341-987" v:mID="341" v:groupContext="shape" transform="translate(1202.55,-24.3669) rotate(67.2619)">
+			<title>Light_acm_to_tile_1_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_1_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L8.59 638.64" class="st55"/>
+		</g>
+		<g id="shape342-990" v:mID="342" v:groupContext="shape" transform="translate(1280.1,23.3398) rotate(71.8311)">
+			<title>Light_acm_to_tile_1_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_1_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L8.34 638.64" class="st55"/>
+		</g>
+		<g id="shape343-993" v:mID="343" v:groupContext="shape" transform="translate(892.8,-439.56)">
+			<title>Light_ffd_to_fused_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_to_fused_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L12.96 638.64" class="st52"/>
+		</g>
+		<g id="shape344-998" v:mID="344" v:groupContext="shape" transform="translate(505.041,-460.072) rotate(0.287194)">
+			<title>Light_direct_skip_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(direct_skip_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L277.35 638.64" class="st52"/>
+		</g>
+		<g id="shape345-1003" v:mID="345" v:groupContext="shape" transform="translate(702.324,-409.16) rotate(18.8356)">
+			<title>Light_z_to_acm_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_to_acm_1)"/>
+			</v:userDefs>
+			<path d="M0 620.97 L21.12 613.77 L29.61 638.64 L81.4 620.97 L81.4 620.97" class="st56"/>
+		</g>
+		<g id="shape346-1009" v:mID="346" v:groupContext="shape" transform="translate(700.934,-433.795) rotate(0.227363)">
+			<title>Light_acm_output_1_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_1_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L80.78 638.64" class="st52"/>
+		</g>
+		<g id="shape347-1014" v:mID="347" v:groupContext="shape" transform="translate(704.88,-418.32)">
+			<title>Light_acm_output_2_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_2_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L74.3 638.64" class="st52"/>
+		</g>
+		<g id="shape348-1019" v:mID="348" v:groupContext="shape" transform="translate(1065.6,313.92) rotate(90)">
+			<title>Light_transformer_to_z_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_to_z_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L3.87 638.64" class="st54"/>
+		</g>
+		<g id="shape349-1022" v:mID="349" v:groupContext="shape" transform="translate(1193.52,59.5102) rotate(65.2503)">
+			<title>Light_acm_to_tile_2_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_2_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L7.93 638.64" class="st55"/>
+		</g>
+		<g id="shape350-1025" v:mID="350" v:groupContext="shape" transform="translate(1274,110.029) rotate(70.1504)">
+			<title>Light_acm_to_tile_2_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_2_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L7.65 638.64" class="st55"/>
+		</g>
+		<g id="shape351-1028" v:mID="351" v:groupContext="shape" transform="translate(892.8,-334.44)">
+			<title>Light_ffd_to_fused_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_to_fused_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L15.81 638.64" class="st52"/>
+		</g>
+		<g id="shape352-1033" v:mID="352" v:groupContext="shape" transform="translate(501.84,-353.52)">
+			<title>Light_direct_skip_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(direct_skip_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L277.34 638.64" class="st52"/>
+		</g>
+		<g id="shape353-1038" v:mID="353" v:groupContext="shape" transform="translate(687.77,-308.745) rotate(17.3845)">
+			<title>Light_z_to_acm_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_to_acm_2)"/>
+			</v:userDefs>
+			<path d="M0 622.29 L21.3 615.62 L28.51 638.64 L80.73 622.29 L80.73 622.29" class="st56"/>
+		</g>
+		<g id="shape354-1043" v:mID="354" v:groupContext="shape" transform="translate(706.002,-329.355) rotate(0.68206)">
+			<title>Light_acm_output_1_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_1_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L80.79 638.64" class="st52"/>
+		</g>
+		<g id="shape355-1048" v:mID="355" v:groupContext="shape" transform="translate(704.88,-313.2)">
+			<title>Light_acm_output_2_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_2_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L74.3 638.64" class="st52"/>
+		</g>
+		<g id="shape356-1053" v:mID="356" v:groupContext="shape" transform="translate(1065.6,419.76) rotate(90)">
+			<title>Light_transformer_to_z_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_to_z_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L3.14 638.64" class="st54"/>
+		</g>
+		<g id="shape357-1056" v:mID="357" v:groupContext="shape" transform="translate(1209.7,202.975) rotate(68.9849)">
+			<title>Light_acm_to_tile_3_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_3_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L9.26 638.64" class="st55"/>
+		</g>
+		<g id="shape358-1059" v:mID="358" v:groupContext="shape" transform="translate(1284.87,248.021) rotate(73.257)">
+			<title>Light_acm_to_tile_3_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_3_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L9.02 638.64" class="st55"/>
+		</g>
+		<g id="shape359-1062" v:mID="359" v:groupContext="shape" transform="translate(892.8,-227.88)">
+			<title>Light_ffd_to_fused_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_to_fused_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L15.89 638.64" class="st52"/>
+		</g>
+		<g id="shape360-1067" v:mID="360" v:groupContext="shape" transform="translate(503.441,-247.678) rotate(0.143598)">
+			<title>Light_direct_skip_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(direct_skip_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L277.34 638.64" class="st52"/>
+		</g>
+		<g id="shape361-1072" v:mID="361" v:groupContext="shape" transform="translate(682.825,-204.897) rotate(16.8955)">
+			<title>Light_z_to_acm_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_to_acm_3)"/>
+			</v:userDefs>
+			<path d="M0 622.74 L21.36 616.25 L28.16 638.64 L80.52 622.74 L80.52 622.74" class="st56"/>
+		</g>
+		<g id="shape362-1077" v:mID="362" v:groupContext="shape" transform="translate(716.133,-224.034) rotate(1.59114)">
+			<title>Light_acm_output_1_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_1_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L80.82 638.64" class="st52"/>
+		</g>
+		<g id="shape363-1082" v:mID="363" v:groupContext="shape" transform="translate(704.88,-206.64)">
+			<title>Light_acm_output_2_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_2_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L74.3 638.64" class="st52"/>
+		</g>
+		<g id="shape364-1087" v:mID="364" v:groupContext="shape" transform="translate(1065.6,525.6) rotate(90)">
+			<title>Light_transformer_to_z_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(transformer_to_z_4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.27 638.64" class="st54"/>
+		</g>
+		<g id="shape365-1090" v:mID="365" v:groupContext="shape" transform="translate(1215.46,327.272) rotate(70.4747)">
+			<title>Light_acm_to_tile_4_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_4_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L9.93 638.64" class="st55"/>
+		</g>
+		<g id="shape366-1093" v:mID="366" v:groupContext="shape" transform="translate(1288.66,369.841) rotate(74.4804)">
+			<title>Light_acm_to_tile_4_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_to_tile_4_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L9.71 638.64" class="st55"/>
+		</g>
+		<g id="shape367-1096" v:mID="367" v:groupContext="shape" transform="translate(892.8,-119.88)">
+			<title>Light_ffd_to_fused_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd_to_fused_4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L17.01 638.64" class="st52"/>
+		</g>
+		<g id="shape368-1101" v:mID="368" v:groupContext="shape" transform="translate(508.242,-141.808) rotate(0.574375)">
+			<title>Light_direct_skip_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(direct_skip_4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L277.36 638.64" class="st52"/>
+		</g>
+		<g id="shape369-1106" v:mID="369" v:groupContext="shape" transform="translate(702.324,-90.9195) rotate(18.8356)">
+			<title>Light_z_to_acm_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z_to_acm_4)"/>
+			</v:userDefs>
+			<path d="M0 620.97 L21.12 613.77 L29.61 638.64 L81.4 620.97 L81.4 620.97" class="st56"/>
+		</g>
+		<g id="shape370-1111" v:mID="370" v:groupContext="shape" transform="translate(711.069,-115.434) rotate(1.13667)">
+			<title>Light_acm_output_1_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_1_4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L80.8 638.64" class="st52"/>
+		</g>
+		<g id="shape371-1116" v:mID="371" v:groupContext="shape" transform="translate(704.88,-98.64)">
+			<title>Light_acm_output_2_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(acm_output_2_4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L74.3 638.64" class="st52"/>
+		</g>
+		<g id="shape372-1121" v:mID="372" v:groupContext="shape" transform="translate(1074.24,110.88) rotate(90)">
+			<title>Light_projection_to_encoder</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(projection_to_encoder)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L46.94 638.64" class="st52"/>
+		</g>
+		<g id="shape373-1126" v:mID="373" v:groupContext="shape" transform="translate(1065.6,244.75) rotate(90)">
+			<title>Light_backbone_1_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(backbone_1_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L19.63 638.64" class="st52"/>
+		</g>
+		<g id="shape374-1131" v:mID="374" v:groupContext="shape" transform="translate(1065.6,350.598) rotate(90)">
+			<title>Light_backbone_2_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(backbone_2_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L19.63 638.64" class="st52"/>
+		</g>
+		<g id="shape375-1136" v:mID="375" v:groupContext="shape" transform="translate(1065.6,456.231) rotate(90)">
+			<title>Light_backbone_3_4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(backbone_3_4)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L19.83 638.64" class="st52"/>
+		</g>
+		<g id="shape376-1141" v:mID="376" v:groupContext="shape" transform="translate(600.609,-12.067) rotate(16.7349)">
+			<title>Light_z4_to_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(z4_to_residual)"/>
+			</v:userDefs>
+			<path d="M0 606.82 L9.57 638.64 L115.41 606.82 L115.41 606.82" class="st56"/>
+		</g>
+		<g id="shape377-1146" v:mID="377" v:groupContext="shape" transform="translate(479.198,60.3441) rotate(-22.2835)">
+			<title>Light_residual_to_ffd4</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(residual_to_ffd4)"/>
+			</v:userDefs>
+			<path d="M0 585.67 L129.25 638.64 L150.95 585.67 L150.95 585.67" class="st56"/>
+		</g>
+		<g id="shape378-1151" v:mID="378" v:groupContext="shape" transform="translate(202.32,492.48) rotate(-90)">
+			<title>Light_decoder_4_3</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_4_3)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L45.5 638.64" class="st52"/>
+		</g>
+		<g id="shape379-1156" v:mID="379" v:groupContext="shape" transform="translate(202.32,384.48) rotate(-90)">
+			<title>Light_decoder_3_2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_3_2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L44.06 638.64" class="st52"/>
+		</g>
+		<g id="shape380-1161" v:mID="380" v:groupContext="shape" transform="translate(202.32,277.92) rotate(-90)">
+			<title>Light_decoder_2_1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_2_1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L42.62 638.64" class="st52"/>
+		</g>
+		<g id="shape381-1166" v:mID="381" v:groupContext="shape" transform="translate(241.718,172.8) rotate(-90)">
+			<title>Light_ffd1_to_depth</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ffd1_to_depth)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L46.08 638.64 L60.97 638.64 L60.97 638.64" class="st56"/>
+		</g>
+		<g id="shape382-1171" v:mID="382" v:groupContext="shape" transform="translate(-514.08,539.28) rotate(-90)">
+			<title>Light_tr_input_to_tr_norm1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_input_to_tr_norm1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L7.34 638.64" class="st52"/>
+		</g>
+		<g id="shape383-1176" v:mID="383" v:groupContext="shape" transform="translate(-514.08,493.2) rotate(-90)">
+			<title>Light_tr_norm1_to_tr_msa</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_norm1_to_tr_msa)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L8.06 638.64" class="st52"/>
+		</g>
+		<g id="shape384-1181" v:mID="384" v:groupContext="shape" transform="translate(-514.08,446.4) rotate(-90)">
+			<title>Light_tr_msa_to_tr_sum1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_msa_to_tr_sum1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L6.62 638.64" class="st52"/>
+		</g>
+		<g id="shape385-1186" v:mID="385" v:groupContext="shape" transform="translate(-514.08,398.88) rotate(-90)">
+			<title>Light_tr_sum1_to_tr_norm2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_sum1_to_tr_norm2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.9 638.64" class="st52"/>
+		</g>
+		<g id="shape386-1191" v:mID="386" v:groupContext="shape" transform="translate(-514.08,354.96) rotate(-90)">
+			<title>Light_tr_norm2_to_tr_mlp</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_norm2_to_tr_mlp)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L10.22 638.64" class="st52"/>
+		</g>
+		<g id="shape387-1196" v:mID="387" v:groupContext="shape" transform="translate(-514.08,306) rotate(-90)">
+			<title>Light_tr_mlp_to_tr_sum2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_mlp_to_tr_sum2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.9 638.64" class="st52"/>
+		</g>
+		<g id="shape388-1201" v:mID="388" v:groupContext="shape" transform="translate(-514.08,259.2) rotate(-90)">
+			<title>Light_tr_sum2_to_tr_output</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_sum2_to_tr_output)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L8.06 638.64" class="st52"/>
+		</g>
+		<g id="shape389-1206" v:mID="389" v:groupContext="shape" transform="translate(-541.515,415.875) rotate(-77.5387)">
+			<title>Light_tr_residual1</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_residual1)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L-5.9 611.92 L121.67 583.73 L133.8 638.64 L133.8 638.64" class="st56"/>
+		</g>
+		<g id="shape390-1211" v:mID="390" v:groupContext="shape" transform="translate(-529.2,414.36) rotate(-90)">
+			<title>Light_tr_residual2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(tr_residual2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L0 638.64 L0 579.6 L139.68 579.6 L139.68 638.64 L139.68 638.64" class="st57"/>
+		</g>
+		<g id="shape391-1219" v:mID="391" v:groupContext="shape" transform="translate(542.16,-547.56)">
+			<title>Light_detail_z_to_fork</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(detail_z_to_fork)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L21.6 638.64" class="st54"/>
+		</g>
+		<g id="shape392-1222" v:mID="392" v:groupContext="shape" transform="translate(67.5266,-310.932) rotate(-50.9881)">
+			<title>Light_fork_to_position</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fork_to_position)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L22.1 620.74 L36.6 638.64 L36.6 638.64" class="st56"/>
+		</g>
+		<g id="shape393-1227" v:mID="393" v:groupContext="shape" transform="translate(625.649,-575.931) rotate(-0.842524)">
+			<title>Light_conv_to_position</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(conv_to_position)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L14.55 638.64" class="st52"/>
+		</g>
+		<g id="shape394-1232" v:mID="394" v:groupContext="shape" transform="translate(723.6,-576.36)">
+			<title>Light_position_to_ap</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(position_to_ap)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L15.26 638.64" class="st52"/>
+		</g>
+		<g id="shape395-1237" v:mID="395" v:groupContext="shape" transform="translate(759.313,-488.154) rotate(18.655)">
+			<title>Light_fork_to_channel</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(fork_to_channel)"/>
+			</v:userDefs>
+			<path d="M0 611.35 L9.21 638.64 L88.91 611.35 L88.91 611.35" class="st56"/>
+		</g>
+		<g id="shape396-1242" v:mID="396" v:groupContext="shape" transform="translate(739.414,-518.887) rotate(1.54816)">
+			<title>Light_channel_to_ac</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(channel_to_ac)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L16.71 638.64" class="st52"/>
+		</g>
+		<g id="shape397-1247" v:mID="397" v:groupContext="shape" transform="translate(479.005,487.36) rotate(-80.4532)">
+			<title>Light_ff_z_to_reweight</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_z_to_reweight)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L14.16 638.64" class="st52"/>
+		</g>
+		<g id="shape398-1252" v:mID="398" v:groupContext="shape" transform="translate(520.812,513.346) rotate(-82.875)">
+			<title>Light_ff_ac_to_reweight</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_ac_to_reweight)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L13.28 638.64" class="st52"/>
+		</g>
+		<g id="shape399-1257" v:mID="399" v:groupContext="shape" transform="translate(570.266,636.531) rotate(-93.8832)">
+			<title>Light_ff_ap_to_reweight</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_ap_to_reweight)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L13.88 638.64" class="st52"/>
+		</g>
+		<g id="shape400-1262" v:mID="400" v:groupContext="shape" transform="translate(518.941,545.121) rotate(-91.3639)">
+			<title>Light_ff_reweight_to_ff_conv</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_reweight_to_ff_conv)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.19 638.64" class="st52"/>
+		</g>
+		<g id="shape401-1267" v:mID="401" v:groupContext="shape" transform="translate(518.4,488.16) rotate(-90)">
+			<title>Light_ff_conv_to_ff_u</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_conv_to_ff_u)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.9 638.64" class="st52"/>
+		</g>
+		<g id="shape402-1272" v:mID="402" v:groupContext="shape" transform="translate(519.314,479.124) rotate(-93.0665)">
+			<title>Light_ff_u_to_ff_l2</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_u_to_ff_l2)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L10.25 638.64" class="st52"/>
+		</g>
+		<g id="shape403-1277" v:mID="403" v:groupContext="shape" transform="translate(519.526,343.684) rotate(-85.2364)">
+			<title>Light_ff_l2_to_ff_alpha</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_l2_to_ff_alpha)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L3.07 638.64" class="st52"/>
+		</g>
+		<g id="shape404-1282" v:mID="404" v:groupContext="shape" transform="translate(518.676,375.175) rotate(-91.6847)">
+			<title>Light_ff_alpha_to_ff_cn</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_alpha_to_ff_cn)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L2.31 638.64" class="st52"/>
+		</g>
+		<g id="shape405-1287" v:mID="405" v:groupContext="shape" transform="translate(518.261,299.28) rotate(-88.4926)">
+			<title>Light_ff_cn_to_ff_gamma</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_cn_to_ff_gamma)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L3.75 638.64" class="st52"/>
+		</g>
+		<g id="shape406-1292" v:mID="406" v:groupContext="shape" transform="translate(518.4,275.04) rotate(-90)">
+			<title>Light_ff_gamma_to_ff_beta</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_gamma_to_ff_beta)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L0.86 638.64" class="st52"/>
+		</g>
+		<g id="shape407-1297" v:mID="407" v:groupContext="shape" transform="translate(518.954,263.467) rotate(-92.3859)">
+			<title>Light_ff_beta_to_ff_tanh</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_beta_to_ff_tanh)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L7.36 638.64" class="st52"/>
+		</g>
+		<g id="shape408-1302" v:mID="408" v:groupContext="shape" transform="translate(518.403,161.143) rotate(-87.2737)">
+			<title>Light_ff_tanh_to_ff_product</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_tanh_to_ff_product)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L5.2 638.64" class="st52"/>
+		</g>
+		<g id="shape409-1307" v:mID="409" v:groupContext="shape" transform="translate(518.4,149.04) rotate(-90)">
+			<title>Light_ff_product_to_ff_final</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_product_to_ff_final)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L4.46 638.64" class="st52"/>
+		</g>
+		<g id="shape410-1312" v:mID="410" v:groupContext="shape" transform="translate(518.838,82.9229) rotate(-87.8789)">
+			<title>Light_ff_final_to_ff_output</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_final_to_ff_output)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L9.52 638.64" class="st52"/>
+		</g>
+		<g id="shape411-1317" v:mID="411" v:groupContext="shape" transform="translate(1036.5,-155.037) rotate(-3.54477)">
+			<title>Light_decoder_x_to_u</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_x_to_u)"/>
+			</v:userDefs>
+			<path d="M0 633.61 L81.2 638.64 L81.52 633.61 L81.52 633.61" class="st56"/>
+		</g>
+		<g id="shape412-1322" v:mID="412" v:groupContext="shape" transform="translate(1232.07,1006.3) rotate(176.82)">
+			<title>Light_scalar_alpha</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(scalar_alpha)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L16.02 638.64" class="st52"/>
+		</g>
+		<g id="shape413-1327" v:mID="413" v:groupContext="shape" transform="translate(1234.8,924.506) rotate(176.186)">
+			<title>Light_scalar_gamma</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(scalar_gamma)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L11.71 638.64" class="st52"/>
+		</g>
+		<g id="shape414-1332" v:mID="414" v:groupContext="shape" transform="translate(1262.25,883.302) rotate(174.428)">
+			<title>Light_scalar_beta</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(scalar_beta)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L19.72 638.64" class="st52"/>
+		</g>
+		<g id="shape415-1337" v:mID="415" v:groupContext="shape" transform="translate(599.04,458.64) rotate(-90)">
+			<title>Light_ff_u_to_product</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_u_to_product)"/>
+			</v:userDefs>
+			<path d="M0 571.68 L0 638.64 L295.92 638.64 L295.92 571.68 L295.92 571.68" class="st56"/>
+		</g>
+		<g id="shape416-1342" v:mID="416" v:groupContext="shape" transform="translate(504.72,458.64) rotate(-90)">
+			<title>Light_ff_u_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_u_residual)"/>
+			</v:userDefs>
+			<path d="M0 638.64 L0 638.64 L0 547.2 L338.04 547.2 L338.04 638.64 L338.04 638.64" class="st57"/>
+		</g>
+		<g id="shape417-1349" v:mID="417" v:groupContext="shape" transform="translate(668.513,614.623) rotate(-96.6987)">
+			<title>Light_ff_wrong_raw_bypass</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(ff_wrong_raw_bypass)"/>
+			</v:userDefs>
+			<path d="M0 556.41 L-3.78 588.58 L422.41 638.64 L432.07 556.41 L432.07 556.41" class="st56"/>
+		</g>
+	</g>
+</svg>

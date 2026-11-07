@@ -1,0 +1,338 @@
+{
+  "brand": "Light-Science",
+  "version": "2.0.0",
+  "selection_status": "confirmed_by_author",
+  "selected_chart_ids": [
+    "03",
+    "04",
+    "05",
+    "06",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "chart_columns": 3,
+  "candidates": [
+    {
+      "file": "docs/assets/charts/01.png",
+      "sha256": "050c4e6400652f4015c54c64433816a2b94ff696b6b000758204119b2307de0c",
+      "bytes": 284516,
+      "id": "01",
+      "title": "多中心临床证据面板",
+      "category": "临床 · 分层比例与缺失数据",
+      "summary": "UCI Heart Disease，四中心历史样本的描述性再分析；不作因果推断。",
+      "source_file": "light-chart/artifacts/v0.8-multicentre/B_evidence_final.png",
+      "source_url": "https://doi.org/10.24432/C52P4X",
+      "source_terms": "Dataset: CC BY 4.0; credit Janosi, Steinbrunn, Pfisterer & Detrano.",
+      "recommended": true,
+      "caption": "docs/showcase/captions/01.md"
+    },
+    {
+      "file": "docs/assets/charts/02.png",
+      "sha256": "bd3f00e22969006cb7c8b4ed30a7daf8980969e9399f5ba225f6bcc4d4392b93",
+      "bytes": 218946,
+      "id": "02",
+      "title": "组学 PCA 与配对变化",
+      "category": "组学 · 样本结构与基因变化",
+      "summary": "airway：8 个样本、4 个细胞系的配对描述；不冒充显著性结果。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/heldout/runs/light-chart/omics-airway/figure-v1.png",
+      "source_url": "https://bioconductor.org/packages/airway/",
+      "source_terms": "Retain airway/Bioconductor package and study source attribution; see task provenance.",
+      "recommended": true,
+      "caption": "docs/showcase/captions/02.md"
+    },
+    {
+      "file": "docs/assets/charts/03.png",
+      "sha256": "89c41194f702175d5712405dac6e1d53ede7796e71e372d7747d1b70c7c2011c",
+      "bytes": 402530,
+      "id": "03",
+      "title": "脑电时序与频段功率",
+      "category": "信号 · 时序与频谱",
+      "summary": "PhysioNet EEG S001/R04：真实采样与固定时窗；时窗不是独立受试者。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/heldout/runs/light-chart/signals-eeg/figure-v1.png",
+      "source_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+      "source_terms": "Retain PhysioNet EEGMMIDB attribution and Open Data Commons Attribution License v1.0.",
+      "recommended": true,
+      "caption": "docs/showcase/captions/03.md"
+    },
+    {
+      "file": "docs/assets/charts/04.png",
+      "sha256": "17c51ce0cdf6eaa536745c5dddbdca585b545984848173bc999af4a1b5d2efe1",
+      "bytes": 193083,
+      "id": "04",
+      "title": "生态排序与群落热图",
+      "category": "生态 · 多变量与原始覆盖度",
+      "summary": "vegan varespec/varechem：24 个样地、44 个物种；描述群落结构。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/heldout/runs/light-chart/ecology-vare/v7/figure.png",
+      "source_url": "https://cran.r-project.org/package=vegan",
+      "source_terms": "Retain vegan dataset attribution: Väre, Ohtonen & Oksanen (1995); see task provenance.",
+      "recommended": true,
+      "caption": "docs/showcase/captions/04.md"
+    },
+    {
+      "file": "docs/assets/charts/05.png",
+      "sha256": "d494cd325354836a59f88f6e93405bfa06c0e9872f6cf05e6b84bcddf389d1d2",
+      "bytes": 921420,
+      "id": "05",
+      "title": "真实三维场与正交切片",
+      "category": "成像 · 等值面与空间校准",
+      "summary": "Allen Institute/scikit-image cells3d 实测体数据；等值面不是已验证的细胞分割。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/phase6/imaging/tasks/cells3d/outputs/cells3d-v6.png",
+      "source_url": "https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.cells3d",
+      "source_terms": "Retain Allen Institute for Cell Science/scikit-image data attribution and source-specific terms.",
+      "recommended": true,
+      "caption": "docs/showcase/captions/05.md"
+    },
+    {
+      "file": "docs/assets/charts/06.png",
+      "sha256": "44ee167372533cf86ca7b618ed201e5e31f9cf56540d401f254e35fc29cac9d4",
+      "bytes": 694412,
+      "id": "06",
+      "title": "温度场与年度差异",
+      "category": "气候 · 地图与时间序列",
+      "summary": "2013/2014 温度场的描述性对比；年度差异不是长期气候趋势。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/phase6/climate/tasks/air_temperature/figures/v2/air-temperature.png",
+      "source_url": "https://docs.xarray.dev/en/stable/examples/area_weighted_temperature.html",
+      "source_terms": "Retain original air_temperature NetCDF source records and Natural Earth public-domain coastline attribution.",
+      "recommended": true,
+      "caption": "docs/showcase/captions/06.md"
+    },
+    {
+      "file": "docs/assets/charts/07.png",
+      "sha256": "0a921b46c582107752b22b6e3abbf0be17674306feec0701b609f83214b35085",
+      "bytes": 282875,
+      "id": "07",
+      "title": "大气 CO₂ 季节变化",
+      "category": "环境 · 长期观测与季节结构",
+      "summary": "Mauna Loa 观测序列；展示趋势、季节性与数据支持范围。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/phase6/climate/tasks/mauna_loa_co2/figures/v3/mauna-loa-co2.png",
+      "source_url": "https://gml.noaa.gov/ccgg/trends/",
+      "source_terms": "Retain actual NOAA/source records in the figure task; see caption for series provenance.",
+      "recommended": false,
+      "caption": "docs/showcase/captions/07.md"
+    },
+    {
+      "file": "docs/assets/charts/08.png",
+      "sha256": "060a1b59846742dd5d46c47c76faf0511bca0cd353a5a5a4d03da6838bbc1ddd",
+      "bytes": 155755,
+      "id": "08",
+      "title": "植物响应与重复测量",
+      "category": "实验 · 个体轨迹与配对",
+      "summary": "R datasets::CO2：12 株植物、84 次观测；保留每株轨迹。",
+      "source_file": "light-chart/artifacts/v0.8-gallery/figures/38_T02_R_final.png",
+      "source_url": "https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/zCO2.html",
+      "source_terms": "Retain R datasets::CO2 attribution: Potvin, Lechowicz & Tardif (1990).",
+      "recommended": false,
+      "caption": "docs/showcase/captions/08.md"
+    },
+    {
+      "file": "docs/assets/charts/09.png",
+      "sha256": "bc2028cc98f31ff0d7158b9c8d8346b55d1b99dcfd6e3abbc16fa0039480345b",
+      "bytes": 463041,
+      "id": "09",
+      "title": "生长轨迹与随访支持",
+      "category": "纵向 · 轨迹、终点与观测数量",
+      "summary": "R datasets::ChickWeight：真实观测轨迹，明确缺失随访。",
+      "source_file": "light-chart/artifacts/v0.8-gallery/figures/37_T01_evidence.png",
+      "source_url": "https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/ChickWeight.html",
+      "source_terms": "Retain R datasets::ChickWeight attribution and dataset documentation.",
+      "recommended": false,
+      "caption": "docs/showcase/captions/09.md"
+    },
+    {
+      "file": "docs/assets/charts/10.png",
+      "sha256": "18867f2303f6ba8ed947402086d285fa5dd08f752a4d164bb1749b49d31ce6ce",
+      "bytes": 54885,
+      "id": "10",
+      "title": "雨云图与完整原始点",
+      "category": "分布 · 密度与个体观测",
+      "summary": "Iris 实测数据；密度、四分位与所有原始点。",
+      "source_file": "light-chart/artifacts/v0.8-gallery/figures/07_raincloud.png",
+      "source_url": "https://archive.ics.uci.edu/dataset/53/iris",
+      "source_terms": "Retain Iris dataset attribution and source terms.",
+      "recommended": false,
+      "caption": "docs/showcase/captions/10.md"
+    },
+    {
+      "file": "docs/assets/charts/11.png",
+      "sha256": "5db16c57e96df03d1e1f8f4e304ed35c2d817b0eb824af02362ea7547147fecb",
+      "bytes": 146576,
+      "id": "11",
+      "title": "方法对比与结构化热图",
+      "category": "计算 · 报告值的可视化重设计",
+      "summary": "figures4papers 提供的 RNAGenScape 汇总值；不是本项目独立实验。",
+      "source_file": "light-chart/artifacts/v0.8-gallery/figures/41_03_structured_heatmap.png",
+      "source_url": "https://github.com/ChenLiu-1996/figures4papers",
+      "source_terms": "CC BY-NC 4.0, Chen Liu and contributors; original data and adapted example retain these terms.",
+      "recommended": false,
+      "caption": "docs/showcase/captions/11.md"
+    },
+    {
+      "file": "docs/assets/charts/12.png",
+      "sha256": "f2ed70adc8b1fb3f4f332197276f0a85c813313d3219f913f899180c5b8e1822",
+      "bytes": 195609,
+      "id": "12",
+      "title": "生存曲线与风险人数",
+      "category": "临床 · 随访与不确定性",
+      "summary": "R survival::colon：未调整生存曲线、置信带与随访支持。",
+      "source_file": "light-chart/artifacts/nature-backbone-rebuild/heldout/runs/light-chart/clinical-colon/v3/figure.png",
+      "source_url": "https://stat.ethz.ch/R-manual/R-devel/library/survival/html/colon.html",
+      "source_terms": "Retain survival::colon dataset/trial attribution and original source documentation.",
+      "recommended": false,
+      "caption": "docs/showcase/captions/12.md"
+    }
+  ],
+  "methods": [
+    {
+      "id": "illustrator",
+      "tool": "Illustrator",
+      "title": "锂硫电池机制",
+      "asset_stem": "illustrator",
+      "note": "锂硫电池机制概念图；原生路径、文字和分组，已修正生成参考中的因果分支与放大来源。",
+      "case": "light-diagram/light-illustrator-diagram/evaluations/2026-10-30-lis-comparison",
+      "verified_on": "2026-10-30",
+      "pixel_perfect": false,
+      "displayed_page": "science_corrected",
+      "reference": {
+        "file": "docs/assets/methods/illustrator-reference.png",
+        "sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+        "bytes": 2293671
+      },
+      "reconstruction": {
+        "file": "docs/assets/methods/illustrator-reconstruction.png",
+        "sha256": "0d770bc3f69637e89b7b8fcc750cc660e0dc1a41772ca451c3653cc05a440312",
+        "bytes": 406760
+      },
+      "native": {
+        "file": "docs/showcase/native/illustrator.ai",
+        "sha256": "ea52a548edb76adf655b688b7299567ff1dce9ee195769b44cbbb14416363aec",
+        "bytes": 681879
+      },
+      "report": {
+        "file": "docs/showcase/evidence/illustrator/original-report.txt",
+        "sha256": "12f725de0168154b4234eb322852b40194976f751e7459e4fc988e634cb251e5",
+        "bytes": 7384
+      },
+      "source_manifest": {
+        "file": "docs/showcase/evidence/illustrator/source-manifest.json",
+        "sha256": "94821d13609c672eb449c5ae1a21d68fef7448240cee96eb94712d750df95e20",
+        "bytes": 2063
+      },
+      "verification": {
+        "file": "docs/showcase/evidence/illustrator/verification.json",
+        "sha256": "286f263d89c1fc8311d5bc76879dd14fd387ce4600cc9611cd4cd6b9f0cf628a",
+        "bytes": 1451
+      },
+      "prompt": {
+        "file": "docs/showcase/prompts/illustrator.txt",
+        "sha256": "370e9eedfe07a540233684aab90db3236307c24020dc412039de3a34373fc71e",
+        "bytes": 8500
+      }
+    },
+    {
+      "id": "powerpoint",
+      "tool": "PowerPoint",
+      "title": "CRISPR–Cas9 切割机制",
+      "asset_stem": "powerpoint-crispr",
+      "note": "CRISPR–Cas9 概念图；136 个原生对象，保留可编辑轮廓、文字与连接。历史案例验证可见绘制和原生编辑，纹理与曲线细节存在近似。",
+      "case": "light-diagram/light-powerpoint-diagram/evaluations/2026-10-30-crispr-live",
+      "verified_on": "2026-10-30",
+      "pixel_perfect": false,
+      "displayed_page": "reference_replica",
+      "source_manifest_role": "Shared reference provenance from the earlier Visio case; native PowerPoint evidence is the separate audit.",
+      "reference": {
+        "file": "docs/assets/methods/powerpoint-crispr-reference.png",
+        "sha256": "0b900aaa6c41e43eac95210d6f257412231a6d59179cc0b89bb9ec189ec7c194",
+        "bytes": 1263218
+      },
+      "reconstruction": {
+        "file": "docs/assets/methods/powerpoint-crispr-reconstruction.png",
+        "sha256": "cb8ef764b9fe43c8ad6bc0e5c009dc7ee2160e841d7f4581676295da7abbfc53",
+        "bytes": 115944
+      },
+      "native": {
+        "file": "docs/showcase/native/powerpoint-crispr.pptx",
+        "sha256": "a2fd332ab6b407cc8e7dee9ec202c65bfdb0177653057139a594ff51d7c5507a",
+        "bytes": 60439
+      },
+      "report": {
+        "file": "docs/showcase/evidence/powerpoint-crispr/original-report.txt",
+        "sha256": "81b321a4482dcac37e32de76cf5816920581c162cc6fdd7cf00bb73e55118678",
+        "bytes": 1534
+      },
+      "source_manifest": {
+        "file": "docs/showcase/evidence/powerpoint-crispr/source-manifest.json",
+        "sha256": "fd6fb0ec58b4383f9cfb5d028652a14fd6b22097e9b2674fbc10ebed32eff749",
+        "bytes": 1004
+      },
+      "verification": {
+        "file": "docs/showcase/evidence/powerpoint-crispr/native-r1.audit.json",
+        "sha256": "16192d753d225365bd3cc4d7e614c0c73001b7cdbfeade24aefecd92dc24c110",
+        "bytes": 3514
+      },
+      "prompt": {
+        "file": "docs/showcase/prompts/powerpoint-crispr.txt",
+        "sha256": "f4b1694d31f1181c6fda1e5996630c2419f45d166e7ffc9b59c97517a77a3029",
+        "bytes": 3124
+      }
+    },
+    {
+      "id": "visio",
+      "tool": "Visio",
+      "title": "MonoFormer 深度估计架构",
+      "asset_stem": "visio-monoformer",
+      "note": "MonoFormer 四级网络架构；表中展示按图复现页，原生文件第 2 页保留科学关系修正版。",
+      "case": "light-diagram/light-visio-diagram/evaluations/2026-10-30-monoformer",
+      "verified_on": "2026-10-30",
+      "pixel_perfect": false,
+      "displayed_page": "reference_replica",
+      "reference": {
+        "file": "docs/assets/methods/visio-monoformer-reference.png",
+        "sha256": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+        "bytes": 1673688
+      },
+      "reconstruction": {
+        "file": "docs/assets/methods/visio-monoformer-reconstruction.png",
+        "sha256": "814f57072e5133a9ba39edd782f19624ce104647716e95223eb57a0c086f7b39",
+        "bytes": 209001
+      },
+      "native": {
+        "file": "docs/showcase/native/visio-monoformer.vsdx",
+        "sha256": "f354647556e2cf7b3eebd3adcf82ae070c036d6589b2577bd4758efa26f54f27",
+        "bytes": 155914
+      },
+      "report": {
+        "file": "docs/showcase/evidence/visio-monoformer/original-report.txt",
+        "sha256": "4371f840036248548a63c6f05bfffbd8d7208c589e04495480d4c677998a5494",
+        "bytes": 5784
+      },
+      "source_manifest": {
+        "file": "docs/showcase/evidence/visio-monoformer/source-manifest.json",
+        "sha256": "b696ae9720514156ae44912f57b13f372a65eb0b3fc53d446ce214058c69ef00",
+        "bytes": 1142
+      },
+      "verification": {
+        "file": "docs/showcase/evidence/visio-monoformer/verification.json",
+        "sha256": "a560f12bc5e2d0d8e3ca2bad67d18b80f35d1cc776eec0efd8be15309cd99bd1",
+        "bytes": 2409
+      },
+      "corrected": {
+        "file": "docs/assets/methods/visio-monoformer-corrected.png",
+        "sha256": "b37a04768655287ddeb48469a30992c2ca322863f3809801e73b283c88eb872c",
+        "bytes": 207710
+      },
+      "prompt": {
+        "file": "docs/showcase/prompts/visio-monoformer.txt",
+        "sha256": "66e397e91bfc74738b17862a7ba5a535868d2f2456febc2ef070336473e2c8bb",
+        "bytes": 5314
+      }
+    }
+  ],
+  "notes": [
+    "Images and native files are copied byte for byte; no screenshot is presented as an editable reconstruction.",
+    "The 2026-10-30 examples are historical application tests, not a new desktop retest.",
+    "Illustrator's 2026-11-06 PDF-export revision still requires application retesting."
+  ]
+}

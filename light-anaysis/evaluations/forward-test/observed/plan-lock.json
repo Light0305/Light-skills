@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "recorded_at": "2026-11-02T03:41:21.547305+00:00",
+  "plan": {
+    "bytes": 4571,
+    "sha256": "7ad572eab6615a3cf6816fe42fad6c2fce7b4059604983f38c82c1ff1b27d54c"
+  },
+  "timing_claim": "retrospective",
+  "boundary": "Local specification freeze; not proof of preregistration or first data access."
+}

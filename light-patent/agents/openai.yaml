@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Patent 专利撰写"
+  short_description: "从真实科研与工程材料提炼发明点，完成有据可查的专利交底、申请草稿与修订"
+  default_prompt: "使用 $light-patent，依据我提供的技术材料提炼保护主线，检查证据与实施缺口，并完成本轮要求的专利材料。"

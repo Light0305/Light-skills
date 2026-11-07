@@ -1,0 +1,14 @@
+usage: review_cycle.py [-h] {stage,accept,select} ...
+
+Stage immutable visual reviews with the Light-Science review engine. The
+adapter never launches a model, fabricates a review, or certifies
+independence. The host supplies a genuinely fresh review session and its
+returned JSON. Host isolation remains separate from deterministic byte and
+state checks.
+
+positional arguments:
+  {stage,accept,select}
+
+options:
+  -h, --help            show this help message and exit
+

@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "stage": "chart",
+  "reason": "Harness passed nested JSON to the tabular source_data interface; changed to an actual DataFrame plus bound raw/code files",
+  "project": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-65pnynaz",
+  "native_runs": "Both numerical runs had already returned and passed known-answer checks",
+  "harness_state": "failed tasks recorded, objective stopped; no automatic retry"
+}

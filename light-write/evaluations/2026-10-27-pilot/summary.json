@@ -1,0 +1,47 @@
+{
+  "record_count": 49,
+  "hashes_and_run_contracts": "passed",
+  "length_measurement": "English: whitespace tokens incl. math; Chinese: Han characters, excludes digits/punctuation; optional notes excluded by label heuristic",
+  "groups": {
+    "after/light-write": {
+      "count": 14,
+      "completed": 14,
+      "usage_limit_failures": 0,
+      "length_misses": [],
+      "tool_events": 0,
+      "mean_input_tokens": 28768,
+      "mean_elapsed_seconds": 18.1
+    },
+    "after2/light-write": {
+      "count": 7,
+      "completed": 0,
+      "usage_limit_failures": 7,
+      "length_misses": [],
+      "tool_events": 0,
+      "mean_input_tokens": null,
+      "mean_elapsed_seconds": 8.1
+    },
+    "before/light-write": {
+      "count": 14,
+      "completed": 14,
+      "usage_limit_failures": 0,
+      "length_misses": [
+        "clinical-draft"
+      ],
+      "tool_events": 0,
+      "mean_input_tokens": 27619,
+      "mean_elapsed_seconds": 17.0
+    },
+    "before/upstream": {
+      "count": 14,
+      "completed": 14,
+      "usage_limit_failures": 0,
+      "length_misses": [
+        "clinical-draft"
+      ],
+      "tool_events": 0,
+      "mean_input_tokens": 31240,
+      "mean_elapsed_seconds": 17.9
+    }
+  }
+}

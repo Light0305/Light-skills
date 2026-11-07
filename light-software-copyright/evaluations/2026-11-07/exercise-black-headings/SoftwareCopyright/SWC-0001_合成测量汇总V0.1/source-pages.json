@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "software_name": "合成测量汇总工具",
+  "version": "V0.1",
+  "snapshot_sha256": "ae24646879c8b25eaae7101fa15b5fa6b27eaf529a959ea33c995e4af2566f83",
+  "selection_sha256": "fbd958da3263cb5dada783aae37c0347b1fe8e8e5b7f58549a31d807106f964c",
+  "source_files": [
+    {
+      "path": "measure.py",
+      "sha256": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688",
+      "encoding": "utf-8-sig",
+      "raw_lines": 68,
+      "nonblank_lines": 60,
+      "reason": "Synthetic original CLI"
+    }
+  ],
+  "raw_source_lines": 68,
+  "nonblank_source_lines": 60,
+  "complete_pages": 2,
+  "submitted_lines": 60,
+  "submitted_pages": 2,
+  "mode": "all",
+  "lines_per_page": 50,
+  "counting_basis": "raw splitlines and nonblank original program lines; notebook code cells only; comments retained",
+  "pages": [
+    {
+      "submission_page": 1,
+      "source_page": 1,
+      "lines": [
+        {
+          "path": "measure.py",
+          "line": 1,
+          "cell_index": null,
+          "text": "\"\"\"Validate measurement CSV and export grouped descriptive statistics.\"\"\""
+        },
+        {
+          "path": "measure.py",
+          "line": 2,
+          "cell_index": null,
+          "text": "import argparse"
+        },
+        {
+          "path": "measure.py",
+          "line": 3,
+          "cell_index": null,
+          "text": "import csv"
+        },
+        {
+          "path": "measure.py",
+          "line": 4,
+          "cell_index": null,
+          "text": "import json"
+        },
+        {
+          "path": "measure.py",
+          "line": 5,
+          "cell_index": null,
+          "text": "import math"
+        },
+        {
+          "path": "measure.py",
+          "line": 6,
+          "cell_index": null,
+          "text": "from pathlib import Path"
+        },
+        {
+          "path": "measure.py",
+          "line": 9,
+          "cell_index": null,
+          "text": "def read_measurements(path):"
+        },
+        {
+          "path": "measure.py",
+          "line": 10,
+          "cell_index": null,
+          "text": "    records = []"
+        },
+        {
+          "path": "measure.py",
+          "line": 11,
+          "cell_index": null,
+          "text": "    with path.open(encoding=\"utf-8-sig\", newline=\"\") as stream:"
+        },
+        {
+          "path": "measure.py",
+          "line": 12,
+          "cell_index": null,
+          "text": "        reader = csv.DictReader(stream)"
+        },
+        {
+          "path": "measure.py",
+          "line": 13,
+          "cell_index": null,
+          "text": "        if not {\"group\", \"value\"} <= set(reader.fieldnames or []):"
+        },
+        {
+          "path": "measure.py",
+          "line": 14,
+          "cell_index": null,
+          "text": "            raise ValueError(\"CSV must contain group and value columns\")"
+        },
+        {
+          "path": "measure.py",
+          "line": 15,
+          "cell_index": null,
+          "text": "        for line, row in enumerate(reader, 2):"
+        },
+        {
+          "path": "measure.py",
+          "line": 16,
+          "cell_index": null,
+          "text": "            group = row[\"group\"].strip()"
+        },
+        {
+          "path": "measure.py",
+          "line": 17,
+          "cell_index": null,
+          "text": "            if not group:"
+        },
+        {
+          "path": "measure.py",
+          "line": 18,
+          "cell_index": null,
+          "text": "                raise ValueError(f\"Missing group at line {line}\")"
+        },
+        {
+          "path": "measure.py",
+          "line": 19,
+          "cell_index": null,
+          "text": "            try:"
+        },
+        {
+          "path": "measure.py",
+          "line": 20,
+          "cell_index": null,
+          "text": "                value = float(row[\"value\"])"
+        },
+        {
+          "path": "measure.py",
+          "line": 21,
+          "cell_index": null,
+          "text": "            except (TypeError, ValueError) as exc:"
+        },
+        {
+          "path": "measure.py",
+          "line": 22,
+          "cell_index": null,
+          "text": "                raise ValueError(f\"Invalid value at line {line}\") from exc"
+        },
+        {
+          "path": "measure.py",
+          "line": 23,
+          "cell_index": null,
+          "text": "            if not math.isfinite(value):"
+        },
+        {
+          "path": "measure.py",
+          "line": 24,
+          "cell_index": null,
+          "text": "                raise ValueError(f\"Non-finite value at line {line}\")"
+        },
+        {
+          "path": "measure.py",
+          "line": 25,
+          "cell_index": null,
+          "text": "            records.append((group, value))"
+        },
+        {
+          "path": "measure.py",
+          "line": 26,
+          "cell_index": null,
+          "text": "    if not records:"
+        },
+        {
+          "path": "measure.py",
+          "line": 27,
+          "cell_index": null,
+          "text": "        raise ValueError(\"CSV contains no measurements\")"
+        },
+        {
+          "path": "measure.py",
+          "line": 28,
+          "cell_index": null,
+          "text": "    return records"
+        },
+        {
+          "path": "measure.py",
+          "line": 31,
+          "cell_index": null,
+          "text": "def summarize(records):"
+        },
+        {
+          "path": "measure.py",
+          "line": 32,
+          "cell_index": null,
+          "text": "    groups = {}"
+        },
+        {
+          "path": "measure.py",
+          "line": 33,
+          "cell_index": null,
+          "text": "    for group, value in records:"
+        },
+        {
+          "path": "measure.py",
+          "line": 34,
+          "cell_index": null,
+          "text": "        groups.setdefault(group, []).append(value)"
+        },
+        {
+          "path": "measure.py",
+          "line": 35,
+          "cell_index": null,
+          "text": "    results = []"
+        },
+        {
+          "path": "measure.py",
+          "line": 36,
+          "cell_index": null,
+          "text": "    for group, values in sorted(groups.items()):"
+        },
+        {
+          "path": "measure.py",
+          "line": 37,
+          "cell_index": null,
+          "text": "        total = math.fsum(values)"
+        },
+        {
+          "path": "measure.py",
+          "line": 38,
+          "cell_index": null,
+          "text": "        results.append({"
+        },
+        {
+          "path": "measure.py",
+          "line": 39,
+          "cell_index": null,
+          "text": "            \"group\": group,"
+        },
+        {
+          "path": "measure.py",
+          "line": 40,
+          "cell_index": null,
+          "text": "            \"count\": len(values),"
+        },
+        {
+          "path": "measure.py",
+          "line": 41,
+          "cell_index": null,
+          "text": "            \"sum\": total,"
+        },
+        {
+          "path": "measure.py",
+          "line": 42,
+          "cell_index": null,
+          "text": "            \"mean\": total / len(values),"
+        },
+        {
+          "path": "measure.py",
+          "line": 43,
+          "cell_index": null,
+          "text": "            \"minimum\": min(values),"
+        },
+        {
+          "path": "measure.py",
+          "line": 44,
+          "cell_index": null,
+          "text": "            \"maximum\": max(values),"
+        },
+        {
+          "path": "measure.py",
+          "line": 45,
+          "cell_index": null,
+          "text": "        })"
+        },
+        {
+          "path": "measure.py",
+          "line": 46,
+          "cell_index": null,
+          "text": "    return results"
+        },
+        {
+          "path": "measure.py",
+          "line": 49,
+          "cell_index": null,
+          "text": "def main():"
+        },
+        {
+          "path": "measure.py",
+          "line": 50,
+          "cell_index": null,
+          "text": "    parser = argparse.ArgumentParser(description=__doc__)"
+        },
+        {
+          "path": "measure.py",
+          "line": 51,
+          "cell_index": null,
+          "text": "    parser.add_argument(\"input\", type=Path)"
+        },
+        {
+          "path": "measure.py",
+          "line": 52,
+          "cell_index": null,
+          "text": "    parser.add_argument(\"--output\", required=True, type=Path)"
+        },
+        {
+          "path": "measure.py",
+          "line": 53,
+          "cell_index": null,
+          "text": "    args = parser.parse_args()"
+        },
+        {
+          "path": "measure.py",
+          "line": 54,
+          "cell_index": null,
+          "text": "    try:"
+        },
+        {
+          "path": "measure.py",
+          "line": 55,
+          "cell_index": null,
+          "text": "        records = read_measurements(args.input)"
+        },
+        {
+          "path": "measure.py",
+          "line": 56,
+          "cell_index": null,
+          "text": "        result = {\"record_count\": len(records), \"groups\": summarize(records)}"
+        }
+      ]
+    },
+    {
+      "submission_page": 2,
+      "source_page": 2,
+      "lines": [
+        {
+          "path": "measure.py",
+          "line": 57,
+          "cell_index": null,
+          "text": "    except (OSError, ValueError) as exc:"
+        },
+        {
+          "path": "measure.py",
+          "line": 58,
+          "cell_index": null,
+          "text": "        parser.exit(2, str(exc) + \"\\n\")"
+        },
+        {
+          "path": "measure.py",
+          "line": 59,
+          "cell_index": null,
+          "text": "    args.output.parent.mkdir(parents=True, exist_ok=True)"
+        },
+        {
+          "path": "measure.py",
+          "line": 60,
+          "cell_index": null,
+          "text": "    args.output.write_text("
+        },
+        {
+          "path": "measure.py",
+          "line": 61,
+          "cell_index": null,
+          "text": "        json.dumps(result, ensure_ascii=False, indent=2) + \"\\n\","
+        },
+        {
+          "path": "measure.py",
+          "line": 62,
+          "cell_index": null,
+          "text": "        encoding=\"utf-8\","
+        },
+        {
+          "path": "measure.py",
+          "line": 63,
+          "cell_index": null,
+          "text": "    )"
+        },
+        {
+          "path": "measure.py",
+          "line": 64,
+          "cell_index": null,
+          "text": "    print(f\"Validated {len(records)} records; wrote {args.output.name}\")"
+        },
+        {
+          "path": "measure.py",
+          "line": 67,
+          "cell_index": null,
+          "text": "if __name__ == \"__main__\":"
+        },
+        {
+          "path": "measure.py",
+          "line": 68,
+          "cell_index": null,
+          "text": "    main()"
+        }
+      ]
+    }
+  ]
+}

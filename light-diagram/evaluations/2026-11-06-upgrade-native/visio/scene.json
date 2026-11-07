@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "font": "Arial",
+  "canvas": {
+    "width_px": 400,
+    "height_px": 200,
+    "pixels_per_inch": 96
+  },
+  "provenance": {
+    "source": "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\synthetic-source.txt",
+    "source_sha256": "329461c99a44133fab03e8d2d9677a791ae48c026fb43ade7070fc254dac9b91",
+    "scientific_source": "Synthetic geometry only",
+    "corrections": [],
+    "limitations": [
+      "Small fixture, no scientific content"
+    ]
+  },
+  "pages": [
+    {
+      "name": "Synthetic geometry",
+      "slug": "fixture",
+      "mode": "faithful",
+      "nodes": [
+        {
+          "id": "A",
+          "type": "rect",
+          "bbox": [
+            20,
+            60,
+            100,
+            50
+          ],
+          "text": "A",
+          "style": {
+            "fill": "#e0effd",
+            "stroke": "#27303b",
+            "font_px": 18,
+            "bold": false
+          }
+        },
+        {
+          "id": "B",
+          "type": "ellipse",
+          "bbox": [
+            280,
+            60,
+            100,
+            50
+          ],
+          "text": "B",
+          "style": {
+            "fill": "#e0effd",
+            "stroke": "#27303b",
+            "font_px": 18,
+            "bold": false
+          }
+        }
+      ],
+      "paths": [],
+      "edges": [
+        {
+          "id": "edge",
+          "points": [
+            [
+              120,
+              85
+            ],
+            [
+              280,
+              85
+            ]
+          ],
+          "arrow": 13,
+          "source": {
+            "node": "A",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "B",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "style": {
+            "stroke": "#27303b",
+            "stroke_px": 2
+          }
+        }
+      ],
+      "draw_order": [
+        "A",
+        "B",
+        "edge"
+      ]
+    }
+  ]
+}

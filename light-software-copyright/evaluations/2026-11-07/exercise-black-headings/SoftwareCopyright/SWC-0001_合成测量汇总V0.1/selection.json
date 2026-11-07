@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "ae24646879c8b25eaae7101fa15b5fa6b27eaf529a959ea33c995e4af2566f83",
+  "scope_reviewed": true,
+  "scope_note": "Read the entire self-contained measure.py CLI",
+  "skipped_review": "CSV and results JSON are synthetic data/output, not code",
+  "secret_allowlist": [],
+  "files": [
+    {
+      "path": "bad.csv",
+      "sha256": "d0b5705c4e230c9b35a3efeabeef22a95233be47caf529755bb096e25fd80b47",
+      "decision": "exclude",
+      "reason": "Data/output, not program"
+    },
+    {
+      "path": "measure.py",
+      "sha256": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688",
+      "decision": "include",
+      "reason": "Synthetic original CLI"
+    },
+    {
+      "path": "sample.csv",
+      "sha256": "c2629b7193042a03eeb7eaee2e7a22908e0ee8fae60f923e75fe328922eb8c29",
+      "decision": "exclude",
+      "reason": "Data/output, not program"
+    },
+    {
+      "path": "results/sample.json",
+      "sha256": "18eba2713440deb9623540bcafef4d8e79f642123e4b066831ac6c621618f8cb",
+      "decision": "exclude",
+      "reason": "Data/output, not program"
+    }
+  ]
+}

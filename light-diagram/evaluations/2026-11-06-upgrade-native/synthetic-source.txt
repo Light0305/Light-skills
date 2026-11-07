@@ -1,0 +1,1 @@
+Synthetic A-to-B geometry fixture. No research finding or measured data.

@@ -1,0 +1,15 @@
+{
+  "profile": "application",
+  "checked_at": "2026-11-07T00:24:30+09:00",
+  "scope": "结构与已记录的支持链；未判断技术实质、法律结论或版式",
+  "errors": 0,
+  "warnings": 1,
+  "findings": [
+    {
+      "severity": "WARNING",
+      "code": "SEARCH_LIMIT",
+      "location": "search",
+      "message": "检索状态 skipped-by-user；不得给出确定的查新/授权结论"
+    }
+  ]
+}

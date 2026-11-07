@@ -1,0 +1,7 @@
+{
+  "name": "calculate",
+  "exit": 0,
+  "expected": 0,
+  "stdout": "{\"basis\": \"synthetic descriptive data; no inferential test\", \"mean_A\": 0.6433333333333333, \"mean_B\": 0.6333333333333333, \"A_below_B\": [\"Z\"]}\n",
+  "stderr": ""
+}

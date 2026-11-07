@@ -1,0 +1,38 @@
+{
+  "basis": "Actual local CSV computation, Write auditor and Review CLI; synthetic material, executor-authored judgments.",
+  "rounds": [
+    {
+      "round": 1,
+      "issue_state": "open",
+      "scientific": "hold",
+      "packet_id": "sha256:8d4cca4a052e9d6163d1b78905cf177fe9613159cd98eef1310fdc90105354f3",
+      "lineage": "not_checked",
+      "write_audit_checks_passed": true
+    },
+    {
+      "round": 2,
+      "issue_state": "addressed",
+      "scientific": "hold",
+      "packet_id": "sha256:126df6f45398b61980598f4cd3ad6991830475104fff6d8f3927997c3a1240b5",
+      "lineage": "immediate_parent_checked",
+      "write_audit_checks_passed": true
+    },
+    {
+      "round": 3,
+      "issue_state": "verified",
+      "scientific": "not_assessable",
+      "packet_id": "sha256:f748b9109fc7f10089838926672312b12fec18a6c5c6339719a7c0aa1c1028e5",
+      "lineage": "immediate_parent_checked",
+      "write_audit_checks_passed": true
+    }
+  ],
+  "data_unchanged": true,
+  "events": 12,
+  "not_done": [
+    "independent model review",
+    "real-project scientific evaluation",
+    "visual review",
+    "full scientific or submission readiness",
+    "Memory/Workflow runtime integration"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1",
+  "as_of": "2026-11-06",
+  "constraints": [
+    {
+      "id": "budget",
+      "requirement": "Synthetic hard budget.",
+      "hard": true,
+      "origin": "user",
+      "kind": "fees"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "official_journal",
+      "locator": "https://example.invalid/journal",
+      "accessed_on": "2026-11-02",
+      "applies_to": [
+        {
+          "candidate_id": "J1",
+          "article_type": "Research Article",
+          "publication_route": "gold_oa"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "primary_article",
+      "locator": "https://example.invalid/article",
+      "accessed_on": "2026-11-02",
+      "applies_to": [
+        {
+          "candidate_id": "J1",
+          "article_type": "Research Article",
+          "publication_route": "gold_oa"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "J1",
+      "name": "Synthetic Journal A",
+      "recommended": true,
+      "checks": [
+        {
+          "constraint_id": "budget",
+          "status": "pass",
+          "basis": "Synthetic route fits.",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      ],
+      "identity": {
+        "status": "pass",
+        "basis": "Synthetic official evidence.",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "scope": {
+        "status": "pass",
+        "basis": "Synthetic official evidence.",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "article_type": {
+        "status": "pass",
+        "basis": "Synthetic official evidence.",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "fit": {
+        "band": "strong",
+        "rationale": "Synthetic topic and audience match.",
+        "counterevidence": "Synthetic method gap remains."
+      },
+      "comparables": [
+        {
+          "title": "Synthetic example only",
+          "year": 2025,
+          "locator": "https://example.invalid/article",
+          "status": "verified",
+          "source_ids": [
+            "S2"
+          ],
+          "shared_axes": "Question and evidence form.",
+          "important_difference": "Different validation scope."
+        }
+      ],
+      "target": {
+        "publisher": "Synthetic publisher",
+        "homepage": "https://example.invalid/journal",
+        "issns": [
+          "1932-6203"
+        ],
+        "article_type": "Research Article",
+        "publication_route": "gold_oa",
+        "submission_stage": "initial"
+      }
+    }
+  ],
+  "research": {
+    "basis": "Synthetic result excerpt; not a real project.",
+    "inputs": []
+  },
+  "decision": {
+    "status": "proposed",
+    "target_id": "J1",
+    "basis": "Model proposal only."
+  }
+}

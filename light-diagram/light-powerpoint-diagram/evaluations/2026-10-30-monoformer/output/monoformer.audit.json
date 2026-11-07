@@ -1,0 +1,1078 @@
+{
+  "passed": true,
+  "scope": "Native desktop PowerPoint roundtrip, text, shapes, arrows, endpoints and movement; visual/scientific review is separate.",
+  "powerpoint_version": "16.0",
+  "visible": true,
+  "file": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-monoformer\\output\\monoformer-final.pptx",
+  "sha256": "e73fe23e2e0d09a036ad1ab8212f8c8167ee8bae238badbf6dd65b287e84a3f0",
+  "native_text_refinements": [],
+  "media_entries": [],
+  "pages": [
+    {
+      "slide": 1,
+      "slug": "replica",
+      "shapes": 465,
+      "logical_edges": 81,
+      "native_connector_segments": 105,
+      "connected_segment_endpoints": 210,
+      "text_shapes": 63,
+      "arrowheads": 70,
+      "movement": [
+        {
+          "node": "image_frame",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "cnn",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "patch_tokens",
+          "tested_endpoints": 2,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "projection",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_1",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_1_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_1",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 9.2e-05,
+          "passed": true
+        },
+        {
+          "node": "att_1_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_1_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_1",
+          "tested_endpoints": 6,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 7.9e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 1.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "floating_output_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_2",
+          "tested_endpoints": 4,
+          "max_error_pt": 1.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_2_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_2",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "att_2_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_2_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_2",
+          "tested_endpoints": 6,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 7.9e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 1.8e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "floating_output_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_3",
+          "tested_endpoints": 4,
+          "max_error_pt": 5e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_3_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_3",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_3",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "att_3_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_3_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_3",
+          "tested_endpoints": 6,
+          "max_error_pt": 6.1e-05,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_3",
+          "tested_endpoints": 1,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "floating_output_3",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_4",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_4_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "z_map_4",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_4",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 0.000122,
+          "passed": true
+        },
+        {
+          "node": "att_4_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_4_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_4",
+          "tested_endpoints": 6,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 7.9e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_4",
+          "tested_endpoints": 1,
+          "max_error_pt": 4.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "floating_output_4",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "residual_unit",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.00011,
+          "restore_error_pt": 0.00011,
+          "passed": true
+        },
+        {
+          "node": "depth_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "tr_input",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_norm1",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_msa",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_norm2",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_mlp",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_output",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_sum1",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000115,
+          "restore_error_pt": 0.000112,
+          "passed": true
+        },
+        {
+          "node": "tr_sum2",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_detail_z",
+          "tested_endpoints": 1,
+          "max_error_pt": 7.6e-05,
+          "restore_error_pt": 7.6e-05,
+          "passed": true
+        },
+        {
+          "node": "acm_detail_fork",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.00011,
+          "restore_error_pt": 0.00011,
+          "passed": true
+        },
+        {
+          "node": "acm_detail_conv",
+          "tested_endpoints": 2,
+          "max_error_pt": 7.6e-05,
+          "restore_error_pt": 7.6e-05,
+          "passed": true
+        },
+        {
+          "node": "acm_position",
+          "tested_endpoints": 2,
+          "max_error_pt": 7.6e-05,
+          "restore_error_pt": 7.6e-05,
+          "passed": true
+        },
+        {
+          "node": "acm_channel",
+          "tested_endpoints": 2,
+          "max_error_pt": 1e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "detail_ap",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "detail_ac",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_output",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_tanh",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_cn",
+          "tested_endpoints": 2,
+          "max_error_pt": 4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_l2",
+          "tested_endpoints": 2,
+          "max_error_pt": 4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_conv",
+          "tested_endpoints": 2,
+          "max_error_pt": 4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_reweight",
+          "tested_endpoints": 5,
+          "max_error_pt": 5.4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_final",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_product",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_beta",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_gamma",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_alpha",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_u",
+          "tested_endpoints": 5,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_z",
+          "tested_endpoints": 1,
+          "max_error_pt": 4.4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_ac",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_ap",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_x",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_scalar_alpha",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_scalar_gamma",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_scalar_beta",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "slug": "corrected",
+      "shapes": 471,
+      "logical_edges": 80,
+      "native_connector_segments": 110,
+      "connected_segment_endpoints": 220,
+      "text_shapes": 63,
+      "arrowheads": 67,
+      "movement": [
+        {
+          "node": "image_frame",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "cnn",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "patch_tokens",
+          "tested_endpoints": 2,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "projection",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_1",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_1_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_1",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 9.2e-05,
+          "passed": true
+        },
+        {
+          "node": "att_1_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_1_2",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_1",
+          "tested_endpoints": 6,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 7.9e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 1.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_2",
+          "tested_endpoints": 4,
+          "max_error_pt": 1.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_2_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_2",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "att_2_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_2_2",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_2",
+          "tested_endpoints": 6,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 7.9e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_2",
+          "tested_endpoints": 1,
+          "max_error_pt": 1.8e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_3",
+          "tested_endpoints": 4,
+          "max_error_pt": 5e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_3_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_3",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_3",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "att_3_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_3_2",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_3",
+          "tested_endpoints": 6,
+          "max_error_pt": 6.1e-05,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_3",
+          "tested_endpoints": 1,
+          "max_error_pt": 2e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "transformer_4",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "z_map_4_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "z_map_4",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_4",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000101,
+          "restore_error_pt": 0.000122,
+          "passed": true
+        },
+        {
+          "node": "att_4_1",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "att_4_2",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ffd_4",
+          "tested_endpoints": 6,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 7.9e-05,
+          "passed": true
+        },
+        {
+          "node": "fused_4",
+          "tested_endpoints": 1,
+          "max_error_pt": 4.3e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "residual_unit",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.00011,
+          "restore_error_pt": 0.00011,
+          "passed": true
+        },
+        {
+          "node": "depth_front",
+          "tested_endpoints": 1,
+          "max_error_pt": 7.9e-05,
+          "restore_error_pt": 6.1e-05,
+          "passed": true
+        },
+        {
+          "node": "tr_input",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_norm1",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_msa",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_norm2",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_mlp",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_output",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "tr_sum1",
+          "tested_endpoints": 4,
+          "max_error_pt": 0.000115,
+          "restore_error_pt": 0.000112,
+          "passed": true
+        },
+        {
+          "node": "tr_sum2",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "acm_detail_z",
+          "tested_endpoints": 1,
+          "max_error_pt": 7.6e-05,
+          "restore_error_pt": 7.6e-05,
+          "passed": true
+        },
+        {
+          "node": "acm_detail_fork",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.00011,
+          "restore_error_pt": 0.00011,
+          "passed": true
+        },
+        {
+          "node": "acm_detail_conv",
+          "tested_endpoints": 2,
+          "max_error_pt": 7.6e-05,
+          "restore_error_pt": 7.6e-05,
+          "passed": true
+        },
+        {
+          "node": "acm_position",
+          "tested_endpoints": 2,
+          "max_error_pt": 7.6e-05,
+          "restore_error_pt": 7.6e-05,
+          "passed": true
+        },
+        {
+          "node": "acm_channel",
+          "tested_endpoints": 2,
+          "max_error_pt": 1e-06,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "detail_ap",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "detail_ac",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_output",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_tanh",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_cn",
+          "tested_endpoints": 2,
+          "max_error_pt": 4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_l2",
+          "tested_endpoints": 2,
+          "max_error_pt": 4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_conv",
+          "tested_endpoints": 2,
+          "max_error_pt": 4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_reweight",
+          "tested_endpoints": 4,
+          "max_error_pt": 5.4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_final",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_product",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_beta",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_gamma",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_alpha",
+          "tested_endpoints": 3,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_u",
+          "tested_endpoints": 5,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_z",
+          "tested_endpoints": 1,
+          "max_error_pt": 4.4e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_ac",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_ap",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_x",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_scalar_alpha",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_scalar_gamma",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ff_scalar_beta",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "exports": [
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-monoformer\\output\\monoformer-replica.png",
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-monoformer\\output\\monoformer-corrected.png",
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-monoformer\\output\\monoformer.pdf"
+  ],
+  "errors": []
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Diagram"
+  short_description: "串联科研图提示词、生图核查与 Illustrator、PowerPoint、Visio 可编辑复现"
+  default_prompt: "使用 $light-diagram，根据我提供的论文或参考图制作科研示意图，选择合适的编辑工具，核查科学关系并交付可编辑文件与预览。"

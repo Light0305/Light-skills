@@ -1,4 +1,0 @@
-condition_id,catalyst,loading_g_L,pH,irradiance_mW_cm2,scavenger,k_obs_min-1,half_life_min,r2_loglinear,intercept,k_true_min-1,relative_activity
-C181,N-TiO2/H2O2,0.75,7.0,105,IPA,0.01877,36.94,0.9942,-0.0099,0.01936,0.6515098923984727
-C182,N-TiO2/H2O2,0.75,7.0,105,BQ,0.0237,29.25,0.9846,0.0172,0.02336,0.8226310308920514
-C183,N-TiO2/H2O2,0.75,7.0,105,EDTA,0.02737,25.33,0.9862,0.0047,0.02736,0.9500173550850399

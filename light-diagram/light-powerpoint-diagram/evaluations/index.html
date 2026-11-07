@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Light PowerPoint Diagram · 复现对照</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef1f5;color:#172435;font:16px/1.6 'Segoe UI','Microsoft YaHei',sans-serif}main{max-width:1600px;margin:auto;padding:28px}h1{font-size:27px;margin:0 0 8px}p{margin:8px 0 16px}.tools{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:#fff;padding:16px;border-radius:10px;margin:18px 0}select,input{font:inherit}input{width:280px}a{color:#1a5790}.figure{position:relative;aspect-ratio:2;background:white;border:1px solid #ccd5df;border-radius:8px;overflow:hidden}.figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.figure #native{clip-path:inset(0 50% 0 0)}#divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#175eb0;pointer-events:none}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:18px 0}.stats div{background:#fff;padding:15px;border-radius:8px}.stats strong{display:block;font-size:24px}small{color:#526175}.links{display:flex;gap:18px;flex-wrap:wrap}
+</style><main>
+<h1>复杂科研方法图 · PowerPoint 复现实测</h1>
+<p><a href="2026-10-30-lis-complex/compare.html">查看全新生成的锂硫电池复杂案例与可见制作结果 →</a></p>
+<p>同一张 MonoFormer 生图参考，重建为原生形状、文本和真实连接符。拖动蓝线：左侧为 PowerPoint，右侧为生成参考图。</p>
+<div class="tools"><label>页面 <select id="page"><option value="replica">按图复现</option><option value="corrected">科学关系修正</option></select></label><label>对照位置 <input id="slider" type="range" min="0" max="100" value="50"></label><output id="position">50%</output></div>
+<div class="figure"><img src="2026-10-30-monoformer/source.png" alt="light-diagram-prompt 的生成参考图"><img id="native" src="2026-10-30-monoformer/output/monoformer-replica.png" alt="PowerPoint 原生导出"><div id="divider"></div></div>
+<div class="stats"><div><strong id="shapeCount">465</strong>原生对象，含辅助拐点</div><div><strong id="edgeCount">81 / 105</strong>逻辑关系 / 连接符段</div><div><strong id="moveCount">76</strong>实际移动并恢复的场景节点</div><div><strong>0</strong>嵌入图片</div></div>
+<p id="note">此页保留生成图已知的错误旁路与悬空输出，用于视觉对照；不能作为正确网络结构使用。</p>
+<p><small>修正版明确改动科学关系，不能按与源图完全相同来评价。街景、配色、纹理、字体和下标有近似，未声称逐像素 1:1。透明拐点保持走线路径，尚未测试组件整体分组和跨平台导入。</small></p>
+<div class="links"><a href="2026-10-30-monoformer/output/monoformer-final.pptx">打开可编辑 PPTX</a><a href="2026-10-30-monoformer/output/monoformer.pdf">PDF</a><a id="full" href="2026-10-30-monoformer/output/monoformer-replica.png">完整 PNG</a><a href="2026-10-30-monoformer/REPORT.md">评估记录</a></div>
+</main><script>
+const page=document.querySelector('#page'),native=document.querySelector('#native'),slider=document.querySelector('#slider');
+slider.addEventListener('input',()=>{native.style.clipPath=`inset(0 ${100-slider.value}% 0 0)`;document.querySelector('#divider').style.left=slider.value+'%';document.querySelector('#position').textContent=slider.value+'%'});
+page.addEventListener('change',()=>{const corrected=page.value==='corrected';native.src=`2026-10-30-monoformer/output/monoformer-${page.value}.png`;document.querySelector('#full').href=native.getAttribute('src');document.querySelector('#shapeCount').textContent=corrected?'471':'465';document.querySelector('#edgeCount').textContent=corrected?'80 / 110':'81 / 105';document.querySelector('#moveCount').textContent=corrected?'72':'76';document.querySelector('#note').textContent=corrected?'此页删除错误旁路、修正两处残差起点方向，将四级 ACM 下分支接回同级平面，并移除混接总线。':'此页保留生成图已知的错误旁路与悬空输出，用于视觉对照；不能作为正确网络结构使用。'});
+</script></html>

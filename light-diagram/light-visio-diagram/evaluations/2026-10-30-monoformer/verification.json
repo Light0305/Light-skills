@@ -1,0 +1,67 @@
+{
+  "actual_rendering": true,
+  "native_audit_passed": true,
+  "source_and_scene_hashes_match": true,
+  "critical_corrected_graph_checks_passed": true,
+  "generation_review": {
+    "image_v1": "Failed: missing pre-MSA Norm, reversed inset output, duplicate X states; other ports ambiguous.",
+    "image_v2": "Improved: Norm and state counts repaired; extra FFD bypass, reversed source arrowheads and dangling/overlapping skip routes remain.",
+    "generation_science_passed": false,
+    "imagegen_calls": 2,
+    "method": "Same-assistant visual inspection; no independent blind review."
+  },
+  "corrected_scope": "Checks only the declared conceptual forward graph, not full implementation equivalence or model performance.",
+  "pages": [
+    {
+      "name": "01 Generated reference replica",
+      "native_shapes": 417,
+      "saved_connects": 162,
+      "semantic_edges": 81,
+      "movement_probe": {
+        "node": "image_frame",
+        "tested_endpoints": 1,
+        "failures": [],
+        "restored": true,
+        "passed": true
+      },
+      "png_size": [
+        1774,
+        887
+      ],
+      "svg_images": 0
+    },
+    {
+      "name": "02 Corrected scientific graph",
+      "native_shapes": 411,
+      "saved_connects": 160,
+      "semantic_edges": 80,
+      "movement_probe": {
+        "node": "image_frame",
+        "tested_endpoints": 1,
+        "failures": [],
+        "restored": true,
+        "passed": true
+      },
+      "png_size": [
+        1774,
+        887
+      ],
+      "svg_images": 0
+    }
+  ],
+  "artifacts_sha256": {
+    "source.png": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+    "image-v1.png": "8c86d874f4d4a82c309d0111437765d45232d4e4c387f57fb7d5862dae8203c7",
+    "image-v2-edit.png": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+    "style-reference.jpg": "5850fd2f1c252e5f590ba7d0bfe65bb5f84c1d3dbc80f5639e15bdf24f710381",
+    "prompt-v1.txt": "229500776a8ccb485733c5da238e1d86a863ef20e4323caa49e19022b4e420a1",
+    "prompt-v2-edit.txt": "66e397e91bfc74738b17862a7ba5a535868d2f2456febc2ef070336473e2c8bb",
+    "scene.json": "1342227cd361c697b8b6c3f57a294b1bd330eb3b0822a4f7ee15f1ca0a1e3d2e",
+    "monoformer-final.vsdx": "f354647556e2cf7b3eebd3adcf82ae070c036d6589b2577bd4758efa26f54f27"
+  },
+  "pdf_pages": 2,
+  "pdf_text_lines": [
+    67,
+    67
+  ]
+}

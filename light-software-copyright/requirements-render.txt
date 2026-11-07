@@ -1,0 +1,6 @@
+# Core inventory/extraction uses only Python's standard library.
+# Install these only when DOCX/PDF rendering or PDF inspection is required.
+python-docx>=1.1,<2
+reportlab>=4.0,<5
+pypdf>=5,<7
+Pillow>=10,<13

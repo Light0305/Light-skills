@@ -1,0 +1,25 @@
+{
+  "run": 42,
+  "passed": 42,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 1.25,
+  "ok": true,
+  "name": "light-write",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-write\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-write.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-write"
+}

@@ -1,0 +1,9 @@
+Create one clean scientific method diagram as a landscape image with a white background. This is a hypothetical interface test, not a summary of a real paper or experimental evidence.
+
+Visual claim: two parallel analysis branches encode different inputs, then merge once into a shared fusion module and produce one output.
+
+Use a left-to-right reading direction with balanced spacing and six rounded rectangular modules. On the left, put "Image" above "Signal". In the middle-left, put "Encoder A" aligned with Image, and "Encoder B" aligned with Signal. On the middle-right, put "Fusion" centered vertically between the two encoders. On the far right, put "Output" aligned with Fusion. Draw exactly these five directed arrows: Image -> Encoder A; Signal -> Encoder B; Encoder A -> Fusion; Encoder B -> Fusion; Fusion -> Output. The two encoder branches remain independent until Fusion. No other links, feedback arrows, legends, icons, equations, data charts or panels.
+
+Use a restrained academic vector illustration style: pale blue for the upper branch, pale teal for the lower branch, muted lavender for Fusion, light neutral gray for Output, dark gray outlines and clear arrowheads. Use readable dark sans-serif labels. Keep all arrow paths outside text and keep generous whitespace. The figure should be crisp, visually coherent and suitable as a draft for later editable reconstruction.
+
+The only visible text allowed is exactly: "Image", "Signal", "Encoder A", "Encoder B", "Fusion", "Output". All other wording in this prompt is instruction only and must not appear in the image. Do not add a title, caption, watermark or extra labels. Render one image only.

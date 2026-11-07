@@ -1,0 +1,13 @@
+{
+  "url": "https://books.toscrape.com/",
+  "final_url": "https://books.toscrape.com/",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 51294,
+  "sha256": "9fdd63da34161ebd13408d7a85105f83ec3c9f351c5d77cd0aa578790e121c1e",
+  "fetched_at": "2026-10-25T07:14:26Z",
+  "headers": {
+    "content-type": "text/html; charset=utf-8"
+  },
+  "note": "Headers are allow-listed; cookies and authorization are not persisted."
+}

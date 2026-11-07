@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "project_root": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise-black-headings\\project",
+  "max_bytes": 2000000,
+  "files": [
+    {
+      "path": "bad.csv",
+      "sha256": "d0b5705c4e230c9b35a3efeabeef22a95233be47caf529755bb096e25fd80b47",
+      "bytes": 20,
+      "encoding": "utf-8-sig",
+      "category": "review",
+      "reason": "unknown_text_requires_review",
+      "raw_lines": 2,
+      "nonblank_lines": 2,
+      "secret_findings": [],
+      "git_ignored": false
+    },
+    {
+      "path": "measure.py",
+      "sha256": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688",
+      "bytes": 2329,
+      "encoding": "utf-8-sig",
+      "category": "source",
+      "reason": "source_candidate_not_ownership_decision",
+      "raw_lines": 68,
+      "nonblank_lines": 60,
+      "secret_findings": [],
+      "git_ignored": false
+    },
+    {
+      "path": "sample.csv",
+      "sha256": "c2629b7193042a03eeb7eaee2e7a22908e0ee8fae60f923e75fe328922eb8c29",
+      "bytes": 35,
+      "encoding": "utf-8-sig",
+      "category": "review",
+      "reason": "unknown_text_requires_review",
+      "raw_lines": 5,
+      "nonblank_lines": 5,
+      "secret_findings": [],
+      "git_ignored": false
+    },
+    {
+      "path": "results/sample.json",
+      "sha256": "18eba2713440deb9623540bcafef4d8e79f642123e4b066831ac6c621618f8cb",
+      "bytes": 329,
+      "encoding": "utf-8-sig",
+      "category": "review",
+      "reason": "configuration_may_contain_program_expression",
+      "raw_lines": 21,
+      "nonblank_lines": 21,
+      "secret_findings": [],
+      "git_ignored": false
+    }
+  ],
+  "skipped": [],
+  "git_ignore_status": "not_a_git_repository_or_unavailable",
+  "snapshot_sha256": "ae24646879c8b25eaae7101fa15b5fa6b27eaf529a959ea33c995e4af2566f83"
+}

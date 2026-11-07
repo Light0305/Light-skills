@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "needs_fix",
+  "errors": [
+    "Review missing: visual_review"
+  ],
+  "warnings": [
+    "Current portal form/signature requirements are unverified; local review does not imply filing readiness"
+  ],
+  "inputs": {
+    "case.json": "298833f7454de37e03c4df401128253751915d328783cb0111b56e90c3ce9e0d",
+    "inventory.json": "6197b55ffba04e7afcd04d84e4c7f2c1f43ad3aedb2d7598a9bcf39a0f7a7b05",
+    "selection.json": "8db594d3a15a1e3b2f86a5ec4a85b53a699760ea5c47766c1bfd62470a3363a9",
+    "source-pages.json": "f6434248384c03c65434adf774f99c6fafe332403cab80b0f1f1807adec02f28",
+    "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+    "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+    "layout-profile.json": "32d9ca6a0dd6bd7ab259c275684f8d591a36c3cf20ffdca942f0a667fd7b3157"
+  },
+  "artifact_count": 3,
+  "checked_kinds": [
+    "code",
+    "functions",
+    "manual"
+  ],
+  "portal_ready": false,
+  "scope": "Local material checks only; visual review, factual evidence and current portal requirements remain separate."
+}

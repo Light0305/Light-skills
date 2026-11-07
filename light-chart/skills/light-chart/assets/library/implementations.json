@@ -1,0 +1,2526 @@
+{
+  "version": "0.11.0",
+  "concepts": {
+    "volcano": [
+      "火山图",
+      "volcano plot"
+    ],
+    "roc": [
+      "受试者工作特征",
+      "ROC曲线",
+      "receiver operating characteristic"
+    ],
+    "paired": [
+      "配对",
+      "配对图",
+      "matched",
+      "before after",
+      "前后变化",
+      "重复测量"
+    ],
+    "dotplot": [
+      "点图",
+      "气泡图",
+      "bubble",
+      "dot plot",
+      "marker gene"
+    ],
+    "marginal": [
+      "边缘分布",
+      "joint",
+      "联合密度",
+      "hexbin",
+      "二维密度"
+    ],
+    "distribution": [
+      "分布",
+      "violin",
+      "小提琴",
+      "boxplot",
+      "箱线"
+    ],
+    "raincloud": [
+      "雨云图",
+      "raincloud"
+    ],
+    "survival": [
+      "生存",
+      "Kaplan-Meier",
+      "Kaplan Meier",
+      "KM曲线",
+      "risk table",
+      "风险表"
+    ],
+    "heatmap": [
+      "热图",
+      "热力图",
+      "matrix",
+      "矩阵"
+    ],
+    "annotated": [
+      "注释",
+      "聚类",
+      "ComplexHeatmap",
+      "cluster",
+      "组学"
+    ],
+    "field": [
+      "标量场",
+      "数据场",
+      "连续场",
+      "非均匀网格",
+      "field"
+    ],
+    "surface": [
+      "曲面",
+      "surface",
+      "manifold",
+      "流形"
+    ],
+    "3d": [
+      "三维",
+      "three-d",
+      "3-D"
+    ],
+    "ablation": [
+      "消融",
+      "component",
+      "组件"
+    ],
+    "benchmark": [
+      "方法比较",
+      "模型比较",
+      "多指标",
+      "benchmark"
+    ],
+    "image-plate": [
+      "图像板",
+      "image plate",
+      "microscopy",
+      "显微",
+      "成像",
+      "比例尺"
+    ],
+    "network": [
+      "网络",
+      "network"
+    ],
+    "chord": [
+      "chord",
+      "弦图",
+      "环形连接"
+    ],
+    "tree": [
+      "系统发育",
+      "ggtree",
+      "phylogeny"
+    ],
+    "table": [
+      "表格",
+      "latex",
+      "booktabs",
+      "数值表"
+    ],
+    "color": [
+      "配色",
+      "palette",
+      "色板",
+      "颜色"
+    ],
+    "font": [
+      "字体",
+      "font",
+      "中英混排",
+      "字号"
+    ],
+    "multipanel": [
+      "多面板",
+      "组合图",
+      "multi-panel",
+      "multipanel",
+      "全文多图"
+    ],
+    "reference": [
+      "参考图",
+      "复现",
+      "复刻",
+      "reference",
+      "fidelity",
+      "风格适配"
+    ],
+    "trend": [
+      "趋势",
+      "trajectory",
+      "时间序列",
+      "折线",
+      "line plot"
+    ],
+    "forest": [
+      "森林图",
+      "forest plot",
+      "hazard ratio",
+      "优势比"
+    ],
+    "pca": [
+      "主成分",
+      "PCA",
+      "principal component analysis"
+    ],
+    "sankey": [
+      "桑基",
+      "Sankey"
+    ],
+    "statistics": [
+      "显著性",
+      "统计检验",
+      "p-value",
+      "uncertainty"
+    ],
+    "spectrum": [
+      "频谱",
+      "spectrum",
+      "frequency"
+    ],
+    "export": [
+      "导出",
+      "export",
+      "PDF"
+    ],
+    "caption": [
+      "图注",
+      "caption"
+    ],
+    "selection": [
+      "选图",
+      "chart selection",
+      "选型",
+      "科学问题"
+    ],
+    "layout": [
+      "布局",
+      "排版",
+      "长标签",
+      "layout",
+      "末端标注"
+    ],
+    "revision": [
+      "修图",
+      "审图",
+      "修订",
+      "revision",
+      "review",
+      "保留项"
+    ],
+    "evidence": [
+      "证据组织",
+      "证据链",
+      "复杂证据",
+      "evidence graph",
+      "evidence architecture"
+    ],
+    "volume": [
+      "体数据",
+      "体素",
+      "等值面",
+      "isosurface",
+      "volumetric",
+      "voxel"
+    ],
+    "proportion": [
+      "比例区间",
+      "二元比例",
+      "二项比例",
+      "占比",
+      "分母",
+      "binomial",
+      "proportion",
+      "Wilson"
+    ],
+    "cohort": [
+      "多中心",
+      "多表",
+      "队列",
+      "cohort",
+      "multicentre",
+      "multicenter",
+      "派生来源",
+      "缺失诊断"
+    ],
+    "scatter": [
+      "散点图",
+      "scatter plot",
+      "三维散点"
+    ],
+    "histogram": [
+      "直方图",
+      "histogram"
+    ],
+    "ecdf": [
+      "经验累积分布",
+      "ECDF"
+    ],
+    "kde": [
+      "核密度",
+      "密度等高线",
+      "KDE"
+    ],
+    "correlation": [
+      "相关矩阵",
+      "correlation matrix"
+    ],
+    "pr": [
+      "精确率召回率",
+      "精确率–召回率",
+      "precision recall",
+      "PR曲线"
+    ],
+    "vector": [
+      "向量场",
+      "流线",
+      "vector field",
+      "streamline"
+    ],
+    "umap": [
+      "UMAP",
+      "uniform manifold approximation"
+    ],
+    "ordination": [
+      "排序分析",
+      "群落排序",
+      "ordination",
+      "Hellinger"
+    ],
+    "biplot": [
+      "双标图",
+      "biplot"
+    ],
+    "signal": [
+      "信号",
+      "波形",
+      "waveform",
+      "signal overview"
+    ],
+    "spectrogram": [
+      "时频",
+      "spectrogram",
+      "STFT"
+    ],
+    "psd": [
+      "PSD",
+      "功率谱",
+      "power spectral density"
+    ],
+    "impedance": [
+      "复阻抗",
+      "阻抗",
+      "Nyquist",
+      "Bode",
+      "impedance"
+    ],
+    "count-structure": [
+      "count structure",
+      "bulk count structure",
+      "bulk-count PCA",
+      "计数表达结构"
+    ],
+    "expression-heatmap": [
+      "expression heatmap",
+      "表达热图"
+    ],
+    "two-arm-counts": [
+      "two arm counts",
+      "observed 2x2",
+      "two_arm_risk_evidence",
+      "双臂计数"
+    ],
+    "risk-ratio": [
+      "risk ratio",
+      "相对风险"
+    ],
+    "absolute-risk": [
+      "absolute risk",
+      "绝对风险"
+    ],
+    "computational-sweep": [
+      "参数扫描",
+      "预算曲线",
+      "计算预算",
+      "budget sweep",
+      "parameter sweep",
+      "learning budget",
+      "computational sweep"
+    ],
+    "confusion-counts": [
+      "混淆矩阵",
+      "预测错误",
+      "confusion matrix",
+      "prediction errors"
+    ],
+    "measured-impedance": [
+      "EIS",
+      "complex impedance",
+      "阻抗",
+      "复阻抗"
+    ],
+    "nyquist": [
+      "Nyquist plot",
+      "奈奎斯特"
+    ],
+    "bode": [
+      "Bode plot",
+      "波特图"
+    ],
+    "netcdf": [
+      "NetCDF",
+      "CF grid",
+      "CF格网",
+      "网格数据准备"
+    ],
+    "statistical-mosaic": [
+      "statistical mosaic",
+      "mosaic plot",
+      "马赛克统计图",
+      "面积比例分类图",
+      "mosaic"
+    ],
+    "alluvial": [
+      "alluvial",
+      "alluvial plot",
+      "静态冲积图",
+      "联合分类流带"
+    ],
+    "count-table": [
+      "count table",
+      "aggregate counts",
+      "汇总计数表",
+      "分类计数表"
+    ],
+    "repeated-trajectory": [
+      "repeated trajectory",
+      "重复行为轨迹",
+      "重复测量轨迹",
+      "subject trajectories"
+    ]
+  },
+  "entries": [
+    {
+      "id": "impl-volcano",
+      "kind": "implementation",
+      "title": "火山图 / volcano",
+      "concepts": [
+        "volcano"
+      ],
+      "tags": [
+        "volcano"
+      ],
+      "backend": "python",
+      "path": "scripts/plot_templates.py",
+      "symbol": "plot_volcano",
+      "inputs": "effect, p-value；提供统计量定义",
+      "boundary": "CSV CLI；必须真实 --input，模拟仅 --demo；统计检验不由模板推断。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-roc",
+      "kind": "implementation",
+      "title": "ROC 曲线",
+      "concepts": [
+        "roc"
+      ],
+      "tags": [
+        "roc"
+      ],
+      "backend": "python",
+      "path": "scripts/plot_templates.py",
+      "symbol": "plot_roc",
+      "inputs": "precomputed FPR and monotone TPR columns, full endpoints (0,0) to (1,1)",
+      "boundary": "CSV CLI；必须真实 --input，模拟仅 --demo；统计检验不由模板推断。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-dotplot",
+      "kind": "implementation",
+      "title": "气泡矩阵 / marker dotplot",
+      "concepts": [
+        "dotplot"
+      ],
+      "tags": [
+        "dotplot"
+      ],
+      "backend": "python",
+      "path": "scripts/plot_templates.py",
+      "symbol": "plot_dotplot",
+      "inputs": "row, column, nonnegative size, numeric color",
+      "boundary": "CSV CLI；必须真实 --input，模拟仅 --demo；统计检验不由模板推断。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-marginal",
+      "kind": "implementation",
+      "title": "散点与边缘分布",
+      "concepts": [
+        "marginal"
+      ],
+      "tags": [
+        "marginal"
+      ],
+      "backend": "python",
+      "path": "scripts/plot_templates.py",
+      "symbol": "plot_marginal",
+      "inputs": "numeric x/y；可选分组",
+      "boundary": "CSV CLI；必须真实 --input，模拟仅 --demo；统计检验不由模板推断。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "优先显示个体变化/分布；只用有来源的汇总、区间和统计单位。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/viz_pitfalls.md",
+          "use": "配对不能当独立重复；分布图保留原始观测，联合图及边缘图使用同一记录。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-paired",
+      "kind": "implementation",
+      "title": "按 ID 对齐的配对图",
+      "concepts": [
+        "paired"
+      ],
+      "tags": [
+        "paired"
+      ],
+      "backend": "python",
+      "path": "scripts/plot_templates.py",
+      "symbol": "plot_paired",
+      "inputs": "ID, condition, value；两个明确条件",
+      "boundary": "CSV CLI；必须真实 --input，模拟仅 --demo；统计检验不由模板推断。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "优先显示个体变化/分布；只用有来源的汇总、区间和统计单位。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/viz_pitfalls.md",
+          "use": "配对不能当独立重复；分布图保留原始观测，联合图及边缘图使用同一记录。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-joint-density",
+      "kind": "implementation",
+      "title": "六边形计数与边缘分布",
+      "concepts": [
+        "marginal"
+      ],
+      "tags": [
+        "marginal"
+      ],
+      "backend": "python",
+      "path": "scripts/research_panels.py",
+      "symbol": "joint_density",
+      "inputs": "finite x/y arrays; 3 axes plus optional colorbar axis",
+      "boundary": "保留逐点输入；hexbin 表示计数，不冒充概率或回归。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "优先显示个体变化/分布；只用有来源的汇总、区间和统计单位。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/viz_pitfalls.md",
+          "use": "配对不能当独立重复；分布图保留原始观测，联合图及边缘图使用同一记录。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-paired-changes",
+      "kind": "implementation",
+      "title": "配对记录和变化分布",
+      "concepts": [
+        "paired",
+        "distribution"
+      ],
+      "tags": [
+        "paired",
+        "distribution"
+      ],
+      "backend": "python",
+      "path": "scripts/research_panels.py",
+      "symbol": "paired_changes",
+      "inputs": "long DataFrame, id/condition/value and two condition labels",
+      "boundary": "唯一 ID×条件；缺配对默认报错，不把重复测量当独立样本。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "优先显示个体变化/分布；只用有来源的汇总、区间和统计单位。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/viz_pitfalls.md",
+          "use": "配对不能当独立重复；分布图保留原始观测，联合图及边缘图使用同一记录。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-image-plate",
+      "kind": "implementation",
+      "title": "定标原始图像板",
+      "concepts": [
+        "image-plate"
+      ],
+      "tags": [
+        "image-plate"
+      ],
+      "backend": "python",
+      "path": "scripts/research_panels.py",
+      "symbol": "image_panel",
+      "inputs": "2D grayscale/native RGB array; scalar or (row,col) pixel_size; optional source center_origin; unit, scale_bar, shared display limits",
+      "boundary": "灰度或原生 RGB，明确校准/源像素单位；不生成或改写观测像素。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "图像板与定量分工；原始像素、共享强度、标定和裁剪范围均需可核对。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "采用输出与实际读图检查；不声称该配方提供显微成像分析。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "提取图像板比例、标记和局部位置，避免删掉比例尺、通道与定量对应。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-network",
+      "kind": "implementation",
+      "title": "固定坐标加权网络",
+      "concepts": [
+        "network"
+      ],
+      "tags": [
+        "network"
+      ],
+      "backend": "python",
+      "path": "scripts/research_panels.py",
+      "symbol": "network_panel",
+      "inputs": "unique nodes, explicit xy positions, source/target/weight edges",
+      "boundary": "位置由输入提供，边权有限非负；不能从截图臆造网络。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-estimates",
+      "kind": "implementation",
+      "title": "多方法估计值与区间列",
+      "concepts": [
+        "benchmark",
+        "forest",
+        "proportion"
+      ],
+      "tags": [
+        "benchmark",
+        "forest"
+      ],
+      "backend": "python",
+      "path": "scripts/editorial.py",
+      "symbol": "estimate_column",
+      "inputs": "labels, estimates, explicit lower/upper bounds",
+      "boundary": "CI/SD/SE 的意义由调用方定义；不是 Cox/Meta 分析估计器。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "区分主要比较、组件解释与敏感性，避免一表一面板或重复排名。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+          "use": "完整 ImmunoStruct 实现含方法、消融及误差数组；核对误差定义和源值，不能补原始重复。"
+        }
+      ]
+    },
+    {
+      "id": "impl-ablation",
+      "kind": "implementation",
+      "title": "组件矩阵与消融比较",
+      "concepts": [
+        "ablation"
+      ],
+      "tags": [
+        "ablation"
+      ],
+      "backend": "python",
+      "path": "scripts/editorial.py",
+      "symbol": "component_matrix",
+      "inputs": "Boolean variants×components matrix",
+      "boundary": "组件设计和指标必须有实验依据。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "区分主要比较、组件解释与敏感性，避免一表一面板或重复排名。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+          "use": "完整 ImmunoStruct 实现含方法、消融及误差数组；核对误差定义和源值，不能补原始重复。"
+        }
+      ]
+    },
+    {
+      "id": "impl-heatmap",
+      "kind": "implementation",
+      "title": "分组与双尺度热图",
+      "concepts": [
+        "heatmap"
+      ],
+      "tags": [
+        "heatmap"
+      ],
+      "backend": "python",
+      "path": "scripts/editorial.py",
+      "symbol": "scientific_heatmap",
+      "inputs": "matrix, row/column labels, explicit limits and optional center",
+      "boundary": "不逐列偷偷归一化；方向与量纲由数据定义。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-raw-distribution",
+      "kind": "implementation",
+      "title": "原始点和箱线分布",
+      "concepts": [
+        "distribution"
+      ],
+      "tags": [
+        "distribution"
+      ],
+      "backend": "python",
+      "path": "scripts/editorial.py",
+      "symbol": "raw_groups",
+      "inputs": "independent group arrays, labels, colors",
+      "boundary": "不能从均值与误差构造原始分布。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "优先显示个体变化/分布；只用有来源的汇总、区间和统计单位。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/viz_pitfalls.md",
+          "use": "配对不能当独立重复；分布图保留原始观测，联合图及边缘图使用同一记录。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-trend",
+      "kind": "implementation",
+      "title": "轨迹与显式区间",
+      "concepts": [
+        "trend"
+      ],
+      "tags": [
+        "trend"
+      ],
+      "backend": "python",
+      "path": "scripts/editorial.py",
+      "symbol": "interval_trajectory",
+      "inputs": "real x grid, mean, lower and upper",
+      "boundary": "不填造区间；不把类别索引冒充时间。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-r-heatmap",
+      "kind": "implementation",
+      "title": "原生 R 注释聚类热图",
+      "concepts": [
+        "heatmap",
+        "annotated"
+      ],
+      "tags": [
+        "heatmap",
+        "annotated"
+      ],
+      "backend": "r",
+      "path": "scripts/domain_plots.R",
+      "symbol": "annotated_heatmap_r",
+      "inputs": "named numeric matrix, exact sample metadata IDs, palettes and limits",
+      "boundary": "缺失值聚类需显式策略；仅支持实现中声明的距离与方法。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/r-workflow.md",
+          "use": "使用原生 R 领域实现，核对 ID、事件/删失编码或树与注释的同步顺序。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "使用配方中的色标、区间和组合布局原则；不是借用 Python 代码替代 R。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "审查曲线/树/风险表等必要构造及数据对应；此处是审图方法，不是 R 实现。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-r-survival",
+      "kind": "implementation",
+      "title": "原生 R 生存、删失和风险表",
+      "concepts": [
+        "survival"
+      ],
+      "tags": [
+        "survival"
+      ],
+      "backend": "r",
+      "path": "scripts/domain_plots.R",
+      "symbol": "survival_panel_r",
+      "inputs": "one row per subject; ID, time, event 0/1, group, risk times",
+      "boundary": "普通右删失；不支持左截断/竞争风险/重复事件，不自动给 HR。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/r-workflow.md",
+          "use": "使用原生 R 领域实现，核对 ID、事件/删失编码或树与注释的同步顺序。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "使用配方中的色标、区间和组合布局原则；不是借用 Python 代码替代 R。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "审查曲线/树/风险表等必要构造及数据对应；此处是审图方法，不是 R 实现。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-field",
+      "kind": "implementation",
+      "title": "真实坐标二维场",
+      "concepts": [
+        "field"
+      ],
+      "tags": [
+        "field"
+      ],
+      "backend": "python",
+      "path": "scripts/field_tools.py",
+      "symbol": "grid_field / scalar_field",
+      "inputs": "monotone x/y, rectangular z, explicit limits and missing mask",
+      "boundary": "非均匀间距的结构化网格；不承诺非结构有限元。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/three-d/surfaces.md",
+          "use": "分类曲面包络、极值和拓扑；以真实数据约束视角和几何，不拟合更好看的形状。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+          "use": "借完整曲面构造和导出，保留调用方坐标、缺失域和共享标度；源公式不可混成观测。"
+        }
+      ]
+    },
+    {
+      "id": "impl-surface",
+      "kind": "implementation",
+      "title": "数据场三维曲面",
+      "concepts": [
+        "surface",
+        "3d"
+      ],
+      "tags": [
+        "surface",
+        "3d"
+      ],
+      "backend": "python",
+      "path": "scripts/field_tools.py",
+      "symbol": "field_surface",
+      "inputs": "validated GridField",
+      "boundary": "保持顶点、缺失域和色标；三维遮挡须实际读图。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/three-d/surfaces.md",
+          "use": "分类曲面包络、极值和拓扑；以真实数据约束视角和几何，不拟合更好看的形状。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+          "use": "借完整曲面构造和导出，保留调用方坐标、缺失域和共享标度；源公式不可混成观测。"
+        }
+      ]
+    },
+    {
+      "id": "impl-table",
+      "kind": "implementation",
+      "title": "原生 LaTeX 表格",
+      "concepts": [
+        "table"
+      ],
+      "tags": [
+        "table"
+      ],
+      "backend": "python",
+      "path": "scripts/table_tools.py",
+      "symbol": "to_latex",
+      "inputs": "raw rows, columns, directions, display strings and optional spanners",
+      "boundary": "交 .tex/CSV；长表与复杂多行另行适配。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-project-style",
+      "kind": "implementation",
+      "title": "跨 Python/R 项目配色与字体",
+      "concepts": [
+        "color",
+        "font"
+      ],
+      "tags": [
+        "color",
+        "font"
+      ],
+      "backend": "python",
+      "path": "scripts/project_style.py",
+      "symbol": "project_context / colors_for",
+      "inputs": "shared project-style JSON",
+      "boundary": "有命名组映射时，未知组报错；不循环复用类别色。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/design-theory.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/layout-and-type.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "语义色族与跨图一致性；本包用同一 JSON 固定组名、色标和字体。"
+        }
+      ]
+    },
+    {
+      "id": "impl-r-project-style",
+      "kind": "implementation",
+      "title": "原生 R 项目配色与混排文字",
+      "concepts": [
+        "color",
+        "font"
+      ],
+      "tags": [
+        "color",
+        "font"
+      ],
+      "backend": "r",
+      "path": "scripts/project_style.R",
+      "symbol": "use_project_style / lc_colors / mixed_text_grob",
+      "inputs": "shared project-style JSON; installed Latin/CJK fonts",
+      "boundary": "ggplot 混排导出另需 gridtext；自定义 grid 回调和特殊字体必须查看实际 PDF。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/design-theory.md",
+          "use": "使用原生 R 领域实现，核对 ID、事件/删失编码或树与注释的同步顺序。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "使用配方中的色标、区间和组合布局原则；不是借用 Python 代码替代 R。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/layout-and-type.md",
+          "use": "审查曲线/树/风险表等必要构造及数据对应；此处是审图方法，不是 R 实现。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "语义色族与跨图一致性；本包用同一 JSON 固定组名、色标和字体。"
+        }
+      ]
+    },
+    {
+      "id": "impl-review",
+      "kind": "implementation",
+      "title": "参考审图与修订账本",
+      "concepts": [
+        "reference"
+      ],
+      "tags": [
+        "reference"
+      ],
+      "backend": "python",
+      "path": "scripts/review_engine.py",
+      "symbol": "CLI",
+      "inputs": "actual staged images and host-returned structured observations",
+      "boundary": "Records observations and revisions; no model calls, authenticated independence or scientific certification.",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-export",
+      "kind": "implementation",
+      "title": "最终尺寸导出与 PDF 检查",
+      "concepts": [
+        "export"
+      ],
+      "tags": [
+        "export"
+      ],
+      "backend": "python",
+      "path": "scripts/publication.py",
+      "symbol": "save_figure",
+      "inputs": "matplotlib figure, output prefix and optional size",
+      "boundary": "技术 PASS 与实际视觉/设计审查分开。",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/qa-contract.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/publication_checklist.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-chart-plan",
+      "path": "scripts/chart_plan.py",
+      "symbol": "plan_chart",
+      "concepts": [
+        "selection"
+      ],
+      "title": "研究目的与实际记录联合选图",
+      "kind": "implementation",
+      "backend": "any",
+      "tags": [
+        "selection"
+      ],
+      "inputs": "DataFrame/CSV plus explicit intent and column-role spec",
+      "boundary": "配对/缺失/重复单位可阻断；候选排序是启发式，不推断研究设计。",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "按科学问题、配对单位和证据主次组织表达与面积。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "联合意图/结构/规模诊断，并在实际渲染后修订。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "保留必要构造和正确部分，比较局部几何与前后版本。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "共享视觉语义、真实指标尺度和完整论文实现的组织。"
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-composition",
+      "path": "scripts/composition.py",
+      "symbol": "compose / Composition.fit",
+      "concepts": [
+        "layout"
+      ],
+      "title": "实测文字的物理尺寸布局",
+      "kind": "implementation",
+      "backend": "python",
+      "tags": [
+        "layout"
+      ],
+      "inputs": "size_mm, rectangular mosaic, data, labels and explicit panel budgets",
+      "boundary": "2D/3D、图像比例、等数据列和等物理倍率；不足报错，不缩字或改数据。",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "按科学问题、配对单位和证据主次组织表达与面积。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "联合意图/结构/规模诊断，并在实际渲染后修订。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "保留必要构造和正确部分，比较局部几何与前后版本。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "共享视觉语义、真实指标尺度和完整论文实现的组织。"
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-line-end-labels",
+      "path": "scripts/composition.py",
+      "symbol": "label_line_ends",
+      "concepts": [
+        "layout"
+      ],
+      "title": "保留真实末端的曲线直接标注",
+      "kind": "implementation",
+      "backend": "python",
+      "tags": [
+        "layout"
+      ],
+      "inputs": "Named 2D lines; reserved label corridor; Composition.fit",
+      "boundary": "按物理间距排布，不移动数据；容量不足需拆分或保留图例。",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "按科学问题、配对单位和证据主次组织表达与面积。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "联合意图/结构/规模诊断，并在实际渲染后修订。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "保留必要构造和正确部分，比较局部几何与前后版本。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "共享视觉语义、真实指标尺度和完整论文实现的组织。"
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-revision-review",
+      "path": "scripts/review_tools.py",
+      "symbol": "audit_marks / compare_revisions / record_review",
+      "concepts": [
+        "revision"
+      ],
+      "title": "审图与修订非退化比较",
+      "kind": "implementation",
+      "backend": "any",
+      "tags": [
+        "revision"
+      ],
+      "inputs": "Current exports/QA, previous QA, required panel/artist classes, actual observations",
+      "boundary": "Python native geometry 与 R ggplot 快照；哈希绑定；实际审图，不自动证明审美或独立评审。",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "按科学问题、配对单位和证据主次组织表达与面积。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "联合意图/结构/规模诊断，并在实际渲染后修订。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "保留必要构造和正确部分，比较局部几何与前后版本。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "共享视觉语义、真实指标尺度和完整论文实现的组织。"
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-evidence-graph",
+      "path": "scripts/evidence_tools.py",
+      "symbol": "plan_evidence / audit_evidence_layout",
+      "concepts": [
+        "evidence",
+        "multipanel"
+      ],
+      "backend": "python",
+      "title": "实际数据的复杂证据契约",
+      "inputs": "Named actual tables and explicit scientific panel contracts",
+      "boundary": "Checks roles, original-record overlap across derived tables, dependencies and area; scientific necessity remains a judgment.",
+      "kind": "implementation",
+      "tags": [
+        "evidence",
+        "multipanel"
+      ],
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/visual_review.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-color-audit",
+      "path": "scripts/color_tools.py",
+      "symbol": "audit_palette / continuous_scale / audit_rendered_mapping / palette_project / contrast_text",
+      "concepts": [
+        "color"
+      ],
+      "backend": "any",
+      "title": "配色语义、可分辨性与实际身份核对",
+      "inputs": "Used colors, project groups, actual snapshots and continuous values",
+      "boundary": "色觉/距离为启发式；实际映射检查兼容 Python/R，配色分析函数为 Python。",
+      "kind": "implementation",
+      "tags": [
+        "color"
+      ],
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/visual_review.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-r-revisions",
+      "path": "scripts/review_tools.R",
+      "symbol": "figure_snapshot_r / audit_marks_r",
+      "concepts": [
+        "revision"
+      ],
+      "backend": "r",
+      "title": "原生 R 绘图层和修订比较",
+      "inputs": "Actual named component ggplots; source files; before/current exports",
+      "boundary": "逐 facet 的实际 ggplot 层；custom grid/ComplexHeatmap 尚无通用快照。",
+      "kind": "implementation",
+      "tags": [
+        "revision"
+      ],
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/visual_review.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-image-layout",
+      "path": "scripts/image_layout.py",
+      "symbol": "image_plate / link_roi / orthogonal_slice",
+      "concepts": [
+        "image-plate",
+        "layout"
+      ],
+      "backend": "python",
+      "title": "原像素、ROI 与定量伴随布局",
+      "inputs": "Finite grayscale/native RGB pixels or explicit selected-channel ZYX volume; scalar/pair calibration, source-centre origin, exact crops/slices",
+      "boundary": "不推断标定/阈值/细胞数量；校准未知可用源像素单位。",
+      "kind": "implementation",
+      "tags": [
+        "image-plate",
+        "layout"
+      ],
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/visual_review.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-volume-mesh",
+      "path": "scripts/field_tools.py",
+      "symbol": "volume_isosurface",
+      "concepts": [
+        "volume",
+        "3d"
+      ],
+      "backend": "python",
+      "title": "真实体数据的等值面与物理坐标",
+      "inputs": "3D voxels, z/y/x spacing, origin, explicit level",
+      "boundary": "依赖 skimage；等值面线性插值，不是经过验证的分割，不平滑/填洞/减面。",
+      "kind": "implementation",
+      "tags": [
+        "volume",
+        "3d"
+      ],
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/visual_review.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Cross-used in scientific organization, encoding, construction and revision."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-study-data",
+      "kind": "implementation",
+      "path": "scripts/study_data.py",
+      "symbol": "combine_cohorts / binomial_estimates / missingness_summary / grouped_lineage / save_study_table",
+      "concepts": [
+        "cohort",
+        "proportion",
+        "evidence"
+      ],
+      "tags": [
+        "cohort",
+        "proportion",
+        "evidence"
+      ],
+      "backend": "python",
+      "title": "多来源、显式分母与派生记录追踪",
+      "status": "callable",
+      "inputs": "Equal-schema original tables; explicit binary outcome, unique record unit, complete group levels and interval method",
+      "boundary": "Independent-record Wilson model only; source-record labels do not establish patient independence. No imputation or causal adjustment. Generic grouped lineage validates membership, not arithmetic.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Distinct inferential roles, main/Extended Data and source independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Real strata size, missingness and denominator determine chart choice."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Retain correct evidence while reviewing actual alternatives and layout.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Aligned comparisons and semantic colour rather than source-specific hardcoding."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-gallery-basic",
+      "kind": "implementation",
+      "path": "assets/examples/gallery.py",
+      "symbol": "CLI --only 01 / 04 / 05 / 06 / 07 / 16 / 18 / 22 / 27 / 30",
+      "concepts": [
+        "scatter",
+        "histogram",
+        "ecdf",
+        "kde",
+        "raincloud",
+        "correlation",
+        "pr",
+        "vector"
+      ],
+      "tags": [
+        "distribution",
+        "joint distribution",
+        "predictive assessment",
+        "vector"
+      ],
+      "backend": "python",
+      "title": "已运行基础图型构造与真实留出预测范例",
+      "status": "runnable_example",
+      "inputs": "Bundled sklearn data and exported R built-ins; adapt the selected function for user-specific inputs and estimands.",
+      "boundary": "Runnable examples, not a generic arbitrary-CSV adapter or independent research validation. KDE bandwidth, held-out IDs, analytic vector-field demo and real measurement sources are explicit.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Distinct inferential roles, main/Extended Data and source independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Real strata size, missingness and denominator determine chart choice."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Retain correct evidence while reviewing actual alternatives and layout.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/design-theory.md",
+          "use": "Aligned comparisons and semantic colour rather than source-specific hardcoding."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-signal-overview",
+      "kind": "implementation",
+      "path": "scripts/signal_plots.py",
+      "symbol": "plot_signal_overview / plot_signal_window",
+      "concepts": [
+        "signal"
+      ],
+      "tags": [
+        "measured signal",
+        "minmax",
+        "waveform"
+      ],
+      "backend": "python",
+      "title": "实测波形：完整极值概览与原始窗口",
+      "status": "callable",
+      "inputs": "Aligned finite values and strictly increasing real time; explicit display bins/window and physical units.",
+      "boundary": "Bins preserve all source membership and extrema; not confidence bands or independent samples. Irregular samples are not implicitly interpolated.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Allocate complementary evidence roles and physical area before composing the domain figure."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/data_profiling.md",
+          "use": "Inspect actual records, identities, missingness and measurement meaning before choosing marks."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "Retain useful reference constructions and actual labels while adapting the layout to new data.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-signal-spectra",
+      "kind": "implementation",
+      "path": "scripts/signal_plots.py",
+      "symbol": "signal_spectra / plot_spectrogram",
+      "concepts": [
+        "spectrogram",
+        "psd"
+      ],
+      "tags": [
+        "uniform sampling",
+        "PSD",
+        "spectrogram"
+      ],
+      "backend": "python",
+      "title": "明确采样与窗口参数的功率谱和时频密度",
+      "status": "callable",
+      "inputs": "Uniform second time coordinates, aligned finite signal, agreeing sampling_hz, declared signal_unit/nperseg/noverlap/window/detrending.",
+      "boundary": "Density units signal^2/Hz; no resampling/filtering or implicit color clipping. Frequency display subset is recorded; full computed densities remain available.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Allocate complementary evidence roles and physical area before composing the domain figure."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/data_profiling.md",
+          "use": "Inspect actual records, identities, missingness and measurement meaning before choosing marks."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "Retain useful reference constructions and actual labels while adapting the layout to new data.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-hellinger-pca-r",
+      "kind": "implementation",
+      "path": "scripts/ordination.R",
+      "symbol": "hellinger_pca_r / ordination_plot_r",
+      "concepts": [
+        "ordination",
+        "pca"
+      ],
+      "tags": [
+        "community matrix",
+        "metadata",
+        "Hellinger",
+        "PCA"
+      ],
+      "backend": "r",
+      "title": "原生R Hellinger-PCA 群落排序与样本身份",
+      "status": "callable",
+      "inputs": "Unique-ID nonnegative complete sample-by-feature matrix with positive row totals, exactly keyed metadata, value_semantics; explicit metadata fields and group shape mapping. Color is either categorical group/palette or finite numeric color_by metadata with covering color_limits and continuous color_colors.",
+      "boundary": "sqrt(value/site total), centered unscaled PCA; at least two nonzero dimensions. Equal data-unit scale; continuous colorbar and separate categorical shape legend. Native label freeze and opt-in enlargement preserve full overview color limits, measured ranges and identities; ROI/connector segments leave gaps at measured text/marker bounds and refuse an unreadable outline. Final-size render review remains required. Scores plot is not a loading-arrow biplot, UMAP, causal effect or significance test.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Allocate complementary evidence roles and physical area before composing the domain figure."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/data_profiling.md",
+          "use": "Inspect actual records, identities, missingness and measurement meaning before choosing marks."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "Retain useful reference constructions and actual labels while adapting the layout to new data.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-count-structure-python",
+      "kind": "implementation",
+      "path": "scripts/omics_plots.py",
+      "symbol": "analyze_count_structure / align_sample_metadata",
+      "concepts": [
+        "count-structure"
+      ],
+      "tags": [
+        "RNA-seq",
+        "bulk count matrix",
+        "CPM",
+        "log2(CPM+pseudocount)",
+        "sample metadata",
+        "descriptive PCA"
+      ],
+      "backend": "python",
+      "title": "Identity-safe descriptive bulk-count expression structure",
+      "status": "callable",
+      "inputs": "Genes-by-samples numeric nonnegative integer DataFrame, unique nonmissing string gene/sample IDs, >=2 genes and >=3 samples, positive library totals, exact keyed metadata, explicit sample_id/min_samples/heatmap_n. Positive pseudocount defaults to 1; choose mutually exclusive min_cpm (default 1) or min_count eligibility.",
+      "boundary": "Library-total CPM and log2(CPM+pseudocount), center-only PCA, declared CPM or raw-count prevalence and nonzero-variance eligibility, variance-ranked display subset, row z scores ddof=1, average Euclidean clustering. Parameters retain actual transform and eligibility provenance. All source rows retained. No DE, p/q, enrichment, batch correction, causal inference, gene-symbol mapping or arbitrary continuous/negative matrices.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Separate sample projection, coverage boundary and named feature decomposition."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "Read scatter multi-semantic and heatmap recipes; keep identity, normalization and signed color semantics explicit."
+        }
+      ],
+      "preview_candidates": [],
+      "symbols": [
+        "analyze_count_structure",
+        "align_sample_metadata"
+      ],
+      "maturity_boundary": "One real development task; component validation does not establish broad-domain, independent visual or held-out validation."
+    },
+    {
+      "id": "impl-pca-scores-python",
+      "kind": "implementation",
+      "path": "scripts/omics_plots.py",
+      "symbol": "pca_scores",
+      "concepts": [
+        "pca"
+      ],
+      "tags": [
+        "supplied PCA scores",
+        "equal data units",
+        "paired metadata",
+        "sample identity"
+      ],
+      "backend": "python",
+      "title": "Identity-mapped PCA score display with equal physical data units",
+      "status": "callable",
+      "inputs": "Finite real PC1/PC2 DataFrame indexed by unique sample ID, exactly keyed metadata, explained variance fractions, explicit categorical color field/map, optional independent shape field/map, caller-owned axes.",
+      "boundary": "Displays supplied PCA scores without analysis or coordinate changes. Equal physical length per data unit via adjustable box; returns per-ID actual artists, unchanged scores/aligned metadata and separate legend handles. Pairing/connection order, physical layout, labels and overlap review remain explicit; no inferred pairing, DE, UMAP or biplot.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Retain physical coordinate meaning and final-size identities."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "Independent color and marker semantics, adapted without automatic inference."
+        }
+      ],
+      "preview_candidates": [],
+      "maturity_boundary": "Component geometry and existing development data checked; independent complete-task validation remains separate."
+    },
+    {
+      "id": "impl-expression-heatmap-python",
+      "kind": "implementation",
+      "path": "scripts/omics_plots.py",
+      "symbol": "expression_heatmap",
+      "concepts": [
+        "expression-heatmap"
+      ],
+      "tags": [
+        "annotated heatmap",
+        "sample metadata",
+        "strict IDs",
+        "signed display values"
+      ],
+      "backend": "python",
+      "title": "Explicit signed expression heatmap with keyed categorical tracks",
+      "status": "callable",
+      "inputs": "Finite signed display DataFrame, exactly matched metadata, explicit row/sample permutations, explicit categorical color maps/track axes, center=0 signed limits covering all values; optional negative_ticks.",
+      "boundary": "Displays caller-supplied values and order only. No analysis, feature selection, clustering, inference, missing-value imputation or automatic clipping. Optional small negative-cell ticks preserve sign in gray but still require actual-size review.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Final-size identities and scientific evidence boundaries."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "Signed heatmap scales and restrained cell annotation."
+        }
+      ],
+      "preview_candidates": [],
+      "symbols": [
+        "expression_heatmap"
+      ],
+      "maturity_boundary": "One real development task; component validation does not establish broad-domain, independent visual or held-out validation."
+    },
+    {
+      "id": "impl-study-two-arm-risk-evidence",
+      "kind": "implementation",
+      "title": "Study-specific risk ratios and absolute arm risks from observed 2x2 counts",
+      "backend": "python",
+      "path": "scripts/effect_plots.py",
+      "symbol": "analyze_2x2 / forest_panel / arm_risk_panel",
+      "concepts": [
+        "two-arm-counts",
+        "risk-ratio",
+        "absolute-risk"
+      ],
+      "inputs": "Unique study ID and nonempty display label, four mapped nonnegative integer cells and positive arm denominators; confidence level; explicit effect_scale/reference and risk_scale; optional complete ID order.",
+      "boundary": "Unadjusted independent-binomial working model only; no pooling, weights, tests, clustering/follow-up/causal inference. Zero-event RR interval unavailable without correction; arm risks retained. Binomial intervals do not automatically reproduce original design-based uncertainty.",
+      "status": "callable",
+      "symbols": [
+        "analyze_2x2",
+        "wilson_interval",
+        "align_studies",
+        "validate_effects",
+        "forest_panel",
+        "arm_risk_panel"
+      ],
+      "maturity_boundary": "One real development task; component validation does not establish broad-domain, independent visual or held-out validation.",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Relative contrast and absolute arm risk support distinct readings of the same observed studies."
+        }
+      ]
+    },
+    {
+      "id": "impl-computational-sweep",
+      "kind": "implementation",
+      "path": "scripts/computational_plots.py",
+      "symbol": "ordered_sweep / plot_budget_sweep",
+      "concepts": [
+        "computational-sweep"
+      ],
+      "tags": [
+        "numeric irregular budget",
+        "measured repeated runs",
+        "shared identities"
+      ],
+      "backend": "python",
+      "title": "实际测量、按运行ID对齐的预算/参数曲线",
+      "status": "callable",
+      "inputs": "Long measurements: unique series/repeat/numeric-x keys, finite metric, explicit full series order and stable color/marker/linestyle. Complete shared x-by-repeat grid.",
+      "boundary": "Shows supplied runs and arithmetic means on actual numeric linear/log x; does not fit models, fabricate intervals, prove independent datasets or hardware-general efficiency.",
+      "sources": [
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_sweep.py",
+          "use": "Complete original read and byte-identical copied source executed exit0; irregular numerical x and shared series identities adapted."
+        },
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Performance, measured cost and failure structure have distinct necessary roles."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "Raw measured run visibility and redundant line/marker identities; no simulated errors or inferred interval."
+        }
+      ],
+      "preview_candidates": [],
+      "symbols": [
+        "ordered_sweep",
+        "plot_budget_sweep"
+      ],
+      "maturity_boundary": "One real development task; component validation does not establish broad-domain, independent visual or held-out validation."
+    },
+    {
+      "id": "impl-confusion-counts",
+      "kind": "implementation",
+      "path": "scripts/computational_plots.py",
+      "symbol": "confusion_counts / prepare_count_matrix / plot_count_matrix",
+      "concepts": [
+        "confusion-counts"
+      ],
+      "tags": [
+        "raw count matrix",
+        "exact class supports",
+        "full class order"
+      ],
+      "backend": "python",
+      "title": "保留全类别与精确边际支持量的原始计数混淆矩阵",
+      "status": "callable",
+      "inputs": "Predicted/true classes and unique record IDs with explicit full class order, or finite nonnegative integer matrix plus unique row/column IDs. Explicit aliases remain separate from IDs.",
+      "boundary": "Raw unnormalized counts, exact row/column supports and sequential full-range scale; zero-support classes stay. Reject negative/fractional counts, duplicate IDs and clipping vmax. Does not certify prediction independence or estimator validity.",
+      "sources": [
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+          "use": "Complete original read and byte-identical copied source executed exit0; matrix, cell annotation and both marginal totals adapted; unused hierarchy and vmax20 removed."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "Sequential raw-count semantics, explicit scale and final-size matrix readability."
+        }
+      ],
+      "preview_candidates": [],
+      "symbols": [
+        "confusion_counts",
+        "prepare_count_matrix",
+        "plot_count_matrix"
+      ],
+      "maturity_boundary": "One real development task; component validation does not establish broad-domain, independent visual or held-out validation."
+    },
+    {
+      "id": "impl-raw-trend",
+      "kind": "implementation",
+      "title": "Observed raw trajectories on a complete shared numerical x grid",
+      "concepts": [
+        "trend"
+      ],
+      "tags": [
+        "raw trajectory",
+        "ordered observations",
+        "irregular x spacing"
+      ],
+      "backend": "python",
+      "path": "assets/paper_patterns.py",
+      "symbol": "trend_lines",
+      "status": "callable",
+      "inputs": "Unique finite real numerical x vector, finite series-by-x values, explicit series labels; optional complete lower/upper arrays. Shared grid across series; no implicit averaging or interpolation.",
+      "boundary": "Plots supplied records with optional supplied intervals. It creates a figure rather than drawing into an existing axes; use editorial.interval_trajectory for composable supplied-interval panels. Missing/unequal raw grids need a separately declared layout/adapter.",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "对照具体构造、标志元素和局部布局；精修时保留正确数据。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/figures4papers/references/common-patterns.md",
+          "use": "参考可组合实现、尺度和图例组织；旧参数需要按最终尺寸改造。"
+        }
+      ]
+    },
+    {
+      "id": "impl-measured-impedance-python",
+      "kind": "implementation",
+      "title": "Measured Nyquist and separate-axis Bode with signed quadrants and explicit frequency identity",
+      "backend": "python",
+      "path": "scripts/impedance_plots.py",
+      "symbols": [
+        "prepare_impedance",
+        "plot_nyquist",
+        "plot_bode"
+      ],
+      "concepts": [
+        "measured-impedance",
+        "nyquist",
+        "bode"
+      ],
+      "tags": [
+        "EIS",
+        "electrochemistry",
+        "complex impedance",
+        "joint frequency ordering",
+        "equal physical units",
+        "explicit origin zoom"
+      ],
+      "inputs": "Nonempty DataFrame; explicit distinct spectrum/frequency/Re Z/physical Im Z fields; nonempty string spectrum IDs, at least two finite positive unique frequencies per spectrum in Hz, real finite impedance in ohm, explicit complete identity order and visual encodings. Different frequency grids supported.",
+      "boundary": "Measured spectra only; no circuit fit, mechanism, smoothing, filtering, uncertainty, independent-replicate inference, phase unwrapping or area normalization. Overview and Bode limits cannot hide observations. Explicit detail=True allows declared zoom but reports visible/all counts and requires overview when cropped. Bode magnitude requires nonzero |Z|; no dual-y display. Not a generic complex-number or spectroscopy adapter.",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+          "use": "Complex-plane overview and frequency-resolved complementary evidence, physical-coordinate units and independent figure captions."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "Diagnose real numerical coordinate scales and preserve complete measured observations before choosing lines/log axes."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/repair-and-preservation.md",
+          "use": "Retain useful overview/detail structure and inspect actual final-size layout; no invented source numbers or fixed source axes.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        }
+      ]
+    },
+    {
+      "id": "impl-netcdf-field-preparation",
+      "kind": "implementation",
+      "title": "显式CF NetCDF选取、时均差值与标量场准备",
+      "concepts": [
+        "netcdf"
+      ],
+      "tags": [
+        "netcdf",
+        "field",
+        "rectilinear"
+      ],
+      "backend": "python",
+      "path": "scripts/field_data.py",
+      "symbols": [
+        "prepare_netcdf_field",
+        "field_from_table"
+      ],
+      "inputs": "Local NetCDF; explicit variable/x/y/time, scalar extra-dimension indices, optional closed coordinate/time ranges and equal-sample mean/difference, missing policy, units, color limits/center.",
+      "boundary": "Rectilinear 1D coordinates only; optional xarray/file/calendar readers; no guessed variable/layer, projection, interpolation, longitude wrap, area/duration weighting or inference. Only reduced 2D cells enter profiling.",
+      "status": "callable",
+      "preview_candidates": [],
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/common-patterns.md",
+          "use": "核对观测单位、可支持的推断、图型和面板职责。"
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/plot_recipes.md",
+          "use": "核对观测与汇总的编码、色标含义和读取成本。"
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/three-d/surfaces.md",
+          "use": "分类曲面包络、极值和拓扑；以真实数据约束视角和几何，不拟合更好看的形状。",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+          "use": "借完整曲面构造和导出，保留调用方坐标、缺失域和共享标度；源公式不可混成观测。"
+        }
+      ]
+    },
+    {
+      "id": "impl-count-preparation",
+      "kind": "implementation",
+      "title": "汇总分类计数与明确分母",
+      "path": "scripts/count_tables.py",
+      "symbols": [
+        "prepare_count_table",
+        "conditional_proportions"
+      ],
+      "concepts": [
+        "count-table"
+      ],
+      "tags": [
+        "count-table"
+      ],
+      "backend": "python",
+      "inputs": "Complete 2/3 categorical dimensions, explicit category order and observed integer count per cell including zeros.",
+      "boundary": "No pseudo-individual expansion; duplicate/missing cells rejected; zero denominator unavailable; no weighting or inference.",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Explicit evidence roles, unit and denominator semantics; no inferred independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Choose small multiples for dense trajectories; categorical summaries retain their denominator."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Preserve actual mark geometry/identity through targeted rendered review; independent review remains separate.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+          "use": "Adapt explicit joint/marginal support from complete case; replace its fixed color cap with count-derived geometry."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-statistical-mosaic",
+      "kind": "implementation",
+      "title": "真正按计数面积编码的二维mosaic",
+      "path": "scripts/count_tables.py",
+      "symbols": [
+        "plot_mosaic"
+      ],
+      "concepts": [
+        "statistical-mosaic"
+      ],
+      "tags": [
+        "statistical-mosaic"
+      ],
+      "backend": "python",
+      "inputs": "Prepared two-axis CountTable, explicit colors/color_dimension.",
+      "boundary": "Actual Rectangle area=count/total without gaps/minimum widths; zero cells retained with zero area.",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Explicit evidence roles, unit and denominator semantics; no inferred independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Choose small multiples for dense trajectories; categorical summaries retain their denominator."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Preserve actual mark geometry/identity through targeted rendered review; independent review remains separate.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+          "use": "Adapt explicit joint/marginal support from complete case; replace its fixed color cap with count-derived geometry."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-static-alluvial",
+      "kind": "implementation",
+      "title": "保留三轴joint cell身份的静态alluvial",
+      "path": "scripts/count_tables.py",
+      "symbols": [
+        "plot_alluvial"
+      ],
+      "concepts": [
+        "alluvial"
+      ],
+      "tags": [
+        "alluvial"
+      ],
+      "backend": "python",
+      "inputs": "Prepared three-axis CountTable; joint_categories semantics; explicit colors/color_dimension.",
+      "boundary": "Joint membership only, not longitudinal flow. Same per-cell thickness at every node; actual endpoint geometry returned.",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Explicit evidence roles, unit and denominator semantics; no inferred independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Choose small multiples for dense trajectories; categorical summaries retain their denominator."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Preserve actual mark geometry/identity through targeted rendered review; independent review remains separate.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+          "use": "Adapt explicit joint/marginal support from complete case; replace its fixed color cap with count-derived geometry."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-repeated-preparation",
+      "kind": "implementation",
+      "title": "重复轨迹的单位、坐标与完整观察诊断",
+      "path": "scripts/repeated_measures.py",
+      "symbols": [
+        "prepare_repeated_trajectory"
+      ],
+      "concepts": [
+        "repeated-trajectory"
+      ],
+      "tags": [
+        "repeated-trajectory"
+      ],
+      "backend": "python",
+      "inputs": "Explicit unit/x/y, complete unit order and scientific units; real numeric finite records.",
+      "boundary": "No missing row deletion, baseline inference, model, CI or treating days as independent n.",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Explicit evidence roles, unit and denominator semantics; no inferred independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Choose small multiples for dense trajectories; categorical summaries retain their denominator."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Preserve actual mark geometry/identity through targeted rendered review; independent review remains separate.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+          "use": "Adapt the complete shared-scale small-multiple case and its reserved legend corridor; raw repeated-unit measurements retain their own semantics."
+        }
+      ],
+      "preview_candidates": []
+    },
+    {
+      "id": "impl-repeated-native-r",
+      "kind": "implementation",
+      "title": "原生R共尺度个体小倍图",
+      "path": "scripts/repeated_measures.R",
+      "symbols": [
+        "repeated_trajectory_r"
+      ],
+      "concepts": [
+        "repeated-trajectory"
+      ],
+      "tags": [
+        "repeated-trajectory"
+      ],
+      "backend": "r",
+      "inputs": "Raw repeated data, explicit unit/x/y/unit_order/x_unit/y_unit; ggplot2.",
+      "boundary": "One fixed-scale facet per real unit; returned source-row/trace manifest, no inferred baseline or summary uncertainty.",
+      "status": "callable",
+      "sources": [
+        {
+          "source": "nature-figure",
+          "path": "references/library/nature/references/figure-contract.md",
+          "use": "Explicit evidence roles, unit and denominator semantics; no inferred independence."
+        },
+        {
+          "source": "SciPilot",
+          "path": "references/library/scipilot/references/chart_selection.md",
+          "use": "Choose small multiples for dense trajectories; categorical summaries retain their denominator."
+        },
+        {
+          "source": "Light-Science",
+          "path": "references/visual-review/reviewer-contract.md",
+          "use": "Preserve actual mark geometry/identity through targeted rendered review; independent review remains separate.",
+          "origin": "Independently authored guide; FigMirror acknowledged as a conceptual influence, no upstream file redistributed."
+        },
+        {
+          "source": "figures4papers",
+          "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+          "use": "Adapt the complete shared-scale small-multiple case and its reserved legend corridor; raw repeated-unit measurements retain their own semantics."
+        }
+      ],
+      "preview_candidates": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "run_id": "R001",
+  "experiment_id": "X01",
+  "task_id": "T01",
+  "kind": "smoke",
+  "purpose": "填写本次运行要验证什么以及验收依据",
+  "parent_run_id": null,
+  "unit": {"unit_id": "U01", "seed": null},
+  "parameters": {},
+  "argv": ["<absolute-interpreter-or-binary>", "<existing-entrypoint>", "--out", "{output}"],
+  "cwd": "<existing-project-directory>",
+  "timeout_seconds": null,
+  "environment": {},
+  "provenance": {
+    "environment": "填写真实环境版本和锁文件/镜像位置；未知要写明",
+    "hardware": "填写本轮实际硬件和核实依据",
+    "determinism": "填写随机、并行、精度与容差设置及限制"
+  },
+  "inputs": [
+    {"path": "<existing-source-file>", "role": "code", "snapshot": true},
+    {"path": "<existing-resolved-config>", "role": "config", "snapshot": true},
+    {"path": "<existing-lockfile-or-environment-record>", "role": "environment", "snapshot": true},
+    {"path": "<existing-data-file-or-version-manifest>", "role": "data", "snapshot": false}
+  ],
+  "expected_outputs": [
+    {"path": "<actual-output-file>", "role": "raw", "required": true, "min_bytes": 1}
+  ]
+}

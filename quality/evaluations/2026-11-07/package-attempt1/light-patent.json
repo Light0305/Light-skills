@@ -1,0 +1,25 @@
+{
+  "run": 38,
+  "passed": 38,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 1.641,
+  "ok": true,
+  "name": "light-patent",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-patent\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-patent.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-patent"
+}

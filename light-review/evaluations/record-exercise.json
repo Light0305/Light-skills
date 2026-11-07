@@ -1,0 +1,17 @@
+{
+  "kind": "author-authored single-issue record exercise",
+  "date": "2026-11-02",
+  "independent": false,
+  "input": "evaluations/fixtures/case-a.md",
+  "input_sha256": "aa629f05bfe68e4455c2bd882615d655c8dce41d157c6c27d6a7241ccb3d83c3",
+  "packet_id": "sha256:8f4e33892a141634cd7b590bec5507e898c495f7f5e36d5afdfff6b33afe6bfa",
+  "record_validation": {
+    "materials": 1,
+    "claims": 1,
+    "issues": 1,
+    "open_required": 1,
+    "review_status": "final"
+  },
+  "packet_verified": true,
+  "scientific_quality_validated": false
+}

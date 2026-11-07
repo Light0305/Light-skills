@@ -1,0 +1,2573 @@
+{
+  "visio_version": "16.0",
+  "scene_sha256": "594679a6e791476b7d1d668ab9baf9ef4745b4e25fbde78fe4c470e12e425004",
+  "font": "Arial",
+  "pages": [
+    {
+      "name": "01 Reference replica",
+      "shape_count": 69,
+      "expected_shape_count": 69,
+      "shape_count_matches": true,
+      "edge_count": 30,
+      "text_failures": [],
+      "glue_failures": [],
+      "edges": [
+        {
+          "id": "inputs_to_embedding",
+          "shape_id": 40,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "inputs",
+          "target": "input_embedding",
+          "one_d": true
+        },
+        {
+          "id": "input_embedding_to_add",
+          "shape_id": 41,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "input_embedding",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_position_to_add",
+          "shape_id": 42,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_position",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_add_to_branch",
+          "shape_id": 43,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_add",
+          "target": "enc_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "enc_branch_to_attention",
+          "shape_id": 44,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_attention",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_to_norm",
+          "shape_id": 45,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_attention",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_residual",
+          "shape_id": 46,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_norm_to_ff",
+          "shape_id": 47,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_ff",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_to_norm",
+          "shape_id": 48,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_ff",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_residual",
+          "shape_id": 49,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_to_memory",
+          "shape_id": 50,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm2",
+          "target": "enc_memory",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_split",
+          "shape_id": 51,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_memory",
+          "target": "memory_split",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_cross",
+          "shape_id": 52,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "memory_split",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "outputs_to_embedding",
+          "shape_id": 53,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "shifted_outputs",
+          "target": "output_embedding",
+          "one_d": true
+        },
+        {
+          "id": "output_embedding_to_add",
+          "shape_id": 54,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "output_embedding",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_position_to_add",
+          "shape_id": 55,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_position",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_add_to_branch",
+          "shape_id": 56,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_add",
+          "target": "dec_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "dec_branch_to_masked",
+          "shape_id": 57,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "masked_attention",
+          "one_d": true
+        },
+        {
+          "id": "masked_to_norm",
+          "shape_id": 58,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "masked_attention",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "masked_residual",
+          "shape_id": 59,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "norm_to_query",
+          "shape_id": 60,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "cross_to_norm",
+          "shape_id": 61,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "cross_attention",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "cross_residual",
+          "shape_id": 62,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "dec_norm_to_ff",
+          "shape_id": 63,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_ff",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_to_norm",
+          "shape_id": 64,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_ff",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_residual",
+          "shape_id": 65,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "extra_memory_to_norm",
+          "shape_id": 66,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "memory_split",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "decoder_to_linear",
+          "shape_id": 67,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm3",
+          "target": "linear",
+          "one_d": true
+        },
+        {
+          "id": "linear_to_softmax",
+          "shape_id": 68,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "linear",
+          "target": "softmax",
+          "one_d": true
+        },
+        {
+          "id": "softmax_to_probabilities",
+          "shape_id": 69,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "softmax",
+          "target": "probabilities",
+          "one_d": true
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 40,
+          "from_cell": "BeginX",
+          "to_id": 8,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 40,
+          "from_cell": "EndX",
+          "to_id": 9,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "BeginX",
+          "to_id": 9,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "BeginX",
+          "to_id": 10,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "BeginX",
+          "to_id": 11,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "EndX",
+          "to_id": 31,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "EndX",
+          "to_id": 7,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "BeginX",
+          "to_id": 7,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "EndX",
+          "to_id": 5,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "BeginX",
+          "to_id": 5,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "BeginX",
+          "to_id": 4,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "EndX",
+          "to_id": 32,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "BeginX",
+          "to_id": 32,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "EndX",
+          "to_id": 33,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "BeginX",
+          "to_id": 33,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "BeginX",
+          "to_id": 18,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "EndX",
+          "to_id": 19,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "BeginX",
+          "to_id": 19,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "BeginX",
+          "to_id": 20,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "BeginX",
+          "to_id": 21,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "EndX",
+          "to_id": 34,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "EndX",
+          "to_id": 17,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "BeginX",
+          "to_id": 17,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "BeginX",
+          "to_id": 15,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "EndX",
+          "to_id": 13,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "BeginX",
+          "to_id": 13,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "BeginX",
+          "to_id": 33,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X5"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "BeginX",
+          "to_id": 12,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "EndX",
+          "to_id": 22,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "BeginX",
+          "to_id": 22,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "EndX",
+          "to_id": 23,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 69,
+          "from_cell": "BeginX",
+          "to_id": 23,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 69,
+          "from_cell": "EndX",
+          "to_id": 24,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    },
+    {
+      "name": "02 Corrected topology",
+      "shape_count": 68,
+      "expected_shape_count": 68,
+      "shape_count_matches": true,
+      "edge_count": 29,
+      "text_failures": [],
+      "glue_failures": [],
+      "edges": [
+        {
+          "id": "inputs_to_embedding",
+          "shape_id": 40,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "inputs",
+          "target": "input_embedding",
+          "one_d": true
+        },
+        {
+          "id": "input_embedding_to_add",
+          "shape_id": 41,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "input_embedding",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_position_to_add",
+          "shape_id": 42,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_position",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_add_to_branch",
+          "shape_id": 43,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_add",
+          "target": "enc_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "enc_branch_to_attention",
+          "shape_id": 44,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_attention",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_to_norm",
+          "shape_id": 45,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_attention",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_residual",
+          "shape_id": 46,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_norm_to_ff",
+          "shape_id": 47,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_ff",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_to_norm",
+          "shape_id": 48,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_ff",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_residual",
+          "shape_id": 49,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_to_memory",
+          "shape_id": 50,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm2",
+          "target": "enc_memory",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_split",
+          "shape_id": 51,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_memory",
+          "target": "memory_split",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_cross",
+          "shape_id": 52,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "memory_split",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "outputs_to_embedding",
+          "shape_id": 53,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "shifted_outputs",
+          "target": "output_embedding",
+          "one_d": true
+        },
+        {
+          "id": "output_embedding_to_add",
+          "shape_id": 54,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "output_embedding",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_position_to_add",
+          "shape_id": 55,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_position",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_add_to_branch",
+          "shape_id": 56,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_add",
+          "target": "dec_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "dec_branch_to_masked",
+          "shape_id": 57,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "masked_attention",
+          "one_d": true
+        },
+        {
+          "id": "masked_to_norm",
+          "shape_id": 58,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "masked_attention",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "masked_residual",
+          "shape_id": 59,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "norm_to_query",
+          "shape_id": 60,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "cross_to_norm",
+          "shape_id": 61,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "cross_attention",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "cross_residual",
+          "shape_id": 62,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "dec_norm_to_ff",
+          "shape_id": 63,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_ff",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_to_norm",
+          "shape_id": 64,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_ff",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_residual",
+          "shape_id": 65,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "decoder_to_linear",
+          "shape_id": 66,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm3",
+          "target": "linear",
+          "one_d": true
+        },
+        {
+          "id": "linear_to_softmax",
+          "shape_id": 67,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "linear",
+          "target": "softmax",
+          "one_d": true
+        },
+        {
+          "id": "softmax_to_probabilities",
+          "shape_id": 68,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "softmax",
+          "target": "probabilities",
+          "one_d": true
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 40,
+          "from_cell": "BeginX",
+          "to_id": 8,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 40,
+          "from_cell": "EndX",
+          "to_id": 9,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "BeginX",
+          "to_id": 9,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "BeginX",
+          "to_id": 10,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "BeginX",
+          "to_id": 11,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "EndX",
+          "to_id": 31,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "EndX",
+          "to_id": 7,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "BeginX",
+          "to_id": 7,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "EndX",
+          "to_id": 5,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "BeginX",
+          "to_id": 5,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "BeginX",
+          "to_id": 4,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "EndX",
+          "to_id": 32,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "BeginX",
+          "to_id": 32,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "EndX",
+          "to_id": 33,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "BeginX",
+          "to_id": 33,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "BeginX",
+          "to_id": 18,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "EndX",
+          "to_id": 19,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "BeginX",
+          "to_id": 19,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "BeginX",
+          "to_id": 20,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "BeginX",
+          "to_id": 21,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "EndX",
+          "to_id": 34,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "EndX",
+          "to_id": 17,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "BeginX",
+          "to_id": 17,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "BeginX",
+          "to_id": 15,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "EndX",
+          "to_id": 13,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "BeginX",
+          "to_id": 13,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "BeginX",
+          "to_id": 12,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "EndX",
+          "to_id": 22,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "BeginX",
+          "to_id": 22,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "EndX",
+          "to_id": 23,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "BeginX",
+          "to_id": 23,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "EndX",
+          "to_id": 24,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    }
+  ],
+  "reopened_pages": [
+    {
+      "name": "01 Reference replica",
+      "shape_count": 69,
+      "expected_shape_count": 69,
+      "shape_count_matches": true,
+      "edge_count": 30,
+      "text_failures": [],
+      "glue_failures": [],
+      "edges": [
+        {
+          "id": "inputs_to_embedding",
+          "shape_id": 40,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "inputs",
+          "target": "input_embedding",
+          "one_d": true
+        },
+        {
+          "id": "input_embedding_to_add",
+          "shape_id": 41,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "input_embedding",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_position_to_add",
+          "shape_id": 42,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_position",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_add_to_branch",
+          "shape_id": 43,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_add",
+          "target": "enc_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "enc_branch_to_attention",
+          "shape_id": 44,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_attention",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_to_norm",
+          "shape_id": 45,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_attention",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_residual",
+          "shape_id": 46,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_norm_to_ff",
+          "shape_id": 47,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_ff",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_to_norm",
+          "shape_id": 48,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_ff",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_residual",
+          "shape_id": 49,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_to_memory",
+          "shape_id": 50,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm2",
+          "target": "enc_memory",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_split",
+          "shape_id": 51,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_memory",
+          "target": "memory_split",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_cross",
+          "shape_id": 52,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "memory_split",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "outputs_to_embedding",
+          "shape_id": 53,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "shifted_outputs",
+          "target": "output_embedding",
+          "one_d": true
+        },
+        {
+          "id": "output_embedding_to_add",
+          "shape_id": 54,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "output_embedding",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_position_to_add",
+          "shape_id": 55,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_position",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_add_to_branch",
+          "shape_id": 56,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_add",
+          "target": "dec_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "dec_branch_to_masked",
+          "shape_id": 57,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "masked_attention",
+          "one_d": true
+        },
+        {
+          "id": "masked_to_norm",
+          "shape_id": 58,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "masked_attention",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "masked_residual",
+          "shape_id": 59,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "norm_to_query",
+          "shape_id": 60,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "cross_to_norm",
+          "shape_id": 61,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "cross_attention",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "cross_residual",
+          "shape_id": 62,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "dec_norm_to_ff",
+          "shape_id": 63,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_ff",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_to_norm",
+          "shape_id": 64,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_ff",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_residual",
+          "shape_id": 65,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "extra_memory_to_norm",
+          "shape_id": 66,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "memory_split",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "decoder_to_linear",
+          "shape_id": 67,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm3",
+          "target": "linear",
+          "one_d": true
+        },
+        {
+          "id": "linear_to_softmax",
+          "shape_id": 68,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "linear",
+          "target": "softmax",
+          "one_d": true
+        },
+        {
+          "id": "softmax_to_probabilities",
+          "shape_id": 69,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "softmax",
+          "target": "probabilities",
+          "one_d": true
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 40,
+          "from_cell": "BeginX",
+          "to_id": 8,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 40,
+          "from_cell": "EndX",
+          "to_id": 9,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "BeginX",
+          "to_id": 9,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "BeginX",
+          "to_id": 10,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "BeginX",
+          "to_id": 11,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "EndX",
+          "to_id": 31,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "EndX",
+          "to_id": 7,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "BeginX",
+          "to_id": 7,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "EndX",
+          "to_id": 5,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "BeginX",
+          "to_id": 5,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "BeginX",
+          "to_id": 4,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "EndX",
+          "to_id": 32,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "BeginX",
+          "to_id": 32,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "EndX",
+          "to_id": 33,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "BeginX",
+          "to_id": 33,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "BeginX",
+          "to_id": 18,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "EndX",
+          "to_id": 19,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "BeginX",
+          "to_id": 19,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "BeginX",
+          "to_id": 20,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "BeginX",
+          "to_id": 21,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "EndX",
+          "to_id": 34,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "EndX",
+          "to_id": 17,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "BeginX",
+          "to_id": 17,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "BeginX",
+          "to_id": 15,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "EndX",
+          "to_id": 13,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "BeginX",
+          "to_id": 13,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "BeginX",
+          "to_id": 33,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X5"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "BeginX",
+          "to_id": 12,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "EndX",
+          "to_id": 22,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "BeginX",
+          "to_id": 22,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "EndX",
+          "to_id": 23,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 69,
+          "from_cell": "BeginX",
+          "to_id": 23,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 69,
+          "from_cell": "EndX",
+          "to_id": 24,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    },
+    {
+      "name": "02 Corrected topology",
+      "shape_count": 68,
+      "expected_shape_count": 68,
+      "shape_count_matches": true,
+      "edge_count": 29,
+      "text_failures": [],
+      "glue_failures": [],
+      "edges": [
+        {
+          "id": "inputs_to_embedding",
+          "shape_id": 40,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "inputs",
+          "target": "input_embedding",
+          "one_d": true
+        },
+        {
+          "id": "input_embedding_to_add",
+          "shape_id": 41,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "input_embedding",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_position_to_add",
+          "shape_id": 42,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_position",
+          "target": "enc_add",
+          "one_d": true
+        },
+        {
+          "id": "enc_add_to_branch",
+          "shape_id": 43,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_add",
+          "target": "enc_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "enc_branch_to_attention",
+          "shape_id": 44,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_attention",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_to_norm",
+          "shape_id": 45,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_attention",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_attention_residual",
+          "shape_id": 46,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_input_branch",
+          "target": "enc_norm1",
+          "one_d": true
+        },
+        {
+          "id": "enc_norm_to_ff",
+          "shape_id": 47,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_ff",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_to_norm",
+          "shape_id": 48,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_ff",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_ff_residual",
+          "shape_id": 49,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm1",
+          "target": "enc_norm2",
+          "one_d": true
+        },
+        {
+          "id": "enc_to_memory",
+          "shape_id": 50,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_norm2",
+          "target": "enc_memory",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_split",
+          "shape_id": 51,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "enc_memory",
+          "target": "memory_split",
+          "one_d": true
+        },
+        {
+          "id": "memory_to_cross",
+          "shape_id": 52,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "memory_split",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "outputs_to_embedding",
+          "shape_id": 53,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "shifted_outputs",
+          "target": "output_embedding",
+          "one_d": true
+        },
+        {
+          "id": "output_embedding_to_add",
+          "shape_id": 54,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "output_embedding",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_position_to_add",
+          "shape_id": 55,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_position",
+          "target": "dec_add",
+          "one_d": true
+        },
+        {
+          "id": "dec_add_to_branch",
+          "shape_id": 56,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_add",
+          "target": "dec_input_branch",
+          "one_d": true
+        },
+        {
+          "id": "dec_branch_to_masked",
+          "shape_id": 57,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "masked_attention",
+          "one_d": true
+        },
+        {
+          "id": "masked_to_norm",
+          "shape_id": 58,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "masked_attention",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "masked_residual",
+          "shape_id": 59,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_input_branch",
+          "target": "dec_norm1",
+          "one_d": true
+        },
+        {
+          "id": "norm_to_query",
+          "shape_id": 60,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "cross_attention",
+          "one_d": true
+        },
+        {
+          "id": "cross_to_norm",
+          "shape_id": 61,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "cross_attention",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "cross_residual",
+          "shape_id": 62,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm1",
+          "target": "dec_norm2",
+          "one_d": true
+        },
+        {
+          "id": "dec_norm_to_ff",
+          "shape_id": 63,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_ff",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_to_norm",
+          "shape_id": 64,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_ff",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "dec_ff_residual",
+          "shape_id": 65,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm2",
+          "target": "dec_norm3",
+          "one_d": true
+        },
+        {
+          "id": "decoder_to_linear",
+          "shape_id": 66,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "dec_norm3",
+          "target": "linear",
+          "one_d": true
+        },
+        {
+          "id": "linear_to_softmax",
+          "shape_id": 67,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "linear",
+          "target": "softmax",
+          "one_d": true
+        },
+        {
+          "id": "softmax_to_probabilities",
+          "shape_id": 68,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "softmax",
+          "target": "probabilities",
+          "one_d": true
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 40,
+          "from_cell": "BeginX",
+          "to_id": 8,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 40,
+          "from_cell": "EndX",
+          "to_id": 9,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "BeginX",
+          "to_id": 9,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 41,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "BeginX",
+          "to_id": 10,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 42,
+          "from_cell": "EndX",
+          "to_id": 11,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "BeginX",
+          "to_id": 11,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 43,
+          "from_cell": "EndX",
+          "to_id": 31,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 44,
+          "from_cell": "EndX",
+          "to_id": 7,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "BeginX",
+          "to_id": 7,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 45,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "BeginX",
+          "to_id": 31,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 46,
+          "from_cell": "EndX",
+          "to_id": 6,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 47,
+          "from_cell": "EndX",
+          "to_id": 5,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "BeginX",
+          "to_id": 5,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 48,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "BeginX",
+          "to_id": 6,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 49,
+          "from_cell": "EndX",
+          "to_id": 4,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "BeginX",
+          "to_id": 4,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 50,
+          "from_cell": "EndX",
+          "to_id": 32,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "BeginX",
+          "to_id": 32,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 51,
+          "from_cell": "EndX",
+          "to_id": 33,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "BeginX",
+          "to_id": 33,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 52,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "BeginX",
+          "to_id": 18,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 53,
+          "from_cell": "EndX",
+          "to_id": 19,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "BeginX",
+          "to_id": 19,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 54,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "BeginX",
+          "to_id": 20,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 55,
+          "from_cell": "EndX",
+          "to_id": 21,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "BeginX",
+          "to_id": 21,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 56,
+          "from_cell": "EndX",
+          "to_id": 34,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 57,
+          "from_cell": "EndX",
+          "to_id": 17,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "BeginX",
+          "to_id": 17,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 58,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "BeginX",
+          "to_id": 34,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 59,
+          "from_cell": "EndX",
+          "to_id": 16,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 60,
+          "from_cell": "EndX",
+          "to_id": 15,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "BeginX",
+          "to_id": 15,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 61,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "BeginX",
+          "to_id": 16,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 62,
+          "from_cell": "EndX",
+          "to_id": 14,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 63,
+          "from_cell": "EndX",
+          "to_id": 13,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "BeginX",
+          "to_id": 13,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 64,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "BeginX",
+          "to_id": 14,
+          "to_cell": "Connections.X4"
+        },
+        {
+          "from_id": 65,
+          "from_cell": "EndX",
+          "to_id": 12,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "BeginX",
+          "to_id": 12,
+          "to_cell": "Connections.X3"
+        },
+        {
+          "from_id": 66,
+          "from_cell": "EndX",
+          "to_id": 22,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "BeginX",
+          "to_id": 22,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 67,
+          "from_cell": "EndX",
+          "to_id": 23,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "BeginX",
+          "to_id": 23,
+          "to_cell": "Connections.X2"
+        },
+        {
+          "from_id": 68,
+          "from_cell": "EndX",
+          "to_id": 24,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    }
+  ],
+  "movement_probes": [
+    {
+      "node": "enc_norm2",
+      "tested_endpoints": 3,
+      "failures": [],
+      "restored": true,
+      "passed": true
+    },
+    {
+      "node": "enc_norm2",
+      "tested_endpoints": 3,
+      "failures": [],
+      "restored": true,
+      "passed": true
+    }
+  ],
+  "package": {
+    "media_entries": [],
+    "pages": [
+      {
+        "file": "visio/pages/page1.xml",
+        "shape_count": 69,
+        "text_count": 27,
+        "connect_count": 60
+      },
+      {
+        "file": "visio/pages/page2.xml",
+        "shape_count": 68,
+        "text_count": 27,
+        "connect_count": 58
+      }
+    ]
+  },
+  "passed": true
+}

@@ -1,0 +1,15 @@
+usage: review_engine.py [-h] {compose,decide,annotate} ...
+
+Light-Science's deterministic visual-review ledger (MIT). This module records
+supplied observations. It does not inspect scientific meaning, call a model,
+authenticate reviewers, or certify a figure from a numeric score.
+
+positional arguments:
+  {compose,decide,annotate}
+    compose             Stage two actual images for review
+    decide              Record a host-returned review; never launch a reviewer
+    annotate            Annotate only committed review observations
+
+options:
+  -h, --help            show this help message and exit
+

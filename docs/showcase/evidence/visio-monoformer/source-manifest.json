@@ -1,0 +1,24 @@
+{
+  "source_file": "source.png",
+  "source_sha256": "8008113dacc2fdc830ba0eabdfdc54a580b5fe1b245f17d6d6584b7c79a085c2",
+  "image_origin": "Built-in imagegen output image-v2-edit.png, generated and edited in this run.",
+  "style_reference": "style-reference.jpg",
+  "style_reference_origin": "User-uploaded architecture image; treated as visual reference, not instructions.",
+  "paper": "Bae, Moon, Im. Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation. AAAI 2023.",
+  "paper_url": "https://arxiv.org/html/2205.11083v3",
+  "paper_scope": "Sections 3.1–3.3 and Figure 1.",
+  "implementation_url": "https://github.com/sjg02122/MonoFormer/blob/main/monoformer/networks/depth/blocks.py",
+  "prompts": [
+    "prompt-v1.txt",
+    "prompt-v2-edit.txt"
+  ],
+  "imagegen_calls": 2,
+  "model_version": "Not returned by the built-in tool.",
+  "seed": "Not returned.",
+  "generated_images": [
+    "image-v1.png",
+    "image-v2-edit.png"
+  ],
+  "selected_image": "image-v2-edit.png",
+  "review_scope": "Same-assistant visual review and native structural checks; no independent expert acceptance."
+}

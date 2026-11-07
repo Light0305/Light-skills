@@ -1,0 +1,1 @@
+{"ok": true, "errors": [], "warnings": ["Only listed files fingerprinted. Raw run outputs/logs require explicit --input; run manifests are not revalidated by intake.", "Next-step budget unknown; no new experiment execution authorized by this record"], "boundary": "Listed-file integrity and relationships only; no numeric, statistical, causal or routing certification."}

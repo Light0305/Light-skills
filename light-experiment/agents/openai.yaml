@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Experiment"
+  short_description: "执行计算实验，保存过程、失败记录与可追溯的原始产物，并衔接设计和分析"
+  default_prompt: "使用 $light-experiment 接收我的实验设计，实现并执行计算实验，在预算内完成检查、记录与原始产物交接。"

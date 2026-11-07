@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-11-07T00:15:21.855470+00:00",
+  "source_package": "D:\\Light-Skills",
+  "ok": false,
+  "run": 85,
+  "passed": 85,
+  "skipped": 0,
+  "suites": [
+    {
+      "run": 50,
+      "passed": 50,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "expected_failures": [],
+      "unexpected_successes": [],
+      "seconds": 7.453,
+      "ok": true,
+      "name": "light-leader",
+      "exit_code": 0,
+      "argv": [
+        "D:\\Anaconda\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\Light-Skills\\quality\\run_suite.py",
+        "--start",
+        "D:\\Light-Skills\\light-leader\\tests",
+        "--result",
+        "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\runner-smoke\\light-leader.json"
+      ],
+      "cwd": "D:\\Light-Skills\\light-leader"
+    },
+    {
+      "run": 35,
+      "passed": 35,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "expected_failures": [],
+      "unexpected_successes": [],
+      "seconds": 2.687,
+      "ok": true,
+      "name": "light-memory",
+      "exit_code": 0,
+      "argv": [
+        "D:\\Anaconda\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "D:\\Light-Skills\\quality\\run_suite.py",
+        "--start",
+        "D:\\Light-Skills\\light-memory\\tests",
+        "--result",
+        "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\runner-smoke\\light-memory.json"
+      ],
+      "cwd": "D:\\Light-Skills\\light-memory"
+    },
+    {
+      "run": 0,
+      "passed": 0,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "ok": false,
+      "name": "powerpoint-node",
+      "exit_code": 0,
+      "argv": [
+        "node",
+        "--test",
+        "light-diagram/light-powerpoint-diagram/tests/test_scenes.mjs"
+      ],
+      "cwd": "D:\\Light-Skills"
+    }
+  ],
+  "boundary": "Actual deterministic source-package tests, including synthetic local execution. Not independent model or real-project scientific validation."
+}

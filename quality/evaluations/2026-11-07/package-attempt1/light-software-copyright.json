@@ -1,0 +1,30 @@
+{
+  "run": 40,
+  "passed": 39,
+  "failures": [],
+  "errors": [],
+  "skipped": [
+    {
+      "test": "test_pipeline.CaseTest.test_symlink_to_outside_is_not_followed",
+      "reason": "Symlink creation unavailable in this Windows environment"
+    }
+  ],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 15.125,
+  "ok": true,
+  "name": "light-software-copyright",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-software-copyright\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-software-copyright.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-software-copyright"
+}

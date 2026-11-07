@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-11-06",
+  "purpose": "本轮人工打开的公开政策小样；不是推荐结果或模型行为评测。只保存自己的简短释义，不存整页。",
+  "records": [
+    {
+      "id": "PLOS-FEES",
+      "kind": "official_policy",
+      "locator": "https://plos.org/fees/",
+      "accessed_on": "2026-11-06",
+      "read_scope": "Publication fees / Current fees / institutional partnership and fee-assistance text",
+      "observation": "费用依期刊和类型而异，按投稿日的适用费率；机构覆盖和可申请援助不能单独证明本作者已获免费资格。抽取的价格表缺少完整的刊名行对应，本轮不猜PLOS One确切价格。",
+      "status": "readable_official_page"
+    },
+    {
+      "id": "JCR-2026-RELOAD",
+      "kind": "official_index",
+      "locator": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/47808147130129-2026",
+      "accessed_on": "2026-11-06",
+      "read_scope": "官方2026更新页的2026-10-14重载说明与2025数据年说明；未核验任何本项目具体期刊分区",
+      "observation": "2026发布版提供2025数据，10月14日有重载更正；同数据年也不能假定所有版本数值相同。",
+      "status": "readable_official_page"
+    },
+    {
+      "id": "PLOS-ONE-CRITERIA",
+      "kind": "official_journal",
+      "locator": "https://journals.plos.org/plosone/s/criteria-for-publication",
+      "accessed_on": "2026-11-06",
+      "read_scope": "出版标准官方页面文本；没有实际稿件做适配判定",
+      "observation": "本轮未据此为真实研究评分、推荐或推断录用概率。",
+      "status": "readable_official_page"
+    }
+  ],
+  "failed_refreshes": [
+    {
+      "locator": "https://las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "attempted_on": "2026-11-06",
+      "result": "本轮打开超时；未将旧2026-11-02的阅读记录更新为本轮成功核验。替代官方机构页面的打开亦失败，搜索摘要仅作线索。"
+    }
+  ],
+  "boundary": "测试中使用合成预算/材料及本轮人工整理的公开事实，程序本身不联网，不证明选刊质量；价格、资格、政策须在实际使用时重核。"
+}

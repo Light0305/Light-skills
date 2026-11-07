@@ -1,0 +1,370 @@
+{
+  "checked_on": "2026-11-02",
+  "method": "GitHub API metadata and repository tree discovery; pinned revision IDs separately verified with the commits endpoint; SHA-256 for each retrieved raw file. No external repository code installed or run.",
+  "repositories": [
+    {
+      "repo": "Research-Equality/RE-experiment",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/Research-Equality/RE-experiment",
+      "default_branch": "main",
+      "commit": "0e160fc4df711c1ef3c91eb194f62bd87acc3efa",
+      "pushed_at": "2026-04-01T03:26:06Z",
+      "license": "MIT",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/Research-Equality/RE-experiment/blob/0e160fc4df711c1ef3c91eb194f62bd87acc3efa/README.md",
+          "sha256": "3539e002a19d7e9078402fd704f985ba60ed7ebb5240c7fcf772b0e09e2ae896",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "skills/execution-preflight/SKILL.md",
+          "url": "https://github.com/Research-Equality/RE-experiment/blob/0e160fc4df711c1ef3c91eb194f62bd87acc3efa/skills/execution-preflight/SKILL.md",
+          "sha256": "8e5f1e10f85b91118cc72a0285c26450d783f3e74f890120e5c0c115507f132c",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "skills/bounded-experiment-loop/SKILL.md",
+          "url": "https://github.com/Research-Equality/RE-experiment/blob/0e160fc4df711c1ef3c91eb194f62bd87acc3efa/skills/bounded-experiment-loop/SKILL.md",
+          "sha256": "3c631abafdf3ce6bdda7f281301563dfb553dd83832a81eb73422b13b2cf030e",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "skills/experiment-output-contract/SKILL.md",
+          "url": "https://github.com/Research-Equality/RE-experiment/blob/0e160fc4df711c1ef3c91eb194f62bd87acc3efa/skills/experiment-output-contract/SKILL.md",
+          "sha256": "d6452e7e48b81f0fd6001a0b9d2d4361ca1bbdfd068f0a2e591cc006b90018fd",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "skills/backward-traceability/SKILL.md",
+          "url": "https://github.com/Research-Equality/RE-experiment/blob/0e160fc4df711c1ef3c91eb194f62bd87acc3efa/skills/backward-traceability/SKILL.md",
+          "sha256": "b166c0f944059fb0fea32d274e254ba9b88364fd1eae44a7ade51b6bcce111f0",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "skills/experiment-repair-loop/SKILL.md",
+          "url": "https://github.com/Research-Equality/RE-experiment/blob/0e160fc4df711c1ef3c91eb194f62bd87acc3efa/skills/experiment-repair-loop/SKILL.md",
+          "sha256": "d099a96d77d8be5a71449a36fd5f9d64bc5c0fb3b9818d798dc369e46bc94ed0",
+          "scope": "raw file retrieved; reviewed in this session"
+        }
+      ],
+      "tree_sha": "7eca59249c9a703fcb66f61320b040f7d705f58d",
+      "commit_date": "2026-04-01T03:18:08Z",
+      "tree_api_response_sha": "0e160fc4df711c1ef3c91eb194f62bd87acc3efa"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "default_branch": "main",
+      "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "pushed_at": "2026-10-26T09:36:15Z",
+      "license": "MIT",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/README.md",
+          "sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "skills/pytorch-lightning/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/pytorch-lightning/SKILL.md",
+          "sha256": "d8829e74e8a1d908f923cf0c0a850ecfdd9edcb004d2fa90ec32fb1ed0006ce8",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "skills/pytorch-lightning/references/logging.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/pytorch-lightning/references/logging.md",
+          "sha256": "624f90f1d0aaf7143de4ba90b855cb541065dbec1d8ac2ca3fb766a91e2d07d4",
+          "scope": "raw file retrieved; reviewed in this session"
+        }
+      ],
+      "tree_sha": "557aacccc13b9e9c8c14a5d97e2c2b5229b65c13",
+      "commit_date": "2026-10-26T09:36:14Z",
+      "tree_api_response_sha": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62"
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "default_branch": "main",
+      "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "pushed_at": "2026-10-11T02:56:34Z",
+      "license": "MIT",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
+          "sha256": "d5442649de72ecd33a9e90e820d76d5d5fe658777d39f1f8977641e1d264f3bb",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "13-mlops/mlflow/SKILL.md",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/mlflow/SKILL.md",
+          "sha256": "36d2581f7d8beb8b27f66bbef5c94df7e9604b917c3aa15e4183a48a2b1f3f96",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "22-agent-native-research-artifact/research-manager/SKILL.md",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/research-manager/SKILL.md",
+          "sha256": "f78da7627ac09a4be398ea4363fc7b8753b2dcb22bc961c5059395e33ef3ef2c",
+          "scope": "raw file retrieved; reviewed in this session"
+        },
+        {
+          "path": "22-agent-native-research-artifact/research-manager/references/event-taxonomy.md",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/research-manager/references/event-taxonomy.md",
+          "sha256": "1a42390b186ba86d33b3917b785895051c63a15a419cfdf8e73fd4daf7275ee8",
+          "scope": "raw file retrieved; reviewed in this session"
+        }
+      ],
+      "tree_sha": "eb544e88f08d76170d17050b10c18a317afd0314",
+      "commit_date": "2026-06-16T01:36:40Z",
+      "tree_api_response_sha": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+    },
+    {
+      "repo": "EvoScientist/EvoScientist",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/EvoScientist/EvoScientist",
+      "default_branch": "main",
+      "commit": "27d3c38052f9882eeb6dd8f5bb4c1f308e5419ec",
+      "pushed_at": "2026-10-31T12:13:02Z",
+      "license": "Apache-2.0",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/EvoScientist/EvoScientist/blob/27d3c38052f9882eeb6dd8f5bb4c1f308e5419ec/README.md",
+          "sha256": "4d8c324f73ccee2688027ca2d3ba4913a780a0a008a8fd934cb88e7757dfa91a",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "EvoScientist/prompts.py",
+          "url": "https://github.com/EvoScientist/EvoScientist/blob/27d3c38052f9882eeb6dd8f5bb4c1f308e5419ec/EvoScientist/prompts.py",
+          "sha256": "fff919dbe5f76541523516d601a57cae46028725fcc422ecd834a2d65baab61a",
+          "scope": "Selected experiment preflight, execution, reflection, memory and sufficiency sections"
+        }
+      ],
+      "tree_sha": "485ecd65f2e77dae2b8796c4aa62fefeb84f73bb",
+      "commit_date": "2026-10-31T11:58:21Z",
+      "tree_api_response_sha": "27d3c38052f9882eeb6dd8f5bb4c1f308e5419ec"
+    },
+    {
+      "repo": "SakanaAI/AI-Scientist-v2",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "default_branch": "main",
+      "commit": "96bd51617cfdbb494a9fc283af00fe090edfae48",
+      "pushed_at": "2025-12-19T07:46:32Z",
+      "license": "NOASSERTION",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/SakanaAI/AI-Scientist-v2/blob/96bd51617cfdbb494a9fc283af00fe090edfae48/README.md",
+          "sha256": "ed4ae4b9353641dff469679f14cbffd6547f7a6137b9d5b397f3be9a367b4e82",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "ai_scientist/treesearch/agent_manager.py",
+          "url": "https://github.com/SakanaAI/AI-Scientist-v2/blob/96bd51617cfdbb494a9fc283af00fe090edfae48/ai_scientist/treesearch/agent_manager.py",
+          "sha256": "3abbc08428be8345baa106045bcbc82fcff115634579b11436a8181707208c89",
+          "scope": "Selected stage_config/goals/max_iterations sections"
+        }
+      ],
+      "tree_sha": "3ff187965e78b1192659b061e43164c29741ccfe",
+      "commit_date": "2025-12-19T07:46:31Z",
+      "tree_api_response_sha": "96bd51617cfdbb494a9fc283af00fe090edfae48"
+    },
+    {
+      "repo": "karpathy/autoresearch",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/karpathy/autoresearch",
+      "default_branch": "master",
+      "commit": "228791fb499afffb54b46200aca536f79142f117",
+      "pushed_at": "2026-03-26T00:07:37Z",
+      "license": null,
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/karpathy/autoresearch/blob/228791fb499afffb54b46200aca536f79142f117/README.md",
+          "sha256": "3958fd4195ac2f98ed35c4eaa4f3028a335165ee24945e96426c408d25793a41",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "program.md",
+          "url": "https://github.com/karpathy/autoresearch/blob/228791fb499afffb54b46200aca536f79142f117/program.md",
+          "sha256": "86cf987a5c381e46eefe0d0a82765223fd766d8d7acdc2afacfbbce15ecacece",
+          "scope": "raw file retrieved; reviewed in this session"
+        }
+      ],
+      "tree_sha": "04fa7a1a3ad211e97d894bb42df7698dae5d92ba",
+      "commit_date": "2026-03-26T00:07:37Z",
+      "tree_api_response_sha": "228791fb499afffb54b46200aca536f79142f117"
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/mlflow/mlflow",
+      "default_branch": "master",
+      "commit": "f57ad27fb76aa741c49cf9dfc8f48c3697811d3a",
+      "pushed_at": "2026-11-02T01:23:43Z",
+      "license": "Apache-2.0",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/mlflow/mlflow/blob/f57ad27fb76aa741c49cf9dfc8f48c3697811d3a/README.md",
+          "sha256": "e9b30b8aee35e78fb87bdbbfcf837e8739f596aef5f6def89e735680d7d8b00e",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        }
+      ],
+      "tree_sha": "7ff38e0a90f6c7e42e5f10d3da12debacef69401",
+      "commit_date": "2026-11-02T01:10:41Z",
+      "tree_api_response_sha": "f57ad27fb76aa741c49cf9dfc8f48c3697811d3a"
+    },
+    {
+      "repo": "iterative/dvc",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/iterative/dvc",
+      "default_branch": "main",
+      "commit": "56e59829512ff134aa269099a2099587b810b4dd",
+      "pushed_at": "2026-10-26T19:14:52Z",
+      "license": "Apache-2.0",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.rst",
+          "url": "https://github.com/iterative/dvc/blob/56e59829512ff134aa269099a2099587b810b4dd/README.rst",
+          "sha256": "d10985fd1a1efb7ee4a28c0a4dac8a3f40cebe564dc86404aa5300e659ddeb39",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        }
+      ],
+      "tree_sha": "f71f99b36970f289b1246e1f028ff085a564fd01",
+      "commit_date": "2026-08-06T04:17:40Z",
+      "tree_api_response_sha": "56e59829512ff134aa269099a2099587b810b4dd"
+    },
+    {
+      "repo": "elabftw/elabftw",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/elabftw/elabftw",
+      "default_branch": "master",
+      "commit": "ab89608451762922c091a8082406988eed14bebc",
+      "pushed_at": "2026-11-01T21:35:33Z",
+      "license": "AGPL-3.0",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/elabftw/elabftw/blob/ab89608451762922c091a8082406988eed14bebc/README.md",
+          "sha256": "5e4ffc3ff09fbbd559b3a20161847189526b6b969a5a2a95ad3c7a6e116e2eaf",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        }
+      ],
+      "selection": "excluded: physical/laboratory execution outside clarified computational scope",
+      "tree_sha": "96c7c1456bf03b238447b2a2cfc56a44afacdab6",
+      "commit_date": "2026-11-01T21:35:30Z",
+      "tree_api_response_sha": "ab89608451762922c091a8082406988eed14bebc"
+    },
+    {
+      "repo": "bluesky/bluesky",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/bluesky/bluesky",
+      "default_branch": "main",
+      "commit": "2ca46def4a98f1632bdeb408235e0ff114e0ac97",
+      "pushed_at": "2026-10-30T18:49:13Z",
+      "license": "BSD-3-Clause",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/bluesky/bluesky/blob/2ca46def4a98f1632bdeb408235e0ff114e0ac97/README.md",
+          "sha256": "d9625597f060606d3548f47cd2dc4b3ad0752ece1d682f8fc178dfd4e6aeeae1",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        }
+      ],
+      "selection": "excluded: physical/laboratory execution outside clarified computational scope",
+      "tree_sha": "925c0bdd1e40e5613fb75bfa27526e70c5ea9484",
+      "commit_date": "2026-10-30T18:43:55Z",
+      "tree_api_response_sha": "2ca46def4a98f1632bdeb408235e0ff114e0ac97"
+    },
+    {
+      "repo": "WorkflowHub-EU/workflow-run-crate",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/WorkflowHub-EU/workflow-run-crate",
+      "error": "HTTP Error 404: Not Found",
+      "resolution": "Wrong organization; corrected to ResearchObject/workflow-run-crate from published paper reference 121"
+    },
+    {
+      "repo": "drivendataorg/cookiecutter-data-science",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/drivendataorg/cookiecutter-data-science",
+      "default_branch": "master",
+      "commit": "17c991b0b03668f6e36503a4416202900196f501",
+      "pushed_at": "2026-10-03T10:28:42Z",
+      "license": "MIT",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/drivendataorg/cookiecutter-data-science/blob/17c991b0b03668f6e36503a4416202900196f501/README.md",
+          "sha256": "f2238556c246af01f593ea6f83068431a0ef82874c6417a44c306d2365fe94ed",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        },
+        {
+          "path": "docs/docs/using-the-template.md",
+          "url": "https://github.com/drivendataorg/cookiecutter-data-science/blob/17c991b0b03668f6e36503a4416202900196f501/docs/docs/using-the-template.md",
+          "sha256": "14054d7b554794b13f0dab97e99e9a3f94da4356436a30359f126f84c51993fa",
+          "scope": "raw file retrieved; reviewed in this session"
+        }
+      ],
+      "tree_sha": "002699b2c8aabe53e7566b40798f359ee1403064",
+      "commit_date": "2026-10-03T09:38:15Z",
+      "tree_api_response_sha": "17c991b0b03668f6e36503a4416202900196f501"
+    },
+    {
+      "repo": "ResearchObject/workflow-run-crate",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/ResearchObject/workflow-run-crate",
+      "default_branch": "main",
+      "commit": "89025e50dbef6960c3b3e56b15eb04cd033b888c",
+      "license": "Apache-2.0",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/ResearchObject/workflow-run-crate/blob/89025e50dbef6960c3b3e56b15eb04cd033b888c/README.md",
+          "sha256": "7eca4d3901b340c01c7f1edc2d039fd22e9160db3b852210877276e1d62d3fba",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        }
+      ],
+      "tree_sha": "6cbf1e67a1bd3f016b20fd3f37ef2dc24abe8b83",
+      "commit_date": "2026-10-29T11:32:23Z",
+      "tree_api_response_sha": "89025e50dbef6960c3b3e56b15eb04cd033b888c"
+    },
+    {
+      "repo": "snakemake/snakemake",
+      "checked_on": "2026-11-02",
+      "url": "https://github.com/snakemake/snakemake",
+      "default_branch": "main",
+      "commit": "86c31130239381055fea37fe0c369c6775cb75c3",
+      "license": "MIT",
+      "tree_truncated": false,
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/snakemake/snakemake/blob/86c31130239381055fea37fe0c369c6775cb75c3/README.md",
+          "sha256": "253203af940abe1814e563fce7e819a57030638178d536ef76c824010dd5bae1",
+          "scope": "Selected README project purpose/features/workflow sections; not a code audit"
+        }
+      ],
+      "tree_sha": "f8dba15b41fe61302bda528e16636dcd7dca1e81",
+      "commit_date": "2026-11-01T08:25:10Z",
+      "tree_api_response_sha": "86c31130239381055fea37fe0c369c6775cb75c3"
+    }
+  ]
+}

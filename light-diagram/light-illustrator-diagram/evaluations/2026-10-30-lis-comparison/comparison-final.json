@@ -1,0 +1,20 @@
+{
+  "canvas_px": [
+    1536,
+    1024
+  ],
+  "whole_canvas_rgb_mae_0_255": 33.253861321343315,
+  "foreground_union_rgb_mae_0_255": 57.06623878285496,
+  "foreground_union_fraction": 0.5654258728027344,
+  "dark_pixel_recall_with_3px_square_tolerance": 0.552801222591557,
+  "dark_pixel_precision_with_3px_square_tolerance": 0.8331687816105878,
+  "definitions": {
+    "foreground": "Union of pixels >25 grayscale levels away from white in either image.",
+    "dark": "Grayscale <140; tolerant match uses a 7x7 square dilation (3 px each direction).",
+    "limitations": "Position-sensitive diagnostics, not perceptual similarity or a 1:1 percentage. Text, fill texture and antialiasing affect results. Scientific topology requires separate review."
+  },
+  "source": "D:\\Light-Science\\light-diagram\\light-illustrator-diagram\\evaluations\\2026-10-30-lis-comparison\\source.png",
+  "rendered": "D:\\Light-Science\\light-diagram\\light-illustrator-diagram\\evaluations\\2026-10-30-lis-comparison\\output\\lis-illustrator.png",
+  "source_sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+  "rendered_sha256": "0d770bc3f69637e89b7b8fcc750cc660e0dc1a41772ca451c3653cc05a440312"
+}

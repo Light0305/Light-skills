@@ -1,0 +1,260 @@
+[
+  {
+    "id": "literature-search",
+    "entries": [
+      "light-literature",
+      "literature-search"
+    ],
+    "area": "Literature",
+    "read_first": [
+      "manifest.json",
+      "meta.json",
+      "note.md",
+      "synthesis.md"
+    ],
+    "role": "检索、原文获取、阅读与证据定位；按所需模式读取真实入口"
+  },
+  {
+    "id": "light-idea",
+    "entries": [
+      "light-idea"
+    ],
+    "area": "Idea",
+    "read_first": [
+      "context.json",
+      "ideas.json",
+      "decision.md",
+      "evidence.jsonl"
+    ],
+    "role": "研究问题、竞争解释、候选版本与选题决定"
+  },
+  {
+    "id": "light-design",
+    "entries": [
+      "light-design"
+    ],
+    "area": "Design",
+    "read_first": [
+      "context.json",
+      "design.json",
+      "plan.md"
+    ],
+    "role": "可判别设计、执行范围、资源与就绪门槛"
+  },
+  {
+    "id": "light-experiment",
+    "entries": [
+      "light-experiment"
+    ],
+    "area": "Experiment",
+    "read_first": [
+      "campaign.json",
+      "upstream.json",
+      "execution-report.md"
+    ],
+    "role": "冻结设计下的实际运行、记录、监测与恢复"
+  },
+  {
+    "id": "light-anaysis",
+    "entries": [
+      "light-anaysis"
+    ],
+    "area": "Analysis",
+    "read_first": [
+      "receipt.json",
+      "analysis-plan.json",
+      "analysis.json",
+      "analysis-report.md",
+      "handoff.json"
+    ],
+    "role": "统计分析、结论边界与因果层次反馈；保留历史拼写"
+  },
+  {
+    "id": "light-crawl",
+    "entries": [
+      "light-crawl",
+      "skills/light-crawl"
+    ],
+    "area": "Acquisition",
+    "read_first": [
+      "scope.md",
+      "target.json",
+      "case.json",
+      "evidence.jsonl",
+      "reports"
+    ],
+    "role": "按需采集，保留覆盖、字段、来源和限制"
+  },
+  {
+    "id": "light-journal-select",
+    "entries": [
+      "light-journal-select"
+    ],
+    "area": "Journal",
+    "read_first": [
+      "selection-report.md",
+      "light-write-brief.md",
+      "selection-packet.json"
+    ],
+    "role": "期刊定位与当前要求核验，保留推荐/作者决定区别"
+  },
+  {
+    "id": "light-write",
+    "entries": [
+      "light-write"
+    ],
+    "area": "Write",
+    "read_first": [
+      "outline.md",
+      "claim-evidence.md",
+      "terminology.md",
+      "venue-brief.md"
+    ],
+    "role": "一篇核心论文的论证、正文与投稿材料"
+  },
+  {
+    "id": "light-diagram",
+    "entries": [
+      "light-diagram"
+    ],
+    "area": "Figure/Methods or Figure/Mechanisms",
+    "read_first": [
+      "handoff.json"
+    ],
+    "role": "示意图科学关系与后端选择；再选择有关子技能"
+  },
+  {
+    "id": "light-diagram-prompt",
+    "entries": [
+      "light-diagram-prompt",
+      "light-diagram/light-diagram-prompt",
+      "light-diagram/skills/light-diagram-prompt"
+    ],
+    "area": "Figure/Methods or Figure/Mechanisms",
+    "read_first": [
+      "handoff.json"
+    ],
+    "role": "图意、参考适配与正式图像提示词"
+  },
+  {
+    "id": "light-illustrator-diagram",
+    "entries": [
+      "light-illustrator-diagram",
+      "light-diagram/light-illustrator-diagram",
+      "light-diagram/skills/light-illustrator-diagram"
+    ],
+    "area": "Figure/Methods or Figure/Mechanisms",
+    "read_first": [
+      "handoff.json"
+    ],
+    "role": "Illustrator 原生图形工作流"
+  },
+  {
+    "id": "light-powerpoint-diagram",
+    "entries": [
+      "light-powerpoint-diagram",
+      "light-diagram/light-powerpoint-diagram",
+      "light-diagram/skills/light-powerpoint-diagram"
+    ],
+    "area": "Figure/Methods or Figure/Mechanisms",
+    "read_first": [
+      "handoff.json"
+    ],
+    "role": "PowerPoint 可编辑对象重建"
+  },
+  {
+    "id": "light-visio-diagram",
+    "entries": [
+      "light-visio-diagram",
+      "light-diagram/light-visio-diagram",
+      "light-diagram/skills/light-visio-diagram"
+    ],
+    "area": "Figure/Methods or Figure/Mechanisms",
+    "read_first": [
+      "handoff.json"
+    ],
+    "role": "Visio 原生图形工作流"
+  },
+  {
+    "id": "light-chart",
+    "entries": [
+      "light-chart",
+      "light-chart/skills/light-chart"
+    ],
+    "area": "Figure/Data",
+    "read_first": [
+      "实际绘图代码",
+      "实际数据映射",
+      "图注",
+      "QA"
+    ],
+    "role": "从真实数据生成统计图表及其可复现源文件"
+  },
+  {
+    "id": "light-review",
+    "entries": [
+      "light-review"
+    ],
+    "area": "Review",
+    "read_first": [
+      "review.md",
+      "review.json",
+      "packet/packet.json"
+    ],
+    "role": "有范围的审查、问题归因与针对修订版本的复核"
+  },
+  {
+    "id": "light-patent",
+    "entries": [
+      "light-patent"
+    ],
+    "area": "Patent",
+    "read_first": [
+      "case.json",
+      "实际检索与特征支持材料"
+    ],
+    "role": "按需提炼发明与准备有支持的专利材料"
+  },
+  {
+    "id": "light-software-copyright",
+    "entries": [
+      "light-software-copyright"
+    ],
+    "area": "SoftwareCopyright",
+    "read_first": [
+      "case.json",
+      "inventory.json",
+      "selection.json",
+      "functions.json",
+      "manual.json",
+      "layout-profile.json",
+      "source-pages.json",
+      "audit.json"
+    ],
+    "role": "真实软件版本的源码、操作说明与软著材料"
+  },
+  {
+    "id": "light-memory",
+    "entries": [
+      "light-memory"
+    ],
+    "area": "Memory",
+    "read_first": [
+      "current.md",
+      "memory.json",
+      "有关 events"
+    ],
+    "role": "提取和恢复有来源的决定、约束、失败教训与上下文"
+  },
+  {
+    "id": "light-leader",
+    "entries": [
+      "light-leader"
+    ],
+    "area": "Workflow",
+    "read_first": [
+      "workflow.json"
+    ],
+    "role": "限定本轮目标、诊断与交接；不递归启动另一套总控"
+  }
+]

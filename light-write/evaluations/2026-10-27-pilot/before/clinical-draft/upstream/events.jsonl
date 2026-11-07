@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a17ab7-1f28-7bb1-8ae9-dea5214fca19"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"在3家医院420名患者的回顾性队列中，预先指定的协变量调整后，暴露E与90天再入院的主要估计为HR 0.78（95% CI 0.55–1.11）。点估计提示较低风险，但区间仍容许风险降低或升高，既不能确立获益，也不证明无效。排除早期事件后，HR为0.96（95% CI 0.68–1.35），提示主要估计对早期事件的纳入较敏感，较低风险的关联缺乏稳健支持。由于未随机分配，且未测量混杂未获控制，现有证据不足以作因果推断；未设等效界值，也不能据此认定暴露E与无暴露等效。"}}
+{"type":"turn.completed","usage":{"input_tokens":31141,"cached_input_tokens":18304,"cache_write_input_tokens":0,"output_tokens":271,"reasoning_output_tokens":76}}

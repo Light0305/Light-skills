@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "slug": "rag-literature-review",
+    "languages": ["en", "zh"]
+  },
+  "direction": {
+    "en": "Retrieval-augmented generation for scientific literature review",
+    "zh": "面向科学文献综述的检索增强生成"
+  },
+  "domain": "cs",
+  "review_type": "semi_systematic",
+  "framework": {
+    "name": "TMDMB",
+    "fields": {
+      "task": "scientific literature review / evidence synthesis",
+      "method": "retrieval-augmented generation, dense retrieval, reranking",
+      "dataset": "paper corpora, citation graphs, annotated review claims",
+      "metric": "recall, coverage, citation precision, faithfulness",
+      "baseline": "LLM-only, single-database search, keyword search"
+    }
+  },
+  "grand_challenge": {
+    "en": "How can retrieval-augmented generation make scientific literature review more complete, verifiable, and reproducible?",
+    "zh": "检索增强生成如何让科学文献综述更完整、可核验、可复现？"
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "level": "answerable",
+      "parent_id": "",
+      "en": "Which retrieval methods are used to find evidence for scientific literature review?",
+      "zh": "哪些检索方法被用于为科学文献综述寻找证据？",
+      "operationalization": "Task: literature review; Method: retrieval/RAG; Data: paper corpora; Metric: recall/coverage; Setting: scientific literature."
+    },
+    {
+      "id": "Q2",
+      "level": "answerable",
+      "parent_id": "",
+      "en": "How is citation faithfulness evaluated in RAG-based literature synthesis?",
+      "zh": "在基于 RAG 的文献合成中，引用忠实度如何评估？",
+      "operationalization": "Outcome: citation precision/support; Comparator: LLM-only; Data: annotated citation claims; Metric: support rate."
+    },
+    {
+      "id": "Q3",
+      "level": "testable",
+      "parent_id": "Q1",
+      "en": "What evidence exists that multi-source retrieval improves coverage over a single database?",
+      "zh": "有哪些证据表明多源检索比单一数据库提高覆盖度？",
+      "operationalization": "Compare unique relevant papers retrieved by one vs. multiple sources; measure marginal yield, overlap, and residual misses."
+    }
+  ],
+  "concept_blocks": [
+    {
+      "id": "C1",
+      "label": {"en": "retrieval / RAG", "zh": "检索 / RAG"},
+      "required": true,
+      "terms": [
+        {"text": "retrieval-augmented generation", "lang": "en", "type": "free", "vocab": "none"},
+        {"text": "retrieval augmented generation", "lang": "en", "type": "free", "vocab": "none"},
+        {"text": "RAG", "lang": "en", "type": "free", "vocab": "none"},
+        {"text": "dense retrieval", "lang": "en", "type": "free", "vocab": "none"}
+      ]
+    },
+    {
+      "id": "C2",
+      "label": {"en": "scientific literature review", "zh": "科学文献综述"},
+      "required": true,
+      "terms": [
+        {"text": "scientific literature review", "lang": "en", "type": "free", "vocab": "none"},
+        {"text": "literature review", "lang": "en", "type": "free", "vocab": "none"},
+        {"text": "evidence synthesis", "lang": "en", "type": "free", "vocab": "none"}
+      ]
+    }
+  ],
+  "lenses": [
+    {
+      "id": "foundation_frontier",
+      "name": {"en": "Foundations & frontier", "zh": "基础与前沿"},
+      "enabled": true,
+      "weight": 1.0,
+      "question_ids": ["Q1", "Q2", "Q3"],
+      "query_legs": [
+        {
+          "leg_id": "L1",
+          "concept_block_ids": ["C1", "C2"],
+          "terms_override": [],
+          "sort_variants": ["relevance", "recent", "cited"],
+          "source_overrides": {}
+        }
+      ]
+    },
+    {
+      "id": "skeptic_method",
+      "name": {"en": "Skeptic & methodologist", "zh": "批判与方法"},
+      "enabled": true,
+      "weight": 1.0,
+      "question_ids": ["Q2", "Q3"],
+      "query_legs": [
+        {
+          "leg_id": "L2",
+          "concept_block_ids": ["C1", "C2"],
+          "terms_override": ["limitation", "failure", "negative result", "benchmark", "evaluation"],
+          "sort_variants": ["relevance", "recent"],
+          "source_overrides": {}
+        }
+      ]
+    },
+    {
+      "id": "practitioner",
+      "name": {"en": "Practitioner & adjacent field", "zh": "实践与邻近领域"},
+      "enabled": true,
+      "weight": 1.0,
+      "question_ids": ["Q1"],
+      "query_legs": [
+        {
+          "leg_id": "L3",
+          "concept_block_ids": ["C1", "C2"],
+          "terms_override": ["deployment", "case study", "real-world"],
+          "sort_variants": ["relevance", "recent"],
+          "source_overrides": {}
+        }
+      ]
+    }
+  ],
+  "filters": {
+    "year_from": 2018,
+    "year_to": 2026,
+    "languages": ["en", "zh"],
+    "types": [],
+    "exclude_retracted": true,
+    "include_preprints": true,
+    "min_abstract_chars": 0
+  },
+  "source_policy": {
+    "enabled": ["openalex", "crossref", "arxiv", "openaire"],
+    "optional": ["semantic_scholar"],
+    "weights": {},
+    "allow_keyless_optional": false
+  },
+  "budgets": {
+    "max_per_source": 80,
+    "max_total_candidates": 400,
+    "max_requests_per_source": 9,
+    "citation_rounds": 1,
+    "max_citation_seeds": 10,
+    "time_budget_seconds": 600
+  },
+  "screening": {
+    "include_criteria": [
+      "Directly addresses at least one listed question.",
+      "Reports primary evidence, a method, a benchmark, or a substantive critique."
+    ],
+    "exclude_criteria": [
+      "Editorial, comment, erratum, or non-research news.",
+      "Outside the stated population/context/date/language scope."
+    ],
+    "rubric_weights": {}
+  },
+  "outputs": {
+    "languages": ["en", "zh"],
+    "formats": ["md", "csv", "json", "bibtex"],
+    "run_root": "runs"
+  }
+}

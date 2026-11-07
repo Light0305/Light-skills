@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "existing-illustrator-case",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "existing-powerpoint-case",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "existing-visio-case",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "changed-preview-hash",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "preview: file hash changed"
+      ]
+    },
+    {
+      "case": "audit-from-another-final-file",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "native audit not bound to this final file hash"
+      ]
+    },
+    {
+      "case": "silent-tool-switch",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "selected_tool conflicts with explicit requested_tool",
+        "final file format does not match tool"
+      ]
+    },
+    {
+      "case": "old-reference-claimed-new-generation",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "generated requires actual calls >=1",
+        "generated requires executed_prompt file reference"
+      ]
+    },
+    {
+      "case": "delivered-without-native-test",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "delivered requires native evidence passed"
+      ]
+    },
+    {
+      "case": "source-errors-without-corrections",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "source issues require explicit corrections"
+      ]
+    },
+    {
+      "case": "unreviewed-reference",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "reference must be actually reviewed"
+      ]
+    },
+    {
+      "case": "missing-handoff-reference",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "reference: file missing D:\\Light-Science\\light-diagram\\evaluations\\2026-10-31-integration\\missing-source.png"
+      ]
+    },
+    {
+      "case": "prompt-only-valid-without-native-file",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "image-only-valid-without-native-check",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    }
+  ],
+  "count": 13,
+  "scope": "File/index integration using prior real artifacts plus inconsistent-declaration rejection. No new image generation, native reconstruction or blind routing evaluation."
+}

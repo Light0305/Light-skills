@@ -1,0 +1,25 @@
+{
+  "run": 47,
+  "passed": 47,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 0.609,
+  "ok": true,
+  "name": "light-journal-select",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-journal-select\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-journal-select.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-journal-select"
+}

@@ -1,0 +1,19 @@
+{
+  "basis": "synthetic local consistency checks, not scientific evaluation",
+  "unread_evidence_accepted": {
+    "materials": 1,
+    "claims": 1,
+    "issues": 0,
+    "open_required": 0,
+    "review_status": "final"
+  },
+  "recheck_without_old_issue_accepted": {
+    "materials": 1,
+    "claims": 1,
+    "issues": 0,
+    "open_required": 0,
+    "review_status": "final"
+  },
+  "baseline_tests": 24,
+  "skipped": 0
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "timing": "unknown",
+  "timing_basis": "",
+  "result_access": "",
+  "question": "",
+  "estimand": "",
+  "independent_unit": "",
+  "comparison": "",
+  "data_scope": "",
+  "analysis_method": "",
+  "uncertainty": "",
+  "missing_and_exclusions": "",
+  "multiplicity": "",
+  "decision_thresholds": "",
+  "sensitivity_branches": []
+}

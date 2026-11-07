@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "scope": "Native desktop PowerPoint roundtrip, text, shapes, arrows, endpoints and movement; visual/scientific review is separate.",
+  "powerpoint_version": "16.0",
+  "visible": false,
+  "file": "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\powerpoint\\roundtrip.pptx",
+  "sha256": "e12b1e08e5abc9d63adde181d7db3557339c8574f1102a9ff36a7537579b105e",
+  "scene_sha256": "8c3a6001e210896bd6d38b3a99512711320d5c1c859461737e46bf29ac14d2ba",
+  "connections_sha256": "43f5918f77b83fee3a7ad6473c54c48544d6de6327d8e9dc6da5b9671bbedcd8",
+  "native_text_refinements": [],
+  "media_entries": [],
+  "pages": [
+    {
+      "slide": 1,
+      "slug": "fixture",
+      "shapes": 3,
+      "logical_edges": 1,
+      "native_connector_segments": 1,
+      "connected_segment_endpoints": 2,
+      "text_shapes": 2,
+      "arrowheads": 1,
+      "movement": [
+        {
+          "node": "A",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "B",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "exports": [
+    "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\powerpoint\\verified-fixture.png",
+    "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\powerpoint\\verified.pdf"
+  ],
+  "errors": []
+}

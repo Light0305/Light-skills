@@ -1,0 +1,30 @@
+{
+  "name": "example_site",
+  "start_urls": [
+    "https://example.com/"
+  ],
+  "allowed_domains": [
+    "example.com"
+  ],
+  "item_selector": "article.item",
+  "fields": {
+    "title": {
+      "selector": "h2::text"
+    },
+    "url": {
+      "selector": "h2 a::attr(href)"
+    },
+    "summary": {
+      "selector": "p.summary::text",
+      "default": ""
+    },
+    "tags": {
+      "selector": "ul.tags a::text",
+      "many": true
+    }
+  },
+  "next_selector": "a.next::attr(href)",
+  "concurrency": 4,
+  "robots_txt_obey": true,
+  "max_pages": 10
+}

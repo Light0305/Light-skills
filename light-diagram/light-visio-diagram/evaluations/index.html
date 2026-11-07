@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>light-visio-diagram · 实测对照</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6f8;color:#18212b;font:16px/1.6 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1500px;margin:auto;padding:36px 28px 64px}h1{font-size:30px;line-height:1.3;margin:0 0 12px}h2{font-size:24px;margin:0 0 8px}p{max-width:1000px}a{color:#174c87;text-underline-offset:3px}nav{display:flex;gap:24px;margin:24px 0 34px}section{background:white;border:1px solid #dce2e8;border-radius:16px;padding:26px;margin:28px 0;scroll-margin-top:20px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.meta span{background:#eaf3ee;color:#21583c;padding:4px 12px;border-radius:20px;font-size:14px}.links{display:flex;gap:20px;flex-wrap:wrap;margin:18px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;border:1px solid #dde2e7;border-radius:9px;overflow:hidden}figcaption{padding:10px 14px;background:#f7f9fb;font-weight:600}figure img{display:block;width:100%;height:auto}.note{color:#526170;font-size:15px}details{border-top:1px solid #e1e5ea;margin-top:24px;padding-top:18px}summary{cursor:pointer;font-weight:600}.overlay{position:relative;aspect-ratio:3/2;max-width:1100px;margin:18px auto;border:1px solid #dfe4e9}.overlay img{position:absolute;inset:0;width:100%;height:100%}.overlay img:last-child{opacity:.5}label{display:flex;align-items:center;gap:14px;flex-wrap:wrap}input[type=range]{width:min(400px,80vw)}.third{max-width:1000px;margin-top:18px}@media(max-width:850px){main{padding:24px 14px}.grid{grid-template-columns:1fr}section{padding:18px}h1{font-size:25px}}
+</style>
+</head>
+<body><main>
+<h1>light-visio-diagram · 实测对照</h1>
+<p>三组参考图均来自实际生图测试；MonoFormer 为本轮依据用户参考新写提示词并生成。本页 Visio 图片均为保存、重开后的实际导出。原生结构、视觉忠实度与科学关系分别评估。</p>
+<nav aria-label="案例"><a href="#monoformer">全流程：MonoFormer</a><a href="#crispr">曲线：CRISPR–Cas9</a><a href="#transformer">基础：Transformer</a><a href="../SKILL.md">Skill 文档</a></nav>
+
+<section id="monoformer">
+<h2>全流程 · 新提示词、生图、复杂架构复现</h2>
+<p>以用户上传的图为复杂度与视觉参考，读取 MonoFormer 论文后使用 light-diagram-prompt 写提示词，实际生图两轮，再重建四级网络、斜视网格与三个放大模块。第二轮生成图仍有旁路及连接歧义，Visio 中分开保留按图复现与科学关系修正两页。</p>
+<div class="meta"><span>两次内置生图调用</span><span>两页 417 / 411 个原生对象</span><span>322 / 322 粘附端点通过</span><span>无嵌入截图</span></div>
+<div class="links"><a href="2026-10-30-monoformer/monoformer-final.vsdx">打开两页 Visio 文件</a><a href="2026-10-30-monoformer/monoformer-final.pdf">PDF</a><a href="2026-10-30-monoformer/prompt-v1.txt">完整生图提示词</a><a href="2026-10-30-monoformer/prompt-v2-edit.txt">完整编辑提示词</a><a href="2026-10-30-monoformer/REPORT.md">完整测试记录</a></div>
+<div class="grid">
+<figure><figcaption>第二轮生图 · 尚有科学关系问题</figcaption><a href="2026-10-30-monoformer/source.png"><img src="2026-10-30-monoformer/source.png" alt="第二轮实际生成的MonoFormer复杂架构图"></a></figure>
+<figure><figcaption>Visio 第 2 页 · 逐边修正后</figcaption><a href="2026-10-30-monoformer/monoformer-final-corrected.png"><img src="2026-10-30-monoformer/monoformer-final-corrected.png" alt="411个原生对象的MonoFormer科学关系修正版"></a></figure>
+</div>
+<details><summary>查看第 1 页忠实复现与原图的叠加对照</summary>
+<p class="note">此处叠加的是保留源图问题的第 1 页，用于比较视觉位置；修正页的有意差异另作科学检查。0 为原生成图，100 为 Visio 导出，数值只是透明度。</p>
+<label>Visio 图透明度 <input type="range" min="0" max="100" value="50" data-overlay="monoformer-overlay" aria-label="MonoFormer叠加透明度"><output>50%</output></label>
+<div class="overlay" style="aspect-ratio:2/1;max-width:none"><img src="2026-10-30-monoformer/source.png" alt="第二轮生成图底层"><img id="monoformer-overlay" src="2026-10-30-monoformer/monoformer-final-replica.png" alt="第1页按图复现图层"></div>
+<div class="links"><a href="2026-10-30-monoformer/monoformer-final-replica.png">单独查看第 1 页 PNG</a><a href="2026-10-30-monoformer/monoformer-final-corrected.svg">第 2 页 SVG</a></div>
+</details>
+<details><summary>生成过程与用户参考</summary><div class="links"><a href="2026-10-30-monoformer/style-reference.jpg">用户上传的视觉参考</a><a href="2026-10-30-monoformer/image-v1.png">第一轮原始生图</a><a href="2026-10-30-monoformer/image-v2-edit.png">第二轮原始生图</a><a href="2026-10-30-monoformer/BRIEF.md">图意与范围</a></div></details>
+<p class="note">原生图仍有街景细节、网格配色、字体与下标等差异，尚非逐像素 1:1。第 2 页删除额外旁路、改正源端反向箭头、接回四条 ACM 输出并消除跨级竖线歧义。原生检查通过不等于两次生图的科学检查通过。</p>
+</section>
+
+<section id="crispr">
+<h2>进阶 · CRISPR–Cas9 自由轮廓与曲线</h2>
+<p>蛋白轮廓、RNA/DNA 骨架、配对线、切口和文字均可分别编辑。渐变与双色描边近似原图质感；蛋白表面纹理及细小几何仍有差异。</p>
+<div class="meta"><span>136 个原生对象</span><span>33 条原生曲线</span><span>14 / 14 粘附端点通过</span><span>无嵌入截图</span></div>
+<div class="links"><a href="2026-10-30-crispr/crispr-final.vsdx">打开 Visio 文件</a><a href="2026-10-30-crispr/crispr-final.pdf">PDF</a><a href="2026-10-30-crispr/crispr-final-replica.svg">SVG</a><a href="2026-10-30-crispr/REPORT.md">完整测试记录</a></div>
+<div class="grid">
+<figure><figcaption>参考图 · 前轮生图结果</figcaption><a href="2026-10-30-crispr/source.png"><img src="2026-10-30-crispr/source.png" alt="CRISPR Cas9 生图参考，包含两种RNA输入、中央复合物和DNA切割产物"></a></figure>
+<figure><figcaption>Visio 原生复现 · 实际导出</figcaption><a href="2026-10-30-crispr/crispr-final-replica.png"><img src="2026-10-30-crispr/crispr-final-replica.png" alt="136个原生对象复现的CRISPR图"></a></figure>
+</div>
+<details><summary>叠加查看位置差异</summary>
+<p class="note">滑块只改变 Visio 图的透明度，不是相似度评分。0 为参考图，100 为 Visio 导出。</p>
+<label>Visio 图透明度 <input type="range" min="0" max="100" value="50" data-overlay="crispr-overlay" aria-label="CRISPR叠加透明度"><output>50%</output></label>
+<div class="overlay"><img src="2026-10-30-crispr/source.png" alt="参考图底层"><img id="crispr-overlay" src="2026-10-30-crispr/crispr-final-replica.png" alt="可调透明度的Visio图层"></div>
+</details>
+<p class="note">当前复合组件未自动分组；全原生不代表拖动一个边框时所有内部曲线都会跟随。此例为概念切割图，未声称覆盖真实分子构象。</p>
+</section>
+
+<section id="transformer">
+<h2>基础 · Transformer 架构</h2>
+<p>同一份 Visio 文件含两页：第 1 页按参考图复现，第 2 页移除 K,V 进入中间 Add &amp; Norm 的额外支线。科学修正与忠实复现明确分开。</p>
+<div class="meta"><span>两页 69 / 68 个原生对象</span><span>118 / 118 粘附端点通过</span><span>已保存后重开</span></div>
+<div class="links"><a href="2026-10-30-transformer/transformer-final.vsdx">打开两页 Visio 文件</a><a href="2026-10-30-transformer/transformer-final.pdf">PDF</a><a href="2026-10-30-transformer/REPORT.md">完整测试记录</a></div>
+<div class="grid">
+<figure><figcaption>参考图 · 前轮生图结果</figcaption><a href="2026-10-30-transformer/source.png"><img loading="lazy" src="2026-10-30-transformer/source.png" alt="Transformer参考图"></a></figure>
+<figure><figcaption>第 1 页 · 按图复现，保留原图关系</figcaption><a href="2026-10-30-transformer/transformer-final-replica.png"><img loading="lazy" src="2026-10-30-transformer/transformer-final-replica.png" alt="Transformer原图复现页"></a></figure>
+</div>
+<details><summary>叠加查看位置差异</summary>
+<label>Visio 图透明度 <input type="range" min="0" max="100" value="50" data-overlay="transformer-overlay" aria-label="Transformer叠加透明度"><output>50%</output></label>
+<div class="overlay"><img loading="lazy" src="2026-10-30-transformer/source.png" alt="参考底层"><img loading="lazy" id="transformer-overlay" src="2026-10-30-transformer/transformer-final-replica.png" alt="Visio叠加图层"></div>
+</details>
+<details><summary>第 2 页 · 科学关系修正版</summary><figure class="third"><figcaption>删除额外 K,V → Add &amp; Norm 连接，保留其余布局</figcaption><a href="2026-10-30-transformer/transformer-final-corrected.png"><img loading="lazy" src="2026-10-30-transformer/transformer-final-corrected.png" alt="Transformer科学关系修正版"></a></figure></details>
+</section>
+<p class="note">测试日期：2026-10-30 · 桌面 Visio 16.0。以上是三个案例的同一助手实测，无独立盲评，尚未覆盖所有学科、复杂三维质感或多区室反馈通路。来源记录、场景与审计保存在各案例目录。</p>
+</main>
+<script>
+document.querySelectorAll('input[data-overlay]').forEach(input=>{
+ const update=()=>{document.getElementById(input.dataset.overlay).style.opacity=Number(input.value)/100;input.parentElement.querySelector('output').textContent=input.value+'%'};
+ input.addEventListener('input',update);update();
+});
+</script>
+</body></html>

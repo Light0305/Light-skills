@@ -1,0 +1,7 @@
+{
+  "name": "reject-dropped-issue",
+  "exit": 2,
+  "expected": 2,
+  "stdout": "",
+  "stderr": "{\"ok\": false, \"error\": \"Previous issues must remain traceable; missing: LR-001\"}\n"
+}

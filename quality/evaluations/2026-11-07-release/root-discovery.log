@@ -1,0 +1,73 @@
+
+|
+•   codex  Agent detected — installing non-interactively
+[?25l|
+o  Source: D:\Light-Skills\quality\release-v2.0.0\payload-final
+[?25h[?25l|
+o  Local path validated
+[?25h[?25l|
+o  Found 14 skills
+[?25h
+|
+o  Available Skills
+|
+|    light-anaysis
+|
+|      Analyze existing research experiment results, especially after light-experiment. Use for 实验结果分析、方法比较、误差与不确定性、阴性结果、消融与机制解释、稳健性分析 and deciding whether to return to execution, light-design or light-idea. Produce traceable findings and a bounded next research step. Designing a study from scratch, running new scientific experiments and manuscript-only polishing belong elsewhere.
+|
+|    light-crawl
+|
+|      Build, debug, and operate reproducible web/app data acquisition, including research dataset handoffs. Use for repeated extraction, pagination, JS-rendered or blocked sites, signed APIs, and verifiable or resumable crawlers. Route among HTTP/API, Scrapling, runtime inspection and packaged-app analysis as evidence requires; ordinary single-page lookups do not need a crawler.
+|
+|    light-design
+|
+|      Turn a research idea into an executable study or experiment plan, especially after light-idea. Use for 实验设计、研究设计、实验规划、对照与消融、样本量论证、先导实验、预分析计划 and experiment handoff. Connect claims to discriminating tests, verified resources, analysis, budgets and decision rules. Idea discovery, analysis of collected data and running full experiments belong to adjacent workflows.
+|
+|    light-diagram
+|
+|      统筹非数据科研图的完整制作：从论文或构想提炼图意，调用 light-diagram-prompt 生成提示词，实际生图并核查，再按编辑需求选择 Illustrator、PowerPoint 或 Visio 重建、验证和交付；也支持已有参考图直接复现、只要提示词或只要生图。
+|
+|    light-experiment
+|
+|      Execute and document computational research experiments, especially after light-design. Use for 实验落地、实现并运行实验、数值仿真、训练与消融、算法或系统基准测试、失败诊断、续跑、实验过程及原始产物归档. Connect frozen designs to actual code, inputs, bounded runs, logs, raw outputs, QC and traceable findings. Idea discovery, study design alone, physical laboratory operations and manuscript writing belong elsewhere.
+|
+|    light-idea
+|
+|      Generate, challenge, and prioritize evidence-grounded research paper ideas, especially after light-literature. Use for 论文 idea、选题、从精读笔记找研究问题、创新性查重、已有想法打磨、研究方向取舍 and minimal pilot planning. Connect prior work to a precise contribution and a discriminating test. Pure literature retrieval, manuscript polishing, and running full experiments belong to other workflows.
+|
+|    light-journal-select
+|
+|      Select and verify submission journals from research results, an outline, an abstract, or a manuscript. Use for 投稿选刊、期刊匹配、目标期刊比较、投稿梯队、拒稿后转投 and journal shortlist audits; produce an evidence-backed decision and a brief for light-write. Not for manuscript drafting, general literature reviews, or operating submission systems.
+|
+|    light-leader
+|
+|      统筹一个科研项目或其中跨阶段任务：恢复上下文，依据证据选择并实际衔接文献、选题、设计、实验、分析、选刊、写作、示意图、数据图和评审，支持研究回退与返修，按需接入采集、专利、软著。用于项目推进、跨技能协调、复杂续作与研究路线诊断；明确的单阶段小任务直接使用专业技能。
+|
+|    literature-search
+|
+|      检索、筛选和综合科研文献，精读本地论文、翻译与核对引用，维护带来源和阅读锚点的 Literature 文献库。适用于文献调研、定向查证、论文精读、引文追踪和项目续读；按请求深度完成，不把局部问题扩成完整综述。
+|
+|    light-memory
+|
+|      Maintain source-linked research project memory under Memory/, recall decisions and failed approaches, resume work across chats, and identify stale or conflicting context across Light-Skills research and manuscript revision loops. Use for 项目记忆、继续上次科研、记住研究决策、记忆更新与冲突整理、为什么放弃某方案; source papers, scientific analysis and workflow orchestration remain with their specialist skills.
+|
+|    light-patent
+|
+|      辅助撰写、修改和审查专利材料：从论文、代码、实验记录或发明人口述中提炼有依据的发明点，开展现有技术检索与逐特征对比，形成技术交底书、权利要求书、说明书、摘要和附图，并处理审查意见答复草稿。默认中国发明专利，兼顾实用新型。适用于论文转专利、专利交底、权利要求布局、支持性检查及专利稿件迭代；不用于普通论文润色、商标申请或出具侵权/FTO法律意见。
+|
+|    light-review
+|
+|      Review an author's completed or near-complete scientific manuscript, figures, tables, and supplements before submission, especially after light-write. Use for 投稿前内部评审、论文自审、模拟审稿、主张与证据审查、图文数值核对、投稿就绪检查 and revision rechecks. Produce located, evidence-grounded issues and a bounded repair plan. Initial writing, new experiments, figure production, and responses to received journal reviews belong elsewhere.
+|
+|    light-software-copyright
+|
+|      Prepare, revise, and check Chinese software copyright registration materials from real software: function descriptions, traceable source-code deposits, software manuals, optional application worksheets and correction responses. Use for 软著、软件著作权申请材料、源程序鉴别材料、软著说明书、申请表填报辅助、 材料补正 and version updates. Supports research scripts, CLI tools, libraries, services, desktop and web applications; ordinary code documentation and patent drafting do not need this skill.
+|
+|    light-write
+|
+|      Draft, restructure, polish, translate, shorten, or consistency-check scientific manuscripts from author-provided evidence. Use for academic writing, paper drafts, manuscript editing, 中英文论文写作、论文润色、学术翻译、论文结构修改、全文一致性检查. Does not create or edit figures.
+
+|
+—  Use --skill <name> to install specific skills
+
+

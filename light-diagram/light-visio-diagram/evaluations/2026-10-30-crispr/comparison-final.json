@@ -1,0 +1,20 @@
+{
+  "canvas_px": [
+    1536,
+    1024
+  ],
+  "whole_canvas_rgb_mae_0_255": 8.198412789238825,
+  "foreground_union_rgb_mae_0_255": 40.510943520445984,
+  "foreground_union_fraction": 0.17897669474283853,
+  "dark_pixel_recall_with_3px_square_tolerance": 0.9545673159503933,
+  "dark_pixel_precision_with_3px_square_tolerance": 0.937763178585781,
+  "definitions": {
+    "foreground": "Union of pixels >25 grayscale levels away from white in either image.",
+    "dark": "Grayscale <140; tolerant match uses a 7x7 square dilation (3 px each direction).",
+    "limitations": "Position-sensitive diagnostics, not perceptual similarity or a 1:1 percentage. Text, fill texture and antialiasing affect results. Scientific topology requires separate review."
+  },
+  "source": "D:\\Light-Science\\light-diagram\\light-visio-diagram\\evaluations\\2026-10-30-crispr\\source.png",
+  "rendered": "D:\\Light-Science\\light-diagram\\light-visio-diagram\\evaluations\\2026-10-30-crispr\\crispr-final-replica.png",
+  "source_sha256": "0b900aaa6c41e43eac95210d6f257412231a6d59179cc0b89bb9ec189ec7c194",
+  "rendered_sha256": "45c22d11452b7fc34f232551df94380835a07e8da7aaa0bbd14a57d1d42b5d38"
+}

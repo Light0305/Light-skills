@@ -1,0 +1,10 @@
+{
+  "url": "https://example.com/",
+  "kind": "web",
+  "volume": 250,
+  "auth": "none",
+  "geo": "",
+  "authorized": false,
+  "notes": "Replace this with the target contract; do not send traffic until scope.md is confirmed.",
+  "demo": false
+}

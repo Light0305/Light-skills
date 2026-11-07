@@ -1,0 +1,5 @@
+[
+  "合成测量汇总工具 V0.1 \n合成测量汇总工具 \nV0.1 \n使用说明书 \n",
+  "合成测量汇总工具 V0.1 \n运行条件 \n本次在本地Python 解释器验证，仅用标准库。输入需可读，输出位置需可写。未\n验证其他操作系统、生产数据或大量记录性能。本合成软件不代表真实登记项目。 \n输入数据校验 \nread_measurements 逐行检查。group 去首尾空白后不得为空，value 通过浮点转\n换和有限性检查。第一处错误即退出，不补零、不跳过错误行。 \n字段 \n约束 \n示例 \ngroup \n非空组名 \nA \nvalue \n有限浮点数 \n2 \n操作步骤 \n1. 进入measure.py 所在目录。 \n2. 准备sample.csv 并检查表头和编码。 \n3. 执行命令，查看JSON 结果。 \npython measure.py sample.csv --output results/sample.json \n本次实际打印“Validated 4 records; wrote sample.json”。A、B 各2 条，该\n日志只对应本次合成样例。 \n汇总与导出 \nsummarize 分组后用math.fsum 求和。顶层record_count 为记录总数，groups 按\n组名排序；每组含count、sum、mean、minimum、maximum。 \n组名 \n条数 \n合计 \n均值 \n最小 \n最大 \nA \n2 \n6 \n3 \n2 \n4 \nB \n2 \n24 \n12 \n10 \n14 \n结果以UTF-8 写出，自动创建父目录并覆盖同名结果；写出失败由解释器报告，\n不保证旧结果事务性保留。 \n",
+  "合成测量汇总工具 V0.1 \n错误与限制 \n以value=nan 实际运行返回2，提示“Non-finite value at line 2”，未产生\nbad.json。不可读文件、缺列、无记录同样返回2。无GUI、登录、在线同步、数据库\n或预测模型。 \n"
+]

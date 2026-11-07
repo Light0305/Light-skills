@@ -1,0 +1,55 @@
+OK after2/case-0/light-write 0s
+SKIP existing attempt after2/case-0/light-write
+OK after2/case-0/light-write 0s
+ERROR after2/case-1/light-write 0s
+NOT ATTEMPTED after usage-limit response: after2/case-0/light-write
+NOT ATTEMPTED after usage-limit response: after2/case-2/light-write
+PASS: 7 modules, 11 cases, 120 document paths/anchors, 3 JSON contracts, 0 supplied run records
+Structural subset checks only: no model execution, expert review, or quality score.
+test_anchor_must_exist_in_current_draft (test_manuscript.ManuscriptTests.test_anchor_must_exist_in_current_draft) ... ok
+test_bad_hash_and_no_base_fail_closed (test_manuscript.ManuscriptTests.test_bad_hash_and_no_base_fail_closed) ... ok
+test_binary_artifact_can_be_hashed_but_not_treated_as_read_text (test_manuscript.ManuscriptTests.test_binary_artifact_can_be_hashed_but_not_treated_as_read_text) ... ok
+test_claim_unknown_source_missing_support_and_bad_status_rejected (test_manuscript.ManuscriptTests.test_claim_unknown_source_missing_support_and_bad_status_rejected) ... ok
+test_cli_exit_codes_and_invalid_json_are_structured (test_manuscript.ManuscriptTests.test_cli_exit_codes_and_invalid_json_are_structured) ... ok
+test_cli_from_other_directory_and_relative_paths (test_manuscript.ManuscriptTests.test_cli_from_other_directory_and_relative_paths) ... ok
+test_current_files_and_declared_links_pass_read_only (test_manuscript.ManuscriptTests.test_current_files_and_declared_links_pass_read_only) ... ok
+test_draft_cannot_be_its_own_source (test_manuscript.ManuscriptTests.test_draft_cannot_be_its_own_source) ... ok
+test_duplicate_ids_and_nonobject_shapes_rejected (test_manuscript.ManuscriptTests.test_duplicate_ids_and_nonobject_shapes_rejected) ... ok
+test_honest_unresolved_draft_is_not_mistaken_for_scientific_approval (test_manuscript.ManuscriptTests.test_honest_unresolved_draft_is_not_mistaken_for_scientific_approval) ... ok
+test_interpretation_still_requires_a_cited_source (test_manuscript.ManuscriptTests.test_interpretation_still_requires_a_cited_source) ... ok
+test_literal_presence_does_not_certify_causal_meaning (test_manuscript.ManuscriptTests.test_literal_presence_does_not_certify_causal_meaning) ... ok
+test_lost_ci_or_citation_literal_is_found (test_manuscript.ManuscriptTests.test_lost_ci_or_citation_literal_is_found) ... ok
+test_missing_or_directory_source_reports_failure (test_manuscript.ManuscriptTests.test_missing_or_directory_source_reports_failure) ... ok
+test_no_declared_claims_and_no_sources_have_explicit_limits (test_manuscript.ManuscriptTests.test_no_declared_claims_and_no_sources_have_explicit_limits) ... ok
+test_parent_another_paper_or_same_revision_rejected (test_manuscript.ManuscriptTests.test_parent_another_paper_or_same_revision_rejected) ... ok
+test_parent_binds_prior_packet_without_revalidating_old_sources (test_manuscript.ManuscriptTests.test_parent_binds_prior_packet_without_revalidating_old_sources) ... ok
+test_parent_missing_revision_and_blank_template_are_not_receipts (test_manuscript.ManuscriptTests.test_parent_missing_revision_and_blank_template_are_not_receipts) ... ok
+test_protected_literal_cannot_be_invented_from_an_unrelated_source (test_manuscript.ManuscriptTests.test_protected_literal_cannot_be_invented_from_an_unrelated_source) ... ok
+test_source_and_draft_drift_are_not_silently_resnapshotted (test_manuscript.ManuscriptTests.test_source_and_draft_drift_are_not_silently_resnapshotted) ... ok
+test_bad_units_or_bounds_rejected (test_manuscript.TextMetricsTests.test_bad_units_or_bounds_rejected) ... ok
+test_bounds_include_both_endpoints (test_manuscript.TextMetricsTests.test_bounds_include_both_endpoints) ... ok
+test_han_excludes_latin_numbers_and_punctuation (test_manuscript.TextMetricsTests.test_han_excludes_latin_numbers_and_punctuation) ... ok
+test_stdin_empty_and_unreadable_cli (test_manuscript.TextMetricsTests.test_stdin_empty_and_unreadable_cli) ... ok
+test_supplementary_and_compatibility_han_are_counted (test_manuscript.TextMetricsTests.test_supplementary_and_compatibility_han_are_counted) ... ok
+test_whitespace_convention_is_explicit_not_a_journal_claim (test_manuscript.TextMetricsTests.test_whitespace_convention_is_explicit_not_a_journal_claim) ... ok
+test_bad_record_is_not_rated (test_pilot.PilotHarnessTests.test_bad_record_is_not_rated) ... ok
+test_completed_missing_empty_or_changed_output_cannot_be_reviewed (test_pilot.PilotHarnessTests.test_completed_missing_empty_or_changed_output_cannot_be_reviewed) ... ok
+test_completed_retry_selected_without_erasing_failure (test_pilot.PilotHarnessTests.test_completed_retry_selected_without_erasing_failure) ... ok
+test_damaged_later_completed_attempt_cannot_fall_back (test_pilot.PilotHarnessTests.test_damaged_later_completed_attempt_cannot_fall_back) ... ok
+test_explicit_retry_keeps_original_record (test_pilot.PilotHarnessTests.test_explicit_retry_keeps_original_record) ... ok
+test_failed_empty_output_cannot_be_reviewed (test_pilot.PilotHarnessTests.test_failed_empty_output_cannot_be_reviewed) ... ok
+test_interrupted_attempt_without_record_is_preserved_and_requires_retry (test_pilot.PilotHarnessTests.test_interrupted_attempt_without_record_is_preserved_and_requires_retry) ... ok
+test_usage_limit_stops_new_jobs_and_failed_attempt_is_retained (test_pilot.PilotHarnessTests.test_usage_limit_stops_new_jobs_and_failed_attempt_is_retained) ... ok
+test_changed_analysis_is_visible_at_all_three_stages_without_rewriting_history (test_project_handoff.ProjectHandoffTests.test_changed_analysis_is_visible_at_all_three_stages_without_rewriting_history) ... ok
+test_changed_journal_brief_invalidates_adopted_draft_not_analysis (test_project_handoff.ProjectHandoffTests.test_changed_journal_brief_invalidates_adopted_draft_not_analysis) ... ok
+test_native_analysis_journal_write_adoption_is_read_only (test_project_handoff.ProjectHandoffTests.test_native_analysis_journal_write_adoption_is_read_only) ... ok
+test_ready_proposal_does_not_become_author_decision (test_project_handoff.ProjectHandoffTests.test_ready_proposal_does_not_become_author_decision) ... ok
+test_duplicate_keys_and_constants_rejected_for_json_and_jsonl (test_validation.ValidationTests.test_duplicate_keys_and_constants_rejected_for_json_and_jsonl) ... ok
+test_nonobject_case_or_run_has_a_contract_error (test_validation.ValidationTests.test_nonobject_case_or_run_has_a_contract_error) ... ok
+test_overflow_number_is_not_a_valid_finite_metric (test_validation.ValidationTests.test_overflow_number_is_not_a_valid_finite_metric) ... ok
+test_package_structure_and_links (test_validation.ValidationTests.test_package_structure_and_links) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 1.253s
+
+OK

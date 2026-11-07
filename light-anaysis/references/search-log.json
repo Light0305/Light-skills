@@ -1,0 +1,52 @@
+{
+  "checked_on": "2026-11-02",
+  "purpose": "Select methodological sources for a post-experiment analysis skill and evidence-driven returns to idea/design/execution.",
+  "scope": "Focused, non-systematic search; emphasis 2023-2026 with directly relevant foundational sources from 2021-2022. No completeness or best-in-field ranking claim.",
+  "tools": ["Public web search/open of primary sources", "GitHub REST repository/commit/tree/license metadata", "Pinned raw README and selected SKILL.md files"],
+  "specialist_search_mcp": "Not available in this session; primary-source web lookup used. No credentials requested or package installation required.",
+  "representative_actual_queries": [
+    "github scientific skills statistical analysis exploratory data analysis K-Dense claude scientific skills",
+    "github research skills experiment analysis statistical inference research result analysis skill",
+    "site:github.com \"results-analysis\" \"SKILL.md\" research",
+    "site:github.com/google-research/rliable",
+    "2024 2025 machine learning benchmark statistical analysis seed variance confidence intervals paper",
+    "2024 2025 interpreting null results equivalence testing practical significance scientific research analysis paper",
+    "\"Constructing Confidence Intervals\" \"Generalization Error\" journal",
+    "site:nature.com \"Improving statistical reporting in psychology\" 2025",
+    "site:elifesciences.org \"Replication of null results\"",
+    "\"BetterBench\" NeurIPS 2024 benchmark paper",
+    "\"Leakage and the reproducibility crisis\" machine learning 2023 Kapoor Narayanan",
+    "\"Same data, different analysts\" \"2024\" ecology evolutionary biology",
+    "\"Many AI analysts, one dataset\" PNAS 2026",
+    "\"Accounting for Variance in Machine Learning Benchmarks\" MLSys 2021",
+    "site:anthropic.com engineering demystifying evals ai agents 2026",
+    "site:lakens.github.io OR site:daniellakens.blogspot.com 2024 2025 equivalence results",
+    "site:research.google/blog \"rliable\"",
+    "\"Statistical workflow\" \"Gelman\" \"2026\"",
+    "\"Statistical workflow\" \"Gelman\" \"10.1098\"",
+    "\"Recommendations for visual predictive checks in Bayesian workflow\" journal 2025",
+    "site:github.com/pymc-labs/python-analytics-skills \"SKILL.md\""
+  ],
+  "screening_criteria": [
+    "Directly changes an analysis decision, interpretation, diagnostic or evidence-to-next-step workflow",
+    "Primary provenance and sufficient actual content to justify the bounded adoption",
+    "Clear assumptions and limitations; no reliance on stars, marketing or aggregator quality scores",
+    "Coverage beyond ML: general quantitative research, numerical/simulation and systems comparison",
+    "Current repository content and native local light-* interfaces checked rather than assumed"
+  ],
+  "selected_counts": {"valid_repositories": 12, "repositories_with_selected_scientific_subskills_reviewed": 4, "papers": 12, "blogs": 6, "supplementary_method_docs": 3},
+  "limitations_and_corrections": [
+    "GitHub counts/default branches are check-date snapshots, not validated quality indicators. Repository code was not executed or vendored.",
+    "K-Dense-AI/claude-scientific-skills redirects to scientific-agent-skills; current pinned source used.",
+    "pymc-labs/python-analytics-skills redirects to pymc-labs/pymc-modeling; current pinned SKILL.md reviewed, old broad catalogue not assumed current.",
+    "UvA-MAD/multiverse returned 404; corrected to MUCollective/multiverse and the invalid lookup retained in the audit.",
+    "Benchopt README.md was absent; README.rst was retrieved and reviewed.",
+    "DABEST README license badge differs from API and source LICENSE; source LICENSE was inspected (Apache-2.0 at audited commit). No code reused.",
+    "Nature and some PMC direct opens encountered redirects, access blocks or CAPTCHA. PubMed metadata and available primary indexed excerpts used; not represented as complete full-text review.",
+    "P01 Statistical workflow: institution and publisher show different May 2026 days; only consistent year/volume/article number used.",
+    "P03 DOI contains 024 but official publication is 2025. P04 2024 preprint was distinguished from 2025 journal article. P12 2025 preprint/site path distinguished from 2026 journal record.",
+    "BetterBench preprint/PDF and publication-page counts differ. No numerical count from these inconsistent versions was adopted into skill rules.",
+    "Two exploratory arXiv URL checks (2407.16711 and 2307.00271) resolved to different/unrelated works; not used as the intended benchmark/leakage evidence.",
+    "No comprehensive review, citation-impact ranking, independent replication of selected publications or independent LLM behavioral benchmark was performed. Access scopes are recorded in sources.md."
+  ]
+}

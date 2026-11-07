@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a17aba-0244-7393-9d90-999b355cd7fa"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Results: In a retrospective sample of 620 adults from one hospital, the model achieved an internal-test AUROC of 0.89 (95% CI 0.85–0.93), with sensitivity of 0.71 at specificity of 0.80; calibration was not evaluated.\n\nConclusion: These findings support discrimination within the internal test sample, but the absence of a prospective study, external cohort, or treatment-impact analysis leaves performance in other settings and effects on patient outcomes unestablished, providing no basis to conclude that the model prevents deterioration or is ready for bedside implementation."}}
+{"type":"turn.completed","usage":{"input_tokens":29202,"cached_input_tokens":12416,"cache_write_input_tokens":0,"output_tokens":210,"reasoning_output_tokens":86}}

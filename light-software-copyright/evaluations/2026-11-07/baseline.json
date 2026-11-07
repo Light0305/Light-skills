@@ -1,0 +1,5 @@
+{
+  "tests": 25,
+  "skipped": 1,
+  "skip_reason": "Windows symlink creation unavailable"
+}

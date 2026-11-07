@@ -1,0 +1,182 @@
+{
+  "ok": true,
+  "markdown_files": 18,
+  "local_links_checked": 140,
+  "skill_entries": 19,
+  "asset_hashes": [
+    {
+      "file": "docs/assets/charts/01.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/02.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/03.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/04.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/05.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/06.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/07.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/08.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/09.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/10.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/11.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/charts/12.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/illustrator-reference.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/illustrator-reconstruction.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/native/illustrator.ai",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/illustrator/original-report.txt",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/illustrator/source-manifest.json",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/illustrator/verification.json",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/prompts/illustrator.txt",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/powerpoint-crispr-reference.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/powerpoint-crispr-reconstruction.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/native/powerpoint-crispr.pptx",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/powerpoint-crispr/original-report.txt",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/powerpoint-crispr/source-manifest.json",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/powerpoint-crispr/native-r1.audit.json",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/prompts/powerpoint-crispr.txt",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/visio-monoformer-reference.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/visio-monoformer-reconstruction.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/native/visio-monoformer.vsdx",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/visio-monoformer/original-report.txt",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/visio-monoformer/source-manifest.json",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/evidence/visio-monoformer/verification.json",
+      "matches_record": true
+    },
+    {
+      "file": "docs/assets/methods/visio-monoformer-corrected.png",
+      "matches_record": true
+    },
+    {
+      "file": "docs/showcase/prompts/visio-monoformer.txt",
+      "matches_record": true
+    }
+  ],
+  "selected_charts": [
+    "03",
+    "04",
+    "05",
+    "06",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "distinct_method_references": 3,
+  "workflow_asset": {
+    "file": "docs/assets/workflow-v4.png",
+    "format": "PNG",
+    "width": 1536,
+    "height": 1024
+  },
+  "workflow_accessible_labels": 0,
+  "native_file_structure": {
+    "illustrator": {
+      "file": "docs/showcase/native/illustrator.ai",
+      "pdf_header": true,
+      "bytes": 681879
+    },
+    "powerpoint": {
+      "file": "docs/showcase/native/powerpoint-crispr.pptx",
+      "zip_integrity_ok": true,
+      "members": 42
+    },
+    "visio": {
+      "file": "docs/showcase/native/visio-monoformer.vsdx",
+      "zip_integrity_ok": true,
+      "members": 13
+    }
+  },
+  "errors": [],
+  "scope": "Documentation links, copied-asset bytes, workflow image integrity and native container integrity only; no new desktop/scientific certification."
+}

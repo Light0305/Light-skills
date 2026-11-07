@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "status": "failed",
+  "provider": "custom",
+  "api_style": "openai_images",
+  "model": "gpt-image-2.5-sunburst",
+  "endpoint": "https://sub.zzshu.cc/v1/images/generations",
+  "calls_this_run": 1,
+  "published_prompt": {
+    "path": "D:\\Light-Science\\light-diagram\\evaluations\\2026-11-02-custom-service-test\\prompt-v1.txt",
+    "sha256": "5695e686107b2fea901cf98d9c8931a087517a9800a58d56920e1811e7ef5224"
+  },
+  "executed_prompt": {
+    "path": "D:\\Light-Science\\light-diagram\\evaluations\\2026-11-02-custom-service-test\\attempt-01\\prompt-executed.txt",
+    "sha256": "5695e686107b2fea901cf98d9c8931a087517a9800a58d56920e1811e7ef5224"
+  },
+  "request_sha256": "a1dfd2606b35ef56f5c198f5c1347b3bf3d5fb71269d720b771975ac940c6544",
+  "images": [],
+  "review_status": "not_run",
+  "error": "Service returned HTTP 403; no automatic retry was made."
+}

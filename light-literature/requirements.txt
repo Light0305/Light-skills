@@ -1,0 +1,5 @@
+requests>=2.31
+pypdfium2>=4.30
+Pillow>=10
+# Optional renderer fallback (AGPL-3.0/commercial):
+# PyMuPDF>=1.24

@@ -1,0 +1,13 @@
+{"kind":"deck","id":"pr/gcqjjz","name":"Deck"}
+{"kind":"layout","id":"ly/h4rqh8na","editable":false,"name":"Master","type":"master"}
+{"kind":"layout","id":"ly/tof6903u","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/6h8ja50n","editable":false,"name":"Section Header","type":"sectionHeader","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/o325or2l","editable":false,"name":"Title and Body","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/1wnat8r6","editable":false,"name":"Title and Two Column","type":"twoColTx","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/sjalg3el","editable":false,"name":"Title and One Column","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/f6p4filo","editable":false,"name":"Blank","type":"blank"}
+{"kind":"slide","id":"sl/h4eya6","slideIndex":0,"layout":{"id":"ly/f6p4filo","name":"Blank"},"title":"A","textShapes":2,"backgroundColor":"rgba(255,255,255,1)"}
+{"kind":"textbox","id":"sh/1c72987a","slideIndex":0,"position":{"left":20,"top":60,"width":100,"height":50},"name":"Light_A","text":"A","geometry":"custom","fillColor":"#E0EFFD","lineColor":"#27303B","lineWidth":1.3,"style":{"fontSize":18,"typeface":"Arial","color":"#090D13","alignment":"center"}}
+{"kind":"textbox","id":"sh/e9gjed8z","slideIndex":0,"position":{"left":280,"top":60,"width":100,"height":50},"name":"Light_B","text":"B","geometry":"custom","fillColor":"#E0EFFD","lineColor":"#27303B","lineWidth":1.3,"style":{"fontSize":18,"typeface":"Arial","color":"#090D13","alignment":"center"}}
+{"kind":"shape","id":"sh/fapk7ypk","slideIndex":0,"position":{"left":120,"top":85,"width":160,"height":0.01},"name":"Light_edge","geometry":"custom","lineColor":"#27303B","lineWidth":2}
+{"kind":"notes","id":"nt/h4eya6","slideIndex":0,"text":"light-powerpoint-diagram. Synthetic geometry. Mode: faithful.\nReference: D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\synthetic-source.txt; SHA256: 329461c99a44133fab03e8d2d9677a791ae48c026fb43ade7070fc254dac9b91\nScientific source: Synthetic geometry only\nReproduces the generated image, including its documented scientific errors.\nCorrections: \nLimitations: Small fixture, no scientific content\nGeometry traced by an assistant, not automatic image recognition."}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "application": "Adobe Illustrator",
+  "version": "30.0.0",
+  "document": "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\illustrator\\fixture.ai",
+  "artboard_rect": [
+    0,
+    150,
+    300,
+    0
+  ],
+  "artboards": 1,
+  "layers": 1,
+  "group_items": 4,
+  "path_items": 4,
+  "compound_paths": 0,
+  "text_frames": 2,
+  "raster_items": 0,
+  "placed_items": 0,
+  "non_native_items": 0,
+  "mesh_items": 0,
+  "gradient_definitions": 5,
+  "leaf_types": {
+    "PathItem": 4,
+    "TextFrame": 2
+  },
+  "elapsed_ms": 8306,
+  "authored_objects": 3,
+  "visible_native_creation": true,
+  "delay_ms": 0,
+  "redraw_every": 2,
+  "ai_sha256": "29f5f366cc80ffce5e46f94fe7decf4cb7fe06f6009bfa7f4301d4efae04f6b3",
+  "scene_sha256": "607d75eaee155251cc67baf832a1e6dfb187142a4f4e3f53b32c03ed40db6bf2",
+  "bridge_elapsed_s": 8.531
+}

@@ -1,0 +1,55 @@
+test_directory_manager_allocates_one_empty_workflow_for_native_init (test_integration.IntegrationTests.test_directory_manager_allocates_one_empty_workflow_for_native_init) ... ok
+test_directory_manager_preserves_native_workflow_overview (test_integration.IntegrationTests.test_directory_manager_preserves_native_workflow_overview) ... ok
+test_native_analysis_and_memory_share_actual_source_drift (test_integration.IntegrationTests.test_native_analysis_and_memory_share_actual_source_drift) ... ok
+test_native_review_snapshot_does_not_follow_a_new_manuscript_version (test_integration.IntegrationTests.test_native_review_snapshot_does_not_follow_a_new_manuscript_version) ... ok
+test_resume_does_not_hide_broken_memory_or_create_it (test_integration.IntegrationTests.test_resume_does_not_hide_broken_memory_or_create_it) ... ok
+test_resume_reads_memory_and_keeps_project_unchanged (test_integration.IntegrationTests.test_resume_reads_memory_and_keeps_project_unchanged) ... ok
+test_resume_surfaces_memory_drift_and_native_running_entry (test_integration.IntegrationTests.test_resume_surfaces_memory_drift_and_native_running_entry) ... ok
+test_standalone_resume_accepts_explicit_memory_installation (test_integration.IntegrationTests.test_standalone_resume_accepts_explicit_memory_installation) ... ok
+test_atomic_batch_rejection (test_leader.WorkflowTest.test_atomic_batch_rejection) ... ok
+test_atomic_replace_failure_preserves_previous_state (test_leader.WorkflowTest.test_atomic_replace_failure_preserves_previous_state) ... ok
+test_blocked_work_needs_reconciliation_before_resume (test_leader.WorkflowTest.test_blocked_work_needs_reconciliation_before_resume) ... ok
+test_bounded_budget_needs_actual_limits (test_leader.WorkflowTest.test_bounded_budget_needs_actual_limits) ... ok
+test_changed_output_propagates_to_downstream (test_leader.WorkflowTest.test_changed_output_propagates_to_downstream) ... ok
+test_completed_dependency_releases_successor (test_leader.WorkflowTest.test_completed_dependency_releases_successor) ... ok
+test_completion_must_cover_promised_output (test_leader.WorkflowTest.test_completion_must_cover_promised_output) ... ok
+test_completion_needs_real_outputs_and_verification (test_leader.WorkflowTest.test_completion_needs_real_outputs_and_verification) ... ok
+test_dependency_cannot_reference_self_or_future (test_leader.WorkflowTest.test_dependency_cannot_reference_self_or_future) ... ok
+test_dependency_prevents_premature_start (test_leader.WorkflowTest.test_dependency_prevents_premature_start) ... ok
+test_dry_run_does_not_write_or_create_workspaces (test_leader.WorkflowTest.test_dry_run_does_not_write_or_create_workspaces) ... ok
+test_event_corruption_is_detected (test_leader.WorkflowTest.test_event_corruption_is_detected) ... ok
+test_hold_does_not_cancel_running_job_and_allows_reconciliation (test_leader.WorkflowTest.test_hold_does_not_cancel_running_job_and_allows_reconciliation) ... ok
+test_input_drift_blocks_completion (test_leader.WorkflowTest.test_input_drift_blocks_completion) ... ok
+test_input_drift_blocks_start (test_leader.WorkflowTest.test_input_drift_blocks_start) ... ok
+test_json_duplicate_keys_and_nonfinite_numbers_rejected (test_leader.WorkflowTest.test_json_duplicate_keys_and_nonfinite_numbers_rejected) ... ok
+test_junction_evidence_is_rejected_on_windows (test_leader.WorkflowTest.test_junction_evidence_is_rejected_on_windows) ... ok
+test_lock_prevents_simultaneous_writes (test_leader.WorkflowTest.test_lock_prevents_simultaneous_writes) ... ok
+test_missing_source_detected_read_only (test_leader.WorkflowTest.test_missing_source_detected_read_only) ... ok
+test_new_objective_and_closure_can_share_one_atomic_batch (test_leader.WorkflowTest.test_new_objective_and_closure_can_share_one_atomic_batch) ... ok
+test_no_direct_pending_to_complete (test_leader.WorkflowTest.test_no_direct_pending_to_complete) ... ok
+test_no_empty_objective_completion (test_leader.WorkflowTest.test_no_empty_objective_completion) ... ok
+test_objective_change_requires_running_work_reconciled (test_leader.WorkflowTest.test_objective_change_requires_running_work_reconciled) ... ok
+test_objective_change_retains_history_and_current_scope (test_leader.WorkflowTest.test_objective_change_retains_history_and_current_scope) ... ok
+test_path_escape_private_config_and_self_evidence_rejected (test_leader.WorkflowTest.test_path_escape_private_config_and_self_evidence_rejected) ... ok
+test_project_can_be_relocated (test_leader.WorkflowTest.test_project_can_be_relocated) ... ok
+test_project_identity_mismatch (test_leader.WorkflowTest.test_project_identity_mismatch) ... ok
+test_reconciled_blocked_execution_can_be_replaced (test_leader.WorkflowTest.test_reconciled_blocked_execution_can_be_replaced) ... ok
+test_request_replay_is_idempotent (test_leader.WorkflowTest.test_request_replay_is_idempotent) ... ok
+test_required_cancelled_work_does_not_count_as_delivered (test_leader.WorkflowTest.test_required_cancelled_work_does_not_count_as_delivered) ... ok
+test_retry_has_new_identity_and_preserves_required_work (test_leader.WorkflowTest.test_retry_has_new_identity_and_preserves_required_work) ... ok
+test_revision_rejects_stale_writer (test_leader.WorkflowTest.test_revision_rejects_stale_writer) ... ok
+test_running_cancel_needs_actual_reconciliation (test_leader.WorkflowTest.test_running_cancel_needs_actual_reconciliation) ... ok
+test_running_work_is_reported_and_not_restarted (test_leader.WorkflowTest.test_running_work_is_reported_and_not_restarted) ... ok
+test_source_package_cannot_be_used_as_research_project (test_leader.WorkflowTest.test_source_package_cannot_be_used_as_research_project) ... ok
+test_standalone_copy_runs_without_siblings (test_leader.WorkflowTest.test_standalone_copy_runs_without_siblings) ... ok
+test_start_complete_and_close (test_leader.WorkflowTest.test_start_complete_and_close) ... ok
+test_superseded_result_is_not_reusable_by_old_dependents (test_leader.WorkflowTest.test_superseded_result_is_not_reusable_by_old_dependents) ... ok
+test_unknown_blocked_execution_cannot_be_hidden_by_new_objective (test_leader.WorkflowTest.test_unknown_blocked_execution_cannot_be_hidden_by_new_objective) ... ok
+test_unknown_blocked_execution_cannot_be_hidden_by_replacement (test_leader.WorkflowTest.test_unknown_blocked_execution_cannot_be_hidden_by_replacement) ... ok
+test_unknown_budget_blocks_paid_execution_but_not_diagnosis (test_leader.WorkflowTest.test_unknown_budget_blocks_paid_execution_but_not_diagnosis) ... ok
+test_view_failure_does_not_hide_committed_work (test_leader.WorkflowTest.test_view_failure_does_not_hide_committed_work) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 7.449s
+
+OK

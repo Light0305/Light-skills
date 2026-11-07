@@ -1,0 +1,102 @@
+{
+  "checked_on": "2026-11-02",
+  "evaluation_type": "one independent fresh-context subagent forward test",
+  "skill_sha256": "0ed7f1e4430f0e04831b40853558c5f56c9a313916cdfa3a594814902139e791",
+  "request": "Analyze existing A/B results; state warranted claims, continuation value and next research stage; deliver a reproducible package and handoff.",
+  "provided_materials": [
+    "../fixtures/task-seed-comparison/protocol.md",
+    "../fixtures/task-seed-comparison/scores.csv"
+  ],
+  "independence": "Fresh context; evaluator received the request, skill path, raw materials, output boundary and tool constraints. No intended answer, suspected bug or prior analysis was supplied.",
+  "original_workspace": "C:\\Users\\Light\\AppData\\Local\\Temp\\light-anaysis-forward-65bc646f12d04c158c73301b4d94c094",
+  "archive": "observed",
+  "review_status": "satisfactory on this one synthetic case, with one resolved template-lookup issue",
+  "observed_checks": [
+    "Actual code and derived results produced; root reviewer independently checked task differences and macro mean with exact decimal fractions.",
+    "Task effects +3/+1/-2/-1 percentage points and overall +0.25 percentage points; both harmed tasks retained.",
+    "Four task identities distinguished from 24 training runs; independent training streams not paired by seed labels.",
+    "Fixed-task training interval explicitly separated from hypothetical task-sampling sensitivity; no guaranteed domain CI claimed for convenience tasks.",
+    "Synthetic provenance and retrospective status retained; no equivalence, universal no-effect, causal-mechanism or real-data claim made.",
+    "Grounded design-stage handoff includes result-to-decision predictions, unknown budget, stop/reentry conditions and existing authorization scope.",
+    "Report, plan lock, evidence registry and handoff complete; structural verification passes; no input or skill edits by evaluator."
+  ],
+  "observed_issue": "Evaluator first guessed templates/analysis-plan.json and templates/analysis.json, which do not exist. It recovered through ingest-generated drafts. Actual template-source links were added to artifact-contract.md after review; the independent run was not repeated for that documentation-only change.",
+  "limits": "One synthetic case, one evaluator and reviewer inspection; not a systematic model benchmark, independent scientific replication, real-domain project validation or proof that all scenarios pass. Archived absolute paths and timestamps are historical records; clone to a new temporary workspace before rerunning.",
+  "files": [
+    {
+      "path": "analysis-plan.json",
+      "sha256": "7ad572eab6615a3cf6816fe42fad6c2fce7b4059604983f38c82c1ff1b27d54c",
+      "bytes": 4571
+    },
+    {
+      "path": "analysis-report.md",
+      "sha256": "90e9f3cc3d775e283452cf90bbcaae3d7573f634ae0c29eb468fdd20882db3cd",
+      "bytes": 11949
+    },
+    {
+      "path": "analysis.json",
+      "sha256": "a9c02f2b7b491480ddae82110c8d6d061bc707c44abfe358e8d7a65bf373ef58",
+      "bytes": 10873
+    },
+    {
+      "path": "artifacts/NUMBERS.json",
+      "sha256": "4ccecf7a0eda299217539fb3c0382b9d303323079a0383980f4177441221b039",
+      "bytes": 739
+    },
+    {
+      "path": "artifacts/TASKS.json",
+      "sha256": "10dfac1e75793d5fb9b716969cddc12105babf8bb4d5997abf1d1b2cdc5e43b4",
+      "bytes": 740
+    },
+    {
+      "path": "code/analyze.py",
+      "sha256": "9a4bb038080c196f5d6df68091f4c58de9f5da27b75ab6f15d271a8fa822585b",
+      "bytes": 10291
+    },
+    {
+      "path": "context.json",
+      "sha256": "a8719c6e01c192f9da84da11dd457e4a2e386e23c58f37264ae0e121b795f604",
+      "bytes": 904
+    },
+    {
+      "path": "derived/results.json",
+      "sha256": "5d90513220c6ac0ac9a2fdd19aef4e2e8fb774e5b0602c3a21c8356f9cdac21e",
+      "bytes": 8517
+    },
+    {
+      "path": "derived/task-summary.csv",
+      "sha256": "792869b0389165546b64c6122b1a8edf2a23855afbdbae814a262984e9e158a3",
+      "bytes": 595
+    },
+    {
+      "path": "handoff.json",
+      "sha256": "fe96a25a1f09a9810add3cf80f8685b5e0631257e1532f64ea13b9db771ed533",
+      "bytes": 10967
+    },
+    {
+      "path": "inputs/protocol.md",
+      "sha256": "e47cdd0614956fec79c7d44ded3f0a8d0d53af1d181a0f953c0dc34454944a12",
+      "bytes": 1593
+    },
+    {
+      "path": "inputs/scores.csv",
+      "sha256": "f8c8219a532c9b96c37a90dad0c2642aa14e0c63201cb3cc1726ce4d92d41be1",
+      "bytes": 359
+    },
+    {
+      "path": "plan-lock.json",
+      "sha256": "e40955afe1cc559a4d7772e64d5258346b6b7f699e3242537abf77258e7e6ac6",
+      "bytes": 331
+    },
+    {
+      "path": "receipt.json",
+      "sha256": "88ccf83c8bd5551b70796a4ebea1d2f7eefe4dddcb02a1202ca443096ee10691",
+      "bytes": 236
+    },
+    {
+      "path": "verification.json",
+      "sha256": "ac035435718aa477d780742d237c934dc41a302eef8d94ee482da549d40dc48c",
+      "bytes": 372
+    }
+  ]
+}

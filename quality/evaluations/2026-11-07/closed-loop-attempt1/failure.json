@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "stage": "analysis",
+  "reason": "Harness listed R002 without selecting its raw evidence; native validator correctly rejected it",
+  "project": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-8jdtpiku",
+  "native_runs": "Both numerical runs had already returned and passed known-answer checks",
+  "harness_state": "failed tasks recorded, objective stopped; no automatic retry"
+}

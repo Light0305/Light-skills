@@ -1,0 +1,152 @@
+[
+  {
+    "id": "owned-01-paired",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "01-paired",
+    "path": "assets/examples/visual-review/01-paired.md",
+    "preview": "assets/examples/visual-review/01-paired.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-02-trajectory-band",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "02-trajectory-band",
+    "path": "assets/examples/visual-review/02-trajectory-band.md",
+    "preview": "assets/examples/visual-review/02-trajectory-band.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-03-centered-matrix",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "03-centered-matrix",
+    "path": "assets/examples/visual-review/03-centered-matrix.md",
+    "preview": "assets/examples/visual-review/03-centered-matrix.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-04-joint-distribution",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "04-joint-distribution",
+    "path": "assets/examples/visual-review/04-joint-distribution.md",
+    "preview": "assets/examples/visual-review/04-joint-distribution.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-05-damped-surface",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "05-damped-surface",
+    "path": "assets/examples/visual-review/05-damped-surface.md",
+    "preview": "assets/examples/visual-review/05-damped-surface.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-06-surface-and-contours",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "06-surface-and-contours",
+    "path": "assets/examples/visual-review/06-surface-and-contours.md",
+    "preview": "assets/examples/visual-review/06-surface-and-contours.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-07-masked-surface",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "07-masked-surface",
+    "path": "assets/examples/visual-review/07-masked-surface.md",
+    "preview": "assets/examples/visual-review/07-masked-surface.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-08-separated-objects",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "08-separated-objects",
+    "path": "assets/examples/visual-review/08-separated-objects.md",
+    "preview": "assets/examples/visual-review/08-separated-objects.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-09-trajectory-and-projection",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "09-trajectory-and-projection",
+    "path": "assets/examples/visual-review/09-trajectory-and-projection.md",
+    "preview": "assets/examples/visual-review/09-trajectory-and-projection.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  },
+  {
+    "id": "owned-10-layered-curves",
+    "kind": "reference",
+    "backend": "python",
+    "status": "synthetic_example",
+    "title": "10-layered-curves",
+    "path": "assets/examples/visual-review/10-layered-curves.md",
+    "preview": "assets/examples/visual-review/10-layered-curves.png",
+    "tags": [
+      "synthetic",
+      "layout",
+      "审图示例"
+    ],
+    "notes": "MIT. Synthetic analytical/generated example; not a paper result or a general-purpose data adapter."
+  }
+]

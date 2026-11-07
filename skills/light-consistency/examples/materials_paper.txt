@@ -1,5 +1,0 @@
-本文提出 DCA-Net，用于小目标检测任务。
-DCA-Net 引入 CCA 模块与 SFP 模块协同建模。
-在 CrowdScene-2k 数据集上，DCA-Net 的 F1 达到 87.6%。
-DCA-Net 的 mAP@0.5 为 74.2%，优于基线 YOLOv8。
-训练时对骨干网络做 fine-tune 以适配小目标分布。

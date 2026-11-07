@@ -1,0 +1,26 @@
+{
+  "name": "quotes_toscrape",
+  "start_urls": [
+    "https://quotes.toscrape.com/"
+  ],
+  "allowed_domains": [
+    "quotes.toscrape.com"
+  ],
+  "item_selector": "div.quote",
+  "fields": {
+    "text": {
+      "selector": "span.text::text"
+    },
+    "author": {
+      "selector": "small.author::text"
+    },
+    "tags": {
+      "selector": "div.tags a.tag::text",
+      "many": true
+    }
+  },
+  "next_selector": "li.next a::attr(href)",
+  "concurrency": 4,
+  "robots_txt_obey": true,
+  "max_pages": 1
+}

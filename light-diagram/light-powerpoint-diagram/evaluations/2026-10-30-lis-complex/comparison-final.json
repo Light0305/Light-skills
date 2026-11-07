@@ -1,0 +1,20 @@
+{
+  "canvas_px": [
+    1536,
+    1024
+  ],
+  "whole_canvas_rgb_mae_0_255": 33.171797010633675,
+  "foreground_union_rgb_mae_0_255": 56.42213344289711,
+  "foreground_union_fraction": 0.5710010528564453,
+  "dark_pixel_recall_with_3px_square_tolerance": 0.5795032672073531,
+  "dark_pixel_precision_with_3px_square_tolerance": 0.8259992782695451,
+  "definitions": {
+    "foreground": "Union of pixels >25 grayscale levels away from white in either image.",
+    "dark": "Grayscale <140; tolerant match uses a 7x7 square dilation (3 px each direction).",
+    "limitations": "Position-sensitive diagnostics, not perceptual similarity or a 1:1 percentage. Text, fill texture and antialiasing affect results. Scientific topology requires separate review."
+  },
+  "source": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-lis-complex\\source.png",
+  "rendered": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-lis-complex\\output\\lis-corrected.png",
+  "source_sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+  "rendered_sha256": "e865aba6f30d921faa54eb5609770b6b6103cfc387c8e1108e74dda5a38cec53"
+}

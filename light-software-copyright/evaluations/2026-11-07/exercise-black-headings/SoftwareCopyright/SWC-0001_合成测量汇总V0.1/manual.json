@@ -1,0 +1,120 @@
+{
+  "document_type": "使用说明书",
+  "sections": [
+    {
+      "heading": "运行条件",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "本次在本地Python解释器验证，仅用标准库。输入需可读，输出位置需可写。未验证其他操作系统、生产数据或大量记录性能。本合成软件不代表真实登记项目。"
+        }
+      ]
+    },
+    {
+      "heading": "输入数据校验",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "read_measurements逐行检查。group去首尾空白后不得为空，value通过浮点转换和有限性检查。第一处错误即退出，不补零、不跳过错误行。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "字段",
+            "约束",
+            "示例"
+          ],
+          "rows": [
+            [
+              "group",
+              "非空组名",
+              "A"
+            ],
+            [
+              "value",
+              "有限浮点数",
+              "2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "操作步骤",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            "进入measure.py所在目录。",
+            "准备sample.csv并检查表头和编码。",
+            "执行命令，查看JSON结果。"
+          ]
+        },
+        {
+          "type": "code",
+          "text": "python measure.py sample.csv --output results/sample.json"
+        },
+        {
+          "type": "paragraph",
+          "text": "本次实际打印“Validated 4 records; wrote sample.json”。A、B各2条，该日志只对应本次合成样例。"
+        }
+      ]
+    },
+    {
+      "heading": "汇总与导出",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "summarize分组后用math.fsum求和。顶层record_count为记录总数，groups按组名排序；每组含count、sum、mean、minimum、maximum。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "组名",
+            "条数",
+            "合计",
+            "均值",
+            "最小",
+            "最大"
+          ],
+          "rows": [
+            [
+              "A",
+              "2",
+              "6",
+              "3",
+              "2",
+              "4"
+            ],
+            [
+              "B",
+              "2",
+              "24",
+              "12",
+              "10",
+              "14"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "结果以UTF-8写出，自动创建父目录并覆盖同名结果；写出失败由解释器报告，不保证旧结果事务性保留。"
+        }
+      ]
+    },
+    {
+      "heading": "错误与限制",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以value=nan实际运行返回2，提示“Non-finite value at line 2”，未产生bad.json。不可读文件、缺列、无记录同样返回2。无GUI、登录、在线同步、数据库或预测模型。"
+        }
+      ]
+    }
+  ]
+}

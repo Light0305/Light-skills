@@ -1,0 +1,12 @@
+{
+  "method": "GET",
+  "url": "https://books.toscrape.com/",
+  "headers": {
+    "accept": "text/html",
+    "user-agent": "scrapling"
+  },
+  "params": {},
+  "json": null,
+  "data": null,
+  "cookies": {}
+}

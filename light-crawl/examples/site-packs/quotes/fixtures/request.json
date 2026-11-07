@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "https://quotes.toscrape.com/",
+  "headers": {
+    "accept": "text/html,application/json",
+    "user-agent": "scrapling-stealth"
+  },
+  "params": {},
+  "json": null,
+  "data": null,
+  "cookies": {},
+  "engine": "scrapling-stealth"
+}

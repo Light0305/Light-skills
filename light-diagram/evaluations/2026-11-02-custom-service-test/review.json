@@ -1,0 +1,42 @@
+{
+  "reviewer": "assistant",
+  "method": "Actual view_image inspection, not automated OCR/topology recognition.",
+  "image_sha256": "6cd61b89fbc26569294940a607d517c5dc437b7f091236ccdd6c4cc18b28c1b2",
+  "labels_observed": [
+    "Image",
+    "Signal",
+    "Encoder A",
+    "Encoder B",
+    "Fusion",
+    "Output"
+  ],
+  "edges_observed": [
+    [
+      "Image",
+      "Encoder A"
+    ],
+    [
+      "Signal",
+      "Encoder B"
+    ],
+    [
+      "Encoder A",
+      "Fusion"
+    ],
+    [
+      "Encoder B",
+      "Fusion"
+    ],
+    [
+      "Fusion",
+      "Output"
+    ]
+  ],
+  "status": "passed_limited",
+  "limitations": [
+    "Hypothetical connectivity test only",
+    "No editable reconstruction",
+    "Light background/fill texture present",
+    "Not a complex scientific-figure benchmark"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "canvas_px": [
+    1536,
+    1024
+  ],
+  "whole_canvas_rgb_mae_0_255": 9.489472495185005,
+  "foreground_union_rgb_mae_0_255": 28.185189523963192,
+  "foreground_union_fraction": 0.2876427968343099,
+  "dark_pixel_recall_with_3px_square_tolerance": 0.9858263579590911,
+  "dark_pixel_precision_with_3px_square_tolerance": 0.9818904593639576,
+  "definitions": {
+    "foreground": "Union of pixels >25 grayscale levels away from white in either image.",
+    "dark": "Grayscale <140; tolerant match uses a 7x7 square dilation (3 px each direction).",
+    "limitations": "Position-sensitive diagnostics, not perceptual similarity or a 1:1 percentage. Text, fill texture and antialiasing affect results. Scientific topology requires separate review."
+  },
+  "source": "D:\\Light-Science\\light-diagram\\light-visio-diagram\\evaluations\\2026-10-30-transformer\\source.png",
+  "rendered": "D:\\Light-Science\\light-diagram\\light-visio-diagram\\evaluations\\2026-10-30-transformer\\transformer-replica.png",
+  "source_sha256": "e4c6d01d4c243b7e1a0378fd20f509c42e6daf8cacd76d279f57a685128465a5",
+  "rendered_sha256": "fadfc86c23ac32fb551a1aa7a8b919cc79f029e7a68693e8f3b51c01e1bd5cb0"
+}

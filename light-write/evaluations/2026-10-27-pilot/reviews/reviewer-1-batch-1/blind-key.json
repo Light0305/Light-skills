@@ -1,0 +1,72 @@
+{
+  "Q1000": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "computing-draft"
+  },
+  "Q1001": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "computing-draft"
+  },
+  "Q1010": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "computing-polish"
+  },
+  "Q1011": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "computing-polish"
+  },
+  "Q1020": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "biology-draft"
+  },
+  "Q1021": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "biology-draft"
+  },
+  "Q1030": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "biology-polish"
+  },
+  "Q1031": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "biology-polish"
+  },
+  "Q1040": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "clinical-draft"
+  },
+  "Q1041": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "clinical-draft"
+  },
+  "Q1050": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "clinical-polish"
+  },
+  "Q1051": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "clinical-polish"
+  },
+  "Q1060": {
+    "phase": "before",
+    "arm": "upstream",
+    "case_id": "engineering-draft"
+  },
+  "Q1061": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "engineering-draft"
+  }
+}

@@ -1,0 +1,8 @@
+test_all_derived_exports_listed (test_preservation.PreservationTests.test_all_derived_exports_listed) ... ok
+test_saved_allowed (test_preservation.PreservationTests.test_saved_allowed) ... ok
+test_unsaved_rejected (test_preservation.PreservationTests.test_unsaved_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK

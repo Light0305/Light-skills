@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a17ab6-4ebd-7c62-8462-f84963ca27f1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"In a retrospective sample of 620 adults from one hospital, the model predicted deterioration with an internal-test AUROC of 0.89 (95% CI 0.85–0.93) and sensitivity of 0.71 at specificity of 0.80; calibration was not evaluated. These findings establish discrimination within the internal test sample, but without prospective evaluation, an external cohort or treatment-impact analysis, they do not establish generalisability, prevention of deterioration or readiness for bedside implementation."}}
+{"type":"turn.completed","usage":{"input_tokens":28368,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":333,"reasoning_output_tokens":227}}

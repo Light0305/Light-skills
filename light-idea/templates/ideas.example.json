@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "topic": "结构示例；请替换为真实研究主题",
+  "constraints": {
+    "time": "unknown",
+    "data": "unknown",
+    "compute_or_equipment": "unknown"
+  },
+  "ideas": [
+    {
+      "idea_id": "I01",
+      "version": 1,
+      "title": "待基于真实材料填写的候选",
+      "status": "hold",
+      "question": "待材料明确后写成可回答的问题",
+      "rationale": "此文件只示范结构，不含真实论文、证据或研究结论。",
+      "basis_evidence_ids": [],
+      "claim_type": "empirical",
+      "hypothesis": "待检验的解释，不是事实",
+      "prior_art": [],
+      "novelty": {
+        "status": "unsearched",
+        "search_ids": [],
+        "conclusion": "未进行查重",
+        "limitations": "没有真实检索记录"
+      },
+      "gates": {
+        "data_access": "unknown",
+        "resource_fit": "unknown",
+        "data_access_basis": "",
+        "resource_fit_basis": ""
+      },
+      "design": {
+        "prediction": "",
+        "rival_explanation": "",
+        "test": "",
+        "baseline": "",
+        "metric": "",
+        "success": "",
+        "falsifier": "",
+        "negative_result_value": "",
+        "first_step": "",
+        "budget": "",
+        "failure_modes": ""
+      },
+      "review": {
+        "strongest_objection": "",
+        "response": "",
+        "residual_risk": ""
+      },
+      "decision_reason": "目前缺少真实主题与证据，不能推荐投入。",
+      "history": []
+    }
+  ]
+}

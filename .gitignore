@@ -1,39 +1,51 @@
-# Python
-__pycache__/
+# Local environments and caches
+**/__pycache__/
 *.py[cod]
 *.egg-info/
+.venv/
+venv/
+node_modules/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
-# selftest / 临时副产物（脚本临时件用 .upgrade/_e2e，跑完即删）
-.upgrade/_e2e/
-*.tmp
-_synth_*.csv
-demo_*.png
-# figure color_palettes/figure_export selftest 渲染的 demo 图(可复现,不入库)
-_export_demo/
+# Credentials, browser sessions and machine settings
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.private/
+*.clixml
+**/imagegen.local.json
+**/litsearch.toml
+**/cookies.json
+**/storage-state.json
+*.har
+*.saz
+*.pcap
+*.pcapng
 
-# 本地客户端发现镜像（由 scripts/bootstrap_agent_skills.py 生成；canonical 仍是 skills/）
-.agents/
-.claude/
-.opencode/
-
-# LaTeX 编译产物
-build/
+# Agent installation copies and local outputs
+/.agents/
+/.claude/
+/.opencode/
+/.upgrade/
+/quality/release-v*/
+**/.light-chart/
+**/.light-crawl/
+**/.playwright-cli/
+**/.build/
+**/dist/
+**/runs/
+**/validation-local/
 *.aux
-*.log
-*.out
-*.toc
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-
-# R
 .Rhistory
 .RData
 .Rproj.user/
-
-# OS / 编辑器
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/

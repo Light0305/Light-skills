@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-10-27T00:16:08.222826+00:00",
+  "elapsed_seconds": 16.59,
+  "exit_code": 0,
+  "usage": {
+    "input_tokens": 31346,
+    "cached_input_tokens": 12416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 358,
+    "reasoning_output_tokens": 181
+  },
+  "observed_tool_events": [],
+  "completed": true
+}

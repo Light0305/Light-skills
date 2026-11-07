@@ -1,0 +1,7 @@
+{
+  "name": "reject-old-closure-stamp",
+  "exit": 2,
+  "expected": 2,
+  "stdout": "",
+  "stderr": "{\"ok\": false, \"error\": \"LR-001: closure_check must bind the current packet\"}\n"
+}

@@ -1,0 +1,3 @@
+At 24 h, treatment with drug T yielded a marker Z level of 1.6-fold relative to vehicle in cell line C (culture-level estimate; 95% CI, 1.1–2.2). Measurements came from three separate cultures, with two assay wells per culture. The wells were nested within cultures and represented technical measurements rather than independent biological replicates (biological n = 3). These results support increased marker Z under the tested conditions; they do not establish direct binding to regulator Q, which was not tested, or induction across all cell types.
+
+Note: Biological replication was corrected to three cultures, and the mechanistic and universal claims were restricted to the observed response.

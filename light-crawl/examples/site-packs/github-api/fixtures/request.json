@@ -1,0 +1,12 @@
+{
+  "method": "GET",
+  "url": "https://api.github.com/repos/python/cpython",
+  "headers": {
+    "accept": "application/json",
+    "user-agent": "scrapling"
+  },
+  "params": {},
+  "json": null,
+  "data": null,
+  "cookies": {}
+}

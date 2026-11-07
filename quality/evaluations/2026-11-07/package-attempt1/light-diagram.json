@@ -1,0 +1,25 @@
+{
+  "run": 30,
+  "passed": 30,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 0.593,
+  "ok": true,
+  "name": "light-diagram",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-diagram\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-diagram.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-diagram"
+}

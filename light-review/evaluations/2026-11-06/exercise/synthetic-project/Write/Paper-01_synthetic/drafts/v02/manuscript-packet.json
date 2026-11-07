@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "basis": "Synthetic local revision exercise; actual CSV and code computed; no independent review.",
+  "manuscript": {
+    "paper_id": "Paper-01",
+    "revision": "v02",
+    "path": "manuscript.md",
+    "sha256": "0aec5d536c566f6d47500ce8289418b57de086f14947ea45f757cc73516e7e7e"
+  },
+  "sources": [
+    {
+      "id": "data",
+      "role": "data",
+      "path": "../../../../Experiment/Data/sites.csv",
+      "sha256": "1db73265f5956f3697af26b7fd5f229a2a8ed552ac1b84859a831bca48d59893"
+    },
+    {
+      "id": "results",
+      "role": "analysis",
+      "path": "../../../../Analysis/AN-0001_descriptive/results.json",
+      "sha256": "d17cb05f3f4dbd490c305ee568d0e07d7eed0f8cb383bc4ec7fb808d83e255cc"
+    },
+    {
+      "id": "code",
+      "role": "code",
+      "path": "../../../../Analysis/AN-0001_descriptive/calculate.py",
+      "sha256": "955264583b035670e34e9b98237e767ffab1d8a1e1f8c4739ce27e8ac73baf0d"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "anchor": "A is better than B at every site.",
+      "status": "needs_evidence",
+      "boundary": "Synthetic descriptive sample only; no causal, significance or population claim.",
+      "evidence": [
+        {
+          "source_id": "results",
+          "locator": "mean_A, mean_B and A_below_B"
+        }
+      ]
+    }
+  ],
+  "protected_literals": [
+    {
+      "source_id": "data",
+      "text": "0.53"
+    }
+  ],
+  "parent": {
+    "path": "../v01/manuscript-packet.json",
+    "sha256": "4da3252944709e300e5b846f7817d0a6eb7e4e3061391a03ea1c8ff20cdd7861"
+  }
+}

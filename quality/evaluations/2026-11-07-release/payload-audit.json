@@ -1,0 +1,16 @@
+{
+  "payload": "D:\\Light-Skills\\quality\\release-v2.0.0\\payload-release",
+  "files": 1975,
+  "skill_entries": 19,
+  "active_local_links_checked": 440,
+  "chart_index_paths_checked": 248,
+  "errors": [],
+  "placeholder_findings": [
+    {
+      "file": "light-software-copyright/tests/test_pipeline.py",
+      "line": 191,
+      "rule": "key-assignment"
+    }
+  ],
+  "scope": "Credential patterns, active authored links and runtime indexes. Historical reports and retained upstream documentation may describe external or development-only inputs."
+}

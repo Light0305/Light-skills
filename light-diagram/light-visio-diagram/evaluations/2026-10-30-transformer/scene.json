@@ -1,0 +1,3612 @@
+{
+  "schema_version": "1.0",
+  "font": "Arial",
+  "canvas": {
+    "width_px": 1536,
+    "height_px": 1024,
+    "pixels_per_inch": 100
+  },
+  "provenance": {
+    "source": "source.png",
+    "source_sha256": "e4c6d01d4c243b7e1a0378fd20f509c42e6daf8cacd76d279f57a685128465a5",
+    "method": "Manual visual inventory and pixel measurements; no automatic image parsing.",
+    "scientific_source": "https://arxiv.org/abs/1706.03762",
+    "changes": {
+      "replica": [],
+      "corrected": [
+        "Remove extra_memory_to_norm: K,V memory must not bypass cross-attention into the following Add & Norm."
+      ]
+    }
+  },
+  "pages": [
+    {
+      "name": "01 Reference replica",
+      "slug": "replica",
+      "mode": "faithful",
+      "nodes": [
+        {
+          "id": "page_background",
+          "type": "rect",
+          "bbox": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffffff",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "encoder_container",
+          "type": "roundrect",
+          "bbox": [
+            215,
+            238,
+            404,
+            516
+          ],
+          "text": "",
+          "radius_px": 18,
+          "style": {
+            "fill": "#c2e4fc",
+            "font_px": 23,
+            "fill_secondary": "#cde9fc",
+            "stroke": "#39a5ed",
+            "stroke_px": 3.2
+          }
+        },
+        {
+          "id": "decoder_container",
+          "type": "roundrect",
+          "bbox": [
+            940,
+            238,
+            398,
+            528
+          ],
+          "text": "",
+          "radius_px": 18,
+          "style": {
+            "fill": "#ffe0c2",
+            "font_px": 23,
+            "fill_secondary": "#ffe6ce",
+            "stroke": "#ff8c28",
+            "stroke_px": 3.2
+          }
+        },
+        {
+          "id": "enc_norm2",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            271,
+            278,
+            51
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "enc_ff",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            363,
+            278,
+            63
+          ],
+          "text": "Feed Forward",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "enc_norm1",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            480,
+            278,
+            56
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "enc_attention",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            574,
+            278,
+            100
+          ],
+          "text": "Multi-Head\nSelf-Attention",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 23,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "inputs",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            950,
+            278,
+            54
+          ],
+          "text": "Inputs",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "input_embedding",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            870,
+            278,
+            51
+          ],
+          "text": "Input Embedding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f2c2ee",
+            "font_px": 23,
+            "fill_secondary": "#f5d1f1"
+          }
+        },
+        {
+          "id": "enc_position",
+          "type": "roundrect",
+          "bbox": [
+            142,
+            785,
+            174,
+            67
+          ],
+          "text": "Positional\nEncoding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "enc_add",
+          "type": "ellipse",
+          "bbox": [
+            395,
+            788,
+            52,
+            52
+          ],
+          "text": "+",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f7f7fb",
+            "font_px": 34
+          }
+        },
+        {
+          "id": "dec_norm3",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            258,
+            257,
+            45
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "dec_ff",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            330,
+            257,
+            49
+          ],
+          "text": "Feed Forward",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "dec_norm2",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            417,
+            257,
+            47
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "cross_attention",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            489,
+            257,
+            55
+          ],
+          "text": "Cross-Attention",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 24,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "dec_norm1",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            587,
+            257,
+            48
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "masked_attention",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            657,
+            257,
+            74
+          ],
+          "text": "Masked\nSelf-Attention",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 23,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "shifted_outputs",
+          "type": "roundrect",
+          "bbox": [
+            1024,
+            950,
+            258,
+            54
+          ],
+          "text": "Shifted Outputs",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "output_embedding",
+          "type": "roundrect",
+          "bbox": [
+            1024,
+            871,
+            258,
+            50
+          ],
+          "text": "Output Embedding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f2c2ee",
+            "font_px": 23,
+            "fill_secondary": "#f5d1f1"
+          }
+        },
+        {
+          "id": "dec_position",
+          "type": "roundrect",
+          "bbox": [
+            893,
+            786,
+            169,
+            66
+          ],
+          "text": "Positional\nEncoding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "dec_add",
+          "type": "ellipse",
+          "bbox": [
+            1122,
+            790,
+            51,
+            51
+          ],
+          "text": "+",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f7f7fb",
+            "font_px": 34
+          }
+        },
+        {
+          "id": "linear",
+          "type": "roundrect",
+          "bbox": [
+            995,
+            166,
+            285,
+            43
+          ],
+          "text": "Linear",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 23,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "softmax",
+          "type": "roundrect",
+          "bbox": [
+            995,
+            91,
+            285,
+            48
+          ],
+          "text": "Softmax",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "probabilities",
+          "type": "roundrect",
+          "bbox": [
+            995,
+            14,
+            285,
+            50
+          ],
+          "text": "Output Probabilities",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "encoder_label",
+          "type": "text",
+          "bbox": [
+            36,
+            274,
+            143,
+            40
+          ],
+          "text": "Encoder",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 30,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "decoder_label",
+          "type": "text",
+          "bbox": [
+            1383,
+            274,
+            150,
+            40
+          ],
+          "text": "Decoder",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 30,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "encoder_repeat",
+          "type": "text",
+          "bbox": [
+            67,
+            500,
+            113,
+            35
+          ],
+          "text": "6 layers",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 26,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "decoder_repeat",
+          "type": "text",
+          "bbox": [
+            1374,
+            500,
+            113,
+            35
+          ],
+          "text": "6 layers",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 26,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "memory_label",
+          "type": "text",
+          "bbox": [
+            811,
+            468,
+            57,
+            31
+          ],
+          "text": "K,V",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 25,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "query_label",
+          "type": "text",
+          "bbox": [
+            1110,
+            550,
+            26,
+            29
+          ],
+          "text": "Q",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 25,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "enc_input_branch",
+          "type": "junction",
+          "bbox": [
+            420.9,
+            703.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "enc_memory",
+          "type": "junction",
+          "bbox": [
+            420.9,
+            187.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "memory_split",
+          "type": "junction",
+          "bbox": [
+            970.9,
+            501.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "dec_input_branch",
+          "type": "junction",
+          "bbox": [
+            1147.4,
+            746.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        }
+      ],
+      "paths": [
+        {
+          "id": "encoder_brace",
+          "points": [
+            [
+              201,
+              270
+            ],
+            [
+              195,
+              271
+            ],
+            [
+              191,
+              277
+            ],
+            [
+              191,
+              502
+            ],
+            [
+              188,
+              512
+            ],
+            [
+              181,
+              519
+            ],
+            [
+              188,
+              525
+            ],
+            [
+              191,
+              534
+            ],
+            [
+              191,
+              733
+            ],
+            [
+              195,
+              741
+            ],
+            [
+              201,
+              744
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 7,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "decoder_brace",
+          "points": [
+            [
+              1351,
+              271
+            ],
+            [
+              1356,
+              273
+            ],
+            [
+              1359,
+              280
+            ],
+            [
+              1359,
+              502
+            ],
+            [
+              1362,
+              512
+            ],
+            [
+              1369,
+              519
+            ],
+            [
+              1362,
+              525
+            ],
+            [
+              1359,
+              534
+            ],
+            [
+              1359,
+              735
+            ],
+            [
+              1356,
+              743
+            ],
+            [
+              1351,
+              747
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 7,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "memory_arrowhead",
+          "points": [
+            [
+              421,
+              222
+            ],
+            [
+              421,
+              201
+            ]
+          ],
+          "arrow": 13,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_input_arrowhead",
+          "points": [
+            [
+              421,
+              780
+            ],
+            [
+              421,
+              757
+            ]
+          ],
+          "arrow": 13,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_input_arrowhead",
+          "points": [
+            [
+              1147.5,
+              782
+            ],
+            [
+              1147.5,
+              766
+            ]
+          ],
+          "arrow": 13,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "inputs_to_embedding",
+          "source": {
+            "node": "inputs",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "input_embedding",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              423.0,
+              950
+            ],
+            [
+              423.0,
+              921
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "input_embedding_to_add",
+          "source": {
+            "node": "input_embedding",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_add",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              423.0,
+              870
+            ],
+            [
+              421,
+              852
+            ],
+            [
+              421.0,
+              840
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_position_to_add",
+          "source": {
+            "node": "enc_position",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "enc_add",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              316,
+              818.5
+            ],
+            [
+              395,
+              814.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_add_to_branch",
+          "source": {
+            "node": "enc_add",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              788
+            ],
+            [
+              421.0,
+              704.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_branch_to_attention",
+          "source": {
+            "node": "enc_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "enc_attention",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              704.0
+            ],
+            [
+              421.0,
+              674
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_attention_to_norm",
+          "source": {
+            "node": "enc_attention",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_norm1",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              574
+            ],
+            [
+              421.0,
+              536
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_attention_residual",
+          "source": {
+            "node": "enc_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "enc_norm1",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              704.0
+            ],
+            [
+              240,
+              704
+            ],
+            [
+              240,
+              508
+            ],
+            [
+              284,
+              508.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_norm_to_ff",
+          "source": {
+            "node": "enc_norm1",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_ff",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              480
+            ],
+            [
+              421.0,
+              426
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_ff_to_norm",
+          "source": {
+            "node": "enc_ff",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_norm2",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              363
+            ],
+            [
+              421.0,
+              322
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_ff_residual",
+          "source": {
+            "node": "enc_norm1",
+            "anchor": [
+              0.12589928057553956,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_norm2",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              319.0,
+              480
+            ],
+            [
+              319,
+              465
+            ],
+            [
+              240,
+              465
+            ],
+            [
+              240,
+              296.5
+            ],
+            [
+              284,
+              296.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_to_memory",
+          "source": {
+            "node": "enc_norm2",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_memory",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              271
+            ],
+            [
+              421.0,
+              188.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "memory_to_split",
+          "source": {
+            "node": "enc_memory",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "memory_split",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              188.0
+            ],
+            [
+              763,
+              188
+            ],
+            [
+              763,
+              502
+            ],
+            [
+              971.0,
+              502.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "memory_to_cross",
+          "source": {
+            "node": "memory_split",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "cross_attention",
+            "anchor": [
+              0,
+              0.23636363636363636
+            ]
+          },
+          "points": [
+            [
+              971.0,
+              502.0
+            ],
+            [
+              1022,
+              502.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "outputs_to_embedding",
+          "source": {
+            "node": "shifted_outputs",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "output_embedding",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1153.0,
+              950
+            ],
+            [
+              1153.0,
+              921
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "output_embedding_to_add",
+          "source": {
+            "node": "output_embedding",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_add",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1153.0,
+              871
+            ],
+            [
+              1147.5,
+              855
+            ],
+            [
+              1147.5,
+              841
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_position_to_add",
+          "source": {
+            "node": "dec_position",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "dec_add",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1062,
+              819.0
+            ],
+            [
+              1122,
+              815.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_add_to_branch",
+          "source": {
+            "node": "dec_add",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              790
+            ],
+            [
+              1147.5,
+              747.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_branch_to_masked",
+          "source": {
+            "node": "dec_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "masked_attention",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              747.0
+            ],
+            [
+              1147.5,
+              731
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "masked_to_norm",
+          "source": {
+            "node": "masked_attention",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm1",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              657
+            ],
+            [
+              1147.5,
+              635
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "masked_residual",
+          "source": {
+            "node": "dec_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "dec_norm1",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              747.0
+            ],
+            [
+              971,
+              747
+            ],
+            [
+              971,
+              611
+            ],
+            [
+              1022,
+              611.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "norm_to_query",
+          "source": {
+            "node": "dec_norm1",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "cross_attention",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              587
+            ],
+            [
+              1147.5,
+              544
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "cross_to_norm",
+          "source": {
+            "node": "cross_attention",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm2",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              489
+            ],
+            [
+              1147.5,
+              464
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "cross_residual",
+          "source": {
+            "node": "dec_norm1",
+            "anchor": [
+              1,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm2",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1279,
+              587
+            ],
+            [
+              1320,
+              587
+            ],
+            [
+              1320,
+              440.5
+            ],
+            [
+              1279,
+              440.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_norm_to_ff",
+          "source": {
+            "node": "dec_norm2",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_ff",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              417
+            ],
+            [
+              1147.5,
+              379
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_ff_to_norm",
+          "source": {
+            "node": "dec_ff",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm3",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              330
+            ],
+            [
+              1147.5,
+              303
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_ff_residual",
+          "source": {
+            "node": "dec_norm2",
+            "anchor": [
+              0.16731517509727625,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm3",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1065.0,
+              417
+            ],
+            [
+              1065,
+              404
+            ],
+            [
+              971,
+              404
+            ],
+            [
+              971,
+              280.5
+            ],
+            [
+              1022,
+              280.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "extra_memory_to_norm",
+          "source": {
+            "node": "memory_split",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "dec_norm2",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              971.0,
+              502.0
+            ],
+            [
+              971,
+              440.5
+            ],
+            [
+              1022,
+              440.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "decoder_to_linear",
+          "source": {
+            "node": "dec_norm3",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "linear",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              258
+            ],
+            [
+              1137.5,
+              209
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "linear_to_softmax",
+          "source": {
+            "node": "linear",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "softmax",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1137.5,
+              166
+            ],
+            [
+              1137.5,
+              139
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "softmax_to_probabilities",
+          "source": {
+            "node": "softmax",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "probabilities",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1137.5,
+              91
+            ],
+            [
+              1137.5,
+              64
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "02 Corrected topology",
+      "slug": "corrected",
+      "mode": "science-corrected",
+      "nodes": [
+        {
+          "id": "page_background",
+          "type": "rect",
+          "bbox": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffffff",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "encoder_container",
+          "type": "roundrect",
+          "bbox": [
+            215,
+            238,
+            404,
+            516
+          ],
+          "text": "",
+          "radius_px": 18,
+          "style": {
+            "fill": "#c2e4fc",
+            "font_px": 23,
+            "fill_secondary": "#cde9fc",
+            "stroke": "#39a5ed",
+            "stroke_px": 3.2
+          }
+        },
+        {
+          "id": "decoder_container",
+          "type": "roundrect",
+          "bbox": [
+            940,
+            238,
+            398,
+            528
+          ],
+          "text": "",
+          "radius_px": 18,
+          "style": {
+            "fill": "#ffe0c2",
+            "font_px": 23,
+            "fill_secondary": "#ffe6ce",
+            "stroke": "#ff8c28",
+            "stroke_px": 3.2
+          }
+        },
+        {
+          "id": "enc_norm2",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            271,
+            278,
+            51
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "enc_ff",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            363,
+            278,
+            63
+          ],
+          "text": "Feed Forward",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "enc_norm1",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            480,
+            278,
+            56
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "enc_attention",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            574,
+            278,
+            100
+          ],
+          "text": "Multi-Head\nSelf-Attention",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 23,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "inputs",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            950,
+            278,
+            54
+          ],
+          "text": "Inputs",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "input_embedding",
+          "type": "roundrect",
+          "bbox": [
+            284,
+            870,
+            278,
+            51
+          ],
+          "text": "Input Embedding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f2c2ee",
+            "font_px": 23,
+            "fill_secondary": "#f5d1f1"
+          }
+        },
+        {
+          "id": "enc_position",
+          "type": "roundrect",
+          "bbox": [
+            142,
+            785,
+            174,
+            67
+          ],
+          "text": "Positional\nEncoding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "enc_add",
+          "type": "ellipse",
+          "bbox": [
+            395,
+            788,
+            52,
+            52
+          ],
+          "text": "+",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f7f7fb",
+            "font_px": 34
+          }
+        },
+        {
+          "id": "dec_norm3",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            258,
+            257,
+            45
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "dec_ff",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            330,
+            257,
+            49
+          ],
+          "text": "Feed Forward",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "dec_norm2",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            417,
+            257,
+            47
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "cross_attention",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            489,
+            257,
+            55
+          ],
+          "text": "Cross-Attention",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 24,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "dec_norm1",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            587,
+            257,
+            48
+          ],
+          "text": "Add & Norm",
+          "radius_px": 10,
+          "style": {
+            "fill": "#ffeab1",
+            "font_px": 23,
+            "fill_secondary": "#fff0c4"
+          }
+        },
+        {
+          "id": "masked_attention",
+          "type": "roundrect",
+          "bbox": [
+            1022,
+            657,
+            257,
+            74
+          ],
+          "text": "Masked\nSelf-Attention",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 23,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "shifted_outputs",
+          "type": "roundrect",
+          "bbox": [
+            1024,
+            950,
+            258,
+            54
+          ],
+          "text": "Shifted Outputs",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "output_embedding",
+          "type": "roundrect",
+          "bbox": [
+            1024,
+            871,
+            258,
+            50
+          ],
+          "text": "Output Embedding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f2c2ee",
+            "font_px": 23,
+            "fill_secondary": "#f5d1f1"
+          }
+        },
+        {
+          "id": "dec_position",
+          "type": "roundrect",
+          "bbox": [
+            893,
+            786,
+            169,
+            66
+          ],
+          "text": "Positional\nEncoding",
+          "radius_px": 10,
+          "style": {
+            "fill": "#b9def8",
+            "font_px": 23,
+            "fill_secondary": "#c5e6fd"
+          }
+        },
+        {
+          "id": "dec_add",
+          "type": "ellipse",
+          "bbox": [
+            1122,
+            790,
+            51,
+            51
+          ],
+          "text": "+",
+          "radius_px": 10,
+          "style": {
+            "fill": "#f7f7fb",
+            "font_px": 34
+          }
+        },
+        {
+          "id": "linear",
+          "type": "roundrect",
+          "bbox": [
+            995,
+            166,
+            285,
+            43
+          ],
+          "text": "Linear",
+          "radius_px": 10,
+          "style": {
+            "fill": "#d9c9fa",
+            "font_px": 23,
+            "fill_secondary": "#e1d4fc"
+          }
+        },
+        {
+          "id": "softmax",
+          "type": "roundrect",
+          "bbox": [
+            995,
+            91,
+            285,
+            48
+          ],
+          "text": "Softmax",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "probabilities",
+          "type": "roundrect",
+          "bbox": [
+            995,
+            14,
+            285,
+            50
+          ],
+          "text": "Output Probabilities",
+          "radius_px": 10,
+          "style": {
+            "fill": "#bce6d5",
+            "font_px": 23,
+            "fill_secondary": "#cfeddf"
+          }
+        },
+        {
+          "id": "encoder_label",
+          "type": "text",
+          "bbox": [
+            36,
+            274,
+            143,
+            40
+          ],
+          "text": "Encoder",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 30,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "decoder_label",
+          "type": "text",
+          "bbox": [
+            1383,
+            274,
+            150,
+            40
+          ],
+          "text": "Decoder",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 30,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "encoder_repeat",
+          "type": "text",
+          "bbox": [
+            67,
+            500,
+            113,
+            35
+          ],
+          "text": "6 layers",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 26,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "decoder_repeat",
+          "type": "text",
+          "bbox": [
+            1374,
+            500,
+            113,
+            35
+          ],
+          "text": "6 layers",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 26,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "memory_label",
+          "type": "text",
+          "bbox": [
+            811,
+            468,
+            57,
+            31
+          ],
+          "text": "K,V",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 25,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "query_label",
+          "type": "text",
+          "bbox": [
+            1110,
+            550,
+            26,
+            29
+          ],
+          "text": "Q",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 25,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "enc_input_branch",
+          "type": "junction",
+          "bbox": [
+            420.9,
+            703.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "enc_memory",
+          "type": "junction",
+          "bbox": [
+            420.9,
+            187.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "memory_split",
+          "type": "junction",
+          "bbox": [
+            970.9,
+            501.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        },
+        {
+          "id": "dec_input_branch",
+          "type": "junction",
+          "bbox": [
+            1147.4,
+            746.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 10,
+          "style": {
+            "fill": "none",
+            "font_px": 23,
+            "stroke": "none"
+          }
+        }
+      ],
+      "paths": [
+        {
+          "id": "encoder_brace",
+          "points": [
+            [
+              201,
+              270
+            ],
+            [
+              195,
+              271
+            ],
+            [
+              191,
+              277
+            ],
+            [
+              191,
+              502
+            ],
+            [
+              188,
+              512
+            ],
+            [
+              181,
+              519
+            ],
+            [
+              188,
+              525
+            ],
+            [
+              191,
+              534
+            ],
+            [
+              191,
+              733
+            ],
+            [
+              195,
+              741
+            ],
+            [
+              201,
+              744
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 7,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "decoder_brace",
+          "points": [
+            [
+              1351,
+              271
+            ],
+            [
+              1356,
+              273
+            ],
+            [
+              1359,
+              280
+            ],
+            [
+              1359,
+              502
+            ],
+            [
+              1362,
+              512
+            ],
+            [
+              1369,
+              519
+            ],
+            [
+              1362,
+              525
+            ],
+            [
+              1359,
+              534
+            ],
+            [
+              1359,
+              735
+            ],
+            [
+              1356,
+              743
+            ],
+            [
+              1351,
+              747
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 7,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "memory_arrowhead",
+          "points": [
+            [
+              421,
+              222
+            ],
+            [
+              421,
+              201
+            ]
+          ],
+          "arrow": 13,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_input_arrowhead",
+          "points": [
+            [
+              421,
+              780
+            ],
+            [
+              421,
+              757
+            ]
+          ],
+          "arrow": 13,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_input_arrowhead",
+          "points": [
+            [
+              1147.5,
+              782
+            ],
+            [
+              1147.5,
+              766
+            ]
+          ],
+          "arrow": 13,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "inputs_to_embedding",
+          "source": {
+            "node": "inputs",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "input_embedding",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              423.0,
+              950
+            ],
+            [
+              423.0,
+              921
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "input_embedding_to_add",
+          "source": {
+            "node": "input_embedding",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_add",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              423.0,
+              870
+            ],
+            [
+              421,
+              852
+            ],
+            [
+              421.0,
+              840
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_position_to_add",
+          "source": {
+            "node": "enc_position",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "enc_add",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              316,
+              818.5
+            ],
+            [
+              395,
+              814.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_add_to_branch",
+          "source": {
+            "node": "enc_add",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              788
+            ],
+            [
+              421.0,
+              704.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_branch_to_attention",
+          "source": {
+            "node": "enc_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "enc_attention",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              704.0
+            ],
+            [
+              421.0,
+              674
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_attention_to_norm",
+          "source": {
+            "node": "enc_attention",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_norm1",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              574
+            ],
+            [
+              421.0,
+              536
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_attention_residual",
+          "source": {
+            "node": "enc_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "enc_norm1",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              704.0
+            ],
+            [
+              240,
+              704
+            ],
+            [
+              240,
+              508
+            ],
+            [
+              284,
+              508.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_norm_to_ff",
+          "source": {
+            "node": "enc_norm1",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_ff",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              480
+            ],
+            [
+              421.0,
+              426
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_ff_to_norm",
+          "source": {
+            "node": "enc_ff",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_norm2",
+            "anchor": [
+              0.49280575539568344,
+              1
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              363
+            ],
+            [
+              421.0,
+              322
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_ff_residual",
+          "source": {
+            "node": "enc_norm1",
+            "anchor": [
+              0.12589928057553956,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_norm2",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              319.0,
+              480
+            ],
+            [
+              319,
+              465
+            ],
+            [
+              240,
+              465
+            ],
+            [
+              240,
+              296.5
+            ],
+            [
+              284,
+              296.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "enc_to_memory",
+          "source": {
+            "node": "enc_norm2",
+            "anchor": [
+              0.49280575539568344,
+              0
+            ]
+          },
+          "target": {
+            "node": "enc_memory",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              271
+            ],
+            [
+              421.0,
+              188.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "memory_to_split",
+          "source": {
+            "node": "enc_memory",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "memory_split",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              421.0,
+              188.0
+            ],
+            [
+              763,
+              188
+            ],
+            [
+              763,
+              502
+            ],
+            [
+              971.0,
+              502.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "memory_to_cross",
+          "source": {
+            "node": "memory_split",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "cross_attention",
+            "anchor": [
+              0,
+              0.23636363636363636
+            ]
+          },
+          "points": [
+            [
+              971.0,
+              502.0
+            ],
+            [
+              1022,
+              502.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "outputs_to_embedding",
+          "source": {
+            "node": "shifted_outputs",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "output_embedding",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1153.0,
+              950
+            ],
+            [
+              1153.0,
+              921
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "output_embedding_to_add",
+          "source": {
+            "node": "output_embedding",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_add",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1153.0,
+              871
+            ],
+            [
+              1147.5,
+              855
+            ],
+            [
+              1147.5,
+              841
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_position_to_add",
+          "source": {
+            "node": "dec_position",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "dec_add",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1062,
+              819.0
+            ],
+            [
+              1122,
+              815.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_add_to_branch",
+          "source": {
+            "node": "dec_add",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              790
+            ],
+            [
+              1147.5,
+              747.0
+            ]
+          ],
+          "arrow": 0,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_branch_to_masked",
+          "source": {
+            "node": "dec_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "masked_attention",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              747.0
+            ],
+            [
+              1147.5,
+              731
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "masked_to_norm",
+          "source": {
+            "node": "masked_attention",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm1",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              657
+            ],
+            [
+              1147.5,
+              635
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "masked_residual",
+          "source": {
+            "node": "dec_input_branch",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "dec_norm1",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              747.0
+            ],
+            [
+              971,
+              747
+            ],
+            [
+              971,
+              611
+            ],
+            [
+              1022,
+              611.0
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "norm_to_query",
+          "source": {
+            "node": "dec_norm1",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "cross_attention",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              587
+            ],
+            [
+              1147.5,
+              544
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "cross_to_norm",
+          "source": {
+            "node": "cross_attention",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm2",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              489
+            ],
+            [
+              1147.5,
+              464
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "cross_residual",
+          "source": {
+            "node": "dec_norm1",
+            "anchor": [
+              1,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm2",
+            "anchor": [
+              1,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1279,
+              587
+            ],
+            [
+              1320,
+              587
+            ],
+            [
+              1320,
+              440.5
+            ],
+            [
+              1279,
+              440.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_norm_to_ff",
+          "source": {
+            "node": "dec_norm2",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_ff",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              417
+            ],
+            [
+              1147.5,
+              379
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_ff_to_norm",
+          "source": {
+            "node": "dec_ff",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm3",
+            "anchor": [
+              0.4883268482490272,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              330
+            ],
+            [
+              1147.5,
+              303
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "dec_ff_residual",
+          "source": {
+            "node": "dec_norm2",
+            "anchor": [
+              0.16731517509727625,
+              0
+            ]
+          },
+          "target": {
+            "node": "dec_norm3",
+            "anchor": [
+              0,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1065.0,
+              417
+            ],
+            [
+              1065,
+              404
+            ],
+            [
+              971,
+              404
+            ],
+            [
+              971,
+              280.5
+            ],
+            [
+              1022,
+              280.5
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "decoder_to_linear",
+          "source": {
+            "node": "dec_norm3",
+            "anchor": [
+              0.4883268482490272,
+              0
+            ]
+          },
+          "target": {
+            "node": "linear",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1147.5,
+              258
+            ],
+            [
+              1137.5,
+              209
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "linear_to_softmax",
+          "source": {
+            "node": "linear",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "softmax",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1137.5,
+              166
+            ],
+            [
+              1137.5,
+              139
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        },
+        {
+          "id": "softmax_to_probabilities",
+          "source": {
+            "node": "softmax",
+            "anchor": [
+              0.5,
+              0
+            ]
+          },
+          "target": {
+            "node": "probabilities",
+            "anchor": [
+              0.5,
+              1
+            ]
+          },
+          "points": [
+            [
+              1137.5,
+              91
+            ],
+            [
+              1137.5,
+              64
+            ]
+          ],
+          "arrow": 13,
+          "radius_px": 5,
+          "style": {
+            "stroke": "#0b1532",
+            "stroke_px": 3.5
+          }
+        }
+      ]
+    }
+  ]
+}

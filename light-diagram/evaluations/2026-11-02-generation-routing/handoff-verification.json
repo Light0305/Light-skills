@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "count": 11,
+  "cases": [
+    {
+      "case": "prompt-fallback-retains-original-editable-goal",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "uncalled-prompt-cannot-be-marked-executed",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "not_run cannot have executed_prompt"
+      ]
+    },
+    {
+      "case": "new-generation-index-with-delivered-prompt",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "new-generation-missing-prompt-delivery-rejected",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "new generation requires prompt_delivery"
+      ]
+    },
+    {
+      "case": "post-call-prompt-delivery-rejected",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "prompt must be delivered before call"
+      ]
+    },
+    {
+      "case": "executed-version-differs-from-delivered-version",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "executed prompt differs from delivered prompt"
+      ]
+    },
+    {
+      "case": "prompt-only-route-cannot-claim-actual-calls",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "actual calls require builtin/custom selection"
+      ]
+    },
+    {
+      "case": "failed-attempt-can-still-deliver-prompt",
+      "passed": true,
+      "expected_valid": true,
+      "observed_valid": true,
+      "findings": []
+    },
+    {
+      "case": "failed-attempt-needs-call-record",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "failed requires actual calls >=1"
+      ]
+    },
+    {
+      "case": "failed-attempt-needs-failure-evidence",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "failed requires failure_record artifact"
+      ]
+    },
+    {
+      "case": "failed-attempt-cannot-deliver-an-image",
+      "passed": true,
+      "expected_valid": false,
+      "observed_valid": false,
+      "findings": [
+        "artifact reference required",
+        "reference must have generation or reuse lineage",
+        "reference must be actually reviewed",
+        "delivered requires visual evidence passed"
+      ]
+    }
+  ],
+  "scope": "Synthetic handoff declaration checks using historical artifacts; no external image service or native app invoked."
+}

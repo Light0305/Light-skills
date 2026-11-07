@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "capture_id": "synthetic-example-do-not-use-as-project-fact",
+  "label": "合成示例：记录一个有边界的取舍；执行前替换为真实来源",
+  "items": [
+    {
+      "kind": "decision",
+      "scope": "project",
+      "slot": "study.current_scope",
+      "text": "示例：先检查测量可行性，再决定是否投入完整研究。",
+      "epistemic": "user_reported",
+      "rationale": "示例：当前尚缺测量可行性依据；pilot 的结果只决定下一阶段，不代表科学效应成立。",
+      "priority": "high",
+      "tags": ["示例", "pilot"],
+      "depends_on": [],
+      "supersedes": [],
+      "observed_at": null,
+      "review_after": null,
+      "sources": [
+        {
+          "kind": "conversation",
+          "locator": "合成用户消息；不是实际发生的项目决定",
+          "excerpt": "示例：先做测量可行性 pilot，结果出来再决定下一阶段。"
+        }
+      ]
+    }
+  ],
+  "changes": []
+}

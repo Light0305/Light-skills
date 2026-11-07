@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "Handoff declarations, file hashes, stage requirements and native audit hash binding only; not rendering or scientific/visual verification.",
+  "task_id": "2026-11-02-user-custom-service-test",
+  "stage": "delivered",
+  "selected_tool": null,
+  "files_checked": 8,
+  "errors": [],
+  "image_size": [
+    1536,
+    1024
+  ],
+  "image_bytes": 1093762,
+  "generation_post_attempts": 2,
+  "successful_images": 1,
+  "credential_value_found_in_case_files": false
+}

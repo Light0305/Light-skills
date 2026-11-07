@@ -1,0 +1,11 @@
+# New complex Li–S reference and visible PowerPoint reconstruction
+
+User requests a genuinely new generated reference, more complex than previous Transformer/MonoFormer/CRISPR examples, followed by a visible drawing process.
+
+Conceptual synthesis for materials/electrochemistry readers. No experimental performance, quantitative axes, measured morphology, atomistic structures or specific invented material. Sources: Gullace et al., J. Mater. Chem. A 2024, DOI 10.1039/D4TA03930K (functional separator: polysulfide retention, Li+ transport, electrocatalysis); Nature Communications 2024 DOI 10.1038/s41467-024-52550-9 (soluble polysulfides to insoluble sulfides, catalytic conversion).
+
+Four linked regions: (a) large isometric cell with lithium anode, electrolyte, functional separator and porous sulfur/carbon cathode; discharge electron and Li+ transport; (b) qualitative sulfur conversion network with soluble intermediates and solid products; (c) zoom of physical confinement/polar adsorption/conversion sites and selective ion transport; (d) anode-side parasitic reactions contrasted with controlled transport. Same material colours link scales. Dashed neutral lines are zoom callouts, blue arrows indicate Li+ migration, orange arrows electrons, purple dashed arrows unwanted polysulfide transport.
+
+Critical checks: external electrons during discharge run Li anode→cathode and never through electrolyte; internal Li+ runs anode→cathode; unwanted polysulfide migration runs cathode→anode. Discharge sulfur conversion runs S8→soluble intermediates→solid Li2S2/Li2S; reverse arrows explicitly denote charge. Overall net equation, if present, is S8+16Li ⇌ 8Li2S. Schematic coloured beads do not assert resolved molecular conformations. No complete blocking, fabricated capacity or numerical improvement.
+
+Use light-diagram-prompt's Figure Brief, structural schema, materials visual language and label whitelist. Actual image generation is a separate imagegen operation. Inspect the generated image and document errors before native reconstruction. Do not start from an old image. Native visual drawing uses original editable objects inserted into a visible blank PowerPoint, with a recorded insertion order.

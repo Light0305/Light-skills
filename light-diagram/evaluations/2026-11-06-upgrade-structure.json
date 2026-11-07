@@ -1,0 +1,27 @@
+{
+  "light-diagram": {
+    "returncode": 0,
+    "output": "Skill is valid!\n"
+  },
+  "light-diagram/light-diagram-prompt": {
+    "returncode": 0,
+    "output": "Skill is valid!\n"
+  },
+  "light-diagram/light-illustrator-diagram": {
+    "returncode": 0,
+    "output": "Skill is valid!\n"
+  },
+  "light-diagram/light-powerpoint-diagram": {
+    "returncode": 0,
+    "output": "Skill is valid!\n"
+  },
+  "light-diagram/light-visio-diagram": {
+    "returncode": 0,
+    "output": "Skill is valid!\n"
+  },
+  "historical_artifacts": {
+    "files_checked": 298,
+    "changed": [],
+    "scope": "Snapshot taken after initial inspection and before new tests; not a start-of-turn provenance claim."
+  }
+}

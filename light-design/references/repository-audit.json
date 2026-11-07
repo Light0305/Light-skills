@@ -1,0 +1,186 @@
+[
+  {
+    "requested": "K-Dense-AI/scientific-agent-skills",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "branch": "main",
+    "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+    "commit_date": "2026-10-26T09:36:14Z",
+    "license": "MIT",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R01",
+    "reviewed_files": [
+      "skills/experimental-design/SKILL.md",
+      "skills/scientific-critical-thinking/references/experimental_design.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "Orchestra-Research/AI-research-SKILLs",
+    "repository": "Orchestra-Research/AI-Research-SKILLs",
+    "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "branch": "main",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "commit_date": "2026-06-16T01:36:40Z",
+    "license": "MIT",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R02",
+    "reviewed_files": [
+      "README.md",
+      "22-agent-native-research-artifact/compiler/SKILL.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "SamuelSchmidgall/AgentLaboratory",
+    "repository": "SamuelSchmidgall/AgentLaboratory",
+    "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "branch": "main",
+    "commit": "d9017d90e329112d2a80b7712f37ee9094d2cd27",
+    "commit_date": "2025-08-20T21:46:42Z",
+    "license": "MIT",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R03",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "SakanaAI/AI-Scientist-v2",
+    "repository": "SakanaAI/AI-Scientist-v2",
+    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+    "branch": "main",
+    "commit": "96bd51617cfdbb494a9fc283af00fe090edfae48",
+    "commit_date": "2025-12-19T07:46:31Z",
+    "license": "NOASSERTION",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R04",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "HKUDS/AI-Researcher",
+    "repository": "HKUDS/AI-Researcher",
+    "url": "https://github.com/HKUDS/AI-Researcher",
+    "branch": "main",
+    "commit": "f9a6f8480860c193afff600eeffe3defcee8a978",
+    "commit_date": "2025-10-16T06:47:34Z",
+    "license": null,
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R05",
+    "reviewed_files": [
+      "research_agent/inno/agents/inno_agent/plan_agent.py"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "facebook/Ax",
+    "repository": "meta/Ax",
+    "url": "https://github.com/meta/Ax",
+    "branch": "main",
+    "commit": "5a7b3367f2d372e1653fd6c6ff1eaf8069ecc850",
+    "commit_date": "2026-10-29T17:40:12Z",
+    "license": "MIT",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R06",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed",
+    "reviewed_urls": [
+      "https://ax.dev/docs/experiment/"
+    ]
+  },
+  {
+    "requested": "emdgroup/baybe",
+    "repository": "emdgroup/baybe",
+    "url": "https://github.com/emdgroup/baybe",
+    "branch": "main",
+    "commit": "0523db9d7d914f343e1ea6ce178a1a75f9fd84cb",
+    "commit_date": "2026-10-28T14:14:59Z",
+    "license": "Apache-2.0",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R07",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "experimental-design/bofire",
+    "repository": "experimental-design/bofire",
+    "url": "https://github.com/experimental-design/bofire",
+    "branch": "main",
+    "commit": "fef2593e94e2ab1caf59e981eaee92f451760b68",
+    "commit_date": "2026-10-24T19:03:36Z",
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R08",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "DeclareDesign/DeclareDesign",
+    "repository": "DeclareDesign/DeclareDesign",
+    "url": "https://github.com/DeclareDesign/DeclareDesign",
+    "branch": "main",
+    "commit": "faa5b939a150205128f329dd4f8f7530e891b6d4",
+    "commit_date": "2026-10-30T23:08:15Z",
+    "license": "NOASSERTION",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R09",
+    "reviewed_files": [],
+    "review_scope": "Repository identity/metadata and linked official framework/book overview; source code not executed",
+    "reviewed_urls": [
+      "https://github.com/DeclareDesign/DeclareDesign",
+      "https://declaredesign.org/",
+      "https://book.declaredesign.org/"
+    ]
+  },
+  {
+    "requested": "NoviScl/AI-Researcher",
+    "repository": "NoviScl/AI-Researcher",
+    "url": "https://github.com/NoviScl/AI-Researcher",
+    "branch": "main",
+    "commit": "e5dd05a90bcadb436c07283c2f429367c6e525d3",
+    "commit_date": "2025-08-07T16:45:23Z",
+    "license": "MIT",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R10",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  },
+  {
+    "requested": "google-research/tuning_playbook",
+    "repository": "google-research/tuning_playbook",
+    "url": "https://github.com/google-research/tuning_playbook",
+    "branch": "main",
+    "commit": "7554a51f5d3002ba90308d39701b586f5a9b962e",
+    "commit_date": "2024-06-13T00:37:19Z",
+    "license": "NOASSERTION",
+    "archived": false,
+    "checked_on": "2026-11-02",
+    "source_id": "R11",
+    "reviewed_files": [
+      "README.md"
+    ],
+    "review_scope": "Selected file sections and linked official documentation; not installed or executed"
+  }
+]

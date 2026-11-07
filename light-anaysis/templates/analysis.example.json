@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "A_local",
+  "round": 1,
+  "parent_analysis_id": null,
+  "status": "draft",
+  "data_kind": "unknown",
+  "findings": [],
+  "exclusions": [],
+  "deviations": [],
+  "history": [],
+  "loop_decision": {
+    "route": "hold",
+    "finding_ids": [],
+    "reason": "",
+    "target_question": "",
+    "next_action": "",
+    "predictions": [],
+    "budget": {"status": "unknown", "limit": null, "basis": ""},
+    "stop_rule": "",
+    "reentry_condition": "",
+    "execution_authorization": ""
+  }
+}

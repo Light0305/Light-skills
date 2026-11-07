@@ -1,0 +1,10 @@
+{
+  "source_file": "source.png",
+  "source_sha256": "e4c6d01d4c243b7e1a0378fd20f509c42e6daf8cacd76d279f57a685128465a5",
+  "original_file": "D:\\Light-Science\\light-diagram\\light-diagram-prompt\\evaluations\\2026-10-27\\01-transformer\\image-v4-edit.png",
+  "image_origin": "Earlier light-diagram-prompt live image-generation test; not the original paper figure.",
+  "paper": "Vaswani et al. Attention Is All You Need (2017)",
+  "paper_url": "https://arxiv.org/abs/1706.03762",
+  "reference_repository_root": "Reference  Repositories/工具",
+  "scope": "Native Visio reconstruction test; not a new image-generation run."
+}

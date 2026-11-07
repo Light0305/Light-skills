@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Design · 研究与实验设计"
+  short_description: "把研究想法落成有对照、有样本依据、有执行步骤和判定规则的实验方案"
+  default_prompt: "使用 $light-design 承接选中的研究 idea，制定符合现有资源的可执行实验方案，明确对照、测量、分析和继续或停止条件。"

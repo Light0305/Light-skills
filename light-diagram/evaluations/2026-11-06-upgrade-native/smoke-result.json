@@ -1,0 +1,67 @@
+{
+  "results": {
+    "illustrator": {
+      "passed": false,
+      "error": "illustrator verify failed"
+    },
+    "powerpoint": {
+      "passed": true,
+      "audit": "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\powerpoint\\verified.audit.json",
+      "scope": "Small native geometry/save/reopen fixture only"
+    },
+    "visio": {
+      "passed": true,
+      "audit": "D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\visio\\fixture.audit.json",
+      "scope": "Small native geometry/save/reopen fixture only"
+    }
+  },
+  "steps": [
+    {
+      "step": "illustrator render",
+      "returncode": 0,
+      "elapsed_s": 22.11,
+      "stdout": "{\n  \"passed\": true,\n  \"application\": \"Adobe Illustrator\",\n  \"version\": \"30.0.0\",\n  \"document\": \"D:\\\\Light-Skills\\\\light-diagram\\\\evaluations\\\\2026-11-06-upgrade-native\\\\illustrator\\\\fixture.ai\",\n  \"artboard_rect\": [\n    0,\n    150,\n    300,\n    0\n  ],\n  \"artboards\": 1,\n  \"layers\": 1,\n  \"group_items\": 4,\n  \"path_items\": 4,\n  \"compound_paths\": 0,\n  \"text_frames\": 2,\n  \"raster_items\": 0,\n  \"placed_items\": 0,\n  \"non_native_items\": 0,\n  \"mesh_items\": 0,\n  \"gradient_definitions\": 5,\n  \"leaf_types\": {\n    \"PathItem\": 4,\n    \"TextFrame\": 2\n  },\n  \"elapsed_ms\": 8306,\n  \"authored_objects\": 3,\n  \"visible_native_creation\": true,\n  \"delay_ms\": 0,\n  \"redraw_every\": 2,\n  \"ai_sha256\": \"29f5f366cc80ffce5e46f94fe7decf4cb7fe06f6009bfa7f4301d4efae04f6b3\",\n  \"scene_sha256\": \"607d75eaee155251cc67baf832a1e6dfb187142a4f4e3f53b32c03ed40db6bf2\",\n  \"bridge_elapsed_s\": 8.531\n}\n",
+      "stderr": ""
+    },
+    {
+      "step": "illustrator verify",
+      "returncode": 1,
+      "elapsed_s": 29.81,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"D:\\Light-Skills\\light-diagram\\light-illustrator-diagram\\scripts\\illustrator.py\", line 280, in <module>\n    main()\n  File \"D:\\Light-Skills\\light-diagram\\light-illustrator-diagram\\scripts\\illustrator.py\", line 267, in main\n    result = app.DoJavaScript(code)\n             ^^^^^^^^^^^^^^^^^^^^^^\n  File \"<COMObject Illustrator.Application.30>\", line 3, in DoJavaScript\npywintypes.com_error: (-2147417851, '服务器出现意外情况。', None, None)\n"
+    },
+    {
+      "step": "powerpoint render",
+      "returncode": 0,
+      "elapsed_s": 2.41,
+      "stdout": "Inspect result written to file: D:\\Light-Skills\\light-diagram\\evaluations\\2026-11-06-upgrade-native\\powerpoint\\draft.pptx.inspect.ndjson\n{\"draft\":\"D:\\\\Light-Skills\\\\light-diagram\\\\evaluations\\\\2026-11-06-upgrade-native\\\\powerpoint\\\\draft.pptx\",\"slides\":1,\"nativeShapes\":[3],\"authoring\":\"@oai/artifact-tool\"}\n",
+      "stderr": ""
+    },
+    {
+      "step": "powerpoint connectors",
+      "returncode": 0,
+      "elapsed_s": 0.28,
+      "stdout": "{\"authoring\": \"Artifact Tool plus explicit native OOXML connection sites\", \"pages\": [{\"slide\": 1, \"slug\": \"fixture\", \"native_shapes\": 3, \"logical_edges\": 1, \"native_connectors\": 1, \"bend_anchors\": 0, \"attached_endpoints\": 2, \"custom_ports\": 2, \"edge_parts\": {\"edge\": [\"edge\"]}}], \"application_roundtrip_verified\": false}\n",
+      "stderr": ""
+    },
+    {
+      "step": "powerpoint unsaved fixture guard",
+      "passed": true,
+      "stderr": "Traceback (most recent call last):\n  File \"D:\\Light-Skills\\light-diagram\\light-powerpoint-diagram\\scripts\\verify_powerpoint.py\", line 160, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"D:\\Light-Skills\\light-diagram\\light-powerpoint-diagram\\scripts\\verify_powerpoint.py\", line 115, in main\n    ensure_saved(existing);pres=existing;break\n    ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Light-Skills\\light-diagram\\light-powerpoint-diagram\\scripts\\verify_powerpoint.py\", line 18, in ensure_saved\n    raise ValueError('The named presentation has unsaved changes; save or use a separate candidate before verification')\nValueError: The named presentation has unsaved changes; save or use a separate candidate before verification\n"
+    },
+    {
+      "step": "powerpoint verify",
+      "returncode": 0,
+      "elapsed_s": 1.38,
+      "stdout": "{\"passed\": true, \"pages\": [{\"slide\": 1, \"slug\": \"fixture\", \"shapes\": 3, \"logical_edges\": 1, \"native_connector_segments\": 1, \"connected_segment_endpoints\": 2, \"text_shapes\": 2, \"arrowheads\": 1}], \"errors\": []}\n",
+      "stderr": ""
+    },
+    {
+      "step": "visio render/verify",
+      "returncode": 0,
+      "elapsed_s": 4.89,
+      "stdout": "{\n  \"output\": \"D:\\\\Light-Skills\\\\light-diagram\\\\evaluations\\\\2026-11-06-upgrade-native\\\\visio\\\\fixture.vsdx\",\n  \"visio_version\": \"16.0\",\n  \"passed\": true,\n  \"pages\": [\n    {\n      \"name\": \"Synthetic geometry\",\n      \"shape_count\": 3,\n      \"edge_count\": 1,\n      \"glue_failures\": [],\n      \"text_failures\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://api.github.com/repos/python/cpython",
+  "final_url": "https://api.github.com/repos/python/cpython",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 6608,
+  "sha256": "bfbb7e88153a5802502e5450821934553902fe6fdf1cf5a23acaa64a902ee32a",
+  "fetched_at": "2026-10-25T07:07:42Z",
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "note": "Headers are allow-listed; cookies and authorization are not persisted."
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.1",
+  "packet_id": "sha256:126df6f45398b61980598f4cd3ad6991830475104fff6d8f3927997c3a1240b5",
+  "previous_review": {
+    "packet_id": "sha256:8d4cca4a052e9d6163d1b78905cf177fe9613159cd98eef1310fdc90105354f3",
+    "record_sha256": "4a314dcb5f8d51efd1ed4242693fa1c232daaa0b7d471dd50f774ae703b20898"
+  },
+  "review_status": "final",
+  "scope": "recheck",
+  "assessment_complete": false,
+  "summary": "Synthetic text/numerical review only; abstract-only repair is insufficient.",
+  "strengths": [
+    "The displayed Z values preserve the counterexample."
+  ],
+  "limitations": [
+    "Synthetic exercise by this executor; no independent model or expert.",
+    "No figures, complete methods, ethics, citations or venue checks."
+  ],
+  "coverage": [
+    {
+      "material_id": "M001",
+      "status": "inspected",
+      "notes": "Actual text/CSV/result/script read for this local synthetic exercise."
+    },
+    {
+      "material_id": "M002",
+      "status": "inspected",
+      "notes": "Actual text/CSV/result/script read for this local synthetic exercise."
+    },
+    {
+      "material_id": "M003",
+      "status": "inspected",
+      "notes": "Actual text/CSV/result/script read for this local synthetic exercise."
+    },
+    {
+      "material_id": "M004",
+      "status": "inspected",
+      "notes": "Actual text/CSV/result/script read for this local synthetic exercise."
+    }
+  ],
+  "checks": [
+    {
+      "check": "claims",
+      "status": "issue",
+      "notes": "Read actual abstract, results, conclusion and computed descriptive results.",
+      "evidence": [
+        {
+          "material_id": "M001",
+          "anchor": "Abstract / Results / Conclusion"
+        },
+        {
+          "material_id": "M003",
+          "anchor": "A_below_B / mean_A / mean_B"
+        }
+      ]
+    },
+    {
+      "check": "methods",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    },
+    {
+      "check": "statistics",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    },
+    {
+      "check": "figures",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    },
+    {
+      "check": "numerical",
+      "status": "passed",
+      "notes": "Read actual abstract, results, conclusion and computed descriptive results.",
+      "evidence": [
+        {
+          "material_id": "M001",
+          "anchor": "Abstract / Results / Conclusion"
+        },
+        {
+          "material_id": "M003",
+          "anchor": "A_below_B / mean_A / mean_B"
+        }
+      ]
+    },
+    {
+      "check": "literature",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    },
+    {
+      "check": "reproducibility",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    },
+    {
+      "check": "ethics",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    },
+    {
+      "check": "venue",
+      "status": "not_assessable",
+      "notes": "Outside this focused synthetic audit.",
+      "evidence": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "A is better than B at every site.",
+      "central": true,
+      "location": {
+        "material_id": "M001",
+        "anchor": "Conclusion"
+      },
+      "assessment": "contradicted",
+      "evidence": [
+        {
+          "material_id": "M002",
+          "anchor": "site Z"
+        },
+        {
+          "material_id": "M003",
+          "anchor": "mean_A / mean_B / A_below_B"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "LR-001",
+      "severity": "major",
+      "category": "claim",
+      "basis": "audit",
+      "evidence_status": "confirmed",
+      "confidence": "high",
+      "blocking": true,
+      "required": true,
+      "status": "addressed",
+      "claim_ids": [
+        "C1"
+      ],
+      "source_ids": [],
+      "owner": "light-write",
+      "location": {
+        "material_id": "M001",
+        "anchor": "Conclusion"
+      },
+      "evidence": [
+        {
+          "material_id": "M002",
+          "anchor": "site Z: A=0.53, B=0.55"
+        }
+      ],
+      "observation": "The initial all-site superiority claim conflicts with site Z.",
+      "impact": "Universal superiority cannot be retained on these descriptive data.",
+      "suggested_fix": "Narrow the claim in the abstract and conclusion, retaining the site-Z exception.",
+      "closure_test": "Read abstract, results and conclusion; no all-site superiority remains.",
+      "resolution_evidence": []
+    }
+  ],
+  "sources": [],
+  "readiness": {
+    "scientific": "hold",
+    "submission": "not_requested",
+    "rationale": "Only a targeted synthetic text/number audit; closure does not establish full scientific readiness."
+  }
+}

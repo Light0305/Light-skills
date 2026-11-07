@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "task_id": "historical-powerpoint-integration",
+  "record_context": "Retrospective indexing of a previously completed case. No image generation or native drawing repeated on 2026-10-31.",
+  "input_kind": "existing_image",
+  "output_mode": "editable",
+  "stage": "delivered",
+  "brief": {
+    "domain": "Materials electrochemistry",
+    "visual_claim": "Coupled cell transport, sulfur conversion, separator mechanism and anode interface.",
+    "evidence_boundary": "A conceptual synthesis of mechanisms, not a reproduction of a specific experimental material or quantitative result. Molecular beads, pores and surface morphologies are schematic.",
+    "source_scope": [
+      {
+        "doi": "10.1039/D4TA03930K",
+        "scope": "Published primary-paper abstract: polysulfide retention, selective Li+ transport, electrocatalytic activity; full HTML returned HTTP 403."
+      },
+      {
+        "doi": "10.1038/s41467-024-52550-9",
+        "scope": "Primary-paper abstract/introduction supplied in search results: soluble polysulfides, solid sulfide conversion, catalysis; full HTML redirected to inaccessible identity endpoint."
+      }
+    ]
+  },
+  "artifacts": {
+    "reference": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/source.png",
+      "sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088"
+    },
+    "prompt": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/prompt-v1.txt",
+      "sha256": "370e9eedfe07a540233684aab90db3236307c24020dc412039de3a34373fc71e"
+    },
+    "scene": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/scene.json",
+      "sha256": "9e2a462ccabad08713a02de0575405c3ebc34eed18c148d811a22e291250c81c"
+    },
+    "relation_spec": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/scene.json",
+      "sha256": "9e2a462ccabad08713a02de0575405c3ebc34eed18c148d811a22e291250c81c"
+    },
+    "source_record": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/source-manifest.json",
+      "sha256": "372bd234c70b376f269ad11e196d36bbedb0f6e69fbbf297a8fc3c8dcc573d30"
+    },
+    "report": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/REPORT.md",
+      "sha256": "c4ad97d9d078163117f0e7fca79b493f3f67dfb962df833e8d82fbb2b4c46f65"
+    },
+    "native_audit": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/output/lis.audit.json",
+      "sha256": "5c74e114a7ded82b4ed5984aa4f16c73c08865096a97a45ab062d3459db53d8a"
+    },
+    "verification": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/verification.json",
+      "sha256": "4be7de65338a71ec50a490cf18bb3f9020f3774bec1030d254defef87824820f"
+    },
+    "final_native": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/output/lis-final-r2.pptx",
+      "sha256": "64908037ae5ca694712b8d2d369d980b3c7d1d45d83cdc6f5d0cb01ceb87a15e"
+    },
+    "preview": {
+      "path": "../../light-powerpoint-diagram/evaluations/2026-10-30-lis-complex/output/lis-corrected.png",
+      "sha256": "e865aba6f30d921faa54eb5609770b6b6103cfc387c8e1108e74dda5a38cec53"
+    }
+  },
+  "generation": {
+    "status": "reused",
+    "calls_this_run": 0,
+    "executed_prompt": null,
+    "lineage": "Actual prior executed prompt and source generation are recorded in source_record; no new generation in this integration."
+  },
+  "reference_review": {
+    "status": "issues_recorded",
+    "issues": [
+      "Footer sequential Shuttle -> Li loss -> Passivation implies an unsupported causal sequence.",
+      "Anode comparison callout appears to originate near separator instead of the visible Li anode."
+    ]
+  },
+  "reconstruction": {
+    "mode": "science_corrected",
+    "corrections": [
+      "Use separate Shuttle -> Li loss and Shuttle -> Passivation branches.",
+      "Reroute anode callout from visible Li anode."
+    ],
+    "scope": "Entire native file is the corrected conceptual figure."
+  },
+  "routing": {
+    "requested_tool": "powerpoint",
+    "selected_tool": "powerpoint",
+    "reason": "Historical tool-specific test: Editable PPTX for slide use and team editing, including native connectors.",
+    "visible_process": true
+  },
+  "checks": {
+    "file": {
+      "status": "passed",
+      "scope": "Previously executed file/native verification; current integration rechecks file identity only.",
+      "evidence": [
+        "verification",
+        "native_audit"
+      ]
+    },
+    "native": {
+      "status": "passed",
+      "scope": "Prior real desktop save/reopen, native objects and movement within the stated backend report limits; not rerun today.",
+      "evidence": [
+        "native_audit",
+        "verification"
+      ]
+    },
+    "visual": {
+      "status": "passed",
+      "scope": "Prior actual application export was inspected; geometric textures and particle placements remain approximations, not 1:1 fidelity.",
+      "evidence": [
+        "report",
+        "preview"
+      ]
+    },
+    "science": {
+      "status": "passed",
+      "scope": "Prior same-assistant conceptual relationship review and explicit corrections, not independent peer review. ",
+      "evidence": [
+        "report",
+        "verification",
+        "relation_spec"
+      ]
+    }
+  }
+}

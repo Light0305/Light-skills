@@ -1,0 +1,21 @@
+{
+  "record_count": 4,
+  "groups": [
+    {
+      "group": "A",
+      "count": 2,
+      "sum": 6.0,
+      "mean": 3.0,
+      "minimum": 2.0,
+      "maximum": 4.0
+    },
+    {
+      "group": "B",
+      "count": 2,
+      "sum": 24.0,
+      "mean": 12.0,
+      "minimum": 10.0,
+      "maximum": 14.0
+    }
+  ]
+}

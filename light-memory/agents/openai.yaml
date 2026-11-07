@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Memory"
+  short_description: "Recall research decisions and resume source-linked project work"
+  default_prompt: "使用 $light-memory 恢复这个项目的关键决定、未决问题和下一步，并核对相关来源。"

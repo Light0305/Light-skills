@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light PowerPoint Diagram"
+  short_description: "将科研方法图与机制图复现为原生可编辑 PowerPoint，实测连接与导出效果"
+  default_prompt: "使用 $light-powerpoint-diagram 将这张科研参考图复现为可编辑 PPTX，并在可见 PowerPoint 窗口中检查连线、文字和导出效果。"

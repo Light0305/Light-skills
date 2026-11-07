@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "changed_document_links": 13,
+  "broken_links": [],
+  "final_project_read_only": true,
+  "workflow_verify": true,
+  "memory_status": "read",
+  "memory_active_items": 1,
+  "workflow_status": "complete",
+  "running": [],
+  "recovery_required": [],
+  "tests": {
+    "run": 1166,
+    "passed": 1164,
+    "skipped": 2
+  },
+  "source_fingerprints": {
+    "light-memory\\scripts\\memory.py": "8f476367f649b5e5e727bdeec4a8d38932639988f980ae33a818a7a95025dcec",
+    "light-memory\\scripts\\memory_store.py": "0df37c099596898ee72cc75432d39a48605d72a8fda0459475c2ad38163c0824",
+    "light-leader\\scripts\\leader.py": "efbc03d2afa3825032b4c30cc3ddd13946f6900ae819c37a2008683ed81405e0",
+    "quality\\run_checks.py": "dfc3d7b47cd15f407bb9f56118caf58751893ba0b9fb172b7b5eba662dae7011",
+    "quality\\run_closed_loop.py": "2665cef8ae6146c3f149e887f1e799ffc1a05bf639202ad52774495622aea0c1",
+    "quality\\run_suite.py": "b1a0359327a4ecc2ab28b1f161382ffe03fd3d5f1b13ff5ca4c041009b7a62c2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source_is_newly_generated": true,
+  "image_generation_calls": 1,
+  "native_objects": 1092,
+  "visible_object_insertion": true,
+  "visible_phase_count": 3,
+  "file_checks_passed": true,
+  "native_desktop_roundtrip_passed": true,
+  "native_movement_passed": true,
+  "conceptual_direction_checks_passed": true,
+  "curve_segments_in_package": 3493,
+  "pdf_text_lines": 37,
+  "source_sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+  "scene_sha256": "9e2a462ccabad08713a02de0575405c3ebc34eed18c148d811a22e291250c81c",
+  "final_sha256": "64908037ae5ca694712b8d2d369d980b3c7d1d45d83cdc6f5d0cb01ceb87a15e",
+  "layout_warnings": 4,
+  "scope": "Conceptual mechanism synthesis, not atomistic or empirical validation. Many flux endpoints are transparent path ports; no whole-layer grouping/dragging claim. Texture and particle placements are approximations."
+}

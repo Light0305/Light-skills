@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "version": 1,
+  "last_verified_at": "2026-10-25T07:20:00Z",
+  "domain": "books.toscrape.com",
+  "lane": "L0_STATIC",
+  "delivery": "spider",
+  "created_at": "2026-10-25T07:15:00Z",
+  "entrypoints": {
+    "spider": "spider/",
+    "repro": "repro/",
+    "fixtures": "fixtures/"
+  },
+  "capture": {
+    "url": "https://books.toscrape.com/",
+    "status": 200,
+    "bytes": 51294,
+    "fixture": "fixtures/response.html"
+  },
+  "policy": {
+    "robots_txt_obey": true,
+    "store_credentials": false,
+    "redact_fixtures": true
+  },
+  "run": {
+    "command": "light-crawl site run examples/site-packs/books",
+    "expected_items": 60
+  },
+  "migration": {
+    "from": 1,
+    "to": 2,
+    "at": "2026-10-25T07:28:40Z"
+  }
+}

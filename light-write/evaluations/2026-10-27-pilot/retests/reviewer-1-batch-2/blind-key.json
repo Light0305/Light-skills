@@ -1,0 +1,72 @@
+{
+  "Q1100": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "engineering-polish"
+  },
+  "Q1101": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "engineering-polish"
+  },
+  "Q1110": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "social-draft"
+  },
+  "Q1111": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "social-draft"
+  },
+  "Q1120": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "social-polish"
+  },
+  "Q1121": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "social-polish"
+  },
+  "Q1130": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "math-draft"
+  },
+  "Q1131": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "math-draft"
+  },
+  "Q1140": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "math-polish"
+  },
+  "Q1141": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "math-polish"
+  },
+  "Q1150": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "humanities-draft"
+  },
+  "Q1151": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "humanities-draft"
+  },
+  "Q1160": {
+    "phase": "after",
+    "arm": "light-write",
+    "case_id": "humanities-polish"
+  },
+  "Q1161": {
+    "phase": "before",
+    "arm": "light-write",
+    "case_id": "humanities-polish"
+  }
+}

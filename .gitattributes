@@ -1,0 +1,11 @@
+# Preserve packaged bytes so recorded hashes also describe Git archives.
+* -text
+*.png binary
+*.jpg binary
+*.webp binary
+*.pdf binary
+*.ai binary
+*.pptx binary
+*.vsdx binary
+*.docx binary
+*.zip binary

@@ -1,0 +1,89 @@
+{
+  "id": "7860892f470fa61d177f0d5ced1cf1c1ee3ac33944376720cb0b94e54eb52239",
+  "files": [
+    {
+      "path": "snapshots/light-after2/SKILL.md",
+      "sha256": "7279bdd75f293f45a53cc0b170eb1d93f9ce1332a372956013d083f543eed0af"
+    },
+    {
+      "path": "snapshots/light-after2/modules/catalog.json",
+      "sha256": "11786e0895568ab97723975ebc5dc3c0984f2d8eecc61631fd6ef165e4922165"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/clinical-health.md",
+      "sha256": "d0be3630fedfab36f10900b61f63254c790c474a3b9fd770f02beaeefb61aa8b"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/computing.md",
+      "sha256": "7c97e039f7481e7a681c819b100c42aa75e56e2b3736264550b154ce6480b54d"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/humanities.md",
+      "sha256": "a4c2cc206d86bb55b49b762a95fdcca32ab1f9ce515f70eff58b897306e990be"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/life-sciences.md",
+      "sha256": "33eb6920a5af0a19656de91641e3912be7f46ff897b989d110fab02d14b5153b"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/mathematics-theory.md",
+      "sha256": "803f10b216a62cde41f2c7cb866d741c9ee98c6c1712943f9b135fdbf2f5090a"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/physical-sciences-engineering.md",
+      "sha256": "1d29a2862d7e72de77beafd1b637097623b449efb75e99a7048c9755c87cf172"
+    },
+    {
+      "path": "snapshots/light-after2/modules/fields/social-behavioral.md",
+      "sha256": "9bbda49be1d10de56388c95264655d6058e9499e3818a7d9d31ffa23c152b90f"
+    },
+    {
+      "path": "snapshots/light-after2/references/argument-and-prose.md",
+      "sha256": "8afae27c3afbf11c6b8586a03f27816389d2211d7cb66b67aee09661d0cda1aa"
+    },
+    {
+      "path": "snapshots/light-after2/references/article-types.md",
+      "sha256": "2849723092c0d541ada6023b5583d8ec2ba6540fbea2367aa9f4f815abc59cb8"
+    },
+    {
+      "path": "snapshots/light-after2/references/consistency-check.md",
+      "sha256": "962287c600070e9d9ac53d5994e03df946d4b3c6529e7294fa9efa03b1c071d2"
+    },
+    {
+      "path": "snapshots/light-after2/references/drafting.md",
+      "sha256": "c358b9eb5889498b8164eb22a49edd2de97db9cd9228650f0a781073d275b8b4"
+    },
+    {
+      "path": "snapshots/light-after2/references/examples.md",
+      "sha256": "a11bf8ee798b13ee765c1111204b79b0b8ba0fe1d02d2df0311069ea14fc44e0"
+    },
+    {
+      "path": "snapshots/light-after2/references/integrity-and-evidence.md",
+      "sha256": "3cc9682b8521fb4a5c97bf6ff750bdcf71c6991aefe01e0231d296894f637e35"
+    },
+    {
+      "path": "snapshots/light-after2/references/journal-adaptation.md",
+      "sha256": "fd02b0b3bd5bd078b0f68603d9263f23efdf76b320f3d5e8272bb6cd6f927155"
+    },
+    {
+      "path": "snapshots/light-after2/references/module-routing.md",
+      "sha256": "5a00c8eadf6ca0eaedf688c6e43b70a0dec9be9defd3c247e181ad4e1e10972f"
+    },
+    {
+      "path": "snapshots/light-after2/references/polishing.md",
+      "sha256": "0a14391b6a64f0c6a340a28766c6e3b2d96028f6a9ec3898d013b27a62c0e42f"
+    },
+    {
+      "path": "snapshots/light-after2/references/results-allocation.md",
+      "sha256": "8c960595d3d781a1e6c0b675ec94b7930b633f43b780845c76619bdbf069bfbc"
+    },
+    {
+      "path": "snapshots/light-after2/references/sections.md",
+      "sha256": "1301985d2b1981d439cd1b4fcc8abc3be1c09b611f47727a7b98d938871e417e"
+    },
+    {
+      "path": "snapshots/light-after2/references/working-ledgers.md",
+      "sha256": "9af45dc280b4c66ce348ee1c5bc58ba317dc765057703358add23834c1c690a1"
+    }
+  ]
+}

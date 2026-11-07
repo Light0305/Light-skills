@@ -1,0 +1,7 @@
+{
+  "attempt": "verified-r2 after isolating PDF source copy",
+  "native_verification_passed": false,
+  "error": "COM server exception (-2147417851); no new audit or verification checkpoint produced",
+  "files_at_inspection": [],
+  "scope": "Observed follow-up failure; corrected PDF-export branch was not shown to execute successfully. No app restart or process termination performed."
+}

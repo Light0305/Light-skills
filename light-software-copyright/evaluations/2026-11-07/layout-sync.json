@@ -1,0 +1,21 @@
+{
+  "before": {
+    "ok": false,
+    "changed": [
+      "D:\\Light-Skills\\light-patent\\references\\project-layout.md",
+      "D:\\Light-Skills\\light-software-copyright\\references\\project-layout.md"
+    ]
+  },
+  "sync": {
+    "ok": true,
+    "changed": [
+      "D:\\Light-Skills\\light-patent\\references\\project-layout.md",
+      "D:\\Light-Skills\\light-software-copyright\\references\\project-layout.md"
+    ]
+  },
+  "after": {
+    "ok": true,
+    "changed": []
+  },
+  "only_two_profiles_changed": true
+}

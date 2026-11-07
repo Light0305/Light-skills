@@ -1,0 +1,11 @@
+{
+  "name": "github-cpython",
+  "url": "https://api.github.com/repos/python/cpython",
+  "fields": {
+    "full_name": "full_name",
+    "stars": "stargazers_count",
+    "forks": "forks_count",
+    "open_issues": "open_issues_count",
+    "html_url": "html_url"
+  }
+}

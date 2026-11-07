@@ -1,0 +1,31 @@
+{
+  "name": "books_toscrape",
+  "start_urls": [
+    "https://books.toscrape.com/"
+  ],
+  "allowed_domains": [
+    "books.toscrape.com"
+  ],
+  "item_selector": "article.product_pod",
+  "fields": {
+    "title": {
+      "selector": "h3 a::attr(title)"
+    },
+    "price": {
+      "selector": "p.price_color::text"
+    },
+    "availability": {
+      "selector": "p.instock.availability::text"
+    },
+    "rating": {
+      "selector": "p.star-rating::attr(class)"
+    },
+    "url": {
+      "selector": "h3 a::attr(href)"
+    }
+  },
+  "next_selector": "li.next a::attr(href)",
+  "concurrency": 4,
+  "robots_txt_obey": true,
+  "max_pages": 3
+}

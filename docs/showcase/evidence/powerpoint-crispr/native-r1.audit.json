@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "scope": "Native desktop PowerPoint roundtrip, text, shapes, arrows, endpoints and movement; visual/scientific review is separate.",
+  "powerpoint_version": "16.0",
+  "visible": true,
+  "file": "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-crispr-live\\.build\\roundtrip-r1.pptx",
+  "sha256": "a2fd332ab6b407cc8e7dee9ec202c65bfdb0177653057139a594ff51d7c5507a",
+  "native_text_refinements": [],
+  "media_entries": [],
+  "pages": [
+    {
+      "slide": 1,
+      "slug": "replica",
+      "shapes": 136,
+      "logical_edges": 7,
+      "native_connector_segments": 7,
+      "connected_segment_endpoints": 14,
+      "text_shapes": 9,
+      "arrowheads": 5,
+      "movement": [
+        {
+          "node": "dual_card",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "chimeric_card",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "cas9",
+          "tested_endpoints": 2,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "hnh_label",
+          "tested_endpoints": 1,
+          "max_error_pt": 4.2e-05,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ruvc_label",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "complementary_label",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "noncomplementary_label",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "complementary_anchor",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "noncomplementary_anchor",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "hnh_cut",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "ruvc_cut",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "cleavage_source",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        },
+        {
+          "node": "cleavage_target",
+          "tested_endpoints": 1,
+          "max_error_pt": 0.0,
+          "restore_error_pt": 0.0,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "exports": [
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-crispr-live\\.build\\native-r1-replica.png",
+    "D:\\Light-Science\\light-diagram\\light-powerpoint-diagram\\evaluations\\2026-10-30-crispr-live\\.build\\native-r1.pdf"
+  ],
+  "errors": []
+}

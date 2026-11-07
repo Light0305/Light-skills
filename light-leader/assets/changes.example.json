@@ -1,0 +1,22 @@
+{
+  "example_only": "合成示例，路径所指文件必须真实存在，完成前必须实际开展专业工作",
+  "request_id": "填写本次变更的唯一标识",
+  "expected_revision": 0,
+  "operations": [
+    {
+      "action": "add",
+      "id": "T0001",
+      "skill": "light-anaysis",
+      "title": "核对评价实现及数据范围",
+      "question": "当前比较是否受缺失值处理或评价实现影响？",
+      "workspace": "Analysis/AN-0001_评价核对",
+      "inputs": [{"path": "Experiment/Code/evaluate.py", "locator": "实际评价入口与缺失值处理分支"}],
+      "depends_on": [],
+      "expected_outputs": ["Analysis/AN-0001_评价核对/analysis-report.md"],
+      "acceptance": "用真实输入复核评价逻辑，报告发现、受影响范围及复现依据，未知保留未知",
+      "stop_rule": "已定位当前问题或已明确缺失的最小材料，不自动扩展实验",
+      "required": true,
+      "budget": {"status": "not_applicable", "basis": "只进行已授权的小规模本地核对；新增运行另设实际预算"}
+    }
+  ]
+}

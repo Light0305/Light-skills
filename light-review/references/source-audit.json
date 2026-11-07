@@ -1,0 +1,759 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-02",
+  "purpose": "Targeted sources for author-owned presubmission review skill design; not a systematic review or performance ranking",
+  "counts": {
+    "repositories": 9,
+    "core_papers": 8,
+    "blogs": 3,
+    "official_guides": 5
+  },
+  "discovery": {
+    "channels": [
+      "web search",
+      "GitHub metadata/tree API",
+      "pinned raw GitHub files",
+      "arXiv",
+      "ACL Anthology",
+      "publisher and official editorial pages",
+      "Crossref DOI metadata"
+    ],
+    "queries": [
+      "scientific skills peer review",
+      "paper-review SKILL.md",
+      "pre-submission self-review",
+      "review feedback randomized study",
+      "multimodal inconsistency benchmark",
+      "actionable peer review"
+    ],
+    "priority_years": "2024-2026; earlier preprints retained for version linkage",
+    "exclusions": [
+      "Upload-only wrappers",
+      "Uninspectable aggregator descriptions",
+      "Reading summaries without review process",
+      "Unsupported claims of human-level accuracy"
+    ],
+    "limits": [
+      "Targeted rather than exhaustive search",
+      "CS/ML openness bias",
+      "No upstream execution",
+      "No expert manuscript-quality validation"
+    ]
+  },
+  "upstream_contract": {
+    "conclusion": "light-write has no mandatory completion handoff schema; consume actual files and optional ledgers",
+    "files": [
+      {
+        "path": "D:\\Light-Science\\light-write\\SKILL.md",
+        "sha256": "7279bdd75f293f45a53cc0b170eb1d93f9ce1332a372956013d083f543eed0af",
+        "inspected_on": "2026-11-02"
+      },
+      {
+        "path": "D:\\Light-Science\\light-write\\references\\working-ledgers.md",
+        "sha256": "9af45dc280b4c66ce348ee1c5bc58ba317dc765057703358add23834c1c690a1",
+        "inspected_on": "2026-11-02"
+      },
+      {
+        "path": "D:\\Light-Science\\light-write\\references\\module-routing.md",
+        "sha256": "5a00c8eadf6ca0eaedf688c6e43b70a0dec9be9defd3c247e181ad4e1e10972f",
+        "inspected_on": "2026-11-02"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "id": "R01",
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "canonical_repository": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+      "commit_date": "2026-10-26T09:36:14Z",
+      "audited_on": "2026-11-02",
+      "purpose": "workflow reference",
+      "license_observation": "MIT",
+      "files": [
+        {
+          "path": "skills/peer-review/SKILL.md",
+          "sha256": "a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19",
+          "bytes": 13853,
+          "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/peer-review/SKILL.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/peer-review/SKILL.md"
+        },
+        {
+          "path": "skills/peer-review/references/common_issues.md",
+          "sha256": "6a0979d6d64e07f769db8ee9ab82ad3190aebaca4294838f338f5c4b51b596f6",
+          "bytes": 13999,
+          "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/peer-review/references/common_issues.md",
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/peer-review/references/common_issues.md"
+        },
+        {
+          "path": "skills/peer-review/references/statistical_reproducibility.md",
+          "sha256": "aab5c13d19525fc4626a4153a90ba63231324d609e16bbf569d874c974731bd6",
+          "bytes": 11755,
+          "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/peer-review/references/statistical_reproducibility.md",
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/skills/peer-review/references/statistical_reproducibility.md"
+        },
+        {
+          "path": "LICENSE.md",
+          "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+          "bytes": 1068,
+          "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/LICENSE.md",
+          "inspection": "license observation",
+          "permalink": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/5f2bc0341354fd5590aef76a533ada1e1e5b4e62/LICENSE.md"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R02",
+      "repository": "EvoScientist/EvoSkills",
+      "canonical_repository": "EvoScientist/EvoSkills",
+      "url": "https://github.com/EvoScientist/EvoSkills",
+      "commit": "4889c2270af5f9a7658bb6a6709bf37040902006",
+      "commit_date": "2026-10-27T21:18:15Z",
+      "audited_on": "2026-11-02",
+      "purpose": "workflow reference",
+      "license_observation": "Apache-2.0",
+      "files": [
+        {
+          "path": "skills/paper-review/SKILL.md",
+          "sha256": "73b01c2ba9a8069c5df561c8b128a3be3b29a83033084d5f3ec18970b79972e5",
+          "bytes": 18007,
+          "url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/4889c2270af5f9a7658bb6a6709bf37040902006/skills/paper-review/SKILL.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/EvoScientist/EvoSkills/blob/4889c2270af5f9a7658bb6a6709bf37040902006/skills/paper-review/SKILL.md"
+        },
+        {
+          "path": "skills/paper-review/references/counterintuitive-review.md",
+          "sha256": "d2691f5942a19b8d6156ede7b429266ffe90a0cbd420fdbbed1f40d2f86674d1",
+          "bytes": 2685,
+          "url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/4889c2270af5f9a7658bb6a6709bf37040902006/skills/paper-review/references/counterintuitive-review.md",
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/EvoScientist/EvoSkills/blob/4889c2270af5f9a7658bb6a6709bf37040902006/skills/paper-review/references/counterintuitive-review.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "eae7b5b1f14c471f27d7f3d8cc5d26b154966910b761241fab8ad11fc6f637a5",
+          "bytes": 11342,
+          "url": "https://raw.githubusercontent.com/EvoScientist/EvoSkills/4889c2270af5f9a7658bb6a6709bf37040902006/LICENSE",
+          "inspection": "license observation",
+          "permalink": "https://github.com/EvoScientist/EvoSkills/blob/4889c2270af5f9a7658bb6a6709bf37040902006/LICENSE"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R03",
+      "repository": "neuromechanist/research-skills",
+      "canonical_repository": "neuromechanist/research-skills",
+      "url": "https://github.com/neuromechanist/research-skills",
+      "commit": "75fdd03c32e1eb87911ae72241cebaab3100998f",
+      "commit_date": "2026-10-30T20:29:23Z",
+      "audited_on": "2026-11-02",
+      "purpose": "workflow reference",
+      "license_observation": "BSD-3-Clause",
+      "files": [
+        {
+          "path": "plugins/manuscript/skills/paper-review/references/review-procedure.md",
+          "sha256": "e970614976f1b36b16460c852dd9a5db1e6f48df57caaeb0e9d18d3f5f221737",
+          "bytes": 9364,
+          "url": "https://raw.githubusercontent.com/neuromechanist/research-skills/75fdd03c32e1eb87911ae72241cebaab3100998f/plugins/manuscript/skills/paper-review/references/review-procedure.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/neuromechanist/research-skills/blob/75fdd03c32e1eb87911ae72241cebaab3100998f/plugins/manuscript/skills/paper-review/references/review-procedure.md"
+        },
+        {
+          "path": "plugins/manuscript/skills/paper-review/references/review-principles.md",
+          "sha256": "c7188c32235430500c054d9b532105e7c95cb96c2b4599bf8ca6c09844eca490",
+          "bytes": 6407,
+          "url": "https://raw.githubusercontent.com/neuromechanist/research-skills/75fdd03c32e1eb87911ae72241cebaab3100998f/plugins/manuscript/skills/paper-review/references/review-principles.md",
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/neuromechanist/research-skills/blob/75fdd03c32e1eb87911ae72241cebaab3100998f/plugins/manuscript/skills/paper-review/references/review-principles.md"
+        },
+        {
+          "path": "plugins/manuscript/skills/paper-review/references/figure-review-guide.md",
+          "sha256": "0ec273b08a3438c4b48fd13f8683069219bb49750f38ef138ff7f930effd4001",
+          "bytes": 4275,
+          "url": "https://raw.githubusercontent.com/neuromechanist/research-skills/75fdd03c32e1eb87911ae72241cebaab3100998f/plugins/manuscript/skills/paper-review/references/figure-review-guide.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/neuromechanist/research-skills/blob/75fdd03c32e1eb87911ae72241cebaab3100998f/plugins/manuscript/skills/paper-review/references/figure-review-guide.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "52c155c8e749654e7c7a67663eabe12eec8b7ccacb09a9bc60e927e31c3ba7b6",
+          "bytes": 1508,
+          "url": "https://raw.githubusercontent.com/neuromechanist/research-skills/75fdd03c32e1eb87911ae72241cebaab3100998f/LICENSE",
+          "inspection": "license observation",
+          "permalink": "https://github.com/neuromechanist/research-skills/blob/75fdd03c32e1eb87911ae72241cebaab3100998f/LICENSE"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R04",
+      "repository": "DELONG-L/Academic-Paper-Skills",
+      "canonical_repository": "DELONG-L/Academic-Paper-Skills",
+      "url": "https://github.com/DELONG-L/Academic-Paper-Skills",
+      "commit": "827e13e2299c0a15d397ce095bc548817a2cf3cb",
+      "commit_date": "2026-10-17T12:27:33Z",
+      "audited_on": "2026-11-02",
+      "purpose": "workflow reference",
+      "license_observation": "MIT",
+      "files": [
+        {
+          "path": "paper-review/SKILL.md",
+          "sha256": "962be2aae55375462ad450685dfaf5a9ab87eb0a020539fade4d7b0e4b8d8e05",
+          "bytes": 7017,
+          "url": "https://raw.githubusercontent.com/DELONG-L/Academic-Paper-Skills/827e13e2299c0a15d397ce095bc548817a2cf3cb/paper-review/SKILL.md",
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/DELONG-L/Academic-Paper-Skills/blob/827e13e2299c0a15d397ce095bc548817a2cf3cb/paper-review/SKILL.md"
+        },
+        {
+          "path": "paper-review/references/pre-submission-audit.md",
+          "sha256": "76e4f284205cd9aac4c5a38ad7f9f11e481e90613810baa53406d04cccb238ee",
+          "bytes": 8477,
+          "url": "https://raw.githubusercontent.com/DELONG-L/Academic-Paper-Skills/827e13e2299c0a15d397ce095bc548817a2cf3cb/paper-review/references/pre-submission-audit.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/DELONG-L/Academic-Paper-Skills/blob/827e13e2299c0a15d397ce095bc548817a2cf3cb/paper-review/references/pre-submission-audit.md"
+        },
+        {
+          "path": "paper-review/references/revision-closure.md",
+          "sha256": "2a7b53e6516c9173d3ab0139a407767e4426547ae620e0daf4fd2788b78c2b12",
+          "bytes": 2932,
+          "url": "https://raw.githubusercontent.com/DELONG-L/Academic-Paper-Skills/827e13e2299c0a15d397ce095bc548817a2cf3cb/paper-review/references/revision-closure.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/DELONG-L/Academic-Paper-Skills/blob/827e13e2299c0a15d397ce095bc548817a2cf3cb/paper-review/references/revision-closure.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "d9afa3f5cd28b5dd8e167f377ca73c2392008d537b624fac47b973e9c545c8b1",
+          "bytes": 1065,
+          "url": "https://raw.githubusercontent.com/DELONG-L/Academic-Paper-Skills/827e13e2299c0a15d397ce095bc548817a2cf3cb/LICENSE",
+          "inspection": "license observation",
+          "permalink": "https://github.com/DELONG-L/Academic-Paper-Skills/blob/827e13e2299c0a15d397ce095bc548817a2cf3cb/LICENSE"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R05",
+      "repository": "jam-cc/paper-review.skill",
+      "canonical_repository": "jam-cc/paper-review.skill",
+      "url": "https://github.com/jam-cc/paper-review.skill",
+      "commit": "bb9900ff7a95e6a28092ab0a9e1d81098f41634e",
+      "commit_date": "2026-09-10T03:36:41Z",
+      "audited_on": "2026-11-02",
+      "purpose": "workflow reference",
+      "license_observation": "MIT",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "05c1684c7769fa7170633c04e4c1a1dcf64b3fe51065407466c2465f5a1e66df",
+          "bytes": 9983,
+          "url": "https://raw.githubusercontent.com/jam-cc/paper-review.skill/bb9900ff7a95e6a28092ab0a9e1d81098f41634e/SKILL.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/jam-cc/paper-review.skill/blob/bb9900ff7a95e6a28092ab0a9e1d81098f41634e/SKILL.md"
+        },
+        {
+          "path": "references/hallucination-patterns.md",
+          "sha256": "405828690473d2b2d9236e82619716891908abe95fbde869c99058613d8012df",
+          "bytes": 2032,
+          "url": "https://raw.githubusercontent.com/jam-cc/paper-review.skill/bb9900ff7a95e6a28092ab0a9e1d81098f41634e/references/hallucination-patterns.md",
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/jam-cc/paper-review.skill/blob/bb9900ff7a95e6a28092ab0a9e1d81098f41634e/references/hallucination-patterns.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c87970eee79041554cc1d8c149985a5d24e36a20f316efc4a90989579c1f099e",
+          "bytes": 1088,
+          "url": "https://raw.githubusercontent.com/jam-cc/paper-review.skill/bb9900ff7a95e6a28092ab0a9e1d81098f41634e/LICENSE",
+          "inspection": "license observation",
+          "permalink": "https://github.com/jam-cc/paper-review.skill/blob/bb9900ff7a95e6a28092ab0a9e1d81098f41634e/LICENSE"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R06",
+      "repository": "Yuan1z0825/nature-skills",
+      "canonical_repository": "Yuan1z0825/nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "commit": "69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7",
+      "commit_date": "2026-11-02T03:21:16Z",
+      "audited_on": "2026-11-02",
+      "purpose": "audit reference",
+      "license_observation": "Apache-2.0",
+      "files": [
+        {
+          "path": "skills/nature-reviewer/SKILL.md",
+          "sha256": "8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610",
+          "bytes": 12931,
+          "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7/skills/nature-reviewer/SKILL.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/Yuan1z0825/nature-skills/blob/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7/skills/nature-reviewer/SKILL.md"
+        },
+        {
+          "path": "skills/nature-reviewer/references/forensic-consistency-audit.md",
+          "sha256": "6555c0b85d81cf4f32d5607c95485bfa4ce48ab3a95827dd7a4aeb83d7771319",
+          "bytes": 8494,
+          "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7/skills/nature-reviewer/references/forensic-consistency-audit.md",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/Yuan1z0825/nature-skills/blob/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7/skills/nature-reviewer/references/forensic-consistency-audit.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7/LICENSE",
+          "inspection": "license observation",
+          "permalink": "https://github.com/Yuan1z0825/nature-skills/blob/69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7/LICENSE"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R07",
+      "repository": "zou-group/review_feedback_agent",
+      "canonical_repository": "zou-group/review_feedback_agent",
+      "url": "https://github.com/zou-group/review_feedback_agent",
+      "commit": "669c00df741b6ba022eeed7f26d014b57c592697",
+      "commit_date": "2025-12-11T20:33:14Z",
+      "audited_on": "2026-11-02",
+      "purpose": "research system reference",
+      "license_observation": "MIT",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/zou-group/review_feedback_agent/669c00df741b6ba022eeed7f26d014b57c592697/LICENSE",
+          "sha256": "9d18d43049d5c2bec362396be2c0420f57e44b2dcafb1ea03f2b5f3c671897de",
+          "bytes": 1066,
+          "inspection": "license observation",
+          "permalink": "https://github.com/zou-group/review_feedback_agent/blob/669c00df741b6ba022eeed7f26d014b57c592697/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/zou-group/review_feedback_agent/669c00df741b6ba022eeed7f26d014b57c592697/README.md",
+          "sha256": "5aef2683bf1cd510b4971e81d35a3d8793b3ff4fe8131c67796263b1dcd70ea1",
+          "bytes": 2732,
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/zou-group/review_feedback_agent/blob/669c00df741b6ba022eeed7f26d014b57c592697/README.md"
+        },
+        {
+          "path": "review_feedback_agent/agents/prompts.py",
+          "url": "https://raw.githubusercontent.com/zou-group/review_feedback_agent/669c00df741b6ba022eeed7f26d014b57c592697/review_feedback_agent/agents/prompts.py",
+          "sha256": "bfb8c802ce88c9f22f858b1f236a8301825341b7557bf95e11e0c35a9e297f7c",
+          "bytes": 29528,
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/zou-group/review_feedback_agent/blob/669c00df741b6ba022eeed7f26d014b57c592697/review_feedback_agent/agents/prompts.py"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R08",
+      "repository": "EigenTom/ReviewGrounder",
+      "canonical_repository": "EigenTom/ReviewGrounder",
+      "url": "https://github.com/EigenTom/ReviewGrounder",
+      "commit": "7501cead4921d3f6e38615c09925345564858b97",
+      "commit_date": "2026-05-10T01:57:06Z",
+      "audited_on": "2026-11-02",
+      "purpose": "architecture reference only; implementation not copied",
+      "license_observation": "No root LICENSE observed; GitHub license null",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/EigenTom/ReviewGrounder/7501cead4921d3f6e38615c09925345564858b97/README.md",
+          "sha256": "6109d93b1f514876e77acc103a38fc490d4979e59f7642ac48a2f6ea8681c603",
+          "bytes": 12803,
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/EigenTom/ReviewGrounder/blob/7501cead4921d3f6e38615c09925345564858b97/README.md"
+        },
+        {
+          "path": "shared/utils/prompt_loader.py",
+          "url": "https://raw.githubusercontent.com/EigenTom/ReviewGrounder/7501cead4921d3f6e38615c09925345564858b97/shared/utils/prompt_loader.py",
+          "sha256": "0755db574a115fe42082017344541b63bfd58e2a99c7550ab78fe7ddc6bb93f4",
+          "bytes": 7739,
+          "inspection": "retrieved only",
+          "permalink": "https://github.com/EigenTom/ReviewGrounder/blob/7501cead4921d3f6e38615c09925345564858b97/shared/utils/prompt_loader.py"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    },
+    {
+      "id": "R09",
+      "repository": "SakanaAI/AI-Scientist",
+      "canonical_repository": "SakanaAI/AI-Scientist",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "commit": "1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb",
+      "commit_date": "2025-12-19T07:46:21Z",
+      "audited_on": "2026-11-02",
+      "purpose": "historical comparison; implementation not copied",
+      "license_observation": "The AI Scientist Source Code License 1.0, December 2025; GitHub SPDX NOASSERTION",
+      "files": [
+        {
+          "path": "ai_scientist/perform_review.py",
+          "sha256": "903380395f0f28993e432ab2abd59f300010fc8e9057b1aedeb54c4396dca004",
+          "bytes": 18580,
+          "url": "https://raw.githubusercontent.com/SakanaAI/AI-Scientist/1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb/ai_scientist/perform_review.py",
+          "inspection": "targeted reading",
+          "permalink": "https://github.com/SakanaAI/AI-Scientist/blob/1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb/ai_scientist/perform_review.py"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "9c82e554a54dfcf2550b452801475a36f9cb909ede00b03e492089e4836a7462",
+          "bytes": 4256,
+          "url": "https://raw.githubusercontent.com/SakanaAI/AI-Scientist/1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb/LICENSE",
+          "inspection": "license observation",
+          "permalink": "https://github.com/SakanaAI/AI-Scientist/blob/1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb/LICENSE"
+        }
+      ],
+      "upstream_code_executed": false,
+      "vendored": false
+    }
+  ],
+  "papers": [
+    {
+      "id": "P01",
+      "title": "Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis",
+      "url": "https://doi.org/10.1056/AIoa2400196",
+      "year": 2024,
+      "status": "NEJM AI 1(8); publication metadata verified via Crossref",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Publisher full text 403; author preprint abstract and selected HTML available",
+      "adoption": "Early author feedback with explicit limits",
+      "limits": "Human overlap and perceived usefulness do not establish technical correctness",
+      "doi": "10.1056/AIoa2400196",
+      "alternate_urls": [
+        "https://arxiv.org/abs/2310.01783",
+        "https://arxiv.org/html/2310.01783v1"
+      ],
+      "published_on": "2024-07-25"
+    },
+    {
+      "id": "P02",
+      "title": "A large-scale randomized study of large language model feedback in peer review",
+      "url": "https://doi.org/10.1038/s42256-026-01188-x",
+      "year": 2026,
+      "status": "Nature Machine Intelligence 8, 326-336; Crossref and publisher search record",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Publisher metadata/abstract; methods and reliability checks read in 2025 author preprint",
+      "adoption": "Review-the-reviewer check for specificity, misunderstanding and actionability",
+      "limits": "Intervention targets reviews, not autonomous paper correctness or acceptance; version changes not compared line by line",
+      "doi": "10.1038/s42256-026-01188-x",
+      "alternate_urls": [
+        "https://arxiv.org/abs/2504.09737",
+        "https://arxiv.org/html/2504.09737v1"
+      ],
+      "published_on": "2026-02-23"
+    },
+    {
+      "id": "P03",
+      "title": "Peer reviews of peer reviews: A randomized controlled trial and other experiments",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0320444",
+      "year": 2025,
+      "status": "PLOS ONE 20(4):e0320444",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary full-text page; abstract, design and limitations sections",
+      "adoption": "Do not optimize review length, author satisfaction or a single score",
+      "limits": "Opt-in selection, evaluator effects, and observational versus randomized results must be distinguished",
+      "doi": "10.1371/journal.pone.0320444",
+      "published_on": "2025-04-02"
+    },
+    {
+      "id": "P04",
+      "title": "Ten simple rules for writing a peer review",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014359",
+      "year": 2026,
+      "status": "PLOS Computational Biology 22(6):e1014359; education article",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary full-text page; relevant rules",
+      "adoption": "Read supplements and figures; specific, constructive, located critique",
+      "limits": "Practice guidance; formal reviewer obligations not automatically author-self-review requirements",
+      "doi": "10.1371/journal.pcbi.1014359",
+      "published_on": "2026-06-15"
+    },
+    {
+      "id": "P05",
+      "title": "PRISMM-Bench: A Benchmark of Peer-Review Grounded Multimodal Inconsistencies",
+      "url": "https://arxiv.org/abs/2510.16505v3",
+      "year": 2026,
+      "status": "arXiv record says accepted at ICLR 2026; first preprint 2025",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Author arXiv v3 abstract and selected full-text sections",
+      "adoption": "Separate cross-modal audit, actual figure viewing, aggregation checks",
+      "limits": "Multiple-choice benchmark is not end-to-end review quality validation",
+      "alternate_urls": [
+        "https://arxiv.org/html/2510.16505v3"
+      ],
+      "arxiv": "2510.16505v3"
+    },
+    {
+      "id": "P06",
+      "title": "ReviewGrounder: Improving Review Substantiveness with Rubric-Guided, Tool-Integrated Agents",
+      "url": "https://aclanthology.org/2026.acl-long.1477/",
+      "year": 2026,
+      "status": "ACL 2026 proceedings; official Anthology metadata verified",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Proceedings metadata; author preprint methods/rubrics read",
+      "adoption": "Ground draft critique in targeted evidence and paper-specific checks",
+      "limits": "Rubrics derive partly from human-review aggregation; no universal validity guarantee; ReviewBench names collide",
+      "doi": "10.18653/v1/2026.acl-long.1477",
+      "alternate_urls": [
+        "https://arxiv.org/html/2604.14261v1"
+      ]
+    },
+    {
+      "id": "P07",
+      "title": "Unveiling the Merits and Defects of LLMs in Automatic Review Generation for Scientific Papers",
+      "url": "https://arxiv.org/abs/2509.19326",
+      "year": 2025,
+      "status": "Author arXiv comment says accepted as ICDM short paper; proceedings not independently checked",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Author arXiv v1 abstract and selected full text",
+      "adoption": "Target substantive weaknesses without a quota",
+      "limits": "Semantic similarity and knowledge-graph counts are proxies, not correctness",
+      "alternate_urls": [
+        "https://arxiv.org/html/2509.19326v1"
+      ]
+    },
+    {
+      "id": "P08",
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "url": "https://arxiv.org/abs/2609.09076v1",
+      "year": 2026,
+      "status": "Preprint; no formal publication inferred",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Author v1 full-text sections on formulation, human evaluation and limits",
+      "adoption": "Separate diagnosis from revision suggestions and ground both locally",
+      "limits": "Rebuttals are plausible actions, not proof of correct resolution; technical accuracy remains a limit",
+      "alternate_urls": [
+        "https://arxiv.org/html/2609.09076v1"
+      ],
+      "published_on": "2026-09-08"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "B01",
+      "title": "Leveraging LLM feedback to enhance review quality",
+      "url": "https://blog.iclr.cc/2025/04/15/leveraging-llm-feedback-to-enhance-review-quality/",
+      "year": 2025,
+      "status": "Official ICLR blog",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary page",
+      "adoption": "Practical review feedback deployment",
+      "limits": "Same study as P02, not independent evidence",
+      "published_on": "2025-04-15"
+    },
+    {
+      "id": "B02",
+      "title": "Stanford Agentic Reviewer: Tech Overview",
+      "url": "https://paperreview.ai/tech-overview",
+      "year": null,
+      "status": "First-party technical overview; exact publication date not established",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary technical page",
+      "adoption": "Literature-grounded staged review",
+      "limits": "Small ICLR score-correlation study; not cross-domain validity or evidence of this skill performance"
+    },
+    {
+      "id": "B03",
+      "title": "PLOS Mental Health Author Tips Part 1/3: The Efficiency of Peer Review",
+      "url": "https://speakingofmedicine.plos.org/2025/04/24/plos-mental-health-author-tips-part-1-3-the-efficiency-of-peer-review/",
+      "year": 2025,
+      "status": "Official PLOS author blog",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary page, author-intake/classification sections",
+      "adoption": "Submission information and expertise matching",
+      "limits": "Journal-specific tips, not universal requirements",
+      "published_on": "2025-04-24"
+    }
+  ],
+  "official_guides": [
+    {
+      "id": "G01",
+      "title": "EQUATOR reporting-guideline library",
+      "url": "https://www.equator-network.org/reporting-guidelines/",
+      "year": null,
+      "status": "Current official index",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary page",
+      "adoption": "Choose guideline by study type; reporting is not design-quality appraisal",
+      "limits": "Recheck exact guideline/extension for a future review"
+    },
+    {
+      "id": "G02",
+      "title": "CONSORT 2025 statement: updated guideline for reporting randomised trials",
+      "url": "https://doi.org/10.1136/bmj-2024-081123",
+      "year": 2025,
+      "status": "BMJ 389:e081123; Crossref metadata and EQUATOR listing verified",
+      "accessed_on": "2026-11-02",
+      "access_scope": "BMJ full text 403; metadata and official index only",
+      "adoption": "Dated reporting-standard routing for randomized trials",
+      "limits": "Full item-by-item checklist not verified in this task",
+      "doi": "10.1136/bmj-2024-081123",
+      "published_on": "2025-04-14"
+    },
+    {
+      "id": "G03",
+      "title": "The TRIPOD-LLM reporting guideline for studies using large language models",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12104976/",
+      "year": 2025,
+      "status": "Nature Medicine 31, 60-69; author manuscript in PMC",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary author manuscript and publication line",
+      "adoption": "Modular reporting for biomedical LLM studies",
+      "limits": "Not a mandatory universal LLM evaluation standard",
+      "doi": "10.1038/s41591-024-03425-5"
+    },
+    {
+      "id": "G04",
+      "title": "NeurIPS 2025 Reviewer Guidelines",
+      "url": "https://neurips.cc/Conferences/2025/ReviewerGuidelines",
+      "year": 2025,
+      "status": "Official venue/year guideline",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary guidelines page",
+      "adoption": "Technical assessment and honest limitations",
+      "limits": "Does not define all venues or future years"
+    },
+    {
+      "id": "G05",
+      "title": "Initial evaluation of manuscripts",
+      "url": "https://explore.plos.org/editor-resources/manuscript-evaluation",
+      "year": null,
+      "status": "Official PLOS editor guidance with listed journal scope",
+      "accessed_on": "2026-11-02",
+      "access_scope": "Primary page",
+      "adoption": "Separate validity from significance and venue fit",
+      "limits": "Apply only to listed journals, not all PLOS titles"
+    }
+  ],
+  "crossref_metadata": [
+    {
+      "doi": "10.1056/AIoa2400196",
+      "title": [
+        "Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            25
+          ]
+        ]
+      },
+      "container": [
+        "NEJM AI"
+      ],
+      "url": "https://doi.org/10.1056/aioa2400196",
+      "volume": "1",
+      "issue": "8",
+      "page": null,
+      "article_number": null
+    },
+    {
+      "doi": "10.1038/s42256-026-01188-x",
+      "title": [
+        "A large-scale randomized study of large language model feedback in peer review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            23
+          ]
+        ]
+      },
+      "container": [
+        "Nature Machine Intelligence"
+      ],
+      "url": "https://doi.org/10.1038/s42256-026-01188-x",
+      "volume": "8",
+      "issue": "3",
+      "page": "326-336",
+      "article_number": null
+    },
+    {
+      "doi": "10.1371/journal.pone.0320444",
+      "title": [
+        "Peer reviews of peer reviews: A randomized controlled trial and other experiments"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            2
+          ]
+        ]
+      },
+      "container": [
+        "PLOS ONE"
+      ],
+      "url": "https://doi.org/10.1371/journal.pone.0320444",
+      "volume": "20",
+      "issue": "4",
+      "page": "e0320444",
+      "article_number": null
+    },
+    {
+      "doi": "10.1371/journal.pcbi.1014359",
+      "title": [
+        "Ten simple rules for writing a peer review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            15
+          ]
+        ]
+      },
+      "container": [
+        "PLOS Computational Biology"
+      ],
+      "url": "https://doi.org/10.1371/journal.pcbi.1014359",
+      "volume": "22",
+      "issue": "6",
+      "page": "e1014359",
+      "article_number": null
+    },
+    {
+      "doi": "10.1136/bmj-2024-081123",
+      "title": [
+        "CONSORT 2025 statement: updated guideline for reporting randomised trials"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            14
+          ]
+        ]
+      },
+      "container": [
+        "BMJ"
+      ],
+      "url": "https://doi.org/10.1136/bmj-2024-081123",
+      "volume": "389",
+      "issue": null,
+      "page": "e081123",
+      "article_number": null
+    }
+  ]
+}

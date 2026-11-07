@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Local case data can contain target-specific or personal data.
+# Anchor these to the repository root so benchmarks/cases remains trackable.
+/cases/
+/runs/
+/sites/
+benchmarks/results/
+.light-crawl/
+/dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and captures
+*.har
+*.saz
+*.pcap
+*.pcapng
+cookies.json
+storage-state.json

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Journal Select"
+  short_description: "基于研究证据筛选投稿期刊，核查范围与实际约束，并生成衔接论文写作的选刊简报"
+  default_prompt: "使用 $light-journal-select，续作时先恢复有关记忆并核对实际分析/稿件版本；按文章类型与出版路线核查期刊和作者约束，分清作者决定、待核项与推荐依据，再生成交给 light-write 的简报。"

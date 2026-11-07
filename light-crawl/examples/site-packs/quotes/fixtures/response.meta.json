@@ -1,0 +1,40 @@
+{
+  "url": "https://quotes.toscrape.com/",
+  "final_url": "https://quotes.toscrape.com/",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 11013,
+  "sha256": "395f96f5d719245e24ed90623e63e383f9ccea37b4282c14333bb4bb5b60fd2a",
+  "elapsed_ms": 5761,
+  "fetched_at": "2026-10-25T07:03:16Z",
+  "headers": {},
+  "engine": "scrapling-stealth",
+  "note": "Headers are allow-listed; cookies and authorization are not persisted.",
+  "network": [
+    {
+      "url": "https://quotes.toscrape.com/",
+      "status": 200,
+      "bytes": 11064
+    },
+    {
+      "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "status": 200,
+      "bytes": 125934
+    },
+    {
+      "url": "https://quotes.toscrape.com/static/main.css",
+      "status": 200,
+      "bytes": 1368
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+      "status": 200,
+      "bytes": 3454
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+      "status": 200,
+      "bytes": 0
+    }
+  ]
+}

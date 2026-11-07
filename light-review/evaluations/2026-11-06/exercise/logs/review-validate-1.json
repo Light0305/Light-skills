@@ -1,0 +1,7 @@
+{
+  "name": "review-validate-1",
+  "exit": 0,
+  "expected": 0,
+  "stdout": "{\"ok\": true, \"packet_id\": \"sha256:8d4cca4a052e9d6163d1b78905cf177fe9613159cd98eef1310fdc90105354f3\", \"materials\": 4, \"claims\": 1, \"issues\": 1, \"open_required\": 1, \"review_status\": \"final\", \"lineage\": \"not_checked\", \"meaning\": \"Version/record consistency only; scientific judgments and claimed checks are not verified.\"}\n",
+  "stderr": ""
+}

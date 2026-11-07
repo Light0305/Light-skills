@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {
+      "path": "草稿/合成测量汇总工具 V0.1_功能说明.docx",
+      "kind": "functions",
+      "sha256": "7e147b9ec9f670ba7627fa2e8afe10842ed5d86efc1988dd4d4bb41958e2eb82",
+      "inputs": {
+        "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+        "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": null,
+      "font_sha256": null,
+      "project_inputs": {
+        "measure.py": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+      },
+      "layout_profile": "three-documents"
+    },
+    {
+      "path": "草稿/合成测量汇总工具 V0.1_软件代码.docx",
+      "kind": "code",
+      "sha256": "c322f401fcb560801c3e1b28d9553145076eda3af49c0cb93b5ae2ae2ed594fa",
+      "inputs": {
+        "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+        "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+        "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+        "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": "C:\\Windows\\Fonts\\simsun.ttc",
+      "font_sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "project_inputs": {},
+      "layout_profile": "three-documents"
+    },
+    {
+      "path": "草稿/合成测量汇总工具 V0.1_软件说明书.docx",
+      "kind": "manual",
+      "sha256": "9af421fc88e0be3ac2453c1459d9e4a4709d4cd7f5fe2e2a6aa48411cf9e0fec",
+      "inputs": {
+        "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+        "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": null,
+      "font_sha256": null,
+      "project_inputs": {
+        "measure.py": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+      },
+      "layout_profile": "three-documents"
+    },
+    {
+      "path": "正式资料/合成测量汇总工具 V0.1/合成测量汇总工具 V0.1_功能说明.docx",
+      "kind": "functions",
+      "sha256": "7e147b9ec9f670ba7627fa2e8afe10842ed5d86efc1988dd4d4bb41958e2eb82",
+      "inputs": {
+        "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+        "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": null,
+      "font_sha256": null,
+      "project_inputs": {
+        "measure.py": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+      },
+      "layout_profile": "three-documents",
+      "release": "local_review_copy",
+      "portal_ready": false
+    },
+    {
+      "path": "正式资料/合成测量汇总工具 V0.1/合成测量汇总工具 V0.1_软件代码.docx",
+      "kind": "code",
+      "sha256": "c322f401fcb560801c3e1b28d9553145076eda3af49c0cb93b5ae2ae2ed594fa",
+      "inputs": {
+        "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+        "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+        "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+        "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": "C:\\Windows\\Fonts\\simsun.ttc",
+      "font_sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "project_inputs": {},
+      "layout_profile": "three-documents",
+      "release": "local_review_copy",
+      "portal_ready": false
+    },
+    {
+      "path": "正式资料/合成测量汇总工具 V0.1/合成测量汇总工具 V0.1_软件说明书.docx",
+      "kind": "manual",
+      "sha256": "9af421fc88e0be3ac2453c1459d9e4a4709d4cd7f5fe2e2a6aa48411cf9e0fec",
+      "inputs": {
+        "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+        "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": null,
+      "font_sha256": null,
+      "project_inputs": {
+        "measure.py": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+      },
+      "layout_profile": "three-documents",
+      "release": "local_review_copy",
+      "portal_ready": false
+    }
+  ],
+  "retired_artifacts": [
+    {
+      "path": "草稿/合成测量汇总工具 V0.1_功能说明.docx",
+      "kind": "functions",
+      "sha256": "9273bf0cee4f6c64deef19f7134cb007087739852496979de6578e984b4c3a4c",
+      "inputs": {
+        "case.json": "45f04c6e636b3f6a1750f0f200221ce462d9eab70feb3f39b27c83136e4f7cf0",
+        "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": null,
+      "font_sha256": null,
+      "project_inputs": {
+        "measure.py": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+      },
+      "layout_profile": "three-documents"
+    },
+    {
+      "path": "草稿/合成测量汇总工具 V0.1_软件代码.docx",
+      "kind": "code",
+      "sha256": "f9283446e3b19532566cf3516ac8a3df89cecc41e758238ba480f73ebd55b534",
+      "inputs": {
+        "case.json": "45f04c6e636b3f6a1750f0f200221ce462d9eab70feb3f39b27c83136e4f7cf0",
+        "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+        "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+        "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": "C:\\Windows\\Fonts\\simsun.ttc",
+      "font_sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+      "project_inputs": {},
+      "layout_profile": "three-documents"
+    },
+    {
+      "path": "草稿/合成测量汇总工具 V0.1_软件说明书.docx",
+      "kind": "manual",
+      "sha256": "5263c412bbf72364f7da99a16ff54eeddac54fa0635cd9be094bdde64db26889",
+      "inputs": {
+        "case.json": "45f04c6e636b3f6a1750f0f200221ce462d9eab70feb3f39b27c83136e4f7cf0",
+        "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+        "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+      },
+      "font_file": null,
+      "font_sha256": null,
+      "project_inputs": {
+        "measure.py": "615e5add25f8036222db76de6e78b415e4d06d256987d0a61d78524c6c09f688"
+      },
+      "layout_profile": "three-documents"
+    }
+  ]
+}

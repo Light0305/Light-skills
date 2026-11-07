@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "version": 1,
+  "last_verified_at": "2026-10-25T07:20:00Z",
+  "domain": "api.github.com",
+  "lane": "L0_API",
+  "delivery": "single",
+  "created_at": "2026-10-25T07:10:00Z",
+  "entrypoints": {
+    "spider": "spider/",
+    "fixtures": "fixtures/"
+  },
+  "capture": {
+    "url": "https://api.github.com/repos/python/cpython",
+    "status": 200,
+    "fixture": "fixtures/response.json"
+  },
+  "policy": {
+    "robots_txt_obey": true,
+    "store_credentials": false,
+    "redact_fixtures": true
+  },
+  "run": {
+    "command": "light-crawl site run examples/site-packs/github-api",
+    "expected_items": 1
+  },
+  "migration": {
+    "from": 1,
+    "to": 2,
+    "at": "2026-10-25T07:28:40Z"
+  }
+}

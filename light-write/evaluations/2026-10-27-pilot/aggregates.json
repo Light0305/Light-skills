@@ -1,0 +1,114 @@
+{
+  "review_type": "model-assisted; two fresh review calls per pair; no human experts",
+  "score_groups": {
+    "reviews/before/light-write": {
+      "review_rows": 28,
+      "serious_error_annotations": 0,
+      "mean_scores": {
+        "argument_quality": 3.929,
+        "domain_appropriateness": 3.964,
+        "evidence_calibration": 4,
+        "factual_fidelity": 4,
+        "gap_handling": 4,
+        "language_quality": 3.929,
+        "task_completion": 3.929
+      }
+    },
+    "reviews/before/upstream": {
+      "review_rows": 28,
+      "serious_error_annotations": 0,
+      "mean_scores": {
+        "argument_quality": 3.893,
+        "domain_appropriateness": 3.893,
+        "evidence_calibration": 3.929,
+        "factual_fidelity": 3.929,
+        "gap_handling": 3.929,
+        "language_quality": 3.893,
+        "task_completion": 3.929
+      }
+    },
+    "retests/before/light-write": {
+      "review_rows": 28,
+      "serious_error_annotations": 0,
+      "mean_scores": {
+        "argument_quality": 3.857,
+        "domain_appropriateness": 4,
+        "evidence_calibration": 4,
+        "factual_fidelity": 4,
+        "gap_handling": 4,
+        "language_quality": 3.893,
+        "task_completion": 3.893
+      }
+    },
+    "retests/after/light-write": {
+      "review_rows": 28,
+      "serious_error_annotations": 0,
+      "mean_scores": {
+        "argument_quality": 3.964,
+        "domain_appropriateness": 4,
+        "evidence_calibration": 4,
+        "factual_fidelity": 4,
+        "gap_handling": 4,
+        "language_quality": 3.929,
+        "task_completion": 4
+      }
+    }
+  },
+  "preference_groups": {
+    "reviews/clinical-health": {
+      "light-write": 2,
+      "tie": 2
+    },
+    "reviews/computing": {
+      "upstream": 2,
+      "tie": 2
+    },
+    "reviews/humanities": {
+      "tie": 2,
+      "light-write": 2
+    },
+    "reviews/life-sciences": {
+      "upstream": 1,
+      "tie": 1,
+      "light-write": 2
+    },
+    "reviews/mathematics-theory": {
+      "upstream": 3,
+      "tie": 1
+    },
+    "reviews/physical-sciences-engineering": {
+      "light-write": 3,
+      "tie": 1
+    },
+    "reviews/social-behavioral": {
+      "light-write": 2,
+      "tie": 2
+    },
+    "retests/clinical-health": {
+      "after": 2,
+      "tie": 2
+    },
+    "retests/computing": {
+      "after": 2,
+      "tie": 2
+    },
+    "retests/humanities": {
+      "before": 2,
+      "after": 2
+    },
+    "retests/life-sciences": {
+      "after": 1,
+      "tie": 3
+    },
+    "retests/mathematics-theory": {
+      "after": 4
+    },
+    "retests/physical-sciences-engineering": {
+      "before": 4
+    },
+    "retests/social-behavioral": {
+      "after": 2,
+      "tie": 2
+    }
+  }
+}

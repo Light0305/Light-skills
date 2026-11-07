@@ -1,0 +1,25 @@
+{
+  "run": 56,
+  "passed": 56,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "expected_failures": [],
+  "unexpected_successes": [],
+  "seconds": 3.235,
+  "ok": true,
+  "name": "light-idea",
+  "exit_code": 0,
+  "argv": [
+    "D:\\Anaconda\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "D:\\Light-Skills\\quality\\run_suite.py",
+    "--start",
+    "D:\\Light-Skills\\light-idea\\tests",
+    "--result",
+    "D:\\Light-Skills\\quality\\evaluations\\2026-11-07\\package-attempt1\\light-idea.json"
+  ],
+  "cwd": "D:\\Light-Skills\\light-idea"
+}

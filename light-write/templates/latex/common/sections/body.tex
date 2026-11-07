@@ -1,0 +1,149 @@
+% TEMPLATE GUIDANCE ONLY. Replace this file with supported manuscript sections.
+% These headings demonstrate hierarchy; they do not impose an empirical genre.
+\ifLWChinese
+\section{研究问题与背景}
+本文件仅展示通用论文版式。正式稿件应从作者提供的研究问题与文献出发，
+说明现有认识、未解决的问题及本研究的切入点。不要把排版示例当作研究证据，
+也不要把通用模板称为某期刊的官方模板。各节标题和顺序应服从文章类型与目标要求。
+
+\section{证据与论证路径}
+以实际方法、材料、理论假设或文献综合过程替换本节。保留来源中的研究范围、
+分析定义、限制条件及不确定性。理论、综述与方案文章应使用合适的结构，
+无需机械套用实验论文的方法与结果章节。
+
+\subsection{公式与符号}
+下式仅用于演示公式编号，不代表任何实测结果：
+\begin{equation}
+  \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i .
+  \label{eq:template-mean}
+\end{equation}
+正式稿件应说明符号含义及定义域，保留作者提供的公式、单位和参数依赖。
+正文中的公式引用使用原生交叉引用，例如式~\eqref{eq:template-mean}。
+
+\section{正文、图表与引用}
+图表使用实际采用的版本，图注与正文解释应与其标签和数值一致。
+单栏宽图表使用当前栏宽；双栏稿中的通栏图表使用星号浮动环境。
+不要通过大幅缩小字体来强塞过宽的表格。表~\ref{tab:template-inputs}
+仅展示表格格式，其中没有研究数据。
+
+\begin{table}[bp]
+  \centering
+  \caption{模板所需材料示例；不含研究数据。}
+  \label{tab:template-inputs}
+  \small
+  \begin{tabularx}{\linewidth}{@{}lX@{}}
+    \toprule
+    组成部分 & 所需输入 \\
+    \midrule
+    正文 & 作者材料及其支持的主张 \\
+    图表 & 已采用的图稿版本与说明 \\
+    参考文献 & 用户提供或实际核验的来源 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{解释与边界}
+以有证据支持的解释、替代解释及重要限制替换本节。结论的强度应与材料相称，
+不能为了增强表达而把相关性改成因果性，或把计划中的验证写成已完成的发现。
+正式交付前应移除这些模板说明，并明确列出仍待作者补充的信息。
+
+\section{来源与引文}
+每项重要主张都应能追溯到作者材料或实际采用的文献。文献键、引文位置及其
+支持范围应在修订中保持一致。模板的参考文献文件有意留空；没有来源时不应
+为了展示引用样式而编造作者、题目或文献编号。用户提供的引用也不能自动视为
+已核验来源。缺失的支撑应明确标记，并与有依据的正文区分。
+
+\section{源文件与版本}
+题目、作者和单位在元信息文件中维护，摘要和正文保存在章节源文件中。
+需要时可以拆分章节，并用输入命令组织同一份权威稿件，避免同时维护内容
+已经分歧的多个格式。重大修订、转投与返修应保留受审版本及实际采用的
+图稿关系。用户已经确定的模板和栏数应继续沿用，不因另一次语言修订而重置。
+
+\section{编译与页面检查}
+正式交付包括可编辑的源工程和由它实际编译的 PDF。应检查引文、交叉引用、
+公式编号及中文字符，不能仅凭旧 PDF 仍然存在便判断本次修改已编译成功。
+编译后查看渲染页面，确认题目和摘要完整、两栏阅读顺序正确、图表与公式
+没有越界、页码和页眉没有遮挡正文。修复版式问题后，应重新编译并查看
+受影响页面。模板预览的占位内容不能作为一篇已完成的论文交付。
+\else
+\section{Question and context}
+Develop the opening from the author's question and literature: what is known,
+what remains unresolved, and why the present work addresses that problem.
+This preview is not study evidence or an official journal template. Choose
+section names and order for the article type and applicable venue.
+
+\section{Evidence and approach}
+Describe the actual methods, materials, assumptions, or synthesis procedure.
+Retain the documented scope, definitions, limitations, and uncertainty.
+Theory papers, reviews, and protocols need their own argument structure;
+the template does not prescribe experimental Methods and Results.
+
+\subsection{Equations and notation}
+The expression below demonstrates equation numbering and makes no empirical
+claim:
+\begin{equation}
+  \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i .
+  \label{eq:template-mean}
+\end{equation}
+Define symbols and their domains; preserve units and parameter dependencies.
+Use native cross-references, such as Equation~\eqref{eq:template-mean}, to keep
+numbering consistent during revision.
+
+\section{Text, figures, and references}
+Keep adopted figure labels and values consistent with captions and prose.
+Ordinary floats fit the current column; starred floats span both columns.
+Resolve wide tables without making text unreadable.
+Table~\ref{tab:template-inputs} illustrates formatting, not study data.
+
+\begin{table}[bp]
+  \centering
+  \caption{Example manuscript inputs; no research data.}
+  \label{tab:template-inputs}
+  \small
+  \begin{tabularx}{\linewidth}{@{}lX@{}}
+    \toprule
+    Component & Required input \\
+    \midrule
+    Main text & Author materials and supported claims \\
+    Figures & Adopted versions and descriptions \\
+    References & Supplied or actually verified sources \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{Interpretation and scope}
+Present supported interpretation, competing explanations, and material
+limitations. Match conclusions to the evidence; an association is not
+causation, and a planned validation is not a completed finding. Remove
+template instructions before manuscript delivery and flag any missing
+evidence or author decisions.
+
+\section{Sources and citations}
+Keep important claims traceable to author materials or adopted literature.
+Preserve citation keys, their positions, and the scope of support during
+revision. The bibliography file is deliberately empty: do not invent authors,
+titles, or reference numbers to demonstrate a citation style. Supplied
+references are not automatically verified sources. Mark missing support
+clearly and distinguish it from evidence-backed prose. A successful
+bibliography build establishes that citations resolve, not that their
+scientific interpretation is correct.
+
+\section{Source files and revisions}
+Maintain the title, authors, and affiliations in the metadata file, with the
+abstract and body in section files. Split sections when useful and organize
+them around one authoritative manuscript source. Avoid maintaining divergent
+copies in several formats. A major revision or journal change should retain
+the reviewed version and its adopted figure relationships. Continue the
+template and column choice already settled for the project; another language
+edit does not require choosing the layout again.
+
+\section{Compilation and page review}
+Deliver the editable source project and the PDF actually compiled from it.
+Check citations, cross-references, equation numbers, and required characters.
+An old PDF remaining on disk does not establish that the current revision
+built successfully. Inspect rendered pages for complete title and abstract
+blocks, readable columns, unclipped tables and equations, and unobstructed
+headers and page numbers. Recompile and inspect affected pages after a layout
+fix. The placeholder content in this preview must be replaced before it can
+be delivered as a completed manuscript.
+\fi

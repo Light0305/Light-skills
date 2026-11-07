@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "delivery_profile": "three-documents",
+  "project_root": "<真实项目绝对路径；使用 init 自动生成>",
+  "jurisdiction": "CN",
+  "software_name": null,
+  "abbreviation": null,
+  "version": null,
+  "owners": [],
+  "owner_type": null,
+  "development_mode": null,
+  "rights_acquisition": null,
+  "rights_scope": null,
+  "completed_on": null,
+  "publication_status": null,
+  "first_published_on": null,
+  "first_published_place": null,
+  "environments": {
+    "development_hardware": null,
+    "development_os": null,
+    "development_tools": null,
+    "runtime_hardware": null,
+    "runtime_os": null,
+    "runtime_support": null
+  },
+  "languages": [],
+  "purpose": null,
+  "industry": null,
+  "main_functions": null,
+  "technical_features": null,
+  "features": [],
+  "reviews": {
+    "facts_confirmed": false,
+    "confirmation_basis": null,
+    "rights_basis": null,
+    "third_party_review": null,
+    "source_ending_review": null,
+    "visual_review": null
+  },
+  "rules": {
+    "checked_on": null,
+    "official_form_verified": false,
+    "sources": [],
+    "notes": []
+  }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 fixture-fixture.svg Synthetic geometry -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.16667in" height="2.08333in" viewBox="0 0 300 150"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#e0effd;stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.875}
+		.st2 {fill:#070e26;font-family:Arial;font-size:1.125em}
+		.st3 {marker-end:url(#mrkr13-12);stroke:#27303b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st4 {fill:#27303b;fill-opacity:1;stroke:#27303b;stroke-opacity:1;stroke-width:0.37313432835821}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-12" class="st4" v:arrowType="13" v:arrowSize="2" v:setback="8.04" refX="-8.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.68,-2.68) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Synthetic geometry</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(15,-67.5)">
+			<title>Light_A</title>
+			<desc>A</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(A)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.5" cy="131.25" width="75.01" height="37.5"/>
+			<rect x="0" y="112.5" width="75" height="37.5" class="st1"/>
+			<text x="33" y="135.3" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(210,-67.5)">
+			<title>Light_B</title>
+			<desc>B</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(B)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.5" cy="131.25" width="75.01" height="37.5"/>
+			<ellipse cx="37.5" cy="131.25" rx="37.5" ry="18.75" class="st1"/>
+			<text x="33" y="135.3" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(90,-86.25)">
+			<title>Light_edge</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(edge)"/>
+			</v:userDefs>
+			<path d="M0 150 L107.94 150" class="st3"/>
+		</g>
+	</g>
+</svg>

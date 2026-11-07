@@ -1,0 +1,36 @@
+test_cli_exit_codes (test_design_bridge.BridgeTests.test_cli_exit_codes) ... ok
+test_dependency_cycles_and_unknown_tasks_fail (test_design_bridge.BridgeTests.test_dependency_cycles_and_unknown_tasks_fail) ... ok
+test_dependency_on_experiment_outside_scope_fails (test_design_bridge.BridgeTests.test_dependency_on_experiment_outside_scope_fails) ... ok
+test_evidence_collision_and_missing_source_fail (test_design_bridge.BridgeTests.test_evidence_collision_and_missing_source_fail) ... ok
+test_full_execution_covers_all_claims (test_design_bridge.BridgeTests.test_full_execution_covers_all_claims) ... ok
+test_ingest_preserves_identity_sources_and_bytes (test_design_bridge.BridgeTests.test_ingest_preserves_identity_sources_and_bytes) ... ok
+test_input_drift_is_detected (test_design_bridge.BridgeTests.test_input_drift_is_detected) ... ok
+test_malformed_nested_values_return_errors (test_design_bridge.BridgeTests.test_malformed_nested_values_return_errors) ... ok
+test_missing_input_is_detected (test_design_bridge.BridgeTests.test_missing_input_is_detected) ... ok
+test_ready_state_requires_decisions_tasks_and_review (test_design_bridge.BridgeTests.test_ready_state_requires_decisions_tasks_and_review) ... ok
+test_refuses_overwrite_without_changing_existing_output (test_design_bridge.BridgeTests.test_refuses_overwrite_without_changing_existing_output) ... ok
+test_refuses_upstream_overlap_and_unsafe_id (test_design_bridge.BridgeTests.test_refuses_upstream_overlap_and_unsafe_id) ... ok
+test_sample_size_is_not_invented_by_import_and_pending_blocks_ready (test_design_bridge.BridgeTests.test_sample_size_is_not_invented_by_import_and_pending_blocks_ready) ... ok
+test_standalone_mode_is_supported_without_claiming_upstream_review (test_design_bridge.BridgeTests.test_standalone_mode_is_supported_without_claiming_upstream_review) ... ok
+test_theory_information_rationale_need_not_be_numeric (test_design_bridge.BridgeTests.test_theory_information_rationale_need_not_be_numeric) ... ok
+test_unavailable_resource_or_unknown_gate_blocks_scoped_execution (test_design_bridge.BridgeTests.test_unavailable_resource_or_unknown_gate_blocks_scoped_execution) ... ok
+test_unknown_and_duplicate_references_fail (test_design_bridge.BridgeTests.test_unknown_and_duplicate_references_fail) ... ok
+test_valid_pilot_with_future_unresolved_phase (test_design_bridge.BridgeTests.test_valid_pilot_with_future_unresolved_phase) ... ok
+test_version_change_and_boolean_version_fail (test_design_bridge.BridgeTests.test_version_change_and_boolean_version_fail) ... ok
+test_already_stale_evidence_cannot_be_frozen_as_current (test_source_handoff.SourceHandoffTests.test_already_stale_evidence_cannot_be_frozen_as_current) ... ok
+test_ambiguous_paper_identity_does_not_silently_keep_last (test_source_handoff.SourceHandoffTests.test_ambiguous_paper_identity_does_not_silently_keep_last) ... ok
+test_duplicate_evidence_is_rejected_before_creating_output (test_source_handoff.SourceHandoffTests.test_duplicate_evidence_is_rejected_before_creating_output) ... ok
+test_future_unbound_source_does_not_block_current_pilot (test_source_handoff.SourceHandoffTests.test_future_unbound_source_does_not_block_current_pilot) ... ok
+test_local_design_evidence_source_bytes_are_checked (test_source_handoff.SourceHandoffTests.test_local_design_evidence_source_bytes_are_checked) ... ok
+test_native_execution_intake_freezes_the_actual_design (test_source_handoff.SourceHandoffTests.test_native_execution_intake_freezes_the_actual_design) ... ok
+test_ready_plan_needs_nonempty_human_handoff (test_source_handoff.SourceHandoffTests.test_ready_plan_needs_nonempty_human_handoff) ... ok
+test_scoped_checked_fact_cannot_use_missing_local_source (test_source_handoff.SourceHandoffTests.test_scoped_checked_fact_cannot_use_missing_local_source) ... ok
+test_scoped_local_evidence_needs_the_reviewed_hash (test_source_handoff.SourceHandoffTests.test_scoped_local_evidence_needs_the_reviewed_hash) ... ok
+test_selected_evidence_drift_is_detected_beyond_the_idea_index (test_source_handoff.SourceHandoffTests.test_selected_evidence_drift_is_detected_beyond_the_idea_index) ... ok
+test_selected_pdf_identity_is_checked (test_source_handoff.SourceHandoffTests.test_selected_pdf_identity_is_checked) ... ok
+test_unselected_paper_does_not_block_selected_design (test_source_handoff.SourceHandoffTests.test_unselected_paper_does_not_block_selected_design) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.781s
+
+OK

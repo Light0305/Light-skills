@@ -1,0 +1,289 @@
+{
+  "data_kind": "synthetic_validation",
+  "analysis_timing": "retrospective",
+  "sources": [
+    {
+      "input_id": "S0001",
+      "original_path": "D:\\Light-Science\\light-anaysis\\evaluations\\fixtures\\task-seed-comparison\\protocol.md",
+      "frozen_copy": "inputs\\protocol.md",
+      "sha256": "e47cdd0614956fec79c7d44ded3f0a8d0d53af1d181a0f953c0dc34454944a12",
+      "bytes": 1593
+    },
+    {
+      "input_id": "S0002",
+      "original_path": "D:\\Light-Science\\light-anaysis\\evaluations\\fixtures\\task-seed-comparison\\scores.csv",
+      "frozen_copy": "inputs\\scores.csv",
+      "sha256": "f8c8219a532c9b96c37a90dad0c2642aa14e0c63201cb3cc1726ce4d92d41be1",
+      "bytes": 359
+    }
+  ],
+  "audit": {
+    "expected_rows": 24,
+    "actual_rows": 24,
+    "tasks": [
+      "T01",
+      "T02",
+      "T03",
+      "T04"
+    ],
+    "methods": [
+      "A",
+      "B"
+    ],
+    "runs_per_task_method": 3,
+    "missing_rows": 0,
+    "duplicate_keys": 0,
+    "invalid_scores": 0,
+    "excluded_rows": 0,
+    "seed_pairing": false,
+    "process_successes": 24,
+    "process_success_basis": "Protocol only; no logs supplied",
+    "task_probability_sample": false,
+    "domain_confidence_interval_identified": false
+  },
+  "task_summaries": [
+    {
+      "task": "T01",
+      "A": {
+        "n": 3,
+        "mean": 0.81,
+        "sample_sd": 0.0020000000000000018,
+        "sample_variance": 4.0000000000000074e-06,
+        "raw_csv_lines": [
+          2,
+          3,
+          4
+        ]
+      },
+      "B": {
+        "n": 3,
+        "mean": 0.78,
+        "sample_sd": 0.0010000000000000009,
+        "sample_variance": 1.0000000000000019e-06,
+        "raw_csv_lines": [
+          5,
+          6,
+          7
+        ]
+      },
+      "difference_accuracy": 0.030000000000000027,
+      "difference_pp": 3.0000000000000027
+    },
+    {
+      "task": "T02",
+      "A": {
+        "n": 3,
+        "mean": 0.7,
+        "sample_sd": 0.0020000000000000018,
+        "sample_variance": 4.0000000000000074e-06,
+        "raw_csv_lines": [
+          8,
+          9,
+          10
+        ]
+      },
+      "B": {
+        "n": 3,
+        "mean": 0.69,
+        "sample_sd": 0.0010000000000000009,
+        "sample_variance": 1.0000000000000019e-06,
+        "raw_csv_lines": [
+          11,
+          12,
+          13
+        ]
+      },
+      "difference_accuracy": 0.010000000000000009,
+      "difference_pp": 1.0000000000000009
+    },
+    {
+      "task": "T03",
+      "A": {
+        "n": 3,
+        "mean": 0.59,
+        "sample_sd": 0.0020000000000000018,
+        "sample_variance": 4.0000000000000074e-06,
+        "raw_csv_lines": [
+          14,
+          15,
+          16
+        ]
+      },
+      "B": {
+        "n": 3,
+        "mean": 0.61,
+        "sample_sd": 0.0010000000000000009,
+        "sample_variance": 1.0000000000000019e-06,
+        "raw_csv_lines": [
+          17,
+          18,
+          19
+        ]
+      },
+      "difference_accuracy": -0.020000000000000018,
+      "difference_pp": -2.0000000000000018
+    },
+    {
+      "task": "T04",
+      "A": {
+        "n": 3,
+        "mean": 0.72,
+        "sample_sd": 0.0020000000000000018,
+        "sample_variance": 4.0000000000000074e-06,
+        "raw_csv_lines": [
+          20,
+          21,
+          22
+        ]
+      },
+      "B": {
+        "n": 3,
+        "mean": 0.73,
+        "sample_sd": 0.0010000000000000009,
+        "sample_variance": 1.0000000000000019e-06,
+        "raw_csv_lines": [
+          23,
+          24,
+          25
+        ]
+      },
+      "difference_accuracy": -0.010000000000000009,
+      "difference_pp": -1.0000000000000009
+    }
+  ],
+  "fixed_task_macro": {
+    "mean_A": 0.705,
+    "mean_B": 0.7025,
+    "mean_difference_accuracy": 0.0025000000000000022,
+    "mean_difference_pp": 0.2500000000000002,
+    "threshold_accuracy": 0.01,
+    "gap_below_threshold_accuracy": 0.007499999999999998,
+    "n_tasks": 4,
+    "n_training_runs": 24,
+    "observed_positive_tasks": 2,
+    "observed_negative_tasks": 2,
+    "between_task_effect_sd_accuracy": 0.022173557826083472
+  },
+  "conditional_training_interval": {
+    "level": 0.95,
+    "lower": 0.0010904563285242274,
+    "upper": 0.0039095436714757775,
+    "standard_error": 0.0006454972243679034,
+    "welch_satterthwaite_df": 11.76470588235294,
+    "critical_t": 2.183655666151092,
+    "variance_components": [
+      {
+        "task": "T01",
+        "method": "A",
+        "variance_contribution": 8.333333333333348e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T01",
+        "method": "B",
+        "variance_contribution": 2.083333333333337e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T02",
+        "method": "A",
+        "variance_contribution": 8.333333333333348e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T02",
+        "method": "B",
+        "variance_contribution": 2.083333333333337e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T03",
+        "method": "A",
+        "variance_contribution": 8.333333333333348e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T03",
+        "method": "B",
+        "variance_contribution": 2.083333333333337e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T04",
+        "method": "A",
+        "variance_contribution": 8.333333333333348e-08,
+        "degrees_of_freedom": 2
+      },
+      {
+        "task": "T04",
+        "method": "B",
+        "variance_contribution": 2.083333333333337e-08,
+        "degrees_of_freedom": 2
+      }
+    ],
+    "method": "Fixed-task equal-weight contrast; independent cell variances; approximate Welch-Satterthwaite t",
+    "scope": "Training randomness on these four fixed tasks/splits only; no domain, test-example or selection coverage",
+    "assumptions": "Independent training runs/cells; approximately normal cell scores; n=3 cannot validate distribution",
+    "epistemic_status": "Retrospective exploratory calculation on synthetic validation data"
+  },
+  "hypothetical_task_sampling_sensitivity": {
+    "level": 0.95,
+    "lower": -0.03278307858931315,
+    "upper": 0.03778307858931315,
+    "n_tasks": 4,
+    "df": 3,
+    "standard_error": 0.011086778913041736,
+    "critical_t": 3.182446305284263,
+    "method": "t interval on four task mean differences",
+    "scope": "Hypothetical iid representative-task sampling and suitable task-effect model",
+    "valid_domain_coverage_claim": false,
+    "reason": "Known convenience selection; task representativeness and t-model assumptions unsupported"
+  },
+  "leave_one_task_out": [
+    {
+      "omitted_task": "T01",
+      "n_tasks_remaining": 3,
+      "mean_difference_accuracy": -0.006666666666666672
+    },
+    {
+      "omitted_task": "T02",
+      "n_tasks_remaining": 3,
+      "mean_difference_accuracy": 0.0
+    },
+    {
+      "omitted_task": "T03",
+      "n_tasks_remaining": 3,
+      "mean_difference_accuracy": 0.010000000000000009
+    },
+    {
+      "omitted_task": "T04",
+      "n_tasks_remaining": 3,
+      "mean_difference_accuracy": 0.006666666666666672
+    }
+  ],
+  "numeric_checks": {
+    "exact_macro_fraction": "1/400",
+    "exact_task_effects": {
+      "T01": "3/100",
+      "T02": "1/100",
+      "T03": "-1/50",
+      "T04": "-1/100"
+    },
+    "exact_macro_variance_fraction": "1/2400000",
+    "quantile_cdf_by_independent_quadrature_fixed": 0.974999999999796,
+    "quantile_cdf_by_independent_quadrature_task": 0.975000000000011,
+    "macro_variance_deletion_checks_passed": true
+  },
+  "execution": {
+    "utc_time": "2026-11-02T03:41:28.770310+00:00",
+    "command": "python -X utf8 code/analyze.py",
+    "cwd": "C:\\Users\\Light\\AppData\\Local\\Temp\\light-anaysis-forward-65bc646f12d04c158c73301b4d94c094",
+    "python_executable": "D:\\Anaconda\\python.exe",
+    "python": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "scipy": "1.11.4",
+    "randomness": "None; deterministic calculation, no resampling",
+    "analysis_code_sha256": "9a4bb038080c196f5d6df68091f4c58de9f5da27b75ab6f15d271a8fa822585b",
+    "plan_sha256": "7ad572eab6615a3cf6816fe42fad6c2fce7b4059604983f38c82c1ff1b27d54c"
+  }
+}

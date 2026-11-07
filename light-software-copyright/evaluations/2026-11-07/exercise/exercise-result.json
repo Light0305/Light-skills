@@ -1,0 +1,146 @@
+{
+  "synthetic": true,
+  "software_runs": [
+    {
+      "name": "sample",
+      "command": [
+        "D:\\Anaconda\\python.exe",
+        "-B",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\project\\measure.py",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\project\\sample.csv",
+        "--output",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\project\\results\\sample.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Validated 4 records; wrote sample.json\n",
+      "stderr": ""
+    },
+    {
+      "name": "bad",
+      "command": [
+        "D:\\Anaconda\\python.exe",
+        "-B",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\project\\measure.py",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\project\\bad.csv",
+        "--output",
+        "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\project\\results\\bad.json"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "Non-finite value at line 2\n"
+    }
+  ],
+  "results": {
+    "record_count": 4,
+    "groups": [
+      {
+        "group": "A",
+        "count": 2,
+        "sum": 6.0,
+        "mean": 3.0,
+        "minimum": 2.0,
+        "maximum": 4.0
+      },
+      {
+        "group": "B",
+        "count": 2,
+        "sum": 24.0,
+        "mean": 12.0,
+        "minimum": 10.0,
+        "maximum": 14.0
+      }
+    ]
+  },
+  "case": "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1",
+  "paths": [
+    "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_功能说明.docx",
+    "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_软件代码.docx",
+    "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\草稿\\合成测量汇总工具 V0.1_软件说明书.docx"
+  ],
+  "source_pages": 2,
+  "audit_before_visual": {
+    "schema_version": 1,
+    "status": "needs_fix",
+    "errors": [
+      "Review missing: visual_review"
+    ],
+    "warnings": [
+      "Current portal form/signature requirements are unverified; local review does not imply filing readiness"
+    ],
+    "inputs": {
+      "case.json": "45f04c6e636b3f6a1750f0f200221ce462d9eab70feb3f39b27c83136e4f7cf0",
+      "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+      "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+      "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+      "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+      "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+      "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+    },
+    "artifact_count": 3,
+    "checked_kinds": [
+      "code",
+      "functions",
+      "manual"
+    ],
+    "portal_ready": false,
+    "scope": "Local material checks only; visual review, factual evidence and current portal requirements remain separate."
+  },
+  "scope": "Synthetic tool exercise; not a real registration project.",
+  "audit_after_readback": {
+    "schema_version": 1,
+    "status": "local_review_ready",
+    "errors": [],
+    "warnings": [
+      "Current portal form/signature requirements are unverified; local review does not imply filing readiness"
+    ],
+    "inputs": {
+      "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+      "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+      "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+      "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+      "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+      "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+      "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+    },
+    "artifact_count": 3,
+    "checked_kinds": [
+      "code",
+      "functions",
+      "manual"
+    ],
+    "portal_ready": false,
+    "scope": "Local material checks only; visual review, factual evidence and current portal requirements remain separate."
+  },
+  "release_paths": [
+    "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\正式资料\\合成测量汇总工具 V0.1\\合成测量汇总工具 V0.1_功能说明.docx",
+    "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\正式资料\\合成测量汇总工具 V0.1\\合成测量汇总工具 V0.1_软件代码.docx",
+    "D:\\Light-Skills\\light-software-copyright\\evaluations\\2026-11-07\\exercise\\SoftwareCopyright\\SWC-0001_合成测量汇总V0.1\\正式资料\\合成测量汇总工具 V0.1\\合成测量汇总工具 V0.1_软件说明书.docx"
+  ],
+  "final_audit": {
+    "schema_version": 1,
+    "status": "local_review_ready",
+    "errors": [],
+    "warnings": [
+      "Current portal form/signature requirements are unverified; local review does not imply filing readiness"
+    ],
+    "inputs": {
+      "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+      "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+      "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+      "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+      "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+      "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+      "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+    },
+    "artifact_count": 6,
+    "checked_kinds": [
+      "code",
+      "functions",
+      "manual"
+    ],
+    "portal_ready": false,
+    "scope": "Local material checks only; visual review, factual evidence and current portal requirements remain separate."
+  },
+  "native_render": "qa/render-result.json",
+  "visual_review": "qa/visual-review.json"
+}

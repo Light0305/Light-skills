@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Chart"
+  short_description: "Create, refine, and audit scientific data figures"
+  default_prompt: "Use $light-chart to turn my research data into a clear, editable scientific figure."

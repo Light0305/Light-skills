@@ -1,0 +1,1185 @@
+[
+  {
+    "run_id": "before-biology-draft-light-write",
+    "case_id": "biology-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 156,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      130,
+      170
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 25.08,
+    "usage": {
+      "input_tokens": 27348,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 388,
+      "reasoning_output_tokens": 198
+    }
+  },
+  {
+    "run_id": "before-biology-draft-upstream",
+    "case_id": "biology-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 152,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      130,
+      170
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 18.25,
+    "usage": {
+      "input_tokens": 31929,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 301,
+      "reasoning_output_tokens": 118
+    }
+  },
+  {
+    "run_id": "before-biology-polish-light-write",
+    "case_id": "biology-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 90,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      75,
+      110
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 15.95,
+    "usage": {
+      "input_tokens": 27317,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 250,
+      "reasoning_output_tokens": 102
+    }
+  },
+  {
+    "run_id": "before-biology-polish-upstream",
+    "case_id": "biology-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 89,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      75,
+      110
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 20.78,
+    "usage": {
+      "input_tokens": 30610,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 422,
+      "reasoning_output_tokens": 268
+    }
+  },
+  {
+    "run_id": "before-clinical-draft-light-write",
+    "case_id": "clinical-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 154,
+    "count_unit": "Han characters",
+    "length_range": [
+      180,
+      260
+    ],
+    "length_ok": false,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.26,
+    "usage": {
+      "input_tokens": 27402,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 271,
+      "reasoning_output_tokens": 92
+    }
+  },
+  {
+    "run_id": "before-clinical-draft-upstream",
+    "case_id": "clinical-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 161,
+    "count_unit": "Han characters",
+    "length_range": [
+      180,
+      260
+    ],
+    "length_ok": false,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.55,
+    "usage": {
+      "input_tokens": 31141,
+      "cached_input_tokens": 18304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 271,
+      "reasoning_output_tokens": 76
+    }
+  },
+  {
+    "run_id": "before-clinical-polish-light-write",
+    "case_id": "clinical-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 80,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      65,
+      100
+    ],
+    "length_ok": true,
+    "paragraphs": 2,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.49,
+    "usage": {
+      "input_tokens": 27347,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 218,
+      "reasoning_output_tokens": 99
+    }
+  },
+  {
+    "run_id": "before-clinical-polish-upstream",
+    "case_id": "clinical-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 67,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      65,
+      100
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 17.23,
+    "usage": {
+      "input_tokens": 28368,
+      "cached_input_tokens": 7296,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 333,
+      "reasoning_output_tokens": 227
+    }
+  },
+  {
+    "run_id": "before-computing-draft-light-write",
+    "case_id": "computing-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 171,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      140,
+      190
+    ],
+    "length_ok": true,
+    "paragraphs": 2,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 17.5,
+    "usage": {
+      "input_tokens": 27484,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 289,
+      "reasoning_output_tokens": 68
+    }
+  },
+  {
+    "run_id": "before-computing-draft-upstream",
+    "case_id": "computing-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 172,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      140,
+      190
+    ],
+    "length_ok": true,
+    "paragraphs": 2,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 23.2,
+    "usage": {
+      "input_tokens": 32844,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 385,
+      "reasoning_output_tokens": 154
+    }
+  },
+  {
+    "run_id": "before-computing-polish-light-write",
+    "case_id": "computing-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 110,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      90,
+      130
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 14.22,
+    "usage": {
+      "input_tokens": 28666,
+      "cached_input_tokens": 18304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 223,
+      "reasoning_output_tokens": 70
+    }
+  },
+  {
+    "run_id": "before-computing-polish-upstream",
+    "case_id": "computing-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 117,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      90,
+      130
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.69,
+    "usage": {
+      "input_tokens": 30669,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 278,
+      "reasoning_output_tokens": 116
+    }
+  },
+  {
+    "run_id": "before-engineering-draft-light-write",
+    "case_id": "engineering-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 129,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 17.34,
+    "usage": {
+      "input_tokens": 27282,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 233,
+      "reasoning_output_tokens": 68
+    }
+  },
+  {
+    "run_id": "before-engineering-draft-upstream",
+    "case_id": "engineering-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 134,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 15.8,
+    "usage": {
+      "input_tokens": 30831,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 240,
+      "reasoning_output_tokens": 67
+    }
+  },
+  {
+    "run_id": "before-engineering-polish-light-write",
+    "case_id": "engineering-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 109,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      85,
+      120
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.08,
+    "usage": {
+      "input_tokens": 27266,
+      "cached_input_tokens": 18304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 258,
+      "reasoning_output_tokens": 113
+    }
+  },
+  {
+    "run_id": "before-engineering-polish-upstream",
+    "case_id": "engineering-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 99,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      85,
+      120
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 17.78,
+    "usage": {
+      "input_tokens": 30422,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 326,
+      "reasoning_output_tokens": 191
+    }
+  },
+  {
+    "run_id": "before-humanities-draft-light-write",
+    "case_id": "humanities-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 143,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.59,
+    "usage": {
+      "input_tokens": 27331,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 198,
+      "reasoning_output_tokens": 33
+    }
+  },
+  {
+    "run_id": "before-humanities-draft-upstream",
+    "case_id": "humanities-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 139,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 19.12,
+    "usage": {
+      "input_tokens": 33640,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 254,
+      "reasoning_output_tokens": 92
+    }
+  },
+  {
+    "run_id": "before-humanities-polish-light-write",
+    "case_id": "humanities-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 120,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      100,
+      140
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 15.89,
+    "usage": {
+      "input_tokens": 27329,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 205,
+      "reasoning_output_tokens": 64
+    }
+  },
+  {
+    "run_id": "before-humanities-polish-upstream",
+    "case_id": "humanities-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 113,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      100,
+      140
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 15.08,
+    "usage": {
+      "input_tokens": 30400,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 194,
+      "reasoning_output_tokens": 58
+    }
+  },
+  {
+    "run_id": "before-math-draft-light-write",
+    "case_id": "math-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 120,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.41,
+    "usage": {
+      "input_tokens": 28199,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 255,
+      "reasoning_output_tokens": 66
+    }
+  },
+  {
+    "run_id": "before-math-draft-upstream",
+    "case_id": "math-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 124,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.94,
+    "usage": {
+      "input_tokens": 33639,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 263,
+      "reasoning_output_tokens": 67
+    }
+  },
+  {
+    "run_id": "before-math-polish-light-write",
+    "case_id": "math-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 91,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      80,
+      115
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 14.17,
+    "usage": {
+      "input_tokens": 27273,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 301,
+      "reasoning_output_tokens": 178
+    }
+  },
+  {
+    "run_id": "before-math-polish-upstream",
+    "case_id": "math-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 92,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      80,
+      115
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 12.98,
+    "usage": {
+      "input_tokens": 28227,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 257,
+      "reasoning_output_tokens": 82
+    }
+  },
+  {
+    "run_id": "before-social-draft-light-write",
+    "case_id": "social-draft",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 123,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 19.17,
+    "usage": {
+      "input_tokens": 28200,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 255,
+      "reasoning_output_tokens": 109
+    }
+  },
+  {
+    "run_id": "before-social-draft-upstream",
+    "case_id": "social-draft",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 130,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 23.09,
+    "usage": {
+      "input_tokens": 33298,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 305,
+      "reasoning_output_tokens": 149
+    }
+  },
+  {
+    "run_id": "before-social-polish-light-write",
+    "case_id": "social-polish",
+    "phase": "before",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 121,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      105,
+      145
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.41,
+    "usage": {
+      "input_tokens": 28228,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 224,
+      "reasoning_output_tokens": 53
+    }
+  },
+  {
+    "run_id": "before-social-polish-upstream",
+    "case_id": "social-polish",
+    "phase": "before",
+    "arm": "upstream",
+    "status": "completed",
+    "count": 125,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      105,
+      145
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.59,
+    "usage": {
+      "input_tokens": 31346,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 358,
+      "reasoning_output_tokens": 181
+    }
+  },
+  {
+    "run_id": "after-biology-draft-light-write",
+    "case_id": "biology-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 156,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      130,
+      170
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 20.33,
+    "usage": {
+      "input_tokens": 28283,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 287,
+      "reasoning_output_tokens": 94
+    }
+  },
+  {
+    "run_id": "after-biology-polish-light-write",
+    "case_id": "biology-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 86,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      75,
+      110
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 21.03,
+    "usage": {
+      "input_tokens": 28262,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 498,
+      "reasoning_output_tokens": 351
+    }
+  },
+  {
+    "run_id": "after-clinical-draft-light-write",
+    "case_id": "clinical-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 196,
+    "count_unit": "Han characters",
+    "length_range": [
+      180,
+      260
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 20.34,
+    "usage": {
+      "input_tokens": 29247,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 326,
+      "reasoning_output_tokens": 119
+    }
+  },
+  {
+    "run_id": "after-clinical-polish-light-write",
+    "case_id": "clinical-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 83,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      65,
+      100
+    ],
+    "length_ok": true,
+    "paragraphs": 2,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.53,
+    "usage": {
+      "input_tokens": 29202,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 210,
+      "reasoning_output_tokens": 86
+    }
+  },
+  {
+    "run_id": "after-computing-draft-light-write",
+    "case_id": "computing-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 170,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      140,
+      190
+    ],
+    "length_ok": true,
+    "paragraphs": 2,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 20.75,
+    "usage": {
+      "input_tokens": 29329,
+      "cached_input_tokens": 19200,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 63
+    }
+  },
+  {
+    "run_id": "after-computing-polish-light-write",
+    "case_id": "computing-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 111,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      90,
+      130
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 15.14,
+    "usage": {
+      "input_tokens": 30521,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 208,
+      "reasoning_output_tokens": 57
+    }
+  },
+  {
+    "run_id": "after-engineering-draft-light-write",
+    "case_id": "engineering-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 137,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 17.39,
+    "usage": {
+      "input_tokens": 28217,
+      "cached_input_tokens": 18304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 260,
+      "reasoning_output_tokens": 86
+    }
+  },
+  {
+    "run_id": "after-engineering-polish-light-write",
+    "case_id": "engineering-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 103,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      85,
+      120
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 14.91,
+    "usage": {
+      "input_tokens": 28211,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 207,
+      "reasoning_output_tokens": 71
+    }
+  },
+  {
+    "run_id": "after-humanities-draft-light-write",
+    "case_id": "humanities-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 143,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 19.38,
+    "usage": {
+      "input_tokens": 29176,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 223,
+      "reasoning_output_tokens": 53
+    }
+  },
+  {
+    "run_id": "after-humanities-polish-light-write",
+    "case_id": "humanities-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 119,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      100,
+      140
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.45,
+    "usage": {
+      "input_tokens": 28274,
+      "cached_input_tokens": 18304,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 212,
+      "reasoning_output_tokens": 70
+    }
+  },
+  {
+    "run_id": "after-math-draft-light-write",
+    "case_id": "math-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 140,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 18.56,
+    "usage": {
+      "input_tokens": 28316,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 296,
+      "reasoning_output_tokens": 103
+    }
+  },
+  {
+    "run_id": "after-math-polish-light-write",
+    "case_id": "math-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 90,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      80,
+      115
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 16.7,
+    "usage": {
+      "input_tokens": 29220,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 291,
+      "reasoning_output_tokens": 133
+    }
+  },
+  {
+    "run_id": "after-social-draft-light-write",
+    "case_id": "social-draft",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 123,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 19.77,
+    "usage": {
+      "input_tokens": 28225,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 233,
+      "reasoning_output_tokens": 85
+    }
+  },
+  {
+    "run_id": "after-social-polish-light-write",
+    "case_id": "social-polish",
+    "phase": "after",
+    "arm": "light-write",
+    "status": "completed",
+    "count": 121,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      105,
+      145
+    ],
+    "length_ok": true,
+    "paragraphs": 1,
+    "usage_limit": false,
+    "tool_events": 0,
+    "elapsed_seconds": 15.48,
+    "usage": {
+      "input_tokens": 28263,
+      "cached_input_tokens": 12416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 257,
+      "reasoning_output_tokens": 85
+    }
+  },
+  {
+    "run_id": "after2-clinical-draft-light-write",
+    "case_id": "clinical-draft",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "Han characters",
+    "length_range": [
+      180,
+      260
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 6.56,
+    "usage": null
+  },
+  {
+    "run_id": "after2-clinical-polish-light-write",
+    "case_id": "clinical-polish",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      65,
+      100
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 8.56,
+    "usage": null
+  },
+  {
+    "run_id": "after2-computing-draft-light-write",
+    "case_id": "computing-draft",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      140,
+      190
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 7.8,
+    "usage": null
+  },
+  {
+    "run_id": "after2-engineering-draft-light-write",
+    "case_id": "engineering-draft",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      110,
+      150
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 11.0,
+    "usage": null
+  },
+  {
+    "run_id": "after2-engineering-polish-light-write",
+    "case_id": "engineering-polish",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      85,
+      120
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 6.94,
+    "usage": null
+  },
+  {
+    "run_id": "after2-humanities-draft-light-write",
+    "case_id": "humanities-draft",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      120,
+      160
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 6.45,
+    "usage": null
+  },
+  {
+    "run_id": "after2-math-polish-light-write",
+    "case_id": "math-polish",
+    "phase": "after2",
+    "arm": "light-write",
+    "status": "error",
+    "count": null,
+    "count_unit": "whitespace tokens",
+    "length_range": [
+      80,
+      115
+    ],
+    "length_ok": null,
+    "paragraphs": null,
+    "usage_limit": true,
+    "tool_events": 0,
+    "elapsed_seconds": 9.67,
+    "usage": null
+  }
+]

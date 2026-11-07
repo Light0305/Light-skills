@@ -1,0 +1,4 @@
+interface:
+  display_name: "Light Idea · 论文选题与研究构思"
+  short_description: "承接文献精读，提出研究问题、核查创新差异并设计最小验证"
+  default_prompt: "使用 $light-idea，接着我的 light-literature 文献材料提出并筛选论文 idea，核查最近工作，给出适合现有资源的方向与最小验证。"

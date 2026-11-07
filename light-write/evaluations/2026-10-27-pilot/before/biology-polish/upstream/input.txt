@@ -1,0 +1,1210 @@
+Complete the manuscript task using only the supplied research material.
+Follow the attached writing guidance, subject to the explicit manuscript request.
+All guidance files needed for this fixed-context test are attached; do not open files,
+invoke skills, use tools, browse, run commands, delegate, or edit any files.
+Do not discuss this test or emit routing announcements. Return only the deliverable
+and any short, materially necessary author note permitted by the request.
+
+<guidance path="nature-polishing/SKILL.md">
+---
+name: nature-polishing
+description: Polish, restructure, or translate academic prose into concise Nature-leaning English while preserving facts, evidence boundaries, terminology, and citation intent. Use for manuscript paragraphs, abstracts, introductions, Results, discussions, conclusions, titles, Methods, Chinese drafts, proofreading, language editing, and general academic or scientific writing. Also use to shorten bloated Results, allocate evidence across main text, captions, and Supplementary Information, prevent reviewer-driven revision accretion, reduce repeated statistics or claims, and apply paragraph-necessity checks. Covers LaTeX layout or typesetting fixes such as sparse pages, stranded headings, oversized or split figures, float errors, multi-panel arrangement, and sparse Supplementary Information via references/latex-layout.md. Trigger on 学术写作、科研写作、论文润色、SCI写作、英文论文润色、语言润色、润色、改写、学术英语、排版.
+---
+
+# Nature-Style Academic Polishing — Router
+
+This skill is split into two layers:
+
+- A **static layer** under `static/` that holds versioned, reusable content fragments (core principles, paper-type playbooks, per-section guidance, language-specific rules, per-journal style).
+- A **dynamic layer** (this file plus `manifest.yaml`) that detects the request's axes and loads only the fragments needed for the current job.
+
+Do not try to apply the polishing logic from memory or from this router. Always load fragments from disk as described below.
+
+## Routing protocol
+
+Follow these five steps every time the skill is invoked.
+
+### 1. Load the manifest and the core layer
+
+Read [manifest.yaml](manifest.yaml). It declares the axes (`paper_type`, `section`, `language`, `journal`), the allowed values, and the file paths each value maps to.
+
+Also read every file listed under `always_load`. These hold the default stance, failure-mode diagnosis, ethics, and output format that apply to every polish job.
+
+### 2. Detect the axis values for this request
+
+For each axis in the manifest, decide the value using the manifest's `detect:` hint and the user's input:
+
+- `paper_type` — research / methods / hypothesis / algorithmic / review. Default: research.
+- `section` — abstract / intro / results / discussion / conclusion / title / methods. May be multiple. Ask the user if it is ambiguous and matters for the polish.
+- `language` — en or zh-to-en. Detect from the draft itself.
+- `journal` — nature / nat-comms / nat-mach-intell / generic. Default:
+  generic. Use `nature` only for flagship Nature, `nat-comms` for Nature
+  Communications and `nat-mach-intell` for Nature Machine Intelligence (NMI).
+  Do not route another Nature Portfolio title through flagship Nature rules.
+
+State the detected axis values in one short line to the user before proceeding, so they can correct you cheaply. This is a progress update, not an approval gate; continue unless a necessary decision remains unresolved.
+
+### 3. Load the matching fragments
+
+For each axis value, Read the file mapped in the manifest. Skip the `section` axis only if the user has supplied free-floating prose with no section context.
+
+Do **not** read every fragment in `static/`. Load only what step 2 selected.
+
+### 4. Polish using the loaded material
+
+Apply the loaded fragments in this priority order, matching the `paper type -> section job -> paragraph logic -> claim/evidence/boundary -> sentence polish` rule from `core/failure-modes.md`:
+
+1. Paper-type playbook (architecture, writing order).
+2. Section-specific job and failure modes.
+3. Journal-specific framing and constraints.
+4. Language-specific sentence and paragraph rules (apply last).
+5. Core stance and ethics throughout.
+
+If a paragraph's structural problem cannot be fixed without inventing content, flag it instead of papering over it.
+
+For Results, full-main-text compression, main-versus-SI allocation, or prose
+added during revision, load `../nature-shared/core/main-text-discipline.md`
+before sentence polishing. Classify each result, retain the shortest sufficient
+evidence chain, and require every addition to trigger a deletion or replacement
+check across the affected paragraph.
+
+For flagship Nature, Nature Communications, Nature Machine Intelligence, or
+another Nature Portfolio title, load the matching shared Nature-style corpus
+guidance:
+
+- Results or Discussion →
+  `../nature-shared/core/nature-results-discussion.md`
+- Introduction or whole-manuscript narrative →
+  `../nature-shared/core/nature-introduction.md`
+- Abstract → `../nature-shared/core/nature-abstract.md`
+
+Preserve claim escalation, the fast question funnel, Introduction–Results
+alignment, discovery-centred abstract compression, evidence-bound local
+interpretation, and cross-Results synthesis. These defaults were initially
+distilled from published NMI papers; treat them as corpus-derived guidance, not
+official policy, and obey the target journal's current rules when they differ.
+
+For any Discussion polish or restructuring job, also load
+`../nature-shared/core/discussion-argument-language.md`. Use its function labels
+to remove Results replay, repair the movement from specific findings to bounded
+implications, calibrate modal and reporting verbs to evidence strength, and make
+limitations and future work resolve named claim boundaries. Treat it as general
+writing guidance, not journal policy.
+
+### 5. Reach for references only when needed
+
+The files under `references/` are deep references, not defaults. Open them on demand per the `references.on_demand` table in the manifest, for example when the user explicitly asks for phrasebank-style alternatives or a stricter style audit.
+
+When the target is Nature Machine Intelligence and exact limits, availability
+sections, conference-extension disclosure or production checks affect the
+revision, load
+`../nature-shared/journal-formats/nature-machine-intelligence.md`.
+
+When the job is a whole manuscript rather than a passage, or the text has already been through more than one round of editing, also load `../nature-shared/core/consistency-sweep.md`. Polishing passage by passage cannot see accumulated drift: one experimental factor under several names, the same quantity in two units, a metric at two precisions, or a superlative the paper's own table contradicts. Sweep for those before working on sentences, and repeat the sweep until a pass finds nothing new.
+
+**Layout/typesetting (排版) requests are different.** If the user asks to fix
+*placement* rather than wording — loose/sparse pages, stranded headings, figures
+that don't fill the page or split across pages, "Float too large", multi-panel
+arrangement, sparse Supplementary Information — skip the prose axes (paper_type,
+section, language, journal) and load `references/latex-layout.md` directly. That
+file is self-contained: it carries the diagnosis workflow (render → contact-sheet →
+read the log), the float-glue and `[H]`/`\clearpage`/`placeins` patterns, and the
+"regenerate wide figures taller at the source" rule. Always compile and visually
+inspect rendered pages before and after — never judge layout from the `.tex` alone.
+
+## Why this split
+
+- The static layer is versioned and reviewable. Adding a new journal style or paper type is one new file plus one manifest line.
+- The dynamic layer keeps each invocation cheap: only the fragments relevant to this draft enter context, instead of the full 1000-line monolith.
+- The router itself is short on purpose. Update fragments, not this file, when adding scope.
+
+</guidance>
+<guidance path="nature-polishing/manifest.yaml">
+name: nature-polishing
+version: 6.6.0
+description: >
+  Declarative manifest for the static/dynamic split. SKILL.md uses this to
+  decide which fragments to load for a given polishing request.
+
+always_load:
+  # Shared layer — common to nature-polishing and nature-writing
+  - ../nature-shared/core/reader-workflow.md
+  - ../nature-shared/core/paper-type-taxonomy.md
+  - ../nature-shared/core/ethics.md
+  - ../nature-shared/core/terminology-ledger.md
+  # Skill-local core
+  - static/core/stance.md
+  - static/core/failure-modes.md
+  - static/core/output-format.md
+
+axes:
+  paper_type:
+    detect: |
+      Decide what kind of paper or section is being polished. Default to research.
+      Use the user's stated framing first; fall back to inference from the text.
+    values:
+      research:       static/fragments/paper_type/research.md
+      methods:        static/fragments/paper_type/methods.md
+      hypothesis:     static/fragments/paper_type/hypothesis.md
+      algorithmic:    static/fragments/paper_type/algorithmic.md
+      review:         static/fragments/paper_type/review.md
+    default: research
+    multi: false
+
+  section:
+    detect: |
+      Identify which section(s) the user wants polished. The user may name
+      one or several. If unclear, ask before loading. Skip this axis only
+      when the user provides standalone prose with no section context.
+    values:
+      abstract:       static/fragments/section/abstract.md
+      intro:          static/fragments/section/intro.md
+      results:        static/fragments/section/results.md
+      discussion:     static/fragments/section/discussion.md
+      conclusion:     static/fragments/section/conclusion.md
+      title:          static/fragments/section/title.md
+      methods:        static/fragments/section/methods.md
+    multi: true
+
+  language:
+    detect: |
+      Detect the source language of the draft. Use zh-to-en when the draft
+      is Chinese or shows strong Chinese-influenced English structure.
+      Otherwise use en.
+    values:
+      en:             static/fragments/language/en.md
+      zh-to-en:       static/fragments/language/zh-to-en.md
+    default: en
+    multi: false
+
+  journal:
+    detect: |
+      Use nature only for the flagship journal Nature. Use nat-comms for Nature
+      Communications and nat-mach-intell for Nature Machine Intelligence or
+      NMI. If the user says "Nature-family" generically or names another Nature
+      Portfolio subjournal, use generic and check that title's current guide.
+    values:
+      nature:         static/fragments/journal/nature.md
+      nat-comms:      static/fragments/journal/nat-comms.md
+      nat-mach-intell: static/fragments/journal/nat-mach-intell.md
+      generic:        static/fragments/journal/generic.md
+    default: generic
+    multi: false
+
+references:
+  on_demand:
+    - condition: polishing, restructuring, or shortening Results or full main text; deciding what belongs in main text versus captions or SI; preventing revision accretion; reducing statistical or claim repetition; or applying a paragraph necessity test
+      path: ../nature-shared/core/main-text-discipline.md
+    - condition: target is flagship Nature, Nature Communications, Nature Machine Intelligence, or another Nature Portfolio title and the user is polishing or restructuring Results, Discussion, or their boundary; testing claim escalation; deciding whether local interpretation or robustness advances the claim; or separating necessary recap from redundant re-demonstration
+      path: ../nature-shared/core/nature-results-discussion.md
+    - condition: polishing, restructuring, or auditing any scientific Discussion; repairing its reverse-funnel movement or function sequence; distinguishing interpretation from Results replay; calibrating modal verbs or hedging; making limitations claim-specific; or converting generic future work into uncertainty-resolving next tests
+      path: ../nature-shared/core/discussion-argument-language.md
+    - condition: target is flagship Nature, Nature Communications, Nature Machine Intelligence, or another Nature Portfolio title and the user is polishing or restructuring the Introduction or whole-manuscript narrative; building a fast problem funnel, exact knowledge gap, literature tension, question-first novelty, compact study roadmap, or Introduction–Results alignment
+      path: ../nature-shared/core/nature-introduction.md
+    - condition: target is flagship Nature, Nature Communications, Nature Machine Intelligence, or another Nature Portfolio title and the user is polishing or restructuring the abstract; compressing the manuscript into a discovery-centred evidence chain; selecting one main claim, one or two decisive supports, optional core numbers, or a bounded field-level payoff
+      path: ../nature-shared/core/nature-abstract.md
+    - condition: needs Nature/Nature Communications article-level patterns for abstracts, intros, Results openings, Discussion, conclusions, titles
+      path: references/published-article-patterns.md
+    - condition: empirical 2025 Nat Commun diction calibration — connector frequencies, the significantly red line, hedge/booster/tense word choices
+      path: references/nat-comms-2025-diction.md
+    - condition: needs section-specific move orders or phrase patterns
+      path: references/section-moves.md
+    - condition: needs hedging, transition, evidence, limitation, future-work phrases
+      path: references/phrasebank-playbook.md
+    - condition: needs academic style, register, article use, or mechanics checks
+      path: references/style-guardrails.md
+    - condition: polishing or proofreading a full manuscript rather than a passage, or the text has been through more than one round of editing — sweep for accumulated terminology/unit/number drift, headline counts that do not reconcile, claims contradicted by the paper's own tables, tense parallelism, and prose that restates displays
+      path: ../nature-shared/core/consistency-sweep.md
+    - condition: needs deeper writing-strategy principles
+      path: references/writing-strategy.md
+    - condition: needs LaTeX layout/typesetting help (排版) — loose or sparse pages, stranded section headings, figures that don't fill the page or split across pages, "Float too large", multi-panel figure arrangement, or Supplementary Information that looks empty
+      path: references/latex-layout.md
+    - condition: target is Nature Machine Intelligence and exact content-type, word/display, data/code, initial-submission, or production requirements affect the polish
+      path: ../nature-shared/journal-formats/nature-machine-intelligence.md
+
+</guidance>
+<guidance path="nature-shared/core/reader-workflow.md">
+# Reader workflow
+
+Used by both `nature-polishing` and `nature-writing`. Always-loaded shared core.
+
+## The reader's question sequence
+
+Most readers of a scientific paper follow a stable sequence:
+
+1. **Relevance** — Is this for me?
+2. **Novelty** — What is new here?
+3. **Trust** — Do I believe it?
+4. **Reuse** — Can I use it?
+5. **Meaning** — What does it mean, and where are the boundaries?
+
+Whether the task is drafting from scratch or polishing existing prose, the paper should help the reader answer these questions in this order.
+
+## Implications
+
+- A draft that buries novelty (question 2) behind methods detail (which serves question 3) will lose readers in the first paragraph.
+- A polish that improves sentence-level fluency without surfacing relevance (question 1) earlier may still fail with broad-audience readers.
+- "Where are the boundaries" (question 5) is the most commonly skipped. Both drafting and polishing should expose it, not paper over it.
+
+</guidance>
+<guidance path="nature-shared/core/paper-type-taxonomy.md">
+# Paper-type taxonomy
+
+Canonical 5-type vocabulary used by both `nature-polishing` and `nature-writing` (and any future skill on the `paper_type` axis).
+
+## The five types
+
+| Type | One-line definition | Reader's central question |
+|---|---|---|
+| **research** | Reports a phenomenon, mechanism, or finding from primary observation or experiment. | What was found and what does it mean? |
+| **methods** | Proposes a new method, protocol, or measurement and demonstrates its advantage. | Does it work? Is it better? Is it reproducible? |
+| **hypothesis** | Establishes or rules out a causal explanation through targeted evidence. | Is the proposed mechanism the right one? |
+| **algorithmic** | Proposes a procedure, model, system, or device and shows it performs reliably and advantageously. | Does it perform under fair comparison? Where does it fail? |
+| **review** | Synthesizes the state of a field, organizing the literature by argument, not by paper. | What is known, where is the disagreement, what is open? |
+
+## Detection guidance
+
+- If the user names a paper type, use it.
+- If the manuscript reports experiments testing a stated mechanism → **hypothesis**.
+- If the manuscript proposes a procedure/model and reports comparisons → **algorithmic**.
+- If the manuscript proposes a measurement or protocol and reports validation → **methods**.
+- If the manuscript synthesizes prior literature without new primary data → **review**.
+- Otherwise → **research** (default).
+
+## Notes on legacy vocab
+
+Some older notes use a longer taxonomy (mechanism / method / resource / device / model / clinical / materials / computational / interdisciplinary). Map onto the five canonical types:
+
+- mechanism, clinical, materials → **research** or **hypothesis** depending on whether a causal claim is central
+- method → **methods**
+- model, device, computational → **algorithmic**
+- resource → usually **methods** (a dataset/benchmark paper) or **research**
+- interdisciplinary → use the dominant argument structure, not the field label
+
+## Skill-specific action layers
+
+Each skill's `static/fragments/paper_type/<type>.md` adds the **action layer** for that skill on top of this taxonomy:
+
+- `nature-polishing` adds diagnostic rules (what to look for, what to fix).
+- `nature-writing` adds constructive rules (argument chain, drafting order).
+
+The taxonomy here is the **shared vocabulary**; the action is skill-specific.
+
+</guidance>
+<guidance path="nature-shared/core/ethics.md">
+# Citation, ethics, and AI boundaries
+
+## Intellectual debt
+
+Originality is usually an amendment, combination, or extension of prior knowledge. A careful writer acknowledges that debt openly. Do not minimize others' contributions just to make the present work seem more original.
+
+## Position attribution clearly
+
+Make it obvious:
+
+- how the paper builds on prior work
+- who was responsible for the earlier idea, method, data, or interpretation
+- where the reader can locate the source
+
+## Cite the source you actually read and verified
+
+- Cite paper `A` for `A`'s own data, methods, claims, or conclusions.
+- Cite paper `B` for `B`'s interpretation, comparison, critique, or commentary on `A`.
+- Avoid leaning on secondary sources when the source article can be cited directly.
+
+## What needs citation
+
+- someone else's ideas
+- data
+- methods
+- wording
+- structure
+- images
+- distinctive interpretation
+
+Do not assume internet material is public domain just because it is online.
+
+## Proofreading checks
+
+Always verify:
+
+- grammatical errors
+- typographical errors
+- figure numbering
+- missing citations
+- whether the paper is a pleasure or an ordeal to read
+
+## AI risk and disclosure boundary
+
+Nature Portfolio applies a risk-based framework. Keep human accountability and
+verification explicit at every level.
+
+`Green — assistive`: generally acceptable with author verification
+
+- improve grammar, clarity, concision, or tone
+- generate outline options or paragraph structures
+- produce alternative titles or abstract phrasings
+- summarize literature for categorization, not as a substitute for reading
+- translate with terminology and hedging checks
+
+`Amber — evaluative or interpretive`: allowed only with strong human control,
+verification and transparent disclosure
+
+- explain methods or results for wording support
+- draft reviewer-response frameworks that are then checked line by line
+- help with code or statistics explanations only if outputs are reproduced and validated
+
+`Red — AI replacing scholarly judgement or lacking transparency`: not permitted
+
+- ask AI to draft the paper's core argument from scratch
+- insert AI-generated references, data, or claims without checking them
+- upload unpublished manuscripts, sensitive data, or peer-review material to public models
+- use AI to fabricate, manipulate, or conceal substantive image creation
+
+## Nature Portfolio submission gate
+
+- AI systems and LLMs do not satisfy authorship criteria and must not appear in
+  the author list.
+- Human authors remain accountable for originality, accuracy, integrity,
+  interpretation and every submitted conclusion.
+- For a flagship Nature submission, document LLM use in Methods or, if no
+  Methods section exists, in a suitable alternative section.
+- Disclose evaluative or interpretive AI use clearly enough that an editor can
+  understand what the system contributed and how humans verified it.
+- Do not upload an unpublished manuscript, peer-review report, sensitive data
+  or confidential editorial material to an unsecured or public AI system.
+- Do not present AI-generated hypotheses, analyses, conclusions, references,
+  data or photorealistic images as accountable human work.
+
+The main danger is not that AI cannot write. The main danger is that it can write incorrectly with great confidence.
+
+Current policy source, verified 2026-08-08:
+<https://www.nature.com/nature-portfolio/editorial-policies/ai>.
+
+</guidance>
+<guidance path="nature-shared/core/terminology-ledger.md">
+# Terminology Ledger
+
+A manuscript must use one name for one thing. The same method, model, dataset,
+gene, metric, or concept must not drift across shifting names, spellings, or
+capitalisation. Reviewers read inconsistent terminology as careless work, and a
+term that changes between sections forces the reader to re-learn it.
+
+Build the ledger **before** drafting or polishing prose, and treat it as the
+single source of truth for the rest of the job. Consistency against a standard
+is impossible if the standard was never written down.
+
+## 1. Build the ledger on first contact
+
+When you first receive a manuscript, draft, or set of notes, extract every
+recurring domain term into a ledger before editing any prose:
+
+- methods, models, systems, algorithms, modules, frameworks
+- datasets, benchmarks, cohorts, materials, reagents
+- genes, proteins, species, cell lines (respect established field nomenclature)
+- metrics, units, statistical symbols, mathematical notation
+- abbreviations and acronyms, each with its full form
+- key concepts the paper defines or repeatedly relies on
+
+For each term, record its canonical form, its first-use expansion (for
+abbreviations), and any variants already present in the source.
+
+## 2. Present the ledger to the user
+
+Show a compact table before or alongside the first output:
+
+| Canonical term | First-use definition | Variants seen in source | Decision |
+|---|---|---|---|
+| scRNA-seq | single-cell RNA sequencing (scRNA-seq) | "single cell RNA-seq", "scRNAseq" | spell out once, then use "scRNA-seq" |
+
+Flag every collision explicitly: the same concept under different names, or one
+name reused for two different concepts. Ask the user to confirm the canonical
+choice only when the decision is genuinely ambiguous or domain-sensitive.
+Otherwise adopt the form the source uses most often and state that choice.
+
+## 3. Lock and enforce
+
+Once set, the ledger is fixed for the whole job:
+
+- Use only canonical forms in every output. Do not introduce synonyms to vary
+  the prose. Terminology consistency outranks lexical variety in scientific
+  writing.
+- Define each abbreviation once, at first use, then use the short form.
+- Keep units, symbols, and notation identical across every section.
+- When drafting or polishing a later section, reference the ledger built from
+  the earlier sections instead of re-deciding term by term.
+- If the user later renames a term, change every occurrence in the manuscript,
+  not just the current passage, and update the ledger.
+
+## 4. Do not invent terms
+
+Do not coin new names for the author's methods, modules, or concepts. If a term
+is missing, undefined, or used inconsistently in ways you cannot resolve from
+the source, ask the user or flag it. Never fill the gap with a guessed name.
+
+</guidance>
+<guidance path="nature-polishing/static/core/stance.md">
+# Default stance
+
+- Language serves argument. Do not polish sentences while leaving the reasoning broken.
+- Write with empathy for the reader: relevance first, then novelty, then trust, then reuse, then meaning.
+- There should be no mystery for the writer, but there may be one for the reader.
+- Do not invent data, references, mechanisms, or novelty claims.
+- Do not let AI draft the paper's core scientific argument from scratch.
+- If the draft is Chinese or structurally rough, reconstruct the logic first and the prose second.
+- On first contact with the draft, build a Terminology Ledger and keep terms, abbreviations, units, and notation consistent across every section. Do not introduce synonyms to vary the prose. See `../../../nature-shared/core/terminology-ledger.md`.
+- Avoid em dashes in polished output by default. Prefer commas, parentheses, or full stops. Use colons sparingly unless the user explicitly asks to preserve dash-based punctuation or wants a colon-led style.
+
+## Reader workflow
+
+See `../../../nature-shared/core/reader-workflow.md` (loaded via manifest `always_load`) for the 5-step reader question sequence. Polishing should help the paper answer those questions in order.
+
+## Protect the core argument
+
+The paper's core argument includes:
+
+- the scientific question the paper actually answers
+- why that question matters
+- how the work differs from existing research
+- what the results imply
+- how the main line of reasoning unfolds
+
+AI may help polish, structure, or compare phrasings. AI should not invent or author the core argument. If the argument is weak or unclear, expose that weakness rather than hiding it under polished language.
+
+</guidance>
+<guidance path="nature-polishing/static/core/failure-modes.md">
+# Diagnose failure mode before editing
+
+Before rewriting, identify the main problem:
+
+- wrong paper type logic
+- missing gap or poor positioning
+- claim without evidence
+- evidence without a clear claim
+- missing boundary or limitation
+- Results and Discussion mixed together
+- weak title or abstract signal
+- inconsistent terminology, abbreviations, units, or notation across sections
+- evidence-complete but main-text-bloated Results
+- reviewer-driven additions appended without deleting redundant prose
+- the same claim or full statistical report repeated across Results and captions
+- sentence-level clutter only
+
+Prioritize fixes in this order:
+
+`paper type -> section job -> evidence placement -> paragraph necessity -> claim/evidence/boundary -> sentence polish`
+
+Do not sentence-polish a draft whose section job is wrong. Surface the structural problem first, then polish.
+
+For Results or full-main-text work, load
+`../../../nature-shared/core/main-text-discipline.md`. Resolve evidence placement,
+revision accretion, explanatory recursion, and claim repetition before editing
+sentence rhythm.
+
+Terminology consistency is a cross-cutting check that runs at every level: build the Terminology Ledger on first contact (see `../../../nature-shared/core/terminology-ledger.md`) and enforce its canonical forms throughout the polish.
+
+</guidance>
+<guidance path="nature-polishing/static/core/output-format.md">
+# Output format
+
+Default output:
+
+1. The polished text as plain prose, not in a code block.
+2. `Revision notes:` with `3-5` short bullets on the major structural and stylistic changes.
+3. If the rewrite changed section logic, say so explicitly.
+
+If the user asks for side-by-side revision, provide:
+
+- `Original`
+- `Polished`
+- `Why changed`
+
+If any paragraph's structural problem could not be fixed without inventing content, say so under `Revision notes:` instead of papering over it.
+
+When the main-text discipline is triggered, add a compact
+`Main-text discipline audit:` that identifies material kept, replaced,
+compressed, relocated to SI/caption, or deleted; states which descriptive and
+primary inferential quantities remain in the main text; and reports the
+before/after word count. Do not bury the polished prose under the audit.
+
+</guidance>
+<guidance path="nature-polishing/static/fragments/paper_type/research.md">
+# Paper type: research
+
+The reader of a research paper asks:
+
+- why the phenomenon matters
+- what was done
+- what was found
+- what it means
+
+## Hourglass structure
+
+Strong research papers mirror an hourglass:
+
+- `Introduction`: open broadly, then narrow to the specific gap, question, hypothesis, methods, and study
+- `Discussion/Conclusion`: widen again, connecting the findings back to the literature and explaining how the knowledge gap was filled
+
+If a paragraph or section violates this architecture, rebuild it before polishing wording.
+
+## Productive writing order
+
+1. Results
+2. Introduction and Conclusion
+3. Title
+4. Discussion
+5. Materials and Methods
+6. Authors
+7. Abstract
+
+Follow the logic of evidence and argument, not the raw order in which the user drafted sentences.
+
+</guidance>
+<guidance path="nature-polishing/static/fragments/section/results.md">
+# Section: Results
+
+Results are the evidence chain that establishes and advances the paper's
+scientific claims.
+
+Load `../../../../nature-shared/core/nature-results-discussion.md` when the
+target is Nature / Nature Portfolio. Rebuild the section around a discovery
+loop, a core-capability validation envelope, or a capability ladder rather than
+an experiment inventory.
+
+Results writing should:
+
+- load `../../../../nature-shared/core/main-text-discipline.md` and classify
+  every result before deciding its location
+- stay mainly in past tense
+- report what was observed, under what conditions, and with what quantitative support
+- use statistics correctly and sparingly
+- keep core discovery and necessary support in the main text
+- move non-central robustness, heterogeneity, provenance detail, alternative
+  inference, and edge cases to SI unless they change the conclusion
+- report the main descriptive quantity and primary inferential support once;
+  avoid duplicating the full report in both Results and captions
+
+End each coherent evidence unit with the bounded inference it supports. Keep
+local interpretation when it directly answers the current experiment and the
+supporting evidence is visible there; move cross-result synthesis, extensive
+literature comparison, and broad implications to Discussion.
+
+## Sentence syntax (Results vs Discussion)
+
+Results sentences usually report:
+
+- `was detected`
+- `increased`
+- `showed`
+- `enabled`
+- `achieved`
+
+Use interpretive syntax (`may reflect`, `suggests that`, `is likely due to`)
+only when the transition is intentional, evidence-bound, and calibrated.
+
+## Common failure modes
+
+- Adding an inline interpretation that is unsupported by the current evidence,
+  or expanding a bounded inference into broad Discussion.
+- Citing supplementary data when the result should stand in the main text.
+- Treating every completed analysis as main-text material.
+- Appending reviewer-defense sentences without checking what they replace.
+- Explaining why a secondary analysis does not contradict the main result over
+  several recursive sentences instead of moving the reconciliation to SI.
+- Restating the same claim in a heading, transition, caption, Results paragraph,
+  and closing sentence without adding a new function.
+- Vague comparisons (`higher than control`) without effect size or test.
+- Replaying an earlier baseline or control and drawing the same conclusion in a
+  later subsection, instead of centring the new perturbation, falsification,
+  stronger comparator, or boundary that creates the deeper inference.
+
+After restructuring, apply the paragraph necessity test to every Results
+paragraph and record whether text was retained, compressed, relocated, or
+deleted. Do not move contradictory or conclusion-changing evidence out of the
+main text.
+
+</guidance>
+<guidance path="nature-polishing/static/fragments/language/en.md">
+# Language: English source
+
+## Sentence rules
+
+- In polished prose, aim for sentences in the `10-30` word range.
+- Keep every sentence at `<= 30` words.
+- Do not produce full sentences under `10` words unless the user explicitly asks for terse style or the item is a heading, label, or fixed technical expression.
+- If any sentence exceeds `20` words, check whether it contains more than one main proposition.
+- Split overloaded sentences rather than polishing them cosmetically.
+- The last sentence of a paragraph often becomes the longest and weakest. Check it explicitly.
+- Prefer one core subject-verb proposition per sentence.
+- Do not use em dashes as prose punctuation in the polished version unless the user explicitly requests them. Rewrite with commas, parentheses, or shorter sentences instead. Use colons only when they add clear structural value.
+
+## Paragraph rules
+
+- Each paragraph should have one controlling idea followed by support.
+- Supporting material may include data, comparison, explanation, consequence, literature, or limitation.
+- If a new idea appears, start a new paragraph instead of stacking it onto the old one.
+- Use thematic linking, not repetitive `This suggests ...` openings.
+
+</guidance>
+<guidance path="nature-polishing/static/fragments/journal/generic.md">
+# Journal: generic
+
+Used when the user has not named a target journal, or the journal is not specifically modeled by another fragment.
+
+## Defaults
+
+- Apply Nature-leaning style without enforcing Nature's strictest length or significance-framing demands.
+- Keep the em-dash and hedging defaults from `core/stance.md`.
+- If the user later names a journal, apply that journal's fragment to the ongoing request; ask only if the intended scope of revision remains materially ambiguous.
+
+## Optional context
+
+Use these details when supplied; otherwise proceed with the generic defaults and state material assumptions. Ask only when missing information changes scientific meaning or a required deliverable. Do not turn these preferences into an intake checklist.
+
+- Target journal and section format (structured vs unstructured abstract; word limits; reference style).
+- Audience breadth: subfield vs broad readership.
+- Whether the draft will go through a separate copy-edit pass (affects how aggressively to rewrite vs flag).
+
+</guidance>
+<guidance path="nature-shared/core/main-text-discipline.md">
+# Main-Text Discipline for Scientific Papers
+
+Use this shared contract when drafting, restructuring, compressing, or revising
+the main text of a scientific manuscript, especially Results. It operationalizes
+an author-supplied writing discipline; it is not a journal policy. Current
+journal instructions and field-specific reporting standards override it when
+they require information in the main text.
+
+## Contents
+
+- [1. Separate evidence completeness from main-text completeness](#1-separate-evidence-completeness-from-main-text-completeness)
+- [2. Classify every result before placement](#2-classify-every-result-before-placement)
+- [3. Build the shortest sufficient evidence chain](#3-build-the-shortest-sufficient-evidence-chain)
+- [4. Prevent revision accretion](#4-prevent-revision-accretion)
+- [5. Separate main text, captions, and SI](#5-separate-main-text-captions-and-si)
+- [6. Apply statistical reporting discipline](#6-apply-statistical-reporting-discipline)
+- [7. Run the paragraph necessity test](#7-run-the-paragraph-necessity-test)
+- [8. Stop explanatory recursion](#8-stop-explanatory-recursion)
+- [9. Audit claim repetition](#9-audit-claim-repetition)
+- [10. Return an auditable compression record](#10-return-an-auditable-compression-record)
+- [Non-negotiable exceptions](#non-negotiable-exceptions)
+
+## 1. Separate evidence completeness from main-text completeness
+
+Preserve the complete evidential record across the manuscript, figures, tables,
+Methods, source data, and Supplementary Information (SI). Do not force that full
+record into the main text. Reserve main-text space for evidence that establishes,
+advances, or materially bounds the central claim.
+
+Do not use compression to hide inconvenient evidence. If an observation changes
+the direction, magnitude, scope, or credibility of the central conclusion, keep
+it visible in the main text even if it is nominally a robustness or subgroup
+analysis.
+
+## 2. Classify every result before placement
+
+Build a result-allocation table before drafting or restructuring Results:
+
+| Class | Decision test | Default destination |
+|---|---|---|
+| `core_discovery` | Does it advance the paper's central conclusion? | Main text, with adequate evidence |
+| `necessary_support` | Must the reader see it to accept the core discovery? | Main text briefly |
+| `qualification` | Does it materially bound or alter the central interpretation? | Main text if yes; otherwise SI |
+| `robustness` | Does it show the result survives an alternative specification, estimator, seed, threshold, or inference procedure without changing the conclusion? | SI, with a concise pointer when useful |
+| `heterogeneity` | Is variation across groups, settings, tasks, or models itself part of the central claim? | Main text if central; otherwise SI |
+| `provenance_detail` | Does it document traceability, preprocessing, implementation, or audit detail without advancing the conclusion? | Methods, Source Data, repository, or SI |
+| `alternative_inference` | Does it test the same claim using a secondary inferential route? | SI unless it changes acceptance of the claim |
+| `edge_case` | Does it define a failure boundary that changes how the claim must be read? | Main text if interpretation changes; otherwise SI |
+
+Classify by function in this paper, not by analysis name. An ablation can be a
+core discovery in a mechanism paper; heterogeneity can be the headline result;
+a confidence interval can be the primary inferential evidence.
+
+## 3. Build the shortest sufficient evidence chain
+
+After classification, write the minimum ordered chain that lets the reader:
+
+1. understand the central observation
+2. see the decisive comparison or mechanism evidence
+3. judge the primary uncertainty or inference
+4. understand any boundary that changes the conclusion
+
+Do not reproduce the chronological record of analyses. Route supporting checks
+to SI with stable pointers. Draft the final Results narrative only after the
+analysis and result-allocation table are stable.
+
+## 4. Prevent revision accretion
+
+Every requested addition triggers a deletion check across the whole affected
+paragraph:
+
+1. State what new function the proposed sentence serves.
+2. Find existing sentences that already serve that function.
+3. Prefer replacement, combination, or compression before appending.
+4. Re-read the paragraph after the edit and delete any sentence made redundant.
+5. Re-run the paragraph necessity test and claim-repetition audit below.
+
+For reviewer-driven edits, ask:
+
+> Does this sentence tell the reader what was discovered, or does it mainly tell
+> a reviewer why an objection does not overturn the result?
+
+Keep the first in the main text when necessary. Route the second to SI or the
+response letter unless the objection is essential to the central inference.
+Answer every reviewer fully in the response letter even when the manuscript
+change is deliberately short.
+
+## 5. Separate main text, captions, and SI
+
+- **Main text:** what was found, the decisive support, and what it means for the
+  central claim.
+- **Figure or table caption:** what is shown and how to read it, including
+  definitions needed to interpret the display.
+- **SI:** why the conclusion survives deeper scrutiny, including secondary
+  analyses, robustness, implementation detail, extended diagnostics, and
+  non-central edge cases.
+
+Do not repeat a full set of effect sizes, confidence intervals, and P values in
+both the main text and caption. Choose one authoritative location for the full
+numeric report and use the other location for the minimum narrative or reading
+cue. Preserve journal-mandated caption content.
+
+## 6. Apply statistical reporting discipline
+
+Compute and retain every analysis required by the design, protocol, reporting
+standard, and integrity audit. In the main text, normally report:
+
+- the descriptive quantity needed to understand the effect
+- the primary inferential statistic or interval needed to support the claim
+
+Route secondary intervals, alternative estimators or inference procedures,
+multiplicity checks, sensitivity analyses, and model-level heterogeneity to SI
+unless they change the conclusion or are required in the main text. Never select
+only the most favorable statistic. Record the complete analysis family and the
+reason for each reporting location.
+
+## 7. Run the paragraph necessity test
+
+For every Results paragraph, ask:
+
+> If this paragraph were removed, would the reader still understand and have
+> adequate evidence for the paper's central claim?
+
+- **No:** keep it.
+- **Yes, but a reviewer might ask for it:** route it to SI or the response letter.
+- **Yes, and the point appears elsewhere:** delete it.
+
+When only one sentence is necessary, keep that sentence and relocate the rest.
+Do not preserve an unnecessary paragraph merely because one clause matters.
+
+## 8. Stop explanatory recursion
+
+Do not explain an explanation in the main text. If a statistical or graphical
+detail needs several sentences to reconcile it with the main result, state the
+result and any conclusion-changing boundary simply, then move the extended
+reconciliation to SI. Keep the longer explanation in the main text only when the
+reconciliation itself is part of the discovery.
+
+## 9. Audit claim repetition
+
+A major claim may be introduced, demonstrated, and synthesized, but each
+appearance must perform a different function. Build a claim-location map across
+the heading, transition, figure/table caption, Results paragraph, Discussion,
+and closing sentence. For each occurrence, mark `introduce`, `demonstrate`,
+`interpret`, `synthesize`, `shorten`, or `delete`.
+
+Delete or compress restatements that add no new evidence, boundary, or
+interpretation. Do not force the same full claim into every rhetorical slot.
+
+## 10. Return an auditable compression record
+
+For a Results or full-manuscript restructuring task, return or maintain:
+
+1. **Result-allocation table:** result, class, effect on central interpretation,
+   destination, and SI/caption pointer.
+2. **Shortest evidence chain:** ordered main-text claims and their decisive
+   evidence.
+3. **Deletion log:** appended, replaced, compressed, relocated, or deleted text,
+   with a short reason.
+4. **Statistics-location record:** primary main-text report and secondary SI
+   analyses.
+5. **Claim-repetition map:** retained rhetorical function at each location.
+6. **Word-count delta:** before and after for every revised Results subsection.
+
+The prose remains the deliverable. Keep the audit compact unless the user asks
+for the full table.
+
+## Non-negotiable exceptions
+
+- Do not move information required for reproducibility, research integrity,
+  participant safety, ethics, or a mandatory reporting checklist merely to save
+  words.
+- Do not bury contradictory or conclusion-changing evidence in SI.
+- Do not strip a qualification that prevents a misleading causal, clinical,
+  societal, or generalization claim.
+- Do not remove statistics required by the target journal, study design, or
+  field standard.
+- When the user or editor explicitly requires a point in the main text, comply
+  but still replace or compress neighboring redundancy before appending.
+
+</guidance>
+<guidance path="nature-polishing/references/style-guardrails.md">
+# Style Guardrails
+
+Use this file for mechanical and stylistic checks after the main rewrite. This file should refine prose and correctness, not override the main writing strategy in `SKILL.md`.
+
+## Academic style
+
+- prefer cautious, precise prose over conversational confidence
+- avoid contractions
+- avoid rhetorical questions in polished manuscript prose
+- define abbreviations on first use
+- use British spelling by default if the target is Nature-style prose
+- keep figure legends concise; if aiming for Nature style, `<= 300` words is a good upper bound
+- if aiming for Nature style, keep titles at `<= 75` characters including spaces
+
+## Articles
+
+Common checks:
+
+- first mention of a singular count noun: `a` or `an`
+- later mention of the same item: `the`
+- generic plural: usually no article
+- unique entity: often `the`
+- abstract nouns used generally: often no article
+
+Typical repair:
+
+- bad: `The hypoxia induces ...`
+- better: `Hypoxia induces ...`
+
+## Numbers and units
+
+- use numerals for measurements
+- leave a space between the value and the unit: `25 cm`, `3.2 s`
+- keep statistical symbols and mathematical notation consistent
+- use en dashes for ranges where appropriate
+
+Do not rewrite numbers into words unless the surrounding house style demands it.
+
+## Academic register
+
+- avoid spoken fillers and weak evaluative language
+- use `we` only when it suits the discipline and document type
+- keep nominalisation useful, not excessive
+- keep the prose impersonal where appropriate, but do not force lifelessness
+
+## Sentence and paragraph checks
+
+- each sentence should express one main proposition
+- dependent clauses must stay attached to a main clause
+- do not join two independent clauses with only a comma
+- each paragraph needs a controlling idea and supporting material
+- avoid common structure errors such as sentence fragments introduced by `although` or `whereas`
+
+## Overclaim checklist
+
+Flag and soften:
+
+- `prove`
+- `conclusively`
+- `unprecedented`
+- `best`
+- `superior`
+- `first`
+
+Safer replacements:
+
+- `show`
+- `suggest`
+- `to our knowledge`
+- `among the strongest`
+- `in this cohort`
+
+## Integrity rules
+
+- do not invent references
+- do not alter quantitative values unless correcting an obvious typo requested by the user
+- do not upgrade association to causation
+- do not imply broader generalisability than the study supports
+
+## AI boundary
+
+Use AI for language control, not for scientific fabrication.
+
+Allowed:
+
+- grammar and clarity
+- restructuring and hedging
+- translation with terminology checking
+
+Not allowed:
+
+- fabricated citations or datasets
+- invented mechanisms presented as fact
+- unsupported claims of novelty
+
+</guidance>
+<guidance path="nature-polishing/references/section-moves.md">
+# Section Moves
+
+## Contents
+
+- [Introduction](#introduction)
+- [Literature Review](#literature-review)
+- [Methods](#methods)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Conclusion](#conclusion)
+- [Abstract](#abstract)
+- [Title](#title)
+
+
+Use this file only after the main section logic has been decided in `SKILL.md`. This file is for phrase-level and move-level support derived from `Academic Phrasebank`, not for deciding the paper's overall writing strategy.
+
+## Introduction
+
+Questions this section must answer:
+
+1. Why does the topic matter?
+2. What is already known?
+3. What is still missing or contested?
+4. What does the present study ask or do?
+
+Preferred move order:
+
+1. establish importance
+2. summarize what is known
+3. identify a gap, limitation, or controversy
+4. state the study aim
+5. indicate value or approach
+
+Useful phrase families:
+
+- `Recent years have seen increasing interest in ...`
+- `X is a central issue in ...`
+- `Previous studies have shown that ...`
+- `However, the mechanisms underlying ... remain poorly understood.`
+- `Few studies have examined ...`
+- `Here, we investigate whether ...`
+- `This work provides ...`
+
+Avoid:
+
+- long historical throat-clearing
+- detailed results
+- inflated novelty claims before the gap is defined
+
+## Literature Review
+
+Questions this section must answer:
+
+1. What lines of work define the field?
+2. What has been established?
+3. Where do findings diverge or remain incomplete?
+4. Which gap matters for the present paper?
+
+Preferred move order:
+
+1. describe the scope of existing work
+2. identify dominant approaches
+3. state what has been established
+4. note disagreements or contradictions
+5. isolate the missing piece
+
+Useful phrase families:
+
+- `A substantial body of work has focused on ...`
+- `Most studies have relied on ...`
+- `Previous work has established that ...`
+- `Findings have been mixed regarding ...`
+- `By contrast, little attention has been paid to ...`
+- `No study has yet examined ...`
+
+Avoid:
+
+- citation-by-citation summary
+- treating all prior work as uniformly weak
+
+## Methods
+
+Question this section must answer:
+
+- Could another group reproduce the work from this description, or from this description plus a clearly cited protocol?
+
+Preferred move order:
+
+1. design or cohort
+2. materials or data source
+3. procedure
+4. outcome measures
+5. analysis and statistics
+6. ethics when relevant
+
+Useful phrase families:
+
+- `A cross-sectional study was undertaken to ...`
+- `Samples were collected from ...`
+- `X was quantified using ...`
+- `We used ... to assess ...`
+- `Differences were analysed using ...`
+- `All analyses were performed in ...`
+
+Avoid:
+
+- `under standard conditions`
+- `using routine methods`
+- `data were analysed statistically`
+
+## Results
+
+Question this section must answer:
+
+- What was observed, under which condition, and with what evidence?
+
+Preferred move order:
+
+1. orient the reader to the figure, table, or experiment
+2. state the main observation
+3. add quantitative detail
+4. note expected or unexpected patterns
+5. compare with prior work only if it clarifies the result
+
+Useful phrase families:
+
+- `Figure 1 shows ...`
+- `As shown in Table 1, ...`
+- `The most notable finding was that ...`
+- `Contrary to expectations, ...`
+- `No significant difference was observed in ...`
+- `These results are consistent with ...`
+- `In contrast to earlier reports, ...`
+
+Avoid:
+
+- discussion-length mechanism explanations
+- repeating every visual detail from the figure
+
+## Discussion
+
+Questions this section must answer:
+
+1. What do the main findings mean?
+2. How do they relate to earlier work?
+3. Which explanations are plausible?
+4. What limitations constrain interpretation?
+5. What follows from the findings, and what does not?
+
+Preferred move order:
+
+1. restate the main finding
+2. explain plausible reasons
+3. compare with earlier work
+4. note limitations
+5. state implications
+6. point to future work if needed
+
+Useful phrase families:
+
+- `Taken together, these findings suggest that ...`
+- `A possible explanation is that ...`
+- `This discrepancy may reflect ...`
+- `These results should be interpreted with caution because ...`
+- `An implication of this is that ...`
+- `Further work is needed to determine whether ...`
+
+Avoid:
+
+- repeating the Results section in new words
+- claiming mechanism when only association was shown
+
+## Conclusion
+
+Questions this section must answer:
+
+1. What was the central contribution?
+2. Which finding matters most?
+3. What implication follows, with what boundary?
+
+Preferred move order:
+
+1. return to the aim
+2. summarize the decisive finding
+3. state contribution or significance
+4. give a boundary or forward look
+
+Useful phrase families:
+
+- `This study set out to ...`
+- `The present findings indicate that ...`
+- `These results extend our understanding of ...`
+- `Notwithstanding these limitations, ...`
+- `Further studies are required to ...`
+
+Avoid:
+
+- introducing new experiments
+- ending on vague praise of the work
+
+## Abstract
+
+Questions this section must answer:
+
+1. What problem or gap is being addressed?
+2. What was done?
+3. What was found?
+4. Why should the reader care?
+
+Preferred move order:
+
+1. broad context
+2. concrete gap
+3. approach
+4. key result with numbers if available
+5. implication
+
+Useful phrase families:
+
+- `X remains challenging because ...`
+- `Here, we ...`
+- `Using ... , we found that ...`
+- `We show that ...`
+- `These findings suggest ...`
+
+Keep the abstract selective. If a detail does not affect editorial triage, it probably does not belong.
+
+## Title
+
+Question this section must answer:
+
+- Which few words make the paper searchable, accurate, and interesting without overclaiming?
+
+Target properties:
+
+- searchable
+- specific
+- restrained
+- defensible
+
+Useful patterns:
+
+- `[Core entity] in/through/by [mechanism or context]`
+- `[Process] shapes [outcome] in [system]`
+- `[Signature/pattern/framework] of [phenomenon]`
+
+Avoid:
+
+- `A study of ...`
+- vague hooks
+- unverified `first`
+- stacked jargon
+
+</guidance>
+<manuscript_task>
+{
+  "source_facts": [
+    "Source paragraph: The treatment made marker Z 1.6-fold of vehicle at 24 h in cell line C. We used three separate cultures and two assay wells from each culture, so n was six independent biological experiments. There was not a direct binding experiment. We conclude drug T directly binds regulator Q to induce Z in every cell type. The culture-level estimate was 1.6-fold with 95% CI 1.1–2.2. The assay-well readings are nested within cultures."
+  ],
+  "request": "Polish this Results paragraph into 75–110 English words. Correct the replication description and unsupported mechanism using the source's explicit design. Keep the marker, time, fold-change and uncertainty; provide one brief note explaining substantive corrections."
+}
+</manuscript_task>

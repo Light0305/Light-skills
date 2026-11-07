@@ -1,0 +1,105 @@
+{
+  "visio_version": "16.0",
+  "scene_sha256": "8c3a6001e210896bd6d38b3a99512711320d5c1c859461737e46bf29ac14d2ba",
+  "font": "Arial",
+  "pages": [
+    {
+      "name": "Synthetic geometry",
+      "shape_count": 3,
+      "expected_shape_count": 3,
+      "shape_count_matches": true,
+      "edge_count": 1,
+      "text_failures": [],
+      "glue_failures": [],
+      "arrow_failures": [],
+      "edges": [
+        {
+          "id": "edge",
+          "shape_id": 3,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "A",
+          "target": "B",
+          "one_d": true,
+          "begin_arrow": 0,
+          "end_arrow": 13
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 3,
+          "from_cell": "BeginX",
+          "to_id": 1,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 3,
+          "from_cell": "EndX",
+          "to_id": 2,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    }
+  ],
+  "reopened_pages": [
+    {
+      "name": "Synthetic geometry",
+      "shape_count": 3,
+      "expected_shape_count": 3,
+      "shape_count_matches": true,
+      "edge_count": 1,
+      "text_failures": [],
+      "glue_failures": [],
+      "arrow_failures": [],
+      "edges": [
+        {
+          "id": "edge",
+          "shape_id": 3,
+          "begin_glued": true,
+          "end_glued": true,
+          "source": "A",
+          "target": "B",
+          "one_d": true,
+          "begin_arrow": 0,
+          "end_arrow": 13
+        }
+      ],
+      "connections": [
+        {
+          "from_id": 3,
+          "from_cell": "BeginX",
+          "to_id": 1,
+          "to_cell": "Connections.X1"
+        },
+        {
+          "from_id": 3,
+          "from_cell": "EndX",
+          "to_id": 2,
+          "to_cell": "Connections.X1"
+        }
+      ]
+    }
+  ],
+  "movement_probes": [
+    {
+      "node": "A",
+      "tested_endpoints": 1,
+      "failures": [],
+      "restored": true,
+      "passed": true
+    }
+  ],
+  "package": {
+    "media_entries": [],
+    "pages": [
+      {
+        "file": "visio/pages/page1.xml",
+        "shape_count": 3,
+        "text_count": 2,
+        "connect_count": 2
+      }
+    ]
+  },
+  "sha256": "f47e195e63756a4744cb9633ac6f700e2566dd7692e0fca7df3c87f6efeb88c7",
+  "passed": true
+}

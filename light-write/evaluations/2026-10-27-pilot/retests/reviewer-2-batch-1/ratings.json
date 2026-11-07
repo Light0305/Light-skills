@@ -1,0 +1,265 @@
+{
+  "reviews": [
+    {
+      "case_id": "computing-draft",
+      "blind_id": "Q2000",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 3,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Accurately connects foreground-restricted training to the background-shift evaluation and preserves the original-split cost. The qualification “under the tested conditions” appropriately bounds the interpretation. The closing inventory of missing evaluations slightly weakens the contribution-focused Introduction ending.",
+      "suggested_repair": "Integrate the single-run qualification into the contribution statement and shorten the closing list of limitations."
+    },
+    {
+      "case_id": "computing-draft",
+      "blind_id": "Q2001",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Builds a clear technical question around “whether foreground restriction improves performance when backgrounds change, and what it costs on the original split.” Preserves all reported accuracies, training-only masks, and comparison conditions. “A candidate for reducing background dependence” appropriately calibrates the contribution without priority or general superiority claims.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "computing-polish",
+      "blind_id": "Q2010",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Preserves every measurement and comparison condition within the requested length. “Higher measured accuracy at the cost of greater latency” integrates the central trade-off, while “half as many training updates” identifies the attribution problem. Correctly limits both the ablation and universal-superiority interpretation.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "computing-polish",
+      "blind_id": "Q2011",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_approprpriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Accurately preserves the mAP values, latencies, batch size, backbone, unequal updates, and single-run evidence. “Higher observed mAP and slower inference” precisely expresses the trade-off. The ablation is reported without presenting it as proof of mechanism.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "biology-draft",
+      "blind_id": "Q2020",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Synthesizes knockdown and rescue as a “functional contribution” within L and makes the small, uncertain response in M consequential to generalization. The proposed matched-perturbation experiment explicitly distinguishes context dependence from perturbation effectiveness. Its conditional outcomes remain clearly prospective and do not claim a molecular mechanism.",
+      "suggested_repair": "Optionally state explicitly that rescue data in M are currently unavailable."
+    },
+    {
+      "case_id": "biology-draft",
+      "blind_id": "Q2021",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Explains what perturbation and rescue add beyond association while restricting the conclusion to L. “Without rescue data in M” identifies a relevant evidential gap, and uncertainty encompassing no change remains visible. The proposed experiment directly tests whether unequal depletion could explain the discrepancy without inventing completed work.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "biology-polish",
+      "blind_id": "Q2030",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Preserves marker, treatment, cell line, time, fold-change, and culture-level confidence interval. “Technical measurements rather than independent biological replicates” correctly resolves the nested design. The separate note explains the substantive corrections, and no statistical method or mechanism is invented.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "biology-polish",
+      "blind_id": "Q2031",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Clearly distinguishes three cultures from six nested well readings while retaining the complete reported estimate. “Direct binding to regulator Q was not tested” appropriately removes the unsupported mechanism. The Results paragraph and brief explanatory note satisfy the requested format and length.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "clinical-draft",
+      "blind_id": "Q2040",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 3,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Accurately integrates both estimates and explains that excluding early events “削弱了主要估计的稳健性.” It neither treats the intervals as proof of no effect nor claims treatment benefit. However, the prose falls below the requested minimum of 180 Chinese characters when counted as 汉字 rather than including numerical and Latin material.",
+      "suggested_repair": "Expand to 180–260 Chinese characters by explaining that event timing may affect the estimate while the sensitivity analysis cannot identify the reason."
+    },
+    {
+      "case_id": "clinical-draft",
+      "blind_id": "Q2041",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Forms a coherent explanation from the lower primary point estimate to the weakened association after excluding early events. “事件发生时间可能影响估计” is explicitly tentative, followed by “不能单凭该分析确定原因.” The ending accurately characterizes an uncertain, analysis-sensitive association and meets the requested Chinese-character range.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "clinical-polish",
+      "blind_id": "Q2050",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Uses exactly two sentences and retains the setting, sample size, complete performance estimates, and untested calibration. “Discrimination within the internal test sample” states the substantive finding, while the specified missing studies establish the validation boundary without equating prediction with prevention.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "clinical-polish",
+      "blind_id": "Q2051",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Preserves all required estimates and design details in the requested two-sentence format and length. Correctly distinguishes internal discrimination from preventing deterioration or readiness for implementation, connecting those boundaries to the absent prospective, external, and treatment-impact evaluations.",
+      "suggested_repair": "No substantive repair needed."
+    },
+    {
+      "case_id": "engineering-draft",
+      "blind_id": "Q2060",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 3,
+        "domain_appropriateness": 4,
+        "language_quality": 3,
+        "gap_handling": 4
+      },
+      "rationale": "Clearly differentiates the 12, 10, and 9 W predictions from the 8.7 W prototype measurement at 300 K. “Close to the resistance-inclusive prediction” is a defensible descriptive interpretation without claiming complete explanation. The unresolved matched-interface comparison is stated twice, making the abstract somewhat repetitive.",
+      "suggested_repair": "State the missing matched-interface comparison once and use the ending to sharpen the bounded model-to-device contribution."
+    },
+    {
+      "case_id": "engineering-draft",
+      "blind_id": "Q2061",
+      "serious_failures": [],
+      "scores": {
+        "factual_fidelity": 4,
+        "evidence_calibration": 4,
+        "task_completion": 4,
+        "argument_quality": 4,
+        "domain_appropriateness": 4,
+        "language_quality": 4,
+        "gap_handling": 4
+      },
+      "rationale": "Connects the design question, ideal-interface predictions, resistance sensitivity, and measured prototype result into a coherent abstract. “The adjusted predictions do not establish a comparative advantage” correctly handles H's missing resistance evaluation. The final contribution is specific and bounded to interface-aware assessment at the tested temperature.",
+      "suggested_repair": "No substantive repair needed."
+    }
+  ],
+  "pairwise": [
+    {
+      "case_id": "computing-draft",
+      "preferred": "Q2001",
+      "reason": "Frames the technical trade-off more directly and ends with a focused contribution and reproducibility boundary; Q2000 finishes with a broader limitation inventory."
+    },
+    {
+      "case_id": "computing-polish",
+      "preferred": "tie",
+      "reason": "Both preserve every required measurement and condition, integrate the accuracy–latency trade-off, and correctly limit attribution and mechanism claims."
+    },
+    {
+      "case_id": "biology-draft",
+      "preferred": "tie",
+      "reason": "Both provide strong functional synthesis and a discriminating prospective experiment. Q2021 explicitly identifies missing rescue data in M; Q2020 more fully explains the alternative experimental outcomes."
+    },
+    {
+      "case_id": "biology-polish",
+      "preferred": "tie",
+      "reason": "Both accurately correct biological replication, retain the estimate and uncertainty, remove unsupported mechanism and generalization, and supply the requested note."
+    },
+    {
+      "case_id": "clinical-draft",
+      "preferred": "Q2041",
+      "reason": "Meets the Chinese-character requirement and develops a tentative explanation of the sensitivity result while explicitly withholding causal attribution."
+    },
+    {
+      "case_id": "clinical-polish",
+      "preferred": "tie",
+      "reason": "Both satisfy the exact sentence format, preserve all required facts, and clearly distinguish internal discrimination from clinical benefit and implementation readiness."
+    },
+    {
+      "case_id": "engineering-draft",
+      "preferred": "Q2061",
+      "reason": "Delivers the same accurate model-to-prototype reasoning with less repetition and a clearer bounded contribution."
+    }
+  ]
+}

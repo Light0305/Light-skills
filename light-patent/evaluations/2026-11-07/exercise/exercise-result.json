@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "case": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\case.json",
+  "out": "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01",
+  "audit": {
+    "profile": "application",
+    "checked_at": "2026-11-07T00:24:30+09:00",
+    "scope": "结构与已记录的支持链；未判断技术实质、法律结论或版式",
+    "errors": 0,
+    "warnings": 1,
+    "findings": [
+      {
+        "severity": "WARNING",
+        "code": "SEARCH_LIMIT",
+        "location": "search",
+        "message": "检索状态 skipped-by-user；不得给出确定的查新/授权结论"
+      }
+    ]
+  },
+  "verify": {
+    "ok": true,
+    "errors": [],
+    "scope": "recorded_case_sources_and_exports",
+    "visual_review": "not-performed",
+    "meaning": "Recorded bytes only; no technical, legal, novelty, visual or filing certification."
+  },
+  "docx": [
+    "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01\\02_权利要求书.docx",
+    "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01\\03_说明书.docx",
+    "D:\\Light-Skills\\light-patent\\evaluations\\2026-11-07\\exercise\\delivery-v01\\04_说明书摘要.docx"
+  ],
+  "scope": "Known synthetic inventor note; no search, novelty assessment or real filing."
+}

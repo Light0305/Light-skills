@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 transformer-corrected.svg 02 Corrected topology -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="15.36in" height="10.24in"
+		viewBox="0 0 1105.92 737.28" xml:space="preserve" color-interpolation-filters="sRGB" class="st23">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st2 {fill:url(#grad0-6);stroke:#39a5ed;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.304}
+		.st3 {fill:url(#grad0-10);stroke:#ff8c28;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.304}
+		.st4 {fill:url(#grad0-14);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st5 {fill:#070e26;font-family:Arial;font-size:1.38em;font-weight:bold}
+		.st6 {fill:url(#grad0-19);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st7 {fill:url(#grad0-28);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st8 {font-size:1em}
+		.st9 {fill:url(#grad0-34);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st10 {fill:url(#grad0-39);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st11 {fill:#f7f7fb;stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st12 {fill:#070e26;font-family:Arial;font-size:2.04em;font-weight:bold}
+		.st13 {fill:#070e26;font-family:Arial;font-size:1.44001em;font-weight:bold}
+		.st14 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8}
+		.st15 {fill:#070e26;font-family:Arial;font-size:1.8em;font-weight:bold}
+		.st16 {fill:#070e26;font-family:Arial;font-size:1.55999em;font-weight:bold}
+		.st17 {fill:#070e26;font-family:Arial;font-size:1.5em;font-weight:bold}
+		.st18 {stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.52}
+		.st19 {marker-end:url(#mrkr13-139);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.52}
+		.st20 {fill:#0b1532;fill-opacity:1;stroke:#0b1532;stroke-opacity:1;stroke-width:0.5}
+		.st21 {marker-end:url(#mrkr13-145);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.52}
+		.st22 {marker-end:url(#mrkr13-151);stroke:#0b1532;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.52}
+		.st23 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-6" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#c2e4fc" stop-opacity="1"/>
+			<stop offset="1" stop-color="#cde9fc" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-10" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#ffe0c2" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffe6ce" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-14" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#ffeab1" stop-opacity="1"/>
+			<stop offset="1" stop-color="#fff0c4" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-19" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#b9def8" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c5e6fd" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-28" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#d9c9fa" stop-opacity="1"/>
+			<stop offset="1" stop-color="#e1d4fc" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-34" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#bce6d5" stop-opacity="1"/>
+			<stop offset="1" stop-color="#cfeddf" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-39" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(0 0.5 0.5)">
+			<stop offset="0" stop-color="#f2c2ee" stop-opacity="1"/>
+			<stop offset="1" stop-color="#f5d1f1" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-139" class="st20" v:arrowType="13" v:arrowSize="2" v:setback="5.85714" refX="-5.8571428571429"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2,-2) "/>
+		</marker>
+		<marker id="mrkr13-145" class="st20" v:arrowType="13" v:arrowSize="2" v:setback="6" refX="-6" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2,-2) "/>
+		</marker>
+		<marker id="mrkr13-151" class="st20" v:arrowType="13" v:arrowSize="2" v:setback="0" refX="-0" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2,-2) "/>
+		</marker>
+	</defs>
+	<g v:mID="4" v:index="2" v:groupContext="foregroundPage">
+		<title>02 Corrected topology</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape">
+			<title>Light_page_background</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(page_background)"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="1105.92" height="737.28" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(154.8,-194.4)">
+			<title>Light_encoder_container</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(encoder_container)"/>
+			</v:userDefs>
+			<rect x="0" y="365.76" width="290.88" height="371.52" rx="12.96" ry="12.96" class="st2"/>
+		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(676.8,-185.76)">
+			<title>Light_decoder_container</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_container)"/>
+			</v:userDefs>
+			<rect x="0" y="357.12" width="286.56" height="380.16" rx="12.96" ry="12.96" class="st3"/>
+		</g>
+		<g id="shape4-11" v:mID="4" v:groupContext="shape" transform="translate(204.48,-505.44)">
+			<title>Light_enc_norm2</title>
+			<desc>Add &#38; Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_norm2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.08" cy="718.92" width="200.16" height="36.72"/>
+			<rect x="0" y="700.56" width="200.16" height="36.72" rx="7.2" ry="7.2" class="st4"/>
+			<text x="51.78" y="723.89" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Add &#38; Norm</text>		</g>
+		<g id="shape5-16" v:mID="5" v:groupContext="shape" transform="translate(204.48,-430.56)">
+			<title>Light_enc_ff</title>
+			<desc>Feed Forward</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_ff)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.08" cy="714.6" width="200.16" height="45.36"/>
+			<rect x="0" y="691.92" width="200.16" height="45.36" rx="7.2" ry="7.2" class="st6"/>
+			<text x="45.79" y="719.57" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Feed Forward</text>		</g>
+		<g id="shape6-21" v:mID="6" v:groupContext="shape" transform="translate(204.48,-351.36)">
+			<title>Light_enc_norm1</title>
+			<desc>Add &#38; Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_norm1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.08" cy="717.12" width="200.16" height="40.32"/>
+			<rect x="0" y="696.96" width="200.16" height="40.32" rx="7.2" ry="7.2" class="st4"/>
+			<text x="51.78" y="722.09" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Add &#38; Norm</text>		</g>
+		<g id="shape7-25" v:mID="7" v:groupContext="shape" transform="translate(204.48,-252)">
+			<title>Light_enc_attention</title>
+			<desc>Multi-Head Self-Attention</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_attention)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.08" cy="701.28" width="200.16" height="72"/>
+			<rect x="0" y="665.28" width="200.16" height="72" rx="7.2" ry="7.2" class="st7"/>
+			<text x="57.76" y="696.31" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Multi-Head<v:newlineChar/><tspan
+						x="45.81" dy="1.2em" class="st8">Self</tspan>-Attention</text>		</g>
+		<g id="shape8-31" v:mID="8" v:groupContext="shape" transform="translate(204.48,-14.4)">
+			<title>Light_inputs</title>
+			<desc>Inputs</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(inputs)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.08" cy="717.84" width="200.16" height="38.88"/>
+			<rect x="0" y="698.4" width="200.16" height="38.88" rx="7.2" ry="7.2" class="st9"/>
+			<text x="75.24" y="722.81" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Inputs</text>		</g>
+		<g id="shape9-36" v:mID="9" v:groupContext="shape" transform="translate(204.48,-74.16)">
+			<title>Light_input_embedding</title>
+			<desc>Input Embedding</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(input_embedding)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.08" cy="718.92" width="200.16" height="36.72"/>
+			<rect x="0" y="700.56" width="200.16" height="36.72" rx="7.2" ry="7.2" class="st10"/>
+			<text x="32.47" y="723.89" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Input Embedding</text>		</g>
+		<g id="shape10-41" v:mID="10" v:groupContext="shape" transform="translate(102.24,-123.84)">
+			<title>Light_enc_position</title>
+			<desc>Positional Encoding</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_position)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.64" cy="713.16" width="125.28" height="48.24"/>
+			<rect x="0" y="689.04" width="125.28" height="48.24" rx="7.2" ry="7.2" class="st6"/>
+			<text x="23.08" y="708.19" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Positional<v:newlineChar/><tspan
+						x="24.92" dy="1.2em" class="st8">Encoding</tspan></text>		</g>
+		<g id="shape11-46" v:mID="11" v:groupContext="shape" transform="translate(284.4,-132.48)">
+			<title>Light_enc_add</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_add)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.72" cy="718.56" width="37.44" height="37.44"/>
+			<ellipse cx="18.72" cy="718.56" rx="18.72" ry="18.72" class="st11"/>
+			<text x="11.57" y="725.9" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape12-49" v:mID="12" v:groupContext="shape" transform="translate(735.84,-519.12)">
+			<title>Light_dec_norm3</title>
+			<desc>Add &#38; Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_norm3)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="721.08" width="185.04" height="32.4"/>
+			<rect x="0" y="704.88" width="185.04" height="32.4" rx="7.2" ry="7.2" class="st4"/>
+			<text x="44.22" y="726.05" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Add &#38; Norm</text>		</g>
+		<g id="shape13-53" v:mID="13" v:groupContext="shape" transform="translate(735.84,-464.4)">
+			<title>Light_dec_ff</title>
+			<desc>Feed Forward</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_ff)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="719.64" width="185.04" height="35.28"/>
+			<rect x="0" y="702" width="185.04" height="35.28" rx="7.2" ry="7.2" class="st6"/>
+			<text x="38.23" y="724.61" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Feed Forward</text>		</g>
+		<g id="shape14-57" v:mID="14" v:groupContext="shape" transform="translate(735.84,-403.2)">
+			<title>Light_dec_norm2</title>
+			<desc>Add &#38; Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_norm2)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="720.36" width="185.04" height="33.84"/>
+			<rect x="0" y="703.44" width="185.04" height="33.84" rx="7.2" ry="7.2" class="st4"/>
+			<text x="44.22" y="725.33" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Add &#38; Norm</text>		</g>
+		<g id="shape15-61" v:mID="15" v:groupContext="shape" transform="translate(735.84,-345.6)">
+			<title>Light_cross_attention</title>
+			<desc>Cross-Attention</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cross_attention)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="717.48" width="185.04" height="39.6"/>
+			<rect x="0" y="697.68" width="185.04" height="39.6" rx="7.2" ry="7.2" class="st7"/>
+			<text x="27.24" y="722.66" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Cross-Attention</text>		</g>
+		<g id="shape16-65" v:mID="16" v:groupContext="shape" transform="translate(735.84,-280.08)">
+			<title>Light_dec_norm1</title>
+			<desc>Add &#38; Norm</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_norm1)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="720" width="185.04" height="34.56"/>
+			<rect x="0" y="702.72" width="185.04" height="34.56" rx="7.2" ry="7.2" class="st4"/>
+			<text x="44.22" y="724.97" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Add &#38; Norm</text>		</g>
+		<g id="shape17-69" v:mID="17" v:groupContext="shape" transform="translate(735.84,-210.96)">
+			<title>Light_masked_attention</title>
+			<desc>Masked Self-Attention</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(masked_attention)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.52" cy="710.64" width="185.04" height="53.28"/>
+			<rect x="0" y="684" width="185.04" height="53.28" rx="7.2" ry="7.2" class="st7"/>
+			<text x="62.15" y="705.67" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Masked<v:newlineChar/><tspan
+						x="38.25" dy="1.2em" class="st8">Self</tspan>-Attention</text>		</g>
+		<g id="shape18-74" v:mID="18" v:groupContext="shape" transform="translate(737.28,-14.4)">
+			<title>Light_shifted_outputs</title>
+			<desc>Shifted Outputs</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(shifted_outputs)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.88" cy="717.84" width="185.76" height="38.88"/>
+			<rect x="0" y="698.4" width="185.76" height="38.88" rx="7.2" ry="7.2" class="st9"/>
+			<text x="30.79" y="722.81" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Shifted Outputs</text>		</g>
+		<g id="shape19-78" v:mID="19" v:groupContext="shape" transform="translate(737.28,-74.16)">
+			<title>Light_output_embedding</title>
+			<desc>Output Embedding</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(output_embedding)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="92.88" cy="719.28" width="185.76" height="36"/>
+			<rect x="0" y="701.28" width="185.76" height="36" rx="7.2" ry="7.2" class="st10"/>
+			<text x="18.37" y="724.25" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Output Embedding</text>		</g>
+		<g id="shape20-82" v:mID="20" v:groupContext="shape" transform="translate(642.96,-123.84)">
+			<title>Light_dec_position</title>
+			<desc>Positional Encoding</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_position)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="60.84" cy="713.52" width="121.68" height="47.52"/>
+			<rect x="0" y="689.76" width="121.68" height="47.52" rx="7.2" ry="7.2" class="st6"/>
+			<text x="21.28" y="708.55" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Positional<v:newlineChar/><tspan
+						x="23.12" dy="1.2em" class="st8">Encoding</tspan></text>		</g>
+		<g id="shape21-87" v:mID="21" v:groupContext="shape" transform="translate(807.84,-131.76)">
+			<title>Light_dec_add</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_add)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.36" cy="718.92" width="36.72" height="36.72"/>
+			<ellipse cx="18.36" cy="718.92" rx="18.36" ry="18.36" class="st11"/>
+			<text x="11.21" y="726.26" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape22-90" v:mID="22" v:groupContext="shape" transform="translate(716.4,-586.8)">
+			<title>Light_linear</title>
+			<desc>Linear</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(linear)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="102.6" cy="721.8" width="205.2" height="30.96"/>
+			<rect x="0" y="706.32" width="205.2" height="30.96" rx="7.2" ry="7.2" class="st7"/>
+			<text x="77.75" y="726.77" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Linear</text>		</g>
+		<g id="shape23-94" v:mID="23" v:groupContext="shape" transform="translate(716.4,-637.2)">
+			<title>Light_softmax</title>
+			<desc>Softmax</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(softmax)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="102.6" cy="720" width="205.2" height="34.56"/>
+			<rect x="0" y="702.72" width="205.2" height="34.56" rx="7.2" ry="7.2" class="st9"/>
+			<text x="69.93" y="724.97" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Softmax</text>		</g>
+		<g id="shape24-98" v:mID="24" v:groupContext="shape" transform="translate(716.4,-691.2)">
+			<title>Light_probabilities</title>
+			<desc>Output Probabilities</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(probabilities)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="102.6" cy="719.28" width="205.2" height="36"/>
+			<rect x="0" y="701.28" width="205.2" height="36" rx="7.2" ry="7.2" class="st9"/>
+			<text x="23.48" y="724.25" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Output Probabilities</text>		</g>
+		<g id="shape25-102" v:mID="25" v:groupContext="shape" transform="translate(25.92,-511.2)">
+			<title>Light_encoder_label</title>
+			<desc>Encoder</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(encoder_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.48" cy="722.88" width="102.96" height="28.8"/>
+			<rect x="0" y="708.48" width="102.96" height="28.8" class="st14"/>
+			<text x="8.27" y="729.36" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Encoder</text>		</g>
+		<g id="shape26-105" v:mID="26" v:groupContext="shape" transform="translate(995.76,-511.2)">
+			<title>Light_decoder_label</title>
+			<desc>Decoder</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="54" cy="722.88" width="108" height="28.8"/>
+			<rect x="0" y="708.48" width="108" height="28.8" class="st14"/>
+			<text x="10.78" y="729.36" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Decoder</text>		</g>
+		<g id="shape27-108" v:mID="27" v:groupContext="shape" transform="translate(48.24,-352.08)">
+			<title>Light_encoder_repeat</title>
+			<desc>6 layers</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(encoder_repeat)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.68" cy="724.68" width="81.36" height="25.2"/>
+			<rect x="0" y="712.08" width="81.36" height="25.2" class="st14"/>
+			<text x="5.81" y="730.3" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6 layers</text>		</g>
+		<g id="shape28-111" v:mID="28" v:groupContext="shape" transform="translate(989.28,-352.08)">
+			<title>Light_decoder_repeat</title>
+			<desc>6 layers</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_repeat)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.68" cy="724.68" width="81.36" height="25.2"/>
+			<rect x="0" y="712.08" width="81.36" height="25.2" class="st14"/>
+			<text x="5.81" y="730.3" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6 layers</text>		</g>
+		<g id="shape29-114" v:mID="29" v:groupContext="shape" transform="translate(583.92,-378)">
+			<title>Light_memory_label</title>
+			<desc>K,V</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(memory_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="20.52" cy="726.12" width="41.04" height="22.32"/>
+			<rect x="0" y="714.96" width="41.04" height="22.32" class="st14"/>
+			<text x="5.52" y="731.52" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>K,V</text>		</g>
+		<g id="shape30-117" v:mID="30" v:groupContext="shape" transform="translate(799.2,-320.4)">
+			<title>Light_query_label</title>
+			<desc>Q</desc>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(query_label)"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="9.36" cy="726.84" width="18.72" height="20.88"/>
+			<rect x="0" y="716.4" width="18.72" height="20.88" class="st14"/>
+			<text x="2.36" y="732.24" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Q</text>		</g>
+		<g id="shape31-120" v:mID="31" v:groupContext="shape" transform="translate(303.048,-230.328)">
+			<title>Light_enc_input_branch</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_input_branch)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st14"/>
+		</g>
+		<g id="shape32-122" v:mID="32" v:groupContext="shape" transform="translate(303.048,-601.848)">
+			<title>Light_enc_memory</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_memory)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st14"/>
+		</g>
+		<g id="shape33-124" v:mID="33" v:groupContext="shape" transform="translate(699.048,-375.768)">
+			<title>Light_memory_split</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(memory_split)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st14"/>
+		</g>
+		<g id="shape34-126" v:mID="34" v:groupContext="shape" transform="translate(826.128,-199.368)">
+			<title>Light_dec_input_branch</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_input_branch)"/>
+			</v:userDefs>
+			<ellipse cx="0.072" cy="737.208" rx="0.072" ry="0.072" class="st14"/>
+		</g>
+		<g id="shape35-128" v:mID="35" v:groupContext="shape" transform="translate(130.32,-201.6)">
+			<title>Light_encoder_brace</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(encoder_brace)"/>
+			</v:userDefs>
+			<path d="M14.4 396 L12.23 396.36 A5.04 5.04 -180 0 0 8.87 398.54 L8.05 399.77 A5.04 5.04 -180 0 0 7.2 402.57 L7.2 562.3
+						 A5.04 5.04 0 0 1 6.99 563.75 L5.41 569.02 A5.04 5.04 0 0 1 4.14 571.14 L2.35 572.93 A3.07353 3.07353 -180
+						 0 0 2.52 577.44 L3.98 578.69 A5.04 5.04 0 0 1 5.48 580.92 L6.94 585.3 A5.04 5.04 0 0 1 7.2 586.9 L7.2 728.17
+						 A5.04 5.04 -180 0 0 7.73 730.42 L9.33 733.62 A5.04 5.04 -180 0 0 11.58 735.87 L14.4 737.28" class="st18"/>
+		</g>
+		<g id="shape36-131" v:mID="36" v:groupContext="shape" transform="translate(972.72,-199.44)">
+			<title>Light_decoder_brace</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_brace)"/>
+			</v:userDefs>
+			<path d="M0 394.56 L1.8 395.28 A4.68034 4.68034 0 0 1 4.36 397.78 L5.35 400.09 A5.04 5.04 0 0 1 5.76 402.07 L5.76 560.14
+						 A5.04 5.04 -180 0 0 5.97 561.59 L7.55 566.86 A5.04 5.04 -180 0 0 8.82 568.98 L10.61 570.77 A3.07353 3.07353
+						 0 0 1 10.44 575.28 L8.98 576.53 A5.04 5.04 -180 0 0 7.48 578.76 L6.02 583.14 A5.04 5.04 -180 0 0 5.76 584.74
+						 L5.76 727.73 A5.04 5.04 0 0 1 5.44 729.5 L4.09 733.1 A5.04 5.04 0 0 1 2.52 735.27 L0 737.28" class="st18"/>
+		</g>
+		<g id="shape37-134" v:mID="37" v:groupContext="shape" transform="translate(303.12,-577.44)">
+			<title>Light_memory_arrowhead</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(memory_arrowhead)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L0 737.28 L0 736.92" class="st19"/>
+		</g>
+		<g id="shape38-140" v:mID="38" v:groupContext="shape" transform="translate(303.12,-175.68)">
+			<title>Light_enc_input_arrowhead</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_input_arrowhead)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L0 735.84" class="st21"/>
+		</g>
+		<g id="shape39-146" v:mID="39" v:groupContext="shape" transform="translate(826.2,-174.24)">
+			<title>Light_dec_input_arrowhead</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_input_arrowhead)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L0 725.76" class="st22"/>
+		</g>
+		<g id="shape40-152" v:mID="40" v:groupContext="shape" transform="translate(-432.72,684) rotate(-90)">
+			<title>Light_inputs_to_embedding</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(inputs_to_embedding)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L5.76 737.28" class="st21"/>
+		</g>
+		<g id="shape41-157" v:mID="41" v:groupContext="shape" transform="translate(-431.087,675.443) rotate(-93.8141)">
+			<title>Light_input_embedding_to_add</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(input_embedding_to_add)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L12.83 736.71 A3.6 3.6 0 0 1 13.23 736.72 L21.65 737.28" class="st22"/>
+		</g>
+		<g id="shape42-162" v:mID="42" v:groupContext="shape" transform="translate(185.591,-146.767) rotate(-3.26016)">
+			<title>Light_enc_position_to_add</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_position_to_add)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L41.85 737.28" class="st21"/>
+		</g>
+		<g id="shape43-167" v:mID="43" v:groupContext="shape" transform="translate(-434.16,567.36) rotate(-90)">
+			<title>Light_enc_add_to_branch</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_add_to_branch)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L60.48 737.28" class="st18"/>
+		</g>
+		<g id="shape44-170" v:mID="44" v:groupContext="shape" transform="translate(-434.16,506.88) rotate(-90)">
+			<title>Light_enc_branch_to_attention</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_branch_to_attention)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L6.48 737.28" class="st21"/>
+		</g>
+		<g id="shape45-175" v:mID="45" v:groupContext="shape" transform="translate(-434.16,413.28) rotate(-90)">
+			<title>Light_enc_attention_to_norm</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_attention_to_norm)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L12.24 737.28" class="st21"/>
+		</g>
+		<g id="shape46-180" v:mID="46" v:groupContext="shape" transform="translate(-301.173,929.268) rotate(-124.953)">
+			<title>Light_enc_attention_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_attention_residual)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L72.6 633.42 A3.6 3.6 0 0 1 77.61 632.53 L187.38 709.25 A3.6 3.6 0 0 1 188.26 714.26 L180.84 724.89"
+					class="st21"/>
+		</g>
+		<g id="shape47-185" v:mID="47" v:groupContext="shape" transform="translate(-434.16,345.6) rotate(-90)">
+			<title>Light_enc_norm_to_ff</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_norm_to_ff)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L23.76 737.28" class="st21"/>
+		</g>
+		<g id="shape48-190" v:mID="48" v:groupContext="shape" transform="translate(-434.16,261.36) rotate(-90)">
+			<title>Light_enc_ff_to_norm</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_ff_to_norm)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L14.4 737.28" class="st21"/>
+		</g>
+		<g id="shape49-195" v:mID="49" v:groupContext="shape" transform="translate(-492.556,483.356) rotate(-100.799)">
+			<title>Light_enc_ff_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_ff_residual)"/>
+			</v:userDefs>
+			<path d="M0 735.26 L7.07 736.61 A3.6 3.6 -180 0 0 11.28 733.74 L20.59 684.94 A3.6 3.6 0 0 1 24.8 682.08 L136.9 703.46
+						 A3.6 3.6 0 0 1 139.76 707.67 L137.33 720.4" class="st21"/>
+		</g>
+		<g id="shape50-200" v:mID="50" v:groupContext="shape" transform="translate(-434.16,195.12) rotate(-90)">
+			<title>Light_enc_to_memory</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(enc_to_memory)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L59.76 737.28" class="st18"/>
+		</g>
+		<g id="shape51-203" v:mID="51" v:groupContext="shape" transform="translate(631.849,-440.439) rotate(29.7224)">
+			<title>Light_memory_to_split</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(memory_to_split)"/>
+			</v:userDefs>
+			<path d="M0 663.03 L210.72 542.73 A3.6 3.6 0 0 1 215.63 544.07 L324.15 734.15 A3.6 3.6 -180 0 0 329.06 735.5 L455.99
+						 663.03" class="st18"/>
+		</g>
+		<g id="shape52-206" v:mID="52" v:groupContext="shape" transform="translate(699.12,-375.84)">
+			<title>Light_memory_to_cross</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(memory_to_cross)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L21.6 737.28" class="st21"/>
+		</g>
+		<g id="shape53-211" v:mID="53" v:groupContext="shape" transform="translate(92.88,684) rotate(-90)">
+			<title>Light_outputs_to_embedding</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(outputs_to_embedding)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L5.76 737.28" class="st21"/>
+		</g>
+		<g id="shape54-216" v:mID="54" v:groupContext="shape" transform="translate(104.967,760.072) rotate(-100.389)">
+			<title>Light_output_embedding_to_add</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(output_embedding_to_add)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L11.45 735.55 A3.6 3.6 0 0 1 12.64 735.57 L21.96 737.28" class="st22"/>
+		</g>
+		<g id="shape55-221" v:mID="55" v:groupContext="shape" transform="translate(721.705,-146.349) rotate(-3.33847)">
+			<title>Light_dec_position_to_add</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_position_to_add)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L28.15 737.28" class="st21"/>
+		</g>
+		<g id="shape56-226" v:mID="56" v:groupContext="shape" transform="translate(88.92,568.8) rotate(-90)">
+			<title>Light_dec_add_to_branch</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_add_to_branch)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L30.96 737.28" class="st18"/>
+		</g>
+		<g id="shape57-229" v:mID="57" v:groupContext="shape" transform="translate(88.92,537.84) rotate(-90)">
+			<title>Light_dec_branch_to_masked</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_branch_to_masked)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L11.52 737.28" class="st22"/>
+		</g>
+		<g id="shape58-234" v:mID="58" v:groupContext="shape" transform="translate(88.92,473.04) rotate(-90)">
+			<title>Light_masked_to_norm</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(masked_to_norm)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L0.72 737.28" class="st21"/>
+		</g>
+		<g id="shape59-239" v:mID="59" v:groupContext="shape" transform="translate(284.368,1037.84) rotate(-132.701)">
+			<title>Light_masked_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(masked_residual)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L83.74 646.53 A3.6 3.6 0 0 1 88.83 646.33 L155.5 707.85 A3.6 3.6 0 0 1 155.7 712.94 L143.5 726.17"
+					class="st21"/>
+		</g>
+		<g id="shape60-244" v:mID="60" v:groupContext="shape" transform="translate(88.92,422.64) rotate(-90)">
+			<title>Light_norm_to_query</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(norm_to_query)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L15.84 737.28" class="st21"/>
+		</g>
+		<g id="shape61-249" v:mID="61" v:groupContext="shape" transform="translate(88.92,352.08) rotate(-90)">
+			<title>Light_cross_to_norm</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cross_to_norm)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L2.88 737.28" class="st21"/>
+		</g>
+		<g id="shape62-254" v:mID="62" v:groupContext="shape" transform="translate(213.12,422.64) rotate(-90)">
+			<title>Light_cross_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(cross_residual)"/>
+			</v:userDefs>
+			<path d="M0 707.76 L0 733.68 A3.6 3.6 -180 0 0 3.6 737.28 L101.88 737.28 A3.6 3.6 -180 0 0 105.48 733.68 L105.48 722.88"
+					class="st21"/>
+		</g>
+		<g id="shape63-259" v:mID="63" v:groupContext="shape" transform="translate(88.92,300.24) rotate(-90)">
+			<title>Light_dec_norm_to_ff</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_norm_to_ff)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L12.24 737.28" class="st21"/>
+		</g>
+		<g id="shape64-264" v:mID="64" v:groupContext="shape" transform="translate(88.92,237.6) rotate(-90)">
+			<title>Light_dec_ff_to_norm</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_ff_to_norm)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L4.32 737.28" class="st21"/>
+		</g>
+		<g id="shape65-269" v:mID="65" v:groupContext="shape" transform="translate(66.2694,520.92) rotate(-107.485)">
+			<title>Light_dec_ff_residual</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(dec_ff_residual)"/>
+			</v:userDefs>
+			<path d="M0 734.47 L5.49 736.2 A3.6 3.6 -180 0 0 10.01 733.85 L28.18 676.16 A3.6 3.6 0 0 1 32.7 673.81 L110.64 698.36
+						 A3.6 3.6 0 0 1 112.99 702.88 L107.58 720.05" class="st21"/>
+		</g>
+		<g id="shape66-274" v:mID="66" v:groupContext="shape" transform="translate(103.81,333.187) rotate(-101.535)">
+			<title>Light_decoder_to_linear</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(decoder_to_linear)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L20.89 737.28" class="st21"/>
+		</g>
+		<g id="shape67-279" v:mID="67" v:groupContext="shape" transform="translate(81.72,119.52) rotate(-90)">
+			<title>Light_linear_to_softmax</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(linear_to_softmax)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L4.32 737.28" class="st21"/>
+		</g>
+		<g id="shape68-284" v:mID="68" v:groupContext="shape" transform="translate(81.72,65.52) rotate(-90)">
+			<title>Light_softmax_to_probabilities</title>
+			<v:userDefs>
+				<v:ud v:nameU="LightId" v:prompt="" v:val="VT4(softmax_to_probabilities)"/>
+			</v:userDefs>
+			<path d="M0 737.28 L4.32 737.28" class="st21"/>
+		</g>
+	</g>
+</svg>

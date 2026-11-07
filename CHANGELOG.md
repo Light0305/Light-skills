@@ -1,58 +1,18 @@
-# Changelog
+# 更新记录
 
-All notable changes to Light Skills are documented here.
+## v2.0.0 · 2026-11-07
 
-The project follows a pragmatic release-note style rather than claiming strict semantic-versioning compatibility for every skill prompt. User-facing skill behavior, installation paths, shared contracts, and generated examples should be treated as release-relevant changes.
+- Light-skills 更名为 Light-Science，围绕一篇论文或一项软著组织科研项目，也可关联同源专利等成果。
+- 采用 15 个主要技能与 4 个 Diagram 子入口，覆盖研究循环、论文修订及按需扩展。
+- 增加项目目录规范、Memory 项目记忆和 Leader 跨阶段协调；记忆与科学原件保留明确分工。
+- 更新写作、数据图、方法图、评审、专利与软著的工作流；软著交付功能说明、软件代码、软件说明书三份 DOCX。
+- light-write 使用 0.3.0，完整稿件默认交付 LaTeX 与实际编译检查的 PDF，用户模板优先。
+- 新增 Logo、米白 Q 版工作网络、九张数据图和 Illustrator / PowerPoint / Visio 原生重建展示。
+- Chart 0.11.0 使用自行实现的审图账本与像素诊断、19 篇自写指南和 10 组可复现合成示例，不依赖 FigMirror 原始文件。
+- 公开包排除密钥、环境、原始论文库、上游学习仓库和无明确再分发许可的代码及图片；有许可的第三方资源保留署名与各自条款。
 
-## [Unreleased]
+v2 采用根目录 `light-*` 布局，与 v1 的 `skills/` 和旧安装脚本不同。升级时按新版 README 重新安装所需技能。
 
-### Planned
+## v1.0.0 · 2026-07-06
 
-- Continue hardening cross-client compatibility for Codex, Claude Code, and OpenCode.
-- Add more runnable examples for research, competition, software, patent-disclosure, and software-copyright workflows.
-- Improve regression checks for skill installation, evidence handling, citation integrity, and reproducible figure generation.
-- Collect public user feedback through GitHub Issues and convert repeatable problems into documented tests.
-
-## [1.0.0] - 2026-07-05
-
-### Added
-
-- Public Light Skills repository for research, competitions, and innovation projects.
-- 23 domain-independent skills under `skills/`, each using `SKILL.md` as the entry point.
-- Cross-client installation support for:
-  - Codex via `.agents/skills`
-  - Claude Code via `.claude/skills`
-  - OpenCode via `.opencode/skills`
-- `scripts/bootstrap_agent_skills.py` for installing and checking supported agent-skill layouts.
-- Shared contracts under `_shared/` for evidence strength, consistency checks, workflow gates, visual review, and reusable research-process rules.
-- End-to-end research demo under `examples/e2e-research-demo/`.
-- Reproducible LaTeX paper demo under `projects/photocatalytic-dye-kinetics-study/`.
-- Research figure gallery demonstrating programmatic scientific figures.
-- Python and R figure workflow expectations.
-- LaTeX typesetting expectations for paper-oriented workflows.
-- MIT license.
-
-### Changed
-
-- Reworked the earlier Light project into a cleaner public skill package.
-- Consolidated overlapping paper-writing, polishing, figure-planning, and figure-drawing flows into stronger user-facing skills.
-- Replaced private-database framing with public, repository-local, inspectable workflow guidance.
-- Expanded the scope from research-only usage to research, competitions, innovation projects, patents, software copyright materials, and frontend/software demos.
-- Clarified that Light Skills supports innovation work by improving search, critique, evidence binding, and validation planning; it does not promise automatic discovery or guaranteed publication.
-
-### Integrity and safety boundaries
-
-- Unknown facts, DOI values, links, software versions, and venue rules must be marked `unknown` or verified at task time.
-- Paper figures, data figures, and experiment figures must be generated programmatically and remain reproducible.
-- AI-generated marketing visuals must never be presented as scientific evidence.
-- Citation authenticity is a standalone integrity requirement.
-- Private conversations, unpublished research, credentials, email tokens, and local project ledgers must not be committed to the public repository.
-- Patent and software-copyright skills help prepare materials and organize evidence; they do not provide legal advice.
-
-### Compatibility notes
-
-- Windows is the primary development environment for the initial release.
-- Python 3.10+ is expected for repository scripts.
-- Windows users should set `PYTHONUTF8=1` before running Python scripts.
-- LaTeX and R are optional environment layers for workflows that need paper compilation or R-based scientific figures.
-
+公开 Light Skills 初版，提供 `skills/` 下的 23 个技能、共享研究规则、跨客户端安装工具与科研示例。原发布与 Git 历史继续保留。

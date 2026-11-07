@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Light-Science · README 展示图选择</title>
+<style>
+:root{color-scheme:light;--ink:#102a43;--muted:#64748b;--teal:#008a7b;--line:#dce5e7}
+*{box-sizing:border-box}body{margin:0;background:#f3f6f5;color:var(--ink);font:15px/1.65 "Segoe UI","Microsoft YaHei",sans-serif}
+header,main{max-width:1320px;margin:auto;padding:34px 32px}header{padding-bottom:18px;display:flex;align-items:center;justify-content:space-between;gap:30px}header img{width:360px;max-width:60vw;border-radius:10px}nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-weight:600}
+.eyebrow{font-size:12px;letter-spacing:2px;color:var(--teal);font-weight:700}h1{font-size:32px;letter-spacing:-1px;margin:8px 0}h2{font-size:25px;margin:40px 0 8px}p{margin:8px 0;color:var(--muted)}.intro{max-width:780px;margin-bottom:22px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card,.method{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden}.card:has(input:checked){outline:2px solid var(--teal);outline-offset:-2px}.image{display:flex;height:224px;align-items:center;justify-content:center;background:#fff;padding:14px;border-bottom:1px solid #edf1f2}.image img{width:100%;height:100%;object-fit:contain}.card-body{padding:14px 18px 18px}.category{font-size:11px;color:var(--teal);letter-spacing:1px}.card label{display:flex;align-items:center;gap:8px;cursor:pointer;min-height:30px}.card b{font-size:15px}.card input{accent-color:var(--teal);width:17px;height:17px;flex:none}.card p:not(.category){font-size:12px;min-height:40px}.recommend{font-size:10px;background:#e5f4ef;color:#007b6b;padding:1px 6px;border-radius:4px;white-space:nowrap}.source{font-size:12px;color:var(--muted)}
+.selection{position:sticky;bottom:14px;margin:26px 0;padding:15px 20px;background:#102a43;color:white;border-radius:12px;display:flex;align-items:center;gap:16px;box-shadow:0 8px 30px #102a4320;z-index:5}.selection span{flex:1}.selection button{background:#c6f0df;border:0;border-radius:7px;padding:9px 14px;font-weight:700;cursor:pointer}.selection button.secondary{background:#ffffff16;color:white}.selection output{font-family:monospace}.method{margin:20px 0;padding:20px}.method-title{display:flex;justify-content:space-between;align-items:center}.method h3{margin:0;font-size:19px}.method a{color:var(--teal);font-size:13px}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}.comparison figure{margin:18px 0 0}.comparison img{width:100%;height:360px;object-fit:contain}.comparison figcaption{font-size:13px;color:var(--muted);text-align:center}.method p{font-size:13px}footer{padding:30px 0;color:var(--muted);font-size:12px}
+@media(max-width:960px){.grid{grid-template-columns:repeat(2,1fr)}header{display:block}nav{margin-top:14px}nav a{margin:0 20px 0 0}.comparison img{height:250px}}@media(max-width:600px){header,main{padding:20px}.grid,.comparison{grid-template-columns:1fr}h1{font-size:25px}.selection{flex-wrap:wrap}.selection span{flex-basis:100%}.comparison img{height:auto}}
+</style>
+<header><img src="../assets/logo.png" alt="Light-Science"><nav><a href="#charts">数据图选片</a><a href="#methods">方法图对照</a><a href="../../README.md">README</a></nav></header>
+<main><section id="charts"><div class="eyebrow">LIGHT-SCIENCE / V2.0 SHOWCASE</div><h1>选几张，让研究成果自己说话。</h1>
+<p class="intro">12 张实际制作的数据图。当前 README 已采用 03、04、05、06、08、09、10、11、12，共 9 张；勾选状态与已确认选择一致。点击图片可查看原尺寸，需要调整时再提交新的编号。所有图保留原始字节，数据来源与图注随附。</p>
+<div class="grid"><article class="card" data-id="01">
+      <a class="image" href="../assets/charts/01.png" target="_blank"><img src="../assets/charts/01.png" alt="多中心临床证据面板"></a>
+      <div class="card-body"><p class="category">临床 · 分层比例与缺失数据</p>
+      <label><input type="checkbox" value="01"><b>01 · 多中心临床证据面板</b></label>
+      <p>UCI Heart Disease，四中心历史样本的描述性再分析；不作因果推断。</p><a class="source" href="https://doi.org/10.24432/C52P4X" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="02">
+      <a class="image" href="../assets/charts/02.png" target="_blank"><img src="../assets/charts/02.png" alt="组学 PCA 与配对变化"></a>
+      <div class="card-body"><p class="category">组学 · 样本结构与基因变化</p>
+      <label><input type="checkbox" value="02"><b>02 · 组学 PCA 与配对变化</b></label>
+      <p>airway：8 个样本、4 个细胞系的配对描述；不冒充显著性结果。</p><a class="source" href="https://bioconductor.org/packages/airway/" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="03">
+      <a class="image" href="../assets/charts/03.png" target="_blank"><img src="../assets/charts/03.png" alt="脑电时序与频段功率"></a>
+      <div class="card-body"><p class="category">信号 · 时序与频谱</p>
+      <label><input type="checkbox" value="03" checked><b>03 · 脑电时序与频段功率</b><span class="recommend">已采用</span></label>
+      <p>PhysioNet EEG S001/R04：真实采样与固定时窗；时窗不是独立受试者。</p><a class="source" href="https://physionet.org/content/eegmmidb/1.0.0/" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="04">
+      <a class="image" href="../assets/charts/04.png" target="_blank"><img src="../assets/charts/04.png" alt="生态排序与群落热图"></a>
+      <div class="card-body"><p class="category">生态 · 多变量与原始覆盖度</p>
+      <label><input type="checkbox" value="04" checked><b>04 · 生态排序与群落热图</b><span class="recommend">已采用</span></label>
+      <p>vegan varespec/varechem：24 个样地、44 个物种；描述群落结构。</p><a class="source" href="https://cran.r-project.org/package=vegan" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="05">
+      <a class="image" href="../assets/charts/05.png" target="_blank"><img src="../assets/charts/05.png" alt="真实三维场与正交切片"></a>
+      <div class="card-body"><p class="category">成像 · 等值面与空间校准</p>
+      <label><input type="checkbox" value="05" checked><b>05 · 真实三维场与正交切片</b><span class="recommend">已采用</span></label>
+      <p>Allen Institute/scikit-image cells3d 实测体数据；等值面不是已验证的细胞分割。</p><a class="source" href="https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.cells3d" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="06">
+      <a class="image" href="../assets/charts/06.png" target="_blank"><img src="../assets/charts/06.png" alt="温度场与年度差异"></a>
+      <div class="card-body"><p class="category">气候 · 地图与时间序列</p>
+      <label><input type="checkbox" value="06" checked><b>06 · 温度场与年度差异</b><span class="recommend">已采用</span></label>
+      <p>2013/2014 温度场的描述性对比；年度差异不是长期气候趋势。</p><a class="source" href="https://docs.xarray.dev/en/stable/examples/area_weighted_temperature.html" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="07">
+      <a class="image" href="../assets/charts/07.png" target="_blank"><img src="../assets/charts/07.png" alt="大气 CO₂ 季节变化"></a>
+      <div class="card-body"><p class="category">环境 · 长期观测与季节结构</p>
+      <label><input type="checkbox" value="07"><b>07 · 大气 CO₂ 季节变化</b></label>
+      <p>Mauna Loa 观测序列；展示趋势、季节性与数据支持范围。</p><a class="source" href="https://gml.noaa.gov/ccgg/trends/" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="08">
+      <a class="image" href="../assets/charts/08.png" target="_blank"><img src="../assets/charts/08.png" alt="植物响应与重复测量"></a>
+      <div class="card-body"><p class="category">实验 · 个体轨迹与配对</p>
+      <label><input type="checkbox" value="08" checked><b>08 · 植物响应与重复测量</b><span class="recommend">已采用</span></label>
+      <p>R datasets::CO2：12 株植物、84 次观测；保留每株轨迹。</p><a class="source" href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/zCO2.html" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="09">
+      <a class="image" href="../assets/charts/09.png" target="_blank"><img src="../assets/charts/09.png" alt="生长轨迹与随访支持"></a>
+      <div class="card-body"><p class="category">纵向 · 轨迹、终点与观测数量</p>
+      <label><input type="checkbox" value="09" checked><b>09 · 生长轨迹与随访支持</b><span class="recommend">已采用</span></label>
+      <p>R datasets::ChickWeight：真实观测轨迹，明确缺失随访。</p><a class="source" href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/ChickWeight.html" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="10">
+      <a class="image" href="../assets/charts/10.png" target="_blank"><img src="../assets/charts/10.png" alt="雨云图与完整原始点"></a>
+      <div class="card-body"><p class="category">分布 · 密度与个体观测</p>
+      <label><input type="checkbox" value="10" checked><b>10 · 雨云图与完整原始点</b><span class="recommend">已采用</span></label>
+      <p>Iris 实测数据；密度、四分位与所有原始点。</p><a class="source" href="https://archive.ics.uci.edu/dataset/53/iris" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="11">
+      <a class="image" href="../assets/charts/11.png" target="_blank"><img src="../assets/charts/11.png" alt="方法对比与结构化热图"></a>
+      <div class="card-body"><p class="category">计算 · 报告值的可视化重设计</p>
+      <label><input type="checkbox" value="11" checked><b>11 · 方法对比与结构化热图</b><span class="recommend">已采用</span></label>
+      <p>figures4papers 提供的 RNAGenScape 汇总值；不是本项目独立实验。</p><a class="source" href="https://github.com/ChenLiu-1996/figures4papers" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article>
+<article class="card" data-id="12">
+      <a class="image" href="../assets/charts/12.png" target="_blank"><img src="../assets/charts/12.png" alt="生存曲线与风险人数"></a>
+      <div class="card-body"><p class="category">临床 · 随访与不确定性</p>
+      <label><input type="checkbox" value="12" checked><b>12 · 生存曲线与风险人数</b><span class="recommend">已采用</span></label>
+      <p>R survival::colon：未调整生存曲线、置信带与随访支持。</p><a class="source" href="https://stat.ethz.ch/R-manual/R-devel/library/survival/html/colon.html" target="_blank" rel="noreferrer">数据来源 ↗</a></div></article></div></section>
+<div class="selection"><span>已选 <output id="count">0</output> 张：<output id="ids">尚未选择</output></span><button class="secondary" id="recommend">恢复已确认选择</button><button id="copy">复制编号</button></div>
+<section id="methods"><div class="eyebrow">REFERENCE → EDITABLE NATIVE FIGURE</div><h2>同一图意，进入真正可编辑的文件。</h2><p>左侧为实际生成参考，右侧为工具实际导出。三例都保留原生文件和来源记录；结构复刻目标不等同于逐像素验收。</p><section class="method"><div class="method-title"><h3>Illustrator · 锂硫电池机制</h3><a href="native/illustrator.ai">可编辑原生文件 ↗</a></div>
+      <div class="comparison"><figure><img src="../assets/methods/illustrator-reference.png" alt="生成参考"><figcaption>生成参考</figcaption></figure>
+      <figure><img src="../assets/methods/illustrator-reconstruction.png" alt="Illustrator 实际导出"><figcaption>Illustrator 实际导出</figcaption></figure></div>
+      <p>锂硫电池机制概念图；原生路径、文字和分组，已修正生成参考中的因果分支与放大来源。 历史实测：2026-10-30；存在细节与质感差异。</p></section>
+<section class="method"><div class="method-title"><h3>PowerPoint · CRISPR–Cas9 切割机制</h3><a href="native/powerpoint-crispr.pptx">可编辑原生文件 ↗</a></div>
+      <div class="comparison"><figure><img src="../assets/methods/powerpoint-crispr-reference.png" alt="生成参考"><figcaption>生成参考</figcaption></figure>
+      <figure><img src="../assets/methods/powerpoint-crispr-reconstruction.png" alt="PowerPoint 实际导出"><figcaption>PowerPoint 实际导出</figcaption></figure></div>
+      <p>CRISPR–Cas9 概念图；136 个原生对象，保留可编辑轮廓、文字与连接。历史案例验证可见绘制和原生编辑，纹理与曲线细节存在近似。 历史实测：2026-10-30；存在细节与质感差异。</p></section>
+<section class="method"><div class="method-title"><h3>Visio · MonoFormer 深度估计架构</h3><a href="native/visio-monoformer.vsdx">可编辑原生文件 ↗</a></div>
+      <div class="comparison"><figure><img src="../assets/methods/visio-monoformer-reference.png" alt="生成参考"><figcaption>生成参考</figcaption></figure>
+      <figure><img src="../assets/methods/visio-monoformer-reconstruction.png" alt="Visio 实际导出"><figcaption>Visio 实际导出</figcaption></figure></div>
+      <p>MonoFormer 四级网络架构；表中展示按图复现页，原生文件第 2 页保留科学关系修正版。 历史实测：2026-10-30；存在细节与质感差异。<a href="../assets/methods/visio-monoformer-corrected.png" target="_blank">查看科学关系修正版 ↗</a></p></section></section>
+<footer>仅为文档选片页。勾选不会修改 README 或上传数据；提交编号后再更新正式展示。<a href="README.md">来源与案例说明</a></footer></main>
+<script>
+const inputs=[...document.querySelectorAll('input[type=checkbox]')];
+const adopted=["03", "04", "05", "06", "08", "09", "10", "11", "12"];
+function selected(){return inputs.filter(x=>x.checked).map(x=>x.value)}
+function update(){const ids=selected();document.querySelector('#count').textContent=ids.length;document.querySelector('#ids').textContent=ids.join('、')||'尚未选择'}
+inputs.forEach(x=>x.addEventListener('change',update));
+document.querySelector('#recommend').addEventListener('click',()=>{inputs.forEach(x=>x.checked=adopted.includes(x.value));update()});
+document.querySelector('#copy').addEventListener('click',async()=>{const s='README 数据图选择：'+selected().join('、');try{await navigator.clipboard.writeText(s);document.querySelector('#copy').textContent='已复制'}catch{document.querySelector('#ids').textContent=s}});
+update();
+</script></html>

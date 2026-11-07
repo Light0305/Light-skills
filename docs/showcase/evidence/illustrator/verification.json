@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "reference_reused": true,
+  "image_generation_calls_this_case": 0,
+  "source_sha256": "53952b1a614677e5a81c19c30a8188b79a02dd0b002b6aaa37b6c41c1c7a6088",
+  "final_ai_sha256": "ea52a548edb76adf655b688b7299567ff1dce9ee195769b44cbbb14416363aec",
+  "scene_sha256": "69067c987526a3b7c2caf9c29eb2951d287a263f32cfa82c4e0c5c6e0d0a9a0e",
+  "native_application_roundtrip": true,
+  "visible_authored_objects": 1173,
+  "visible_creation_elapsed_s": 77.181,
+  "native_leaf_objects": 1219,
+  "native_leaf_types": {
+    "PathItem": 1178,
+    "TextFrame": 40,
+    "CompoundPathItem": 1
+  },
+  "compound_holes": 54,
+  "native_text_frames": 40,
+  "native_text_position_max_error_pt": 0.00052734374998,
+  "checked_native_contours_and_paths": 448,
+  "logical_paths": 23,
+  "native_anchor_max_error_pt": 9.09494701772928e-13,
+  "moved_panel_groups": 4,
+  "moved_internal_leaves": 1215,
+  "svg_text_elements": 63,
+  "svg_radial_gradients": 369,
+  "svg_linear_gradients": 73,
+  "all_40_texts_present_in_pdf_and_svg": true,
+  "ai_svg_pdf_raster_count": 0,
+  "limitations": [
+    "Native paths, not dynamic Visio/PowerPoint connectors.",
+    "Cross-panel callouts excluded from group movement.",
+    "Inherited measured layout; this does not independently test reference-image interpretation.",
+    "Textures, material morphology and particle placements remain approximate; not atomistic or empirical validation."
+  ]
+}

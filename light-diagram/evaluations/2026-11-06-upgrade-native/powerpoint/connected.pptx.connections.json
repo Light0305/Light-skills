@@ -1,0 +1,21 @@
+{
+  "authoring": "Artifact Tool plus explicit native OOXML connection sites",
+  "pages": [
+    {
+      "slide": 1,
+      "slug": "fixture",
+      "native_shapes": 3,
+      "logical_edges": 1,
+      "native_connectors": 1,
+      "bend_anchors": 0,
+      "attached_endpoints": 2,
+      "custom_ports": 2,
+      "edge_parts": {
+        "edge": [
+          "edge"
+        ]
+      }
+    }
+  ],
+  "application_roundtrip_verified": false
+}

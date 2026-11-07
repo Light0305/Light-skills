@@ -1,0 +1,16 @@
+{
+  "run": 0,
+  "passed": 0,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "ok": false,
+  "name": "powerpoint-node",
+  "exit_code": 0,
+  "argv": [
+    "node",
+    "--test",
+    "light-diagram/light-powerpoint-diagram/tests/test_scenes.mjs"
+  ],
+  "cwd": "D:\\Light-Skills"
+}

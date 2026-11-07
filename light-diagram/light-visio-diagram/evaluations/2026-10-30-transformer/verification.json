@@ -1,0 +1,64 @@
+{
+  "python": "3.11.13",
+  "actual_rendering": true,
+  "native_audit_passed": true,
+  "source_hash_matches": true,
+  "scene_hash_matches": true,
+  "pages": [
+    {
+      "name": "01 Reference replica",
+      "shape_count": 69,
+      "glued_edges": 30,
+      "geometry_rows": {
+        "MoveTo": 28,
+        "LineTo": 112,
+        "Ellipse": 6,
+        "RelMoveTo": 35,
+        "PolylineTo": 11,
+        "RelLineTo": 24
+      },
+      "svg_image_elements": 0,
+      "png_size": [
+        1536,
+        1024
+      ],
+      "movement_probe": {
+        "node": "enc_norm2",
+        "tested_endpoints": 3,
+        "failures": [],
+        "restored": true,
+        "passed": true
+      }
+    },
+    {
+      "name": "02 Corrected topology",
+      "shape_count": 68,
+      "glued_edges": 29,
+      "geometry_rows": {
+        "MoveTo": 28,
+        "LineTo": 112,
+        "Ellipse": 6,
+        "RelMoveTo": 34,
+        "PolylineTo": 10,
+        "RelLineTo": 24
+      },
+      "svg_image_elements": 0,
+      "png_size": [
+        1536,
+        1024
+      ],
+      "movement_probe": {
+        "node": "enc_norm2",
+        "tested_endpoints": 3,
+        "failures": [],
+        "restored": true,
+        "passed": true
+      }
+    }
+  ],
+  "pdf_pages": 2,
+  "pdf_text_lines": [
+    31,
+    31
+  ]
+}

@@ -1,0 +1,4400 @@
+{
+  "schema_version": "1.0",
+  "font": "Times New Roman",
+  "canvas": {
+    "width_px": 1536,
+    "height_px": 1024,
+    "pixels_per_inch": 100
+  },
+  "provenance": {
+    "source": "source.png",
+    "source_sha256": "0b900aaa6c41e43eac95210d6f257412231a6d59179cc0b89bb9ec189ec7c194",
+    "method": "Manual control-point tracing and native cubic Bezier reconstruction. No raster components.",
+    "scientific_source": "https://doi.org/10.1126/science.1225829",
+    "intent": "Faithful conceptual reconstruction; no atomic structure or molecular-scale precision implied.",
+    "declared_differences": [
+      "Smooth editable gradients replace raster protein texture and ribbon highlights.",
+      "Control-point traces approximate irregular outlines; individual rung positions are schematic."
+    ]
+  },
+  "pages": [
+    {
+      "name": "01 CRISPR native replica",
+      "slug": "replica",
+      "mode": "faithful",
+      "nodes": [
+        {
+          "id": "background",
+          "type": "rect",
+          "bbox": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "#ffffff",
+            "stroke": "none",
+            "font_px": 30,
+            "bold": false
+          }
+        },
+        {
+          "id": "dual_card",
+          "type": "roundrect",
+          "bbox": [
+            25,
+            80,
+            472,
+            276
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "#bec0c1",
+            "font_px": 30,
+            "bold": false,
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "chimeric_card",
+          "type": "roundrect",
+          "bbox": [
+            25,
+            697,
+            472,
+            204
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "#bec0c1",
+            "font_px": 30,
+            "bold": false,
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "cas9",
+          "type": "bezier",
+          "bbox": [
+            574,
+            232,
+            571,
+            540
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "#e7cf9e",
+            "stroke": "#bda16d",
+            "font_px": 30,
+            "bold": false,
+            "fill_secondary": "#fff1d2",
+            "stroke_px": 2
+          },
+          "points": [
+            [
+              779,
+              318
+            ],
+            [
+              813,
+              273
+            ],
+            [
+              870,
+              232
+            ],
+            [
+              930,
+              232
+            ],
+            [
+              986,
+              227
+            ],
+            [
+              1009,
+              250
+            ],
+            [
+              1032,
+              271
+            ],
+            [
+              1053,
+              289
+            ],
+            [
+              1070,
+              274
+            ],
+            [
+              1105,
+              305
+            ],
+            [
+              1140,
+              335
+            ],
+            [
+              1163,
+              412
+            ],
+            [
+              1116,
+              464
+            ],
+            [
+              1141,
+              493
+            ],
+            [
+              1156,
+              533
+            ],
+            [
+              1136,
+              577
+            ],
+            [
+              1116,
+              602
+            ],
+            [
+              1102,
+              623
+            ],
+            [
+              1117,
+              643
+            ],
+            [
+              1158,
+              705
+            ],
+            [
+              1096,
+              748
+            ],
+            [
+              1042,
+              764
+            ],
+            [
+              976,
+              782
+            ],
+            [
+              919,
+              764
+            ],
+            [
+              873,
+              740
+            ],
+            [
+              834,
+              717
+            ],
+            [
+              822,
+              726
+            ],
+            [
+              794,
+              726
+            ],
+            [
+              743,
+              728
+            ],
+            [
+              704,
+              702
+            ],
+            [
+              697,
+              664
+            ],
+            [
+              690,
+              633
+            ],
+            [
+              682,
+              620
+            ],
+            [
+              644,
+              610
+            ],
+            [
+              606,
+              600
+            ],
+            [
+              570,
+              573
+            ],
+            [
+              577,
+              537
+            ],
+            [
+              582,
+              493
+            ],
+            [
+              623,
+              467
+            ],
+            [
+              660,
+              443
+            ],
+            [
+              632,
+              399
+            ],
+            [
+              660,
+              358
+            ],
+            [
+              700,
+              336
+            ],
+            [
+              728,
+              321
+            ],
+            [
+              758,
+              314
+            ],
+            [
+              779,
+              318
+            ]
+          ]
+        },
+        {
+          "id": "hnh",
+          "type": "bezier",
+          "bbox": [
+            825,
+            352,
+            174,
+            134
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "#eca68f",
+            "stroke": "#dda28b",
+            "font_px": 30,
+            "bold": false,
+            "fill_secondary": "#f8d0bd",
+            "stroke_px": 2
+          },
+          "points": [
+            [
+              830,
+              374
+            ],
+            [
+              853,
+              345
+            ],
+            [
+              900,
+              350
+            ],
+            [
+              928,
+              361
+            ],
+            [
+              954,
+              372
+            ],
+            [
+              956,
+              399
+            ],
+            [
+              978,
+              413
+            ],
+            [
+              1002,
+              431
+            ],
+            [
+              1002,
+              460
+            ],
+            [
+              988,
+              482
+            ],
+            [
+              955,
+              475
+            ],
+            [
+              954,
+              448
+            ],
+            [
+              922,
+              444
+            ],
+            [
+              881,
+              447
+            ],
+            [
+              842,
+              434
+            ],
+            [
+              831,
+              412
+            ],
+            [
+              823,
+              399
+            ],
+            [
+              822,
+              385
+            ],
+            [
+              830,
+              374
+            ]
+          ]
+        },
+        {
+          "id": "ruvc",
+          "type": "bezier",
+          "bbox": [
+            807,
+            570,
+            201,
+            146
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "#8faec9",
+            "stroke": "#8ea3b2",
+            "font_px": 30,
+            "bold": false,
+            "fill_secondary": "#d1e1ed",
+            "stroke_px": 2
+          },
+          "points": [
+            [
+              812,
+              596
+            ],
+            [
+              824,
+              568
+            ],
+            [
+              858,
+              563
+            ],
+            [
+              885,
+              580
+            ],
+            [
+              905,
+              591
+            ],
+            [
+              907,
+              620
+            ],
+            [
+              934,
+              624
+            ],
+            [
+              965,
+              627
+            ],
+            [
+              1007,
+              642
+            ],
+            [
+              1007,
+              670
+            ],
+            [
+              1016,
+              704
+            ],
+            [
+              962,
+              720
+            ],
+            [
+              923,
+              713
+            ],
+            [
+              884,
+              715
+            ],
+            [
+              841,
+              696
+            ],
+            [
+              825,
+              676
+            ],
+            [
+              806,
+              651
+            ],
+            [
+              805,
+              621
+            ],
+            [
+              812,
+              596
+            ]
+          ]
+        },
+        {
+          "id": "crrna_label",
+          "type": "text",
+          "bbox": [
+            81,
+            122,
+            142,
+            48
+          ],
+          "text": "crRNA",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 34,
+            "bold": true
+          }
+        },
+        {
+          "id": "tracrrna_label",
+          "type": "text",
+          "bbox": [
+            103,
+            280,
+            153,
+            44
+          ],
+          "text": "tracrRNA",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 33,
+            "bold": true
+          }
+        },
+        {
+          "id": "chimera_label",
+          "type": "text",
+          "bbox": [
+            75,
+            730,
+            224,
+            48
+          ],
+          "text": "Chimeric RNA",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 33,
+            "bold": true
+          }
+        },
+        {
+          "id": "cas9_label",
+          "type": "text",
+          "bbox": [
+            873,
+            281,
+            128,
+            56
+          ],
+          "text": "Cas9",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 45,
+            "bold": true
+          }
+        },
+        {
+          "id": "hnh_label",
+          "type": "text",
+          "bbox": [
+            846,
+            370,
+            84,
+            44
+          ],
+          "text": "HNH",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 32,
+            "bold": false
+          }
+        },
+        {
+          "id": "ruvc_label",
+          "type": "text",
+          "bbox": [
+            845,
+            649,
+            145,
+            44
+          ],
+          "text": "RuvC-like",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 31,
+            "bold": false
+          }
+        },
+        {
+          "id": "complementary_label",
+          "type": "text",
+          "bbox": [
+            328,
+            423,
+            282,
+            43
+          ],
+          "text": "Complementary strand",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 30,
+            "bold": false
+          }
+        },
+        {
+          "id": "noncomplementary_label",
+          "type": "text",
+          "bbox": [
+            320,
+            601,
+            330,
+            43
+          ],
+          "text": "Noncomplementary strand",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 28,
+            "bold": false
+          }
+        },
+        {
+          "id": "product_label",
+          "type": "text",
+          "bbox": [
+            1269,
+            430,
+            257,
+            44
+          ],
+          "text": "Double-strand break",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 29,
+            "bold": false
+          }
+        },
+        {
+          "id": "complementary_anchor",
+          "type": "ellipse",
+          "bbox": [
+            574,
+            506,
+            14,
+            14
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "#15191e",
+            "stroke": "#ffffff",
+            "font_px": 30,
+            "bold": false,
+            "stroke_px": 2
+          }
+        },
+        {
+          "id": "noncomplementary_anchor",
+          "type": "ellipse",
+          "bbox": [
+            593,
+            561,
+            14,
+            14
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "#15191e",
+            "stroke": "#ffffff",
+            "font_px": 30,
+            "bold": false,
+            "stroke_px": 2
+          }
+        },
+        {
+          "id": "hnh_cut",
+          "type": "junction",
+          "bbox": [
+            922.9,
+            462.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 30,
+            "bold": false
+          }
+        },
+        {
+          "id": "ruvc_cut",
+          "type": "junction",
+          "bbox": [
+            924.9,
+            597.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 30,
+            "bold": false
+          }
+        },
+        {
+          "id": "cleavage_source",
+          "type": "junction",
+          "bbox": [
+            1206.9,
+            554.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 30,
+            "bold": false
+          }
+        },
+        {
+          "id": "cleavage_target",
+          "type": "junction",
+          "bbox": [
+            1276.9,
+            554.9,
+            0.2,
+            0.2
+          ],
+          "text": "",
+          "radius_px": 15,
+          "style": {
+            "fill": "none",
+            "stroke": "none",
+            "font_px": 30,
+            "bold": false
+          }
+        }
+      ],
+      "paths": [
+        {
+          "id": "dual_pair_0",
+          "points": [
+            [
+              202,
+              204
+            ],
+            [
+              202,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_1",
+          "points": [
+            [
+              217,
+              204
+            ],
+            [
+              217,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_2",
+          "points": [
+            [
+              232,
+              204
+            ],
+            [
+              232,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_3",
+          "points": [
+            [
+              247,
+              204
+            ],
+            [
+              247,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_4",
+          "points": [
+            [
+              262,
+              204
+            ],
+            [
+              262,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_5",
+          "points": [
+            [
+              277,
+              204
+            ],
+            [
+              277,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_6",
+          "points": [
+            [
+              292,
+              204
+            ],
+            [
+              292,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_pair_7",
+          "points": [
+            [
+              307,
+              204
+            ],
+            [
+              307,
+              239
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#9fa89b",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_hairpin_pair_0",
+          "points": [
+            [
+              417,
+              231
+            ],
+            [
+              444,
+              231
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_hairpin_pair_1",
+          "points": [
+            [
+              417,
+              247
+            ],
+            [
+              444,
+              247
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_hairpin_pair_2",
+          "points": [
+            [
+              417,
+              263
+            ],
+            [
+              444,
+              263
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_hairpin_pair_3",
+          "points": [
+            [
+              417,
+              279
+            ],
+            [
+              444,
+              279
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "chimera_pair_0",
+          "points": [
+            [
+              406,
+              796
+            ],
+            [
+              434,
+              796
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "chimera_pair_1",
+          "points": [
+            [
+              406,
+              812
+            ],
+            [
+              434,
+              812
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "chimera_pair_2",
+          "points": [
+            [
+              406,
+              828
+            ],
+            [
+              434,
+              828
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "chimera_pair_3",
+          "points": [
+            [
+              406,
+              844
+            ],
+            [
+              434,
+              844
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8ba681",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "complex_hairpin_pair_0",
+          "points": [
+            [
+              1045,
+              400
+            ],
+            [
+              1075,
+              399
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8eab81",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "complex_hairpin_pair_1",
+          "points": [
+            [
+              1045,
+              420
+            ],
+            [
+              1075,
+              419
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8eab81",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "complex_hairpin_pair_2",
+          "points": [
+            [
+              1045,
+              440
+            ],
+            [
+              1075,
+              439
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8eab81",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "complex_hairpin_pair_3",
+          "points": [
+            [
+              1045,
+              460
+            ],
+            [
+              1075,
+              459
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8eab81",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "complex_hairpin_pair_4",
+          "points": [
+            [
+              1045,
+              480
+            ],
+            [
+              1075,
+              479
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#8eab81",
+            "stroke_px": 4
+          }
+        },
+        {
+          "id": "dual_crrna_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              50,
+              191
+            ],
+            [
+              98,
+              145
+            ],
+            [
+              108,
+              204
+            ],
+            [
+              153,
+              207
+            ],
+            [
+              176,
+              208
+            ],
+            [
+              181,
+              202
+            ],
+            [
+              203,
+              202
+            ],
+            [
+              231,
+              202
+            ],
+            [
+              271,
+              203
+            ],
+            [
+              301,
+              201
+            ],
+            [
+              354,
+              204
+            ],
+            [
+              339,
+              134
+            ],
+            [
+              381,
+              125
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#773b9e",
+            "stroke_px": 11
+          }
+        },
+        {
+          "id": "dual_crrna_core",
+          "curve": "bezier",
+          "points": [
+            [
+              50,
+              191
+            ],
+            [
+              98,
+              145
+            ],
+            [
+              108,
+              204
+            ],
+            [
+              153,
+              207
+            ],
+            [
+              176,
+              208
+            ],
+            [
+              181,
+              202
+            ],
+            [
+              203,
+              202
+            ],
+            [
+              231,
+              202
+            ],
+            [
+              271,
+              203
+            ],
+            [
+              301,
+              201
+            ],
+            [
+              354,
+              204
+            ],
+            [
+              339,
+              134
+            ],
+            [
+              381,
+              125
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#b57bd1",
+            "stroke_px": 6.050000000000001
+          }
+        },
+        {
+          "id": "dual_tracrrna_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              60,
+              274
+            ],
+            [
+              77,
+              270
+            ],
+            [
+              77,
+              252
+            ],
+            [
+              101,
+              265
+            ],
+            [
+              144,
+              289
+            ],
+            [
+              152,
+              241
+            ],
+            [
+              199,
+              242
+            ],
+            [
+              236,
+              242
+            ],
+            [
+              267,
+              241
+            ],
+            [
+              295,
+              243
+            ],
+            [
+              338,
+              241
+            ],
+            [
+              339,
+              295
+            ],
+            [
+              382,
+              306
+            ],
+            [
+              405,
+              312
+            ],
+            [
+              419,
+              302
+            ],
+            [
+              418,
+              283
+            ],
+            [
+              417,
+              265
+            ],
+            [
+              417,
+              245
+            ],
+            [
+              417,
+              230
+            ],
+            [
+              419,
+              219
+            ],
+            [
+              395,
+              218
+            ],
+            [
+              400,
+              189
+            ],
+            [
+              408,
+              150
+            ],
+            [
+              462,
+              158
+            ],
+            [
+              464,
+              191
+            ],
+            [
+              469,
+              214
+            ],
+            [
+              444,
+              218
+            ],
+            [
+              444,
+              230
+            ],
+            [
+              444,
+              248
+            ],
+            [
+              443,
+              273
+            ],
+            [
+              444,
+              292
+            ],
+            [
+              444,
+              307
+            ],
+            [
+              461,
+              312
+            ],
+            [
+              474,
+              324
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#2f8539",
+            "stroke_px": 11
+          }
+        },
+        {
+          "id": "dual_tracrrna_core",
+          "curve": "bezier",
+          "points": [
+            [
+              60,
+              274
+            ],
+            [
+              77,
+              270
+            ],
+            [
+              77,
+              252
+            ],
+            [
+              101,
+              265
+            ],
+            [
+              144,
+              289
+            ],
+            [
+              152,
+              241
+            ],
+            [
+              199,
+              242
+            ],
+            [
+              236,
+              242
+            ],
+            [
+              267,
+              241
+            ],
+            [
+              295,
+              243
+            ],
+            [
+              338,
+              241
+            ],
+            [
+              339,
+              295
+            ],
+            [
+              382,
+              306
+            ],
+            [
+              405,
+              312
+            ],
+            [
+              419,
+              302
+            ],
+            [
+              418,
+              283
+            ],
+            [
+              417,
+              265
+            ],
+            [
+              417,
+              245
+            ],
+            [
+              417,
+              230
+            ],
+            [
+              419,
+              219
+            ],
+            [
+              395,
+              218
+            ],
+            [
+              400,
+              189
+            ],
+            [
+              408,
+              150
+            ],
+            [
+              462,
+              158
+            ],
+            [
+              464,
+              191
+            ],
+            [
+              469,
+              214
+            ],
+            [
+              444,
+              218
+            ],
+            [
+              444,
+              230
+            ],
+            [
+              444,
+              248
+            ],
+            [
+              443,
+              273
+            ],
+            [
+              444,
+              292
+            ],
+            [
+              444,
+              307
+            ],
+            [
+              461,
+              312
+            ],
+            [
+              474,
+              324
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#63b856",
+            "stroke_px": 6.050000000000001
+          }
+        },
+        {
+          "id": "chimera_targeting_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              53,
+              805
+            ],
+            [
+              95,
+              763
+            ],
+            [
+              105,
+              822
+            ],
+            [
+              153,
+              822
+            ],
+            [
+              174,
+              822
+            ],
+            [
+              176,
+              815
+            ],
+            [
+              203,
+              816
+            ],
+            [
+              228,
+              816
+            ],
+            [
+              258,
+              816
+            ],
+            [
+              280,
+              816
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#773b9e",
+            "stroke_px": 11
+          }
+        },
+        {
+          "id": "chimera_targeting_core",
+          "curve": "bezier",
+          "points": [
+            [
+              53,
+              805
+            ],
+            [
+              95,
+              763
+            ],
+            [
+              105,
+              822
+            ],
+            [
+              153,
+              822
+            ],
+            [
+              174,
+              822
+            ],
+            [
+              176,
+              815
+            ],
+            [
+              203,
+              816
+            ],
+            [
+              228,
+              816
+            ],
+            [
+              258,
+              816
+            ],
+            [
+              280,
+              816
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#b57bd1",
+            "stroke_px": 6.050000000000001
+          }
+        },
+        {
+          "id": "chimera_scaffold_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              280,
+              816
+            ],
+            [
+              348,
+              812
+            ],
+            [
+              341,
+              866
+            ],
+            [
+              383,
+              867
+            ],
+            [
+              409,
+              869
+            ],
+            [
+              408,
+              853
+            ],
+            [
+              408,
+              834
+            ],
+            [
+              408,
+              815
+            ],
+            [
+              409,
+              805
+            ],
+            [
+              408,
+              795
+            ],
+            [
+              404,
+              785
+            ],
+            [
+              385,
+              781
+            ],
+            [
+              393,
+              755
+            ],
+            [
+              406,
+              717
+            ],
+            [
+              457,
+              731
+            ],
+            [
+              455,
+              758
+            ],
+            [
+              456,
+              779
+            ],
+            [
+              434,
+              786
+            ],
+            [
+              434,
+              796
+            ],
+            [
+              435,
+              813
+            ],
+            [
+              434,
+              839
+            ],
+            [
+              435,
+              857
+            ],
+            [
+              435,
+              872
+            ],
+            [
+              449,
+              875
+            ],
+            [
+              467,
+              875
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#2f8539",
+            "stroke_px": 11
+          }
+        },
+        {
+          "id": "chimera_scaffold_core",
+          "curve": "bezier",
+          "points": [
+            [
+              280,
+              816
+            ],
+            [
+              348,
+              812
+            ],
+            [
+              341,
+              866
+            ],
+            [
+              383,
+              867
+            ],
+            [
+              409,
+              869
+            ],
+            [
+              408,
+              853
+            ],
+            [
+              408,
+              834
+            ],
+            [
+              408,
+              815
+            ],
+            [
+              409,
+              805
+            ],
+            [
+              408,
+              795
+            ],
+            [
+              404,
+              785
+            ],
+            [
+              385,
+              781
+            ],
+            [
+              393,
+              755
+            ],
+            [
+              406,
+              717
+            ],
+            [
+              457,
+              731
+            ],
+            [
+              455,
+              758
+            ],
+            [
+              456,
+              779
+            ],
+            [
+              434,
+              786
+            ],
+            [
+              434,
+              796
+            ],
+            [
+              435,
+              813
+            ],
+            [
+              434,
+              839
+            ],
+            [
+              435,
+              857
+            ],
+            [
+              435,
+              872
+            ],
+            [
+              449,
+              875
+            ],
+            [
+              467,
+              875
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#63b856",
+            "stroke_px": 6.050000000000001
+          }
+        },
+        {
+          "id": "complex_scaffold_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              1042,
+              508
+            ],
+            [
+              1050,
+              499
+            ],
+            [
+              1049,
+              484
+            ],
+            [
+              1047,
+              467
+            ],
+            [
+              1047,
+              446
+            ],
+            [
+              1046,
+              418
+            ],
+            [
+              1045,
+              396
+            ],
+            [
+              1046,
+              387
+            ],
+            [
+              1023,
+              383
+            ],
+            [
+              1024,
+              357
+            ],
+            [
+              1022,
+              315
+            ],
+            [
+              1085,
+              315
+            ],
+            [
+              1093,
+              349
+            ],
+            [
+              1101,
+              377
+            ],
+            [
+              1074,
+              382
+            ],
+            [
+              1075,
+              396
+            ],
+            [
+              1076,
+              420
+            ],
+            [
+              1075,
+              451
+            ],
+            [
+              1076,
+              477
+            ],
+            [
+              1076,
+              514
+            ],
+            [
+              1089,
+              523
+            ],
+            [
+              1112,
+              531
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#2f8539",
+            "stroke_px": 12
+          }
+        },
+        {
+          "id": "complex_scaffold_core",
+          "curve": "bezier",
+          "points": [
+            [
+              1042,
+              508
+            ],
+            [
+              1050,
+              499
+            ],
+            [
+              1049,
+              484
+            ],
+            [
+              1047,
+              467
+            ],
+            [
+              1047,
+              446
+            ],
+            [
+              1046,
+              418
+            ],
+            [
+              1045,
+              396
+            ],
+            [
+              1046,
+              387
+            ],
+            [
+              1023,
+              383
+            ],
+            [
+              1024,
+              357
+            ],
+            [
+              1022,
+              315
+            ],
+            [
+              1085,
+              315
+            ],
+            [
+              1093,
+              349
+            ],
+            [
+              1101,
+              377
+            ],
+            [
+              1074,
+              382
+            ],
+            [
+              1075,
+              396
+            ],
+            [
+              1076,
+              420
+            ],
+            [
+              1075,
+              451
+            ],
+            [
+              1076,
+              477
+            ],
+            [
+              1076,
+              514
+            ],
+            [
+              1089,
+              523
+            ],
+            [
+              1112,
+              531
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#68bb5a",
+            "stroke_px": 6.6000000000000005
+          }
+        },
+        {
+          "id": "left_dna_pair_0",
+          "points": [
+            [
+              426,
+              517
+            ],
+            [
+              426,
+              560
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "left_dna_pair_1",
+          "points": [
+            [
+              444,
+              517
+            ],
+            [
+              444,
+              560
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "left_dna_pair_2",
+          "points": [
+            [
+              462,
+              517
+            ],
+            [
+              462,
+              560
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "left_dna_pair_3",
+          "points": [
+            [
+              480,
+              517
+            ],
+            [
+              480,
+              560
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "left_dna_pair_4",
+          "points": [
+            [
+              498,
+              517
+            ],
+            [
+              498,
+              560
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "entry_dna_pair_0",
+          "points": [
+            [
+              585,
+              517
+            ],
+            [
+              585,
+              562
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#b0b0a6",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "entry_dna_pair_1",
+          "points": [
+            [
+              603,
+              517
+            ],
+            [
+              603,
+              562
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#b0b0a6",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "entry_dna_pair_2",
+          "points": [
+            [
+              621,
+              517
+            ],
+            [
+              621,
+              562
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#b0b0a6",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "entry_dna_pair_3",
+          "points": [
+            [
+              639,
+              517
+            ],
+            [
+              639,
+              562
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#b0b0a6",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "right_dna_pair_0",
+          "points": [
+            [
+              1088,
+              531
+            ],
+            [
+              1088,
+              575
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "right_dna_pair_1",
+          "points": [
+            [
+              1107,
+              531
+            ],
+            [
+              1107,
+              575
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "right_dna_pair_2",
+          "points": [
+            [
+              1126,
+              531
+            ],
+            [
+              1126,
+              575
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "right_dna_pair_3",
+          "points": [
+            [
+              1145,
+              531
+            ],
+            [
+              1145,
+              575
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "right_dna_pair_4",
+          "points": [
+            [
+              1164,
+              531
+            ],
+            [
+              1164,
+              575
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "right_dna_pair_5",
+          "points": [
+            [
+              1183,
+              531
+            ],
+            [
+              1183,
+              575
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_0",
+          "points": [
+            [
+              1298,
+              517
+            ],
+            [
+              1298,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_1",
+          "points": [
+            [
+              1316,
+              517
+            ],
+            [
+              1316,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_2",
+          "points": [
+            [
+              1334,
+              517
+            ],
+            [
+              1334,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_3",
+          "points": [
+            [
+              1352,
+              517
+            ],
+            [
+              1352,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_4",
+          "points": [
+            [
+              1370,
+              517
+            ],
+            [
+              1370,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_7",
+          "points": [
+            [
+              1424,
+              517
+            ],
+            [
+              1424,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_8",
+          "points": [
+            [
+              1442,
+              517
+            ],
+            [
+              1442,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_9",
+          "points": [
+            [
+              1460,
+              517
+            ],
+            [
+              1460,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_10",
+          "points": [
+            [
+              1478,
+              517
+            ],
+            [
+              1478,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_11",
+          "points": [
+            [
+              1496,
+              517
+            ],
+            [
+              1496,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "product_pair_12",
+          "points": [
+            [
+              1514,
+              517
+            ],
+            [
+              1514,
+              558
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#a6abb0",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_0",
+          "points": [
+            [
+              728,
+              478
+            ],
+            [
+              728,
+              518
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_1",
+          "points": [
+            [
+              746,
+              469
+            ],
+            [
+              746,
+              508
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_2",
+          "points": [
+            [
+              764,
+              463
+            ],
+            [
+              764,
+              502
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_3",
+          "points": [
+            [
+              783,
+              459
+            ],
+            [
+              783,
+              500
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_4",
+          "points": [
+            [
+              802,
+              457
+            ],
+            [
+              802,
+              499
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_5",
+          "points": [
+            [
+              821,
+              457
+            ],
+            [
+              821,
+              499
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_6",
+          "points": [
+            [
+              840,
+              458
+            ],
+            [
+              840,
+              499
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_7",
+          "points": [
+            [
+              859,
+              459
+            ],
+            [
+              859,
+              500
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_8",
+          "points": [
+            [
+              878,
+              460
+            ],
+            [
+              878,
+              501
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_9",
+          "points": [
+            [
+              896,
+              462
+            ],
+            [
+              896,
+              502
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_10",
+          "points": [
+            [
+              944,
+              470
+            ],
+            [
+              944,
+              502
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_11",
+          "points": [
+            [
+              962,
+              476
+            ],
+            [
+              962,
+              504
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "rna_dna_pair_12",
+          "points": [
+            [
+              981,
+              485
+            ],
+            [
+              981,
+              509
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#bdac7c",
+            "stroke_px": 5
+          }
+        },
+        {
+          "id": "complex_guide_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              654,
+              514
+            ],
+            [
+              690,
+              524
+            ],
+            [
+              704,
+              538
+            ],
+            [
+              732,
+              519
+            ],
+            [
+              769,
+              492
+            ],
+            [
+              811,
+              499
+            ],
+            [
+              850,
+              499
+            ],
+            [
+              890,
+              501
+            ],
+            [
+              927,
+              499
+            ],
+            [
+              960,
+              503
+            ],
+            [
+              995,
+              506
+            ],
+            [
+              1003,
+              527
+            ],
+            [
+              1042,
+              508
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#773b9e",
+            "stroke_px": 13
+          }
+        },
+        {
+          "id": "complex_guide_core",
+          "curve": "bezier",
+          "points": [
+            [
+              654,
+              514
+            ],
+            [
+              690,
+              524
+            ],
+            [
+              704,
+              538
+            ],
+            [
+              732,
+              519
+            ],
+            [
+              769,
+              492
+            ],
+            [
+              811,
+              499
+            ],
+            [
+              850,
+              499
+            ],
+            [
+              890,
+              501
+            ],
+            [
+              927,
+              499
+            ],
+            [
+              960,
+              503
+            ],
+            [
+              995,
+              506
+            ],
+            [
+              1003,
+              527
+            ],
+            [
+              1042,
+              508
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#aa70c8",
+            "stroke_px": 7.15
+          }
+        },
+        {
+          "id": "dna_lower_before_cut_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              419,
+              563
+            ],
+            [
+              444,
+              563
+            ],
+            [
+              472,
+              563
+            ],
+            [
+              488,
+              562
+            ],
+            [
+              524,
+              559
+            ],
+            [
+              538,
+              527
+            ],
+            [
+              565,
+              519
+            ],
+            [
+              535,
+              533
+            ],
+            [
+              558,
+              565
+            ],
+            [
+              600,
+              565
+            ],
+            [
+              628,
+              565
+            ],
+            [
+              651,
+              562
+            ],
+            [
+              676,
+              574
+            ],
+            [
+              716,
+              595
+            ],
+            [
+              730,
+              615
+            ],
+            [
+              782,
+              619
+            ],
+            [
+              834,
+              625
+            ],
+            [
+              867,
+              614
+            ],
+            [
+              910,
+              600
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#164f83",
+            "stroke_px": 18
+          }
+        },
+        {
+          "id": "dna_lower_before_cut_core",
+          "curve": "bezier",
+          "points": [
+            [
+              419,
+              563
+            ],
+            [
+              444,
+              563
+            ],
+            [
+              472,
+              563
+            ],
+            [
+              488,
+              562
+            ],
+            [
+              524,
+              559
+            ],
+            [
+              538,
+              527
+            ],
+            [
+              565,
+              519
+            ],
+            [
+              535,
+              533
+            ],
+            [
+              558,
+              565
+            ],
+            [
+              600,
+              565
+            ],
+            [
+              628,
+              565
+            ],
+            [
+              651,
+              562
+            ],
+            [
+              676,
+              574
+            ],
+            [
+              716,
+              595
+            ],
+            [
+              730,
+              615
+            ],
+            [
+              782,
+              619
+            ],
+            [
+              834,
+              625
+            ],
+            [
+              867,
+              614
+            ],
+            [
+              910,
+              600
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#337ab4",
+            "stroke_px": 9.9
+          }
+        },
+        {
+          "id": "dna_lower_after_cut_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              939,
+              598
+            ],
+            [
+              980,
+              600
+            ],
+            [
+              1006,
+              598
+            ],
+            [
+              1034,
+              581
+            ],
+            [
+              1083,
+              548
+            ],
+            [
+              1104,
+              570
+            ],
+            [
+              1143,
+              578
+            ],
+            [
+              1163,
+              580
+            ],
+            [
+              1176,
+              579
+            ],
+            [
+              1190,
+              580
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#164f83",
+            "stroke_px": 18
+          }
+        },
+        {
+          "id": "dna_lower_after_cut_core",
+          "curve": "bezier",
+          "points": [
+            [
+              939,
+              598
+            ],
+            [
+              980,
+              600
+            ],
+            [
+              1006,
+              598
+            ],
+            [
+              1034,
+              581
+            ],
+            [
+              1083,
+              548
+            ],
+            [
+              1104,
+              570
+            ],
+            [
+              1143,
+              578
+            ],
+            [
+              1163,
+              580
+            ],
+            [
+              1176,
+              579
+            ],
+            [
+              1190,
+              580
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#337ab4",
+            "stroke_px": 9.9
+          }
+        },
+        {
+          "id": "dna_upper_before_cut_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              419,
+              515
+            ],
+            [
+              448,
+              515
+            ],
+            [
+              471,
+              512
+            ],
+            [
+              486,
+              514
+            ],
+            [
+              518,
+              513
+            ],
+            [
+              532,
+              545
+            ],
+            [
+              566,
+              556
+            ],
+            [
+              545,
+              543
+            ],
+            [
+              555,
+              518
+            ],
+            [
+              581,
+              514
+            ],
+            [
+              615,
+              513
+            ],
+            [
+              638,
+              516
+            ],
+            [
+              659,
+              510
+            ],
+            [
+              697,
+              500
+            ],
+            [
+              717,
+              472
+            ],
+            [
+              755,
+              462
+            ],
+            [
+              806,
+              447
+            ],
+            [
+              859,
+              454
+            ],
+            [
+              909,
+              464
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#268fc4",
+            "stroke_px": 18
+          }
+        },
+        {
+          "id": "dna_upper_before_cut_core",
+          "curve": "bezier",
+          "points": [
+            [
+              419,
+              515
+            ],
+            [
+              448,
+              515
+            ],
+            [
+              471,
+              512
+            ],
+            [
+              486,
+              514
+            ],
+            [
+              518,
+              513
+            ],
+            [
+              532,
+              545
+            ],
+            [
+              566,
+              556
+            ],
+            [
+              545,
+              543
+            ],
+            [
+              555,
+              518
+            ],
+            [
+              581,
+              514
+            ],
+            [
+              615,
+              513
+            ],
+            [
+              638,
+              516
+            ],
+            [
+              659,
+              510
+            ],
+            [
+              697,
+              500
+            ],
+            [
+              717,
+              472
+            ],
+            [
+              755,
+              462
+            ],
+            [
+              806,
+              447
+            ],
+            [
+              859,
+              454
+            ],
+            [
+              909,
+              464
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#63c2ed",
+            "stroke_px": 9.9
+          }
+        },
+        {
+          "id": "dna_upper_after_cut_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              938,
+              468
+            ],
+            [
+              996,
+              473
+            ],
+            [
+              1019,
+              500
+            ],
+            [
+              1050,
+              517
+            ],
+            [
+              1091,
+              541
+            ],
+            [
+              1121,
+              531
+            ],
+            [
+              1190,
+              531
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#268fc4",
+            "stroke_px": 18
+          }
+        },
+        {
+          "id": "dna_upper_after_cut_core",
+          "curve": "bezier",
+          "points": [
+            [
+              938,
+              468
+            ],
+            [
+              996,
+              473
+            ],
+            [
+              1019,
+              500
+            ],
+            [
+              1050,
+              517
+            ],
+            [
+              1091,
+              541
+            ],
+            [
+              1121,
+              531
+            ],
+            [
+              1190,
+              531
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#63c2ed",
+            "stroke_px": 9.9
+          }
+        },
+        {
+          "id": "product_upper_left_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              1289,
+              514
+            ],
+            [
+              1322.0,
+              514
+            ],
+            [
+              1355.0,
+              514
+            ],
+            [
+              1388,
+              514
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#268fc4",
+            "stroke_px": 17
+          }
+        },
+        {
+          "id": "product_upper_left_core",
+          "curve": "bezier",
+          "points": [
+            [
+              1289,
+              514
+            ],
+            [
+              1322.0,
+              514
+            ],
+            [
+              1355.0,
+              514
+            ],
+            [
+              1388,
+              514
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#63c2ed",
+            "stroke_px": 9.350000000000001
+          }
+        },
+        {
+          "id": "product_lower_left_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              1289,
+              561
+            ],
+            [
+              1322.0,
+              561
+            ],
+            [
+              1355.0,
+              561
+            ],
+            [
+              1388,
+              561
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#164f83",
+            "stroke_px": 17
+          }
+        },
+        {
+          "id": "product_lower_left_core",
+          "curve": "bezier",
+          "points": [
+            [
+              1289,
+              561
+            ],
+            [
+              1322.0,
+              561
+            ],
+            [
+              1355.0,
+              561
+            ],
+            [
+              1388,
+              561
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#337ab4",
+            "stroke_px": 9.350000000000001
+          }
+        },
+        {
+          "id": "product_upper_right_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              1413,
+              514
+            ],
+            [
+              1447.0,
+              514
+            ],
+            [
+              1481.0,
+              514
+            ],
+            [
+              1515,
+              514
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#268fc4",
+            "stroke_px": 17
+          }
+        },
+        {
+          "id": "product_upper_right_core",
+          "curve": "bezier",
+          "points": [
+            [
+              1413,
+              514
+            ],
+            [
+              1447.0,
+              514
+            ],
+            [
+              1481.0,
+              514
+            ],
+            [
+              1515,
+              514
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#63c2ed",
+            "stroke_px": 9.350000000000001
+          }
+        },
+        {
+          "id": "product_lower_right_outline",
+          "curve": "bezier",
+          "points": [
+            [
+              1413,
+              561
+            ],
+            [
+              1447.0,
+              561
+            ],
+            [
+              1481.0,
+              561
+            ],
+            [
+              1515,
+              561
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#164f83",
+            "stroke_px": 17
+          }
+        },
+        {
+          "id": "product_lower_right_core",
+          "curve": "bezier",
+          "points": [
+            [
+              1413,
+              561
+            ],
+            [
+              1447.0,
+              561
+            ],
+            [
+              1481.0,
+              561
+            ],
+            [
+              1515,
+              561
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#337ab4",
+            "stroke_px": 9.350000000000001
+          }
+        },
+        {
+          "id": "hnh_cut_ray_0",
+          "points": [
+            [
+              912.4088900845312,
+              460.89417145876973
+            ],
+            [
+              901.7837059953514,
+              458.047161962642
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "hnh_cut_ray_1",
+          "points": [
+            [
+              916.2865486837616,
+              454.8074666825723
+            ],
+            [
+              909.2158849772096,
+              446.3809778082635
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "hnh_cut_ray_2",
+          "points": [
+            [
+              923.58120603957,
+              452.0073100757709
+            ],
+            [
+              923.1973115758425,
+              441.0140109785608
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "hnh_cut_ray_3",
+          "points": [
+            [
+              931.3879377039079,
+              454.54387095671933
+            ],
+            [
+              938.1602139324901,
+              445.8757526670454
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "hnh_cut_ray_4",
+          "points": [
+            [
+              935.8832168248988,
+              462.3299227884792
+            ],
+            [
+              946.7761655810561,
+              460.79901867791847
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "ruvc_cut_ray_0",
+          "points": [
+            [
+              913.4088900845312,
+              593.8941714587697
+            ],
+            [
+              902.7837059953514,
+              591.047161962642
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "ruvc_cut_ray_1",
+          "points": [
+            [
+              917.2865486837616,
+              587.8074666825722
+            ],
+            [
+              910.2158849772096,
+              579.3809778082635
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "ruvc_cut_ray_2",
+          "points": [
+            [
+              924.58120603957,
+              585.0073100757709
+            ],
+            [
+              924.1973115758425,
+              574.0140109785608
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "ruvc_cut_ray_3",
+          "points": [
+            [
+              932.3879377039079,
+              587.5438709567194
+            ],
+            [
+              939.1602139324901,
+              578.8757526670454
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "ruvc_cut_ray_4",
+          "points": [
+            [
+              936.8832168248988,
+              595.3299227884792
+            ],
+            [
+              947.7761655810561,
+              593.7990186779185
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_top_cut_ray_0",
+          "points": [
+            [
+              1389.408890084531,
+              507.89417145876973
+            ],
+            [
+              1378.7837059953515,
+              505.047161962642
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_top_cut_ray_1",
+          "points": [
+            [
+              1393.2865486837616,
+              501.8074666825723
+            ],
+            [
+              1386.2158849772095,
+              493.3809778082635
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_top_cut_ray_2",
+          "points": [
+            [
+              1400.58120603957,
+              499.0073100757709
+            ],
+            [
+              1400.1973115758424,
+              488.0140109785608
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_top_cut_ray_3",
+          "points": [
+            [
+              1408.387937703908,
+              501.54387095671933
+            ],
+            [
+              1415.1602139324903,
+              492.8757526670454
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_top_cut_ray_4",
+          "points": [
+            [
+              1412.883216824899,
+              509.3299227884792
+            ],
+            [
+              1423.7761655810561,
+              507.79901867791847
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_bottom_cut_ray_0",
+          "points": [
+            [
+              1389.408890084531,
+              566.1058285412303
+            ],
+            [
+              1378.7837059953515,
+              568.952838037358
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_bottom_cut_ray_1",
+          "points": [
+            [
+              1393.2865486837616,
+              572.1925333174278
+            ],
+            [
+              1386.2158849772095,
+              580.6190221917365
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_bottom_cut_ray_2",
+          "points": [
+            [
+              1400.58120603957,
+              574.9926899242291
+            ],
+            [
+              1400.1973115758424,
+              585.9859890214392
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_bottom_cut_ray_3",
+          "points": [
+            [
+              1408.387937703908,
+              572.4561290432806
+            ],
+            [
+              1415.1602139324903,
+              581.1242473329546
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "product_bottom_cut_ray_4",
+          "points": [
+            [
+              1412.883216824899,
+              564.6700772115208
+            ],
+            [
+              1423.7761655810561,
+              566.2009813220815
+            ]
+          ],
+          "arrow": 0,
+          "style": {
+            "stroke": "#ec4c2c",
+            "stroke_px": 3
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "dual_rna_assembly",
+          "source": {
+            "node": "dual_card",
+            "anchor": [
+              1,
+              0.37681159420289856
+            ]
+          },
+          "target": {
+            "node": "cas9",
+            "anchor": [
+              0.138353765323993,
+              0.17407407407407408
+            ]
+          },
+          "points": [
+            [
+              497,
+              184.0
+            ],
+            [
+              579,
+              188
+            ],
+            [
+              620,
+              250
+            ],
+            [
+              653.0,
+              326.0
+            ]
+          ],
+          "curve": "bezier",
+          "arrow": 13,
+          "style": {
+            "stroke": "#717171",
+            "stroke_px": 7
+          }
+        },
+        {
+          "id": "chimeric_rna_assembly",
+          "source": {
+            "node": "chimeric_card",
+            "anchor": [
+              1,
+              0.5392156862745098
+            ]
+          },
+          "target": {
+            "node": "cas9",
+            "anchor": [
+              0.138353765323993,
+              0.7796296296296297
+            ]
+          },
+          "points": [
+            [
+              497,
+              807.0
+            ],
+            [
+              578,
+              795
+            ],
+            [
+              623,
+              724
+            ],
+            [
+              653.0,
+              653.0
+            ]
+          ],
+          "curve": "bezier",
+          "arrow": 13,
+          "style": {
+            "stroke": "#717171",
+            "stroke_px": 7
+          }
+        },
+        {
+          "id": "label_complementary",
+          "source": {
+            "node": "complementary_label",
+            "anchor": [
+              0.8,
+              1
+            ]
+          },
+          "target": {
+            "node": "complementary_anchor",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              553.6,
+              466
+            ],
+            [
+              581.0,
+              513.0
+            ]
+          ],
+          "curve": "polyline",
+          "arrow": 0,
+          "style": {
+            "stroke": "#161616",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "label_noncomplementary",
+          "source": {
+            "node": "noncomplementary_label",
+            "anchor": [
+              0.7,
+              0
+            ]
+          },
+          "target": {
+            "node": "noncomplementary_anchor",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              551.0,
+              601
+            ],
+            [
+              600.0,
+              568.0
+            ]
+          ],
+          "curve": "polyline",
+          "arrow": 0,
+          "style": {
+            "stroke": "#161616",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "hnh_to_cut",
+          "source": {
+            "node": "hnh_label",
+            "anchor": [
+              0.8,
+              1
+            ]
+          },
+          "target": {
+            "node": "hnh_cut",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              913.2,
+              414
+            ],
+            [
+              923.0,
+              463.0
+            ]
+          ],
+          "curve": "polyline",
+          "arrow": 13,
+          "style": {
+            "stroke": "#161616",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "ruvc_to_cut",
+          "source": {
+            "node": "ruvc_label",
+            "anchor": [
+              0.48,
+              0
+            ]
+          },
+          "target": {
+            "node": "ruvc_cut",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              914.6,
+              649
+            ],
+            [
+              925.0,
+              598.0
+            ]
+          ],
+          "curve": "polyline",
+          "arrow": 13,
+          "style": {
+            "stroke": "#161616",
+            "stroke_px": 3
+          }
+        },
+        {
+          "id": "double_strand_cleavage",
+          "source": {
+            "node": "cleavage_source",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "target": {
+            "node": "cleavage_target",
+            "anchor": [
+              0.5,
+              0.5
+            ]
+          },
+          "points": [
+            [
+              1207.0,
+              555.0
+            ],
+            [
+              1277.0,
+              555.0
+            ]
+          ],
+          "curve": "polyline",
+          "arrow": 13,
+          "style": {
+            "stroke": "#717171",
+            "stroke_px": 10
+          }
+        }
+      ],
+      "draw_order": [
+        "background",
+        "dual_card",
+        "chimeric_card",
+        "cas9",
+        "hnh",
+        "ruvc",
+        "crrna_label",
+        "tracrrna_label",
+        "chimera_label",
+        "cas9_label",
+        "hnh_label",
+        "ruvc_label",
+        "complementary_label",
+        "noncomplementary_label",
+        "product_label",
+        "hnh_cut",
+        "ruvc_cut",
+        "cleavage_source",
+        "cleavage_target",
+        "dual_pair_0",
+        "dual_pair_1",
+        "dual_pair_2",
+        "dual_pair_3",
+        "dual_pair_4",
+        "dual_pair_5",
+        "dual_pair_6",
+        "dual_pair_7",
+        "dual_hairpin_pair_0",
+        "dual_hairpin_pair_1",
+        "dual_hairpin_pair_2",
+        "dual_hairpin_pair_3",
+        "chimera_pair_0",
+        "chimera_pair_1",
+        "chimera_pair_2",
+        "chimera_pair_3",
+        "complex_hairpin_pair_0",
+        "complex_hairpin_pair_1",
+        "complex_hairpin_pair_2",
+        "complex_hairpin_pair_3",
+        "complex_hairpin_pair_4",
+        "dual_crrna_outline",
+        "dual_crrna_core",
+        "dual_tracrrna_outline",
+        "dual_tracrrna_core",
+        "chimera_targeting_outline",
+        "chimera_targeting_core",
+        "chimera_scaffold_outline",
+        "chimera_scaffold_core",
+        "complex_scaffold_outline",
+        "complex_scaffold_core",
+        "left_dna_pair_0",
+        "left_dna_pair_1",
+        "left_dna_pair_2",
+        "left_dna_pair_3",
+        "left_dna_pair_4",
+        "entry_dna_pair_0",
+        "entry_dna_pair_1",
+        "entry_dna_pair_2",
+        "entry_dna_pair_3",
+        "right_dna_pair_0",
+        "right_dna_pair_1",
+        "right_dna_pair_2",
+        "right_dna_pair_3",
+        "right_dna_pair_4",
+        "right_dna_pair_5",
+        "product_pair_0",
+        "product_pair_1",
+        "product_pair_2",
+        "product_pair_3",
+        "product_pair_4",
+        "product_pair_7",
+        "product_pair_8",
+        "product_pair_9",
+        "product_pair_10",
+        "product_pair_11",
+        "product_pair_12",
+        "rna_dna_pair_0",
+        "rna_dna_pair_1",
+        "rna_dna_pair_2",
+        "rna_dna_pair_3",
+        "rna_dna_pair_4",
+        "rna_dna_pair_5",
+        "rna_dna_pair_6",
+        "rna_dna_pair_7",
+        "rna_dna_pair_8",
+        "rna_dna_pair_9",
+        "rna_dna_pair_10",
+        "rna_dna_pair_11",
+        "rna_dna_pair_12",
+        "complex_guide_outline",
+        "complex_guide_core",
+        "dna_lower_before_cut_outline",
+        "dna_lower_before_cut_core",
+        "dna_lower_after_cut_outline",
+        "dna_lower_after_cut_core",
+        "dna_upper_before_cut_outline",
+        "dna_upper_before_cut_core",
+        "dna_upper_after_cut_outline",
+        "dna_upper_after_cut_core",
+        "product_upper_left_outline",
+        "product_upper_left_core",
+        "product_lower_left_outline",
+        "product_lower_left_core",
+        "product_upper_right_outline",
+        "product_upper_right_core",
+        "product_lower_right_outline",
+        "product_lower_right_core",
+        "hnh_cut_ray_0",
+        "hnh_cut_ray_1",
+        "hnh_cut_ray_2",
+        "hnh_cut_ray_3",
+        "hnh_cut_ray_4",
+        "ruvc_cut_ray_0",
+        "ruvc_cut_ray_1",
+        "ruvc_cut_ray_2",
+        "ruvc_cut_ray_3",
+        "ruvc_cut_ray_4",
+        "product_top_cut_ray_0",
+        "product_top_cut_ray_1",
+        "product_top_cut_ray_2",
+        "product_top_cut_ray_3",
+        "product_top_cut_ray_4",
+        "product_bottom_cut_ray_0",
+        "product_bottom_cut_ray_1",
+        "product_bottom_cut_ray_2",
+        "product_bottom_cut_ray_3",
+        "product_bottom_cut_ray_4",
+        "complementary_anchor",
+        "noncomplementary_anchor",
+        "dual_rna_assembly",
+        "chimeric_rna_assembly",
+        "label_complementary",
+        "label_noncomplementary",
+        "hnh_to_cut",
+        "ruvc_to_cut",
+        "double_strand_cleavage"
+      ]
+    }
+  ]
+}

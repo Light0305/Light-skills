@@ -1,0 +1,1234 @@
+Complete the manuscript task using only the supplied research material.
+Follow the attached writing guidance, subject to the explicit manuscript request.
+All guidance files needed for this fixed-context test are attached; do not open files,
+invoke skills, use tools, browse, run commands, delegate, or edit any files.
+Do not discuss this test or emit routing announcements. Return only the deliverable
+and any short, materially necessary author note permitted by the request.
+
+<guidance path="nature-writing/SKILL.md">
+---
+name: nature-writing
+description: Draft, restructure, or plan Nature-style manuscript sections and initial-submission materials from author-provided claims, results, figures, notes, or Chinese drafts. Use for abstracts, introductions, related work, methods, Results or experiments, discussions, conclusions, titles, full manuscript arguments, and first-submission packages such as cover letters, title pages, highlights, author contributions, availability or declaration text, and reviewer suggestions. Also use to classify Results evidence, decide what belongs in main text, captions, Methods or source data, or Supplementary Information, compress Results to the shortest sufficient evidence chain, prevent revision accretion, and audit paragraph necessity or claim repetition. Trigger on drafting a paper or section, structuring a manuscript, academic writing, first submission, 投稿材料、首次投稿、投稿信、标题页、亮点、作者贡献、数据可用性声明、推荐审稿人.
+---
+
+# Nature-Style Scientific Writing — Router
+
+This skill is split into two layers:
+
+- A **static layer** under `static/` that holds versioned, reusable content fragments (core stance + workflow, paper-type playbooks, per-section drafting guidance, initial-submission guidance, language-specific rules, per-journal style).
+- A **dynamic layer** (this file plus `manifest.yaml`) that detects the request's axes and loads only the fragments needed for the current job.
+
+Do not try to apply the drafting logic from memory or from this router. Always load fragments from disk as described below.
+
+## Routing protocol
+
+Follow these five steps every time the skill is invoked.
+
+### 1. Load the manifest and the core layer
+
+Read [manifest.yaml](manifest.yaml). It declares the axes (`task`, `paper_type`, `section`, `language`, `journal`), the allowed values, and the file paths each value maps to.
+
+Also read every file listed under `always_load`. These hold the default stance, writing workflow, and output format that apply to every drafting job.
+
+### 2. Detect the axis values for this request
+
+For each axis in the manifest, decide the value using the manifest's `detect:` hint and the user's input:
+
+- `task` — manuscript / submission-package. Use `submission-package` for first-submission materials, never for revision correspondence.
+- `paper_type` — research / methods / hypothesis / algorithmic / review. Default: research.
+- `section` — abstract / intro / related-work / method / experiments / discussion / conclusion / title. May be multiple. Ask the user if it is ambiguous and matters for the draft.
+- `language` — en or zh-to-en. Detect from the user's notes themselves.
+- `journal` — nature / nature-family / nat-comms / nat-mach-intell / generic.
+  Default: generic. Use `nature` only for the flagship journal Nature,
+  `nat-comms` for Nature Communications, `nat-mach-intell` for Nature Machine
+  Intelligence (NMI), and `nature-family` for other Nature Portfolio titles or
+  an unspecified Nature-family request.
+
+State the detected axis values in one short line to the user before drafting, so they can correct you cheaply. This is a progress update, not an approval gate; continue unless a necessary decision remains unresolved.
+
+### 3. Load the matching fragments
+
+For each axis value, Read the file mapped in the manifest. Skip the `section` axis when the task is `submission-package` or when the user explicitly asks for a free-floating argument paragraph with no section context.
+
+Do **not** read every fragment in `static/`. Load only what step 2 selected.
+
+### 4. Draft using the loaded material
+
+Apply the loaded fragments in this priority order:
+
+1. Core stance + intake (`core/stance.md`) — surface missing claim / evidence / boundary before drafting.
+2. Paper-type playbook — argument chain, drafting order.
+3. Section-specific drafting rules and structure.
+4. Task-specific submission rules when `task=submission-package`.
+5. Journal-specific framing and constraints.
+6. Language-specific sentence and paragraph rules (apply last).
+
+For `task=manuscript`, run the workflow in `core/workflow.md` end-to-end. Do not skip planning just because the user asked for prose immediately.
+
+When drafting or restructuring Results, or compressing a full manuscript's main
+text, also load `../nature-shared/core/main-text-discipline.md` before building
+the paragraph map. Classify every result by function, allocate it across main
+text, captions, Methods/source data, and SI, then draft the shortest sufficient
+evidence chain. Do not equate a complete analysis record with a complete main
+text.
+
+When the target is flagship Nature, Nature Communications, Nature Machine
+Intelligence, or another Nature Portfolio title, load the matching shared
+Nature-style corpus guidance for the section being drafted:
+
+- Results or Discussion →
+  `../nature-shared/core/nature-results-discussion.md`
+- Introduction or whole-manuscript narrative →
+  `../nature-shared/core/nature-introduction.md`
+- Abstract → `../nature-shared/core/nature-abstract.md`
+
+Use these files for claim escalation, question-chain alignment,
+discovery-centred compression, and synthesis. They were initially distilled
+from published NMI papers and generalized as Nature-style defaults; do not
+present them as official policy, and let the target journal's current rules
+override them.
+
+For any Discussion drafting, restructuring, or section audit, also load
+`../nature-shared/core/discussion-argument-language.md`. Use it to select the
+opening anchor, control the reverse-funnel expansion, distinguish literature
+positioning from citation decoration, calibrate modal strength to evidence,
+and turn limitations and future work into claim-specific reasoning. This is
+general writing guidance rather than an official journal rule.
+
+For `task=submission-package`, follow `static/fragments/task/submission-package.md` and `references/submission-package.md` instead. Build the deliverable matrix and readiness audit; do not force manuscript paragraph architecture onto administrative submission materials.
+
+If essential evidence or boundary is missing, write a placeholder and list it under `Assumptions or missing inputs:` instead of inventing content.
+
+### 5. Reach for references only when needed
+
+The files under `references/` are deep references and the example library, not defaults. Open them on demand per the `references.on_demand` table in the manifest. Typical triggers:
+
+- The user asks for a concrete example or template → `references/examples/index.md`.
+- A section's draft has structural problems that the section fragment alone does not explain → the matching `references/<section>.md`.
+- The user needs a broad-audience `Nature` abstract opening or asks about a `summary paragraph` → `references/nature-summary-paragraph.md`.
+- The user asks "does this paragraph flow?" → `references/paragraph-flow.md`.
+- The user asks for a self-review or rejection-risk audit → `references/paper-review.md`.
+- The user asks what belongs in the main text, captions, or SI; wants a shorter
+  Results section; or is adding reviewer-driven explanation →
+  `../nature-shared/core/main-text-discipline.md`.
+- The user requests a complete first-submission package, templates, or a submission-readiness audit → `references/submission-package.md`.
+- The target is the flagship journal Nature and exact submission or formatting
+  requirements matter → `../nature-shared/journal-formats/nature.md`.
+- The target is Nature Machine Intelligence and exact content-type, submission,
+  data/code or production requirements matter →
+  `../nature-shared/journal-formats/nature-machine-intelligence.md`.
+- Any Nature / Nature Portfolio target needs Results claim progression,
+  evidence-bound interpretation, robustness placement, or Discussion synthesis
+  → `../nature-shared/core/nature-results-discussion.md`.
+- Any target needs a Discussion function chain, evidence-calibrated modal
+  language, claim-specific limitations, non-redundant literature positioning,
+  or uncertainty-driven future work →
+  `../nature-shared/core/discussion-argument-language.md`.
+- Any Nature / Nature Portfolio target needs an Introduction funnel, exact gap,
+  literature logic, question-first novelty, study roadmap, or alignment with
+  Results → `../nature-shared/core/nature-introduction.md`.
+- Any Nature / Nature Portfolio target needs abstract evidence-chain,
+  main/supporting-claim, numeric-result, or final-payoff decisions →
+  `../nature-shared/core/nature-abstract.md`.
+- The work involves regulated or specialist research compliance →
+  `../nature-shared/core/research-compliance.md`.
+
+## Submission boundary
+
+- `nature-writing` owns **initial submission** materials prepared before peer review.
+- `nature-response` owns revision cover letters, rebuttals, point-by-point responses, marked manuscripts, appeals, and other post-decision correspondence.
+- Route graphical abstracts and TOC graphics to `nature-figure`; route simulated pre-submission peer review to `nature-reviewer`.
+
+## Why this split
+
+- The static layer is versioned and reviewable. Adding a new journal style, paper type, or section is one new file plus one manifest line.
+- The dynamic layer keeps each invocation cheap: only the fragments relevant to this draft enter context, instead of the full multi-thousand-line reference set.
+- The router itself is short on purpose. Update fragments, not this file, when adding scope.
+- This structure mirrors `nature-polishing` so shared content can later be lifted into a `nature-shared/` layer used by both skills.
+
+</guidance>
+<guidance path="nature-writing/manifest.yaml">
+name: nature-writing
+version: 1.5.0
+description: >
+  Declarative manifest for the static/dynamic split. SKILL.md uses this to
+  decide which fragments to load for a drafting, restructuring, or
+  initial-submission request.
+
+always_load:
+  # Shared layer — common to nature-polishing and nature-writing
+  - ../nature-shared/core/reader-workflow.md
+  - ../nature-shared/core/paper-type-taxonomy.md
+  - ../nature-shared/core/ethics.md
+  - ../nature-shared/core/terminology-ledger.md
+  # Skill-local core
+  - static/core/stance.md
+  - static/core/workflow.md
+  - static/core/output-format.md
+
+axes:
+  task:
+    detect: |
+      Use submission-package when the user requests first-submission or
+      pre-submission materials such as an initial cover letter, title page,
+      highlights, author contributions, availability/declaration statements,
+      reviewer suggestions, or a complete submission checklist. Use manuscript
+      for manuscript sections and argument development. Revision correspondence
+      after an editor decision belongs to nature-response, not this skill.
+    values:
+      manuscript:          static/fragments/task/manuscript.md
+      submission-package: static/fragments/task/submission-package.md
+    default: manuscript
+    multi: false
+
+  paper_type:
+    detect: |
+      Decide what kind of paper or section is being drafted. Default to research.
+      Use the user's stated framing first; fall back to inference from their
+      material. Map writing's older taxonomy (mechanism/method/resource/device/
+      model/clinical/materials/computational/interdisciplinary) onto these five.
+    values:
+      research:       static/fragments/paper_type/research.md
+      methods:        static/fragments/paper_type/methods.md
+      hypothesis:     static/fragments/paper_type/hypothesis.md
+      algorithmic:    static/fragments/paper_type/algorithmic.md
+      review:         static/fragments/paper_type/review.md
+    default: research
+    multi: false
+
+  section:
+    detect: |
+      Identify which section(s) the user wants drafted or rebuilt. The user
+      may name one or several. Ask before loading when ambiguous and load
+      cost matters. Title and abstract often need to be drafted last but
+      planned early.
+    values:
+      abstract:       static/fragments/section/abstract.md
+      intro:          static/fragments/section/intro.md
+      related-work:   static/fragments/section/related-work.md
+      method:         static/fragments/section/method.md
+      experiments:    static/fragments/section/experiments.md
+      discussion:     static/fragments/section/discussion.md
+      conclusion:     static/fragments/section/conclusion.md
+      title:          static/fragments/section/title.md
+    multi: true
+
+  language:
+    detect: |
+      Detect the source language of the user's notes. Use zh-to-en when the
+      input is Chinese, mixed Chinese-English, or organized as Chinese lab
+      notes. Otherwise use en.
+    values:
+      en:             static/fragments/language/en.md
+      zh-to-en:       static/fragments/language/zh-to-en.md
+    default: en
+    multi: false
+
+  journal:
+    detect: |
+      Use nature only for the flagship journal Nature. Use nat-comms for Nature
+      Communications. Use nat-mach-intell when the user names Nature Machine
+      Intelligence or NMI. If the user says "Nature-family" generically or
+      names a different Nature Portfolio subjournal, use nature-family and
+      check that journal's current instructions before applying exact numbers.
+      Otherwise use generic.
+    values:
+      nature:         static/fragments/journal/nature.md
+      nature-family:  static/fragments/journal/nature-family.md
+      nat-comms:      static/fragments/journal/nat-comms.md
+      nat-mach-intell: static/fragments/journal/nat-mach-intell.md
+      generic:        static/fragments/journal/generic.md
+    default: generic
+    multi: false
+
+references:
+  on_demand:
+    - condition: task is manuscript and the user is drafting, restructuring, or compressing Results or full main text; deciding what belongs in main text versus captions or SI; preventing revision accretion; reducing statistical or claim repetition; or building the shortest sufficient evidence chain
+      path: ../nature-shared/core/main-text-discipline.md
+    - condition: target is flagship Nature, Nature Communications, Nature Machine Intelligence, or another Nature Portfolio title and the user is drafting or restructuring Results, Discussion, or their boundary; testing claim escalation; deciding whether local interpretation or robustness advances the claim; or separating necessary recap from redundant re-demonstration
+      path: ../nature-shared/core/nature-results-discussion.md
+    - condition: drafting, restructuring, or auditing any scientific Discussion; choosing the opening anchor and reverse-funnel movement; positioning findings against prior work; calibrating modal verbs or hedging; writing claim-specific limitations; or deriving future work from a named uncertainty
+      path: ../nature-shared/core/discussion-argument-language.md
+    - condition: target is flagship Nature, Nature Communications, Nature Machine Intelligence, or another Nature Portfolio title and the user is drafting or restructuring the Introduction or whole-manuscript narrative; building a fast problem funnel, exact knowledge gap, literature tension, question-first novelty, compact study roadmap, or Introduction–Results alignment
+      path: ../nature-shared/core/nature-introduction.md
+    - condition: target is flagship Nature, Nature Communications, Nature Machine Intelligence, or another Nature Portfolio title and the user is drafting or restructuring the abstract; compressing the manuscript into a discovery-centred evidence chain; selecting one main claim, one or two decisive supports, optional core numbers, or a bounded field-level payoff
+      path: ../nature-shared/core/nature-abstract.md
+    - condition: needs section-level structure, argument order, or published-article patterns
+      path: references/article-architecture.md
+    - condition: genre-aware 2025 Nat Commun empirical structure, quantified connector/diction preferences, or research/review/perspective/comment/benchmark differences
+      path: references/nat-comms-2025-corpus.md
+    - condition: drafting/revising abstract; especially challenge-contribution forms
+      path: references/abstract.md
+    - condition: drafting/revising a Nature-family broad-audience summary paragraph or introduction opening
+      path: references/nature-summary-paragraph.md
+    - condition: drafting/revising introduction, task framing, technical challenge, contribution framing
+      path: references/introduction.md
+    - condition: rebuilding related work as topic synthesis
+      path: references/related-work.md
+    - condition: writing method sections, pipeline modules, module motivation, technical advantages
+      path: references/method.md
+    - condition: planning/writing experiments around baselines, ablations, metrics
+      path: references/experiments.md
+    - condition: writing a bounded conclusion with contribution, evidence, impact, limitation
+      path: references/conclusion.md
+    - condition: user asks whether a paragraph flows; use reverse outlining
+      path: references/paragraph-flow.md
+    - condition: final manuscript self-review, rejection-risk audit, claim-evidence alignment
+      path: references/paper-review.md
+    - condition: initial cover letter, title page, highlights, declarations, suggested reviewers, complete first-submission package, or submission-readiness audit
+      path: references/submission-package.md
+    - condition: flagship Nature Article formatting, initial-submission package, submission-readiness audit, stage classification, or exact title/text/display/reference limits
+      path: ../nature-shared/journal-formats/nature.md
+    - condition: Nature Machine Intelligence article-type selection, exact word/display limits, initial-submission package, stage classification, data/code duties, or production preflight
+      path: ../nature-shared/journal-formats/nature-machine-intelligence.md
+    - condition: human or animal ethics, clinical research, reporting summaries, image integrity, structures, chemistry, taxonomy, geological, archaeological, or palaeontological compliance is involved
+      path: ../nature-shared/core/research-compliance.md
+    - condition: deeper Chinese-author repair patterns beyond the language fragment
+      path: references/chinese-author-workflow.md
+    - condition: user wants concrete abstract/introduction/method examples
+      path: references/examples/index.md
+
+</guidance>
+<guidance path="nature-shared/core/reader-workflow.md">
+# Reader workflow
+
+Used by both `nature-polishing` and `nature-writing`. Always-loaded shared core.
+
+## The reader's question sequence
+
+Most readers of a scientific paper follow a stable sequence:
+
+1. **Relevance** — Is this for me?
+2. **Novelty** — What is new here?
+3. **Trust** — Do I believe it?
+4. **Reuse** — Can I use it?
+5. **Meaning** — What does it mean, and where are the boundaries?
+
+Whether the task is drafting from scratch or polishing existing prose, the paper should help the reader answer these questions in this order.
+
+## Implications
+
+- A draft that buries novelty (question 2) behind methods detail (which serves question 3) will lose readers in the first paragraph.
+- A polish that improves sentence-level fluency without surfacing relevance (question 1) earlier may still fail with broad-audience readers.
+- "Where are the boundaries" (question 5) is the most commonly skipped. Both drafting and polishing should expose it, not paper over it.
+
+</guidance>
+<guidance path="nature-shared/core/paper-type-taxonomy.md">
+# Paper-type taxonomy
+
+Canonical 5-type vocabulary used by both `nature-polishing` and `nature-writing` (and any future skill on the `paper_type` axis).
+
+## The five types
+
+| Type | One-line definition | Reader's central question |
+|---|---|---|
+| **research** | Reports a phenomenon, mechanism, or finding from primary observation or experiment. | What was found and what does it mean? |
+| **methods** | Proposes a new method, protocol, or measurement and demonstrates its advantage. | Does it work? Is it better? Is it reproducible? |
+| **hypothesis** | Establishes or rules out a causal explanation through targeted evidence. | Is the proposed mechanism the right one? |
+| **algorithmic** | Proposes a procedure, model, system, or device and shows it performs reliably and advantageously. | Does it perform under fair comparison? Where does it fail? |
+| **review** | Synthesizes the state of a field, organizing the literature by argument, not by paper. | What is known, where is the disagreement, what is open? |
+
+## Detection guidance
+
+- If the user names a paper type, use it.
+- If the manuscript reports experiments testing a stated mechanism → **hypothesis**.
+- If the manuscript proposes a procedure/model and reports comparisons → **algorithmic**.
+- If the manuscript proposes a measurement or protocol and reports validation → **methods**.
+- If the manuscript synthesizes prior literature without new primary data → **review**.
+- Otherwise → **research** (default).
+
+## Notes on legacy vocab
+
+Some older notes use a longer taxonomy (mechanism / method / resource / device / model / clinical / materials / computational / interdisciplinary). Map onto the five canonical types:
+
+- mechanism, clinical, materials → **research** or **hypothesis** depending on whether a causal claim is central
+- method → **methods**
+- model, device, computational → **algorithmic**
+- resource → usually **methods** (a dataset/benchmark paper) or **research**
+- interdisciplinary → use the dominant argument structure, not the field label
+
+## Skill-specific action layers
+
+Each skill's `static/fragments/paper_type/<type>.md` adds the **action layer** for that skill on top of this taxonomy:
+
+- `nature-polishing` adds diagnostic rules (what to look for, what to fix).
+- `nature-writing` adds constructive rules (argument chain, drafting order).
+
+The taxonomy here is the **shared vocabulary**; the action is skill-specific.
+
+</guidance>
+<guidance path="nature-shared/core/ethics.md">
+# Citation, ethics, and AI boundaries
+
+## Intellectual debt
+
+Originality is usually an amendment, combination, or extension of prior knowledge. A careful writer acknowledges that debt openly. Do not minimize others' contributions just to make the present work seem more original.
+
+## Position attribution clearly
+
+Make it obvious:
+
+- how the paper builds on prior work
+- who was responsible for the earlier idea, method, data, or interpretation
+- where the reader can locate the source
+
+## Cite the source you actually read and verified
+
+- Cite paper `A` for `A`'s own data, methods, claims, or conclusions.
+- Cite paper `B` for `B`'s interpretation, comparison, critique, or commentary on `A`.
+- Avoid leaning on secondary sources when the source article can be cited directly.
+
+## What needs citation
+
+- someone else's ideas
+- data
+- methods
+- wording
+- structure
+- images
+- distinctive interpretation
+
+Do not assume internet material is public domain just because it is online.
+
+## Proofreading checks
+
+Always verify:
+
+- grammatical errors
+- typographical errors
+- figure numbering
+- missing citations
+- whether the paper is a pleasure or an ordeal to read
+
+## AI risk and disclosure boundary
+
+Nature Portfolio applies a risk-based framework. Keep human accountability and
+verification explicit at every level.
+
+`Green — assistive`: generally acceptable with author verification
+
+- improve grammar, clarity, concision, or tone
+- generate outline options or paragraph structures
+- produce alternative titles or abstract phrasings
+- summarize literature for categorization, not as a substitute for reading
+- translate with terminology and hedging checks
+
+`Amber — evaluative or interpretive`: allowed only with strong human control,
+verification and transparent disclosure
+
+- explain methods or results for wording support
+- draft reviewer-response frameworks that are then checked line by line
+- help with code or statistics explanations only if outputs are reproduced and validated
+
+`Red — AI replacing scholarly judgement or lacking transparency`: not permitted
+
+- ask AI to draft the paper's core argument from scratch
+- insert AI-generated references, data, or claims without checking them
+- upload unpublished manuscripts, sensitive data, or peer-review material to public models
+- use AI to fabricate, manipulate, or conceal substantive image creation
+
+## Nature Portfolio submission gate
+
+- AI systems and LLMs do not satisfy authorship criteria and must not appear in
+  the author list.
+- Human authors remain accountable for originality, accuracy, integrity,
+  interpretation and every submitted conclusion.
+- For a flagship Nature submission, document LLM use in Methods or, if no
+  Methods section exists, in a suitable alternative section.
+- Disclose evaluative or interpretive AI use clearly enough that an editor can
+  understand what the system contributed and how humans verified it.
+- Do not upload an unpublished manuscript, peer-review report, sensitive data
+  or confidential editorial material to an unsecured or public AI system.
+- Do not present AI-generated hypotheses, analyses, conclusions, references,
+  data or photorealistic images as accountable human work.
+
+The main danger is not that AI cannot write. The main danger is that it can write incorrectly with great confidence.
+
+Current policy source, verified 2026-08-08:
+<https://www.nature.com/nature-portfolio/editorial-policies/ai>.
+
+</guidance>
+<guidance path="nature-shared/core/terminology-ledger.md">
+# Terminology Ledger
+
+A manuscript must use one name for one thing. The same method, model, dataset,
+gene, metric, or concept must not drift across shifting names, spellings, or
+capitalisation. Reviewers read inconsistent terminology as careless work, and a
+term that changes between sections forces the reader to re-learn it.
+
+Build the ledger **before** drafting or polishing prose, and treat it as the
+single source of truth for the rest of the job. Consistency against a standard
+is impossible if the standard was never written down.
+
+## 1. Build the ledger on first contact
+
+When you first receive a manuscript, draft, or set of notes, extract every
+recurring domain term into a ledger before editing any prose:
+
+- methods, models, systems, algorithms, modules, frameworks
+- datasets, benchmarks, cohorts, materials, reagents
+- genes, proteins, species, cell lines (respect established field nomenclature)
+- metrics, units, statistical symbols, mathematical notation
+- abbreviations and acronyms, each with its full form
+- key concepts the paper defines or repeatedly relies on
+
+For each term, record its canonical form, its first-use expansion (for
+abbreviations), and any variants already present in the source.
+
+## 2. Present the ledger to the user
+
+Show a compact table before or alongside the first output:
+
+| Canonical term | First-use definition | Variants seen in source | Decision |
+|---|---|---|---|
+| scRNA-seq | single-cell RNA sequencing (scRNA-seq) | "single cell RNA-seq", "scRNAseq" | spell out once, then use "scRNA-seq" |
+
+Flag every collision explicitly: the same concept under different names, or one
+name reused for two different concepts. Ask the user to confirm the canonical
+choice only when the decision is genuinely ambiguous or domain-sensitive.
+Otherwise adopt the form the source uses most often and state that choice.
+
+## 3. Lock and enforce
+
+Once set, the ledger is fixed for the whole job:
+
+- Use only canonical forms in every output. Do not introduce synonyms to vary
+  the prose. Terminology consistency outranks lexical variety in scientific
+  writing.
+- Define each abbreviation once, at first use, then use the short form.
+- Keep units, symbols, and notation identical across every section.
+- When drafting or polishing a later section, reference the ledger built from
+  the earlier sections instead of re-deciding term by term.
+- If the user later renames a term, change every occurrence in the manuscript,
+  not just the current passage, and update the ledger.
+
+## 4. Do not invent terms
+
+Do not coin new names for the author's methods, modules, or concepts. If a term
+is missing, undefined, or used inconsistently in ways you cannot resolve from
+the source, ask the user or flag it. Never fill the gap with a guessed name.
+
+</guidance>
+<guidance path="nature-writing/static/core/stance.md">
+# Default stance (writing)
+
+## Author evidence comes first
+
+- Do not invent results, mechanisms, references, methods, novelty, sample sizes, statistics, or limitations.
+- Write the argument before writing the sentences.
+- Prefer confirming over guessing. If essential input is missing or the framing is ambiguous, do not silently draft a full section on an assumed premise — confirm first (see Intake below) instead of filling the gap.
+
+## Reader workflow
+
+See `../../../nature-shared/core/reader-workflow.md` (loaded via manifest `always_load`) for the 5-step reader question sequence. Draft and revise so the paper answers those questions in order.
+
+## Claim discipline
+
+- Use ambitious but bounded claims.
+- Calibrate verbs: `show`, `demonstrate`, `suggest`, `indicate`, `enable`, `may`, `could`.
+- Remove unsupported novelty and universal claims (`first ever`, `unprecedented`, `revolutionary`) unless the evidence genuinely supports them.
+
+## Intake — required inputs before drafting
+
+Identify before writing:
+
+- **manuscript section**: title, abstract, introduction, related-work, method, results/experiments, discussion, conclusion, significance paragraph, or full outline
+- **paper type**: research / methods / hypothesis / algorithmic / review (see paper_type fragment)
+- **core claim**: what the paper actually demonstrates
+- **evidence**: figures, measurements, comparisons, datasets, statistics, or examples
+- **boundary**: where the claim stops
+- **target journal or word limit** if provided
+- **terminology**: on first contact with the material, extract the recurring methods, models, datasets, metrics, abbreviations, and notation into a Terminology Ledger and reuse the canonical forms across every section (see `../../../nature-shared/core/terminology-ledger.md`)
+
+If any of `core claim`, `evidence`, or `boundary` is absent, or the framing is ambiguous, run the **confirmation gate** in `workflow.md` (step 3b) before drafting the full section: echo back your one-sentence argument and key assumptions, ask at most 2–3 targeted questions, and wait for the user. A wrong assumed premise surfaced only in the final notes wastes the entire draft. If the user prefers to proceed without answering, you may still produce a scaffold with explicit placeholders.
+
+</guidance>
+<guidance path="nature-writing/static/core/workflow.md">
+# Writing workflow
+
+Run these steps for any drafting or restructuring task. Steps 1-3 are planning, step 3b is an alignment gate, 4-6 are drafting, 7-8 are checking, step 9 is the revision loop.
+
+## 1. Build a one-sentence argument
+
+> In [system/problem], we show [advance] using [approach], supported by [evidence], with [boundary].
+
+Force every section to serve this sentence. If the sentence cannot be written, the paper does not yet have an argument — surface that to the user.
+
+## 1b. Build the Terminology Ledger
+
+On first contact with the material, extract the recurring terms, abbreviations, notation, and proper names into a Terminology Ledger before drafting any prose. Lock the canonical forms and reuse them across every section. See `../../../nature-shared/core/terminology-ledger.md`.
+
+## 2. Choose section architecture
+
+Pick the section structure from the relevant `section/*.md` fragment and, if needed, deeper patterns from `references/article-architecture.md`.
+
+## 3. Map each paragraph to one job
+
+Each paragraph must do exactly one job from: context, gap, approach, result, comparison, mechanism, implication, limitation.
+
+If a paragraph carries two jobs, split it before drafting.
+
+## 3a. Allocate Results evidence before drafting
+
+When the task includes Results, a full manuscript, main-text compression, or
+main-versus-SI placement, load
+`../../../nature-shared/core/main-text-discipline.md`. Classify each result as
+core discovery, necessary support, qualification, robustness, heterogeneity,
+provenance detail, alternative inference, or edge case. Build the shortest
+sufficient main-text evidence chain and record the destination of everything
+else. Do not bury conclusion-changing evidence in SI.
+
+## 3b. Confirmation gate — align before drafting
+
+Drafting a full section on a wrong assumed premise wastes the whole draft and is the main reason output "does not match what I meant". Before writing full prose, show the user a short alignment block and **stop for confirmation**:
+
+- **One-sentence argument** (from step 1) — the single most important thing to get right. Echo it back in plain language.
+- **Plan**: detected paper type, section(s), journal / word limit, and the paragraph map from step 3 as a short bullet list.
+- **Key terminology**: the canonical forms locked in the Terminology Ledger (step 1b) for the main methods, models, datasets, and metrics. Surface them here so the user can fix a wrong canonical term before it propagates through every section.
+- **Primary reader**: who the draft is optimized for, and which of the five reader questions it leads with (relevance / novelty / trust / reuse / meaning — see `../../../nature-shared/core/reader-workflow.md`). Getting the lead question wrong is a common silent cause of "this is not what I meant".
+- **Key assumptions**: anything else you inferred rather than were told — especially what the core contribution is and which result to lead with. Mark each clearly as an assumption.
+- **At most 2–3 targeted questions**, only on genuinely ambiguous, high-leverage points (how to frame the core contribution, target audience / journal, which result leads). Do not ask about things the user already made clear, and do not pad the list to reach three.
+
+Then wait for the user to confirm or correct before drafting the full section.
+
+Shortcuts:
+
+- **Skip the gate** when the core claim, evidence, and boundary are all clearly given and there is no real ambiguity in framing. In that case just state the one-sentence argument in a single line (per the router) and proceed.
+- **Depth dial**: for a full section or a major rewrite, offer to deliver the outline first (the paragraph map from step 3) and expand to full prose only after the user approves it. Reacting to an outline is far cheaper than reacting to full prose. Skip this for short or single-paragraph requests.
+- **Style, not substance**: if the user says the voice or style "is not mine", do not keep guessing — ask for one short sample of their own writing, then calibrate to it. From the sample, match: typical sentence length and rhythm, hedging level (`demonstrate` vs `may` / `could`), preferred connectives and transitions, person (first-person `we` vs passive), and terminology / abbreviation choices. Match the voice, not the content — never reuse the sample's claims or facts.
+
+## 4. Draft from evidence outward
+
+Keep claims near the data that support them. Do not stack claims at the top of a section then leave evidence at the bottom.
+
+## 5. Calibrate verbs to evidence strength
+
+`show` / `demonstrate` need strong direct evidence. `suggest` / `indicate` are for trend-level or indirect evidence. `may` / `could` are for plausible but unverified mechanisms.
+
+## 6. Remove unsupported novelty and universal claims
+
+Sweep for `first`, `unique`, `unprecedented`, `comprehensive`, `complete`, `always`, `never`. Replace with bounded claims or delete.
+
+## 7. Run a paragraph-flow check
+
+- One paragraph, one message.
+- The first sentence is the topic / claim.
+- Each subsequent sentence has an explicit relation to the previous one (cause, comparison, restriction, example).
+
+For full reverse-outlining, open `references/paragraph-flow.md`.
+
+## 8. Return prose plus notes
+
+Output the draft together with explicit notes on assumptions, missing inputs, and where evidence is needed. See `output-format.md`.
+
+## 9. Revise by targeted edit, not full rewrite
+
+When the user reacts to a draft, "this is not what I meant" is usually local — a wrong claim, a mis-framed paragraph, the wrong result leading. Do not silently re-draft the whole section: a full rewrite breaks the paragraphs that were already right and forces the user to re-check everything.
+
+- Change **only** the paragraphs or claims the user flagged; keep the rest verbatim.
+- If a requested fix genuinely forces a structural change (reordering sections, moving a claim across paragraphs), say so and confirm the new structure before applying it, rather than restructuring silently.
+- Keep the Terminology Ledger (step 1b) stable across revisions unless the user changes a term; never let a revision reintroduce a variant of a locked term.
+- After revising, re-run only the checks relevant to what changed (steps 5-7), not the whole workflow.
+- If the user's redirection reveals the original premise was wrong, return to the confirmation gate (step 3b) instead of patching prose on a broken premise.
+- Every proposed addition triggers the main-text deletion check: identify the
+  new sentence's function, find existing text with the same function, and prefer
+  replacement or compression before appending. Re-run the paragraph necessity
+  and claim-repetition checks after the edit.
+
+</guidance>
+<guidance path="nature-writing/static/core/output-format.md">
+# Output format (writing)
+
+Default output:
+
+1. `Draft:` — the requested prose.
+2. `Section outline:` — `3-7` compact bullets when the task involves a full section.
+3. `Assumptions or missing inputs:` — only material issues; do not pad with style nits.
+4. `Claim-evidence map:` — for major claims, in the form:
+   `Claim: ... | Evidence: ... | Status: supported / needs evidence / inferred`
+5. `Why this structure:` — `2-4` short bullets on the structural choices made.
+6. `To redirect me:` — one line inviting targeted feedback, e.g. "Name the paragraph or claim that is off and I will revise only that, keeping the rest." This sets up the targeted revision loop (workflow step 9) instead of a full rewrite.
+
+For Chinese-author notes, provide polished English first, then brief Chinese notes explaining major structural choices.
+
+For a Results or full-main-text restructuring task, also include a compact
+`Main-text discipline audit:` after the prose:
+
+- result allocation: core / necessary support / qualification / SI-bound detail
+- relocated, replaced, compressed, or deleted material
+- primary statistic retained in the main text and secondary analyses routed to SI
+- before/after word count for each revised subsection
+
+Return the full allocation and claim-repetition tables only when the manuscript
+is being comprehensively restructured or the user asks for the audit trail.
+
+If essential evidence or boundary is missing, do not invent. Write a placeholder such as `[Evidence needed: comparator group accuracy on test set X]` and list it under `Assumptions or missing inputs:`.
+
+For `task=submission-package`, replace the default manuscript format with:
+
+1. `Submission readiness:`
+2. `Deliverable matrix:`
+3. `Draft materials:`
+4. `AUTHOR_INPUT_NEEDED:`
+5. `Cross-file consistency checks:`
+6. `Next actions:`
+
+</guidance>
+<guidance path="nature-writing/static/fragments/task/manuscript.md">
+# Manuscript task
+
+Use the normal section-writing workflow. Build the paper argument, load the requested section fragment, draft from evidence outward, and return the prose with claim-evidence notes.
+
+Do not add submission forms or editorial correspondence unless the user asks for them.
+
+</guidance>
+<guidance path="nature-writing/static/fragments/paper_type/hypothesis.md">
+# Paper type: hypothesis-based
+
+The argument tries to establish or rule out a causal explanation.
+
+## Argument chain
+
+`phenomenon -> candidate explanation(s) -> hypothesis stated explicitly -> falsification path -> evidence for / against -> rival explanations addressed -> bounded conclusion`
+
+## Drafting rules
+
+- State the hypothesis explicitly and locatably. Do not bury it in the third paragraph of the Introduction.
+- State up front what observations would refute the hypothesis. This earns trust later.
+- Distinguish "supporting" evidence from "consistent but non-discriminating" evidence. Many drafts conflate them.
+- In Discussion, address rival explanations **before** generalizing. Skipping this is the most common rejection point for hypothesis papers.
+- Hedging must match causal strength. Correlational evidence cannot ground mechanism verbs (`drives`, `causes`).
+
+## Results vs Discussion
+
+Keep Results to direct observations and tests. All causal interpretation goes in Discussion. Reviewers will check this split aggressively.
+
+</guidance>
+<guidance path="nature-writing/static/fragments/section/intro.md">
+# Section: Introduction (writing)
+
+## Default funnel
+
+`important problem -> specific phenomenon or difficulty -> what prior work establishes -> exact unresolved gap -> research question or hypothesis -> present study`
+
+For a broad-audience `Nature` summary paragraph, strengthen this into (See `references/nature-summary-paragraph.md`.):
+
+`broad field -> sharper background -> exact problem -> here we show -> what the result changes -> broader context / outlook`
+
+## Paragraph jobs (typical 4-paragraph intro)
+
+1. Establish the field stake. Make it land for a non-specialist if the target is broad (Nature, Science).
+2. Narrow quickly to the specific phenomenon, tension, or bottleneck.
+3. Summarize what prior work has and has not resolved. Synthesize, do not list.
+4. State the exact unknown and research question, then explain how this paper
+   addresses it. Preview the study route, not the Results in detail.
+
+## Pipeline variants — pick one based on the material
+
+For method-heavy papers, the introduction often follows a different pattern. Common variants from curated examples (open `references/introduction.md` and `references/examples/introduction-examples.md` for full versions):
+
+- **task-then-application** — define a task abstractly, then show its applications
+- **application-first** — open with a concrete application or pain point, narrow to the task
+- **general-to-specific-setting** — broad field → specific subproblem
+- **open-with-challenge** — lead with the unsolved difficulty
+- **novel-task-challenge-decomposition** — define a new task, decompose its challenges
+- **technical-challenge** (1-3 variants) — frame around the technical bottleneck, then the move
+- **pipeline-version** (1-4 variants) — for module/pipeline papers, frame contribution as one or several modules
+
+Tell the user which variant you picked and why.
+
+## Drafting rules
+
+- Do not summarize results in detail. The final paragraph states the contribution and approach, not the numbers.
+- Cite prior work to position, not to demonstrate breadth. Each citation should earn its place.
+- The transition from "what is known" to "what this paper does" must be explicit, not implied.
+- Define the gap as an unknown, disputed condition, mechanism, or boundary; do
+  not define it as the absence of the author's method.
+- Make each background paragraph narrow toward the research question. Delete or
+  compress field history that does not prepare a question answered in Results.
+- Draft backward from the Results claims: every central Introduction question
+  needs a Results answer, and every central Results claim needs a motivated
+  question.
+
+</guidance>
+<guidance path="nature-writing/static/fragments/language/en.md">
+# Language: English source (writing)
+
+When the source notes are already in English, default to standard scientific-English drafting conventions.
+
+## Sentence rules
+
+- Aim for `10-30` word sentences in drafts.
+- One main proposition per sentence; split if the sentence carries two.
+- Prefer subject-verb-object order. Avoid stacked prepositional chains.
+- Avoid em dashes as prose punctuation in drafts unless the user explicitly asks. Use commas, parentheses, or short sentences.
+
+## Paragraph rules
+
+- One paragraph, one message.
+- The first sentence is the topic or claim.
+- Each subsequent sentence has an explicit relation to the previous one: cause, comparison, restriction, example.
+- Do not stack two ideas into one paragraph. If a new idea appears, start a new paragraph.
+
+## Diction
+
+- Calibrate verbs to evidence strength (`show` / `suggest` / `may`).
+- Avoid marketing verbs (`leverages`, `enables`, `empowers`) unless they carry concrete information.
+- Avoid universal claims (`always`, `never`, `comprehensive`).
+
+</guidance>
+<guidance path="nature-writing/static/fragments/journal/generic.md">
+# Journal: generic — writing
+
+Used when the user has not named a target journal, or the journal is not specifically modeled by another fragment.
+
+## Defaults
+
+- Apply Nature-leaning structure (argument chain, section jobs) without enforcing Nature's strictest length or significance-framing demands.
+- Keep em-dash and hedging defaults from `core/stance.md` and `language/en.md`.
+- If the user later names a journal, apply that journal's fragment to the ongoing request; ask only if the intended scope of revision remains materially ambiguous.
+
+## Optional context
+
+Use these details when supplied; otherwise proceed with the generic defaults and state material assumptions. Ask only when missing information changes scientific meaning or a required deliverable. Do not turn these preferences into an intake checklist.
+
+- Target journal and section format (structured vs unstructured abstract; word limits; reference style).
+- Audience breadth: subfield vs broad readership.
+- Whether a "Significance" paragraph or "Author summary" is required.
+- Required submission elements (graphical abstract, highlights, key points) — these change drafting strategy.
+
+</guidance>
+<guidance path="nature-writing/references/introduction.md">
+# Introduction Writing Guide
+
+## Contents
+
+- [Goal](#goal)
+- [Introduction Logic Map](#introduction-logic-map)
+- [How to Think About Introduction: Backward First, Then Forward](#how-to-think-about-introduction-backward-first-then-forward)
+- [Section Skeleton](#section-skeleton)
+- [Part A: Introduce Task and Application](#part-a-introduce-task-and-application)
+- [Part B: Introduce Technical Challenge for Previous Methods (Very Important)](#part-b-introduce-technical-challenge-for-previous-methods-very-important)
+- [Part C: Introduce Our Pipeline for Solving the Challenge](#part-c-introduce-our-pipeline-for-solving-the-challenge)
+- [Example Bank](#example-bank)
+- [Quick Quality Checklist](#quick-quality-checklist)
+
+
+## Goal
+
+Write a strong introduction in three steps:
+
+1. Think through the introduction logic.
+2. Apply a suitable template below.
+3. Revise the introduction repeatedly.
+
+## Introduction Logic Map
+
+```mermaid
+graph LR
+  L1[What task are we solving]
+  L2[Which metrics should this task improve]
+  L3[SOTA methods fail to meet target metrics]
+  L4[Root technical issue behind this failure]
+  L5[Our technical solution and method pipeline]
+  L6[Why the solution works]
+  L7[Additional technical contributions]
+
+  R1[Part 1 Task applications and target metrics]
+  R2[Part 2 SOTA methods failure and root issue]
+  R3[Part 3 Proposed solution and why it works]
+  R4[Part 4 Additional contributions and impact]
+  R5[Part 5 Experiments]
+
+  L1 --> L2
+  L2 --> L3
+  L3 --> L4
+  L4 --> L5
+  L5 --> L6
+  L6 --> L7
+
+  R1 --> R2
+  R2 --> R3
+  R3 --> R4
+  R4 --> R5
+
+  L1 --> R1
+  L2 --> R1
+  L3 --> R2
+  L4 --> R2
+  L5 --> R3
+  L6 --> R3
+  L7 --> R4
+```
+
+## How to Think About Introduction: Backward First, Then Forward
+
+### Backward reasoning (answer these first)
+
+1. What technical problem do we solve, and why is there no well-established solution? (important)
+2. What are the contributions of our pipeline (e.g., a new valuable task, a new valuable metric, a new technical problem, or a new technique)?
+3. What are the benefits of our contributions, why can they solve this technical challenge, and what new insight do they bring? (important)
+4. How do we use prior methods to lead readers to our solved challenge and our new insight?
+
+### Forward story (write in this order)
+
+1. Introduce the paper's task.
+2. Use prior methods to lead to the technical challenge we solve.
+3. Present xx contributions to solve this technical challenge.
+4. Explain technical advantages of our contributions and explicitly express our new insight. (important)
+
+## Section Skeleton
+
+```latex
+\section{Introduction}
+% Task and application
+% Technical challenge for previous methods (discuss around the technical challenge that we solved. A technical challenge includes both limitation and technical reason)
+% Introduce our pipeline for solving the challenge
+% Experiment
+% Contributions
+```
+
+## Part A: Introduce Task and Application
+
+### Version 1
+
+`Version 1: If the task is relatively niche, introduce the task first, then introduce applications.`
+
+Writing structure:
+
+1. Define the task in one clear sentence (`what output` from `what input`).
+2. Briefly explain the task objective or scope (optional).
+3. Introduce application value with 2-3 representative scenarios.
+
+Sentence skeleton:
+
+1. `[xxx task] targets at recovering/reconstructing/estimating [xxx output] from [xxx input].`
+2. `[xxx task] has a variety of applications such as [xxx], [xxx], and [xxx].`
+
+Local cite:
+
+1. `references/examples/introduction/version-1-task-then-application.md`
+
+### Version 2
+
+`Version 2: If the task is already familiar to most readers, introduce applications directly.`
+
+Writing structure:
+
+1. Skip formal task definition.
+2. Open with application importance in one concise sentence.
+3. Optionally append target requirement (e.g., accuracy/efficiency/robustness).
+
+Sentence skeleton:
+
+1. `[xxx task] has a variety of applications such as [xxx], [xxx], and [xxx].`
+
+Local cite:
+
+1. `references/examples/introduction/version-2-application-first.md`
+
+### Version 3
+
+`Version 3: Introduce applications of the general task first, then introduce the specific task setting. (Personally recommended when the setting is relatively new.)`
+
+Writing structure:
+
+1. Start from the general task and why it matters.
+2. Narrow down to the specific setting of this paper.
+3. Clarify exact input/output and boundary of the setting.
+
+Sentence skeleton:
+
+1. `[general task] has a variety of applications such as [xxx], [xxx], and [xxx].`
+2. `This paper focuses on the specific setting of recovering/reconstructing/estimating [xxx output] from [xxx input].`
+
+Local cite:
+
+1. `references/examples/introduction/version-3-general-to-specific-setting.md`
+
+### Version 4
+
+`Version 4: If the task is familiar, introduce applications directly and expose the target technical challenge in the opening paragraph via previous methods (failure cases / target metric improvements).`
+
+Writing structure:
+
+1. Start with task/application importance.
+2. Immediately summarize how representative previous methods work.
+3. Immediately expose the unresolved failure case + technical reason.
+4. Use this opening as a bridge to the later prior-work paragraphs.
+
+Opening-paragraph skeleton:
+
+1. `[Task/application importance sentence].`
+2. `Given input ..., previous methods usually ...`
+3. `Although they work in many cases, they fail at ... because ...`
+
+Expert note:
+
+1. It is often good if the first paragraph already states what problem you want to solve, instead of requiring several paragraphs of prior work before the challenge appears.
+2. This style needs the right conditions and is less common.
+3. Typical Version 4 flow: Part 1 (task + application and directly expose challenge via previous methods 1) -> Part 2 (previous methods 2 try to solve it but still fail) -> Part 3 (our method).
+4. More common general flow: Part 1 (task + application) -> Part 2 (previous methods 1 + limitation) -> Part 3 (previous methods 2 + limitation; here the target challenge emerges) -> Part 4 (our method).
+
+Local cite:
+
+1. `references/examples/introduction/version-4-open-with-challenge.md`
+
+## Part B: Introduce Technical Challenge for Previous Methods (Very Important)
+
+Purpose:
+
+1. Discuss around the exact technical challenge we solved.
+2. Build reader curiosity about how to solve this challenge.
+3. Make motivation/benefit of our method clear.
+
+Key logic before writing (faithful translation):
+
+1. First make clear the logic for "leading to the technical challenge we solved".
+2. For existing tasks: identify which recent methods have this challenge, why those methods exist, and optionally what earlier challenge they were trying to solve.
+3. For novel tasks: at minimum, define the technical challenge solved by our pipeline.
+
+Important warning :
+
+1. Do not first present a naive solution and then describe our improvement over it.
+2. That writing makes the work look like a low-score incremental patch.
+3. Even if the work is actually incremental, do not write it this way.
+4. Why: this writing style can erase reader curiosity and make the idea look straightforward only because the writing hand-holds the reader.
+
+### Technical-Challenge Version 1 (existing task, with existing methods)
+
+`Version 1: For existing tasks, discuss the challenge chain from general challenge -> traditional methods -> recent methods -> remaining challenge that we solve.`
+
+Writing structure:
+
+1. Start with a general challenge statement for this task.
+2. Briefly summarize traditional methods and their limitation.
+3. Briefly summarize recent methods (1) and their limitation with technical reason.
+4. Briefly summarize recent methods (2) and their limitation with technical reason.
+5. Ensure the final limitation is exactly the challenge your method solves.
+
+Sentence skeleton:
+
+1. `This problem is particularly challenging due to ...`
+2. `To overcome these challenges, traditional methods ... However, they ...`
+3. `Recently, ... methods ... However, they ... because ...`
+4. `To overcome this challenge, ... methods ... However, they ... because ...`
+
+Local cite:
+
+1. `references/examples/introduction/technical-challenge-version-1-existing-task.md`
+
+### Technical-Challenge Version 2 (existing task + our insight seen in traditional methods)
+
+`Version 2: For existing tasks, when our insight has historical roots in traditional methods, use that line as conceptual backing and then show why new methods still fail.`
+
+Writing structure:
+
+1. Start from mainstream methods and state their limitation.
+2. Introduce a classical/traditional line that already contains insight similar to yours.
+3. Explain why that classical line is still insufficient.
+4. Return to modern methods and show the unresolved technical reason.
+5. Bridge to your method naturally.
+
+Sentence skeleton:
+
+1. `Traditional/recent methods ... However, they ... because ...`
+2. `To overcome this problem, a typical approach is [insight], which has long been explored ...`
+3. `However, these methods still ... because ...`
+4. `To overcome this challenge, newer methods ... However, they ... because ...`
+
+Local cite:
+
+1. `references/examples/introduction/technical-challenge-version-2-existing-task-insight-backed-by-traditional.md`
+
+### Technical-Challenge Version 3 (novel task, no direct methods)
+
+`Version 3: For novel tasks without direct prior methods, define the challenge directly and decompose it into several concrete challenge points.`
+
+Writing structure:
+
+1. State the goal and explain that the problem is challenging for N reasons.
+2. Use `First/Second/Finally` to separate independent challenge points.
+3. For each point, state the observable limitation and the technical reason.
+4. End with a transition to your pipeline.
+
+Sentence skeleton:
+
+1. `In this work, our goal is to ... This problem is challenging for three reasons.`
+2. `First, ...`
+3. `Second, ...`
+4. `Finally, ...`
+
+Local cite:
+
+1. `references/examples/introduction/technical-challenge-version-3-novel-task.md`
+
+## Part C: Introduce Our Pipeline for Solving the Challenge
+
+Key questions before writing:
+
+### For existing tasks
+
+1. What technical challenge does our pipeline solve?
+2. What is our technical contribution?
+3. Why can our method work in essence?
+4. What benefits does our method have over previous methods?
+
+### For novel tasks
+
+1. What technical challenge does our pipeline solve?
+2. What is our technical contribution?
+3. Why can our method work in essence?
+
+### Pipeline Version 1
+
+`Version 1: One contribution with multiple advantages, and one teaser figure to present the basic idea.`
+
+Writing structure:
+
+1. Introduce one core framework/representation for the target task.
+2. Point to teaser figure for the basic idea.
+3. State key novelty in one sentence.
+4. Explain concrete implementation steps (`Specifically, ...`).
+5. State multiple advantages (`In contrast ...`, `Another advantage ...`).
+
+Sentence skeleton:
+
+1. `In this paper, we propose a novel framework/representation, named ..., for ...`
+2. `The basic idea is illustrated in Figure ...`
+3. `Our innovation is in ...`
+4. `Specifically, ...`
+5. `In contrast to previous methods, ...`
+6. `Another advantage of the proposed method is that ...`
+
+Local cite:
+
+1. `references/examples/introduction/pipeline-version-1-one-contribution-multi-advantages.md`
+
+### Pipeline Version 2
+
+`Version 2: Two contributions, and one teaser figure to present the basic idea.`
+
+Writing structure:
+
+1. Introduce framework and key novelty sentence.
+2. Point to teaser figure.
+3. Explain contribution 1 and its advantage.
+4. Introduce a remaining challenge.
+5. Explain contribution 2 as the response to that challenge.
+
+Sentence skeleton:
+
+1. `In this paper, we propose ...`
+2. `Our innovation is in ...`
+3. `The basic idea is illustrated in Figure ...`
+4. `Specifically, ...` (contribution 1)
+5. `In contrast to previous methods, ...`
+6. `However, ...` (remaining challenge)
+7. `Specifically, ...` (contribution 2)
+
+Local cite:
+
+1. `references/examples/introduction/pipeline-version-2-two-contributions.md`
+
+### Pipeline Version 3
+
+`Version 3: Build on a prior pipeline and introduce one new module, with a teaser figure for the basic idea.`
+
+Writing structure:
+
+1. Start from prior pipeline setup.
+2. Introduce one new module as key innovation.
+3. Provide an observation that motivates the module design.
+4. Explain the module mechanism.
+5. Compare against generic alternatives and state why it is better.
+
+Sentence skeleton:
+
+1. `Inspired by previous methods, ...`
+2. `Our innovation is introducing ...`
+3. `We observe that ...`
+4. `Considering that ..., we introduce ...`
+5. `In contrast to ..., our module ...`
+
+Local cite:
+
+1. `references/examples/introduction/pipeline-version-3-new-module-on-existing-pipeline.md`
+
+### Pipeline Version 4
+
+`Version 4: Contribution comes from one important observation. Introduce key innovation first, then a listener-friendly observation as motivation, then method details, then benefits.`
+
+Writing structure:
+
+1. State key innovation first.
+2. State one intuitive observation as motivation.
+3. Explain implementation details.
+4. Explain technical advantage and empirical gain.
+
+Sentence skeleton:
+
+1. `Our innovation is ...`
+2. `We observe that ...`
+3. `Considering that ..., we ...`
+4. `This leads to ... and achieves ...`
+
+Local cite:
+
+1. `references/examples/introduction/pipeline-version-4-observation-driven.md`
+
+### Not Recommended Writing
+
+`Not recommended: If the method is simple, do not hide concrete method design in Introduction and only describe abstract insights to make the work look novel.`
+
+Expert note:
+
+1. In this template, the writing craft is about making a simple pipeline sound novel.
+2. The key caution: people often make the pipeline steps sound novel, not the real insight.
+3. In most cases this is not recommended. The better target is to clearly explain core contribution implementation in Introduction.
+
+Why not recommended (writing structure warning):
+
+1. Presenting only abstract insight without concrete pipeline steps weakens technical clarity.
+2. Introducing many new terms without mechanism-level explanation creates a novelty illusion.
+3. Reviewers may interpret this as shallow or incremental work.
+
+Local cite:
+
+1. `references/examples/introduction/pipeline-not-recommended-abstract-only.md`
+
+## Example Bank
+
+1. `references/examples/introduction-examples.md`
+2. `references/examples/introduction/version-1-task-then-application.md`
+3. `references/examples/introduction/version-2-application-first.md`
+4. `references/examples/introduction/version-3-general-to-specific-setting.md`
+5. `references/examples/introduction/version-4-open-with-challenge.md`
+6. `references/examples/introduction/technical-challenge-version-1-existing-task.md`
+7. `references/examples/introduction/technical-challenge-version-2-existing-task-insight-backed-by-traditional.md`
+8. `references/examples/introduction/technical-challenge-version-3-novel-task.md`
+9. `references/examples/introduction/pipeline-version-1-one-contribution-multi-advantages.md`
+10. `references/examples/introduction/pipeline-version-2-two-contributions.md`
+11. `references/examples/introduction/pipeline-version-3-new-module-on-existing-pipeline.md`
+12. `references/examples/introduction/pipeline-version-4-observation-driven.md`
+13. `references/examples/introduction/pipeline-not-recommended-abstract-only.md`
+
+## Quick Quality Checklist
+
+1. Does the first sentence of each paragraph state its message?
+2. Does each paragraph carry one message only?
+3. Are technical challenge, technical reason, and solved mechanism all explicit?
+4. Are claims in Introduction aligned with experiment evidence?
+5. Is terminology stable across all sections?
+
+</guidance>
+<manuscript_task>
+{
+  "source_facts": [
+    "Synthetic mathematical paper. Provided theorem: for every finite nonempty set A and every function f:A→A satisfying condition C, there exists a fixed point. The proof relies on finiteness and condition C.",
+    "A supplied counterexample shows the statement can fail for infinite A even when C holds. For a restricted infinite class K with an additional compactness assumption D, the authors conjecture the existence result but provide no proof.",
+    "No prior literature or algorithmic complexity result is supplied."
+  ],
+  "request": "Draft a 120–160-word final Introduction paragraph for a mathematical paper. State the theorem scope and the conceptual role of its boundary, then frame the restricted conjecture. Use quantifiers precisely; do not invent a proof, novelty claim or empirical validation requirement. Return only the paragraph."
+}
+</manuscript_task>

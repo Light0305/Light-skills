@@ -1,0 +1,652 @@
+{
+  "ok": true,
+  "workflow": {
+    "ok": true,
+    "integrity_ok": true,
+    "revision": 15,
+    "objective": {
+      "id": "OBJ-0001",
+      "goal": "Execute a known-answer study and verify a focused manuscript correction",
+      "scope": "Isolated synthetic local validation, no submission or real research conclusion",
+      "success": [
+        "Preserve actual execution and analysis",
+        "Generate a source-bound figure",
+        "Correct the planted independence claim and recheck its adopted version"
+      ],
+      "stop_rule": "Stop after the correction, recovery and drift checks",
+      "authorization_basis": "User requested source-package and closed-loop testing",
+      "status": "complete",
+      "closure_reason": "Bounded fixture delivered; no scientific submission claim"
+    },
+    "tasks": [
+      {
+        "id": "T0001",
+        "skill": "light-experiment",
+        "title": "Synthetic light-experiment",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "research/execution",
+        "inputs": [
+          {
+            "path": "validation-scope.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "232588c53aafcffdc27d1f2b03b602a30a8c0c9293ae12d8f6717ad3a33ba9ca",
+            "bytes": 246
+          }
+        ],
+        "depends_on": [],
+        "expected_outputs": [
+          "research/execution/campaign.json",
+          "research/execution/runs/R001/outputs/raw.json"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0001",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\research\\execution"
+          },
+          {
+            "action": "transition",
+            "id": "T0001",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "research/execution/campaign.json",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "fbc46ea10acf47bd1bff9dc4d5cf8970230333cc33e8d10d2d8524f566358793",
+                "bytes": 415
+              },
+              {
+                "path": "research/execution/runs/R001/outputs/raw.json",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "b5b2c6da28a2c628a922113957b39794566db60a0a25afb26d24c9f29ed7f6d8",
+                "bytes": 9596
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "research/execution/campaign.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "fbc46ea10acf47bd1bff9dc4d5cf8970230333cc33e8d10d2d8524f566358793",
+            "bytes": 415
+          },
+          {
+            "path": "research/execution/runs/R001/outputs/raw.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "b5b2c6da28a2c628a922113957b39794566db60a0a25afb26d24c9f29ed7f6d8",
+            "bytes": 9596
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      },
+      {
+        "id": "T0002",
+        "skill": "light-anaysis",
+        "title": "Synthetic light-anaysis",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "Analysis/AN-0001_合成数值",
+        "inputs": [
+          {
+            "path": "research/execution/runs/R001/outputs/raw.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "b5b2c6da28a2c628a922113957b39794566db60a0a25afb26d24c9f29ed7f6d8",
+            "bytes": 9596
+          },
+          {
+            "path": "research/execution/campaign.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "fbc46ea10acf47bd1bff9dc4d5cf8970230333cc33e8d10d2d8524f566358793",
+            "bytes": 415
+          }
+        ],
+        "depends_on": [
+          "T0001"
+        ],
+        "expected_outputs": [
+          "Analysis/AN-0001_合成数值/analysis-report.md",
+          "Analysis/AN-0001_合成数值/handoff.json"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0002",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\Analysis\\AN-0001_合成数值"
+          },
+          {
+            "action": "transition",
+            "id": "T0002",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+                "bytes": 308
+              },
+              {
+                "path": "Analysis/AN-0001_合成数值/handoff.json",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "089c863cff87d44bcdc22995712f9ff2e70471729d73a66a0b5429238b7f80fb",
+                "bytes": 7773
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+            "bytes": 308
+          },
+          {
+            "path": "Analysis/AN-0001_合成数值/handoff.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "089c863cff87d44bcdc22995712f9ff2e70471729d73a66a0b5429238b7f80fb",
+            "bytes": 7773
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      },
+      {
+        "id": "T0003",
+        "skill": "light-chart",
+        "title": "Synthetic light-chart",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "Figure/Data/FIG-001_收敛",
+        "inputs": [
+          {
+            "path": "research/execution/runs/R001/outputs/raw.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "b5b2c6da28a2c628a922113957b39794566db60a0a25afb26d24c9f29ed7f6d8",
+            "bytes": 9596
+          },
+          {
+            "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+            "bytes": 308
+          }
+        ],
+        "depends_on": [
+          "T0002"
+        ],
+        "expected_outputs": [
+          "Figure/Data/FIG-001_收敛/convergence.png",
+          "Figure/Data/FIG-001_收敛/convergence.qa.json"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0003",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\Figure\\Data\\FIG-001_收敛"
+          },
+          {
+            "action": "transition",
+            "id": "T0003",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "Figure/Data/FIG-001_收敛/convergence.png",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "28072e99422e9a7aacc68d21969358b2f37154e043f29b51bd5c82c4c8fe8e3a",
+                "bytes": 69147
+              },
+              {
+                "path": "Figure/Data/FIG-001_收敛/convergence.qa.json",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "cdf9b436ae6059d2bcd50238df803019315b26dc76d2109fa2342fa4702a0df1",
+                "bytes": 8876
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "Figure/Data/FIG-001_收敛/convergence.png",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "28072e99422e9a7aacc68d21969358b2f37154e043f29b51bd5c82c4c8fe8e3a",
+            "bytes": 69147
+          },
+          {
+            "path": "Figure/Data/FIG-001_收敛/convergence.qa.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "cdf9b436ae6059d2bcd50238df803019315b26dc76d2109fa2342fa4702a0df1",
+            "bytes": 8876
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      },
+      {
+        "id": "T0004",
+        "skill": "light-write",
+        "title": "Synthetic light-write",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "Write/PAPER-0001_合成验证/drafts/v01",
+        "inputs": [
+          {
+            "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+            "bytes": 308
+          }
+        ],
+        "depends_on": [
+          "T0002"
+        ],
+        "expected_outputs": [
+          "Write/PAPER-0001_合成验证/drafts/v01/manuscript.md"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0004",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\Write\\PAPER-0001_合成验证\\drafts\\v01"
+          },
+          {
+            "action": "transition",
+            "id": "T0004",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "Write/PAPER-0001_合成验证/drafts/v01/manuscript.md",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "442489e603d57024aabc86864cc9f865c63bc590bbe8eac1f936cb7b5c5f3a72",
+                "bytes": 106
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "Write/PAPER-0001_合成验证/drafts/v01/manuscript.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "442489e603d57024aabc86864cc9f865c63bc590bbe8eac1f936cb7b5c5f3a72",
+            "bytes": 106
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      },
+      {
+        "id": "T0005",
+        "skill": "light-review",
+        "title": "Synthetic light-review",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "Review/REV-0001_独立单位",
+        "inputs": [
+          {
+            "path": "Write/PAPER-0001_合成验证/drafts/v01/manuscript.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "442489e603d57024aabc86864cc9f865c63bc590bbe8eac1f936cb7b5c5f3a72",
+            "bytes": 106
+          },
+          {
+            "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+            "bytes": 308
+          }
+        ],
+        "depends_on": [
+          "T0004"
+        ],
+        "expected_outputs": [
+          "Review/REV-0001_独立单位/review.json"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0005",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\Review\\REV-0001_独立单位"
+          },
+          {
+            "action": "transition",
+            "id": "T0005",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "Review/REV-0001_独立单位/review.json",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "3181f6cc16e529347fcfef5ec3868b2bab66caf0cd5980bc12925209bfe68523",
+                "bytes": 4144
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "Review/REV-0001_独立单位/review.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "3181f6cc16e529347fcfef5ec3868b2bab66caf0cd5980bc12925209bfe68523",
+            "bytes": 4144
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      },
+      {
+        "id": "T0006",
+        "skill": "light-write",
+        "title": "Synthetic light-write",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "Write/PAPER-0001_合成验证/drafts/v02",
+        "inputs": [
+          {
+            "path": "Write/PAPER-0001_合成验证/drafts/v01/manuscript.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "442489e603d57024aabc86864cc9f865c63bc590bbe8eac1f936cb7b5c5f3a72",
+            "bytes": 106
+          },
+          {
+            "path": "Review/REV-0001_独立单位/review.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "3181f6cc16e529347fcfef5ec3868b2bab66caf0cd5980bc12925209bfe68523",
+            "bytes": 4144
+          },
+          {
+            "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+            "bytes": 308
+          }
+        ],
+        "depends_on": [
+          "T0005"
+        ],
+        "expected_outputs": [
+          "Write/PAPER-0001_合成验证/drafts/v02/manuscript.md"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0006",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\Write\\PAPER-0001_合成验证\\drafts\\v02"
+          },
+          {
+            "action": "transition",
+            "id": "T0006",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "Write/PAPER-0001_合成验证/drafts/v02/manuscript.md",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "1f56bd03fa33e87f6984aba8a09014dda43013fa000221f3ecf3e1d3cbded965",
+                "bytes": 200
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "Write/PAPER-0001_合成验证/drafts/v02/manuscript.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "1f56bd03fa33e87f6984aba8a09014dda43013fa000221f3ecf3e1d3cbded965",
+            "bytes": 200
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      },
+      {
+        "id": "T0007",
+        "skill": "light-review",
+        "title": "Synthetic light-review",
+        "question": "Validate the declared local handoff without inventing scientific evidence",
+        "workspace": "Review/REV-0002_限定主张复核",
+        "inputs": [
+          {
+            "path": "Write/PAPER-0001_合成验证/drafts/v02/manuscript.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "1f56bd03fa33e87f6984aba8a09014dda43013fa000221f3ecf3e1d3cbded965",
+            "bytes": 200
+          },
+          {
+            "path": "Review/REV-0001_独立单位/review.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "3181f6cc16e529347fcfef5ec3868b2bab66caf0cd5980bc12925209bfe68523",
+            "bytes": 4144
+          },
+          {
+            "path": "Analysis/AN-0001_合成数值/analysis-report.md",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "25d7e37a147e5f885ff673e787cc64dc1b1e95b317624bccdc4a27d4107e2bb0",
+            "bytes": 308
+          }
+        ],
+        "depends_on": [
+          "T0006"
+        ],
+        "expected_outputs": [
+          "Review/REV-0002_限定主张复核/review.json"
+        ],
+        "acceptance": "Inspect actual files and declared synthetic invariants only",
+        "stop_rule": "No external action; stop after this fixture handoff",
+        "required": true,
+        "budget": {
+          "status": "bounded",
+          "basis": "Authorized small local validation",
+          "limits": "Two short numerical reruns; one local plot; no paid services"
+        },
+        "supersedes": null,
+        "status": "completed",
+        "objective_id": "OBJ-0001",
+        "superseded_by": [],
+        "updates": [
+          {
+            "action": "transition",
+            "id": "T0007",
+            "status": "running",
+            "reason": "Start actual local fixture work",
+            "execution_ref": "C:\\Users\\Light\\AppData\\Local\\Temp\\Light-Skills-closed-loop-mwy5dpha\\Review\\REV-0002_限定主张复核"
+          },
+          {
+            "action": "transition",
+            "id": "T0007",
+            "status": "completed",
+            "reason": "Actual synthetic outputs inspected",
+            "evidence": [
+              {
+                "path": "Review/REV-0002_限定主张复核/review.json",
+                "locator": "Actual synthetic fixture, complete declared scope",
+                "sha256": "5369f6ab57f87d30328f54c6f2e129d18fb51ba9806d06cf24e994a1f4ca6219",
+                "bytes": 5272
+              }
+            ],
+            "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+          }
+        ],
+        "evidence": [
+          {
+            "path": "Review/REV-0002_限定主张复核/review.json",
+            "locator": "Actual synthetic fixture, complete declared scope",
+            "sha256": "5369f6ab57f87d30328f54c6f2e129d18fb51ba9806d06cf24e994a1f4ca6219",
+            "bytes": 5272
+          }
+        ],
+        "verification": "Executed local fixture and checked declared invariants; not independent scientific review"
+      }
+    ],
+    "needs_review": [
+      {
+        "id": "T0006",
+        "reasons": [
+          "source_changed: Write/PAPER-0001_合成验证/drafts/v02/manuscript.md"
+        ]
+      },
+      {
+        "id": "T0007",
+        "reasons": [
+          "source_changed: Write/PAPER-0001_合成验证/drafts/v02/manuscript.md",
+          "dependency_unusable: T0006"
+        ]
+      }
+    ],
+    "running": [],
+    "recovery_required": [],
+    "boundary": "Candidate readiness is file/dependency bookkeeping, not scientific acceptance, tool availability or execution authorization."
+  },
+  "candidates": [],
+  "memory": {
+    "status": "read",
+    "packet": {
+      "ok": true,
+      "schema_version": "1.0",
+      "memory_id": "MEMORY_27212e308772",
+      "cursor": "EVT-000002",
+      "as_known_at": null,
+      "query": "",
+      "items": [],
+      "conflicts": [],
+      "needs_review": [
+        {
+          "id": "MEM-0002",
+          "kind": "decision",
+          "scope": "paper:PAPER-0001",
+          "slot": "claim.boundary",
+          "preview": "One synthetic ODE was evaluated at six method/resolution combinations; reruns are not independent samples.",
+          "status": "active",
+          "epistemic": "verified_observation",
+          "recorded_at": "2026-11-07T00:18:59.607922+00:00",
+          "usable": false,
+          "reasons": [
+            "source_drift"
+          ]
+        }
+      ],
+      "dependency_context": [],
+      "closure_needs_review": [
+        {
+          "id": "MEM-0001",
+          "kind": "question",
+          "scope": "paper:PAPER-0001",
+          "slot": "issue.LR-001",
+          "preview": "LR-001 requires one-problem wording instead of six independent experiments",
+          "status": "resolved",
+          "epistemic": "verified_observation",
+          "recorded_at": "2026-11-07T00:18:58.926024+00:00",
+          "usable": false,
+          "reasons": [
+            "historical:resolved",
+            "resolution_source_drift"
+          ],
+          "resolution_sources": [
+            {
+              "kind": "file",
+              "locator": "Actual synthetic fixture, complete declared scope",
+              "path": "Write/PAPER-0001_合成验证/drafts/v02/manuscript.md",
+              "url": null,
+              "freshness": "changed"
+            },
+            {
+              "kind": "file",
+              "locator": "Actual synthetic fixture, complete declared scope",
+              "path": "Review/REV-0002_限定主张复核/review.json",
+              "url": null,
+              "freshness": "unchanged"
+            }
+          ]
+        }
+      ],
+      "omitted_by_budget": 0,
+      "content_characters": 0,
+      "matched": 1,
+      "boundary": "Memory is source-linked context, not a scientific validation or execution instruction. Character budget applies to selected items; conflict/review diagnostics are reported separately."
+    }
+  },
+  "boundary": "Read-only recovery packet. Recheck original sources and native jobs; memory and candidates do not authorize execution or establish scientific readiness."
+}

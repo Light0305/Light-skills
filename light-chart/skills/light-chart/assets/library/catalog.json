@@ -1,0 +1,2137 @@
+{
+  "version": "0.11.0",
+  "policy": "Read source-adaptation.md before applying historical source guidance. Legacy code is not an executable production template.",
+  "entries": [
+    {
+      "id": "pattern-01",
+      "kind": "source-pattern",
+      "title": "分层比较与多面板共享图例",
+      "tags": [
+        "benchmark",
+        "grouped",
+        "bar",
+        "multi-metric",
+        "分层",
+        "柱状"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_brute_force.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_brainteaser\\plot_brute_force.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Brainteaser\\plot_brute_force.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-02",
+      "kind": "source-pattern",
+      "title": "层级分类下的方法比较",
+      "tags": [
+        "benchmark",
+        "category",
+        "hierarchy",
+        "分类"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_category.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_brainteaser\\plot_correctness_by_category.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Brainteaser\\plot_correctness_by_category.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-03",
+      "kind": "source-pattern",
+      "title": "密集子分类的小倍图",
+      "tags": [
+        "benchmark",
+        "small-multiples",
+        "dense",
+        "子分类"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_brainteaser\\plot_correctness_by_subcategory.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Brainteaser\\plot_correctness_by_subcategory.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-04",
+      "kind": "source-pattern",
+      "title": "前后变化与结果构成",
+      "tags": [
+        "paired",
+        "before",
+        "after",
+        "composition",
+        "前后",
+        "堆积"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_rewriting.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_brainteaser\\plot_rewriting.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Brainteaser\\plot_rewriting.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-05",
+      "kind": "source-pattern",
+      "title": "错误类型的多面板拆解",
+      "tags": [
+        "decomposition",
+        "failure",
+        "错误",
+        "分解"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_brainteaser/plot_selfcorrection_math.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/brute_force.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/rewriting.png",
+        "references/library/nature/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_brainteaser\\plot_selfcorrection_math.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Brainteaser\\plot_selfcorrection_math.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-06",
+      "kind": "source-pattern",
+      "title": "组件消融与细节图例",
+      "tags": [
+        "ablation",
+        "component",
+        "消融"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/ablation.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_CellSpliceNet\\plot_ablation.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-07",
+      "kind": "source-pattern",
+      "title": "多指标比较与分组矩阵",
+      "tags": [
+        "comparison",
+        "multi-metric",
+        "heatmap",
+        "comparison",
+        "比较",
+        "热图"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/ablation.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_CellSpliceNet\\plot_comparison.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-08",
+      "kind": "source-pattern",
+      "title": "物种与指标的交叉比较",
+      "tags": [
+        "species",
+        "crossed",
+        "groups",
+        "物种"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_CellSpliceNet/plot_comparison_cross_species.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/ablation.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png",
+        "references/library/nature/assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_CellSpliceNet\\plot_comparison_cross_species.py",
+        "Reference  Repositories\\figures4papers-main\\figure_CellSpliceNet\\plot_comparison.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-09",
+      "kind": "source-pattern",
+      "title": "扩散矩阵与流形实例",
+      "tags": [
+        "diffusion",
+        "affinity",
+        "manifold",
+        "流形"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/diffusion_swiss_roll.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png"
+      ],
+      "availability": "conceptual_or_simulated_demo",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_Cflows\\diffusion_swiss_roll.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Cflows\\diffusion_swiss_roll.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "scipy"
+      ]
+    },
+    {
+      "id": "pattern-10",
+      "kind": "source-pattern",
+      "title": "跨指标模型消融",
+      "tags": [
+        "ablation",
+        "metrics",
+        "消融"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Ablation.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_Cflows\\plot_comparison_Ablation.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Cflows\\plot_comparison_Ablation.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-11",
+      "kind": "source-pattern",
+      "title": "基因调控任务分组比较",
+      "tags": [
+        "genomics",
+        "regulatory",
+        "grouped",
+        "基因"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_GeneRegulatory.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_Cflows\\plot_comparison_GeneRegulatory.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Cflows\\plot_comparison_GeneRegulatory.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-12",
+      "kind": "source-pattern",
+      "title": "轨迹推断任务分组比较",
+      "tags": [
+        "trajectory",
+        "inference",
+        "benchmark",
+        "轨迹"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_Cflows/plot_comparison_Trajectory.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png",
+        "references/library/nature/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_Cflows\\plot_comparison_Trajectory.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Cflows\\plot_comparison_Trajectory.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-13",
+      "kind": "source-pattern",
+      "title": "几何概念示意",
+      "tags": [
+        "conceptual",
+        "geometry",
+        "示意"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_idea.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_Dispersion/figures/idea.png",
+        "references/library/nature/assets/figures4papers/figure_Dispersion/figures/illustration.png"
+      ],
+      "availability": "conceptual_or_simulated_demo",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_Dispersion\\plot_idea.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Dispersion\\plot_idea.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-14",
+      "kind": "source-pattern",
+      "title": "混合二维三维几何构图",
+      "tags": [
+        "conceptual",
+        "3d",
+        "geometry",
+        "三维",
+        "示意"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_Dispersion/plot_illustration.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_Dispersion/figures/idea.png",
+        "references/library/nature/assets/figures4papers/figure_Dispersion/figures/illustration.png"
+      ],
+      "availability": "conceptual_or_simulated_demo",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_Dispersion\\plot_illustration.py",
+        "Reference  Repositories\\figures4papers-main\\figure_Dispersion\\plot_illustration.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-15",
+      "kind": "source-pattern",
+      "title": "频谱与频率先验对照",
+      "tags": [
+        "spectrum",
+        "frequency",
+        "prior",
+        "频谱"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_FPGM/plot_freq_prior.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_FPGM/figures/freq_prior.png"
+      ],
+      "availability": "external_file_required",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。 需要作者未随包提供的 NPZ；不能伪造。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_FPGM\\plot_freq_prior.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-16",
+      "kind": "source-pattern",
+      "title": "带报告变异性的多方法多指标比较",
+      "tags": [
+        "benchmark",
+        "uncertainty",
+        "ablation",
+        "comparison",
+        "区间",
+        "消融"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_ImmunoStruct/plot_bars.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_Cancer.png",
+        "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_IEDB.png",
+        "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_Cancer.png",
+        "references/library/nature/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_IEDB.png"
+      ],
+      "availability": "bundled_raw_data_py",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。 原柱状图局部纵轴截断；改为零基线柱或估计值区间图，保留全部均值及源误差幅度。Mean PPVn 的 std 已除以 √5，不能统一标作 SD。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_ImmunoStruct\\plot_bars.py",
+        "Reference  Repositories\\figures4papers-main\\figure_ImmunoStruct\\plot_bars.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os",
+        "raw_data"
+      ]
+    },
+    {
+      "id": "pattern-17",
+      "kind": "source-pattern",
+      "title": "任务与模态的注释计数矩阵",
+      "tags": [
+        "heatmap",
+        "modality",
+        "composition",
+        "热图",
+        "构成"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_composition.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/composition_heatmap.png",
+        "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/trend_by_month.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_ophthal_review\\plot_composition.py",
+        "Reference  Repositories\\figures4papers-main\\figure_ophthal_review\\plot_composition.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os",
+        "seaborn"
+      ]
+    },
+    {
+      "id": "pattern-18",
+      "kind": "source-pattern",
+      "title": "时间轴累计组成与事件标注",
+      "tags": [
+        "time",
+        "cumulative",
+        "stacked",
+        "events",
+        "时间",
+        "累计",
+        "事件"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_ophthal_review/plot_trend.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/composition_heatmap.png",
+        "references/library/nature/assets/figures4papers/figure_ophthal_review/figures/trend_by_month.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_ophthal_review\\plot_trend.py",
+        "Reference  Repositories\\figures4papers-main\\figure_ophthal_review\\plot_trend.py"
+      ],
+      "imports": [
+        "datetime",
+        "dateutil",
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-19",
+      "kind": "source-pattern",
+      "title": "多指标比较与分组矩阵",
+      "tags": [
+        "comparison",
+        "multi-metric",
+        "heatmap",
+        "comparison",
+        "比较",
+        "热图"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_comparison.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。 原例逐列 Normalize 的上下界有风险；使用 scientific_heatmap 的显式尺度替换。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_RNAGenScape\\plot_comparison.py",
+        "Reference  Repositories\\figures4papers-main\\figure_RNAGenScape\\plot_comparison.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-20",
+      "kind": "source-pattern",
+      "title": "带灰色覆盖区域的三维曲面示例",
+      "tags": [
+        "3d",
+        "surface",
+        "overlay",
+        "topology",
+        "三维",
+        "曲面",
+        "覆盖"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_hole_manifold.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png"
+      ],
+      "availability": "conceptual_or_simulated_demo",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。 原例使用灰色覆盖 patch，并非真正缺失域；不可据文件名将其解释成缺失观测。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_RNAGenScape\\plot_hole_manifold.py",
+        "Reference  Repositories\\figures4papers-main\\figure_RNAGenScape\\plot_hole_manifold.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-21",
+      "kind": "source-pattern",
+      "title": "三维流形曲面",
+      "tags": [
+        "3d",
+        "surface",
+        "manifold",
+        "三维",
+        "曲面"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_manifold.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png"
+      ],
+      "availability": "conceptual_or_simulated_demo",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_RNAGenScape\\plot_manifold.py",
+        "Reference  Repositories\\figures4papers-main\\figure_RNAGenScape\\plot_manifold.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-22",
+      "kind": "source-pattern",
+      "title": "真实超参数网格的双指标曲线",
+      "tags": [
+        "sweep",
+        "hyperparameter",
+        "real",
+        "x",
+        "超参数"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_RNAGenScape/plot_sweep.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png",
+        "references/library/nature/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_RNAGenScape\\plot_sweep.py",
+        "Reference  Repositories\\figures4papers-main\\figure_RNAGenScape\\plot_sweep.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-23",
+      "kind": "source-pattern",
+      "title": "组件消融与细节图例",
+      "tags": [
+        "ablation",
+        "component",
+        "消融"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_ablation.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/concept.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_VIGIL\\plot_ablation.py",
+        "Reference  Repositories\\figures4papers-main\\figure_VIGIL\\plot_ablation.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-24",
+      "kind": "source-pattern",
+      "title": "异尺度雷达与方向归一化",
+      "tags": [
+        "radar",
+        "normalization",
+        "雷达"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_comparison_radar.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/concept.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。 指标方向、尺度、范围必须显式声明；禁止静默截断归一化。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_VIGIL\\plot_comparison_radar.py",
+        "Reference  Repositories\\figures4papers-main\\figure_VIGIL\\plot_comparison_radar.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-25",
+      "kind": "source-pattern",
+      "title": "分布对照与流形示意组合",
+      "tags": [
+        "conceptual",
+        "density",
+        "manifold",
+        "mixed",
+        "示意",
+        "分布"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_concept.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/concept.png"
+      ],
+      "availability": "conceptual_or_simulated_demo",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_VIGIL\\plot_concept.py",
+        "Reference  Repositories\\figures4papers-main\\figure_VIGIL\\plot_concept.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os",
+        "scipy"
+      ]
+    },
+    {
+      "id": "pattern-26",
+      "kind": "source-pattern",
+      "title": "稀疏实测训练步数的趋势比较",
+      "tags": [
+        "training",
+        "trajectory",
+        "steps",
+        "趋势"
+      ],
+      "backend": "python",
+      "path": "references/library/nature/assets/figures4papers/figure_VIGIL/plot_posttraining.py",
+      "preview_candidates": [
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+        "references/library/nature/assets/figures4papers/figure_VIGIL/figures/concept.png"
+      ],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\nature-figure\\assets\\figures4papers\\figure_VIGIL\\plot_posttraining.py",
+        "Reference  Repositories\\figures4papers-main\\figure_VIGIL\\plot_posttraining.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-27",
+      "kind": "source-pattern",
+      "title": "组件消融与细节图例",
+      "tags": [
+        "ablation",
+        "component",
+        "消融"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/figure_CellSpliceNet/plot_ablation.py",
+      "preview_candidates": [],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\figures4papers-main\\figure_CellSpliceNet\\plot_ablation.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "pattern-28",
+      "kind": "source-pattern",
+      "title": "跨数量级吞吐率比较",
+      "tags": [
+        "log",
+        "throughput",
+        "speed",
+        "efficiency",
+        "速度",
+        "效率"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/figure_RNAGenScape/plot_comparison_speed.py",
+      "preview_candidates": [],
+      "availability": "embedded_paper_values",
+      "status": "adapt_before_run",
+      "notes": "完整原始实现；先查看对应成图，再映射真实字段、尺寸、统计语义和导出。嵌入数值仅为论文案例，不得混入用户结果。",
+      "also_from": [
+        "Reference  Repositories\\figures4papers-main\\figure_RNAGenScape\\plot_comparison_speed.py"
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os"
+      ]
+    },
+    {
+      "id": "nature-THIRD_PARTY_NOTICES",
+      "kind": "reference",
+      "title": "Third-Party Reference Materials",
+      "tags": [],
+      "backend": "any",
+      "path": "references/library/nature/assets/figures4papers/THIRD_PARTY_NOTICES.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-api",
+      "kind": "reference",
+      "title": "API Reference — Nature Figure Making",
+      "tags": [
+        "Contents",
+        "Constants",
+        "PALETTE",
+        "MANDATORY font + SVG rules (always first, no exceptions)",
+        "apply_publication_style()",
+        "is_dark(hex_color, threshold=128)",
+        "add_panel_label(ax, label, ...)",
+        "style_dark_image_ax(ax, ...)",
+        "make_grouped_bar(ax, categories, series, labels, ...)",
+        "make_trend(ax, x, y_series, labels, ...)",
+        "make_forest_plot(ax, labels, estimates, ci_low, ci_high, ...)",
+        "make_heatmap(ax, matrix, ...)",
+        "Numerical and annotation safety helpers",
+        "require_matplotlib_panel_alignment(fig, ...)",
+        "finalize_figure(fig, out_path, ...)",
+        "Validation Rules",
+        "Conventions"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/api.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-asset-adaptation",
+      "kind": "reference",
+      "title": "Plotting Asset Adaptation",
+      "tags": [
+        "Choose the reuse level",
+        "Inspect before mapping",
+        "Map the data contract",
+        "Guard transformations",
+        "Preserve data integrity",
+        "Adapt without erasing provenance",
+        "Validate and deliver"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/asset-adaptation.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-backend-selection",
+      "kind": "reference",
+      "title": "Backend Selection",
+      "tags": [
+        "Contents",
+        "Quick decision table",
+        "Backend exclusivity rule",
+        "Default stacks",
+        "R",
+        "Python",
+        "Mixed workflow rule",
+        "Recommendation language"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/backend-selection.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-chart-types",
+      "kind": "reference",
+      "title": "Chart Types — Nature Figure Making",
+      "tags": [
+        "Contents",
+        "Radar / Polar Chart",
+        "3D Sphere / Conceptual Illustration",
+        "Scatter Plot with Color-Coded Clusters",
+        "Probability + Manifold Concept Panel",
+        "Ablation Line Panel with Reference Baselines",
+        "Fill-Between Area Chart (Stacked trend)",
+        "Filled area (stacked) with hatch for print safety",
+        "Erase border artifacts",
+        "Overlay the trend line for exact values",
+        "Log-Scale Bar Chart",
+        "Annotate values above bars",
+        "GridSpec Multi-Panel Layout",
+        "2-row, 4-column layout",
+        "Scientific Notation on Y-Axis",
+        "Custom Spine Positioning",
+        "Move bottom spine to y=0 (for negative values)",
+        "Related files"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/chart-types.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-common-patterns",
+      "kind": "reference",
+      "title": "Common Patterns — Nature Figure Making",
+      "tags": [
+        "Contents",
+        "Pattern 1: Ultra-wide multi-metric bar panel",
+        "Last panel: legend only",
+        "Pattern 2: Dedicated legend panel",
+        "Legend-only panel",
+        "Pattern 3: Categorical bars without x-tick labels",
+        "Alternatively:",
+        "Pattern 4: Dynamic y-axis tightening",
+        "Manual ticks at clean round numbers",
+        "Pattern 5: Alpha-graduated ablation bars (same color, varying opacity)",
+        "Full method → alpha=1.0, most ablated → alpha=0.2",
+        "Pattern 6: Hatch encoding for print-safe grayscale",
+        "Pattern 7: Semantic or family color mapping",
+        "Pattern 8: In-bar text with luminance-aware color",
+        "Pattern 9: Fill-between trend with hatch (print-safe)",
+        "Visually erase the border artifacts:",
+        "Pattern 10: Annotate events on trend lines",
+        "Pattern 11: Grouped bars across multiple datasets (grouped-within-grouped)",
+        "Pattern 12: Schematic hero panel with supporting quant row",
+        "top panel should carry the main palette and the main visual narrative",
+        "Pattern 13: Dark image plate with repeated views",
+        "Pattern 14: Clinical triptych",
+        "Put one shared legend strip above axes_top rather than repeating legends.",
+        "Pattern 15: Asymmetric hero panel",
+        "Pattern 16: Direct labels inside filled regions",
+        "Related files"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/common-patterns.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-demos",
+      "kind": "reference",
+      "title": "figures4papers Reference Index",
+      "tags": [
+        "Use boundary",
+        "Retained project map",
+        "Prefer repository-owned implementation paths",
+        "Upstream source"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/demos.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-design-theory",
+      "kind": "reference",
+      "title": "Nature Figure Design Theory",
+      "tags": [
+        "Contents",
+        "1) Typography",
+        "Font stack (priority order)",
+        "Font size hierarchy",
+        "2) Axes & Spines",
+        "3) Color Palette",
+        "Unified-family rule (recommended for NMI-style pages)",
+        "Modality-specific palette discipline from sampled 2026 Nature figures",
+        "Ablation alpha encoding",
+        "alpha=1.0 → full method, alpha=0.2 → minimal/ablated variant",
+        "4) Layout and Composition",
+        "Figure sizes",
+        "Dedicated legend panel",
+        "Dynamic y-axis scaling",
+        "Nature page archetypes from sampled 2026 papers",
+        "Panel labels and gutters",
+        "Legend economy and direct labelling",
+        "X-tick suppression",
+        "5) Bar Chart Rules",
+        "Vertical bars (comparison)",
+        "Horizontal bars (ablation)",
+        "In-bar value annotation",
+        "Hatch encoding for print-safe grayscale",
+        "Error bar styling",
+        "6) Line / Trend Plots",
+        "7) Heatmap Rules",
+        "Diverging (positive/negative): use Red + Blue colormaps per column direction",
+        "Masked NaN cells show as white",
+        "Normalize per column",
+        "Remove frame",
+        "Remove tick marks, keep labels",
+        "8) Radar / Polar Charts",
+        "9) Export Policy",
+        "SVG is the required primary format",
+        "── PRIMARY ── editable vector, text as <text> nodes ─────────────────────────",
+        "── SECONDARY ── raster for quick preview / submission portals ────────────────",
+        "10) Multi-Panel Information Architecture",
+        "Rule: Every panel must answer a unique scientific question",
+        "Anti-redundancy checklist",
+        "Common redundancy traps",
+        "Z-score deviation heatmap (complement to a composition bar)",
+        "heat: DataFrame (cohorts × cell-type categories), values in %",
+        "colorbar label:",
+        "Bubble scatter (complement to both)",
+        "x: dominant compartment (e.g., tumor %)",
+        "y: functional readout (e.g., immune-cell %)",
+        "size: third variable (e.g., stroma %)",
+        "Quadrant reference lines at median x and median y",
+        "11) Reproduction Checklist"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/design-theory.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-figure-contract",
+      "kind": "reference",
+      "title": "Figure Contract",
+      "tags": [
+        "Contents",
+        "Privacy rule",
+        "Required contract",
+        "Core conclusion rules",
+        "Archetype selection",
+        "Panel logic",
+        "Aesthetic integration",
+        "Reviewer-risk prompts"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/figure-contract.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-figure-legend-conventions",
+      "kind": "reference",
+      "title": "Figure & Table Legend Conventions (Nat Commun 2025 CS/AI corpus)",
+      "tags": [
+        "Legend structure — the fixed skeleton",
+        "Tense",
+        "Self-containment rule",
+        "Display-label capitalization",
+        "Advanced: the claim-closing sentence",
+        "Review/Perspective legends",
+        "Table captions",
+        "Length and journal gate",
+        "中文图注要点"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/figure-legend-conventions.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-multipanel-evidence-architecture",
+      "kind": "reference",
+      "title": "Multi-panel evidence architecture",
+      "tags": [
+        "Contents",
+        "Status and scope",
+        "Start from the figure-level claim",
+        "Give panels different inferential roles",
+        "Choose an evidence-chain archetype",
+        "Validation envelope",
+        "Scale-to-instance chain",
+        "Discovery sequence",
+        "Capability ladder",
+        "Corpus pattern anchors",
+        "Align figure order with Results claim escalation",
+        "Assign visual hierarchy from evidence hierarchy",
+        "Decide whether a panel belongs in the main figure",
+        "Run the multi-panel audit"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/multipanel-evidence-architecture.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-nature-2026-observations",
+      "kind": "reference",
+      "title": "2026 Nature Sample Observations",
+      "tags": [
+        "Contents",
+        "Archetype 1: Schematic-led composite",
+        "Archetype 2: Dark image plate",
+        "Archetype 3: Clinical triptych",
+        "Archetype 4: Dense categorical physical-science panel",
+        "Archetype 5: Asymmetric mixed-modality figure",
+        "Cross-cutting Nature rules from the sample",
+        "Palette guidance by modality",
+        "What not to copy blindly"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/nature-2026-observations.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-nature-article-requirements",
+      "kind": "reference",
+      "title": "Flagship Nature Article figure requirements",
+      "tags": [
+        "Contents",
+        "1. Stage gate",
+        "2. Initial-submission figures",
+        "3. Legend contract",
+        "4. Production dimensions and typography",
+        "5. Main-figure production files",
+        "6. Extended Data production files",
+        "7. Accessibility and image integrity",
+        "8. Delivery audit",
+        "9. Official sources"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/nature-article-requirements.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-qa-contract",
+      "kind": "reference",
+      "title": "QA Contract",
+      "tags": [
+        "Contents",
+        "Current official references to verify",
+        "Pre-submission checklist",
+        "Statistics legend minimum",
+        "Image-integrity minimum",
+        "Automated source preflight",
+        "Python source",
+        "R, R Markdown, or Quarto source",
+        "Machine-readable report or stricter warning gate",
+        "Exported-PDF glyph-size audit",
+        "Backend-neutral audit of the render-time Python/R panel-layout manifest",
+        "Mandatory rendered collision audit for Python and R figures",
+        "Optional: make ambiguous WARN findings blocking",
+        "Automatic multi-panel alignment gate",
+        "Automatic rendered collision audit",
+        "Rendered panel-by-panel audit",
+        "Typography and PDF glyph floor",
+        "Uncertainty consistency",
+        "Geometry and annotation placement",
+        "Color separation and salience",
+        "Transformation and paired-effect checks",
+        "Export checks",
+        "Python",
+        "R"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/qa-contract.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-r-template-index",
+      "kind": "reference",
+      "title": "Private R Template Adaptation",
+      "tags": [
+        "Privacy rules",
+        "Generic search strategy",
+        "Chart-family map",
+        "Adaptation checklist"
+      ],
+      "backend": "r",
+      "path": "references/library/nature/references/r-template-index.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-r-workflow",
+      "kind": "reference",
+      "title": "R Workflow",
+      "tags": [
+        "Contents",
+        "R-only execution rule",
+        "Required packages by task",
+        "Contract scaffold",
+        "Panel labels in R",
+        "Patchwork layout patterns",
+        "Quantitative grid",
+        "Schematic-led composite",
+        "Image plate plus quant",
+        "Patchwork panel-alignment gate",
+        "ComplexHeatmap export",
+        "Template reuse rule"
+      ],
+      "backend": "r",
+      "path": "references/library/nature/references/r-workflow.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-template-catalog",
+      "kind": "reference",
+      "title": "Validated Plot Template Catalog",
+      "tags": [
+        "Production examples"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/template-catalog.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-tutorials",
+      "kind": "reference",
+      "title": "Tutorials — Nature Figure Making",
+      "tags": [
+        "Contents",
+        "Tutorial 1: Grouped bar chart (multi-metric comparison)",
+        "--- Style ---",
+        "--- Data ---",
+        "--- Figure ---",
+        "Legend-only panel",
+        "Tutorial 2: Ablation bar chart (alpha-graduated, horizontal)",
+        "Tutorial 3: Multi-panel trend with shared legend",
+        "Legend-only panel",
+        "Tutorial 4: Heatmap with dual colormaps (positive/negative columns)",
+        "matrix: rows = methods, cols = metrics (alternating positive/negative directions)",
+        "Related files"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/references/tutorials.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-contract",
+      "kind": "reference",
+      "title": "Figure contract before plotting",
+      "tags": [
+        "Backend selection uses the task context and saved preference",
+        "The selected backend is exclusive",
+        "Missing runtime/package rule",
+        "Data-integrity gate",
+        "The five-point contract"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/static/core/contract.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-stance",
+      "kind": "reference",
+      "title": "Default operating stance",
+      "tags": [
+        "Color policy",
+        "Stance",
+        "User-facing privacy rule",
+        "When to load this skill",
+        "When NOT to load"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/static/core/stance.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-python",
+      "kind": "reference",
+      "title": "Backend: Python (matplotlib / seaborn)",
+      "tags": [
+        "Python quick-start",
+        "Copy audit_panel_alignment.py beside the plotting source or add the skill's",
+        "scripts directory to PYTHONPATH before importing it.",
+        "Going deeper"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/static/fragments/backend/python.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "nature-r",
+      "kind": "reference",
+      "title": "Backend: R (ggplot2 / patchwork / ComplexHeatmap)",
+      "tags": [
+        "R quick-start",
+        "Going deeper"
+      ],
+      "backend": "any",
+      "path": "references/library/nature/static/fragments/backend/r.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-chart_selection",
+      "kind": "reference",
+      "title": "图型选择决策框架",
+      "tags": [
+        "目录",
+        "决策三轴",
+        "轴 1：变量数量与类型",
+        "轴 2：想表达什么（论证意图）",
+        "轴 3：数据规模",
+        "数据形态 → 推荐图型 速查表",
+        "按数据形态分述",
+        "1. 单个连续变量看分布",
+        "2. 单个分类变量看占比",
+        "3. 一个分类 + 一个连续（组间比较）",
+        "4. 两个连续变量看关系",
+        "5. 时间序列看趋势",
+        "6. 多变量相关",
+        "7. 矩阵型数据",
+        "8. 嵌套/交叉分组（多维分组）",
+        "同一批数据，不同论点 → 不同图",
+        "例 1：药物 A 和 B 对响应时间的影响",
+        "例 2：基因表达谱",
+        "何时该拆图",
+        "拆图判断标准",
+        "拆图策略",
+        "图型语义边界",
+        "折线 vs 散点",
+        "柱状 vs 箱线",
+        "热力图 vs 散点矩阵"
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/chart_selection.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-data_profiling",
+      "kind": "reference",
+      "title": "数据剖析报告解读手册",
+      "tags": [
+        "目录",
+        "一份报告长什么样",
+        "列类型识别规则",
+        "样本量的影响",
+        "阈值",
+        "为什么阈值这么定",
+        "报告里的小样本警告",
+        "分布形态的影响",
+        "偏度（skew）",
+        "跨量级 → 对数轴",
+        "异常值",
+        "分组结构的影响",
+        "单分组 vs 多分组",
+        "嵌套 vs 交叉",
+        "平衡 vs 不平衡",
+        "相关性 / 多重共线性的提示",
+        "用法",
+        "警惕的相关性陷阱",
+        "缺失值与异常值",
+        "缺失模式",
+        "从报告到画图决策的流程"
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/data_profiling.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-journal_specs",
+      "kind": "reference",
+      "title": "期刊图表规范",
+      "tags": [
+        "目录",
+        "Nature 系列",
+        "Science",
+        "IEEE",
+        "Elsevier 系列",
+        "PNAS",
+        "中文核心期刊通用要求",
+        "跨期刊速查表",
+        "中文字体安装指南",
+        "Linux",
+        "Debian / Ubuntu",
+        "Fedora / RHEL / CentOS",
+        "安装后刷新 matplotlib 字体缓存",
+        "macOS",
+        "推荐：Homebrew Cask",
+        "或手动从 Google Fonts / Adobe 下载",
+        "https://fonts.google.com/noto/specimen/Noto+Sans+SC",
+        "Windows",
+        "验证",
+        "不同期刊的提交检查工具"
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/journal_specs.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-plot_recipes",
+      "kind": "reference",
+      "title": "七类图配方",
+      "tags": [
+        "目录",
+        "通用前置",
+        "一次性设好样式",
+        "Okabe-Ito 8 色（色盲安全）",
+        "也可直接用 seaborn 的 colorblind",
+        "1. 折线图（含误差阴影）",
+        "--- 示例 ---",
+        "假装 n=12 只小鼠，对每个 x 算 mean ± SEM",
+        "图注必须写: shaded band = SEM, n = 12 mice per group.",
+        "2. 柱状图（分组 + 误差棒）",
+        "数据：3 组 × 2 条件 × n=10 重复",
+        "用 seaborn barplot——默认就是 mean + 95%CI（bootstrap）",
+        "想要 SD/SEM 改 errorbar 参数",
+        "叠加原始点显示数据分布——审稿人喜欢看分布而非只看均值",
+        "图注: bars = mean ± SEM; dots = individual replicates; n = 10 per group.",
+        "3. 散点图（多语义映射 + 回归线）",
+        "模拟数据：N 个样本，x 和 y 有相关性，分两组",
+        "分组回归线 + 95% CI",
+        "在图里标 Pearson r 和 p",
+        "4. 箱线图 / 小提琴图（叠 stripplot）",
+        "同任务 2 的数据",
+        "想用小提琴图把 boxplot 换 violinplot 即可:",
+        "sns.violinplot(..., inner=None, cut=0)",
+        "inner=None 关掉内部小条；cut=0 让小提琴不超出数据范围",
+        "例: 在 Control vs Drug A 上方加 '**'",
+        "x1=0-0.15, x2=0-0.15 对应 dodge 后实际位置；调一下偏移",
+        "sig_bracket(ax, -0.2, 0.2, y=5.5, h=0.1, text='**')",
+        "5. 热力图（感知均匀色图）",
+        "模拟一个 8×8 相关矩阵",
+        "6. 误差棒图",
+        "图注: data = mean ± SEM, n = 8 wells per dose.",
+        "7. 分布图（直方图 / KDE）",
+        "模拟双峰分布",
+        "模拟偏态分布",
+        "=== 直方图 + KDE 叠加 ===",
+        "KDE 用 seaborn 直接画在同一 ax",
+        "在底部加 rug 显示每个原始点",
+        "=== 偏态分布 + 中位数 vs 均值 ===",
+        "8. 相关性矩阵 / 散点矩阵",
+        "8a. 相关性热力图",
+        "模拟 6 列数据",
+        "半矩阵更易读（对称，画一半就够）",
+        "8b. 散点矩阵 (pairplot)",
+        "pairplot 适合 ≤ 8 列；超过就糊",
+        "9. 多面板组合图",
+        "=== 子图 a：折线 ===",
+        "=== 子图 b：散点 ===",
+        "=== 子图 c：柱状 ===",
+        "=== 子图 d：箱线 ===",
+        "子图标签：a, b, c, d (Nature 风格)",
+        "10. Plotly 交互图",
+        "中文支持"
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/plot_recipes.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-publication_checklist",
+      "kind": "reference",
+      "title": "投稿前合规自检清单",
+      "tags": [
+        "目录",
+        "尺寸 & 分辨率",
+        "文件格式",
+        "字体 & 字号",
+        "配色 & 色盲",
+        "坐标轴 & 标签",
+        "图例 & 子图标签",
+        "误差 & 统计交代",
+        "语义合规（viz_pitfalls 交叉检查）",
+        "中文图额外项",
+        "终检",
+        "一行命令总览",
+        "1. 出图（已经做完）",
+        "2. 末端审计",
+        "3. 人眼终检"
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/publication_checklist.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-visual_review",
+      "kind": "reference",
+      "title": "视觉自检闭环：让 AI 看着图自己挑错、自己改",
+      "tags": [
+        "为什么必须「渲染成 PNG 再让 AI 看」",
+        "分工：程序自检 vs AI 读图",
+        "标准操作流程",
+        "第 1 步：渲染预览",
+        "fig 是刚画好、还没导出的 matplotlib Figure",
+        "第 2 步：程序自检",
+        "第 3 步：AI 读图自检（关键）",
+        "读图自检清单",
+        "第 4 步：回改对应表",
+        "第 5 步：重新渲染，再读图",
+        "循环纪律",
+        "一个完整示例",
+        "... 在 axes 上作图 ...",
+        "—— 自检闭环 ——",
+        "然后：用 Read 读 figs/_preview.png，对照上面 8 项清单逐条核对",
+        "有问题 → 按回改表改 → 重渲 → 再读；全过后再导出最终矢量图："
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/visual_review.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "scipilot-viz_pitfalls",
+      "kind": "reference",
+      "title": "科研可视化避坑清单",
+      "tags": [
+        "目录",
+        "P1. 均值柱状图掩盖分布与样本量",
+        "P2. 双 Y 轴的误导性",
+        "P3. 饼图与 3D 图",
+        "P4. Y 轴不当截断",
+        "P5. 连续色阶无 colorbar",
+        "P6. 把离散点连成折线",
+        "P7. 过度使用颜色",
+        "P8. 图例缺失或不清",
+        "P9. 误差类型不交代",
+        "P10. 过度装饰（chartjunk）",
+        "P11. 分辨率 / 格式不达标",
+        "P12. 一图多论点",
+        "P13. 红绿对比、不做色盲检查",
+        "P14. rainbow / jet 色图",
+        "P15. 显著性符号滥用",
+        "P16. 缺字乱码：中文 / 负号 / 特殊符号变方框",
+        "... 画图 ...",
+        "P17. 文字裁切与图例遮盖",
+        "或类别多时直接在曲线末端标注，彻底不要图例",
+        "P18. 多面板子图编号不对齐",
+        "✗ 反例：用 axes 比例坐标，各子图 y 轴刻度宽度不同时标签会错位",
+        "✓ 正解：一行搞定，自动对齐 + 风格统一",
+        "拦截发生时的话术"
+      ],
+      "backend": "any",
+      "path": "references/library/scipilot/references/viz_pitfalls.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-nature-results-discussion",
+      "kind": "reference",
+      "title": "Nature Results–Discussion Corpus Guidance",
+      "tags": [
+        "Contents",
+        "Core division of labour",
+        "Build Results as claim escalation",
+        "Choose an evidence-chain archetype",
+        "Discovery loop",
+        "Core capability and validation envelope",
+        "Capability ladder",
+        "Prevent same-level repetition",
+        "Prefer diagnostic experiments when mechanism matters",
+        "End evidence units with an inference",
+        "Apply the local-interpretation gate",
+        "Write Discussion as synthesis, not re-demonstration",
+        "Run the Nature claim-escalation audit"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/core/nature-results-discussion.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-terminology-ledger",
+      "kind": "reference",
+      "title": "Terminology Ledger",
+      "tags": [
+        "1. Build the ledger on first contact",
+        "2. Present the ledger to the user",
+        "3. Lock and enforce",
+        "4. Do not invent terms"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/core/terminology-ledger.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-consistency-sweep",
+      "kind": "reference",
+      "title": "Consistency Sweep",
+      "tags": [
+        "1. Sweep, then inspect",
+        "2. Axes",
+        "3. Numeric self-consistency",
+        "4. Claims versus the paper's own data",
+        "5. Redundancy between prose and displays",
+        "6. Order of operations"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/core/consistency-sweep.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-research-compliance",
+      "kind": "reference",
+      "title": "Nature Portfolio research-compliance routing",
+      "tags": [
+        "Contents",
+        "1. Applicability gate",
+        "2. Reporting summaries",
+        "3. Human-participant research",
+        "4. Animal research",
+        "5. Clinical research",
+        "Registration",
+        "Submission files",
+        "Study-type reporting",
+        "6. Image integrity",
+        "7. Structures, chemistry and materials",
+        "Small-molecule crystallography",
+        "Other structures and materials",
+        "8. Taxonomy and provenance-sensitive samples",
+        "9. Audit output",
+        "10. Official sources"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/core/research-compliance.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-ethics",
+      "kind": "reference",
+      "title": "Citation, ethics, and AI boundaries",
+      "tags": [
+        "Intellectual debt",
+        "Position attribution clearly",
+        "Cite the source you actually read and verified",
+        "What needs citation",
+        "Proofreading checks",
+        "AI risk and disclosure boundary",
+        "Nature Portfolio submission gate"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/core/ethics.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-nature",
+      "kind": "reference",
+      "title": "Nature Article submission requirements",
+      "tags": [
+        "Contents",
+        "1. Authority and stage gate",
+        "2. Editorial fit",
+        "3. Initial-submission file preflight",
+        "4. Article structure and limits",
+        "Required sequence",
+        "Initial manuscript styling",
+        "Title",
+        "Summary paragraph",
+        "Main text and display budget",
+        "Methods",
+        "References, tables and end notes",
+        "5. Administrative and authorship checks",
+        "Corresponding author",
+        "Cover letter",
+        "AI and LLM use",
+        "6. Displays, Extended Data and Supplementary Information",
+        "Figures and legends at initial submission",
+        "Extended Data",
+        "Supplementary Information",
+        "7. Reporting, availability and specialist routing",
+        "8. Submission modes and related work",
+        "9. Final-submission boundary",
+        "10. Official sources"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/journal-formats/nature.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-nat-comms",
+      "kind": "reference",
+      "title": "Nature Communications — formatting facts",
+      "tags": [
+        "Article types and limits",
+        "Critical word-count quirk (Articles)",
+        "Abstract",
+        "Figures and display items",
+        "Resolution and format",
+        "Multi-panel figures",
+        "References",
+        "Supplementary Information",
+        "Mandatory statements",
+        "Cover page elements",
+        "Cover letter (separate upload)",
+        "Open access and licensing",
+        "Transparent peer review",
+        "Manuscript formats",
+        "Common desk-rejection / production-hold patterns",
+        "Transfer from Nature"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/journal-formats/nat-comms.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "shared-nature-machine-intelligence",
+      "kind": "reference",
+      "title": "Nature Machine Intelligence submission requirements",
+      "tags": [
+        "Contents",
+        "1. Authority and stage gate",
+        "2. Editorial scope and article types",
+        "Scope fit",
+        "Supported content types",
+        "3. Article and Analysis contract",
+        "Article limits",
+        "Analysis limits",
+        "Article and Analysis structure",
+        "4. Other content types",
+        "5. Initial-submission package",
+        "Accepted review formats",
+        "Package inventory",
+        "6. Writing, structure and accessibility",
+        "7. Cover letter, review mode and related work",
+        "Cover letter",
+        "Double-anonymized peer review",
+        "Preprints, conference papers and overlapping work",
+        "8. Data, code and reporting standards",
+        "Data Availability",
+        "Code Availability",
+        "Reporting and protocols",
+        "AI-assisted writing",
+        "9. Figures, Extended Data and Supplementary Information",
+        "Initial submission",
+        "Legend content",
+        "Supplementary Information",
+        "10. Accepted-in-principle production contract",
+        "Text and tables",
+        "Figure production",
+        "Extended Data and supporting-information inventory",
+        "11. Requirements not stated as fixed numbers",
+        "12. Official sources"
+      ],
+      "backend": "any",
+      "path": "references/library/shared/journal-formats/nature-machine-intelligence.md",
+      "status": "reference_with_adaptation_rules"
+    },
+    {
+      "id": "f4p-guidance-api",
+      "kind": "reference",
+      "title": "figures4papers 接口、数据验证与导出约定",
+      "tags": [
+        "api",
+        "validation",
+        "interface",
+        "接口",
+        "实现"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/references/api.md",
+      "status": "full_source_guidance",
+      "notes": "完整原文；与完整论文代码联读。源接口不是已提供的公共模块；最终物理尺寸、基线、真实区间按适配规则处理。"
+    },
+    {
+      "id": "f4p-guidance-common-patterns",
+      "kind": "reference",
+      "title": "figures4papers 组合、图例与打印表达",
+      "tags": [
+        "pattern",
+        "layout",
+        "legend",
+        "组合",
+        "布局"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/references/common-patterns.md",
+      "status": "full_source_guidance",
+      "notes": "完整原文；与完整论文代码联读。源接口不是已提供的公共模块；最终物理尺寸、基线、真实区间按适配规则处理。"
+    },
+    {
+      "id": "f4p-guidance-design-theory",
+      "kind": "reference",
+      "title": "figures4papers 完整设计论述",
+      "tags": [
+        "design",
+        "typography",
+        "color",
+        "设计",
+        "配色",
+        "字体"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/references/design-theory.md",
+      "status": "full_source_guidance",
+      "notes": "完整原文；与完整论文代码联读。源接口不是已提供的公共模块；最终物理尺寸、基线、真实区间按适配规则处理。"
+    },
+    {
+      "id": "f4p-guidance-tutorials",
+      "kind": "reference",
+      "title": "figures4papers 端到端绘制教程",
+      "tags": [
+        "tutorial",
+        "implementation",
+        "recipe",
+        "教程",
+        "实现"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/references/tutorials.md",
+      "status": "full_source_guidance",
+      "notes": "完整原文；与完整论文代码联读。源接口不是已提供的公共模块；最终物理尺寸、基线、真实区间按适配规则处理。"
+    },
+    {
+      "id": "f4p-guidance-demos",
+      "kind": "reference",
+      "title": "figures4papers 完整案例路由",
+      "tags": [
+        "demo",
+        "example",
+        "paper",
+        "案例",
+        "论文"
+      ],
+      "backend": "python",
+      "path": "references/library/figures4papers/references/demos.md",
+      "status": "full_source_guidance",
+      "notes": "完整原文；与完整论文代码联读。源接口不是已提供的公共模块；最终物理尺寸、基线、真实区间按适配规则处理。"
+    },
+    {
+      "id": "owned-review-guide-comparison",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "比较必须有明确对象",
+      "path": "references/visual-review/comparison.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "layout"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-layout-and-type",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "按最终阅读尺寸排版",
+      "path": "references/visual-review/layout-and-type.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "layout"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-overview",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "视觉审阅的输入与边界",
+      "path": "references/visual-review/overview.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "layout"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-raster-diagnostics",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "像素诊断的用途",
+      "path": "references/visual-review/raster-diagnostics.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "layout"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-repair-and-preservation",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "将意见接回代码",
+      "path": "references/visual-review/repair-and-preservation.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "layout"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-reviewer-contract",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "返回可执行的观察",
+      "path": "references/visual-review/reviewer-contract.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "layout"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-assessment",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "三维观察表",
+      "path": "references/visual-review/three-d/assessment.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-camera",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "相机和空间比例",
+      "path": "references/visual-review/three-d/camera.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-discontinuities",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "断裂、分支和非连续域",
+      "path": "references/visual-review/three-d/discontinuities.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-evidence",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "绑定几何与科学原件",
+      "path": "references/visual-review/three-d/evidence.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-extrema-and-connections",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "极值与连接网络",
+      "path": "references/visual-review/three-d/extrema-and-connections.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-iteration",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "三维修订只改变有理由的参数",
+      "path": "references/visual-review/three-d/iteration.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-layered-geometry",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "多层与局部几何组合",
+      "path": "references/visual-review/three-d/layered-geometry.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-light-and-material",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "材质不能改写变量",
+      "path": "references/visual-review/three-d/light-and-material.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-marks-and-panels",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "标记、投影与面板",
+      "path": "references/visual-review/three-d/marks-and-panels.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-route",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "三维任务先分清表示",
+      "path": "references/visual-review/three-d/route.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-selection",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "选择候选的理由",
+      "path": "references/visual-review/three-d/selection.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-surfaces",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "连续曲面",
+      "path": "references/visual-review/three-d/surfaces.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    },
+    {
+      "id": "owned-review-guide-volumes",
+      "kind": "reference",
+      "backend": "any",
+      "status": "guidance_only",
+      "title": "体数据与等值面",
+      "path": "references/visual-review/three-d/volumes.md",
+      "tags": [
+        "visual review",
+        "审图",
+        "三维"
+      ],
+      "notes": "Independently authored Light-Science guidance; MIT. Not an autonomous reviewer or scientific analysis implementation."
+    }
+  ]
+}

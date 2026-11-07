@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "local_review_ready",
+  "errors": [],
+  "warnings": [
+    "Current portal form/signature requirements are unverified; local review does not imply filing readiness"
+  ],
+  "inputs": {
+    "case.json": "3ee3861dfdb61b4711deb47c1ffb6a99514d44321191910598b408259e8cb5fc",
+    "inventory.json": "a31597ed42df75dbf8424f3dd568cceca86f08a43e95b790b2cc0b0ed891cefd",
+    "selection.json": "5843e9368042dc2ad2bdf7ef75bd4e6e4f7d28f77802153530cd78a09e3c155f",
+    "source-pages.json": "c983fbb4556d4b9892efc24dcacd6f8c32d51d2f401bd06c6c8d00660a519726",
+    "manual.json": "52a48343ad93e045e550ad2720734c4e3d97c13a007f3935dd532f7e95458943",
+    "functions.json": "382f7056e6ab6168b61888f58e1808ffc81be8663ace46729c5072d1f96b9df5",
+    "layout-profile.json": "1bbca8935a2024324c1e4e8918a72af7b3cd0edfaf2960400bcb8aeb928e38af"
+  },
+  "artifact_count": 6,
+  "checked_kinds": [
+    "code",
+    "functions",
+    "manual"
+  ],
+  "portal_ready": false,
+  "scope": "Local material checks only; visual review, factual evidence and current portal requirements remain separate."
+}

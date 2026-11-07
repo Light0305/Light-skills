@@ -1,0 +1,63 @@
+{
+  "python": "3.11.13",
+  "actual_rendering": true,
+  "native_audit_passed": true,
+  "source_hash_matches": true,
+  "scene_hash_matches": true,
+  "pages": [
+    {
+      "name": "01 CRISPR native replica",
+      "shape_count": 136,
+      "glued_edges": 7,
+      "geometry_rows": {
+        "MoveTo": 45,
+        "LineTo": 48,
+        "NURBSTo": 33,
+        "Ellipse": 6,
+        "RelMoveTo": 85,
+        "RelLineTo": 85
+      },
+      "svg_image_elements": 0,
+      "png_size": [
+        1536,
+        1024
+      ],
+      "movement_probe": {
+        "node": "dual_card",
+        "tested_endpoints": 1,
+        "failures": [],
+        "restored": true,
+        "passed": true
+      }
+    }
+  ],
+  "pdf_pages": 1,
+  "pdf_text_lines": [
+    9
+  ],
+  "molecular_geometry_checks": {
+    "chimera_join_continuous": true,
+    "complex_guide_scaffold_join_continuous": true,
+    "two_independent_dual_rna_backbones": true,
+    "upper_dna_cut_gap_px": [
+      [
+        909,
+        464
+      ],
+      [
+        938,
+        468
+      ]
+    ],
+    "lower_dna_cut_gap_px": [
+      [
+        910,
+        600
+      ],
+      [
+        939,
+        598
+      ]
+    ]
+  }
+}

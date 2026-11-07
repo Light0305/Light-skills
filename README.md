@@ -4,270 +4,280 @@
 
 <p align="center">
   <a href="docs/releases/v2.0.0.md"><img src="https://img.shields.io/badge/Version-2.0.0-008A7B?style=flat" alt="Version 2.0.0"></a>
-  <a href="#skills-一览"><img src="https://img.shields.io/badge/Skills-19-102A43?style=flat" alt="19 skills"></a>
+  <a href="#skills"><img src="https://img.shields.io/badge/Skills-19-102A43?style=flat" alt="19 skills"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Original_work-MIT-102A43?style=flat" alt="Original work: MIT"></a>
   <a href="https://github.com/Light0305/Light-Science/stargazers"><img src="https://img.shields.io/github/stars/Light0305/Light-Science?style=flat&amp;color=102A43" alt="GitHub Stars"></a>
 </p>
 
-<p align="center"><strong>把研究问题、证据、实验和论文，连成一个可以持续推进的项目。</strong></p>
+<p align="center"><strong>Turn research questions, evidence, experiments and papers into one project you can keep moving forward.</strong></p>
+
+<p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center">
-  <a href="#安装">安装</a> · <a href="#skills-一览">Skills</a> · <a href="#如何推进一个项目">工作流</a> · <a href="#项目产出结构">产出目录</a> · <a href="#数据图展示">数据图</a> · <a href="#方法图与机制图">方法图</a> · <a href="#反馈与支持">反馈与支持</a>
+  <a href="#installation">Install</a> · <a href="#skills">Skills</a> · <a href="#how-a-project-moves-forward">Workflow</a> · <a href="#project-layout">Project layout</a> · <a href="#data-figures">Data figures</a> · <a href="#method-and-mechanism-diagrams">Method diagrams</a> · <a href="#feedback-and-support">Feedback</a>
 </p>
 
-**Light-Science**（原 Light-skills）是面向 AI Agent 的科研 skills 包。它把文献、选题、设计、实验、分析、选刊、写作、绘图和评审接在一起，用项目记忆保留研究决定，用总控协调下一步，让每轮修改都能回到具体的来源、版本和产物。
+**Light-Science** (formerly Light-skills) is a research skills pack for AI agents. It connects literature, ideation, design, experiments, analysis, journal selection, writing, figures and review. Project memory keeps the reasons behind research decisions, and a leader skill coordinates the next step, so every revision can be traced back to a concrete source, version and artifact.
 
-你可以从头推进，也可以带着已有论文、数据、代码或审稿问题直接进入需要的阶段。
+Start from scratch, or bring an existing paper, dataset, codebase or set of reviewer comments and go straight to the stage you need.
 
-## 安装
+> The skill instructions are written in Chinese, and several skills reply in Chinese by default. Ask your agent to answer in English if you prefer.
 
-### 让 Agent 安装
+## Installation
 
-把这段话发给你的 Agent：
+### Let your agent install it
+
+Send this to your agent:
 
 ```text
-从 https://github.com/Light0305/Light-Science 安装科研 skills。
-先让我选择全局安装或当前项目安装，再按 README 的技能表安装所需技能。
+Install the research skills from https://github.com/Light0305/Light-Science.
+Ask me first whether to install globally or for the current project, then install the skills I need from the skills table in the README.
 ```
 
-### 使用 skills CLI
+### Use the skills CLI
 
-Windows，在 PowerShell 中运行：
+Windows, in PowerShell:
 
 ```powershell
 npx.cmd skills@latest add Light0305/Light-Science
 npx.cmd skills@latest add https://github.com/Light0305/Light-Science/tree/master/light-chart/skills/light-chart
 ```
 
-macOS / Linux：
+macOS / Linux:
 
 ```bash
 npx skills@latest add Light0305/Light-Science
 npx skills@latest add https://github.com/Light0305/Light-Science/tree/master/light-chart/skills/light-chart
 ```
 
-第一条选择顶层技能，第二条补充嵌套目录中的 Chart；两次选择同一 Agent 和安装范围即可。Diagram 总入口保留所用的四个子目录，子入口也可以独立安装。项目级安装应先进入目标项目目录。也可以指定单项：
+The first command lists the top-level skills; the second adds Chart, which lives in a nested folder. **Pick the same agent and install scope both times**, otherwise Chart ends up somewhere else. The Diagram entry keeps its four sub-skill folders, and each sub-skill can also be installed on its own. For a project-level install, change into the target project first. You can also install a single skill:
 
 ```bash
 npx skills@latest add Light0305/Light-Science --skill light-write
 ```
 
-## 从一个真实问题开始
+More detail on install locations, dependencies and invocation is in the [installation guide](docs/installation.md) (Chinese).
+
+## Start from a real question
 
 ```text
-用 light-leader 推进这个项目：我想研究 <具体问题>，已有 <论文/数据/代码>。
-项目放在 <项目路径>，目标是 <一篇论文/软著及同源成果>。
-先查看已有项目记忆和实际材料，找出最需要解决的问题，再推进当前能完成的一步。
+Use light-leader to move this project forward: I want to study <specific question>, and I already have <papers/data/code>.
+The project lives at <project path>, and the goal is <a paper / a software copyright and related outputs>.
+First read the existing project memory and the actual materials, find the most pressing problem, then complete the step that can be done now.
 ```
 
-已有项目也可以直接续作：
+To continue an existing project:
 
 ```text
-继续 <项目路径>。先读 Memory 和现有交接，再核对采用的稿件、图与分析版本。
-本轮处理 <研究问题或评审意见>，把结果、决定依据和下一步写回项目。
+Continue <project path>. Read Memory and the latest handoff first, then check the adopted versions of the manuscript, figures and analyses.
+This round, handle <research question or reviewer comments>, and write the results, the reasons for each decision and the next step back into the project.
 ```
 
-只需要局部工作时，直接说“用 light-chart 根据这份数据画图”或“用 light-write 修改这一节”即可。
+Replace everything in angle brackets before sending. For a focused task, just say "use light-chart to plot this data" or "use light-write to revise this section".
 
-## Skills 一览
+## Skills
 
-**15 个主要技能，加上 Diagram 的 4 个专门入口，共 19 个。**
+**15 main skills plus 4 dedicated Diagram entries: 19 in total.**
 
-| 技能 | 负责什么 | 主要产出位置 |
+| Skill | What it does | Main output |
 | --- | --- | --- |
-| [light-literature / literature-search](light-literature/SKILL.md) | 文献检索、筛选、原文获取、精读、翻译、引用核对与证据综合 | `Literature/` |
-| [light-idea](light-idea/SKILL.md) | 从证据提出研究问题，比较候选想法、竞争解释与最小判别实验 | `Idea/` |
-| [light-design](light-design/SKILL.md) | 形成可执行、可判别的方案，明确对照、指标、预算与分析计划 | `Design/` |
-| [light-experiment](light-experiment/SKILL.md) | 执行计算实验、仿真或基准测试，保存配置、环境、日志与原始结果 | `Experiment/` |
-| [light-anaysis](light-anaysis/SKILL.md) | 分析结果、误差、不确定性与替代解释，决定补实验、改设计或回到选题 | `Analysis/` |
-| [light-crawl](light-crawl/SKILL.md) | 按需采集网站或应用数据，保留获取条件、失败记录和数据来源 | `Acquisition/` |
-| [light-journal-select](light-journal-select/SKILL.md) | 根据实际贡献与证据选刊，核对官方要求，形成建议和写作 brief | `Journal/` |
-| [light-write](light-write/SKILL.md) | 论文起草、重构、润色、翻译与一致性检查；默认 LaTeX＋编译检查后的 PDF | `Write/` |
-| [light-diagram](light-diagram/SKILL.md) | 方法图、机制图的图意、参考、提示词、生图和可编辑重建 | `Figure/Methods/`、`Figure/Mechanisms/` |
-| [light-chart](light-chart/skills/light-chart/SKILL.md) | 实际数据的 Python / R 科研图、多面板图和论文表格 | `Figure/Data/` |
-| [light-review](light-review/SKILL.md) | 投稿前内部评审、图文与证据检查，定位问题并追踪复核 | `Review/` |
-| [light-patent](light-patent/SKILL.md) | 从真实技术材料准备技术交底、权利要求、说明书、摘要与附图 | `Patent/` |
-| [light-software-copyright](light-software-copyright/SKILL.md) | 根据真实软件准备功能说明、软件代码、软件说明书三份 DOCX | `SoftwareCopyright/` |
-| [light-memory](light-memory/SKILL.md) | 保存有来源的决定、失败教训与约束，恢复上下文，提示来源变化和冲突 | `Memory/` |
-| [light-leader](light-leader/SKILL.md) | 联合记忆与实际材料，协调技能、研究回退、论文修订和中断恢复 | 按需使用 `Workflow/` |
+| [light-literature / literature-search](light-literature/SKILL.md) | Literature search, screening, full-text retrieval, close reading, translation, citation checking and evidence synthesis | `Literature/` |
+| [light-idea](light-idea/SKILL.md) | Proposes research questions from evidence; compares candidate ideas, competing explanations and minimal discriminating experiments | `Idea/` |
+| [light-design](light-design/SKILL.md) | Turns an idea into an executable, discriminating plan with controls, metrics, budget and an analysis plan | `Design/` |
+| [light-experiment](light-experiment/SKILL.md) | Runs computational experiments, simulations or benchmarks; keeps configs, environments, logs and raw results | `Experiment/` |
+| [light-analysis](light-analysis/SKILL.md) | Analyzes results, errors, uncertainty and alternative explanations; decides whether to run more experiments, revise the design or go back to the question | `Analysis/` |
+| [light-crawl](light-crawl/SKILL.md) | Collects website or app data on demand, keeping access conditions, failure records and data provenance | `Acquisition/` |
+| [light-journal-select](light-journal-select/SKILL.md) | Chooses journals from the actual contribution and evidence, checks official requirements, and writes a recommendation and a writing brief | `Journal/` |
+| [light-write](light-write/SKILL.md) | Drafting, restructuring, polishing, translation and consistency checks for papers; delivers LaTeX plus a compile-checked PDF by default | `Write/` |
+| [light-diagram](light-diagram/SKILL.md) | Method and mechanism figures: intent, references, prompts, image generation and editable reconstruction | `Figure/Methods/`, `Figure/Mechanisms/` |
+| [light-chart](light-chart/skills/light-chart/SKILL.md) | Python / R scientific charts, multi-panel figures and paper tables from real data | `Figure/Data/` |
+| [light-review](light-review/SKILL.md) | Internal pre-submission review: checks figures, text and evidence, locates problems and tracks re-checks | `Review/` |
+| [light-patent](light-patent/SKILL.md) | Prepares invention disclosures, claims, specifications, abstracts and drawings from real technical material | `Patent/` |
+| [light-software-copyright](light-software-copyright/SKILL.md) | Prepares the three DOCX files of a Chinese software copyright filing (feature description, source code, user manual) from real software | `SoftwareCopyright/` |
+| [light-memory](light-memory/SKILL.md) | Keeps sourced decisions, failure lessons and constraints; restores context and flags changed or conflicting sources | `Memory/` |
+| [light-leader](light-leader/SKILL.md) | Combines memory with the actual materials to coordinate skills, research backtracking, paper revisions and recovery after interruptions | `Workflow/` when needed |
 
-Diagram 的专门入口可独立使用，也可由总入口按需要调用：
+The Diagram entries can be used on their own or called by the main entry as needed:
 
-| 技能 | 交付 |
+| Skill | Delivers |
 | --- | --- |
-| [light-diagram-prompt](light-diagram/light-diagram-prompt/SKILL.md) | 科学 brief、结构蓝图、生图提示词与检查点 |
-| [light-illustrator-diagram](light-diagram/light-illustrator-diagram/SKILL.md) | Illustrator 原生 `.ai` 与实际导出 |
-| [light-powerpoint-diagram](light-diagram/light-powerpoint-diagram/SKILL.md) | 可编辑 `.pptx` 与实际导出 |
-| [light-visio-diagram](light-diagram/light-visio-diagram/SKILL.md) | Visio 原生 `.vsdx` 与实际导出 |
+| [light-diagram-prompt](light-diagram/light-diagram-prompt/SKILL.md) | Scientific brief, structural blueprint, image-generation prompts and checkpoints |
+| [light-illustrator-diagram](light-diagram/light-illustrator-diagram/SKILL.md) | Native Illustrator `.ai` plus real exports |
+| [light-powerpoint-diagram](light-diagram/light-powerpoint-diagram/SKILL.md) | Editable `.pptx` plus real exports |
+| [light-visio-diagram](light-diagram/light-visio-diagram/SKILL.md) | Native Visio `.vsdx` plus real exports |
 
-## 如何推进一个项目
+> `light-analysis` was named `light-anaysis` in v2.0.0 and earlier. If you installed the old name, reinstall it under the new one; old project records that mention `light-anaysis` refer to the same skill.
 
-![Light-Science 项目工作网络](docs/assets/workflow-v4.png)
+## How a project moves forward
 
-研究允许回退：分析可能暴露执行问题、设计不足或选题本身的缺口；评审也可能触发补分析、补实验和重新定位期刊。采集、专利与软著根据当前需要接入，涉及公开时间安排时可以提前准备。
+![Light-Science research network (illustration labels are in Chinese)](docs/assets/workflow-v4.png)
 
-**Leader 先恢复，再核对，再行动。** 它读取有关项目记忆与交接，返回论文、代码、运行结果和采用稿图检查实际状态，决定下一步交给哪个技能。需要多步协调时，才在 `Workflow/` 保留目标、依赖、进度、验收依据和恢复入口。
+Research is allowed to go backwards: analysis may expose problems in execution, a weak design or a gap in the research question itself, and review may call for more analysis, more experiments or a different target journal. Data acquisition, patents and software copyrights join when the project needs them, and can be prepared early when publication timing matters.
 
-**Memory 让研究能够接着做。** 为什么改方向、哪个方案失败过、哪些限制仍有效，都记录来源。来源变化或相互冲突时，提醒重新核实；具体科学事实仍以各阶段原件为准。研究或修稿产生的实际增量再回写记忆，下一轮从这里接上。
+**The leader restores, then verifies, then acts.** It reads the relevant project memory and handoffs, goes back to the papers, code, run results and adopted figures to check the actual state, and decides which skill takes the next step. Only when several steps need coordinating does it keep goals, dependencies, progress, acceptance criteria and a recovery entry in `Workflow/`.
+
+**Memory lets research pick up where it left off.** Why the direction changed, which plan failed and which constraints still hold are all recorded with their sources. When a source changes or sources conflict, it reminds you to re-verify; the scientific facts themselves stay in each stage's original files. Real progress from research or revisions is written back to memory, and the next round starts from there.
 
 <details>
-<summary>展开可编辑的 Mermaid 工作流</summary>
+<summary>Show the editable Mermaid workflow</summary>
 
 ```mermaid
 flowchart TB
-  Leader[light-leader · 恢复与协调] <--> Memory[light-memory · 有来源的项目记忆]
-  Leader -. 依据目标与实际状态调度 .-> Research
-  Leader -. 依据评审与交付需要调度 .-> Manuscript
-  subgraph Research[研究循环]
+  Leader[light-leader · restore and coordinate] <--> Memory[light-memory · sourced project memory]
+  Leader -. dispatch by goal and actual state .-> Research
+  Leader -. dispatch by review and delivery needs .-> Manuscript
+  subgraph Research[Research loop]
     direction LR
-    L[文献] --> I[想法] --> D[设计] --> E[实验] --> A[分析]
+    L[Literature] --> I[Idea] --> D[Design] --> E[Experiment] --> A[Analysis]
     A --> I
     A --> D
     A --> E
     I --> L
   end
-  C[按需采集] -. 资料与数据 .-> Research
-  A --> J[选刊]
-  subgraph Manuscript[论文制作与修订]
+  C[Acquisition on demand] -. sources and data .-> Research
+  A --> J[Journal selection]
+  subgraph Manuscript[Paper production and revision]
     direction LR
-    W[写作] <--> F[方法图 / 数据图]
-    W <--> R[评审]
+    W[Writing] <--> F[Method / data figures]
+    W <--> R[Review]
     F <--> R
   end
   J --> W
-  R -. 补证据 .-> Research
-  R -. 调整定位 .-> J
-  Research -. 按项目需要 .-> IP[专利 / 软件著作权]
+  R -. more evidence .-> Research
+  R -. reposition .-> J
+  Research -. as the project needs .-> IP[Patent / software copyright]
 ```
 
 </details>
 
-## 项目产出结构
+## Project layout
 
-**技能安装目录保存能力，研究项目目录保存成果。** 以下是一个项目可能用到的主要内容；从实际任务开始建立，有内容才产生对应文件和目录。已有项目结构优先，完整规则见 [科研项目目录规范](project-layout/references/project-layout.md)。
+**The skill install directory holds capabilities; the research project directory holds results.** Below are the main parts a project may use. Start from the actual task: files and folders appear only when there is content for them. An existing project structure takes priority. The full rules are in the [research project layout spec](project-layout/references/project-layout.md) (Chinese).
 
 ```text
-项目名称/
-├── README.md                          # 研究问题、阶段、结论与下一步
-├── project.json                       # 可选的跨阶段索引
+ProjectName/
+├── README.md                          # Research question, stage, conclusions and next step
+├── project.json                       # Optional cross-stage index
 ├── Memory/
 │   └── memory.json / events/ / current.md
 ├── Workflow/
-│   └── workflow.json                  # 按需保存目标、任务与恢复入口
+│   └── workflow.json                  # Goals, tasks and recovery entry, when needed
 ├── Literature/
 │   ├── manifest.json / Searches/
-│   └── 年份_作者_原题短名/
+│   └── Year_Author_ShortTitle/
 │       └── meta.json / paper.pdf / paper.md / paper.zh.md / note.md / images/
-├── Idea/IDEA-0001_选题主题/
+├── Idea/IDEA-0001_Topic/
 │   └── context.json / ideas.json / decision.md / cards/
-├── Design/PROT-0001_方案/v01/
+├── Design/PROT-0001_Plan/v01/
 │   └── design.json / plan.md / protocols/
 ├── Experiment/
-│   ├── Code/ / Environment/ / Data/    # 代码、环境或受控引用
-│   └── EXP-0001_执行批次/
+│   ├── Code/ / Environment/ / Data/    # Code, environment or controlled references
+│   └── EXP-0001_Batch/
 │       └── campaign.json / execution-report.md / runs/R001/
-├── Analysis/AN-0001_分析问题/
+├── Analysis/AN-0001_Question/
 │   └── analysis-plan.json / analysis-report.md / code/ / derived/
-├── Journal/JRN-0001_选刊轮次/
+├── Journal/JRN-0001_Round/
 │   └── selection-report.md / light-write-brief.md
-├── Write/PAPER-0001_工作标题/
+├── Write/PAPER-0001_WorkingTitle/
 │   └── outline.md / claim-evidence.md / sections/ / drafts/ / build/
 ├── Figure/
-│   ├── Methods/FIG-0001_方法图/        # 图意、提示词、参考、原生文件与导出
-│   ├── Mechanisms/FIG-0002_机制图/
-│   └── Data/FIG-0003_数据图/           # 数据映射、代码、图注与导出
-├── Review/REV-0001_稿件版本与轮次/
+│   ├── Methods/FIG-0001_MethodFigure/  # Intent, prompts, references, native files and exports
+│   ├── Mechanisms/FIG-0002_Mechanism/
+│   └── Data/FIG-0003_DataFigure/       # Data mapping, code, caption and exports
+├── Review/REV-0001_ManuscriptVersionRound/
 │   └── review.md / packet/
-├── Acquisition/ACQ-0001_采集目标/case/
-├── Patent/PAT-0001_技术方案/
+├── Acquisition/ACQ-0001_Target/case/
+├── Patent/PAT-0001_Invention/
 │   └── case.json / work/ / drafts/ / figures/
-└── SoftwareCopyright/SWC-0001_软件版本/
-    └── 正式资料/<版本>/
-        ├── <软件名>_功能说明.docx
-        ├── <软件名>_软件代码.docx
-        └── <软件名>_软件说明书.docx
+└── SoftwareCopyright/SWC-0001_SoftwareVersion/
+    └── 正式资料/<version>/              # Final filing materials (Chinese file names required by the filing)
+        ├── <software>_功能说明.docx     # Feature description
+        ├── <software>_软件代码.docx     # Source code
+        └── <software>_软件说明书.docx   # User manual
 ```
 
-想法、设计、运行、分析和稿图都可以保留多轮版本，共同服务于这一核心成果。
+Ideas, designs, runs, analyses and figures can all keep several rounds of versions, all serving the same core output.
 
-## 数据图展示
+## Data figures
 
-从科学问题和数据结构选图，保留实验单位、重复测量、缺失值和不确定性，再处理布局、颜色、注释与导出。支持 Python / R，以及多面板、组学、随访、信号、生态、空间场和图像板等任务。
+Choose the chart from the scientific question and the data structure; keep experimental units, repeated measurements, missing values and uncertainty; then handle layout, color, annotation and export. Python and R are both supported, including multi-panel figures, omics, follow-up, signals, ecology, spatial fields and image panels.
 
 <!-- chart-showcase:start -->
 <table>
   <tr>
-    <td width="33%"><a href="docs/assets/charts/03.png"><img src="docs/assets/charts/03.png" alt="实测脑电与固定时窗频段功率" width="100%"></a><br><strong>01 · 实测脑电信号</strong><br>原始时序与频段功率</td>
-    <td width="33%"><a href="docs/assets/charts/04.png"><img src="docs/assets/charts/04.png" alt="生态排序与群落覆盖度热图" width="100%"></a><br><strong>02 · 生态排序与热图</strong><br>群落组成与环境梯度</td>
-    <td width="33%"><a href="docs/assets/charts/05.png"><img src="docs/assets/charts/05.png" alt="真实三维体数据的等值面与正交切片" width="100%"></a><br><strong>03 · 三维场与切片</strong><br>体数据、空间标定与对应视图</td>
+    <td width="33%"><a href="docs/assets/charts/03.png"><img src="docs/assets/charts/03.png" alt="Measured EEG with fixed-window band power" width="100%"></a><br><strong>01 · Measured EEG</strong><br>Raw time series and band power</td>
+    <td width="33%"><a href="docs/assets/charts/04.png"><img src="docs/assets/charts/04.png" alt="Ecological ordination and community cover heatmap" width="100%"></a><br><strong>02 · Ordination and heatmap</strong><br>Community composition along an environmental gradient</td>
+    <td width="33%"><a href="docs/assets/charts/05.png"><img src="docs/assets/charts/05.png" alt="Isosurface and orthogonal slices of real 3D volume data" width="100%"></a><br><strong>03 · 3D field and slices</strong><br>Volume data, spatial calibration and matching views</td>
   </tr>
   <tr>
-    <td width="33%"><a href="docs/assets/charts/06.png"><img src="docs/assets/charts/06.png" alt="温度场、年度差异与时间序列" width="100%"></a><br><strong>04 · 温度场与时间序列</strong><br>真实坐标、年度对比与数据支持</td>
-    <td width="33%"><a href="docs/assets/charts/08.png"><img src="docs/assets/charts/08.png" alt="植物响应中的重复测量与个体轨迹" width="100%"></a><br><strong>05 · 植物响应与重复测量</strong><br>保留个体轨迹与配对关系</td>
-    <td width="33%"><a href="docs/assets/charts/09.png"><img src="docs/assets/charts/09.png" alt="生长轨迹、终点与随访支持" width="100%"></a><br><strong>06 · 生长轨迹与随访</strong><br>纵向变化与实际观测数量</td>
+    <td width="33%"><a href="docs/assets/charts/06.png"><img src="docs/assets/charts/06.png" alt="Temperature fields, annual difference and time series" width="100%"></a><br><strong>04 · Temperature field and time series</strong><br>Real coordinates, year-over-year comparison and data support</td>
+    <td width="33%"><a href="docs/assets/charts/08.png"><img src="docs/assets/charts/08.png" alt="Repeated measurements and individual trajectories in a plant response" width="100%"></a><br><strong>05 · Plant response, repeated measures</strong><br>Individual trajectories and pairing kept</td>
+    <td width="33%"><a href="docs/assets/charts/09.png"><img src="docs/assets/charts/09.png" alt="Growth trajectories, endpoints and follow-up support" width="100%"></a><br><strong>06 · Growth and follow-up</strong><br>Longitudinal change and the actual number of observations</td>
   </tr>
   <tr>
-    <td width="33%"><a href="docs/assets/charts/10.png"><img src="docs/assets/charts/10.png" alt="Iris 雨云图、四分位与完整原始点" width="100%"></a><br><strong>07 · 雨云图与原始点</strong><br>分布形态、四分位与个体观测</td>
-    <td width="33%"><a href="docs/assets/charts/11.png"><img src="docs/assets/charts/11.png" alt="方法对比与结构化热图" width="100%"></a><br><strong>08 · 方法对比与热图</strong><br>报告值、层级与注释的组织</td>
-    <td width="33%"><a href="docs/assets/charts/12.png"><img src="docs/assets/charts/12.png" alt="生存曲线、置信带与风险人数" width="100%"></a><br><strong>09 · 生存曲线与风险人数</strong><br>随访支持与不确定性</td>
+    <td width="33%"><a href="docs/assets/charts/10.png"><img src="docs/assets/charts/10.png" alt="Iris raincloud plot with quartiles and every raw point" width="100%"></a><br><strong>07 · Raincloud with raw points</strong><br>Distribution shape, quartiles and individual observations</td>
+    <td width="33%"><a href="docs/assets/charts/11.png"><img src="docs/assets/charts/11.png" alt="Method comparison and structured heatmap" width="100%"></a><br><strong>08 · Method comparison and heatmap</strong><br>Organizing reported values, hierarchy and annotation</td>
+    <td width="33%"><a href="docs/assets/charts/12.png"><img src="docs/assets/charts/12.png" alt="Survival curves with confidence bands and number at risk" width="100%"></a><br><strong>09 · Survival and number at risk</strong><br>Follow-up support and uncertainty</td>
   </tr>
 </table>
 
 <!-- chart-showcase:end -->
 
-## 方法图与机制图
+Data sources and terms for each figure are in the [showcase notes](docs/showcase/README.md) and [manifest](docs/showcase/manifest.json).
 
-先读项目材料，确定图要解释的科学问题、对象和关系；再按**图型与阅读路径优先、领域其次**，从图库、用户参考或相关论文中选择视觉参考。提炼布局、层级、配色和箭头语言，形成结构蓝图和高质量提示词，再实际生图并核对标签、关系与证据边界。
+## Method and mechanism diagrams
 
-需要继续编辑时，将选定参考拆成对象、文字、层级和关系，选择 **Illustrator、PowerPoint、Visio** 中的一条路线重建，目标是贴近参考的构图与科学关系。原生文件经过保存、重开和相应编辑行为检查，再导出预览。
+Read the project materials first to pin down the scientific question, objects and relationships the figure must explain. Then, **figure type and reading path first, domain second**, pick visual references from the library, from the user or from related papers. Extract layout, hierarchy, color and arrow language into a structural blueprint and a high-quality prompt, generate the image for real, and check labels, relationships and evidence boundaries.
 
-| 工具 | 更适合的编辑需求 | 交付 |
+When the figure needs further editing, break the chosen reference into objects, text, layers and relationships, and rebuild it along one of three routes: **Illustrator, PowerPoint or Visio**, aiming to match the reference's composition and scientific relationships. The native file is saved, reopened and checked with the matching editing behaviour before previews are exported.
+
+| Tool | Best for | Delivers |
 | --- | --- | --- |
-| Illustrator | 自由轮廓、精细矢量、复杂分组与视觉细节 | `.ai`，按需 SVG / PDF / PNG |
-| PowerPoint | 组会与论文协作、模块布局、方便作者继续改图 | `.pptx`，按需 PDF / PNG |
-| Visio | 系统框架、流程、连接关系及节点调整 | `.vsdx`，按需 SVG / PDF / PNG |
+| Illustrator | Free-form outlines, fine vectors, complex grouping and visual detail | `.ai`, plus SVG / PDF / PNG as needed |
+| PowerPoint | Group meetings and co-authoring, modular layouts, easy for authors to keep editing | `.pptx`, plus PDF / PNG as needed |
+| Visio | System frameworks, flows, connections and node adjustments | `.vsdx`, plus SVG / PDF / PNG as needed |
 
-### 生成参考与实际重建对照
+### Generated reference vs. native reconstruction
 
-以下是 **一些真实案例**。左侧是实际生成参考，右侧是对应工具的实际导出；点击图片查看原尺寸，原生文件可直接下载检查。
+These are **real cases**. The left column is the generated reference; the right column is the actual export from the matching tool. Click an image to view it at full size; the native files can be downloaded and inspected.
 
 <table>
-  <tr><th>工具与案例</th><th width="42%">生成参考</th><th width="42%">原生重建导出</th></tr>
+  <tr><th>Tool and case</th><th width="42%">Generated reference</th><th width="42%">Native reconstruction export</th></tr>
   <tr>
-    <td><strong>Illustrator</strong><br>锂硫电池机制<br><a href="docs/showcase/native/illustrator.ai">AI 文件</a></td>
-    <td><a href="docs/assets/methods/illustrator-reference.png"><img src="docs/assets/methods/illustrator-reference.png" alt="锂硫电池实际生成参考" width="100%"></a></td>
-    <td><a href="docs/assets/methods/illustrator-reconstruction.png"><img src="docs/assets/methods/illustrator-reconstruction.png" alt="Illustrator 原生文件的实际导出" width="100%"></a></td>
+    <td><strong>Illustrator</strong><br>Lithium–sulfur battery mechanism<br><a href="docs/showcase/native/illustrator.ai">AI file</a></td>
+    <td><a href="docs/assets/methods/illustrator-reference.png"><img src="docs/assets/methods/illustrator-reference.png" alt="Generated reference of a lithium–sulfur battery mechanism" width="100%"></a></td>
+    <td><a href="docs/assets/methods/illustrator-reconstruction.png"><img src="docs/assets/methods/illustrator-reconstruction.png" alt="Actual export of the native Illustrator file" width="100%"></a></td>
   </tr>
   <tr>
-    <td><strong>PowerPoint</strong><br>CRISPR–Cas9<br><a href="docs/showcase/native/powerpoint-crispr.pptx">PPTX 文件</a></td>
-    <td><a href="docs/assets/methods/powerpoint-crispr-reference.png"><img src="docs/assets/methods/powerpoint-crispr-reference.png" alt="CRISPR–Cas9 实际生成参考" width="100%"></a></td>
-    <td><a href="docs/assets/methods/powerpoint-crispr-reconstruction.png"><img src="docs/assets/methods/powerpoint-crispr-reconstruction.png" alt="PowerPoint 原生文件的实际导出" width="100%"></a></td>
+    <td><strong>PowerPoint</strong><br>CRISPR–Cas9<br><a href="docs/showcase/native/powerpoint-crispr.pptx">PPTX file</a></td>
+    <td><a href="docs/assets/methods/powerpoint-crispr-reference.png"><img src="docs/assets/methods/powerpoint-crispr-reference.png" alt="Generated reference of CRISPR–Cas9" width="100%"></a></td>
+    <td><a href="docs/assets/methods/powerpoint-crispr-reconstruction.png"><img src="docs/assets/methods/powerpoint-crispr-reconstruction.png" alt="Actual export of the native PowerPoint file" width="100%"></a></td>
   </tr>
   <tr>
-    <td><strong>Visio</strong><br>MonoFormer 架构<br><a href="docs/showcase/native/visio-monoformer.vsdx">VSDX 文件</a></td>
-    <td><a href="docs/assets/methods/visio-monoformer-reference.png"><img src="docs/assets/methods/visio-monoformer-reference.png" alt="MonoFormer 实际生成参考" width="100%"></a></td>
-    <td><a href="docs/assets/methods/visio-monoformer-reconstruction.png"><img src="docs/assets/methods/visio-monoformer-reconstruction.png" alt="Visio 原生文件按图复现页的实际导出" width="100%"></a></td>
+    <td><strong>Visio</strong><br>MonoFormer architecture<br><a href="docs/showcase/native/visio-monoformer.vsdx">VSDX file</a></td>
+    <td><a href="docs/assets/methods/visio-monoformer-reference.png"><img src="docs/assets/methods/visio-monoformer-reference.png" alt="Generated reference of the MonoFormer architecture" width="100%"></a></td>
+    <td><a href="docs/assets/methods/visio-monoformer-reconstruction.png"><img src="docs/assets/methods/visio-monoformer-reconstruction.png" alt="Actual export of the native Visio file, page reproducing the reference" width="100%"></a></td>
   </tr>
 </table>
 
-## 反馈与支持
+## Feedback and support
 
-欢迎反馈使用案例、问题、缺失的领域支持，以及可复现的改进建议。
+Use cases, problems, missing domain support and reproducible suggestions are all welcome.
 
-- [提交 Issue](https://github.com/Light0305/Light-Science/issues)：描述使用的技能、预期与实际结果，附最小可复现材料。
-- 邮箱：[1833058953@qq.com](mailto:1833058953@qq.com)
-- GitHub：[@Light0305](https://github.com/Light0305)
-- 相关项目：[Light-UI-UX](https://github.com/Light0305/Light-UI-UX) · [Light-WeChat](https://github.com/Light0305/Light-WeChat)
+- [Open an issue](https://github.com/Light0305/Light-Science/issues): describe the skill you used, what you expected and what happened, and attach minimal reproducible material.
+- Email: [1833058953@qq.com](mailto:1833058953@qq.com)
+- GitHub: [@Light0305](https://github.com/Light0305)
+- Related projects: [Light-UI-UX](https://github.com/Light0305/Light-UI-UX) · [Light-WeChat](https://github.com/Light0305/Light-WeChat)
 
 <table align="center">
-  <tr><th align="center">支持作者</th><th align="center">微信交流</th><th align="center">公众号</th></tr>
+  <tr><th align="center">Support the author</th><th align="center">WeChat</th><th align="center">Official account</th></tr>
   <tr>
-    <td align="center" width="33%"><img src="docs/assets/wechat-donation.jpg" alt="微信赞赏二维码" width="190"></td>
-    <td align="center" width="33%"><img src="docs/assets/wechat-contact.png" alt="作者微信联系二维码" width="190"></td>
-    <td align="center" width="33%"><img src="docs/assets/wechat-official-account.jpg" alt="公众号二维码" width="190"></td>
+    <td align="center" width="33%"><img src="docs/assets/wechat-donation.jpg" alt="WeChat tip QR code" width="190"></td>
+    <td align="center" width="33%"><img src="docs/assets/wechat-contact.png" alt="Author's WeChat contact QR code" width="190"></td>
+    <td align="center" width="33%"><img src="docs/assets/wechat-official-account.jpg" alt="WeChat official account QR code" width="190"></td>
   </tr>
 </table>
 
-## 许可证
+## License
 
-原创代码与文档沿用 [MIT License](LICENSE)。第三方代码、适配资源、论文图、示例数据和图库分别保留原许可，**整包资源不统一视为 MIT**。
+Original code and documentation are under the [MIT License](LICENSE). Third-party code, adapted resources, paper figures, example data and galleries keep their own licenses, so **the pack as a whole is not uniformly MIT**. See [third-party notices](THIRD_PARTY_NOTICES.md) (Chinese).

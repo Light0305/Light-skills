@@ -1,4 +1,0 @@
-interface:
-  display_name: "Light Anaysis · 实验结果分析"
-  short_description: "分析实验结果、效应与不确定性，用可追溯证据决定继续、改设计或回到选题"
-  default_prompt: "使用 $light-anaysis 分析已有实验结果，核对有效性与不确定性，并明确是否回到 light-experiment、light-design 或 light-idea。"

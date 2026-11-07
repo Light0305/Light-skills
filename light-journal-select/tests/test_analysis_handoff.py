@@ -13,7 +13,7 @@ import unittest
 from test_packet_v11 import MODULE, packet
 
 ROOT = Path(__file__).resolve().parents[1]
-ANALYSIS = Path(os.environ.get('LIGHT_ANALYSIS_ROOT', ROOT.parent / 'light-anaysis'))
+ANALYSIS = Path(os.environ.get('LIGHT_ANALYSIS_ROOT', ROOT.parent / 'light-analysis'))
 
 
 @unittest.skipUnless((ANALYSIS / 'scripts/analysis_bridge.py').is_file(), 'Adjacent Analysis source not available')

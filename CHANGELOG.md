@@ -1,5 +1,10 @@
 # 更新记录
 
+## 未发布 · 2026-11-07
+
+- `light-anaysis` 更正为 `light-analysis`：目录、技能 name、Agent 默认提示，以及 Leader、Memory、Experiment、Journal、Review、Write、Crawl 和项目目录规范中的路由、交接与测试路径同步更新。已按旧名安装的用户请按新名重新安装；旧项目记录中的 `light-anaysis` 指同一技能。历史评测记录与 v2.0.0 发布说明保留原文。
+- README 默认显示英文，中文版移至 `README.zh-CN.md`，两版顶部可互相切换。
+
 ## v2.0.0 · 2026-11-07
 
 - Light-skills 更名为 Light-Science，围绕一篇论文或一项软著组织科研项目，也可关联同源专利等成果。

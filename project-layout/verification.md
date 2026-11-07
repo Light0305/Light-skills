@@ -20,7 +20,7 @@
 | light-idea 既有回归 | 37 | 全部通过 |
 | light-design 既有回归 | 19 | 全部通过 |
 | light-experiment 既有回归 | 35 | 全部通过，含实际合成数值运行 |
-| light-anaysis 既有回归 | 35 | 全部通过；可选跨技能集成单独配置本地上游后通过 |
+| light-analysis 既有回归 | 35 | 全部通过；可选跨技能集成单独配置本地上游后通过 |
 
 合计 141 个不同测试：140 通过、1 跳过。另有 17 个入口/本地参考检查与同步一致性检查通过。Windows junction 的拒绝登记测试实际通过；它不代替被跳过的符号链接测试。
 
@@ -36,10 +36,10 @@ python -X utf8 project-layout/scripts/sync_layout.py --check
 python -X utf8 -m unittest discover -s light-idea/tests -v
 python -X utf8 -m unittest discover -s light-design/tests -v
 python -X utf8 -m unittest discover -s light-experiment/tests -v
-python -X utf8 -m unittest discover -s light-anaysis/tests -v
+python -X utf8 -m unittest discover -s light-analysis/tests -v
 $env:LIGHT_EXPERIMENT_ROOT = 'D:\Light-Skills\light-experiment'
 $env:LIGHT_DESIGN_ROOT = 'D:\Light-Skills\light-design'
-python -X utf8 -m unittest discover -s light-anaysis/tests -p test_pipeline_integration.py -v
+python -X utf8 -m unittest discover -s light-analysis/tests -p test_pipeline_integration.py -v
 ```
 
 从其他位置执行时替换为实际源码路径。此处设置的两个环境变量仅用于可选本地集成测试，不是运行技能或初始化研究项目的必需配置。

@@ -8,7 +8,7 @@
 | light-idea / Idea/IDEA-* | ideas.json 的候选与版本、decision、证据及来源指纹、当前内容的查新日志、有关历史/card | 为什么选择/暂停/合并/修订方向、竞争解释、被挑战前提和重启条件；恢复时查旧结论适用性，归档 IDEA 与科学 I01 区分 |
 | light-design / Design/PROT-*/v* | context、design、plan、protocols | 设计版本/执行范围、独立单位、主要比较与阈值理由、待确认资源；不把草稿/目录新版本写成可执行 |
 | light-experiment / Experiment/EXP-* | campaign、冻结输入、相关 runs/spec/result/assessment、execution-report、events | 实际运行身份与技术状态、有效阴性/失败区别、成本边界、故障教训；不混淆重试与独立样本 |
-| light-anaysis / Analysis/AN-* | analysis-plan/plan-lock、analysis、report、receipt、handoff、相关原始值 | finding 的范围/不确定性、上游有效性、竞争解释和回路原因；代码错误修正后旧结论及依赖待复核 |
+| light-analysis / Analysis/AN-* | analysis-plan/plan-lock、analysis、report、receipt、handoff、相关原始值 | finding 的范围/不确定性、上游有效性、竞争解释和回路原因；代码错误修正后旧结论及依赖待复核 |
 | light-crawl / Acquisition/ACQ-*/case | scope、target、evidence、reports、实际数据清单 | 数据版本/覆盖、字段/采集限制、失败/缺失、可复现入口；采集成功不等于无偏数据 |
 | light-journal-select / Journal/JRN-* | report、light-write-brief、selection-packet、来源日期 | 暂定还是作者决定、目标读者/类型、硬条件未决和重核时点；时效信息设 review_after |
 | light-write / Write/PAPER-* | 当前主稿与源文件、主张证据/术语账本、brief、drafts/submissions | 当前被采用的稿件版本、核心论证、主动缩小的主张、未决证据；一篇稿的修订不建成多篇论文 |

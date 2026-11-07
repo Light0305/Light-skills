@@ -42,7 +42,7 @@ class WorkflowTest(unittest.TestCase):
         return {"path": relative, "locator": "Synthetic test file, complete content"}
 
     def task(self, key="T0001", **kwargs):
-        value = {"action": "add", "id": key, "skill": "light-anaysis", "title": "Synthetic report",
+        value = {"action": "add", "id": key, "skill": "light-analysis", "title": "Synthetic report",
                  "question": "Can the actual fixture be handed off?", "workspace": "Analysis/AN-test",
                  "inputs": [self.source()], "depends_on": [], "expected_outputs": [f"outputs/{key}.md"],
                  "acceptance": "Read the synthetic report and confirm the stated scope",

@@ -6,7 +6,7 @@
 
 1. 定位真实项目 README 与当前任务；已有 Memory 时先读 current.md，按目标刊、分析 ID、预算、拒稿理由等查相关条目；有 Workflow 时查看有关交接及未完成项。记忆用于恢复理由、失败教训和范围，不能替代当前源文件和在线期刊核验。
 2. 直接研究结果、已有摘要/全文和转投都可进入；不要为选刊强制补齐此前所有阶段。读取本次实际采用材料，记录版本、已读范围、缺失图表和计划工作。
-3. 采用原生 light-anaysis 工作区时，从实际安装位置运行 `scripts/analysis_bridge.py verify --workspace <AN-workspace>`；读取 analysis.json、analysis-report.md 和已有 handoff.json 的 sources、trigger_findings、decision、warnings。仅有 complete 或 handoff 文件并不证明交接仍有效。
+3. 采用原生 light-analysis 工作区时，从实际安装位置运行 `scripts/analysis_bridge.py verify --workspace <AN-workspace>`；读取 analysis.json、analysis-report.md 和已有 handoff.json 的 sources、trigger_findings、decision、warnings。仅有 complete 或 handoff 文件并不证明交接仍有效。
 4. 原生 verify 不通过时先解决具体输入/导出失效，或仅做明确待核的选刊探索；来源不可访问等警告保留，不解释成当前证据已复查。研究更正按 Analysis 新轮次处理，不能回写其旧完成报告来适配选刊。外部数据/作者结果没有原生目录时，按真实材料读取并说明核验边界，不伪造 AN 身份或无端要求安装。
 5. 本地1.1证据包把采用的稿件、分析 handoff 及实际采用的 analysis/计划/报告/派生登记等文件列入 research.inputs；引用其科学身份和哈希。不是只散列 handoff 再忽略已变的报告。原生 verify 继续负责它自己的依赖链，Journal 哈希只检查所列文件，不能替代它。
 
@@ -15,7 +15,7 @@
 | 本轮发现 | 合理交接 | 必须保留 |
 |---|---|---|
 | 证据足够、贡献和读者已稳定 | light-write；数值图按需 light-chart、科学示意按需 light-diagram | 有限主张、所用分析/图/稿件版本，目标状态、官方要求与未决项 |
-| 结果/不确定性/比较解释不清 | light-anaysis | 具体 finding/数值/分母问题及期刊观察，不为选刊追显著性 |
+| 结果/不确定性/比较解释不清 | light-analysis | 具体 finding/数值/分母问题及期刊观察，不为选刊追显著性 |
 | 实现或执行记录有问题 | light-experiment | 问题证据、关联运行，不把修复任务写成已完成结果 |
 | 有效验证不足、数据泄漏或估计对象错位 | light-design | 原设计/分析版本、缺口与对主张的影响，不自动跑新实验 |
 | 核心贡献或新颖性前提已变 | light-idea，按需补 literature | 被挑战的原判断及新来源，不继续沿用旧新颖性结论 |

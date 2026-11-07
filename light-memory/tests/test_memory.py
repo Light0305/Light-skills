@@ -321,7 +321,7 @@ class MemoryTests(unittest.TestCase):
         review = self.project / "Review/REV-0001_草稿/packet"
         commands = [
             [str(pack / "light-design/scripts/design_bridge.py"), "ingest", "--ideas", str(idea), "--idea-id", "I01", "--out", str(design)],
-            [str(pack / "light-anaysis/scripts/analysis_bridge.py"), "ingest", "--input", str(raw), "--out", str(analysis)],
+            [str(pack / "light-analysis/scripts/analysis_bridge.py"), "ingest", "--input", str(raw), "--out", str(analysis)],
             [str(pack / "light-review/scripts/review_packet.py"), "freeze", "--out", str(review), "--file", "context=" + str(design / "plan.md")],
         ]
         for command in commands:

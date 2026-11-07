@@ -13,7 +13,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-ANALYSIS = Path(os.environ.get('LIGHT_ANALYSIS_ROOT', ROOT.parent / 'light-anaysis'))
+ANALYSIS = Path(os.environ.get('LIGHT_ANALYSIS_ROOT', ROOT.parent / 'light-analysis'))
 JOURNAL = Path(os.environ.get('LIGHT_JOURNAL_ROOT', ROOT.parent / 'light-journal-select'))
 
 

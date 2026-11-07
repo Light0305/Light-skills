@@ -34,7 +34,7 @@ def integration(root, design_root=None):
     spec = importlib.util.spec_from_file_location("upstream_numerics", root / "tests/test_pipeline_integration.py")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    with tempfile.TemporaryDirectory(prefix="light-anaysis-pipeline-") as directory:
+    with tempfile.TemporaryDirectory(prefix="light-analysis-pipeline-") as directory:
         base = Path(directory)
         upstream = module.numerical_validation(base / "native", design_root)
         execution = Path(upstream["execution_directory"])

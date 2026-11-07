@@ -208,4 +208,4 @@ flowchart LR
 
 `assets/layout.json` 是 kind→阶段/前缀/版本规则的机器表。`scripts/project.py` 提供初始化、添加空任务、登记旧目录、设计修订、更新归档状态、刷新导航和检查。写操作有独占锁，manifest 使用原子替换；导航只重建受管区。多文件更新中断后以有效 manifest 为准，修复原因后 refresh；不会回滚或重写专业记录。
 
-专业 skill 的本地 `references/project-layout.md` 由 `scripts/sync_layout.py` 从公共规则及本阶段补充生成，安装单个 skill 仍可独立理解布局。修改完整规范时同时更新 `assets/common-contract.md` 中的公共摘要或 `assets/skill-layouts.json` 中的阶段细则，再同步并用 `--check` 检查分发副本。`assets/layout.json` 维护实际可登记阶段，Memory 和 Workflow 作为固定入口登记，原生总览分别交由 light-memory / light-leader 维护。`light-chart` 实际入口位于 `light-chart/skills/light-chart`；`light-anaysis` 是当前历史拼写，保持其安装名，不借此整理改名。light-memory 与 light-leader 均有独立契约及可选本地工具，专业单阶段任务不依赖它们。
+专业 skill 的本地 `references/project-layout.md` 由 `scripts/sync_layout.py` 从公共规则及本阶段补充生成，安装单个 skill 仍可独立理解布局。修改完整规范时同时更新 `assets/common-contract.md` 中的公共摘要或 `assets/skill-layouts.json` 中的阶段细则，再同步并用 `--check` 检查分发副本。`assets/layout.json` 维护实际可登记阶段，Memory 和 Workflow 作为固定入口登记，原生总览分别交由 light-memory / light-leader 维护。`light-chart` 实际入口位于 `light-chart/skills/light-chart`；`light-analysis` 在 v2.0.0 及更早版本中名为 `light-anaysis`，旧记录中的旧名指同一技能。light-memory 与 light-leader 均有独立契约及可选本地工具，专业单阶段任务不依赖它们。

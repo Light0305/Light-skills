@@ -1,6 +1,6 @@
 # Light-Science 协作约定
 
-本仓库是公开科研技能包。v2 的技能源码位于根目录的 `light-*`：Chart 的正式入口是 `light-chart/skills/light-chart/`，Diagram 总入口包含四个子技能；`project-layout/` 提供项目目录约定。技能表以 README 为准。
+本仓库是公开科研技能包。v2 的技能源码位于根目录的 `light-*`：Chart 的正式入口是 `light-chart/skills/light-chart/`，Diagram 总入口包含四个子技能；`project-layout/` 提供项目目录约定。技能表以 README 为准，英文 `README.md` 与中文 `README.zh-CN.md` 同步维护。
 
 - 保留用户对 README、技能和研究材料的修改；先读取有关文件再编辑。
 - 不提交密钥、Cookie、本机配置、私人记忆、未公开研究、完整论文库、依赖环境与缓存。

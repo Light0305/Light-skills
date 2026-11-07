@@ -1,5 +1,5 @@
 ---
-name: light-anaysis
+name: light-analysis
 description: Analyze existing research experiment results, especially after light-experiment. Use for 实验结果分析、方法比较、误差与不确定性、阴性结果、消融与机制解释、稳健性分析 and deciding whether to return to execution, light-design or light-idea. Produce traceable findings and a bounded next research step. Designing a study from scratch, running new scientific experiments and manuscript-only polishing belong elsewhere.
 metadata:
   version: "0.2.0"
@@ -7,7 +7,7 @@ metadata:
   reviewed: "2026-11-06"
 ---
 
-# Light Anaysis
+# Light Analysis
 
 ## 项目目录与续作
 
@@ -15,7 +15,7 @@ metadata:
 
 持续项目先从已有 Memory/current.md 恢复问题、已采用规格、前轮否定的解释与待办，再核对 Analysis 和实际实验来源；旧摘要不充当重新核验。有关 Workflow 任务只在现有授权范围内续作。一个项目以一篇核心论文或一项软著及关联成果为单位，分析不是自动拆出多篇论文的入口。
 
-把实际实验产物变成**有边界的研究结论，以及有证据、有停止条件的下一步**。保留用户指定的拼写 `light-anaysis`。默认中文，覆盖 ML、算法与系统、数值计算、仿真和一般定量研究；理论与定性材料按对应证据方式解释，不强套统计检验。
+把实际实验产物变成**有边界的研究结论，以及有证据、有停止条件的下一步**。本技能在 v2.0.0 及更早版本中名为 `light-anaysis`，现更正为 `light-analysis`；旧项目记录里的旧名指同一技能。默认中文，覆盖 ML、算法与系统、数值计算、仿真和一般定量研究；理论与定性材料按对应证据方式解释，不强套统计检验。
 
 宿主负责真正读取、编写并运行分析代码、解释证据和研究取舍；辅助脚本只冻结输入、记录关系、检查一致性，或计算明确适用的一种配对效应。导入成功、进程成功和统计显著都不等于科学主张成立。方法资料库不是用户课题本身的实验证据。
 

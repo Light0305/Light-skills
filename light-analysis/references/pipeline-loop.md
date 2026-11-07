@@ -2,7 +2,7 @@
 
 ## 定位真实研究材料
 
-能力链是 `light-literature → light-idea → light-design → light-experiment → light-anaysis`，并允许从分析返回任何真正需要修订的层次。它不是必须安装全部技能的依赖链。
+能力链是 `light-literature → light-idea → light-design → light-experiment → light-analysis`，并允许从分析返回任何真正需要修订的层次。它不是必须安装全部技能的依赖链。
 
 相关源码从当前安装位置定位；研究产物从真实项目的 Experiment、Design、Idea 或明确指定的旧目录读取。不能分析源码目录里的测试/示例并称作用户结果。
 

@@ -41,7 +41,7 @@ class IntegrationTests(unittest.TestCase):
 
     def test_native_analysis_and_memory_share_actual_source_drift(self):
         target = self.root / "Analysis/AN-test"
-        self.cli("light-anaysis/scripts/analysis_bridge.py", "ingest", "--input", self.root / "inputs/source.csv", "--out", target)
+        self.cli("light-analysis/scripts/analysis_bridge.py", "ingest", "--input", self.root / "inputs/source.csv", "--out", target)
         native = json.loads((target / "analysis.json").read_text(encoding="utf-8"))
         self.assertEqual(native["status"], "draft")
         self.fixture.apply(self.fixture.task(expected_outputs=["Analysis/AN-test/analysis.json"],

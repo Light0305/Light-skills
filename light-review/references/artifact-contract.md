@@ -65,7 +65,7 @@ issue 必需字段：id、severity、category、basis、evidence_status、confid
 - evidence 至少一处。reporting_gap 的证据指向实际查过的相关段落/范围；unresolved 定位疑点，不是凭空猜测。
 - verified/dismissed 必须有新核验的 resolution_evidence；dismissed 另有非空 `dismissal_reason`。
 - 新版 1.1 的关闭问题还需 `closure_check`：本轮 `packet_id`、`method`（rechecked / unchanged_evidence）和非空 notes，描述关闭检验实际结果。旧版 1.0 没有该字段，不回填虚构历史核验。
-- owner 支持 light-write / light-chart / light-diagram / light-anaysis / light-design / light-experiment / light-journal-select / author / specialist；旧 figure-workflow 兼容。详见 [实际交接](handoff-and-recheck.md)。
+- owner 支持 light-write / light-chart / light-diagram / light-analysis / light-design / light-experiment / light-journal-select / author / specialist；旧 figure-workflow 兼容。详见 [实际交接](handoff-and-recheck.md)。
 
 以下是**合成示例**，展示 issues 数组内一条记录的形状，不是已检查任何真实论文的声明。使用时替换为本轮真实材料指针和事实；不要把示例粘贴进真实报告充当发现。
 

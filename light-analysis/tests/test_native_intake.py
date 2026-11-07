@@ -29,7 +29,7 @@ def native_fixture(root, status="succeeded", run_id="R001", result=True):
 
 class NativeIntakeTests(unittest.TestCase):
     def setUp(self):
-        temp = tempfile.TemporaryDirectory(prefix="light-anaysis-native-")
+        temp = tempfile.TemporaryDirectory(prefix="light-analysis-native-")
         self.addCleanup(temp.cleanup)
         self.base = Path(temp.name)
         self.execution, self.work = self.base / "execution", self.base / "analysis"

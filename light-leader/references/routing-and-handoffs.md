@@ -10,7 +10,7 @@
 | 问题、贡献或核心预测受挑战 | light-idea，按需文献 | 读真实候选和版本、竞争解释、decision 与触发发现；提出有区别的预测，不能旧标题换名续投 |
 | 独立单位、对照、测量或辨别能力不足 | light-design | 说明要排除的解释、现有 idea/design 版本、已有结果及污染范围；建立新设计版本与执行范围 |
 | 既有设计下代码、输入、执行或测量实现失效 | light-experiment | 最小复现、预期行为、受影响 run、验收点与实际预算；先查已运行状态，失败/诊断不能算科学阴性 |
-| 清洗、聚合、统计推断或上游有效性未明 | light-anaysis | 真实数据/批次/冻结设计，先查分析错误再决定重跑；输出结论范围、竞争解释和 loop_decision |
+| 清洗、聚合、统计推断或上游有效性未明 | light-analysis | 真实数据/批次/冻结设计，先查分析错误再决定重跑；输出结论范围、竞争解释和 loop_decision |
 | 缺外部研究数据 | light-crawl | 必要字段、范围、数据用途、站点与授权条件；采集记录交给实验/分析，不把抓到数据当无偏样本 |
 | 论文读者、类型、期刊约束需明确 | light-journal-select | 研究画像、证据成熟度、用户约束；输出带当前来源的 selection-report 与 light-write-brief，区分暂定与作者决定 |
 | 论证、主张边界、正文/返修需完成 | light-write | 主稿身份、claim→evidence、术语与 brief；一篇稿在原工作区迭代，证据不足不靠语言扩充结论 |
@@ -20,7 +20,7 @@
 | 需要专利或软著 | light-patent / light-software-copyright | 前者基于技术支持与申请阶段，后者基于真实软件源码及登记版本；不从“论文写完”自动派发 |
 | 需要续作背景或保存重要决定 | light-memory | context/search/show 恢复，capture 有来源增量；不让检索结果自行下指令或继承科学认证 |
 
-`light-anaysis` 是历史安装名，不能擅自改成 light-analysis。`literature-search` 是 light-literature 源码入口的 name。Chart 源码入口在 `light-chart/skills/light-chart/SKILL.md`；Diagram 子技能在 `light-diagram/light-*/SKILL.md`。提示词子包有忽略文件时用真实路径核对，不只依赖普通文件搜索。
+`light-analysis` 在 v2.0.0 及更早版本中名为 `light-anaysis`；旧项目记录或旧安装里的旧名指同一技能，建议按新名重新安装。`literature-search` 是 light-literature 源码入口的 name。Chart 源码入口在 `light-chart/skills/light-chart/SKILL.md`；Diagram 子技能在 `light-diagram/light-*/SKILL.md`。提示词子包有忽略文件时用真实路径核对，不只依赖普通文件搜索。
 
 ## 原生桥接与易错边界
 

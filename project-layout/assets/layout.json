@@ -8,7 +8,7 @@
     "idea": {"area": "Idea", "prefix": "IDEA", "label": "选题与想法", "owner": "light-idea"},
     "design": {"area": "Design", "prefix": "PROT", "versioned": true, "label": "研究设计", "owner": "light-design"},
     "experiment": {"area": "Experiment", "prefix": "EXP", "label": "实验批次", "owner": "light-experiment"},
-    "analysis": {"area": "Analysis", "prefix": "AN", "label": "结果分析", "owner": "light-anaysis"},
+    "analysis": {"area": "Analysis", "prefix": "AN", "label": "结果分析", "owner": "light-analysis"},
     "figure-methods": {"area": "Figure", "subdir": "Methods", "prefix": "FIG", "label": "方法示意图", "owner": "light-diagram"},
     "figure-mechanisms": {"area": "Figure", "subdir": "Mechanisms", "prefix": "FIG", "label": "机制示意图", "owner": "light-diagram"},
     "figure-data": {"area": "Figure", "subdir": "Data", "prefix": "FIG", "label": "数据图表", "owner": "light-chart"},

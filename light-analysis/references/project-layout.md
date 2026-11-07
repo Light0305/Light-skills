@@ -38,4 +38,4 @@
 
 默认工作区：`Analysis/AN-0001_分析问题/`
 
-从实际 Experiment/EXP 工作区和冻结设计接入，也允许外部已有数据。保留 context.json、receipt.json、inputs、analysis-plan.json、plan-lock.json、analysis.json、analysis-report.md、code、derived、figures 及实际需要的 handoff.json。原生接入按所列文件复核封存/QC 与原始证据关联，不冒称全运行验收。输入、分析规格或实质结论更正时新建 AN，保留 parent_analysis_id、旧报告/导出和受影响图稿清单；新交接绑定计划、报告及派生登记版本。分析按原因返回 idea/design/experiment，证据足够时通常交给选刊定位、写作或绘图；实质交接由宿主将已核对增量记入 Memory 并更新有关 Workflow，不由目录管理自动触发。light-anaysis 为既有安装名，保持历史拼写。
+从实际 Experiment/EXP 工作区和冻结设计接入，也允许外部已有数据。保留 context.json、receipt.json、inputs、analysis-plan.json、plan-lock.json、analysis.json、analysis-report.md、code、derived、figures 及实际需要的 handoff.json。原生接入按所列文件复核封存/QC 与原始证据关联，不冒称全运行验收。输入、分析规格或实质结论更正时新建 AN，保留 parent_analysis_id、旧报告/导出和受影响图稿清单；新交接绑定计划、报告及派生登记版本。分析按原因返回 idea/design/experiment，证据足够时通常交给选刊定位、写作或绘图；实质交接由宿主将已核对增量记入 Memory 并更新有关 Workflow，不由目录管理自动触发。light-analysis 为既有安装名，保持历史拼写。

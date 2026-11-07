@@ -6,7 +6,7 @@
     {
       "action": "add",
       "id": "T0001",
-      "skill": "light-anaysis",
+      "skill": "light-analysis",
       "title": "核对评价实现及数据范围",
       "question": "当前比较是否受缺失值处理或评价实现影响？",
       "workspace": "Analysis/AN-0001_评价核对",

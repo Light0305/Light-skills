@@ -33,12 +33,12 @@
     "detail": "一个工作区绑定一版设计、一次 campaign 和明确预算；保留 campaign.json、upstream.json、inputs/design、events、execution-report.md、runs/<run_id>。原生 runs 小写且留在批次内，不能搬到项目顶层 Exploratory/Confirmatory；按 spec.kind 与设计标识执行类型。重试用新 run_id/parent_run_id，换设计新批次。started.dependencies 保留采用的前置评估/结果指纹；更正追加 assessment 并复核直接/间接依赖，运行缺失不能恢复预算。共享代码/环境/数据可放 Experiment/Code、Environment、Data 或既有仓库/外部存储，用版本和清单引用。交给分析前核查执行完整性，所需原始文件显式传入；恢复与回传 Memory/Workflow 时核对三层状态，不从归档 complete 推定科学成功。"
   },
   {
-    "skill": "light-anaysis",
+    "skill": "light-analysis",
     "kinds": [
       "analysis"
     ],
     "workspace": "Analysis/AN-0001_分析问题/",
-    "detail": "从实际 Experiment/EXP 工作区和冻结设计接入，也允许外部已有数据。保留 context.json、receipt.json、inputs、analysis-plan.json、plan-lock.json、analysis.json、analysis-report.md、code、derived、figures 及实际需要的 handoff.json。原生接入按所列文件复核封存/QC 与原始证据关联，不冒称全运行验收。输入、分析规格或实质结论更正时新建 AN，保留 parent_analysis_id、旧报告/导出和受影响图稿清单；新交接绑定计划、报告及派生登记版本。分析按原因返回 idea/design/experiment，证据足够时通常交给选刊定位、写作或绘图；实质交接由宿主将已核对增量记入 Memory 并更新有关 Workflow，不由目录管理自动触发。light-anaysis 为既有安装名，保持历史拼写。"
+    "detail": "从实际 Experiment/EXP 工作区和冻结设计接入，也允许外部已有数据。保留 context.json、receipt.json、inputs、analysis-plan.json、plan-lock.json、analysis.json、analysis-report.md、code、derived、figures 及实际需要的 handoff.json。原生接入按所列文件复核封存/QC 与原始证据关联，不冒称全运行验收。输入、分析规格或实质结论更正时新建 AN，保留 parent_analysis_id、旧报告/导出和受影响图稿清单；新交接绑定计划、报告及派生登记版本。分析按原因返回 idea/design/experiment，证据足够时通常交给选刊定位、写作或绘图；实质交接由宿主将已核对增量记入 Memory 并更新有关 Workflow，不由目录管理自动触发。light-analysis 为既有安装名，保持历史拼写。"
   },
   {
     "skill": "light-journal-select",

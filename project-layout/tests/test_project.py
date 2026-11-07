@@ -219,7 +219,7 @@ class ProjectTests(unittest.TestCase):
         analysis = self.add("analysis")
         raw = self.root / "fixture.csv"
         raw.write_text("unit,value\n1,2\n", encoding="utf-8")
-        self.native("light-anaysis", "analysis_bridge.py", "ingest", "--input", raw, "--out", analysis["workspace"])
+        self.native("light-analysis", "analysis_bridge.py", "ingest", "--input", raw, "--out", analysis["workspace"])
         self.assertTrue((Path(analysis["workspace"]) / "analysis.json").is_file())
         crawl = self.add("acquisition")
         result = subprocess.run([sys.executable, "-X", "utf8", str(PACK / "light-crawl/run_light_crawl.py"),

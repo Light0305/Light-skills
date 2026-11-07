@@ -47,7 +47,7 @@ def complete_analysis(root, input_id="S0001"):
 
 class BridgeTests(unittest.TestCase):
     def setUp(self):
-        temp = tempfile.TemporaryDirectory(prefix="light-anaysis-test-")
+        temp = tempfile.TemporaryDirectory(prefix="light-analysis-test-")
         self.addCleanup(temp.cleanup)
         self.base = Path(temp.name)
         self.raw = self.base / "原始 data.csv"
@@ -234,7 +234,7 @@ class BridgeTests(unittest.TestCase):
 
 class PairedTests(unittest.TestCase):
     def setUp(self):
-        temp = tempfile.TemporaryDirectory(prefix="light-anaysis-pairs-")
+        temp = tempfile.TemporaryDirectory(prefix="light-analysis-pairs-")
         self.addCleanup(temp.cleanup)
         self.base = Path(temp.name)
         self.csv = self.base / "pairs.csv"

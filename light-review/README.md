@@ -2,7 +2,7 @@
 
 接在 `light-write` 和作图之后的**投稿前内部评审技能**。检查完成稿、最终图表和补充材料，把重要问题变成能定位、能修复、能复核关闭的任务。
 
-入口是 [SKILL.md](SKILL.md)。原有 `light-anaysis` 继续负责实验结果分析，本包不会覆盖它，也不修改 `light-write`。
+入口是 [SKILL.md](SKILL.md)。原有 `light-analysis` 继续负责实验结果分析，本包不会覆盖它，也不修改 `light-write`。
 
 ## 如何使用
 

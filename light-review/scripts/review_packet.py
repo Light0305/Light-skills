@@ -16,7 +16,7 @@ CORE_ROLES = {"manuscript", "figure", "supplement", "render"}
 CHECKS = {"claims", "methods", "statistics", "figures", "numerical", "literature", "reproducibility", "ethics", "venue"}
 CATEGORIES = {"claim", "methods", "statistics", "figure", "numerical", "novelty", "citation", "reproducibility", "ethics", "submission", "presentation"}
 CLOSED = {"verified", "dismissed"}
-OWNERS = {"light-write", "light-chart", "light-diagram", "light-anaysis", "light-design", "light-experiment", "light-journal-select", "figure-workflow", "author", "specialist"}
+OWNERS = {"light-write", "light-chart", "light-diagram", "light-analysis", "light-design", "light-experiment", "light-journal-select", "figure-workflow", "author", "specialist"}
 REASSESS_FIELDS = ("severity", "category", "basis", "blocking", "required", "observation", "impact", "closure_test")
 
 

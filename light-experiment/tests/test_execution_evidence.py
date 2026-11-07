@@ -208,7 +208,7 @@ class ExecutionEvidenceTests(unittest.TestCase):
         tool.assess(self.workspace, "R001", self.case.assessment(outcome="falsify"))
         self.assertTrue(tool.verify(self.workspace)["ok"])
         out = self.case.base / "analysis"
-        bridge = fixtures.ROOT.parent / "light-anaysis/scripts/analysis_bridge.py"
+        bridge = fixtures.ROOT.parent / "light-analysis/scripts/analysis_bridge.py"
         raw = self.folder / "outputs/raw.json"
         before = raw.read_bytes()
         result = subprocess.run([sys.executable, "-X", "utf8", "-B", str(bridge), "ingest",

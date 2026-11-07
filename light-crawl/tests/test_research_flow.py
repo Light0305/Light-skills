@@ -13,7 +13,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ANALYSIS = ROOT.parent / 'light-anaysis/scripts/analysis_bridge.py'
+ANALYSIS = ROOT.parent / 'light-analysis/scripts/analysis_bridge.py'
 sys.path.insert(0, str(ROOT / 'src'))
 from light_crawl.cli import main
 from light_crawl.dataset import check_dataset

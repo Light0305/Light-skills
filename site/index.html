@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light-Science · 面向 AI Agent 的科研 skills 包</title>
+<meta name="description" content="Light-Science 是面向 AI Agent 的开源科研 skills 包：19 个技能把文献、选题、设计、实验、分析、选刊、写作、绘图和评审连成一个可以持续推进的项目。">
+<meta name="theme-color" content="#F6F1E7">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Light-Science · 研究，接着做。">
+<meta property="og:description" content="把研究问题、证据、实验和论文，连成一个可以持续推进的项目。">
+<meta property="og:url" content="https://lightchuan.xyz/">
+<meta property="og:image" content="https://lightchuan.xyz/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://lightchuan.xyz/">
+<link rel="alternate" hreflang="zh-CN" href="https://lightchuan.xyz/">
+<link rel="alternate" hreflang="en" href="https://lightchuan.xyz/en/">
+<link rel="alternate" hreflang="x-default" href="https://lightchuan.xyz/">
+<link rel="icon" type="image/png" href="assets/img/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;900&amp;display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__ls)document.documentElement.classList.remove('js')},4000);</script>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="nav" id="top">
+  <div class="nav__inner wrap">
+    <a class="brand" href="#top" aria-label="Light-Science 首页">
+      <img src="assets/img/mark-72.png" alt="" width="30" height="28">
+      <span class="brand__name">Light-Science</span>
+      <span class="brand__ver">v2.0</span>
+    </a>
+    <nav class="nav__links" id="nav-links" aria-label="页面导航">
+      <a href="#how">工作方式</a>
+      <a href="#loop">研究循环</a>
+      <a href="#skills">技能</a>
+      <a href="#charts">数据图</a>
+      <a href="#methods">方法图</a>
+      <a href="#support">反馈</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="lang" href="en/" hreflang="en" lang="en" aria-label="English version">EN</a>
+      <a class="gh" href="https://github.com/Light0305/Light-Science" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span>GitHub</span>
+        <span class="gh__stars" data-stars hidden></span>
+      </a>
+      <a class="btn btn--ink btn--sm" href="#install">安装</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="打开导航">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ 首屏 ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__wrap">
+    <svg class="hero__band" data-hero-band aria-hidden="true"></svg>
+    <p class="pill"><span class="pill__dot"></span>开源 · 面向 AI Agent 的科研 skills 包</p>
+    <h1 class="hero__title" id="hero-title"><span class="line">研究，</span><span class="line">接着做<span class="hero__stop">。</span></span></h1>
+    <div class="hero__row">
+      <p class="hero__lead">把研究问题、证据、实验和论文，连成一个可以持续推进的项目。文献、选题、设计、实验、分析、选刊、写作、绘图和评审写进同一个项目目录；Memory 记住每个决定的来源，Leader 决定下一步。</p>
+      <div class="hero__cta">
+        <button class="btn btn--ink" type="button" data-copy="#cmd-agent" data-copy-label="复制安装指令">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="6.5" y="6.5" width="10" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 6.5V5a1.5 1.5 0 0 0-1.5-1.5H5A1.5 1.5 0 0 0 3.5 5v7A1.5 1.5 0 0 0 5 13.5h1.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <span data-copy-text>复制安装指令</span>
+        </button>
+        <a class="btn btn--line" href="#how">看它怎样接着做 <span aria-hidden="true">↓</span></a>
+        <p class="hero__meta"><span>19 个技能</span><span>MIT 许可</span><span>v2.0.0 · 2026-11-07</span></p>
+      </div>
+    </div>
+
+    <div class="window hero__window" aria-label="一个 Light-Science 研究项目的目录与 Leader 的工作记录">
+      <div class="window__bar">
+        <span class="window__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="window__path">~/research/lichen-soil-ph</span>
+        <span class="window__tag">light-leader</span>
+      </div>
+      <div class="window__body hero__body">
+        <svg class="band" data-band aria-hidden="true"></svg>
+        <ul class="tree" aria-label="一个研究项目的目录">
+          <li class="tree__row tree__row--root"><span class="ico ico--dir"></span><span class="tree__name">lichen-soil-ph/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--file"></span><span class="tree__name">README.md</span><em>研究问题、阶段与下一步</em></li>
+          <li class="tree__row" data-band-row="1"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Memory/</span><em>current.md · events/</em></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Literature/</span><em>manifest.json · Searches/</em></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Idea/IDEA-0001_pH梯度/</span></li>
+          <li class="tree__row" data-band-row="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Design/PROT-0001_样地分层/v02/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Experiment/EXP-0001_排序基准/</span></li>
+          <li class="tree__row" data-band-row="2"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Analysis/AN-0001_群落排序/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Journal/JRN-0001_首轮选刊/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Write/PAPER-0001_地衣与土壤pH/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Figure/</span><em>Methods/ · Data/</em></li>
+          <li class="tree__row"><span class="tree__g">└─</span><span class="ico ico--dir"></span><span class="tree__name">Review/REV-0001_初稿v1/</span></li>
+        </ul>
+        <ol class="log" aria-label="Leader 的工作记录">
+          <li class="log__line log__line--you"><span class="log__who">你</span>继续 lichen-soil-ph。先读 Memory，再核对现有版本。</li>
+          <li class="log__line"><span class="log__tag" data-band-log="1">恢复</span>读取 Memory/current.md</li>
+          <li class="log__line log__line--sub">上次决定：按 pH 分层补做对照 · 来源 AN-0001</li>
+          <li class="log__line"><span class="log__tag" data-band-log="2">核对</span>Analysis/AN-0001/analysis-report.md</li>
+          <li class="log__line log__line--sub">runs/R001 的排序结果与 Memory 一致</li>
+          <li class="log__line"><span class="log__tag log__tag--go" data-band-log="3">行动</span>交给 light-design → Design/PROT-0001/v02/</li>
+          <li class="log__line log__line--sub">决定与依据写回 Memory/events/<span class="caret" aria-hidden="true"></span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 先恢复，再核对，再行动（滚动驱动） ============ -->
+<section class="how spine" id="how" aria-labelledby="how-title">
+  <div class="how__pin">
+    <div class="wrap how__grid">
+      <div class="how__text">
+        <p class="eyebrow">Leader 的工作方式 <code class="eyebrow__path">Memory/</code></p>
+        <h2 class="h2" id="how-title">先恢复，再核对，<br>再行动。</h2>
+        <p class="lead">新的一轮对话不必从头讲起。Leader 先读项目记忆，再回到原件核对实际状态，然后把下一步交给合适的技能。</p>
+        <ol class="steps">
+          <li class="step" data-step="1">
+            <span class="step__n">01</span>
+            <div><h3>先恢复</h3><p>读取 Memory 与交接。为什么改方向、哪个方案失败过、哪些约束仍有效，每条都带着来源。</p></div>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step__n">02</span>
+            <div><h3>再核对</h3><p>回到论文、代码、运行结果和采用的稿图确认实际状态；来源变了或相互冲突，就提醒重新核实。</p></div>
+          </li>
+          <li class="step" data-step="3">
+            <span class="step__n">03</span>
+            <div><h3>再行动</h3><p>把下一步交给合适的技能。研究或修稿的实际增量写回 Memory，下一轮从这里接上。</p></div>
+          </li>
+        </ol>
+        <span class="steps__rail" aria-hidden="true"><i></i></span>
+      </div>
+
+      <div class="window how__window" aria-hidden="true">
+        <div class="window__bar">
+          <span class="window__dots"><i></i><i></i><i></i></span>
+          <span class="window__path">~/research/lichen-soil-ph</span>
+          <span class="window__tag" data-how-caption>Memory/current.md</span>
+        </div>
+        <div class="window__body how__view">
+          <ul class="tree tree--deep how__cam">
+            <li class="tree__row tree__row--root" data-st="3"><span class="ico ico--dir"></span><span class="tree__name">lichen-soil-ph/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--file"></span><span class="tree__name">README.md</span></li>
+            <li class="tree__row" data-st="1 3" data-key="memory"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Memory/</span><em class="tag tag--teal">light-memory</em></li>
+            <li class="tree__row" data-st="1" data-key="current"><span class="tree__g">│  ├─</span><span class="ico ico--file"></span><span class="tree__name">current.md</span><em>上次决定 · 来源 AN-0001</em></li>
+            <li class="tree__row" data-st="1 3" data-key="events"><span class="tree__g">│  ├─</span><span class="ico ico--dir"></span><span class="tree__name">events/</span><em class="badge-new" data-how-new2>+1 写回</em></li>
+            <li class="tree__row" data-st="1"><span class="tree__g">│  └─</span><span class="ico ico--file"></span><span class="tree__name">memory.json</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Literature/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Idea/IDEA-0001_pH梯度/</span></li>
+            <li class="tree__row" data-st="3" data-key="design"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Design/PROT-0001_样地分层/</span><em class="tag tag--teal">light-design</em></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">│  ├─</span><span class="ico ico--dir"></span><span class="tree__name">v01/</span></li>
+            <li class="tree__row" data-st="3" data-key="v02"><span class="tree__g">│  └─</span><span class="ico ico--dir"></span><span class="tree__name">v02/</span><em class="badge-new" data-how-new>新建</em></li>
+            <li class="tree__row" data-st="2" data-key="exp"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Experiment/EXP-0001_排序基准/</span></li>
+            <li class="tree__row" data-st="2" data-key="r001"><span class="tree__g">│  └─</span><span class="ico ico--dir"></span><span class="tree__name">runs/R001/</span><em>配置 · 日志 · 原始结果</em></li>
+            <li class="tree__row" data-st="2" data-key="analysis"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Analysis/AN-0001_群落排序/</span></li>
+            <li class="tree__row" data-st="2"><span class="tree__g">│  ├─</span><span class="ico ico--file"></span><span class="tree__name">analysis-plan.json</span></li>
+            <li class="tree__row" data-st="2" data-key="report"><span class="tree__g">│  ├─</span><span class="ico ico--file"></span><span class="tree__name">analysis-report.md</span><em>与 Memory 一致</em></li>
+            <li class="tree__row" data-st="2"><span class="tree__g">│  └─</span><span class="ico ico--dir"></span><span class="tree__name">derived/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Write/PAPER-0001_地衣与土壤pH/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Figure/Data/FIG-0003_排序热图/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">└─</span><span class="ico ico--dir"></span><span class="tree__name">Review/REV-0001_初稿v1/</span></li>
+          </ul>
+          <span class="how__marker" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 研究循环（交互） ============ -->
+<section class="loop section spine" id="loop" aria-labelledby="loop-title">
+  <div class="wrap loop__grid">
+    <div class="loop__side">
+      <div class="loop__intro reveal">
+        <p class="eyebrow">研究允许回退 <code class="eyebrow__path">Literature/ → Analysis/</code></p>
+        <h2 class="h2" id="loop-title">一个可以往回走的<br class="br-d">研究循环</h2>
+        <p class="lead">分析可能暴露执行、设计或选题的缺口，评审也可能要求补证据、重新定位期刊。点一个阶段，看谁负责、产出放在哪、能回到哪一步。</p>
+      </div>
+      <div class="detail reveal" aria-live="polite" aria-label="所选阶段的说明">
+        <p class="detail__group" data-d="group">研究循环</p>
+        <h3 class="detail__title"><span data-d="name">分析</span> <code data-d="skill">light-analysis</code></h3>
+        <p class="detail__desc" data-d="desc"></p>
+        <dl class="detail__dl"></dl>
+        <p class="detail__links">
+          <a class="detail__link" data-d="link" href="#" target="_blank" rel="noopener">查看 SKILL.md <span aria-hidden="true">↗</span></a>
+          <button class="detail__link detail__link--btn" type="button" data-lightbox-src="assets/img/workflow-v4.webp" data-lightbox-alt="Light-Science 科研工作网络插画" data-lightbox-caption="Light-Science 科研工作网络：Leader 与 Memory 读取和回写，研究循环与论文制作相互连接，采集、专利与软著按需接入。">看完整工作网络插画</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="loop__map reveal">
+      <svg class="cycle" viewBox="0 0 520 470" role="group" aria-label="研究循环：文献、想法、设计、实验、分析">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="currentColor"/></marker>
+          <marker id="arr-back" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#C9820A"/></marker>
+        </defs>
+        <circle class="cycle__track" cx="260" cy="226" r="140"/>
+        <g class="cycle__arcs" data-cycle-arcs></g>
+        <g class="cycle__back" data-cycle-back></g>
+        <g class="cycle__hub">
+          <g class="node node--hub" data-node="leader" tabindex="0" role="button" aria-label="Leader 项目总控">
+            <rect x="200" y="186" width="120" height="34" rx="17"/><text x="260" y="208">Leader</text>
+          </g>
+          <g class="node node--hub" data-node="memory" tabindex="0" role="button" aria-label="Memory 项目记忆">
+            <rect x="200" y="232" width="120" height="34" rx="17"/><text x="260" y="254">Memory</text>
+          </g>
+        </g>
+        <g class="cycle__nodes" data-cycle-nodes></g>
+      </svg>
+      <div class="lanes">
+        <div class="lane">
+          <span class="lane__label">证据支持后</span>
+          <div class="lane__chips">
+            <span class="lane__group"><button class="chip" type="button" data-node="journal">选刊</button><span class="lane__arr" aria-hidden="true">→</span>
+            <button class="chip" type="button" data-node="write">写作</button></span>
+            <span class="lane__group"><span class="lane__arr" aria-hidden="true">⇄</span>
+            <button class="chip" type="button" data-node="diagram">方法图</button>
+            <button class="chip" type="button" data-node="chart">数据图</button><span class="lane__arr" aria-hidden="true">⇄</span>
+            <button class="chip" type="button" data-node="review">评审</button></span>
+          </div>
+        </div>
+        <div class="lane">
+          <span class="lane__label">按需接入</span>
+          <div class="lane__chips">
+            <button class="chip" type="button" data-node="crawl">采集</button>
+            <button class="chip" type="button" data-node="patent">专利</button>
+            <button class="chip" type="button" data-node="swc">软著</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 19 个技能 ============ -->
+<section class="skills section spine" id="skills" aria-labelledby="skills-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <p class="eyebrow">19 个技能 <code class="eyebrow__path">light-*/SKILL.md</code></p>
+        <h2 class="h2" id="skills-title">各管一件事，<br class="br-d">产出各归其位</h2>
+      </div>
+      <p class="lead">15 个主要技能，加上 Diagram 的 4 个专门入口。可以从头推进，也可以带着已有论文、数据、代码或审稿意见，直接进入需要的阶段。</p>
+    </div>
+
+    <div class="filters reveal" role="toolbar" aria-label="按类别筛选技能">
+      <button type="button" class="filter" aria-pressed="true" data-filter="all">全部<span>19</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="coord">协调<span>2</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="research">研究循环<span>5</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="paper">论文制作<span>5</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="ondemand">按需接入<span>3</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="diagram">Diagram 入口<span>4</span></button>
+    </div>
+
+    <div class="ledger" role="table" aria-label="技能清单">
+      <div class="ledger__head" role="row">
+        <span role="columnheader">#</span><span role="columnheader">技能</span><span role="columnheader">负责什么</span><span role="columnheader">产出位置</span><span role="columnheader">类别</span>
+      </div>
+      <div class="ledger__body" data-ledger></div>
+    </div>
+    <p class="note reveal">技能安装目录保存能力，研究项目目录保存成果。有内容才产生对应文件和目录，已有项目结构优先。<a href="https://github.com/Light0305/Light-Science/blob/master/project-layout/references/project-layout.md" target="_blank" rel="noopener">查看完整的科研项目目录规范 ↗</a></p>
+  </div>
+</section>
+
+<!-- ============ 数据图 ============ -->
+<section class="charts section spine" id="charts" aria-labelledby="charts-title">
+  <div class="wrap">
+    <div class="charts__head reveal">
+      <p class="eyebrow">数据图 · light-chart <code class="eyebrow__path">Figure/Data/</code></p>
+      <h2 class="h2 h2--wide" id="charts-title">每张图都来自真实数据</h2>
+      <p class="lead">从科学问题和数据结构选图，保留实验单位、重复测量、缺失值和不确定性，再处理布局、颜色、注释与导出。下面 9 张由 light-chart 用 Python / R 实际绘制，每张都附数据来源。</p>
+    </div>
+    <div class="gallery" data-gallery></div>
+  </div>
+</section>
+
+<!-- ============ 方法图 ============ -->
+<section class="methods section spine" id="methods" aria-labelledby="methods-title">
+  <div class="wrap">
+    <p class="eyebrow reveal">方法图与机制图 · light-diagram <code class="eyebrow__path">Figure/Methods/</code></p>
+    <div class="methods__grid">
+      <div class="compare-col reveal">
+      <div class="compare__labels" aria-hidden="true"><span>← 生成参考</span><span>原生重建导出 →</span></div>
+      <div class="compare" data-compare style="--pos:50%">
+        <img class="compare__img compare__img--rec" data-m="rec" src="assets/img/methods/illustrator-rec.webp" alt="Illustrator 原生文件的实际导出：锂硫电池机制" width="1536" height="1024" loading="lazy">
+        <img class="compare__img compare__img--ref" data-m="ref" src="assets/img/methods/illustrator-ref.webp" alt="锂硫电池机制的实际生成参考" width="1536" height="1024" loading="lazy">
+        <span class="compare__handle" aria-hidden="true"><i></i></span>
+        <input class="compare__range" type="range" min="0" max="100" value="50" aria-label="拖动比较生成参考与原生重建导出">
+      </div>
+      </div>
+      <div class="methods__side reveal">
+        <h2 class="h2" id="methods-title">先生成参考，<span class="nw">再在原生软件里重建</span></h2>
+        <p class="lead">先确定图要解释的科学问题、对象和关系，形成结构蓝图和提示词，实际生图后核对标签、关系与证据边界。需要继续编辑时，在 Illustrator、PowerPoint 或 Visio 里重建为原生文件。</p>
+        <div class="tabs" role="tablist" aria-label="选择重建工具">
+          <button role="tab" type="button" class="tab" id="tab-illustrator" aria-selected="true" aria-controls="compare-panel" data-method="illustrator">Illustrator</button>
+          <button role="tab" type="button" class="tab" id="tab-powerpoint" aria-selected="false" aria-controls="compare-panel" data-method="powerpoint" tabindex="-1">PowerPoint</button>
+          <button role="tab" type="button" class="tab" id="tab-visio" aria-selected="false" aria-controls="compare-panel" data-method="visio" tabindex="-1">Visio</button>
+        </div>
+        <div class="compare__info" id="compare-panel" role="tabpanel" aria-labelledby="tab-illustrator">
+          <h3 class="h3" data-m="title">锂硫电池机制</h3>
+          <p data-m="note"></p>
+          <dl class="spec">
+            <div><dt>更适合</dt><dd data-m="fit"></dd></div>
+            <div><dt>交付</dt><dd data-m="out"></dd></div>
+          </dl>
+          <a class="detail__link" data-m="file" href="#" target="_blank" rel="noopener">下载原生文件</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 安装 ============ -->
+<section class="install section spine spine--end" id="install" aria-labelledby="install-title">
+  <div class="wrap install__grid">
+    <div class="install__text reveal">
+      <p class="eyebrow">安装 <code class="eyebrow__path">light-*/</code></p>
+      <h2 class="h2" id="install-title">发一句话给 Agent，就能装好</h2>
+      <p class="lead">先选择全局安装或当前项目安装，再按技能表装所需技能。项目级安装应先进入目标项目目录。</p>
+    </div>
+
+    <div class="terminal reveal">
+      <div class="terminal__tabs" role="tablist" aria-label="安装方式">
+        <button role="tab" type="button" class="ttab" id="t-agent" aria-selected="true" aria-controls="p-agent">让 Agent 安装</button>
+        <button role="tab" type="button" class="ttab" id="t-win" aria-selected="false" aria-controls="p-win" tabindex="-1">Windows</button>
+        <button role="tab" type="button" class="ttab" id="t-mac" aria-selected="false" aria-controls="p-mac" tabindex="-1">macOS / Linux</button>
+      </div>
+      <div class="terminal__panel" role="tabpanel" id="p-agent" aria-labelledby="t-agent">
+        <pre id="cmd-agent"><code>从 https://github.com/Light0305/Light-Science 安装科研 skills。
+先让我选择全局安装或当前项目安装，再按 README 的技能表安装所需技能。</code></pre>
+        <button class="copy" type="button" data-copy="#cmd-agent" data-copy-toast="已复制，粘贴给你的 Agent 即可"><span data-copy-text>复制</span></button>
+        <p class="terminal__note">粘贴到 Claude Code、Codex 等 Agent 的对话里。它会先问你装到全局还是当前项目，再按技能表安装。</p>
+      </div>
+      <div class="terminal__panel" role="tabpanel" id="p-win" aria-labelledby="t-win" hidden>
+        <pre id="cmd-win"><code><span class="ps">PS&gt;</span> npx.cmd skills@latest add Light0305/Light-Science
+<span class="ps">PS&gt;</span> npx.cmd skills@latest add https://github.com/Light0305/Light-Science/tree/master/light-chart/skills/light-chart</code></pre>
+        <button class="copy" type="button" data-copy="#cmd-win"><span data-copy-text>复制</span></button>
+        <p class="terminal__note">在 PowerShell 中运行。第一条装顶层技能，第二条补装嵌套目录里的 Chart。<strong>第二条会再问一次 Agent 和安装范围，请和第一次选得一样</strong>，否则 Chart 会装到别处。只装一项时加 <code>--skill light-write</code>。</p>
+      </div>
+      <div class="terminal__panel" role="tabpanel" id="p-mac" aria-labelledby="t-mac" hidden>
+        <pre id="cmd-mac"><code><span class="ps">$</span> npx skills@latest add Light0305/Light-Science
+<span class="ps">$</span> npx skills@latest add https://github.com/Light0305/Light-Science/tree/master/light-chart/skills/light-chart</code></pre>
+        <button class="copy" type="button" data-copy="#cmd-mac"><span data-copy-text>复制</span></button>
+        <p class="terminal__note">在终端中运行。第一条装顶层技能，第二条补装嵌套目录里的 Chart。<strong>第二条会再问一次 Agent 和安装范围，请和第一次选得一样</strong>，否则 Chart 会装到别处。只装一项时加 <code>--skill light-write</code>。</p>
+      </div>
+    </div>
+
+    <div class="start reveal">
+      <h3 class="h3">从一个真实问题开始</h3>
+      <p class="note start__hint">复制后，把<mark class="slot">&lt;尖括号&gt;</mark>里的内容换成你的问题、材料和项目路径再发送。</p>
+      <div class="start__grid">
+        <figure class="prompt">
+          <figcaption>新项目</figcaption>
+          <pre id="p-new">用 light-leader 推进这个项目：我想研究 <mark class="slot">&lt;具体问题&gt;</mark>，已有 <mark class="slot">&lt;论文/数据/代码&gt;</mark>。
+项目放在 <mark class="slot">&lt;项目路径&gt;</mark>，目标是 <mark class="slot">&lt;一篇论文/软著及同源成果&gt;</mark>。
+先查看已有项目记忆和实际材料，找出最需要解决的问题，再推进当前能完成的一步。</pre>
+          <button class="copy copy--light" type="button" data-copy="#p-new" data-copy-toast="已复制。发送前把尖括号里的内容换成你的项目信息"><span data-copy-text>复制</span></button>
+        </figure>
+        <figure class="prompt">
+          <figcaption>续作已有项目</figcaption>
+          <pre id="p-cont">继续 <mark class="slot">&lt;项目路径&gt;</mark>。先读 Memory 和现有交接，再核对采用的稿件、图与分析版本。
+本轮处理 <mark class="slot">&lt;研究问题或评审意见&gt;</mark>，把结果、决定依据和下一步写回项目。</pre>
+          <button class="copy copy--light" type="button" data-copy="#p-cont" data-copy-toast="已复制。发送前把尖括号里的内容换成你的项目信息"><span data-copy-text>复制</span></button>
+        </figure>
+      </div>
+      <p class="note">只需要局部工作时，直接说“用 light-chart 根据这份数据画图”或“用 light-write 修改这一节”。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 反馈与支持 ============ -->
+<section class="support section" id="support" aria-labelledby="support-title">
+  <div class="wrap support__grid">
+    <div class="support__text reveal">
+      <p class="eyebrow">反馈与支持</p>
+      <h2 class="h2" id="support-title">带着案例来，<br class="br-d">一起把它做得更好</h2>
+      <p class="lead">欢迎反馈使用案例、问题、缺失的领域支持，以及可复现的改进建议。提交 Issue 时写明使用的技能、预期与实际结果，附上最小可复现材料。</p>
+      <ul class="contact">
+        <li><a href="https://github.com/Light0305/Light-Science/issues" target="_blank" rel="noopener">提交 Issue <span aria-hidden="true">↗</span></a></li>
+        <li><a href="mailto:1833058953@qq.com">1833058953@qq.com</a></li>
+        <li><a href="https://github.com/Light0305" target="_blank" rel="noopener">GitHub @Light0305 <span aria-hidden="true">↗</span></a></li>
+      </ul>
+      <p class="related">相关项目：<a href="https://github.com/Light0305/Light-UI-UX" target="_blank" rel="noopener">Light-UI-UX</a> · <a href="https://github.com/Light0305/Light-WeChat" target="_blank" rel="noopener">Light-WeChat</a></p>
+    </div>
+    <div class="qrs reveal">
+      <figure class="qr"><img src="assets/img/qr-donation.png" alt="微信赞赏二维码" width="420" height="407" loading="lazy"><figcaption>支持作者</figcaption></figure>
+      <figure class="qr"><img src="assets/img/qr-contact.png" alt="作者微信联系二维码" width="420" height="420" loading="lazy"><figcaption>微信交流</figcaption></figure>
+      <figure class="qr"><img src="assets/img/qr-official.png" alt="公众号二维码" width="420" height="420" loading="lazy"><figcaption>公众号</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__mark">
+      <img src="assets/img/logo.png" alt="Light-Science — Research, connected." width="1400" height="292" loading="lazy">
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h4>文档</h4>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/README.zh-CN.md" target="_blank" rel="noopener">README</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/docs/installation.md" target="_blank" rel="noopener">安装说明</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/project-layout/references/project-layout.md" target="_blank" rel="noopener">项目目录规范</a>
+      </div>
+      <div>
+        <h4>版本</h4>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/docs/releases/v2.0.0.md" target="_blank" rel="noopener">v2.0.0 发布说明</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/CHANGELOG.md" target="_blank" rel="noopener">更新记录</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">参与贡献</a>
+      </div>
+      <div>
+        <h4>许可</h4>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/LICENSE" target="_blank" rel="noopener">MIT License</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">来源与第三方许可</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/SECURITY.md" target="_blank" rel="noopener">安全</a>
+      </div>
+    </div>
+    <p class="footer__legal">原创代码与文档采用 MIT License。第三方代码、适配资源、论文图、示例数据和图库分别保留原许可，整包资源不统一视为 MIT。数据图的数据来源与使用条件见各图说明。</p>
+  </div>
+</footer>
+
+<dialog class="lightbox" data-lightbox aria-label="查看大图">
+  <form method="dialog" class="lightbox__bar">
+    <span class="lightbox__count" data-lb-count></span>
+    <button class="lightbox__close" value="close" aria-label="关闭">关闭 <span aria-hidden="true">✕</span></button>
+  </form>
+  <div class="lightbox__stage">
+    <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="上一张">‹</button>
+    <img data-lb-img alt="">
+    <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="下一张">›</button>
+  </div>
+  <div class="lightbox__cap" data-lb-cap></div>
+</dialog>
+
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

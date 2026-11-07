@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://lightchuan.xyz/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://lightchuan.xyz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lightchuan.xyz/en/"/>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://lightchuan.xyz/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://lightchuan.xyz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lightchuan.xyz/en/"/>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+</urlset>

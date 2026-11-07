@@ -6,12 +6,13 @@
   <a href="docs/releases/v2.0.0.md"><img src="https://img.shields.io/badge/Version-2.0.0-008A7B?style=flat" alt="Version 2.0.0"></a>
   <a href="#skills"><img src="https://img.shields.io/badge/Skills-19-102A43?style=flat" alt="19 skills"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Original_work-MIT-102A43?style=flat" alt="Original work: MIT"></a>
+  <a href="https://lightchuan.xyz/"><img src="https://img.shields.io/badge/Website-lightchuan.xyz-008A7B?style=flat" alt="Website: lightchuan.xyz"></a>
   <a href="https://github.com/Light0305/Light-Science/stargazers"><img src="https://img.shields.io/github/stars/Light0305/Light-Science?style=flat&amp;color=102A43" alt="GitHub Stars"></a>
 </p>
 
 <p align="center"><strong>Turn research questions, evidence, experiments and papers into one project you can keep moving forward.</strong></p>
 
-<p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
+<p align="center"><a href="https://lightchuan.xyz/en/"><b>Website</b></a> · <b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center">
   <a href="#installation">Install</a> · <a href="#skills">Skills</a> · <a href="#how-a-project-moves-forward">Workflow</a> · <a href="#project-layout">Project layout</a> · <a href="#data-figures">Data figures</a> · <a href="#method-and-mechanism-diagrams">Method diagrams</a> · <a href="#feedback-and-support">Feedback</a>

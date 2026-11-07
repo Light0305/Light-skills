@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en" data-base="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light-Science · Research skills for AI agents</title>
+<meta name="description" content="Light-Science is an open-source research skills pack for AI agents: 19 skills that connect literature, ideas, design, experiments, analysis, journal selection, writing, figures and review into one project you can keep moving forward.">
+<meta name="theme-color" content="#F6F1E7">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Light-Science · Research, continued.">
+<meta property="og:description" content="Turn research questions, evidence, experiments and papers into one project you can keep moving forward.">
+<meta property="og:url" content="https://lightchuan.xyz/en/">
+<meta property="og:image" content="https://lightchuan.xyz/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://lightchuan.xyz/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://lightchuan.xyz/">
+<link rel="alternate" hreflang="en" href="https://lightchuan.xyz/en/">
+<link rel="alternate" hreflang="x-default" href="https://lightchuan.xyz/">
+<link rel="icon" type="image/png" href="../assets/img/favicon-64.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,900&amp;display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="../assets/site.css">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__ls)document.documentElement.classList.remove('js')},4000);</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="nav__inner wrap">
+    <a class="brand" href="#top" aria-label="Light-Science home">
+      <img src="../assets/img/mark-72.png" alt="" width="30" height="28">
+      <span class="brand__name">Light-Science</span>
+      <span class="brand__ver">v2.0</span>
+    </a>
+    <nav class="nav__links" id="nav-links" aria-label="Page sections">
+      <a href="#how">How it works</a>
+      <a href="#loop">Research loop</a>
+      <a href="#skills">Skills</a>
+      <a href="#charts">Data figures</a>
+      <a href="#methods">Method figures</a>
+      <a href="#support">Feedback</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="lang" href="../" hreflang="zh-CN" lang="zh-CN" aria-label="中文版">中文</a>
+      <a class="gh" href="https://github.com/Light0305/Light-Science" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span>GitHub</span>
+        <span class="gh__stars" data-stars hidden></span>
+      </a>
+      <a class="btn btn--ink btn--sm" href="#install">Install</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ hero ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__wrap">
+    <svg class="hero__band" data-hero-band aria-hidden="true"></svg>
+    <p class="pill"><span class="pill__dot"></span>Open source · research skills for AI agents</p>
+    <h1 class="hero__title" id="hero-title"><span class="line">Research,&nbsp;</span><span class="line">continued<span class="hero__stop">.</span></span></h1>
+    <div class="hero__row">
+      <p class="hero__lead">Turn research questions, evidence, experiments and papers into one project you can keep moving forward. Literature, ideas, design, experiments, analysis, journal selection, writing, figures and review live in one project folder; Memory remembers where each decision came from, and the Leader decides what happens next.</p>
+      <div class="hero__cta">
+        <button class="btn btn--ink" type="button" data-copy="#cmd-agent" data-copy-label="Copy install prompt">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="6.5" y="6.5" width="10" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 6.5V5a1.5 1.5 0 0 0-1.5-1.5H5A1.5 1.5 0 0 0 3.5 5v7A1.5 1.5 0 0 0 5 13.5h1.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <span data-copy-text>Copy install prompt</span>
+        </button>
+        <a class="btn btn--line" href="#how">See how it carries on <span aria-hidden="true">↓</span></a>
+        <p class="hero__meta"><span>19 skills</span><span>MIT license</span><span>v2.0.0 · 2026-11-07</span></p>
+      </div>
+    </div>
+
+    <div class="window hero__window" aria-label="A Light-Science research project folder and the Leader's log">
+      <div class="window__bar">
+        <span class="window__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="window__path">~/research/lichen-soil-ph</span>
+        <span class="window__tag">light-leader</span>
+      </div>
+      <div class="window__body hero__body">
+        <svg class="band" data-band aria-hidden="true"></svg>
+        <ul class="tree" aria-label="A research project folder">
+          <li class="tree__row tree__row--root"><span class="ico ico--dir"></span><span class="tree__name">lichen-soil-ph/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--file"></span><span class="tree__name">README.md</span><em>question, stage, next step</em></li>
+          <li class="tree__row" data-band-row="1"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Memory/</span><em>current.md · events/</em></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Literature/</span><em>manifest.json · Searches/</em></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Idea/IDEA-0001_pH-gradient/</span></li>
+          <li class="tree__row" data-band-row="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Design/PROT-0001_site-strata/v02/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Experiment/EXP-0001_ordination/</span></li>
+          <li class="tree__row" data-band-row="2"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Analysis/AN-0001_community/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Journal/JRN-0001_round-1/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Write/PAPER-0001_lichens-pH/</span></li>
+          <li class="tree__row"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Figure/</span><em>Methods/ · Data/</em></li>
+          <li class="tree__row"><span class="tree__g">└─</span><span class="ico ico--dir"></span><span class="tree__name">Review/REV-0001_draft-v1/</span></li>
+        </ul>
+        <ol class="log" aria-label="The Leader's log">
+          <li class="log__line log__line--you"><span class="log__who">You</span>Continue lichen-soil-ph. Read Memory first, then check the current versions.</li>
+          <li class="log__line"><span class="log__tag" data-band-log="1">Restore</span>Read Memory/current.md</li>
+          <li class="log__line log__line--sub">Last decision: add a pH-stratified control · source AN-0001</li>
+          <li class="log__line"><span class="log__tag" data-band-log="2">Verify</span>Analysis/AN-0001/analysis-report.md</li>
+          <li class="log__line log__line--sub">The ordination in runs/R001 matches Memory</li>
+          <li class="log__line"><span class="log__tag log__tag--go" data-band-log="3">Act</span>Hand off to light-design → Design/PROT-0001/v02/</li>
+          <li class="log__line log__line--sub">Decision and rationale written back to Memory/events/<span class="caret" aria-hidden="true"></span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ restore, verify, act (scroll-driven) ============ -->
+<section class="how spine" id="how" aria-labelledby="how-title">
+  <div class="how__pin">
+    <div class="wrap how__grid">
+      <div class="how__text">
+        <p class="eyebrow">How the Leader works <code class="eyebrow__path">Memory/</code></p>
+        <h2 class="h2" id="how-title">Restore, verify,<br>then act.</h2>
+        <p class="lead">A new conversation doesn’t have to start from zero. The Leader reads project memory, checks the actual state against the original files, then hands the next step to the right skill.</p>
+        <ol class="steps">
+          <li class="step" data-step="1">
+            <span class="step__n">01</span>
+            <div><h3>Restore</h3><p>Read Memory and the latest handoff: why the direction changed, which plan failed, which constraints still hold — each with its source.</p></div>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step__n">02</span>
+            <div><h3>Verify</h3><p>Go back to the papers, code, run results and adopted figures to confirm the actual state; if a source changed or sources conflict, flag it for re-checking.</p></div>
+          </li>
+          <li class="step" data-step="3">
+            <span class="step__n">03</span>
+            <div><h3>Act</h3><p>Hand the next step to the right skill. Real progress from research or revisions is written back to Memory, and the next round starts there.</p></div>
+          </li>
+        </ol>
+        <span class="steps__rail" aria-hidden="true"><i></i></span>
+      </div>
+
+      <div class="window how__window" aria-hidden="true">
+        <div class="window__bar">
+          <span class="window__dots"><i></i><i></i><i></i></span>
+          <span class="window__path">~/research/lichen-soil-ph</span>
+          <span class="window__tag" data-how-caption>Memory/current.md</span>
+        </div>
+        <div class="window__body how__view">
+          <ul class="tree tree--deep how__cam">
+            <li class="tree__row tree__row--root" data-st="3"><span class="ico ico--dir"></span><span class="tree__name">lichen-soil-ph/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--file"></span><span class="tree__name">README.md</span></li>
+            <li class="tree__row" data-st="1 3" data-key="memory"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Memory/</span><em class="tag tag--teal">light-memory</em></li>
+            <li class="tree__row" data-st="1" data-key="current"><span class="tree__g">│  ├─</span><span class="ico ico--file"></span><span class="tree__name">current.md</span><em>last decision · source AN-0001</em></li>
+            <li class="tree__row" data-st="1 3" data-key="events"><span class="tree__g">│  ├─</span><span class="ico ico--dir"></span><span class="tree__name">events/</span><em class="badge-new" data-how-new2>+1 written back</em></li>
+            <li class="tree__row" data-st="1"><span class="tree__g">│  └─</span><span class="ico ico--file"></span><span class="tree__name">memory.json</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Literature/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Idea/IDEA-0001_pH-gradient/</span></li>
+            <li class="tree__row" data-st="3" data-key="design"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Design/PROT-0001_site-strata/</span><em class="tag tag--teal">light-design</em></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">│  ├─</span><span class="ico ico--dir"></span><span class="tree__name">v01/</span></li>
+            <li class="tree__row" data-st="3" data-key="v02"><span class="tree__g">│  └─</span><span class="ico ico--dir"></span><span class="tree__name">v02/</span><em class="badge-new" data-how-new>new</em></li>
+            <li class="tree__row" data-st="2" data-key="exp"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Experiment/EXP-0001_ordination/</span></li>
+            <li class="tree__row" data-st="2" data-key="r001"><span class="tree__g">│  └─</span><span class="ico ico--dir"></span><span class="tree__name">runs/R001/</span><em>config · logs · raw results</em></li>
+            <li class="tree__row" data-st="2" data-key="analysis"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Analysis/AN-0001_community/</span></li>
+            <li class="tree__row" data-st="2"><span class="tree__g">│  ├─</span><span class="ico ico--file"></span><span class="tree__name">analysis-plan.json</span></li>
+            <li class="tree__row" data-st="2" data-key="report"><span class="tree__g">│  ├─</span><span class="ico ico--file"></span><span class="tree__name">analysis-report.md</span><em>matches Memory</em></li>
+            <li class="tree__row" data-st="2"><span class="tree__g">│  └─</span><span class="ico ico--dir"></span><span class="tree__name">derived/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Write/PAPER-0001_lichens-pH/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">├─</span><span class="ico ico--dir"></span><span class="tree__name">Figure/Data/FIG-0003_heatmap/</span></li>
+            <li class="tree__row" data-st="3"><span class="tree__g">└─</span><span class="ico ico--dir"></span><span class="tree__name">Review/REV-0001_draft-v1/</span></li>
+          </ul>
+          <span class="how__marker" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ research loop (interactive) ============ -->
+<section class="loop section spine" id="loop" aria-labelledby="loop-title">
+  <div class="wrap loop__grid">
+    <div class="loop__side">
+      <div class="loop__intro reveal">
+        <p class="eyebrow">Research can go back <code class="eyebrow__path">Literature/ → Analysis/</code></p>
+        <h2 class="h2" id="loop-title">A research loop<br class="br-d"> you can walk back</h2>
+        <p class="lead">Analysis can expose gaps in execution, design or the question itself, and review can ask for more evidence or a different journal. Pick a stage to see who owns it, where its output goes and where it can lead back to.</p>
+      </div>
+      <div class="detail reveal" aria-live="polite" aria-label="About the selected stage">
+        <p class="detail__group" data-d="group">Research loop</p>
+        <h3 class="detail__title"><span data-d="name">Analysis</span> <code data-d="skill">light-analysis</code></h3>
+        <p class="detail__desc" data-d="desc"></p>
+        <dl class="detail__dl"></dl>
+        <p class="detail__links">
+          <a class="detail__link" data-d="link" href="#" target="_blank" rel="noopener">View SKILL.md <span aria-hidden="true">↗</span></a>
+          <button class="detail__link detail__link--btn" type="button" data-lightbox-src="../assets/img/workflow-v4.webp" data-lightbox-alt="Light-Science research network illustration" data-lightbox-caption="The Light-Science research network: Leader and Memory read and write back, the research loop and paper production connect, and acquisition, patents and software copyright join on demand. Labels in the illustration are in Chinese.">See the full workflow illustration</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="loop__map reveal">
+      <svg class="cycle" viewBox="0 0 520 470" role="group" aria-label="Research loop: literature, idea, design, experiment, analysis">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="currentColor"/></marker>
+          <marker id="arr-back" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#C9820A"/></marker>
+        </defs>
+        <circle class="cycle__track" cx="260" cy="226" r="140"/>
+        <g class="cycle__arcs" data-cycle-arcs></g>
+        <g class="cycle__back" data-cycle-back></g>
+        <g class="cycle__hub">
+          <g class="node node--hub" data-node="leader" tabindex="0" role="button" aria-label="Leader, project lead">
+            <rect x="200" y="186" width="120" height="34" rx="17"/><text x="260" y="208">Leader</text>
+          </g>
+          <g class="node node--hub" data-node="memory" tabindex="0" role="button" aria-label="Memory, project memory">
+            <rect x="200" y="232" width="120" height="34" rx="17"/><text x="260" y="254">Memory</text>
+          </g>
+        </g>
+        <g class="cycle__nodes" data-cycle-nodes></g>
+      </svg>
+      <div class="lanes">
+        <div class="lane">
+          <span class="lane__label">Once the evidence holds</span>
+          <div class="lane__chips">
+            <span class="lane__group"><button class="chip" type="button" data-node="journal">Journal</button><span class="lane__arr" aria-hidden="true">→</span>
+            <button class="chip" type="button" data-node="write">Writing</button></span>
+            <span class="lane__group"><span class="lane__arr" aria-hidden="true">⇄</span>
+            <button class="chip" type="button" data-node="diagram">Method fig.</button>
+            <button class="chip" type="button" data-node="chart">Data fig.</button><span class="lane__arr" aria-hidden="true">⇄</span>
+            <button class="chip" type="button" data-node="review">Review</button></span>
+          </div>
+        </div>
+        <div class="lane">
+          <span class="lane__label">On demand</span>
+          <div class="lane__chips">
+            <button class="chip" type="button" data-node="crawl">Acquisition</button>
+            <button class="chip" type="button" data-node="patent">Patent</button>
+            <button class="chip" type="button" data-node="swc">Software ©</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 19 skills ============ -->
+<section class="skills section spine" id="skills" aria-labelledby="skills-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <p class="eyebrow">19 skills <code class="eyebrow__path">light-*/SKILL.md</code></p>
+        <h2 class="h2" id="skills-title">One job each,<br class="br-d"> every output in its place</h2>
+      </div>
+      <p class="lead">15 main skills plus 4 dedicated Diagram entries. Start from scratch, or bring an existing paper, data, code or reviewer comments and go straight to the stage you need.</p>
+    </div>
+
+    <div class="filters reveal" role="toolbar" aria-label="Filter skills by category">
+      <button type="button" class="filter" aria-pressed="true" data-filter="all">All<span>19</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="coord">Coordination<span>2</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="research">Research loop<span>5</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="paper">Paper<span>5</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="ondemand">On demand<span>3</span></button>
+      <button type="button" class="filter" aria-pressed="false" data-filter="diagram">Diagram entries<span>4</span></button>
+    </div>
+
+    <div class="ledger" role="table" aria-label="Skills">
+      <div class="ledger__head" role="row">
+        <span role="columnheader">#</span><span role="columnheader">Skill</span><span role="columnheader">What it does</span><span role="columnheader">Output</span><span role="columnheader">Category</span>
+      </div>
+      <div class="ledger__body" data-ledger></div>
+    </div>
+    <p class="note reveal">The skill install directory holds capabilities; the research project directory holds results. Files appear only when there is content for them, and an existing project structure takes priority. <a href="https://github.com/Light0305/Light-Science/blob/master/project-layout/references/project-layout.md" target="_blank" rel="noopener">Read the full project layout spec (Chinese) ↗</a></p>
+  </div>
+</section>
+
+<!-- ============ data figures ============ -->
+<section class="charts section spine" id="charts" aria-labelledby="charts-title">
+  <div class="wrap">
+    <div class="charts__head reveal">
+      <p class="eyebrow">Data figures · light-chart <code class="eyebrow__path">Figure/Data/</code></p>
+      <h2 class="h2 h2--wide" id="charts-title">Every chart comes from real data</h2>
+      <p class="lead">Choose the chart from the scientific question and the data structure; keep experimental units, repeated measurements, missing values and uncertainty; then handle layout, color, annotation and export. The nine figures below were drawn by light-chart in Python / R, each with its data source.</p>
+    </div>
+    <div class="gallery" data-gallery></div>
+  </div>
+</section>
+
+<!-- ============ method figures ============ -->
+<section class="methods section spine" id="methods" aria-labelledby="methods-title">
+  <div class="wrap">
+    <p class="eyebrow reveal">Method and mechanism figures · light-diagram <code class="eyebrow__path">Figure/Methods/</code></p>
+    <div class="methods__grid">
+      <div class="compare-col reveal">
+      <div class="compare__labels" aria-hidden="true"><span>← Generated reference</span><span>Native rebuild export →</span></div>
+      <div class="compare" data-compare style="--pos:50%">
+        <img class="compare__img compare__img--rec" data-m="rec" src="../assets/img/methods/illustrator-rec.webp" alt="Actual export of the native Illustrator file: lithium–sulfur battery mechanism" width="1536" height="1024" loading="lazy">
+        <img class="compare__img compare__img--ref" data-m="ref" src="../assets/img/methods/illustrator-ref.webp" alt="Generated reference: lithium–sulfur battery mechanism" width="1536" height="1024" loading="lazy">
+        <span class="compare__handle" aria-hidden="true"><i></i></span>
+        <input class="compare__range" type="range" min="0" max="100" value="50" aria-label="Drag to compare the generated reference with the native rebuild">
+      </div>
+      </div>
+      <div class="methods__side reveal">
+        <h2 class="h2" id="methods-title">Generate a reference, <span class="nw">then rebuild it natively</span></h2>
+        <p class="lead">Pin down the scientific question, objects and relationships first; turn them into a structural blueprint and a prompt; generate the image and check labels, relationships and evidence boundaries. When the figure needs more editing, rebuild it as a native Illustrator, PowerPoint or Visio file.</p>
+        <div class="tabs" role="tablist" aria-label="Choose a rebuild tool">
+          <button role="tab" type="button" class="tab" id="tab-illustrator" aria-selected="true" aria-controls="compare-panel" data-method="illustrator">Illustrator</button>
+          <button role="tab" type="button" class="tab" id="tab-powerpoint" aria-selected="false" aria-controls="compare-panel" data-method="powerpoint" tabindex="-1">PowerPoint</button>
+          <button role="tab" type="button" class="tab" id="tab-visio" aria-selected="false" aria-controls="compare-panel" data-method="visio" tabindex="-1">Visio</button>
+        </div>
+        <div class="compare__info" id="compare-panel" role="tabpanel" aria-labelledby="tab-illustrator">
+          <h3 class="h3" data-m="title">Lithium–sulfur battery mechanism</h3>
+          <p data-m="note"></p>
+          <dl class="spec">
+            <div><dt>Best for</dt><dd data-m="fit"></dd></div>
+            <div><dt>Delivers</dt><dd data-m="out"></dd></div>
+          </dl>
+          <a class="detail__link" data-m="file" href="#" target="_blank" rel="noopener">Download the native file</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ install ============ -->
+<section class="install section spine spine--end" id="install" aria-labelledby="install-title">
+  <div class="wrap install__grid">
+    <div class="install__text reveal">
+      <p class="eyebrow">Install <code class="eyebrow__path">light-*/</code></p>
+      <h2 class="h2" id="install-title">Install with one message to your agent</h2>
+      <p class="lead">Choose a global or a project-level install first, then install the skills you need from the skills table. For a project-level install, change into the project folder first.</p>
+    </div>
+
+    <div class="terminal reveal">
+      <div class="terminal__tabs" role="tablist" aria-label="Install method">
+        <button role="tab" type="button" class="ttab" id="t-agent" aria-selected="true" aria-controls="p-agent">Ask your agent</button>
+        <button role="tab" type="button" class="ttab" id="t-win" aria-selected="false" aria-controls="p-win" tabindex="-1">Windows</button>
+        <button role="tab" type="button" class="ttab" id="t-mac" aria-selected="false" aria-controls="p-mac" tabindex="-1">macOS / Linux</button>
+      </div>
+      <div class="terminal__panel" role="tabpanel" id="p-agent" aria-labelledby="t-agent">
+        <pre id="cmd-agent"><code>Install the research skills from https://github.com/Light0305/Light-Science.
+Ask me first whether to install globally or for the current project, then install the skills I need from the skills table in the README.</code></pre>
+        <button class="copy" type="button" data-copy="#cmd-agent" data-copy-toast="Copied — paste it to your agent"><span data-copy-text>Copy</span></button>
+        <p class="terminal__note">Paste it into Claude Code, Codex or another agent. It will ask whether to install globally or for the current project, then install from the skills table.</p>
+      </div>
+      <div class="terminal__panel" role="tabpanel" id="p-win" aria-labelledby="t-win" hidden>
+        <pre id="cmd-win"><code><span class="ps">PS&gt;</span> npx.cmd skills@latest add Light0305/Light-Science
+<span class="ps">PS&gt;</span> npx.cmd skills@latest add https://github.com/Light0305/Light-Science/tree/master/light-chart/skills/light-chart</code></pre>
+        <button class="copy" type="button" data-copy="#cmd-win"><span data-copy-text>Copy</span></button>
+        <p class="terminal__note">Run in PowerShell. The first command installs the top-level skills; the second adds Chart from its nested folder. <strong>The second command asks for the agent and install scope again — choose the same as the first time</strong>, or Chart will land somewhere else. To install a single skill, add <code>--skill light-write</code>.</p>
+      </div>
+      <div class="terminal__panel" role="tabpanel" id="p-mac" aria-labelledby="t-mac" hidden>
+        <pre id="cmd-mac"><code><span class="ps">$</span> npx skills@latest add Light0305/Light-Science
+<span class="ps">$</span> npx skills@latest add https://github.com/Light0305/Light-Science/tree/master/light-chart/skills/light-chart</code></pre>
+        <button class="copy" type="button" data-copy="#cmd-mac"><span data-copy-text>Copy</span></button>
+        <p class="terminal__note">Run in a terminal. The first command installs the top-level skills; the second adds Chart from its nested folder. <strong>The second command asks for the agent and install scope again — choose the same as the first time</strong>, or Chart will land somewhere else. To install a single skill, add <code>--skill light-write</code>.</p>
+      </div>
+    </div>
+
+    <div class="start reveal">
+      <h3 class="h3">Start from a real question</h3>
+      <p class="note start__hint">After copying, replace the <mark class="slot">&lt;angle-bracket&gt;</mark> parts with your question, materials and project path before sending.</p>
+      <div class="start__grid">
+        <figure class="prompt">
+          <figcaption>New project</figcaption>
+          <pre id="p-new">Use light-leader to move this project forward: I want to study <mark class="slot">&lt;specific question&gt;</mark>, and I already have <mark class="slot">&lt;papers/data/code&gt;</mark>.
+The project lives at <mark class="slot">&lt;project path&gt;</mark>, and the goal is <mark class="slot">&lt;a paper / a software copyright and related outputs&gt;</mark>.
+First read the existing project memory and the actual materials, find the most pressing problem, then complete the step that can be done now.</pre>
+          <button class="copy copy--light" type="button" data-copy="#p-new" data-copy-toast="Copied — replace the angle-bracket parts before sending"><span data-copy-text>Copy</span></button>
+        </figure>
+        <figure class="prompt">
+          <figcaption>Continue a project</figcaption>
+          <pre id="p-cont">Continue <mark class="slot">&lt;project path&gt;</mark>. Read Memory and the latest handoff first, then check the adopted versions of the manuscript, figures and analyses.
+This round, handle <mark class="slot">&lt;research question or reviewer comments&gt;</mark>, and write the results, the reasons for each decision and the next step back into the project.</pre>
+          <button class="copy copy--light" type="button" data-copy="#p-cont" data-copy-toast="Copied — replace the angle-bracket parts before sending"><span data-copy-text>Copy</span></button>
+        </figure>
+      </div>
+      <p class="note">For a focused task, just say “use light-chart to plot this data” or “use light-write to revise this section”. The skill instructions are written in Chinese; ask your agent to reply in English if you prefer.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ feedback ============ -->
+<section class="support section" id="support" aria-labelledby="support-title">
+  <div class="wrap support__grid">
+    <div class="support__text reveal">
+      <p class="eyebrow">Feedback and support</p>
+      <h2 class="h2" id="support-title">Bring a real case,<br class="br-d"> help make it better</h2>
+      <p class="lead">Use cases, problems, missing domain support and reproducible suggestions are all welcome. When opening an issue, say which skill you used, what you expected and what happened, and attach minimal reproducible material.</p>
+      <ul class="contact">
+        <li><a href="https://github.com/Light0305/Light-Science/issues" target="_blank" rel="noopener">Open an issue <span aria-hidden="true">↗</span></a></li>
+        <li><a href="mailto:1833058953@qq.com">1833058953@qq.com</a></li>
+        <li><a href="https://github.com/Light0305" target="_blank" rel="noopener">GitHub @Light0305 <span aria-hidden="true">↗</span></a></li>
+      </ul>
+      <p class="related">Related projects: <a href="https://github.com/Light0305/Light-UI-UX" target="_blank" rel="noopener">Light-UI-UX</a> · <a href="https://github.com/Light0305/Light-WeChat" target="_blank" rel="noopener">Light-WeChat</a></p>
+    </div>
+    <div class="qrs reveal">
+      <figure class="qr"><img src="../assets/img/qr-donation.png" alt="WeChat tip QR code" width="420" height="407" loading="lazy"><figcaption>Support the author</figcaption></figure>
+      <figure class="qr"><img src="../assets/img/qr-contact.png" alt="Author's WeChat contact QR code" width="420" height="420" loading="lazy"><figcaption>WeChat</figcaption></figure>
+      <figure class="qr"><img src="../assets/img/qr-official.png" alt="WeChat official account QR code" width="420" height="420" loading="lazy"><figcaption>Official account</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__mark">
+      <img src="../assets/img/logo.png" alt="Light-Science — Research, connected." width="1400" height="292" loading="lazy">
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h4>Docs</h4>
+        <a href="https://github.com/Light0305/Light-Science#readme" target="_blank" rel="noopener">README</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/docs/installation.md" target="_blank" rel="noopener">Installation guide (Chinese)</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/project-layout/references/project-layout.md" target="_blank" rel="noopener">Project layout spec (Chinese)</a>
+      </div>
+      <div>
+        <h4>Releases</h4>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/docs/releases/v2.0.0.md" target="_blank" rel="noopener">v2.0.0 release notes (Chinese)</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/CHANGELOG.md" target="_blank" rel="noopener">Changelog (Chinese)</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing (Chinese)</a>
+      </div>
+      <div>
+        <h4>License</h4>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/LICENSE" target="_blank" rel="noopener">MIT License</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">Third-party notices (Chinese)</a>
+        <a href="https://github.com/Light0305/Light-Science/blob/master/SECURITY.md" target="_blank" rel="noopener">Security</a>
+      </div>
+    </div>
+    <p class="footer__legal">Original code and documentation are under the MIT License. Third-party code, adapted resources, paper figures, example data and galleries keep their own licenses, so the pack as a whole is not uniformly MIT. Data sources and terms are listed with each figure.</p>
+  </div>
+</footer>
+
+<dialog class="lightbox" data-lightbox aria-label="View larger">
+  <form method="dialog" class="lightbox__bar">
+    <span class="lightbox__count" data-lb-count></span>
+    <button class="lightbox__close" value="close" aria-label="Close">Close <span aria-hidden="true">✕</span></button>
+  </form>
+  <div class="lightbox__stage">
+    <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous">‹</button>
+    <img data-lb-img alt="">
+    <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next">›</button>
+  </div>
+  <div class="lightbox__cap" data-lb-cap></div>
+</dialog>
+
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

@@ -6,12 +6,13 @@
   <a href="docs/releases/v2.0.0.md"><img src="https://img.shields.io/badge/Version-2.0.0-008A7B?style=flat" alt="Version 2.0.0"></a>
   <a href="#skills-一览"><img src="https://img.shields.io/badge/Skills-19-102A43?style=flat" alt="19 skills"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Original_work-MIT-102A43?style=flat" alt="Original work: MIT"></a>
+  <a href="https://lightchuan.xyz/"><img src="https://img.shields.io/badge/Website-lightchuan.xyz-008A7B?style=flat" alt="官网：lightchuan.xyz"></a>
   <a href="https://github.com/Light0305/Light-Science/stargazers"><img src="https://img.shields.io/github/stars/Light0305/Light-Science?style=flat&amp;color=102A43" alt="GitHub Stars"></a>
 </p>
 
 <p align="center"><strong>把研究问题、证据、实验和论文，连成一个可以持续推进的项目。</strong></p>
 
-<p align="center"><a href="README.md">English</a> · <b>简体中文</b></p>
+<p align="center"><a href="https://lightchuan.xyz/"><b>官网</b></a> · <a href="README.md">English</a> · <b>简体中文</b></p>
 
 <p align="center">
   <a href="#安装">安装</a> · <a href="#skills-一览">Skills</a> · <a href="#如何推进一个项目">工作流</a> · <a href="#项目产出结构">产出目录</a> · <a href="#数据图展示">数据图</a> · <a href="#方法图与机制图">方法图</a> · <a href="#反馈与支持">反馈与支持</a>

@@ -14,6 +14,7 @@
 <p align="center">
   <a href="#安装">安装</a> · <a href="#skills-一览">Skills</a> · <a href="#如何推进一个项目">工作流</a> · <a href="#项目产出结构">产出目录</a> · <a href="#数据图展示">数据图</a> · <a href="#方法图与机制图">方法图</a> · <a href="#反馈与支持">反馈与支持</a>
 </p>
+
 **Light-Science**（原 Light-skills）是面向 AI Agent 的科研 skills 包。它把文献、选题、设计、实验、分析、选刊、写作、绘图和评审接在一起，用项目记忆保留研究决定，用总控协调下一步，让每轮修改都能回到具体的来源、版本和产物。
 
 你可以从头推进，也可以带着已有论文、数据、代码或审稿问题直接进入需要的阶段。
@@ -248,6 +249,7 @@ flowchart TB
     <td><a href="docs/assets/methods/visio-monoformer-reconstruction.png"><img src="docs/assets/methods/visio-monoformer-reconstruction.png" alt="Visio 原生文件按图复现页的实际导出" width="100%"></a></td>
   </tr>
 </table>
+
 ## 反馈与支持
 
 欢迎反馈使用案例、问题、缺失的领域支持，以及可复现的改进建议。
